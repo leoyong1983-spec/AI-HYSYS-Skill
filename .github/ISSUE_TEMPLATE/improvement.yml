@@ -1,0 +1,40 @@
+name: Improvement proposal
+description: Suggest a low-risk improvement for maintainability, usability, or documentation trustworthiness.
+title: "[Improve] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What gap, friction, or maintenance opportunity did you notice?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the change you think would help.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installation / onboarding
+        - README or references
+        - CASE source pack
+        - GitHub Actions / CI
+        - Security / open-source hygiene
+        - HYSYS workflow guidance
+        - AI agent guidance
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation idea
+      description: How should we prove the improvement works?

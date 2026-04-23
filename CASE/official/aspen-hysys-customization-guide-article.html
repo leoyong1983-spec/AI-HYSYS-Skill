@@ -1,0 +1,616 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US"><head><title>AspenTech: Knowledge Base</title><script src="/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript?rel=1776373162000" type="text/javascript"></script><script src="/jslibrary/1637251311260/sfdc/VFRemote.js" type="text/javascript"></script><script src="/static/111213/js/functions.js" type="text/javascript"></script><script src="/jslibrary/1768834863260/sfdc/main.js" type="text/javascript"></script><script src="/jslibrary/jslabels/1775220290000/en_US.js" type="text/javascript"></script><script src="/static/111213/desktop/desktopAjax.js" type="text/javascript"></script><script src="/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/jslibrary/1746634855260/sfdc/IframeThirdPartyContextLogging.js" type="text/javascript"></script><script src="/resource/1484259264000/jquerymin" type="text/javascript"></script><script src="https://esupport.aspentech.com/lightning/lightning.out.js?v=2" type="text/javascript"></script><script src="/resource/1486086049000/IECheck" type="text/javascript"></script><script src="/resource/1485985528000/jquery_ui_js" type="text/javascript"></script><script src="/resource/1509723046000/bootstrap336js" type="text/javascript"></script><script src="/resource/1509723047000/svg" type="text/javascript"></script><script src="/resource/1567181088000/SnippetSettings" type="text/javascript"></script><script src="/jslibrary/1686615502260/sfdc/VFState.js" type="text/javascript"></script><link class="user" href="/slds/css/tx7eXB_yZNRNb9ZxgUZwlQ/min/scoped/one:oneNamespace,force:sldsTokens,force:base,force:formFactorLarge/slds.css" rel="stylesheet" type="text/css" /><link class="user" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link class="user" href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1536789823000/custom_bootstrap" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1484259264000/jquery_ui_css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1747058518000/SFDCSupportSite" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1526595309000/nav" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1658435746000/UniversitySiteCSS" rel="stylesheet" type="text/css" /><script src="/jslibrary/1647410351260/sfdc/NetworkTracking.js" type="text/javascript"></script><script>try{ NetworkTracking.init('/_ui/networks/tracking/NetworkTrackingServlet', 'network', '0660B000000heHd'); }catch(x){}try{ NetworkTracking.logPageView();}catch(x){}</script><script>(function(UITheme) {
+    UITheme.getUITheme = function() { 
+        return UserContext.uiTheme;
+    };
+}(window.UITheme = window.UITheme || {}));</script><script type="text/javascript">
+Visualforce.remoting.Manager.add(new $VFRM.RemotingProviderImpl({"vf":{"vid":"0660B000000heHd","xhr":false,"dev":false,"tst":false,"dbg":false,"tm":1776774132639,"ovrprm":false},"actions":{"S_ArticleController":{"ms":[{"name":"castVote","len":2,"ns":"","ver":63.0,"csrf":"VmpFPSxNakF5Tmkwd05DMHlORlF4TWpveU1qb3hNaTQyTXpsYSxZOVlIcUVqVXZoNEluTWRXM0k2bFc5TFJEalQ3bk1rMlN1TmllT1MwWU9JPSxZbVl6Tm1SaQ==","authorization":"eyJub25jZSI6IjN0QzdEb3Z1ZmUwNExlcy1jNThWckRFcWgycEdfUXNrc1pJc1Y1QUlIQ0lcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFUwMDAwMDAwTFhrMVwiLFwidlwiOlwiMDJHMEIwMDAwMDBMWnA4XCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1MEIwMDAwMDZkcFhhXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzc2Nzc0MTMyNjQyLCJleHAiOjB9.Q2h4VFgwRnlkR2xqYkdWRGIyNTBjbTlzYkdWeUxtTmhjM1JXYjNSbA==.ChRYVYz0fpE3ixcmzTCL0uW-F-xRrmXxZ8KILsL8tGg="}],"prm":1},"Util":{"ms":[{"name":"logJSErrorRemote","len":5,"ns":"","ver":63.0,"csrf":"VmpFPSxNakF5Tmkwd05DMHlORlF4TWpveU1qb3hNaTQyTkROYSxuNndQeV9iSXRhdUFpemJNQmpOZk5CMVliM2JiR2ktdGhJLVVOLTZKeTJvPSxPVEl6T1dGaw==","authorization":"eyJub25jZSI6IkNZdUZyYTVxUXpHanlfYjRSdEx0UHdqNGdmOEdkejZYdDFtZ2NMSHpVbzhcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFUwMDAwMDAwTFhrMVwiLFwidlwiOlwiMDJHMEIwMDAwMDBMWnA4XCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1MEIwMDAwMDZkcFhhXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzc2Nzc0MTMyNjQ2LCJleHAiOjB9.Q2hWVmRHbHNMbXh2WjBwVFJYSnliM0pTWlcxdmRHVT0=.QJOUzmGB5diu-4fpjCG0Vw9xpiuNzfDBBU0LF-cZ_gY="},{"name":"oppLineObject","len":1,"ns":"","ver":63.0,"csrf":"VmpFPSxNakF5Tmkwd05DMHlORlF4TWpveU1qb3hNaTQyTkRkYSxpeGdYQUt6X2xMV0U2X2l5WnlzaVNycGgyd0xIdy0ySkVZSUkwOFFxNzVzPSxNemsyWmpRNA==","authorization":"eyJub25jZSI6Img4WThCR3dkZW1rbTRJZVR6blhXcGlWVkg1Qk9hODNXSkJKRzVNOTRHUkFcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFUwMDAwMDAwTFhrMVwiLFwidlwiOlwiMDJHMEIwMDAwMDBMWnA4XCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1MEIwMDAwMDZkcFhhXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzc2Nzc0MTMyNjQ4LCJleHAiOjB9.Q2hKVmRHbHNMbTl3Y0V4cGJtVlBZbXBsWTNRPQ==.nyGj1_Bhxp8V0WNN5ocCrZKqk_o7B_iLE2RkNjNau8w="},{"name":"queryAllArticleTypes","len":2,"ns":"","ver":63.0,"csrf":"VmpFPSxNakF5Tmkwd05DMHlORlF4TWpveU1qb3hNaTQyTkRsYSxoRUpKU3pSNWlCY19vWk5JcHRpbUJNb3YzQ2hGMkFOTHM4Mk9XR2tVNENjPSxZelJoTURNeQ==","authorization":"eyJub25jZSI6IjA1bzhzaXZ6YjdiZ01VWW84X21oWXhILV9tUzRsa1l6MGNDcmRYSUgwdUVcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFUwMDAwMDAwTFhrMVwiLFwidlwiOlwiMDJHMEIwMDAwMDBMWnA4XCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1MEIwMDAwMDZkcFhhXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzc2Nzc0MTMyNjUwLCJleHAiOjB9.Q2hsVmRHbHNMbkYxWlhKNVFXeHNRWEowYVdOc1pWUjVjR1Z6.Wc7PIj5HLb3H3yFtj8Kz2GLeiHXRJoWFY2GSz3tEf0A="},{"name":"queryObject1","len":0,"ns":"","ver":63.0,"csrf":"VmpFPSxNakF5Tmkwd05DMHlORlF4TWpveU1qb3hNaTQyTlRCYSwzajZwZGhrc1BVdG93WlpoNmhyVXdydFotR00tRWwyN2MtZVdhVm1raDJFPSxOVFUzWkRNMQ==","authorization":"eyJub25jZSI6IkM3NVRoaGhWdUxNZDlSc09zQW9mczUwY05vRlFuTUhLbUhNdFNKZlhLaXdcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFUwMDAwMDAwTFhrMVwiLFwidlwiOlwiMDJHMEIwMDAwMDBMWnA4XCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1MEIwMDAwMDZkcFhhXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzc2Nzc0MTMyNjUyLCJleHAiOjB9.Q2hGVmRHbHNMbkYxWlhKNVQySnFaV04wTVE9PQ==.HLQvyv2bSpDRW7hKInS5Q6Rssn97tFM_5UgH1KivvQ4="},{"name":"updateSobject","len":1,"ns":"","ver":63.0,"csrf":"VmpFPSxNakF5Tmkwd05DMHlORlF4TWpveU1qb3hNaTQyTlRKYSxRbG5zcVJwTEpmSnB2ck9uVGpURmxvcjNKenZHY3ZwVjVSRUJIa1B0TkowPSxZV1F5TW1JMw==","authorization":"eyJub25jZSI6InN5N3dXR25RbkVYckRpSTlTdGlyQl9aWWtIeWVJbG1xNGd4Tkl0dXo2c3dcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFUwMDAwMDAwTFhrMVwiLFwidlwiOlwiMDJHMEIwMDAwMDBMWnA4XCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1MEIwMDAwMDZkcFhhXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzc2Nzc0MTMyNjUzLCJleHAiOjB9.Q2hKVmRHbHNMblZ3WkdGMFpWTnZZbXBsWTNRPQ==.P2qBrIGgxg353rS1Z2Kiuy2xsuS1RbOladJqU8lfSpY="}],"prm":1},"WebEventsController":{"ms":[{"name":"LogWebEvent","len":1,"ns":"","ver":63.0,"csrf":"VmpFPSxNakF5Tmkwd05DMHlORlF4TWpveU1qb3hNaTQyTlRSYSx2bi1oQ0FRamVhWUczdHVNZUFoa0JrTnFxOE1HcDM3TE9iTVFDZUVCcmZBPSxPV1E1WmpjeQ==","authorization":"eyJub25jZSI6IjQxZ2hIdG5YNXVtU1A2UGtfM1VJZW5ieE9sdnlMZm9jcHp2czRhdEYyNGtcdTAwM2QiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IntcInRcIjpcIjAwRFUwMDAwMDAwTFhrMVwiLFwidlwiOlwiMDJHMEIwMDAwMDBMWnA4XCIsXCJhXCI6XCJ2ZnJlbW90aW5nc2lnbmluZ2tleVwiLFwidVwiOlwiMDA1MEIwMDAwMDZkcFhhXCJ9IiwiY3JpdCI6WyJpYXQiXSwiaWF0IjoxNzc2Nzc0MTMyNjU1LCJleHAiOjB9.Q2g5WFpXSkZkbVZ1ZEhORGIyNTBjbTlzYkdWeUxreHZaMWRsWWtWMlpXNTA=.W-aCUfeBdQV7vmgF3ug7beSuECOtfz01IlAQ-4yTGe0="}],"prm":1}},"service":"apexremote"}));
+</script></head><body class="slds-scope"><html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <head>
+<meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" /><span id="j_id0:CommunityFormTemplate:j_id3"></span>
+            <script src="https://service.force.com/embeddedservice/5.0/esw.min.js" type="text/javascript"></script>
+            <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+            <meta content="initial-scale = 1.0,maximum-scale = 1.0" name="viewport" />
+            
+        </head>
+<form id="j_id0:CommunityFormTemplate:theForm" name="j_id0:CommunityFormTemplate:theForm" method="post" action="/s_Article" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:CommunityFormTemplate:theForm" value="j_id0:CommunityFormTemplate:theForm" />
+
+                        <a name="top"></a>
+                        <div class="slds-scope">
+                        <div id="headerContainer"></div>
+                            </div>
+                            <div id="wrapper"> 
+                                <div class="main">        
+                                    <div class="container" id="containertemplate">
+            
+          
+   
+              
+            <div class="row pad-top">   
+                <div class="col-sm-12">
+                    <div class="row">   
+                        <div class="col-sm-12" style="padding-top: 20px;">
+                            <h2>Aspen HYSYS V7.3 - Customization Guide</h2>
+                            
+                            
+                            <div class="col-xs-12">  
+                      <span class="pull-right"><span class="secondary">Download as pdf :&nbsp;</span>
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {adp[i].parentNode.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var ps = pvp.split(',');for (var i = 0,ii = 0;i < ps.length;i++,ii++) {var p = document.createElement("input");p.type = "hidden";p.name = ps[i];p.value = ps[i + 1];f.appendChild(p);adp[ii] = p;i += 1;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" title="download" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:CommunityFormTemplate:theForm'),'j_id0:CommunityFormTemplate:theForm:j_id25,j_id0:CommunityFormTemplate:theForm:j_id25','');}return false"><img id="j_id0:CommunityFormTemplate:theForm:theImage" src="/resource/1621980024000/ASPENPDFimage" height="30" width="30" /></a> 
+                                    </span>
+                            </div>
+                      
+                        
+                        <div class="row pad-top-sm">
+                            <div class="col-sm-9 col-xs-12">
+                                <span class="secondary">Products:&nbsp;</span>Aspen HYSYS&nbsp;
+                                <div class="collapse" id="additionalInstructions">
+                                </div>
+                                
+                                
+                                
+                            </div>  
+                            
+                            
+                            
+                            <div class="col-sm-3 hidden-xs">
+                                <span class="pull-right"><span class="secondary">Last Updated:&nbsp;</span>03-Nov-2020</span>
+                            </div>
+                            <div class="col-xs-12 visible-xs">
+                                <span class="secondary">Last Updated:&nbsp;</span>03-Nov-2020
+                            </div>
+                        </div>
+                        <div class="row pad-top-sm">
+                            <div class="col-sm-9 col-xs-12">
+                                <span class="secondary">Versions:&nbsp;</span>
+                            </div>  
+                            <div class="col-sm-3 hidden-xs">
+                                <span class="pull-right"><span class="secondary">Article ID: </span>000053479
+                                </span>
+                            </div>  
+                            <div class="col-xs-12 visible-xs">
+                                <span class="secondary">Article ID: </span>000053479
+                           </div>  
+                        </div>
+                        <div class="row pad-top-sm">
+                            <div class="col-sm-9 col-xs-12">
+                                <span class="secondary">Primary Subject:&nbsp;</span>
+                            </div>  
+                            <div class="col-sm-3 hidden-xs">
+                                <span class="pull-right"><span id="j_id0:CommunityFormTemplate:theForm:j_id44"><a href="#Att">Attachments (1)</a></span></span>
+                            </div>
+                            <div class="col-xs-12 visible-xs"><span id="j_id0:CommunityFormTemplate:theForm:j_id47"><a href="#Att">Attachments (1)</a></span>
+                            </div>
+                        </div>                
+                  <div class="row pad-top"> 
+                      <div class="col-xs-2 pull-right">
+                       </div>
+                        </div>
+                            <div class="row">   
+                                <div class="col-sm-12">
+                                      <div class="well"><script> if(!window.sfdcPage) { window.sfdcPage = new ApexDetailPage(); }UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"salesforceURL":"https://esupport.aspentech.com?refURL=http%3A%2F%2Fesupport.aspentech.com%2Fs_Article","dateFormat":"M/d/yyyy","dayPeriods":[],"language":"en_US","locale":"en_US","enableLoggingInAuraAlohaFrameNavigator":true,"dateTimeFormat":"M/d/yyyy h:mm a","labelLastModified":"1775220290000","today":"4/21/2026 12:22 PM","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":true},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false},{"index":373,"name":"PreviewLightning","value":false},{"index":281,"name":"HideMSPPopup","value":false}],"networkId":"0DB0B000000Call","uiTheme":"Theme3","uiSkin":"Theme3","userName":"aspentech_support_training@aspentech.force.com","userId":"0050B000006dpXa","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"aspentech--(?:[^.]+).vf.force.com","auraDomain":"aspentech.lightning.force.com","useNativeAlertConfirmPrompt":false,"orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"isDefaultNetwork":false,"timeFormat":"h:mm a"});
+</script><span id="j_id0:CommunityFormTemplate:theForm:j_id55"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:CommunityFormTemplate:theForm:j_id55j_id0:CommunityFormTemplate:theForm:j_id55_00N4P00000Euu4A_div"><div class="WordSection1">
+
+<h3 style=""><a name="title"></a><u><span style="font-size: 12.0pt;">Title</span></u><span style="font-size: 12.0pt;"></span></h3>
+
+<h3 style=""><span style="font-size: 10.0pt;font-weight: normal;">Aspen HYSYS V7.3 - Customization
+Guide</span></h3>
+
+<h3 style=""><span style="font-size: 11.0pt;"> </span></h3>
+
+<h3 style=""><a name="instructions"></a><u><span style="font-size: 12.0pt;">Instructions</span></u><span style="font-size: 11.0pt;"></span></h3>
+
+<p style="margin-left: 0in;"><span style="color: windowtext;">AspenTech
+product documentation can be copied to your server or client computer, or
+accessed directly from the documentation DVD. If you do not have access to the
+documentation DVD, you can download all documentation from the online Technical
+Support Center.</span><span style="color: windowtext;"></span></p>
+
+<p style=""><span style="color: windowtext;">To access
+the documentation attached to this solution, follow the Instructions below.</span><span style="color: windowtext;"></span></p>
+
+<p style=""><span style="color: windowtext;"> </span></p>
+
+<h3 style="margin-left: 0in;"><a name=".pdf_files"></a><u><span style="font-size: 12.0pt;">.PDF Files</span></u><span style="font-size: 11.0pt;"></span></h3>
+
+<p style="margin-left: 0in;"><span style="color: windowtext;">Printable
+documentation is published in Adobe Portable Document Format (.pdf). You must
+use the Adobe Acrobat Reader to view these read-only product-specific
+documents.</span><span style="color: windowtext;"></span></p>
+
+<p style=""><span style="color: windowtext;">To view a
+.pdf document in your browser, select a document link. To print a .pdf
+document, select the print icon in the Adobe toolbar after the document loads
+in your browser. To download a document to your local drive:</span><span style="color: windowtext;"></span></p>
+
+<p class="MsoNormal" style="margin-left: .5in;"><span style="font-size: 10.0pt;font-family: Symbol;color: windowtext;"><span style="">?<span style="">        
+</span></span></span><span style="font-size: 10.0pt;color: windowtext;">From
+Internet Explorer, right-click on the document link and select Save Target As.</span><span style="font-size: 10.0pt;color: windowtext;"></span></p>
+
+<p class="MsoNormal" style="margin-left: .5in;"><span style="font-size: 10.0pt;font-family: Symbol;color: windowtext;"><span style="">?<span style="">        
+</span></span></span><span style="font-size: 10.0pt;color: windowtext;">From
+Netscape, right-click on the document link and select Save Link As.</span><span style="font-size: 10.0pt;color: windowtext;"></span></p>
+
+<p style=""><span style="color: windowtext;">Adobe
+Acrobat Reader is the free viewing companion to Adobe Acrobat and allows you to
+navigate and print Portable Document Format (PDF) files in a Microsoft Windows,
+Mac OS or UNIX environment. Visit the Adobe web site at </span><span class="MsoHyperlink"><a href="http://www.adobe.com/" target="_blank">http://www.adobe.com</a></span>
+and download the latest version of the free reader.</p>
+
+<p style="">If you have an older version of Acrobat
+Reader, you must first uninstall it with the Adobe Acrobat uninstaller
+available from the Start menu.</p>
+
+<p style=""> </p>
+
+<h2 style=""><a name="keywords"></a><u><span style="font-size: 12.0pt;font-style: normal;">KeyWords</span></u><span style="font-size: 12.0pt;font-style: normal;"></span></h2>
+
+<p style="margin-left: 0in;"><span style="color: windowtext;">GSG,
+public</span><span style="color: windowtext;"></span></p>
+
+<p class="MsoNormal"><span style="color: windowtext;"> </span></p>
+
+</div></div></td></tr>
+</table><script>j_id0__CommunityFormTemplate__theForm__j_id55 = window.onload; window.onload=function() { if (j_id0__CommunityFormTemplate__theForm__j_id55!= null) j_id0__CommunityFormTemplate__theForm__j_id55();};</script></span>
+                                    </div>            
+                                </div>
+                            </div><span id="j_id0:CommunityFormTemplate:theForm:j_id70">
+                    <div class="row pad-top-lg" id="Att">
+                        <div class="col-sm-12">                        
+                        <div class="box">
+                            <div class="box_title">Attachments
+                                
+                            </div><div id="j_id0:CommunityFormTemplate:theForm:attachmentsPanel" class="box_content">
+                                <table class="table" id="attachments-table">
+                                    <thead class="col_header">
+                                        <tr>
+                                            <th>Filename</th>
+                                            <th>Date Added</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                <td><span id="j_id0:CommunityFormTemplate:theForm:j_id73:0:j_id75"><a href="/FileAttachment?id=a0g0B00000GfJSC" target="_blank">AspenHYSYSV7_3-Cust.pdf</a></span></td>
+                                                <td>18-Jan-2017
+                                                </td>                                         
+                                            </tr>
+                                    </tbody>
+                                </table></div>
+                        </div>                        
+                    </div>  
+                        </div></span>  
+            </div>
+        </div>
+                  </div> </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-scope">
+                                        <div id="footerContainer"></div>
+                                            </div>
+                                            
+                                                </div><div id="j_id0:CommunityFormTemplate:theForm:j_id92"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="202604162059220000" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNkluQlZlRTU2VG5WUFoxVjRPVzUzVldWVE4xVjFOemRVVXprMk9GaDBlVlUyTTNsM1JXdE1hSGhsT0hOY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkZVd01EQXdNREF3VEZock1Wd2lMRndpZGx3aU9sd2lNREpITUVJd01EQXdNREJNV25BNFhDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05UQkNNREF3TURBMlpIQllZVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVGMzTmpjM05ERXpNall5Tml3aVpYaHdJam93ZlE9PS4uaVF4YVpjNXA1akhnQzhBTTl5QjJSb2JhVVZ4WlVJa3ptWHVYLXY3S3QxWT0=" /></span></span>
+        
+<script>
+            
+            $Lightning.use("embeddedService:sidebarApp", function() {
+                $Lightning.createComponent("c:esupportHeader", {},
+                                           
+                                           "headerContainer",
+                                           
+                                           function (cmp) {
+                                               
+                                               console.log('Component created');
+                                               try{
+                                                   var bodyNodes = document.getElementsByClassName("slds-scope");
+                                                   for(let element of bodyNodes){
+                                                       console.log('linkNode css'+element);
+                                                       element.classList.remove("slds-scope");
+                                                   }
+                                               }catch(err){
+                                                   console.log('removing css'+err);
+                                               }
+                                           });
+                
+                $Lightning.createComponent("c:esupportFooter", {},
+                                           
+                                           "footerContainer",
+                                           
+                                           function (cmp) {
+                                               
+                                               console.log('Component created');
+                                               try{
+                                                   var bodyNodes = document.getElementsByClassName("slds-scope");
+                                                   for(let element of bodyNodes){
+                                                       console.log('linkNode css'+element);
+                                                       element.classList.remove("slds-scope");
+                                                   }
+                                               }catch(err){
+                                                   console.log('removing css'+err);
+                                               }
+                                           });
+                
+            });
+            
+            </script>
+        
+        <script type="text/javascript">
+        (function(){var g=function(e,h,f,g){
+            this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+            this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+            this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+            this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+            this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+                    try{(new g(100,"r","QSI_S_SI_8hNOb93IJBwzAEt","https://zn7qxxe9gd42ydlqf-aspentech.siteintercept.qualtrics.com/SIE/?Q_ZID=SI_8hNOb93IJBwzAEt")).start()}catch(i){}})();
+        </script><div id="SI_8hNOb93IJBwzAEt"></div>
+        
+        
+        
+    </html> 
+    <script type="text/javascript">
+    // Add this before your other JavaScript to restore the native Map
+    (function() {
+        
+        var frame = document.createElement('iframe');
+        document.body.appendChild(frame);
+        // Intentionally set in global scope
+        Map = frame.contentWindow.Map;
+        try{
+            frame.parentNode.removeChild(frame);
+        }
+        catch(e){
+            console.log(e);
+        }
+    })();    
+    
+    
+    $(document).ready(function(){
+        //  $('#mainContainer').show();
+        //resetHeight();
+        //Scroll to top 
+        var offset = 800; 
+        var duration = 300; 
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > offset) { 
+                $('.back-to-top').fadeIn(duration); 
+            } else { 
+                $('.back-to-top').fadeOut(duration); 
+            }
+        });    
+        
+        $('.back-to-top').click(function(event) { 
+            event.preventDefault(); 
+            $('html, body').animate({scrollTop: 0}, duration); 
+            return false;
+        });
+        
+        try{
+            var bodyNodes = document.getElementsByClassName("slds-scope");
+            for(let element of bodyNodes){
+                console.log('linkNode css'+element);
+                element.classList.remove("slds-scope");
+            }
+        }catch(err){
+            console.log('removing css'+err);
+        }
+        
+    });
+    
+    </script> 
+    <style type="text/css">
+        .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #005290;
+        font-family: "Salesforce Sans", sans-serif;
+        }
+        .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #005290;
+        }
+        @font-face {
+        font-family: 'Salesforce Sans';
+        src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),
+        url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
+        }
+        .embeddedServiceLiveAgentStateChatHeader:not(.alert) .message {
+        display: none !important;
+        }     
+        .embeddedServiceLiveAgentStateChatAvatar.isLightningOutContext .agentIconColor0 {                           
+        display:none;
+        }
+        .embeddedServiceLiveAgentStateChatMenuMessage .rich-menu-itemOptionIsClicked {
+        width: auto !important;
+        }
+        .embeddedServiceLiveAgentStateChatMenuMessage .rich-menu-item {
+        width: auto !important;
+        text-align: left !important;
+        }
+        .embeddedServiceLiveAgentStateChatItem.chatMessage{
+        text-align:left !important;
+        }
+        .chat-content[CLWCP-lwcchatpack_lwcchatpack]{margin-left:0px !important;}
+        .embeddedServiceSidebar.modalContainer{
+        z-index: 99999999999999999999999999999999 !important;
+        }
+        .embeddedServiceHelpButton .embeddedServiceIcon{
+        width: 22px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-image:url('/resource/1597954922000/chatboticon22');
+        }
+        .embeddedServiceHelpButton .embeddedServiceIcon::before{
+        display:none !important;
+        }
+        .embeddedServiceLiveAgentStateChatButtonItem .label{
+        font-size:90% !important;
+        }
+        .embeddedServiceLiveAgentStateChatMenuMessage .rich-menu {
+        margin: 0px !important;
+        }
+        .embeddedServiceLiveAgentStateChatButtonItem .label{
+        text-align:left !important;
+        }
+        c-lwcchatpack_html .slds-rich-text-editor__output span{
+        float: left;
+        background: #f2f2f3;
+        border-radius: 10px 10px 10px 0;
+        padding: 10px;
+        }
+        .chat-content[CLWCP-lwcchatpack_lwcchatpack] {
+        font-size: 100%;
+        color: #333;
+        }            
+        /*.sidebarHeader[embeddedService-chatHeader_chatHeader]{
+        height: auto;
+        }*/
+    </style>
+    
+    
+    <script type="text/javascript">
+        var initESW = function(gslbBaseURL) {
+            //alert('in fn');
+            embedded_svc.settings.displayHelpButton = true; //Or false
+            embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+            
+            embedded_svc.settings.defaultMinimizedText = 'Let\'\s Chat'; //(Defaults to Chat with an Expert)
+            //embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+            
+            //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+            //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+            
+            // Settings for Live Agent
+            //embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+            // Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
+            // Returns a valid button ID.
+            //};
+            //embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
+            //embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
+            //embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
+            embedded_svc.settings.extraPrechatInfo = [{"entityFieldMaps":[{"doCreate":false,"doFind":true,"fieldName":"LastName","isExactMatch":true,"label":"Last Name"},{"doCreate":false,"doFind":true,"fieldName":"FirstName","isExactMatch":true,"label":"First Name"}, {"doCreate":false,"doFind":true,"fieldName":"Email","isExactMatch":true,"label":"Email"}],"entityName":"Contact","saveToTranscript":"Contact","showOnCreate":true}];
+            embedded_svc.settings.extraPrechatFormDetails = [{"label":"First Name", "transcriptFields": ["First_Name__c"]},{"label":"Last Name", "transcriptFields": ["Last_Name__c"]},{"label":"Email", "transcriptFields": ["Email__c"]},{"label":"Product", "transcriptFields": ["Product__c"]},{"label":"Product Family", "transcriptFields": ["Product_Family__c"]},{"label":"Enter your Case Number", "transcriptFields": ["Enter_your_Case_Number__c"]}, {"label":"Snapin Chat Category", "transcriptFields": ["Snapin_Chat_Category__c"]},{"label":"Scopus Contact Id", "transcriptFields": ["ContactId"]}];
+            
+            embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+            embedded_svc.settings.entryFeature = 'LiveAgent';
+            //embedded_svc.settings.chatbotAvatarImgURL = "/resource/1597955183000/chatboticon";
+            embedded_svc.snippetSettingsFile.headerBackgroundURL = "/resource/1597955183000/chatboticon";
+            embedded_svc.settings.smallCompanyLogoImgURL = "/resource/1597955183000/chatboticon";
+            embedded_svc.init(
+                "https://aspentech.my.salesforce.com",
+                "https://esupport.aspentech.com",
+                gslbBaseURL,
+                "00DU0000000LXk1",
+                'Chat_Deployment',
+                {
+                    baseLiveAgentContentURL: "https://c.la3-c1-ph2.salesforceliveagent.com/content",
+                    deploymentId: "5720B0000004GlH",
+                    buttonId: '5734P000000DITs',
+                    baseLiveAgentURL: "https://d.la3-c1-ph2.salesforceliveagent.com/chat",
+                    eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I4P000000TQYRUA4_16ce3527870',
+                    isOfflineSupportEnabled: false
+                }
+            );
+        };
+    
+    if (!window.embedded_svc) {
+        // alert('if loop');
+        var s = document.createElement('script');
+        //s.setAttribute('src', 'https://aspentech--uat.cs52.my.salesforce.com/embeddedservice/5.0/esw.min.js'); --uat
+        // s.setAttribute('src', 'https://aspentech.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+        s.setAttribute('src', "https://aspentech.my.salesforce.com/embeddedservice/5.0/esw.min.js");
+        
+        s.onload = function() {
+            initESW(null);
+        };
+        document.body.appendChild(s);
+    } else {
+        //alert('else');
+        setTimeout(()=>{
+                initESW('https://service.force.com');
+        }, 5000);
+    }
+    </script>
+        
+        <script type="text/javascript">
+        
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-271737-10', 'auto');
+        ga('send', 'pageview');
+        
+        </script>
+        
+        
+        
+        <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-2D7Z03JZE8"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2D7Z03JZE8');
+        </script><span id="j_id0:CommunityFormTemplate:j_id85">
+    <script type="text/javascript">
+        //LogWebEvent() no parameters, minimum web event information is available from page context objects like UserInfo
+        //templates: Supporttemplate / noform trainingtemplate / noform
+        var pageurl = "https://esupport.aspentech.com/apex/s_Article?key=131879";
+        console.log('Guest');
+        //if Guest user is accessing s_article page, do not log web event
+        if('Guest'!='Guest'||pageurl.indexOf('s_article?')==-1){
+            console.log('****');
+            Visualforce.remoting.Manager.invokeAction('WebEventsController.LogWebEvent',pageurl,function(result, event){
+            //if (event.status)   
+                            //document.getElementById("errorMSG").innerHTML= 'Web Event is created.';     
+                            //else  document.getElementById("errorMSG").innerHTML= '<b><font color="red">'+result+'</font></b>'; 
+            }); 
+        }
+    </script></span>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    var currentVote = "";
+    if(currentVote){
+        console.log('currentVote has value');
+        var elementId = 'vote' + currentVote;
+        for(var x=0 ; x<=parseInt(currentVote) ; x++){
+            var elementId = 'vote' + x;
+            $('#'+elementId).toggleClass('idleStar').toggleClass('chosenStar');
+        }
+    }
+});
+
+function mouseoverStar(i){
+    for(var x=i ; x>0 ; x--){
+        var elementId = 'vote' + x;
+        $('#'+elementId).toggleClass('idleStar').toggleClass('chosenStar');
+    }
+    
+}
+
+function mouseoutStar(i){
+    for(var x=i ; x>0 ; x--){
+        var elementId = 'vote' + x;
+        $('#'+elementId).toggleClass('idleStar').toggleClass('chosenStar'); 
+    }
+}
+
+function mouseoverStarsPanel(element){
+    $(element).toggleClass('mouseOver').toggleClass('mouseOut');
+}
+
+function mouseoutStarsPanel(element){
+    $(element).toggleClass('mouseOver').toggleClass('mouseOut');
+}
+
+function starVote(voteVal){
+    console.log('voted for: ' + voteVal);
+    
+    Visualforce.remoting.Manager.invokeAction(
+        'S_ArticleController.castVote','',voteVal,
+        function(result,event){
+            if(event.status){
+                location.reload();
+            }else{
+                console.log(result);
+            } 
+        },
+        {escape:false}
+    );
+    
+}
+</script><span id="j_id0:j_id89">            
+    <script>
+   //Error handling
+    window.onerror = function (msg, url, lineNo, columnNo, error) {
+        //console.log(error);
+        //console.log(msg+' at '+lineNo+':'+columnNo);
+        try{
+            if(''!='' && error!=null)
+                document.getElementById('').innerHTML = document.getElementById('').innerHTML+ 
+                                                'An Unexpected error occured. ' +error.message;
+        }catch(e){}
+        //hide the "loader" icon
+        try{
+            document.getElementById('loader').style.display='none';
+        }catch(e){}
+        //vf remoting. Log the error in error table
+        Visualforce.remoting.Manager.invokeAction(
+            'Util.logJSErrorRemote','s_article?id=',msg,url,lineNo,columnNo,
+            //call back from vfremoting
+            function(result, event){
+                //if success from vfremoting
+                if (event.status) {
+                             
+                } else if (event.type === 'exception') {
+                   try{
+                       if(''!='')
+                        document.getElementById('').innerHTML = document.getElementById('').innerHTML+
+                                    event.message + "<br/>\n<pre>" + event.where + "</pre>";
+                    }catch(e){}
+                } else {//any other scenarios other than success, display message
+                    try{
+                        if(''!='')
+                            document.getElementById('').innerHTML = document.getElementById('').innerHTML+
+                                                                        document.getElementById('').innerHTML+event.message;
+                    }catch(e){}
+                }
+            }, 
+            {escape: true,buffer: false } 
+        );
+       
+        return false;
+    };      
+    
+    //Passing the method through ours
+    function catchMethod(context, method) { 
+        return function() {
+            try{
+                logJSErrorAT('s_article?id=',''.concat(Array.prototype.slice.apply(arguments)),'');  
+            }catch(ex){console.log(ex);}      
+            method.apply(context, arguments);              
+            //hide the "loader" icon
+            try{
+                if(document.getElementById('loader'))
+                    document.getElementById('loader').style.display='none';
+            }catch(e){}
+      }
+    }   
+    //catching console.error, typically by VF remoting
+    console.error = catchMethod(console, console.error);
+    
+    //to call on demand
+    function logJSErrorAT(origin,errormsg,errordivid){
+        document.getElementById(errordivid).innerHTML =  document.getElementById(errordivid).innerHTML + errormsg;   
+        //vf remoting. Log the error in error table
+        Visualforce.remoting.Manager.invokeAction(
+            'Util.logJSErrorRemote',origin,errormsg,'','','',
+            //call back from vfremoting
+            function(result, event){
+                
+                //if success from vfremoting
+                if (event.status) {
+                             
+                } else if (event.type === 'exception') {
+                   try{
+                       if(errordivid)
+                            document.getElementById(errordivid).innerHTML = document.getElementById(errordivid).innerHTML +
+                        event.message + "<br/>\n<pre>" + event.where + "</pre>";
+                    }catch(e){}
+                } else {//any other scenarios other than success, display message
+                    try{
+                        if(''!='')
+                            document.getElementById(errordivid).innerHTML = document.getElementById(errordivid).innerHTML +event.message;
+                    }catch(e){}                            
+                }
+            }, 
+            {escape: true,buffer: false } 
+        );    
+    }
+    
+    </script></span><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:CommunityFormTemplate:theForm"]);
+
+});</script></body></html>

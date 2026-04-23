@@ -1,0 +1,31 @@
+name: Repo Hygiene
+
+on:
+  push:
+    branches:
+      - main
+      - "codex/**"
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # 01:00 Asia/Shanghai equals 17:00 UTC on the previous day.
+    - cron: "0 17 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repository smoke checks
+        run: python scripts/validate_repo.py

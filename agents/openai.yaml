@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI HYSYS 基础工艺包"
+  short_description: "用 COM、Spreadsheet/Workbook 和 Python 驱动 Aspen HYSYS，完成建模、调优、导出与基础工艺包交付。"
+  default_prompt: "接管 Aspen HYSYS，优先复用现有 case，判断 direct COM 还是 spreadsheet/workbook bridge 更稳，并完成可审计的计算、导出和基础工艺包交付。"
