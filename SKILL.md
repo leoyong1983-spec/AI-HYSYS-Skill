@@ -24,6 +24,8 @@ Read [references/authority-and-path-selection.md](references/authority-and-path-
 
 Read [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md) before writing parameters, running sensitivity, freezing a baseline, or choosing between direct COM, spreadsheet/workbook, data tables, and indirect communication.
 
+Read [references/digital-twin-boundary.md](references/digital-twin-boundary.md) when the user asks for HYSYS digital twin, hybrid AI, soft sensor, historian, monitoring, yield optimization, or emissions optimization support.
+
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
@@ -127,6 +129,18 @@ create a release blocker immediately and switch to blocker-resolution mode.
 Do not describe the package as clean for release while a release blocker is still open.
 
 Human decisions stay open until explicitly closed by the user or another authorized human reviewer.
+
+### 6.1 Keep digital twin claims bounded
+
+Official AspenTech digital twin and hybrid model cases can support engineering value, monitoring, diagnosis, optimization, and KPI-reporting workflows.
+
+Do not use those sources to claim that:
+
+1. AI can reliably build a complex HYSYS model from zero.
+2. Digital twin automatically means direct COM control.
+3. Hybrid models replace the validated HYSYS baseline, property method, topology, or human review.
+
+If a digital twin task is requested, first identify the existing HYSYS baseline, data source, KPI or soft sensor definition, control lane, and human validation responsibility.
 
 ### 7. Keep the package at the right depth
 

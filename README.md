@@ -85,6 +85,7 @@ AI-HYSYS-Skill/
 |   |-- authority-and-path-selection.md
 |   |-- basic-package-deliverables.md
 |   |-- control-lane-decision-matrix.md
+|   |-- digital-twin-boundary.md
 |   `-- project-lessons.md
 |-- scripts/
 |   |-- hysys_automation.py
@@ -185,6 +186,7 @@ If you do not use Codex skills directly, you can still reuse:
 - `AGENTS.md` as the repository-specific maintenance contract for AI coding agents
 - `references/authority-and-path-selection.md` to choose the correct control lane
 - `references/control-lane-decision-matrix.md` to turn COM, spreadsheet/workbook, data tables, indirect bridges, and GUI fallback into a concrete decision
+- `references/digital-twin-boundary.md` to use official HYSYS digital twin / hybrid AI evidence without overclaiming direct control
 - `references/project-lessons.md` to avoid known failure modes
 - `references/basic-package-deliverables.md` to structure exports and review-stage package outputs
 - `CASE/` as a public source pack and launch-positioning library
@@ -269,6 +271,8 @@ Official AspenTech pages:
 - [Aspen HYSYS V8.0 Jump Start article](https://esupport.aspentech.com/S_Article?id=000060539)
 - [Aspen HYSYS V7.3 Customization Guide article](https://esupport.aspentech.com/s_Article?key=131879)
 - [Aspen HYSYS 2025 brochure PDF](https://www.aspentech.com/-/media/aspentech/home/resources/brochure/pdfs/fy25/q4/at-4162_bro_aspen-hysys_final_0525.pdf)
+- [AspenTech performance engineering digital twin case study](https://www.aspentech.com/en/resources/case-studies/energy-company-saves-%246m-usd-with-a-performance-engineering-digital-twin)
+- [AspenTech process simulation digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield)
 
 Community bridge example:
 

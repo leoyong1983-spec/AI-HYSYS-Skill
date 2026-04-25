@@ -16,6 +16,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 第二轮手动测试又补到两条更贴近控制通道的证据：[research/hysys-coding-platforms-jglobal-2025.html](../research/hysys-coding-platforms-jglobal-2025.html) 证明 2025 年已有论文系统讨论 Python 与 Aspen HYSYS 的对象层级、特殊对象和 backdoor variables；[research/hysys-interconnection-methodologies-sim2-2022.pdf](../research/hysys-interconnection-methodologies-sim2-2022.pdf) 则把 HYSYS 连接方式拆成 direct communication、indirect communication、internal spreadsheets、data tables 四类并对比。它们共同支持本仓库保留“direct COM 主通道 + spreadsheet/workbook 稳定桥接 + 其他连接方式按需降级”的设计。
 
+第三轮手动测试新增两类官方数字孪生证据：[official/aspen-hysys-performance-digital-twin-case-study.pdf](../official/aspen-hysys-performance-digital-twin-case-study.pdf) 展示 Aspen HYSYS 在性能工程数字孪生、故障识别和经济收益中的应用；[official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf](../official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf) 展示 hybrid model、AI、first-principles、historian、soft sensor 和凝析油收益优化的链路。它们增强的是“工程价值和 digital twin 边界”，不是“AI 直接控制 HYSYS COM”的证据；对应项目规则见 [references/digital-twin-boundary.md](../../references/digital-twin-boundary.md)。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

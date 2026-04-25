@@ -40,3 +40,20 @@
 第二轮额外结论：`direct COM` 不应被写成唯一通道，而应写成主通道；`spreadsheet/workbook` 不只是权宜之计，而是经过论文和社区实践共同支持的稳定桥接层；`data tables` 和间接通信可以作为特定场景下的降级或补充通道，但不应喧宾夺主。
 
 注意：ScienceDirect 页面用命令行下载时返回了无效壳页，已删除，未纳入 CASE。Mindat 页面被 Cloudflare 拦截，也未保存为有效资料。
+
+## 第三轮手动测试补充
+
+第三轮检索重点测试“不是只屯文件，而是根据优秀技术内容完善项目”的闭环。新增资料如下：
+
+| 类别 | 本地文件 | 原始来源 | 价值判断 |
+|---|---|---|---|
+| 官方 | [../official/aspen-hysys-performance-digital-twin-case-study.html](../official/aspen-hysys-performance-digital-twin-case-study.html) | [AspenTech performance engineering digital twin case study](https://www.aspentech.com/en/resources/case-studies/energy-company-saves-%246m-usd-with-a-performance-engineering-digital-twin) | 官方案例页面说明 Aspen HYSYS 可进入性能工程数字孪生、故障识别和经济收益场景。 |
+| 官方 | [../official/aspen-hysys-performance-digital-twin-case-study.pdf](../official/aspen-hysys-performance-digital-twin-case-study.pdf) | [AspenTech performance engineering digital twin PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy21/q2/at-06386--cs-english-v9.pdf?sc_lang=en) | 保存案例全文，支撑“已有模型接管 + 诊断/报告/优化”的工程价值定位。 |
+| 官方 | [../official/aspen-hybrid-model-condensate-digital-twin-article.html](../official/aspen-hybrid-model-condensate-digital-twin-article.html) | [AspenTech condensate digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield) | 官方文章页面说明 ADNOC 使用 hybrid model 与 process simulation digital twin 优化凝析油收益。 |
+| 官方 | [../official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf](../official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf) | [AspenTech condensate digital twin PDF](https://www.aspentech.com/-/media/aspentech/home/resources/articles/pdfs/fy25/q2/at-3653-art_hp-adnoc-digital-twin.pdf) | 保存文章全文，补强 AI、first-principles、historian、soft sensor、收益优化和减排链路。 |
+
+项目化改进：
+
+- 新增 [../../references/digital-twin-boundary.md](../../references/digital-twin-boundary.md)，把官方 digital twin / hybrid AI 资料转成项目边界规则。
+- 更新 [../source-index.md](../source-index.md) 与 [hysys-source-digest.md](hysys-source-digest.md)，明确这些资料支持工程价值叙事，但不能被误用为 direct COM 控制证据。
+- 后续 README / SKILL 应在 digital twin 场景下引导 AI 先区分：已有 HYSYS baseline、数据源、soft sensor/KPI、控制通道、人工校验责任。
