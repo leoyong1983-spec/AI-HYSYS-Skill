@@ -18,6 +18,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 第三轮手动测试新增两类官方数字孪生证据：[official/aspen-hysys-performance-digital-twin-case-study.pdf](../official/aspen-hysys-performance-digital-twin-case-study.pdf) 展示 Aspen HYSYS 在性能工程数字孪生、故障识别和经济收益中的应用；[official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf](../official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf) 展示 hybrid model、AI、first-principles、historian、soft sensor 和凝析油收益优化的链路。它们增强的是“工程价值和 digital twin 边界”，不是“AI 直接控制 HYSYS COM”的证据；对应项目规则见 [references/digital-twin-boundary.md](../../references/digital-twin-boundary.md)。
 
+2026-04-26 自动心跳继续补强官方 online/digital-twin 证据：[official/aspentech-whats-new-v15-industrial-ai-2026.html](../official/aspentech-whats-new-v15-industrial-ai-2026.html) 显示 AspenTech V15 把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus 和 Aspen OnLine 放在同一产品路线中；[official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](../official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) 明确覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布。项目结论是：AI-HYSYS-Skill 可以帮助整理 offline model、plant data、KPI、控制通道和审计输出，但不能宣称复刻 Aspen OnLine 或 AI Model Builder。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

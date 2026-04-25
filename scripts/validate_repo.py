@@ -39,21 +39,6 @@ REQUIRED_FILES = [
 ]
 
 MARKDOWN_FILES = [
-    "README.md",
-    "SKILL.md",
-    "AGENTS.md",
-    "CONTRIBUTING.md",
-    "SECURITY.md",
-    "GITHUB_REPO_SETTINGS.md",
-    "references/authority-and-path-selection.md",
-    "references/basic-package-deliverables.md",
-    "references/control-lane-decision-matrix.md",
-    "references/digital-twin-boundary.md",
-    "references/project-lessons.md",
-    "CASE/source-index.md",
-    "CASE/notes/heartbeat-scan-2026-04-25.md",
-    "CASE/notes/hysys-source-digest.md",
-    "CASE/notes/release-playbook.md",
 ]
 
 
@@ -79,6 +64,18 @@ def check_utf8_readability(errors: list[str]) -> dict[Path, str]:
         except UnicodeDecodeError as exc:
             errors.append(f"{relative_path} is not valid UTF-8: {exc}")
     return texts
+
+
+def discover_markdown_files() -> list[str]:
+    relative_paths: set[str] = set(MARKDOWN_FILES)
+
+    for pattern in ("*.md", "references/*.md", "CASE/notes/*.md"):
+        for path in ROOT.glob(pattern):
+            if path.is_file():
+                relative_paths.add(path.relative_to(ROOT).as_posix())
+
+    relative_paths.add("CASE/source-index.md")
+    return sorted(relative_paths)
 
 
 def check_markdown_links(path: Path, text: str, errors: list[str]) -> None:
@@ -143,10 +140,14 @@ def main() -> int:
     check_required_files(errors)
     texts = check_utf8_readability(errors)
 
-    for relative_path in MARKDOWN_FILES:
+    for relative_path in discover_markdown_files():
         path = ROOT / relative_path
-        text = texts.get(path)
-        if text is None:
+        if not path.exists():
+            continue
+        try:
+            text = read_text(path)
+        except UnicodeDecodeError as exc:
+            errors.append(f"{relative_path} is not valid UTF-8: {exc}")
             continue
         check_markdown_links(path, text, errors)
 

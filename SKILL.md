@@ -142,6 +142,14 @@ Do not use those sources to claim that:
 
 If a digital twin task is requested, first identify the existing HYSYS baseline, data source, KPI or soft sensor definition, control lane, and human validation responsibility.
 
+If the task mentions online digital twins, Aspen OnLine, AI Model Builder, or Hybrid Models, separate:
+
+1. offline HYSYS/Aspen Plus model preparation
+2. plant data import or historian binding
+3. hybrid model or soft-sensor design
+4. online publishing or dashboard integration
+5. audit and human acceptance
+
 ### 7. Keep the package at the right depth
 
 This skill is for review-stage basic process package work, not detailed design by default.
