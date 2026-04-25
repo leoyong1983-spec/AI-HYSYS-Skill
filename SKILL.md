@@ -16,10 +16,13 @@ Prefer scriptable, reviewable, repeatable control lanes:
 1. Existing proven project runner
 2. Direct `HYSYS.Application` COM automation
 3. Spreadsheet or Aspen Simulation Workbook bridge
-4. Excel / VBA bridge only if already present and working
-5. GUI only for layout sign-off or unavoidable visual checks
+4. Data tables or special-object lanes when already configured in the case
+5. Existing indirect bridges such as Excel / VBA, Matlab, C#, or intermediate files only if already present and working
+6. GUI only for layout sign-off or unavoidable visual checks
 
 Read [references/authority-and-path-selection.md](references/authority-and-path-selection.md) before choosing the control lane.
+
+Read [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md) before writing parameters, running sensitivity, freezing a baseline, or choosing between direct COM, spreadsheet/workbook, data tables, and indirect communication.
 
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
 
@@ -36,13 +39,16 @@ Decide the path in this order:
 1. If the workspace already contains proven HYSYS runners, smoke tests, tuning scripts, workbook bridges, or export tools, reuse them first.
 2. If direct COM launch works, use `HYSYS.Application` as the default execution lane.
 3. If object-path access is fragile but spreadsheet names or workbook tags are stable, use the spreadsheet bridge.
-4. If only an existing Excel / VBA bridge is already in service, use it carefully and document that the lane is weaker than direct COM.
-5. Do not default to AI greenfield case construction for production work.
-6. Do not default to GUI clicking for production work.
+4. If HYSYS data tables or special objects are already configured and expose the required variables cleanly, use them as supplementary lanes and document the schema.
+5. If only an existing indirect bridge is already in service, use it carefully and document that the lane is weaker than direct COM.
+6. Do not default to AI greenfield case construction for production work.
+7. Do not default to GUI clicking for production work.
 
 Treat direct COM as the authoritative baseline lane because it controls case launch, open, save, and object access directly.
 
 Treat spreadsheets or Aspen Simulation Workbook as stable tagged IO layers, not as the primary truth source, because they simplify automation but can hide deeper object-model issues.
+
+Before any write operation, produce a short lane decision note covering chosen lane, rejected lanes, case source, solver policy, and rollback plan.
 
 ### 2. Verify the environment before touching the case
 
@@ -91,6 +97,7 @@ For bounded tuning:
 3. Record old value, new value, convergence state, engineering comment, and effect on key KPIs.
 4. Prefer the minimum change that clears the target.
 5. Stop if the task has moved into review or release support mode.
+6. For spreadsheet/workbook writes, pause solver, batch-write inputs, resume solver, wait until `IsSolving` is false, then read KPIs.
 
 ### 5. Export machine-readable outputs first
 

@@ -10,12 +10,16 @@
 
 不要反过来。
 
+如果需要在 direct COM、spreadsheet/workbook、data tables、indirect communication、GUI fallback 之间做具体选择，先读 [control-lane-decision-matrix.md](control-lane-decision-matrix.md)。这份文件把 2022 HYSYS interconnection 论文和 2025 Python-HYSYS automation 论文转成了可执行决策规则。
+
 原因很直接：
 
 - 官方 AspenTech 产品页明确把 HYSYS 放在 steady-state、dynamic studies、process safety、optimization 这一整套工程工作流里，而不是单一黑箱算例工具。
 - 官方 Aspen Simulation Workbook 产品页明确证明了 “把仿真变量稳定映射到 Excel / workbook 工作流” 是 Aspen 官方支持的路径。
 - 官方支持站公开文章页面给出了 `Jump Start` 和 `Customization Guide` 入口，说明 HYSYS 的自动化、对象访问和基础建模学习路径是长期存在的。
 - 社区公开仓库 `Aspen_HYSYS_Python` 明确采用 “HYSYS spreadsheet 作为 Python 控制桥” 来绕开脆弱的对象路径访问。
+- 2022 年 HYSYS interconnection 论文明确把通信方式拆成 direct communication、indirect communication、internal spreadsheets、data tables 四类。
+- 2025 年 Python-HYSYS 论文进一步说明，真实自动化会碰到对象层级、特殊对象、backdoor variables、优化和技术经济工具等问题。
 - 当前仓库内置的 [`scripts/hysys_automation.py`](../scripts/hysys_automation.py) 已经证明 direct COM 这条路可以稳定处理启动、开 case、保存、ASCII staging 和基础对象操作。
 
 ## 外部权威依据
@@ -82,6 +86,20 @@
 1. HYSYS 官方培训覆盖 optimization、dynamic analysis、LNG modeling、process safety 等场景
 2. Excel/workbook 类工作流在 Aspen 培训体系里本来就是正式主题
 3. AI-HYSYS-Skill 的定位可以理直气壮地放在 “工程工作流接管”，而不是只放在 “小脚本玩具”
+
+### 5. 同行评议的 HYSYS interconnection 与 Python-HYSYS automation
+
+来源：
+
+- [hysys-interconnection-methodologies-sim2-2022.pdf](../CASE/research/hysys-interconnection-methodologies-sim2-2022.pdf)
+- [hysys-coding-platforms-jglobal-2025.html](../CASE/research/hysys-coding-platforms-jglobal-2025.html)
+
+这两条来源把“能不能连上 HYSYS”推进到“如何选择正确控制通道”：
+
+1. 2022 年论文把 HYSYS 通信方式拆成 direct communication、indirect communication、internal spreadsheets、data tables。
+2. 这说明 spreadsheet bridge 不是孤立技巧，而是可以纳入正式 interconnection taxonomy 的通道。
+3. 2025 年论文强调 Python 与 Aspen HYSYS 的对象层级、特殊对象、backdoor variables、仿真优化和技术经济工具。
+4. 这要求 AI-HYSYS-Skill 在写入参数前先做 lane decision，而不是直接把所有变量都当成普通对象属性。
 
 ## 社区与项目内的可执行依据
 
@@ -159,13 +177,30 @@
 2. 用户明确要求保留这个遗留工作流
 3. direct COM 或脚本化桥接不适合当前任务
 
+### 补充通道
+
+`HYSYS data tables / special objects -> controlled read-write workflow`
+
+适用场景：
+
+- HYSYS case 中已经配置了 Data Table、Design Spec、Optimizer、Column、Spreadsheet 等特殊对象
+- 这些对象已经有稳定名称、单位和读写边界
+- 任务是读取表格化结果、做窄范围扫描或配合既有模型结构调参
+
+注意：
+
+- Data tables 和特殊对象不能替代 case baseline。
+- 每次使用前都要记录 schema、单位、读写方向和 solver policy。
+- 若需要 backdoor variables，必须先做单点 smoke test，不允许直接批量写入。
+
 ## fallback 顺序
 
 1. 复用项目内已验证 runner
 2. 直接 `HYSYS.Application`
 3. Spreadsheet / Workbook bridge
-4. Excel / VBA 既有桥
-5. GUI
+4. Data tables / special-object lane
+5. Excel / VBA / Matlab / C# / intermediate-file 既有桥
+6. GUI
 
 ## 不建议的误区
 

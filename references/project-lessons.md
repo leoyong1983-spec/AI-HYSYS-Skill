@@ -60,6 +60,14 @@
 
 不要边写边盲读结果。
 
+当前 [`scripts/hysys_automation.py`](../scripts/hysys_automation.py) 已把这条经验落成 helper：
+
+- `SpreadsheetCellBinding` 用于记录 spreadsheet、行列、标签和单位
+- `batch_write_spreadsheet_cells(...)` 用于暂停 solver、批量写入、恢复 solver、等待求解结束
+- `wait_for_solver_idle(...)` 用于避免读到中间状态
+
+这不是替代工程判断，而是把社区示例和论文中的 solver 节奏固化成默认安全动作。
+
 ## 6. workcopy 要优先于母版
 
 排序依据应该是：
@@ -139,3 +147,16 @@
 
 - 先有可控、可审计、可验证的 direct COM / bridge lane
 - 再谈更激进的 diagram-to-simulation 自动化
+
+## 12. 新论文带来的项目化改进
+
+第二轮心跳测试新增的 2022/2025 资料带来三个必须进入项目规则的点：
+
+1. HYSYS interconnection 不止 direct COM 和 spreadsheet，还包括 indirect communication 与 data tables；它们应进入 fallback 体系。
+2. Python-HYSYS 自动化会遇到特殊对象和 backdoor variables；因此写入前必须先做 lane decision 和单点 smoke test。
+3. 控制通道选择应写成可复用矩阵，而不是散落在 README 里的口号。
+
+对应落地文件：
+
+- [control-lane-decision-matrix.md](control-lane-decision-matrix.md)
+- [`scripts/hysys_automation.py`](../scripts/hysys_automation.py)

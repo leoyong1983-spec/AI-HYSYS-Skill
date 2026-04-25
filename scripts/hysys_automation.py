@@ -25,6 +25,17 @@ class HysysLaunchOptions:
     startup_retry_delay_s: float = 1.0
 
 
+@dataclass(frozen=True, slots=True)
+class SpreadsheetCellBinding:
+    """A stable tagged-IO binding for a HYSYS spreadsheet cell."""
+
+    spreadsheet: str
+    column: int
+    row: int
+    label: str = ""
+    unit: str = ""
+
+
 def _ensure_parent(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -151,6 +162,60 @@ class HysysCaseSession:
 
     def add_operation(self, name: str, op_type: str):
         return self._operations().Add(name, op_type)
+
+    def get_operation(self, name: str):
+        return self._operations().Item(name)
+
+    def get_spreadsheet(self, name: str):
+        return self.get_operation(name)
+
+    def get_spreadsheet_cell(self, binding: SpreadsheetCellBinding):
+        spreadsheet = self.get_spreadsheet(binding.spreadsheet)
+        return spreadsheet.Cell(binding.column, binding.row)
+
+    def read_spreadsheet_cell(self, binding: SpreadsheetCellBinding):
+        return self.get_spreadsheet_cell(binding).CellValue
+
+    def write_spreadsheet_cell(self, binding: SpreadsheetCellBinding, value) -> None:
+        self.get_spreadsheet_cell(binding).CellValue = value
+
+    @property
+    def solver(self):
+        if self.case is None:
+            raise HysysAutomationError("No open HYSYS case.")
+        return self.case.Solver
+
+    def set_solver_enabled(self, enabled: bool) -> None:
+        self.solver.CanSolve = enabled
+
+    def wait_for_solver_idle(
+        self,
+        *,
+        timeout_s: float = 120.0,
+        poll_interval_s: float = 0.05,
+    ) -> None:
+        deadline = time.monotonic() + timeout_s
+        while bool(self.solver.IsSolving):
+            if time.monotonic() >= deadline:
+                raise HysysAutomationError(
+                    f"HYSYS solver did not become idle within {timeout_s} seconds."
+                )
+            time.sleep(poll_interval_s)
+
+    def batch_write_spreadsheet_cells(
+        self,
+        updates: Sequence[tuple[SpreadsheetCellBinding, object]],
+        *,
+        wait_timeout_s: float = 120.0,
+    ) -> None:
+        """Pause solver, apply tagged spreadsheet updates, then solve once."""
+        self.set_solver_enabled(False)
+        try:
+            for binding, value in updates:
+                self.write_spreadsheet_cell(binding, value)
+        finally:
+            self.set_solver_enabled(True)
+        self.wait_for_solver_idle(timeout_s=wait_timeout_s)
 
     def add_feed_to_operation(self, operation, stream) -> None:
         operation.Feeds.Add(stream)

@@ -20,8 +20,10 @@ REQUIRED_FILES = [
     "agents/openai.yaml",
     "references/authority-and-path-selection.md",
     "references/basic-package-deliverables.md",
+    "references/control-lane-decision-matrix.md",
     "references/project-lessons.md",
     "CASE/source-index.md",
+    "CASE/notes/heartbeat-scan-2026-04-25.md",
     "CASE/notes/hysys-source-digest.md",
     "CASE/notes/release-playbook.md",
     ".github/dependabot.yml",
@@ -44,8 +46,10 @@ MARKDOWN_FILES = [
     "GITHUB_REPO_SETTINGS.md",
     "references/authority-and-path-selection.md",
     "references/basic-package-deliverables.md",
+    "references/control-lane-decision-matrix.md",
     "references/project-lessons.md",
     "CASE/source-index.md",
+    "CASE/notes/heartbeat-scan-2026-04-25.md",
     "CASE/notes/hysys-source-digest.md",
     "CASE/notes/release-playbook.md",
 ]
@@ -127,6 +131,8 @@ def check_readme_content(readme_text: str, errors: list[str]) -> None:
         errors.append("README.md should point readers to the CASE index.")
     if "hysys_automation.py" not in readme_text:
         errors.append("README.md should mention the reusable HYSYS automation wrapper.")
+    if "control-lane-decision-matrix.md" not in readme_text:
+        errors.append("README.md should point readers to the control lane decision matrix.")
 
 
 def main() -> int:

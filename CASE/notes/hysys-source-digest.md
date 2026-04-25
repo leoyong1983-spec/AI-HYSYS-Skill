@@ -6,6 +6,16 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 `AI 可以沿着 Aspen 官方承认的工作流，使用 direct COM 作为主执行层、spreadsheet/workbook 作为稳定桥接层，在可审计边界内接管 Aspen HYSYS。`
 
+## 2026-04-25 心跳测试新增结论
+
+这次手动试跑没有推翻原定位，反而把证据链补强了：HYSYS 最适合让 AI 接管“已有可运行模型”的参数、边界、求解、检查和报告，不应把默认卖点写成从零自动建模。
+
+新增官方材料显示，AspenTech 仍在把 HYSYS 放在工程模拟、经济、能耗、安全、排放、全生命周期决策和 Industrial AI / Hybrid Models 的语境里；这支持我们继续把 AI-HYSYS-Skill 定位为“工程工作流接管层”，而不是孤立的脚本玩具。
+
+新增研究材料显示，HYSYS 还可以作为高保真动态数据源，支撑 PINN / digital twin / soft sensing / MPC / anomaly detection 方向。但这条线是“围绕 HYSYS 的 AI 建模与数字孪生”，不是“AI 直接控制 HYSYS COM”的替代证据，所以在 README 和 SKILL 中应保持边界清楚。
+
+第二轮手动测试又补到两条更贴近控制通道的证据：[research/hysys-coding-platforms-jglobal-2025.html](../research/hysys-coding-platforms-jglobal-2025.html) 证明 2025 年已有论文系统讨论 Python 与 Aspen HYSYS 的对象层级、特殊对象和 backdoor variables；[research/hysys-interconnection-methodologies-sim2-2022.pdf](../research/hysys-interconnection-methodologies-sim2-2022.pdf) 则把 HYSYS 连接方式拆成 direct communication、indirect communication、internal spreadsheets、data tables 四类并对比。它们共同支持本仓库保留“direct COM 主通道 + spreadsheet/workbook 稳定桥接 + 其他连接方式按需降级”的设计。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
@@ -42,6 +52,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 - “AI 读图/读描述 -> 生成 HYSYS 脚本 -> 验证执行” 这件事已经不是空想
 
 这会给 AI-HYSYS-Skill 一个很强的时代感。
+
+[research/pinn-digital-twin-arxiv-2603.24644.pdf](../research/pinn-digital-twin-arxiv-2603.24644.pdf) 补充了另一条 AI-HYSYS 证据链：HYSYS 生成的动态过程数据可以训练物理约束神经网络数字孪生，用于实时软测量、预测控制和异常检测。这适合作为未来扩展方向，但不能用来宣称本仓库已经完成端到端动态孪生控制。
 
 ## 对技能设计的直接启发
 

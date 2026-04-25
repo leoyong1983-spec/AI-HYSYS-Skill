@@ -56,15 +56,17 @@ Preferred execution order:
 1. existing proven project runner
 2. direct `HYSYS.Application` COM automation
 3. HYSYS spreadsheet / Aspen Simulation Workbook bridge
-4. Excel / VBA bridge only if it already exists and is working
-5. GUI only for layout sign-off or unavoidable visual checks
+4. HYSYS data tables or special-object lanes when already configured in the case
+5. Excel / VBA, Matlab, C#, or intermediate-file bridges only if they already exist and are working
+6. GUI only for layout sign-off or unavoidable visual checks
 
-This recommendation is based on four source classes collected in [CASE/source-index.md](CASE/source-index.md):
+This recommendation is now captured as an actionable decision matrix in [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md). The recommendation is based on five source classes collected in [CASE/source-index.md](CASE/source-index.md):
 
 - official AspenTech HYSYS and Aspen Simulation Workbook product pages
 - public AspenTech support articles for Jump Start and Customization Guide entry points
 - community HYSYS spreadsheet-bridge examples
-- recent AI-for-HYSYS research on multi-agent flowsheet generation
+- peer-reviewed HYSYS interconnection and Python-HYSYS automation papers
+- recent AI-for-HYSYS research on multi-agent flowsheet generation and digital twins
 
 ## Repository Structure
 
@@ -82,6 +84,7 @@ AI-HYSYS-Skill/
 |-- references/
 |   |-- authority-and-path-selection.md
 |   |-- basic-package-deliverables.md
+|   |-- control-lane-decision-matrix.md
 |   `-- project-lessons.md
 |-- scripts/
 |   |-- hysys_automation.py
@@ -181,6 +184,7 @@ If you do not use Codex skills directly, you can still reuse:
 - `SKILL.md` as the operating playbook
 - `AGENTS.md` as the repository-specific maintenance contract for AI coding agents
 - `references/authority-and-path-selection.md` to choose the correct control lane
+- `references/control-lane-decision-matrix.md` to turn COM, spreadsheet/workbook, data tables, indirect bridges, and GUI fallback into a concrete decision
 - `references/project-lessons.md` to avoid known failure modes
 - `references/basic-package-deliverables.md` to structure exports and review-stage package outputs
 - `CASE/` as a public source pack and launch-positioning library
@@ -219,15 +223,16 @@ The PowerShell wrapper prefers a real Python installation behind `py` or `python
 ## Typical Workflow
 
 1. Verify the environment
-2. Prove the control lane with a smoke test
-3. Reuse an existing valid case if possible
-4. Only consider a minimal experimental case for smoke tests after all candidate cases fail, and do not treat that path as a production default
-5. Run calculations and classify failures correctly
-6. Perform bounded tuning only when explicitly allowed
-7. Freeze the accepted case as a baseline
-8. Export machine-readable results
-9. Compile review-stage package deliverables
-10. Run release-gate checks before issue
+2. Choose the control lane with [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md)
+3. Prove the control lane with a smoke test
+4. Reuse an existing valid case if possible
+5. Only consider a minimal experimental case for smoke tests after all candidate cases fail, and do not treat that path as a production default
+6. Run calculations and classify failures correctly
+7. Perform bounded tuning only when explicitly allowed
+8. Freeze the accepted case as a baseline
+9. Export machine-readable results
+10. Compile review-stage package deliverables
+11. Run release-gate checks before issue
 
 ## What Good Output Looks Like
 
@@ -263,6 +268,7 @@ Official AspenTech pages:
 - [AspenTech course catalog PDF](https://www.aspentech.com/-/media/aspentech/home/customer-help/aspentech-course-catalog.pdf?hash=35328F62068FD84D73AB9A55D8197071&sc_lang=en)
 - [Aspen HYSYS V8.0 Jump Start article](https://esupport.aspentech.com/S_Article?id=000060539)
 - [Aspen HYSYS V7.3 Customization Guide article](https://esupport.aspentech.com/s_Article?key=131879)
+- [Aspen HYSYS 2025 brochure PDF](https://www.aspentech.com/-/media/aspentech/home/resources/brochure/pdfs/fy25/q4/at-4162_bro_aspen-hysys_final_0525.pdf)
 
 Community bridge example:
 
@@ -271,6 +277,12 @@ Community bridge example:
 Recent AI paper:
 
 - [Sketch2Simulation (arXiv:2603.24629)](https://arxiv.org/abs/2603.24629)
+- [PINN Digital Twin for Aspen HYSYS generated dynamic data (arXiv:2603.24644)](https://arxiv.org/abs/2603.24644)
+
+HYSYS automation and interconnection papers:
+
+- [Integrating coding platforms with process simulators for custom applications](https://www.sciencedirect.com/science/article/pii/S0098135425002510)
+- [A comparative study on Aspen HYSYS interconnection methodologies](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf)
 
 ## Publishing Note
 
