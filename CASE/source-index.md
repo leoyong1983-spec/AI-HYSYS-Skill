@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-04-26（Asia/Shanghai）
+最近心跳测试：2026-04-27（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -23,6 +23,8 @@
 | 官方 | [official/aspen-hysys-performance-digital-twin-case-study.pdf](official/aspen-hysys-performance-digital-twin-case-study.pdf) | 官方案例 PDF：保存 HYSYS + Aspen EDR 数字孪生案例全文，支持“现有模型接管 + 诊断/报告/优化”的工程价值定位 | [AspenTech performance engineering digital twin PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy21/q2/at-06386--cs-english-v9.pdf?sc_lang=en) | 真 PDF |
 | 官方 | [official/aspen-hybrid-model-condensate-digital-twin-article.html](official/aspen-hybrid-model-condensate-digital-twin-article.html) | 官方文章页面：ADNOC 使用 hybrid model 和 process simulation digital twin 优化凝析油收益 | [AspenTech condensate digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield) | HTML 快照 |
 | 官方 | [official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf](official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf) | 官方文章 PDF：补强 hybrid model、AI、first-principles、historian、soft sensor、condensate yield 和 GHG reduction 的工程链路 | [AspenTech condensate digital twin PDF](https://www.aspentech.com/-/media/aspentech/home/resources/articles/pdfs/fy25/q2/at-3653-art_hp-adnoc-digital-twin.pdf) | 真 PDF |
+| 官方 | [official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.html](official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.html) | 官方案例页面：HPCL 使用 Aspen AI Model Builder 和 Aspen HYSYS 部署 AI soft sensors 做实时质量控制 | [AspenTech HPCL Industrial AI case study](https://www.aspentech.com/en/resources/case-studies/real-time-quality-control-how-hpcl-uses-industrial-ai-to-improve-refining-processes) | HTML 快照 |
+| 官方 | [official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例 PDF：保存 HPCL soft sensor 全文，补强 HYSYS + AI Model Builder + 实时质量/KPI 预测的工程证据 | [AspenTech HPCL Industrial AI PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy25/q5/at-4331_cs_hpcl_real_time_quality_control_v3.pdf) | 真 PDF |
 | 官方 | [official/aspentech-whats-new-v15-industrial-ai-2026.html](official/aspentech-whats-new-v15-industrial-ai-2026.html) | AspenTech V15 页面，补强 Industrial AI、AI Model Builder desktop、Aspen HYSYS/Plus green H2、Aspen OnLine for HYSYS and Aspen Plus 等当前产品语境 | [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new) | HTML 快照 |
 | 官方 | [official/aspentech-university-hysys-hybrid-ai-online-course-2026.html](official/aspentech-university-hysys-hybrid-ai-online-course-2026.html) | 官方培训页，说明 HYSYS/Aspen Plus 离线模型可结合 plant data、Hybrid Models 和 online digital twins 做监控、优化、洞察和故障支持 | [AspenTech University EHM105 course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA) | HTML 快照 |
 | 官方 | [official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) | EHM105 课程议程，覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布 | [EHM105 course agenda PDF](https://www.aspentech.com/-/media/aspentech/home/support-and-training/training-agendas/ehm105-course-agenda.pdf) | 真 PDF |
@@ -48,6 +50,7 @@
 | 中文总结 | [notes/hysys-source-digest.md](notes/hysys-source-digest.md) | 把官方、社区、研究三类资料压缩成技能设计结论 | 本仓库 | 推荐先读 |
 | 心跳记录 | [notes/heartbeat-scan-2026-04-25.md](notes/heartbeat-scan-2026-04-25.md) | 记录 2026-04-25 手动心跳测试保存的新资料、价值判断和边界结论 | 本仓库 | 后续每日扫描可沿用此格式 |
 | 心跳记录 | [notes/heartbeat-scan-2026-04-26.md](notes/heartbeat-scan-2026-04-26.md) | 记录 2026-04-26 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-04-27.md](notes/heartbeat-scan-2026-04-27.md) | 记录 2026-04-27 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

@@ -10,6 +10,7 @@
 |---|---|---|
 | Energy Company Saves $6M USD with a Performance Engineering Digital Twin | [CASE/official/aspen-hysys-performance-digital-twin-case-study.pdf](../CASE/official/aspen-hysys-performance-digital-twin-case-study.pdf) | AspenTech 官方案例明确把 Aspen HYSYS 用于性能工程数字孪生、故障识别、避免非计划停车和经济收益。 |
 | Utilize a Process Simulation Digital Twin to Optimize Condensate Yield | [CASE/official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf](../CASE/official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf) | 官方文章展示 hybrid model、AI、first-principles、historian、soft sensor、condensate yield 和 GHG reduction 的工程链路。 |
+| Real-Time Quality Control: How HPCL Uses Industrial AI | [CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例展示 Aspen AI Model Builder + Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测质量参数，支持实时质量控制和成本优化。 |
 | AspenTech V15 What's New | [CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html](../CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html) | 官方 V15 页面把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus、Aspen OnLine for HYSYS and Aspen Plus 放在同一产品语境中。 |
 | EHM105 - Unlock Operational Excellence with AI-Powered Digital Twins | [CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](../CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) | 官方培训议程明确覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布。 |
 | Aspen Hybrid Models Customer FAQ | [CASE/official/aspen-hybrid-models-customer-faq.pdf](../CASE/official/aspen-hybrid-models-customer-faq.pdf) | FAQ 强调 Hybrid Models 是 AI、first principles、simulation/plant data 和领域知识的组合，适合约束 hybrid AI 的工程边界。 |
@@ -23,6 +24,7 @@
 3. 对本 skill 来说，最现实的切入点仍是已有 HYSYS case 的受控接管、参数更新、KPI 导出、状态检查和报告生成。
 4. 如果项目已有 historian、soft sensor、dashboard 或 hybrid model，AI-HYSYS-Skill 应先识别这些现成资产，再决定是否接入。
 5. 如果项目要从 offline simulation 走向 online digital twin，应把 plant data、Excel/HYSYS Workbook、AI Model Builder、Hybrid Models、Aspen OnLine 发布和人工校验责任拆开，不要混成一个“AI 自动完成”的黑箱。
+6. 如果目标是 soft sensor 或在线质量预测，AI-HYSYS-Skill 应先定义 KPI、预测频率、数据源、HYSYS baseline、模型有效范围、报警/报告口径和人工验收责任。
 
 ## 不应该如何使用
 
@@ -44,6 +46,7 @@
 4. 该任务属于监控、优化、故障诊断、调参、报告生成还是正式包文件交付。
 5. 明确说明哪些工作已由 HYSYS runtime 验证，哪些只是资料支持的设计建议。
 6. 若涉及 online deployment，明确 Aspen OnLine / AI Model Builder / Hybrid Models 是否只是外部商业系统入口，还是当前项目里已经配置好的可访问资产。
+7. 若涉及 soft sensor，明确它是只读预测、操作建议、还是允许回写到 HYSYS/workbook 的闭环控制建议；默认不允许自动闭环回写。
 
 ## Offline 到 Online 的拆分
 
@@ -54,6 +57,16 @@
 3. Hybrid model：AI + first principles 的建模边界、训练数据范围、外推限制和人工验收标准。
 4. Online deployment：Aspen OnLine、dashboard、soft sensor 或其他发布层。
 5. Audit loop：每次数据更新、模型更新、参数回写、KPI 报告都要保留可审计记录。
+
+## Soft Sensor 任务默认边界
+
+HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但本开源 skill 的默认职责应限定为：
+
+1. 整理已有 HYSYS case、Workbook/Spreadsheet、历史数据和 KPI 定义。
+2. 输出 soft sensor 候选变量、单位、采样频率、模型有效范围和验证清单。
+3. 生成审计报告、异常说明和人工复核项。
+4. 不默认训练、部署或声称替代 Aspen AI Model Builder。
+5. 不默认把 soft sensor 预测结果自动回写为 HYSYS 操作参数。
 
 ## 与控制通道矩阵的关系
 

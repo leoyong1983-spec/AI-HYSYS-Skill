@@ -17,10 +17,15 @@ function Get-UsablePythonCommand {
         return @("python")
     }
 
+    $codexPython = Join-Path $env:USERPROFILE ".cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+    if (Test-Path $codexPython) {
+        return @($codexPython)
+    }
+
     throw "Python 3 is required to run repository validation. Install Python from python.org or rely on the GitHub Actions 'Repo Hygiene' workflow."
 }
 
-$command = Get-UsablePythonCommand
+$command = @(Get-UsablePythonCommand)
 $arguments = @()
 if ($command.Length -gt 1) {
     $arguments += $command[1..($command.Length - 1)]

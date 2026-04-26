@@ -20,6 +20,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-04-26 自动心跳继续补强官方 online/digital-twin 证据：[official/aspentech-whats-new-v15-industrial-ai-2026.html](../official/aspentech-whats-new-v15-industrial-ai-2026.html) 显示 AspenTech V15 把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus 和 Aspen OnLine 放在同一产品路线中；[official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](../official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) 明确覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布。项目结论是：AI-HYSYS-Skill 可以帮助整理 offline model、plant data、KPI、控制通道和审计输出，但不能宣称复刻 Aspen OnLine 或 AI Model Builder。
 
+2026-04-27 自动心跳新增 HPCL 官方案例：[official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) 显示 Aspen AI Model Builder 与 Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测炼厂产品质量参数。它对本项目的价值是补强“soft sensor / real-time KPI / quality prediction”边界，而不是扩大到自动闭环控制；因此默认仍应输出 KPI 定义、数据源、模型有效范围、人工验收和审计记录。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
