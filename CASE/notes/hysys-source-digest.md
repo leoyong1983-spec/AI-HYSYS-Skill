@@ -24,6 +24,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-04-27 手动测试补充一条 HYSYS + ML 代理模型证据：[notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](heartbeat-test-2026-04-27-cjce-hysys-ml.md) 记录了 CJCE 2026 原油蒸馏论文的书目信息与访问限制。它的项目价值是说明 HYSYS 可作为仿真数据源，为 surrogate model、soft sensor 和快速估算层提供训练基础；但它仍不支持从零自动建模，也不支持未复核代理模型替代 HYSYS baseline。
 
+2026-04-28 自动心跳新增三类证据：[official/aspen-hysys-online-simulation-models-webinar-2026.html](../official/aspen-hysys-online-simulation-models-webinar-2026.html) 补强 HYSYS models online deployment、KPI monitoring、process insights 和节能减排场景；[official/aspen-hysys-dynamics-product-page-2026.html](../official/aspen-hysys-dynamics-product-page-2026.html) 补强 HYSYS Dynamics 与瞬态分析边界；[research/hysys-lng-surrogate-jcp-2026-metadata.html](../research/hysys-lng-surrogate-jcp-2026-metadata.html) 补强 LNG surrogate / 低数字碳足迹优化研究证据。项目结论是：online deployment、dynamic simulation、surrogate planning 都可以纳入“已有 HYSYS case 的受控接管和审计输出”，但必须拆开商业系统、动态模型转换、代理模型有效范围和人工验收责任。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

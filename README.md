@@ -66,7 +66,7 @@ This recommendation is now captured as an actionable decision matrix in [referen
 - public AspenTech support articles for Jump Start and Customization Guide entry points
 - community HYSYS spreadsheet-bridge examples
 - peer-reviewed HYSYS interconnection and Python-HYSYS automation papers
-- recent AI-for-HYSYS research on multi-agent flowsheet generation, digital twins, and ML surrogate models
+- recent AI-for-HYSYS research on multi-agent flowsheet generation, digital twins, LNG optimization, production planning, and ML surrogate models
 
 ## Repository Structure
 
@@ -275,6 +275,8 @@ Official AspenTech pages:
 - [AspenTech process simulation digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield)
 - [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new)
 - [AspenTech EHM105 AI-Powered Digital Twins course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA)
+- [Aspen HYSYS Dynamics product page](https://www.aspentech.com/en/products/engineering/aspen-hysys-dynamics)
+- [Deploy Simulation Models Online Easily Gain Unrivaled Process Insights](https://www.aspentech.com/en/resources/on-demand-webinars/deploy-simulation-models-online-easily-gain-unrivaled-process-insights)
 
 Community bridge example:
 
@@ -285,6 +287,7 @@ Recent AI paper:
 - [Sketch2Simulation (arXiv:2603.24629)](https://arxiv.org/abs/2603.24629)
 - [PINN Digital Twin for Aspen HYSYS generated dynamic data (arXiv:2603.24644)](https://arxiv.org/abs/2603.24644)
 - [Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models](https://doi.org/10.1002/cjce.70297)
+- [AI-driven surrogate modeling for LNG process optimization](https://doi.org/10.1016/j.jclepro.2026.148110)
 
 HYSYS automation and interconnection papers:
 

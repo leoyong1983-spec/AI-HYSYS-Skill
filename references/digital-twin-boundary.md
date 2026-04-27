@@ -12,6 +12,8 @@
 | Utilize a Process Simulation Digital Twin to Optimize Condensate Yield | [CASE/official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf](../CASE/official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf) | 官方文章展示 hybrid model、AI、first-principles、historian、soft sensor、condensate yield 和 GHG reduction 的工程链路。 |
 | Real-Time Quality Control: How HPCL Uses Industrial AI | [CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例展示 Aspen AI Model Builder + Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测质量参数，支持实时质量控制和成本优化。 |
 | AspenTech V15 What's New | [CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html](../CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html) | 官方 V15 页面把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus、Aspen OnLine for HYSYS and Aspen Plus 放在同一产品语境中。 |
+| Deploy Simulation Models Online Easily Gain Unrivaled Process Insights | [CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html](../CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 webinar 页面把 Aspen HYSYS models、online simulations、KPI monitoring、process insights、节能减排和 troubleshooting 放在同一工作流中。 |
+| Aspen HYSYS Dynamics | [CASE/official/aspen-hysys-dynamics-product-page-2026.html](../CASE/official/aspen-hysys-dynamics-product-page-2026.html) | 官方产品页说明 HYSYS Dynamics 支持动态仿真、瞬态条件分析和控制方案验证；用于约束动态任务的基线、转换和审核边界。 |
 | EHM105 - Unlock Operational Excellence with AI-Powered Digital Twins | [CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](../CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) | 官方培训议程明确覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布。 |
 | Aspen Hybrid Models Customer FAQ | [CASE/official/aspen-hybrid-models-customer-faq.pdf](../CASE/official/aspen-hybrid-models-customer-faq.pdf) | FAQ 强调 Hybrid Models 是 AI、first principles、simulation/plant data 和领域知识的组合，适合约束 hybrid AI 的工程边界。 |
 
@@ -20,6 +22,8 @@
 | 来源 | 本地文件 | 项目价值 |
 |---|---|---|
 | Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models | [CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](../CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE 论文元数据，补强“HYSYS 仿真数据 -> ML surrogate / soft sensor / 快速估算层”的研究证据，同时保留访问限制和不替代 HYSYS baseline 的边界。 |
+| Artificial intelligence-driven surrogate modeling for computationally efficient and digitally decarbonized LNG process optimization under varying feed composition | [CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html](../CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html) | 记录 2026 JCP LNG surrogate 论文元数据，补强“仿真数据 -> Random Forest surrogate -> LNG 优化/计算时间与数字碳足迹降低”的证据。 |
+| On the use of Surrogate Models to enhance the production planning of sustainable aviation fuels via the hydroprocessed esters and fatty acids process | [CASE/notes/heartbeat-scan-2026-04-28.md](../CASE/notes/heartbeat-scan-2026-04-28.md) | 记录 HEFA production planning surrogate 线索和 SSRN 访问限制；用于提醒 surrogate 可连接生产计划系统，但本 skill 不替代 Aspen PIMS-AO、AI Model Builder 或商业计划优化器。 |
 
 ## 应该如何影响本项目
 
@@ -83,6 +87,16 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. 输出训练/验证/测试划分、误差指标、适用范围、外推禁区和人工复核清单。
 4. 只把 surrogate 用作快速筛选、报告辅助或候选操作建议，不默认作为生产闭环控制器。
 5. 任何超出训练范围的建议，都必须回到 HYSYS runtime 或人工工程审核重新验证。
+
+## Dynamic / Online 任务默认边界
+
+当用户要求 HYSYS Dynamics、online simulation、live process digital twin、KPI monitoring 或 Aspen OnLine 相关任务时，默认职责应限定为：
+
+1. 先确认 steady-state baseline、dynamic case 或 online model 是否已经由人类工程师建立并验证。
+2. 若只是 steady-state case，不默认自动转换成 dynamic model；先输出转换前提、缺失数据、控制结构、设备 holdup、压力流网络和验证清单。
+3. 若涉及 online deployment，先识别 Aspen OnLine、dashboard、historian、DCS/APC、PIMS 或其他外部商业系统是否已存在，并把它们作为外部边界。
+4. 本 skill 可以整理变量映射、KPI 定义、运行记录、异常解释和报告，但不默认发布在线模型或闭环接管生产控制。
+5. 任何动态响应、在线预测或计划优化结果，都必须保留数据时间戳、模型版本、有效范围和人工验收记录。
 
 ## 与控制通道矩阵的关系
 
