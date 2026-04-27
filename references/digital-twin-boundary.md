@@ -15,6 +15,12 @@
 | EHM105 - Unlock Operational Excellence with AI-Powered Digital Twins | [CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](../CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) | 官方培训议程明确覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布。 |
 | Aspen Hybrid Models Customer FAQ | [CASE/official/aspen-hybrid-models-customer-faq.pdf](../CASE/official/aspen-hybrid-models-customer-faq.pdf) | FAQ 强调 Hybrid Models 是 AI、first principles、simulation/plant data 和领域知识的组合，适合约束 hybrid AI 的工程边界。 |
 
+## 新增研究证据
+
+| 来源 | 本地文件 | 项目价值 |
+|---|---|---|
+| Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models | [CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](../CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE 论文元数据，补强“HYSYS 仿真数据 -> ML surrogate / soft sensor / 快速估算层”的研究证据，同时保留访问限制和不替代 HYSYS baseline 的边界。 |
+
 ## 应该如何影响本项目
 
 这些资料增强了 AI-HYSYS-Skill 的工程价值叙事：
@@ -67,6 +73,16 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. 生成审计报告、异常说明和人工复核项。
 4. 不默认训练、部署或声称替代 Aspen AI Model Builder。
 5. 不默认把 soft sensor 预测结果自动回写为 HYSYS 操作参数。
+
+## Surrogate / 代理模型任务默认边界
+
+当用户要求基于 HYSYS 做 data-driven simulation、ML surrogate、快速估算模型或软测量候选模型时，默认职责应限定为：
+
+1. 把 HYSYS 视为可信仿真基线和数据来源，而不是被代理模型替代的对象。
+2. 先定义设计空间、输入变量、输出 KPI、单位、采样策略、收敛失败记录和异常点处理规则。
+3. 输出训练/验证/测试划分、误差指标、适用范围、外推禁区和人工复核清单。
+4. 只把 surrogate 用作快速筛选、报告辅助或候选操作建议，不默认作为生产闭环控制器。
+5. 任何超出训练范围的建议，都必须回到 HYSYS runtime 或人工工程审核重新验证。
 
 ## 与控制通道矩阵的关系
 

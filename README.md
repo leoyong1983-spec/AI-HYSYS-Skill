@@ -66,7 +66,7 @@ This recommendation is now captured as an actionable decision matrix in [referen
 - public AspenTech support articles for Jump Start and Customization Guide entry points
 - community HYSYS spreadsheet-bridge examples
 - peer-reviewed HYSYS interconnection and Python-HYSYS automation papers
-- recent AI-for-HYSYS research on multi-agent flowsheet generation and digital twins
+- recent AI-for-HYSYS research on multi-agent flowsheet generation, digital twins, and ML surrogate models
 
 ## Repository Structure
 
@@ -284,6 +284,7 @@ Recent AI paper:
 
 - [Sketch2Simulation (arXiv:2603.24629)](https://arxiv.org/abs/2603.24629)
 - [PINN Digital Twin for Aspen HYSYS generated dynamic data (arXiv:2603.24644)](https://arxiv.org/abs/2603.24644)
+- [Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models](https://doi.org/10.1002/cjce.70297)
 
 HYSYS automation and interconnection papers:
 

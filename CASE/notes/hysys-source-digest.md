@@ -22,6 +22,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-04-27 自动心跳新增 HPCL 官方案例：[official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) 显示 Aspen AI Model Builder 与 Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测炼厂产品质量参数。它对本项目的价值是补强“soft sensor / real-time KPI / quality prediction”边界，而不是扩大到自动闭环控制；因此默认仍应输出 KPI 定义、数据源、模型有效范围、人工验收和审计记录。
 
+2026-04-27 手动测试补充一条 HYSYS + ML 代理模型证据：[notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](heartbeat-test-2026-04-27-cjce-hysys-ml.md) 记录了 CJCE 2026 原油蒸馏论文的书目信息与访问限制。它的项目价值是说明 HYSYS 可作为仿真数据源，为 surrogate model、soft sensor 和快速估算层提供训练基础；但它仍不支持从零自动建模，也不支持未复核代理模型替代 HYSYS baseline。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

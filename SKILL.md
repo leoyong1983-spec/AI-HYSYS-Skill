@@ -150,6 +150,8 @@ If the task mentions online digital twins, Aspen OnLine, AI Model Builder, or Hy
 4. online publishing or dashboard integration
 5. audit and human acceptance
 
+If the task mentions data-driven simulation, surrogate models, machine learning models, or ML-based soft sensors, treat HYSYS as the validated data source and baseline. Require an explicit design space, variable map, train/validation/test split, error metrics, model validity range, extrapolation limits, and human review path. Do not let a surrogate replace HYSYS runtime validation unless the user provides an approved project procedure.
+
 ### 7. Keep the package at the right depth
 
 This skill is for review-stage basic process package work, not detailed design by default.
@@ -192,7 +194,7 @@ Use external knowledge in this order:
 1. Official AspenTech HYSYS and Aspen Simulation Workbook product/support/training material
 2. Proven project-local runners, logs, and validated workcopies
 3. Community spreadsheet-bridge examples and reusable HYSYS automation snippets
-4. Recent AI-for-HYSYS research when the user asks for agentic or diagram-to-simulation workflows
+4. Recent AI-for-HYSYS research when the user asks for agentic, diagram-to-simulation, surrogate-model, or digital-twin workflows
 5. Secondary community material only as fallback
 
 ## Output expectations
