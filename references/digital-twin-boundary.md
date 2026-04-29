@@ -23,7 +23,7 @@
 |---|---|---|
 | Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models | [CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](../CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE 论文元数据，补强“HYSYS 仿真数据 -> ML surrogate / soft sensor / 快速估算层”的研究证据，同时保留访问限制和不替代 HYSYS baseline 的边界。 |
 | Artificial intelligence-driven surrogate modeling for computationally efficient and digitally decarbonized LNG process optimization under varying feed composition | [CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html](../CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html) | 记录 2026 JCP LNG surrogate 论文元数据，补强“仿真数据 -> Random Forest surrogate -> LNG 优化/计算时间与数字碳足迹降低”的证据。 |
-| On the use of Surrogate Models to enhance the production planning of sustainable aviation fuels via the hydroprocessed esters and fatty acids process | [CASE/notes/heartbeat-scan-2026-04-28.md](../CASE/notes/heartbeat-scan-2026-04-28.md) | 记录 HEFA production planning surrogate 线索和 SSRN 访问限制；用于提醒 surrogate 可连接生产计划系统，但本 skill 不替代 Aspen PIMS-AO、AI Model Builder 或商业计划优化器。 |
+| On the use of Surrogate Models for the Production Planning of biofuels via Hydro-processed Esters and Fatty Acids (HEFA) process | [CASE/notes/heartbeat-scan-2026-04-30.md](../CASE/notes/heartbeat-scan-2026-04-30.md) | 记录 HEFA / SAF production planning surrogate 线索和 ScienceDirect/AIChE/SSRN 访问限制；用于提醒 surrogate 可连接生产计划系统，但本 skill 不替代 Aspen PIMS-AO、AI Model Builder 或商业计划优化器。 |
 
 ## 应该如何影响本项目
 
@@ -97,6 +97,16 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. 若涉及 online deployment，先识别 Aspen OnLine、dashboard、historian、DCS/APC、PIMS 或其他外部商业系统是否已存在，并把它们作为外部边界。
 4. 本 skill 可以整理变量映射、KPI 定义、运行记录、异常解释和报告，但不默认发布在线模型或闭环接管生产控制。
 5. 任何动态响应、在线预测或计划优化结果，都必须保留数据时间戳、模型版本、有效范围和人工验收记录。
+
+## Planning Surrogate 任务默认边界
+
+当用户要求 production planning、PIMS、SAF/HEFA 生产计划、供应链情景筛选或计划优化 surrogate 时，默认职责应限定为：
+
+1. 先区分 rigorous simulation、surrogate model、planning optimizer 和商业计划系统的职责。
+2. 明确目标函数、约束、计划周期、feedstock 场景、产品规格、价格/碳约束和可行性筛选逻辑。
+3. surrogate 只能作为计划模型的快速评估层，不能替代 HYSYS 机理模型、PIMS 优化器或人工商业决策。
+4. 若输出将进入 PIMS/APC/DCS/online 系统，必须要求项目既有批准流程和人类验收记录。
+5. 对 SAF/HEFA 等政策敏感场景，必须显式标注数据来源、政策假设和适用区域，避免把论文案例收益直接套用到项目。
 
 ## 与控制通道矩阵的关系
 
