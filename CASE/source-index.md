@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-04-30（Asia/Shanghai）
+最近心跳测试：2026-05-01（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -45,6 +45,7 @@
 | 研究 | [research/sketch2simulation-arxiv-2603.24629-abstract.html](research/sketch2simulation-arxiv-2603.24629-abstract.html) | 保留论文摘要页面与原始编号 | [Sketch2Simulation abstract](https://arxiv.org/abs/2603.24629) | HTML 快照 |
 | 研究 | [research/hysys-coding-platforms-jglobal-2025.html](research/hysys-coding-platforms-jglobal-2025.html) | 记录 2025 Computers & Chemical Engineering 论文书目信息：Python-HYSYS 对象层级、特殊对象、backdoor variables 和仿真优化/技术经济工具 | [J-GLOBAL article metadata](https://jglobal.jst.go.jp/en/public/202502285695228497) | HTML 元数据；原文 DOI `10.1016/j.compchemeng.2025.109247` |
 | 研究 | [research/hysys-interconnection-methodologies-sim2-2022.pdf](research/hysys-interconnection-methodologies-sim2-2022.pdf) | 对比 HYSYS direct communication、indirect communication、internal spreadsheets、data tables 四类连接方式，为控制通道选择提供同行评议依据 | [SIM2 public PDF](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf) | 真 PDF；ScienceDirect DOI `10.1016/j.compchemeng.2022.107785` |
+| 研究 | [notes/heartbeat-scan-2026-05-01.md](notes/heartbeat-scan-2026-05-01.md) | 记录 2026 International Journal of Hydrogen Energy 氢液化论文线索：Aspen HYSYS V12 + Python COM automation interface 用于系统化数据提取、模块化仿真、自动敏感性和优化分析 | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0360319925061464) | ScienceDirect 摘要页下载失败；仅保存 CASE 笔记，不保存伪快照 |
 | 研究 | [research/pinn-digital-twin-arxiv-2603.24644.pdf](research/pinn-digital-twin-arxiv-2603.24644.pdf) | 证明 HYSYS 生成动态数据后可进入 PINN / digital twin / soft sensing / MPC / anomaly detection 研究链路 | [PINN digital twin PDF](https://arxiv.org/pdf/2603.24644.pdf) | 真 PDF，不等同于直接 COM 控制 |
 | 研究 | [research/pinn-digital-twin-arxiv-2603.24644-abstract.html](research/pinn-digital-twin-arxiv-2603.24644-abstract.html) | 保留 PINN 数字孪生论文摘要页面与原始编号 | [PINN digital twin abstract](https://arxiv.org/abs/2603.24644) | HTML 快照 |
 | 研究 | [notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE HYSYS 原油蒸馏 + 机器学习代理模型论文的元数据、访问限制、价值判断和边界结论 | [ResearchGate metadata](https://www.researchgate.net/publication/400895104_Data-driven_simulation_of_crude_distillation_using_Aspen_HYSYS_and_comparative_machine_learning_models), [DOI](https://doi.org/10.1002/cjce.70297) | Wiley/ResearchGate 匿名抓取受访问控制阻断；仅保存 CASE 笔记，不保存伪 PDF |
@@ -58,6 +59,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-04-27.md](notes/heartbeat-scan-2026-04-27.md) | 记录 2026-04-27 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-04-28.md](notes/heartbeat-scan-2026-04-28.md) | 记录 2026-04-28 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-04-30.md](notes/heartbeat-scan-2026-04-30.md) | 记录 2026-04-30 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-01.md](notes/heartbeat-scan-2026-05-01.md) | 记录 2026-05-01 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

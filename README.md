@@ -292,6 +292,7 @@ Recent AI paper:
 
 HYSYS automation and interconnection papers:
 
+- [Hydrogen liquefaction study using Aspen HYSYS V12 with Python COM automation](https://www.sciencedirect.com/science/article/abs/pii/S0360319925061464)
 - [Integrating coding platforms with process simulators for custom applications](https://www.sciencedirect.com/science/article/pii/S0098135425002510)
 - [A comparative study on Aspen HYSYS interconnection methodologies](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf)
 

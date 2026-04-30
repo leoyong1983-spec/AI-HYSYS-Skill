@@ -28,6 +28,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-04-30 自动心跳补强 HEFA / SAF production planning surrogate 证据：[notes/heartbeat-scan-2026-04-30.md](heartbeat-scan-2026-04-30.md) 记录了 ScienceDirect、AIChE 和 SSRN 访问限制以及可核验元数据。项目结论是：surrogate 可作为计划优化和情景筛选的加速层，但 AI-HYSYS-Skill 不替代 Aspen PIMS-AO、AI Model Builder、Aspen OnLine、APC/DCS 或人类工程审核。
 
+2026-05-01 自动心跳补强 direct COM 主通道证据：[notes/heartbeat-scan-2026-05-01.md](heartbeat-scan-2026-05-01.md) 记录了氢液化论文的公开摘要信息。其关键价值是明确展示 Aspen HYSYS V12 可通过 Python scripts 与 COM automation interface 集成，用于系统化数据提取、模块化仿真、自动敏感性和优化分析。这支持本仓库把 direct COM 作为正式主通道，但仍要求单点 smoke test、solver 策略、schema 冻结和人工审核。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

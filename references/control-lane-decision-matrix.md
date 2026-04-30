@@ -10,8 +10,9 @@
 
 1. [hysys-interconnection-methodologies-sim2-2022.pdf](../CASE/research/hysys-interconnection-methodologies-sim2-2022.pdf) 把 HYSYS interconnection 拆成 direct communication、indirect communication、internal spreadsheets、data tables 四类。
 2. [hysys-coding-platforms-jglobal-2025.html](../CASE/research/hysys-coding-platforms-jglobal-2025.html) 记录了 2025 年论文对 Python-HYSYS 对象层级、特殊对象、backdoor variables、优化和技术经济工具的讨论。
-3. [Aspen Simulation Workbook](../CASE/official/aspen-simulation-workbook-product-page.html) 和社区 spreadsheet bridge 示例证明，tagged IO 层是合理工程接口，不是临时凑合。
-4. [scripts/hysys_automation.py](../scripts/hysys_automation.py) 是本仓库内置 direct COM starter wrapper，用于把主通道固化成可审计代码。
+3. [heartbeat-scan-2026-05-01.md](../CASE/notes/heartbeat-scan-2026-05-01.md) 记录了 HYSYS V12 + Python COM 用于系统化数据提取、模块化仿真、自动敏感性和优化分析的公开论文线索。
+4. [Aspen Simulation Workbook](../CASE/official/aspen-simulation-workbook-product-page.html) 和社区 spreadsheet bridge 示例证明，tagged IO 层是合理工程接口，不是临时凑合。
+5. [scripts/hysys_automation.py](../scripts/hysys_automation.py) 是本仓库内置 direct COM starter wrapper，用于把主通道固化成可审计代码。
 
 ## 通道定义
 
@@ -33,6 +34,16 @@
 5. 如果变量只能通过 backdoor variables 或深层对象路径访问，先做单点 smoke test，确认单位、读写方向和 solver 状态，再允许批量写入。
 6. 如果只有 Excel/VBA、Matlab、C# 或中间文件桥已经跑通，允许作为 indirect lane，但必须记录它不是主真源。
 7. 如果以上都不稳定，只允许 GUI 做人工确认或临时诊断，不允许把 GUI 当生产自动化主路径。
+
+## 敏感性和优化任务的附加规则
+
+如果任务要用 Python COM 对 HYSYS 做系统化数据提取、模块化仿真、敏感性或优化分析，必须先补充：
+
+1. 子系统边界：哪些 unit operation、streams、utilities 和循环属于本轮模块。
+2. 数据 schema：每个输入、输出、KPI、单位、允许范围和缺失值处理规则。
+3. 求解策略：是否暂停 solver、如何恢复、如何等待收敛、如何记录失败样本。
+4. 批量策略：先跑单点 smoke test，再跑小批量，再进入全量敏感性或优化。
+5. 写回策略：默认只写 HYSYS workcopy，不直接写生产操作参数；优化建议必须进入人工复核。
 
 ## 批量写入前检查
 
