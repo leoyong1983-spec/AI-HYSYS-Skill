@@ -285,6 +285,8 @@ Community bridge example:
 Recent AI paper:
 
 - [Sketch2Simulation (arXiv:2603.24629)](https://arxiv.org/abs/2603.24629)
+- [From Text to Simulation (arXiv:2601.06776)](https://arxiv.org/abs/2601.06776)
+- [Large Language Model Agent for User-friendly Chemical Process Simulations (arXiv:2601.11650)](https://arxiv.org/abs/2601.11650)
 - [PINN Digital Twin for Aspen HYSYS generated dynamic data (arXiv:2603.24644)](https://arxiv.org/abs/2603.24644)
 - [Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models](https://doi.org/10.1002/cjce.70297)
 - [AI-driven surrogate modeling for LNG process optimization](https://doi.org/10.1016/j.jclepro.2026.148110)

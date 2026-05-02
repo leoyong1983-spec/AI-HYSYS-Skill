@@ -30,6 +30,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-01 自动心跳补强 direct COM 主通道证据：[notes/heartbeat-scan-2026-05-01.md](heartbeat-scan-2026-05-01.md) 记录了氢液化论文的公开摘要信息。其关键价值是明确展示 Aspen HYSYS V12 可通过 Python scripts 与 COM automation interface 集成，用于系统化数据提取、模块化仿真、自动敏感性和优化分析。这支持本仓库把 direct COM 作为正式主通道，但仍要求单点 smoke test、solver 策略、schema 冻结和人工审核。
 
+2026-05-02 自动心跳补强 LLM agent / text-to-simulation 证据：[research/text-to-simulation-arxiv-2601.06776.pdf](../research/text-to-simulation-arxiv-2601.06776.pdf) 展示从文本过程规格到可计算仿真配置的多智能体工作流；[research/llm-agent-process-simulation-arxiv-2601.11650.pdf](../research/llm-agent-process-simulation-arxiv-2601.11650.pdf) 展示 LLM agent 通过 MCP server 和 Python 与严谨流程模拟器交互。项目结论是：agentic simulation 可以借鉴工具边界、分步构建、数据提取、优化和专家监督模式，但 AI-HYSYS-Skill 的生产默认仍是接管已有可运行 HYSYS case，不是单提示从零建模。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

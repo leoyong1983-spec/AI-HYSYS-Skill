@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-01（Asia/Shanghai）
+最近心跳测试：2026-05-02（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -43,6 +43,10 @@
 | 社区 | [community/Test_1.hsc](community/Test_1.hsc) | 公开样例 case，可作为 bridge 演示输入 | [raw file](https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/Test_1.hsc) | 真 HSC 文件 |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629.pdf](research/sketch2simulation-arxiv-2603.24629.pdf) | 证明多智能体 LLM 已开始面向 Aspen HYSYS 生成可执行 Python COM 脚本 | [Sketch2Simulation PDF](https://arxiv.org/pdf/2603.24629.pdf) | 真 PDF |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629-abstract.html](research/sketch2simulation-arxiv-2603.24629-abstract.html) | 保留论文摘要页面与原始编号 | [Sketch2Simulation abstract](https://arxiv.org/abs/2603.24629) | HTML 快照 |
+| 研究 | [research/text-to-simulation-arxiv-2601.06776.pdf](research/text-to-simulation-arxiv-2601.06776.pdf) | 证明 LLM 多智能体已开始从文本过程规格生成可计算仿真配置；用于约束 greenfield 自动仿真仍属研究/原型路径 | [Text to Simulation PDF](https://arxiv.org/pdf/2601.06776) | 真 PDF；不等同于 HYSYS 生产级从零建模 |
+| 研究 | [research/text-to-simulation-arxiv-2601.06776-abstract.html](research/text-to-simulation-arxiv-2601.06776-abstract.html) | 保留 text-to-simulation 论文摘要页面与原始编号 | [Text to Simulation abstract](https://arxiv.org/abs/2601.06776) | HTML 快照 |
+| 研究 | [research/llm-agent-process-simulation-arxiv-2601.11650.pdf](research/llm-agent-process-simulation-arxiv-2601.11650.pdf) | 记录 LLM agent 通过 MCP server 和 Python 与严谨流程模拟器交互的跨模拟器证据；用于补强工具边界、step-by-step 模式和专家监督要求 | [LLM agent process simulation PDF](https://arxiv.org/pdf/2601.11650) | 真 PDF；AVEVA APS 案例，不是 HYSYS 直接证据 |
+| 研究 | [research/llm-agent-process-simulation-arxiv-2601.11650-abstract.html](research/llm-agent-process-simulation-arxiv-2601.11650-abstract.html) | 保留 LLM agent process simulation 论文摘要页面与原始编号 | [LLM agent process simulation abstract](https://arxiv.org/abs/2601.11650) | HTML 快照 |
 | 研究 | [research/hysys-coding-platforms-jglobal-2025.html](research/hysys-coding-platforms-jglobal-2025.html) | 记录 2025 Computers & Chemical Engineering 论文书目信息：Python-HYSYS 对象层级、特殊对象、backdoor variables 和仿真优化/技术经济工具 | [J-GLOBAL article metadata](https://jglobal.jst.go.jp/en/public/202502285695228497) | HTML 元数据；原文 DOI `10.1016/j.compchemeng.2025.109247` |
 | 研究 | [research/hysys-interconnection-methodologies-sim2-2022.pdf](research/hysys-interconnection-methodologies-sim2-2022.pdf) | 对比 HYSYS direct communication、indirect communication、internal spreadsheets、data tables 四类连接方式，为控制通道选择提供同行评议依据 | [SIM2 public PDF](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf) | 真 PDF；ScienceDirect DOI `10.1016/j.compchemeng.2022.107785` |
 | 研究 | [notes/heartbeat-scan-2026-05-01.md](notes/heartbeat-scan-2026-05-01.md) | 记录 2026 International Journal of Hydrogen Energy 氢液化论文线索：Aspen HYSYS V12 + Python COM automation interface 用于系统化数据提取、模块化仿真、自动敏感性和优化分析 | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0360319925061464) | ScienceDirect 摘要页下载失败；仅保存 CASE 笔记，不保存伪快照 |
@@ -60,6 +64,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-04-28.md](notes/heartbeat-scan-2026-04-28.md) | 记录 2026-04-28 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-04-30.md](notes/heartbeat-scan-2026-04-30.md) | 记录 2026-04-30 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-01.md](notes/heartbeat-scan-2026-05-01.md) | 记录 2026-05-01 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-02.md](notes/heartbeat-scan-2026-05-02.md) | 记录 2026-05-02 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

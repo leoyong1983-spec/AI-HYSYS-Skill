@@ -12,7 +12,8 @@
 2. [hysys-coding-platforms-jglobal-2025.html](../CASE/research/hysys-coding-platforms-jglobal-2025.html) 记录了 2025 年论文对 Python-HYSYS 对象层级、特殊对象、backdoor variables、优化和技术经济工具的讨论。
 3. [heartbeat-scan-2026-05-01.md](../CASE/notes/heartbeat-scan-2026-05-01.md) 记录了 HYSYS V12 + Python COM 用于系统化数据提取、模块化仿真、自动敏感性和优化分析的公开论文线索。
 4. [Aspen Simulation Workbook](../CASE/official/aspen-simulation-workbook-product-page.html) 和社区 spreadsheet bridge 示例证明，tagged IO 层是合理工程接口，不是临时凑合。
-5. [scripts/hysys_automation.py](../scripts/hysys_automation.py) 是本仓库内置 direct COM starter wrapper，用于把主通道固化成可审计代码。
+5. [text-to-simulation-arxiv-2601.06776.pdf](../CASE/research/text-to-simulation-arxiv-2601.06776.pdf) 和 [llm-agent-process-simulation-arxiv-2601.11650.pdf](../CASE/research/llm-agent-process-simulation-arxiv-2601.11650.pdf) 说明 LLM agent 可通过分步工具链生成、分析和优化仿真，但仍需要工具日志、收敛检查和专家监督。
+6. [scripts/hysys_automation.py](../scripts/hysys_automation.py) 是本仓库内置 direct COM starter wrapper，用于把主通道固化成可审计代码。
 
 ## 通道定义
 
@@ -44,6 +45,16 @@
 3. 求解策略：是否暂停 solver、如何恢复、如何等待收敛、如何记录失败样本。
 4. 批量策略：先跑单点 smoke test，再跑小批量，再进入全量敏感性或优化。
 5. 写回策略：默认只写 HYSYS workcopy，不直接写生产操作参数；优化建议必须进入人工复核。
+
+## LLM Agent 任务的附加规则
+
+如果任务要用 LLM agent、text-to-simulation、diagram-to-simulation 或 autonomous flowsheet construction 控制流程模拟器，必须先补充：
+
+1. 工具边界：agent 可以调用哪些 COM、spreadsheet、workbook、MCP 或脚本工具，哪些动作必须人工确认。
+2. 分步策略：优先 task understanding、topology、parameter configuration、evaluation 分段执行，不默认单提示到底。
+3. 证据链：保存 tool call、输入输出 schema、收敛状态、错误日志和人工复核记录。
+4. 适用范围：生产任务默认接管已有 HYSYS case；从零构建只允许作为研究、教学、草案或 smoke-test。
+5. 拒绝条件：缺少物性包、设备拓扑、单位、边界条件或收敛验证时，不允许进入批量调参或正式导出。
 
 ## 批量写入前检查
 

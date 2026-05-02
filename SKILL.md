@@ -154,6 +154,8 @@ If the task mentions data-driven simulation, surrogate models, machine learning 
 
 If the task mentions HYSYS Dynamics, online simulation, live process digital twin, Aspen OnLine, production planning, PIMS, distributed control systems, or APC, split the work into offline model preparation, dynamic/online conversion prerequisites, external commercial-system boundaries, validation evidence, and human acceptance. Do not imply this skill can publish online models, replace PIMS/APC/DCS, or close a production loop by itself.
 
+If the task mentions LLM agents, text-to-simulation, flowsheet synthesis, diagram-to-simulation, or autonomous case construction, treat it as research/prototyping unless an existing validated HYSYS case or approved project runner is available. Prefer step-by-step construction over single-prompt generation, preserve tool logs and convergence status, and require human review of topology, property package, parameters, units, and solver results before any engineering use.
+
 ### 7. Keep the package at the right depth
 
 This skill is for review-stage basic process package work, not detailed design by default.
@@ -196,7 +198,7 @@ Use external knowledge in this order:
 1. Official AspenTech HYSYS and Aspen Simulation Workbook product/support/training material
 2. Proven project-local runners, logs, and validated workcopies
 3. Community spreadsheet-bridge examples and reusable HYSYS automation snippets
-4. Recent AI-for-HYSYS research when the user asks for agentic, diagram-to-simulation, surrogate-model, LNG optimization, production-planning, or digital-twin workflows
+4. Recent AI-for-HYSYS or process-simulation agent research when the user asks for agentic, diagram-to-simulation, text-to-simulation, surrogate-model, LNG optimization, production-planning, or digital-twin workflows
 5. Secondary community material only as fallback
 
 ## Output expectations
