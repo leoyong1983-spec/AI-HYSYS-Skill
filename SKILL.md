@@ -154,6 +154,8 @@ If the task mentions data-driven simulation, surrogate models, machine learning 
 
 If the task mentions HYSYS Dynamics, online simulation, live process digital twin, Aspen OnLine, production planning, PIMS, distributed control systems, or APC, split the work into offline model preparation, dynamic/online conversion prerequisites, external commercial-system boundaries, validation evidence, and human acceptance. Do not imply this skill can publish online models, replace PIMS/APC/DCS, or close a production loop by itself.
 
+If the task mentions third-party rigorous models such as MySep, multi-unit plant digital twins, refinery process digital twins, live KPI monitoring, or unmeasured KPI inference, identify the HYSYS baseline, external model boundary, live data source, KPI schema, model version, and human acceptance owner before any automation work. Do not imply this skill can reproduce commercial live digital twin products or write recommendations directly to production systems.
+
 If the task mentions LLM agents, text-to-simulation, flowsheet synthesis, diagram-to-simulation, or autonomous case construction, treat it as research/prototyping unless an existing validated HYSYS case or approved project runner is available. Prefer step-by-step construction over single-prompt generation, preserve tool logs and convergence status, and require human review of topology, property package, parameters, units, and solver results before any engineering use.
 
 ### 7. Keep the package at the right depth

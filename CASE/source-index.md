@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-02（Asia/Shanghai）
+最近心跳测试：2026-05-05（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -28,6 +28,9 @@
 | 官方 | [official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例 PDF：保存 HPCL soft sensor 全文，补强 HYSYS + AI Model Builder + 实时质量/KPI 预测的工程证据 | [AspenTech HPCL Industrial AI PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy25/q5/at-4331_cs_hpcl_real_time_quality_control_v3.pdf) | 真 PDF |
 | 官方 | [official/aspentech-whats-new-v15-industrial-ai-2026.html](official/aspentech-whats-new-v15-industrial-ai-2026.html) | AspenTech V15 页面，补强 Industrial AI、AI Model Builder desktop、Aspen HYSYS/Plus green H2、Aspen OnLine for HYSYS and Aspen Plus 等当前产品语境 | [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new) | HTML 快照 |
 | 官方 | [official/aspen-hysys-online-simulation-models-webinar-2026.html](official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 on-demand webinar 页面：用 Aspen HYSYS models 部署 online simulations，支撑 KPI monitoring、process insights、节能减排和 troubleshooting 边界 | [Deploy Simulation Models Online Easily](https://www.aspentech.com/en/resources/on-demand-webinars/deploy-simulation-models-online-easily-gain-unrivaled-process-insights) | HTML 快照 |
+| 官方 | [official/aspen-hysys-mysep-live-process-digital-twin-2026.html](official/aspen-hysys-mysep-live-process-digital-twin-2026.html) | 官方 on-demand webinar 页面：Aspen HYSYS 与 MySep Engine 严谨分离器模型集成，形成 live process digital twin，用于 brownfield operations、carryover risk、throughput、energy efficiency 和 KPI limits | [AspenTech MySep live process digital twin webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-driving-throughput-and-efficiency-with-digital-twin) | HTML 快照 |
+| 官方 | [official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) | 官方案例页面：Saudi Aramco 使用 Aspen HYSYS 建立多个装置 plant digital twins，用于炼厂改造可行性分析和产能提升方案评估 | [AspenTech Saudi Aramco plant digital twin case study](https://www.aspentech.com/en/resources/case-studies/saudi-aramco-increases-capacity-by-100000-barrels-day-and-upgrades-bottom-of-the-barrel-products) | HTML 快照 |
+| 官方 | [official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html](official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html) | 官方 webinar 页面：Indian Oil Barauni Refinery 部署 Aspen HYSYS-based process digital twins，用于炼厂运行优化和不可实时测量 KPI 场景 | [AspenTech Indian Oil Barauni process digital twins webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-learn-how-a-major-indian-refinery-gained-substantial-benefits) | HTML 快照 |
 | 官方 | [official/aspentech-university-hysys-hybrid-ai-online-course-2026.html](official/aspentech-university-hysys-hybrid-ai-online-course-2026.html) | 官方培训页，说明 HYSYS/Aspen Plus 离线模型可结合 plant data、Hybrid Models 和 online digital twins 做监控、优化、洞察和故障支持 | [AspenTech University EHM105 course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA) | HTML 快照 |
 | 官方 | [official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) | EHM105 课程议程，覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布 | [EHM105 course agenda PDF](https://www.aspentech.com/-/media/aspentech/home/support-and-training/training-agendas/ehm105-course-agenda.pdf) | 真 PDF |
 | 官方 | [official/aspen-hybrid-models-customer-faq.pdf](official/aspen-hybrid-models-customer-faq.pdf) | Hybrid Models FAQ，补强 AI + first principles + simulation/plant data 的边界说明，适合约束 hybrid AI 不替代 HYSYS baseline | [Aspen Hybrid Models FAQ PDF](https://www.aspentech.com/-/media/aspentech/home/resources/faq-documents/pdfs/fy22/q2/at-06496-hybrid-models-customer-faq.pdf?sc_lang=en) | 真 PDF |
@@ -65,6 +68,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-04-30.md](notes/heartbeat-scan-2026-04-30.md) | 记录 2026-04-30 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-01.md](notes/heartbeat-scan-2026-05-01.md) | 记录 2026-05-01 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-02.md](notes/heartbeat-scan-2026-05-02.md) | 记录 2026-05-02 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-05.md](notes/heartbeat-scan-2026-05-05.md) | 记录 2026-05-05 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

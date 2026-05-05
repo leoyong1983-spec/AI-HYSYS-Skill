@@ -277,6 +277,9 @@ Official AspenTech pages:
 - [AspenTech EHM105 AI-Powered Digital Twins course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA)
 - [Aspen HYSYS Dynamics product page](https://www.aspentech.com/en/products/engineering/aspen-hysys-dynamics)
 - [Deploy Simulation Models Online Easily Gain Unrivaled Process Insights](https://www.aspentech.com/en/resources/on-demand-webinars/deploy-simulation-models-online-easily-gain-unrivaled-process-insights)
+- [Live process digital twin using Aspen HYSYS and MySep](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-driving-throughput-and-efficiency-with-digital-twin)
+- [Saudi Aramco plant digital twin case study](https://www.aspentech.com/en/resources/case-studies/saudi-aramco-increases-capacity-by-100000-barrels-day-and-upgrades-bottom-of-the-barrel-products)
+- [Indian Oil Barauni process digital twins webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-learn-how-a-major-indian-refinery-gained-substantial-benefits)
 
 Community bridge example:
 

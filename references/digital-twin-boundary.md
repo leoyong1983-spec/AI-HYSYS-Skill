@@ -13,6 +13,9 @@
 | Real-Time Quality Control: How HPCL Uses Industrial AI | [CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例展示 Aspen AI Model Builder + Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测质量参数，支持实时质量控制和成本优化。 |
 | AspenTech V15 What's New | [CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html](../CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html) | 官方 V15 页面把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus、Aspen OnLine for HYSYS and Aspen Plus 放在同一产品语境中。 |
 | Deploy Simulation Models Online Easily Gain Unrivaled Process Insights | [CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html](../CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 webinar 页面把 Aspen HYSYS models、online simulations、KPI monitoring、process insights、节能减排和 troubleshooting 放在同一工作流中。 |
+| Operational Resilience with a Live Process Digital Twin using Aspen HYSYS and MySep | [CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html](../CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html) | 官方 webinar 页面说明 Aspen HYSYS 可与 MySep Engine 的严谨分离器模型集成，形成 live process digital twin，用于 brownfield operations、carryover risk、throughput、energy efficiency 和 KPI limits。 |
+| Saudi Aramco Increases Refinery Capacity by 100,000 Barrels/Day Using Plant Digital Twin | [CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](../CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) | 官方案例说明 Saudi Aramco 使用 Aspen HYSYS 建立多个装置 plant digital twins，用于炼厂改造可行性分析和处理能力提升方案评估。 |
+| Indian Oil Corporation Barauni Refinery Process Digital Twins | [CASE/official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html](../CASE/official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html) | 官方 webinar 页面说明 Barauni Refinery 部署 Aspen HYSYS-based process digital twins，适合约束不可实时测量 KPI 和炼厂运行优化场景。 |
 | Aspen HYSYS Dynamics | [CASE/official/aspen-hysys-dynamics-product-page-2026.html](../CASE/official/aspen-hysys-dynamics-product-page-2026.html) | 官方产品页说明 HYSYS Dynamics 支持动态仿真、瞬态条件分析和控制方案验证；用于约束动态任务的基线、转换和审核边界。 |
 | EHM105 - Unlock Operational Excellence with AI-Powered Digital Twins | [CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](../CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) | 官方培训议程明确覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布。 |
 | Aspen Hybrid Models Customer FAQ | [CASE/official/aspen-hybrid-models-customer-faq.pdf](../CASE/official/aspen-hybrid-models-customer-faq.pdf) | FAQ 强调 Hybrid Models 是 AI、first principles、simulation/plant data 和领域知识的组合，适合约束 hybrid AI 的工程边界。 |
@@ -97,6 +100,16 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. 若涉及 online deployment，先识别 Aspen OnLine、dashboard、historian、DCS/APC、PIMS 或其他外部商业系统是否已存在，并把它们作为外部边界。
 4. 本 skill 可以整理变量映射、KPI 定义、运行记录、异常解释和报告，但不默认发布在线模型或闭环接管生产控制。
 5. 任何动态响应、在线预测或计划优化结果，都必须保留数据时间戳、模型版本、有效范围和人工验收记录。
+
+## Live / Multi-Unit Digital Twin 任务默认边界
+
+当用户要求 live process digital twin、第三方严谨模型集成、多装置 plant digital twin、refinery process digital twins 或不可实时测量 KPI 支持时，默认职责应限定为：
+
+1. 先拆分 HYSYS baseline、第三方模型、historian / live data、dashboard / online layer、KPI schema 和人工验收责任。
+2. 如果涉及 MySep、专有分离器模型或其他外部模型，必须把外部模型接口、版本、变量映射和验证责任列为边界。
+3. 多装置 digital twin 要按 unit-level model、site-level scenario、cross-unit material/energy balance、数据时间戳和场景假设分别记录。
+4. 不可实时测量 KPI 只能作为推断或软测量输出，默认需要现场数据校准和人工复核，不允许直接闭环写回。
+5. 本 skill 可以生成接入清单、KPI 表、异常解释和审计报告，但不默认复刻 AspenTech / MySep / Aspen OnLine 等商业 live digital twin 产品能力。
 
 ## Planning Surrogate 任务默认边界
 

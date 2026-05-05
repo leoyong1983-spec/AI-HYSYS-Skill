@@ -32,6 +32,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-02 自动心跳补强 LLM agent / text-to-simulation 证据：[research/text-to-simulation-arxiv-2601.06776.pdf](../research/text-to-simulation-arxiv-2601.06776.pdf) 展示从文本过程规格到可计算仿真配置的多智能体工作流；[research/llm-agent-process-simulation-arxiv-2601.11650.pdf](../research/llm-agent-process-simulation-arxiv-2601.11650.pdf) 展示 LLM agent 通过 MCP server 和 Python 与严谨流程模拟器交互。项目结论是：agentic simulation 可以借鉴工具边界、分步构建、数据提取、优化和专家监督模式，但 AI-HYSYS-Skill 的生产默认仍是接管已有可运行 HYSYS case，不是单提示从零建模。
 
+2026-05-05 自动心跳新增三类 AspenTech 官方 digital twin 证据：[official/aspen-hysys-mysep-live-process-digital-twin-2026.html](../official/aspen-hysys-mysep-live-process-digital-twin-2026.html) 展示 Aspen HYSYS 与 MySep Engine 集成形成 live process digital twin；[official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](../official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) 展示 Saudi Aramco 使用 HYSYS 建立多个装置 plant digital twins 做炼厂改造可行性分析；[official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html](../official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html) 展示 Indian Oil Barauni Refinery 部署 HYSYS-based process digital twins。项目结论是：AI-HYSYS-Skill 可以服务 live/multi-unit/refinery digital twin 的前置整理、KPI schema、外部系统边界和审计输出，但不能宣称复刻商业 live digital twin 或自动闭环控制。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
