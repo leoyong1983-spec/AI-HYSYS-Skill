@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-05（Asia/Shanghai）
+最近心跳测试：2026-05-11（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -11,6 +11,7 @@
 2. `community/` 里的公开仓库用于证明 Python 控制 HYSYS 的 spreadsheet bridge 路径已经有人公开落地。
 3. `research/` 里的论文用于证明 AI + HYSYS 的公开研究路径，包括生成可执行建模脚本、用 HYSYS 仿真数据训练代理模型/数字孪生，但不能自动等同于生产闭环。
 4. `notes/` 里的中文文件用于把这些来源压缩成可发布、可讲述、可复用的话术和方法论。
+5. SCADA / Modbus / OPC-style 资料只用于外部监督、培训、dashboard 或 digital twin testbed 边界，不等同于生产闭环控制授权。
 
 ## 索引表
 
@@ -44,6 +45,9 @@
 | 社区 | [community/HYSYS_python_spreadsheets.py](community/HYSYS_python_spreadsheets.py) | 直接展示 `win32com` + spreadsheet 连接方式 | [raw file](https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/HYSYS_python_spreadsheets.py) | 代码快照 |
 | 社区 | [community/Test_1.py](community/Test_1.py) | 展示 solver 开关和等待求解完成的控制节奏 | [raw file](https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/Test_1.py) | 代码快照 |
 | 社区 | [community/Test_1.hsc](community/Test_1.hsc) | 公开样例 case，可作为 bridge 演示输入 | [raw file](https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/Test_1.hsc) | 真 HSC 文件 |
+| 社区 | [community/SCADABR-PYTHON-README.md](community/SCADABR-PYTHON-README.md) | 公开 Python-SCADABR/Modbus 教程，辅助理解 HYSYS/Python/ScadaBR 论文中的外部监督桥接层 | [LizandroCloud/SCADABR-PYTHON](https://github.com/LizandroCloud/SCADABR-PYTHON) | 不是 HYSYS API 文档；只作 SCADA bridge 参考 |
+| 社区 | [community/SCADABR-PYTHON-servidor.py](community/SCADABR-PYTHON-servidor.py) | 展示 Python 端 Modbus server/bridge 写法，可为培训、dashboard 或 testbed 提供接口参考 | [raw file](https://raw.githubusercontent.com/LizandroCloud/SCADABR-PYTHON/main/tutorial/servidor.py) | 代码快照 |
+| 社区 | [community/SCADABR-PYTHON-teste-scada.py](community/SCADABR-PYTHON-teste-scada.py) | 展示 Python 与 SCADA 通信测试脚本节奏 | [raw file](https://raw.githubusercontent.com/LizandroCloud/SCADABR-PYTHON/main/tutorial/teste-scada.py) | 代码快照 |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629.pdf](research/sketch2simulation-arxiv-2603.24629.pdf) | 证明多智能体 LLM 已开始面向 Aspen HYSYS 生成可执行 Python COM 脚本 | [Sketch2Simulation PDF](https://arxiv.org/pdf/2603.24629.pdf) | 真 PDF |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629-abstract.html](research/sketch2simulation-arxiv-2603.24629-abstract.html) | 保留论文摘要页面与原始编号 | [Sketch2Simulation abstract](https://arxiv.org/abs/2603.24629) | HTML 快照 |
 | 研究 | [research/text-to-simulation-arxiv-2601.06776.pdf](research/text-to-simulation-arxiv-2601.06776.pdf) | 证明 LLM 多智能体已开始从文本过程规格生成可计算仿真配置；用于约束 greenfield 自动仿真仍属研究/原型路径 | [Text to Simulation PDF](https://arxiv.org/pdf/2601.06776) | 真 PDF；不等同于 HYSYS 生产级从零建模 |
@@ -52,12 +56,16 @@
 | 研究 | [research/llm-agent-process-simulation-arxiv-2601.11650-abstract.html](research/llm-agent-process-simulation-arxiv-2601.11650-abstract.html) | 保留 LLM agent process simulation 论文摘要页面与原始编号 | [LLM agent process simulation abstract](https://arxiv.org/abs/2601.11650) | HTML 快照 |
 | 研究 | [research/hysys-coding-platforms-jglobal-2025.html](research/hysys-coding-platforms-jglobal-2025.html) | 记录 2025 Computers & Chemical Engineering 论文书目信息：Python-HYSYS 对象层级、特殊对象、backdoor variables 和仿真优化/技术经济工具 | [J-GLOBAL article metadata](https://jglobal.jst.go.jp/en/public/202502285695228497) | HTML 元数据；原文 DOI `10.1016/j.compchemeng.2025.109247` |
 | 研究 | [research/hysys-interconnection-methodologies-sim2-2022.pdf](research/hysys-interconnection-methodologies-sim2-2022.pdf) | 对比 HYSYS direct communication、indirect communication、internal spreadsheets、data tables 四类连接方式，为控制通道选择提供同行评议依据 | [SIM2 public PDF](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf) | 真 PDF；ScienceDirect DOI `10.1016/j.compchemeng.2022.107785` |
+| 研究 | [research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) | 2026 Methane 论文，描述 Aspen HYSYS/Python 与 ScadaBR 通过 Modbus 连接，用于实时监控、监督和动态模型验证 | [MDPI DOI](https://doi.org/10.3390/methane5010008) | 真 PDF；高价值直接 HYSYS/Python/SCADA 证据 |
+| 研究 | [research/hysys-scadabr-python-supervisory-control-mdpi-2026-crossref.json](research/hysys-scadabr-python-supervisory-control-mdpi-2026-crossref.json) | 保存 HYSYS/Python/ScadaBR 论文的 Crossref 元数据、摘要、发布日期和开放许可 | [Crossref metadata](https://api.crossref.org/works/10.3390/methane5010008) | JSON 元数据 |
 | 研究 | [notes/heartbeat-scan-2026-05-01.md](notes/heartbeat-scan-2026-05-01.md) | 记录 2026 International Journal of Hydrogen Energy 氢液化论文线索：Aspen HYSYS V12 + Python COM automation interface 用于系统化数据提取、模块化仿真、自动敏感性和优化分析 | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0360319925061464) | ScienceDirect 摘要页下载失败；仅保存 CASE 笔记，不保存伪快照 |
 | 研究 | [research/pinn-digital-twin-arxiv-2603.24644.pdf](research/pinn-digital-twin-arxiv-2603.24644.pdf) | 证明 HYSYS 生成动态数据后可进入 PINN / digital twin / soft sensing / MPC / anomaly detection 研究链路 | [PINN digital twin PDF](https://arxiv.org/pdf/2603.24644.pdf) | 真 PDF，不等同于直接 COM 控制 |
 | 研究 | [research/pinn-digital-twin-arxiv-2603.24644-abstract.html](research/pinn-digital-twin-arxiv-2603.24644-abstract.html) | 保留 PINN 数字孪生论文摘要页面与原始编号 | [PINN digital twin abstract](https://arxiv.org/abs/2603.24644) | HTML 快照 |
 | 研究 | [notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE HYSYS 原油蒸馏 + 机器学习代理模型论文的元数据、访问限制、价值判断和边界结论 | [ResearchGate metadata](https://www.researchgate.net/publication/400895104_Data-driven_simulation_of_crude_distillation_using_Aspen_HYSYS_and_comparative_machine_learning_models), [DOI](https://doi.org/10.1002/cjce.70297) | Wiley/ResearchGate 匿名抓取受访问控制阻断；仅保存 CASE 笔记，不保存伪 PDF |
 | 研究 | [research/hysys-lng-surrogate-jcp-2026-metadata.html](research/hysys-lng-surrogate-jcp-2026-metadata.html) | 记录 2026 Journal of Cleaner Production LNG surrogate 论文元数据，补强“仿真数据 -> ML surrogate -> LNG 优化/低数字碳足迹”的研究证据 | [SQU metadata](https://squ.elsevierpure.com/en/publications/artificial-intelligence-driven-surrogate-modeling-for-computation/), [DOI](https://doi.org/10.1016/j.jclepro.2026.148110) | HTML 元数据；ScienceDirect 摘要页显示使用 Aspen HYSYS V14，不保存全文 |
 | 研究 | [notes/heartbeat-scan-2026-04-30.md](notes/heartbeat-scan-2026-04-30.md) | 记录 HEFA / SAF production planning surrogate 论文线索、访问限制和项目边界；补强 surrogate 与 PIMS/计划优化系统之间的边界 | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S009813542600102X), [SSRN DOI](https://doi.org/10.2139/ssrn.5373950) | ScienceDirect/AIChE/SSRN 匿名访问受限；仅保存 CASE 笔记，不保存伪快照 |
+| 研究 | [research/reasoning-agent-distillation-nature-2026.pdf](research/reasoning-agent-distillation-nature-2026.pdf) | 2026 Nature Communications Engineering 论文，展示 LLM reasoning agent 自动化流程仿真、优化、碳核算和节能方案构建 | [Nature DOI](https://doi.org/10.1038/s44172-025-00583-3) | 真 PDF；Aspen Plus 相邻证据，不是 HYSYS 直接证据 |
+| 研究 | [research/reasoning-agent-distillation-nature-2026.html](research/reasoning-agent-distillation-nature-2026.html) | 保存 reasoning-agent distillation 论文页面，用于核对 DOI、发布日期、摘要和开放状态 | [Nature article page](https://www.nature.com/articles/s44172-025-00583-3) | HTML 快照 |
 | 本地沉淀 | [notes/local-lng-hysys-study.md](notes/local-lng-hysys-study.md) | 你自己已有的 HYSYS LNG 学习与模板提炼沉淀 | 本地文件复制 | 不是公网来源，但很适合并入技能经验层 |
 | 本地沉淀 | [notes/local-lng-route-template.md](notes/local-lng-route-template.md) | 你自己已有的液化路线选择模板 | 本地文件复制 | 用于后续场景化扩展 |
 | 中文总结 | [notes/hysys-source-digest.md](notes/hysys-source-digest.md) | 把官方、社区、研究三类资料压缩成技能设计结论 | 本仓库 | 推荐先读 |
@@ -69,6 +77,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-01.md](notes/heartbeat-scan-2026-05-01.md) | 记录 2026-05-01 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-02.md](notes/heartbeat-scan-2026-05-02.md) | 记录 2026-05-02 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-05.md](notes/heartbeat-scan-2026-05-05.md) | 记录 2026-05-05 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-11.md](notes/heartbeat-scan-2026-05-11.md) | 记录 2026-05-11 自动心跳保存的 HYSYS/Python/ScadaBR、SCADABR-PYTHON 和 reasoning-agent 资料、价值判断、项目改进和边界结论 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

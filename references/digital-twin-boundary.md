@@ -27,6 +27,8 @@
 | Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models | [CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](../CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE 论文元数据，补强“HYSYS 仿真数据 -> ML surrogate / soft sensor / 快速估算层”的研究证据，同时保留访问限制和不替代 HYSYS baseline 的边界。 |
 | Artificial intelligence-driven surrogate modeling for computationally efficient and digitally decarbonized LNG process optimization under varying feed composition | [CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html](../CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html) | 记录 2026 JCP LNG surrogate 论文元数据，补强“仿真数据 -> Random Forest surrogate -> LNG 优化/计算时间与数字碳足迹降低”的证据。 |
 | On the use of Surrogate Models for the Production Planning of biofuels via Hydro-processed Esters and Fatty Acids (HEFA) process | [CASE/notes/heartbeat-scan-2026-04-30.md](../CASE/notes/heartbeat-scan-2026-04-30.md) | 记录 HEFA / SAF production planning surrogate 线索和 ScienceDirect/AIChE/SSRN 访问限制；用于提醒 surrogate 可连接生产计划系统，但本 skill 不替代 Aspen PIMS-AO、AI Model Builder 或商业计划优化器。 |
+| Supervisory Monitoring and Control Using Chemical Process Simulators and SCADA Systems | [CASE/research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](../CASE/research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) | 2026 Methane 论文展示 Aspen HYSYS/Python 与 ScadaBR 通过 Modbus 做实时监控、监督和动态模型验证；用于补强 external supervisory interface 边界。 |
+| Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation | [CASE/research/reasoning-agent-distillation-nature-2026.pdf](../CASE/research/reasoning-agent-distillation-nature-2026.pdf) | 2026 Communications Engineering 论文展示 LLM reasoning agent 自动化流程仿真、优化、碳核算和节能方案构建；属于 Aspen Plus 相邻证据，不是 HYSYS 直接证据。 |
 
 ## 应该如何影响本项目
 
@@ -38,6 +40,8 @@
 4. 如果项目已有 historian、soft sensor、dashboard 或 hybrid model，AI-HYSYS-Skill 应先识别这些现成资产，再决定是否接入。
 5. 如果项目要从 offline simulation 走向 online digital twin，应把 plant data、Excel/HYSYS Workbook、AI Model Builder、Hybrid Models、Aspen OnLine 发布和人工校验责任拆开，不要混成一个“AI 自动完成”的黑箱。
 6. 如果目标是 soft sensor 或在线质量预测，AI-HYSYS-Skill 应先定义 KPI、预测频率、数据源、HYSYS baseline、模型有效范围、报警/报告口径和人工验收责任。
+7. 如果目标是 SCADA/Modbus/OPC-style 外部监督，AI-HYSYS-Skill 应先定义 tag schema、读写权限、刷新频率、仿真/培训/生产边界、回写审批和失败保护策略。
+8. 如果目标是 reasoning-agent 碳核算或节能优化，AI-HYSYS-Skill 应把仿真器结果、优化建议、能源情景、碳因子和人工工程复核分开。
 
 ## 不应该如何使用
 
@@ -48,6 +52,8 @@
 3. hybrid model 可以替代 case baseline、物性包、设备拓扑和人工审核。
 4. 官方案例的经济收益可以直接套用到本项目。
 5. 开源 skill 可以复刻 Aspen OnLine、AI Model Builder 或商业 Hybrid Models 产品能力。
+6. SCADA/Modbus 桥接成功可以自动升级为 DCS/APC/SIS 生产闭环控制。
+7. Aspen Plus reasoning-agent 论文可以直接证明 HYSYS 从零建模已适合生产交付。
 
 ## 推荐项目输出
 
@@ -60,6 +66,8 @@
 5. 明确说明哪些工作已由 HYSYS runtime 验证，哪些只是资料支持的设计建议。
 6. 若涉及 online deployment，明确 Aspen OnLine / AI Model Builder / Hybrid Models 是否只是外部商业系统入口，还是当前项目里已经配置好的可访问资产。
 7. 若涉及 soft sensor，明确它是只读预测、操作建议、还是允许回写到 HYSYS/workbook 的闭环控制建议；默认不允许自动闭环回写。
+8. 若涉及 SCADA、Modbus、OPC 或 dashboard，明确 tag 表、读写方向、刷新频率、报警/联锁边界、网络边界和人工批准责任。
+9. 若涉及 decarbonization 或 carbon accounting，明确能源情景、碳因子来源、适用区域、时间边界和复核人。
 
 ## Offline 到 Online 的拆分
 
@@ -110,6 +118,26 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. 多装置 digital twin 要按 unit-level model、site-level scenario、cross-unit material/energy balance、数据时间戳和场景假设分别记录。
 4. 不可实时测量 KPI 只能作为推断或软测量输出，默认需要现场数据校准和人工复核，不允许直接闭环写回。
 5. 本 skill 可以生成接入清单、KPI 表、异常解释和审计报告，但不默认复刻 AspenTech / MySep / Aspen OnLine 等商业 live digital twin 产品能力。
+
+## SCADA / Modbus Supervisory 任务默认边界
+
+当用户要求 HYSYS 与 SCADA、ScadaBR、Modbus、OPC、operator training system、dashboard 或外部监督系统连接时，默认职责应限定为：
+
+1. 先确认 HYSYS case 是 steady-state、dynamic case、training model 还是 online model。
+2. 明确每个 tag 的读写方向、单位、刷新频率、允许范围、默认值和失败策略。
+3. 默认只读监控或人工批准写入；任何自动写回都必须有项目批准流程、回滚策略和人工验收记录。
+4. 区分仿真测试台、培训系统、工程验证 dashboard 和真实 DCS/APC/SIS 生产控制系统。
+5. 本 skill 可以生成 tag schema、测试脚本、日志和报告，但不默认负责网络安全、现场控制权限或生产闭环运行。
+
+## Reasoning-Agent 碳核算 / 节能优化任务默认边界
+
+当用户要求 LLM agent 做 process simulation、optimization、carbon accounting、decarbonization 或 energy-saving 方案时，默认职责应限定为：
+
+1. 优先接管已有 HYSYS case 或项目 runner；若只是从文本/图纸生成模型，标记为研究或草案。
+2. 分开记录仿真输入、优化变量、约束、能源情景、碳因子、排放口径和结果导出。
+3. 优化建议只能作为候选工况或报告建议，必须回到 HYSYS runtime 或人工工程审核验证。
+4. 碳核算必须标注地区、年份、因子来源、边界和不确定性，不默认作为正式 ESG 或审计报告。
+5. 不把 Aspen Plus 上的 agent 成果直接等同为 HYSYS COM 控制或 HYSYS 生产级从零建模能力。
 
 ## Planning Surrogate 任务默认边界
 

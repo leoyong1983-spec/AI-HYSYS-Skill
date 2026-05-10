@@ -158,6 +158,10 @@ If the task mentions third-party rigorous models such as MySep, multi-unit plant
 
 If the task mentions LLM agents, text-to-simulation, flowsheet synthesis, diagram-to-simulation, or autonomous case construction, treat it as research/prototyping unless an existing validated HYSYS case or approved project runner is available. Prefer step-by-step construction over single-prompt generation, preserve tool logs and convergence status, and require human review of topology, property package, parameters, units, and solver results before any engineering use.
 
+If the task mentions SCADA, ScadaBR, Modbus, OPC, external supervisory interfaces, dashboards, operator training, or online monitoring, first classify the lane as simulation testbed, training system, engineering dashboard, or production control boundary. Require tag schema, read/write direction, units, refresh rate, failure behavior, rollback, and human approval before any writeback. Do not treat a SCADA bridge as permission for autonomous DCS/APC/SIS or production-loop control.
+
+If the task mentions carbon accounting, decarbonization, energy-saving optimization, or reasoning-agent process simulation, separate simulator outputs, optimization variables, energy scenarios, carbon factors, reporting boundary, uncertainty, and human engineering review. Treat Aspen Plus agent papers as adjacent workflow evidence, not as proof that HYSYS greenfield model construction is reliable.
+
 ### 7. Keep the package at the right depth
 
 This skill is for review-stage basic process package work, not detailed design by default.

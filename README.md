@@ -58,14 +58,16 @@ Preferred execution order:
 3. HYSYS spreadsheet / Aspen Simulation Workbook bridge
 4. HYSYS data tables or special-object lanes when already configured in the case
 5. Excel / VBA, Matlab, C#, or intermediate-file bridges only if they already exist and are working
-6. GUI only for layout sign-off or unavoidable visual checks
+6. SCADA / Modbus / OPC-style bridges only for already configured monitoring, training, dashboard, or digital-twin testbeds, with explicit read/write approval
+7. GUI only for layout sign-off or unavoidable visual checks
 
-This recommendation is now captured as an actionable decision matrix in [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md). The recommendation is based on five source classes collected in [CASE/source-index.md](CASE/source-index.md):
+This recommendation is now captured as an actionable decision matrix in [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md). The recommendation is based on six source classes collected in [CASE/source-index.md](CASE/source-index.md):
 
 - official AspenTech HYSYS and Aspen Simulation Workbook product pages
 - public AspenTech support articles for Jump Start and Customization Guide entry points
 - community HYSYS spreadsheet-bridge examples
 - peer-reviewed HYSYS interconnection and Python-HYSYS automation papers
+- SCADA / Modbus supervisory bridge examples for training, monitoring, and testbed boundaries
 - recent AI-for-HYSYS research on multi-agent flowsheet generation, digital twins, LNG optimization, production planning, and ML surrogate models
 
 ## Repository Structure
@@ -294,12 +296,14 @@ Recent AI paper:
 - [Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models](https://doi.org/10.1002/cjce.70297)
 - [AI-driven surrogate modeling for LNG process optimization](https://doi.org/10.1016/j.jclepro.2026.148110)
 - [HEFA/SAF production planning surrogate model paper](https://www.sciencedirect.com/science/article/pii/S009813542600102X)
+- [Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation](https://doi.org/10.1038/s44172-025-00583-3)
 
 HYSYS automation and interconnection papers:
 
 - [Hydrogen liquefaction study using Aspen HYSYS V12 with Python COM automation](https://www.sciencedirect.com/science/article/abs/pii/S0360319925061464)
 - [Integrating coding platforms with process simulators for custom applications](https://www.sciencedirect.com/science/article/pii/S0098135425002510)
 - [A comparative study on Aspen HYSYS interconnection methodologies](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf)
+- [Supervisory Monitoring and Control Using Chemical Process Simulators and SCADA Systems](https://doi.org/10.3390/methane5010008)
 
 ## Publishing Note
 

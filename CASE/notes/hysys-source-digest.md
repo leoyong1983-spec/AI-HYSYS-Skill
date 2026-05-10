@@ -34,6 +34,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-05 自动心跳新增三类 AspenTech 官方 digital twin 证据：[official/aspen-hysys-mysep-live-process-digital-twin-2026.html](../official/aspen-hysys-mysep-live-process-digital-twin-2026.html) 展示 Aspen HYSYS 与 MySep Engine 集成形成 live process digital twin；[official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](../official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) 展示 Saudi Aramco 使用 HYSYS 建立多个装置 plant digital twins 做炼厂改造可行性分析；[official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html](../official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html) 展示 Indian Oil Barauni Refinery 部署 HYSYS-based process digital twins。项目结论是：AI-HYSYS-Skill 可以服务 live/multi-unit/refinery digital twin 的前置整理、KPI schema、外部系统边界和审计输出，但不能宣称复刻商业 live digital twin 或自动闭环控制。
 
+2026-05-11 自动心跳新增两条更贴近“外部监督系统”和“agentic simulation”的证据：[research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](../research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) 展示 Aspen HYSYS/Python 与 ScadaBR 通过 Modbus 做实时监控、监督和动态模型验证；[research/reasoning-agent-distillation-nature-2026.pdf](../research/reasoning-agent-distillation-nature-2026.pdf) 展示 LLM reasoning agent 自动化流程仿真、优化、碳核算和节能方案构建。项目结论是：SCADA/Modbus 只能作为外部监督、培训、dashboard 或 digital twin testbed 通道，不能默认写回生产控制；Aspen Plus reasoning-agent 论文可借鉴分步工具链和碳核算模式，但不证明 HYSYS 从零建模已经可靠。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
