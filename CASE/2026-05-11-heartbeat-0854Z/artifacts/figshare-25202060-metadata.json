@@ -1,0 +1,229 @@
+﻿{
+    "files":  [
+                  {
+                      "id":  44499728,
+                      "name":  "DMC_evaluation2.zip",
+                      "size":  60563825,
+                      "is_link_only":  false,
+                      "download_url":  "https://ndownloader.figshare.com/files/44499728",
+                      "supplied_md5":  "a1a66b1caca2cade493847810db38459",
+                      "computed_md5":  "a1a66b1caca2cade493847810db38459",
+                      "mimetype":  "application/zip"
+                  },
+                  {
+                      "id":  44499737,
+                      "name":  "All_control_off_DMC.hsc",
+                      "size":  4390662,
+                      "is_link_only":  false,
+                      "download_url":  "https://ndownloader.figshare.com/files/44499737",
+                      "supplied_md5":  "95ff4dfb86e4d2347481c4b161cb9a46",
+                      "computed_md5":  "95ff4dfb86e4d2347481c4b161cb9a46",
+                      "mimetype":  "application/octet-stream"
+                  }
+              ],
+    "folder_structure":  {
+
+                         },
+    "authors":  [
+                    {
+                        "id":  17944991,
+                        "full_name":  "MinÃ¨t Crafford",
+                        "first_name":  "MinÃ¨t",
+                        "last_name":  "Crafford",
+                        "is_active":  true,
+                        "url_name":  "Min_t_Crafford",
+                        "orcid_id":  ""
+                    },
+                    {
+                        "id":  8376735,
+                        "full_name":  "Philip de Vaal",
+                        "first_name":  "Philip",
+                        "last_name":  "de Vaal",
+                        "is_active":  true,
+                        "url_name":  "Philip_de_Vaal",
+                        "orcid_id":  ""
+                    },
+                    {
+                        "id":  2802283,
+                        "full_name":  "Kevin Brooks",
+                        "first_name":  "Kevin",
+                        "last_name":  "Brooks",
+                        "is_active":  false,
+                        "url_name":  "_",
+                        "orcid_id":  ""
+                    }
+                ],
+    "custom_fields":  [
+                          {
+                              "name":  "Department/Unit/School/Center",
+                              "value":  "Chemical Engineering",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Academic Department/Unit Name"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Sustainable Development Goals",
+                              "value":  [
+                                            "9 Industry, Innovation and Infrastructure"
+                                        ],
+                              "settings":  {
+                                               "options":  [
+                                                               "1 No Poverty",
+                                                               "2 Zero Hunger",
+                                                               "3 Good Health and Well-Being",
+                                                               "4 Quality Education",
+                                                               "5 Gender Equality",
+                                                               "6 Clean Water and Sanitation",
+                                                               "7 Affordable and Clean Energy",
+                                                               "8 Decent Work and Economic Growth",
+                                                               "9 Industry, Innovation and Infrastructure",
+                                                               "10 Reduced Inequalities",
+                                                               "11 Sustainable Cities and Communities",
+                                                               "12 Responsible Consumption and Production",
+                                                               "13 Climate Action",
+                                                               "14 Life Below Water",
+                                                               "15 Life on Land",
+                                                               "16 Peace, Justice and Strong Institutions",
+                                                               "17 Partnerships for the Goals",
+                                                               "Not Applicable"
+                                                           ],
+                                               "placeholder":  "Sustainable Development Goals",
+                                               "is_multiple":  true
+                                           },
+                              "field_type":  "dropdown",
+                              "order":  null,
+                              "is_mandatory":  false
+                          }
+                      ],
+    "figshare_url":  "https://researchdata.up.ac.za/articles/dataset/Evaluation_of_plantwide_control_strategies_implemented_for_an_SO2_abatement_plant/25202060",
+    "download_disabled":  false,
+    "description":  "\u003cp\u003eThese datasets contain the base case model used for the evaluation and implementation of plantwide control strategies as well as the different datasets produced during the implementation of these strategies.  A systematic approach, using a simulated model of the plant, was followed to investigate plantwide control measures and thereby refine the plant\u0027s control philosophy. A steady-state model of a Wet gas Sulfuric Acid plant was developed using Aspen HYSYS software.  \u003c/p\u003e",
+    "funding":  null,
+    "funding_list":  [
+
+                     ],
+    "version":  1,
+    "status":  "public",
+    "size":  64954487,
+    "created_date":  "2024-11-21T13:10:12Z",
+    "modified_date":  "2024-11-22T06:00:01Z",
+    "is_public":  true,
+    "is_confidential":  false,
+    "is_metadata_record":  false,
+    "confidential_reason":  "",
+    "metadata_reason":  "",
+    "license":  {
+                    "value":  1,
+                    "name":  "CC BY 4.0",
+                    "url":  "https://creativecommons.org/licenses/by/4.0/"
+                },
+    "tags":  [
+                 "Plantwide control",
+                 "Controllability",
+                 "Modelling and optimisation",
+                 "SO2 abatement plant",
+                 "Plantwide control strategies",
+                 "SDG 9 Industry, innovation and infrastructure"
+             ],
+    "keywords":  [
+                     "Plantwide control",
+                     "Controllability",
+                     "Modelling and optimisation",
+                     "SO2 abatement plant",
+                     "Plantwide control strategies",
+                     "SDG 9 Industry, innovation and infrastructure"
+                 ],
+    "categories":  [
+                       {
+                           "id":  26431,
+                           "title":  "Control engineering",
+                           "parent_id":  26416,
+                           "path":  "/26212/26416/26431",
+                           "source_id":  "400705",
+                           "taxonomy_id":  100
+                       },
+                       {
+                           "id":  26533,
+                           "title":  "Engineering design",
+                           "parent_id":  26530,
+                           "path":  "/26212/26530/26533",
+                           "source_id":  "401001",
+                           "taxonomy_id":  100
+                       },
+                       {
+                           "id":  26311,
+                           "title":  "Chemical engineering design",
+                           "parent_id":  26302,
+                           "path":  "/26212/26302/26311",
+                           "source_id":  "400403",
+                           "taxonomy_id":  100
+                       },
+                       {
+                           "id":  26323,
+                           "title":  "Process control and simulation",
+                           "parent_id":  26302,
+                           "path":  "/26212/26302/26323",
+                           "source_id":  "400407",
+                           "taxonomy_id":  100
+                       },
+                       {
+                           "id":  28846,
+                           "title":  "Modelling and simulation",
+                           "parent_id":  28825,
+                           "path":  "/28798/28825/28846",
+                           "source_id":  "460207",
+                           "taxonomy_id":  100
+                       }
+                   ],
+    "references":  [
+                       "http://hdl.handle.net/2263/94485"
+                   ],
+    "has_linked_file":  false,
+    "citation":  "Crafford, MinÃ¨t; de Vaal, Philip; Brooks, Kevin (2024). Evaluation of plantwide control strategies implemented for an SO2 abatement plant. University of Pretoria. Dataset. https://doi.org/10.25403/UPresearchdata.25202060.v1",
+    "related_materials":  [
+                              {
+                                  "id":  159639107,
+                                  "identifier":  "http://hdl.handle.net/2263/94485",
+                                  "title":  "",
+                                  "relation":  "References",
+                                  "identifier_type":  "URL",
+                                  "is_linkout":  false,
+                                  "link":  "http://hdl.handle.net/2263/94485"
+                              }
+                          ],
+    "is_embargoed":  false,
+    "embargo_date":  null,
+    "embargo_type":  null,
+    "embargo_title":  "",
+    "embargo_reason":  "",
+    "embargo_options":  [
+
+                        ],
+    "id":  25202060,
+    "title":  "Evaluation of plantwide control strategies implemented for an SO2 abatement plant",
+    "doi":  "10.25403/UPresearchdata.25202060.v1",
+    "handle":  "",
+    "url":  "https://api.figshare.com/v2/articles/25202060",
+    "published_date":  "2024-11-21T13:10:12Z",
+    "thumb":  "",
+    "defined_type":  3,
+    "defined_type_name":  "dataset",
+    "group_id":  25607,
+    "url_private_api":  "https://api.figshare.com/v2/account/articles/25202060",
+    "url_public_api":  "https://api.figshare.com/v2/articles/25202060",
+    "url_private_html":  "https://figshare.com/account/articles/25202060",
+    "url_public_html":  "https://researchdata.up.ac.za/articles/dataset/Evaluation_of_plantwide_control_strategies_implemented_for_an_SO2_abatement_plant/25202060",
+    "timeline":  {
+                     "posted":  "2024-11-21T13:10:12",
+                     "firstOnline":  "2024-11-21"
+                 },
+    "resource_title":  null,
+    "resource_doi":  null
+}

@@ -1,0 +1,163 @@
+﻿[
+    {
+        "title":  "Evaluation of plantwide control strategies implemented for an SO2 abatement plant",
+        "type":  "dataset",
+        "quality":  "B",
+        "source_page":  "https://figshare.com/articles/25202060",
+        "download_url":  "https://api.figshare.com/v2/articles/25202060/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-0854Z\\artifacts\\All_control_off_DMC.hsc",
+                                    "filename":  "All_control_off_DMC.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  4390662,
+                                    "sha256":  "2b7426874874269c51bf6cf950072b7abc8c2a424e3b9adcdce8acbe0232bfd8"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-0854Z\\artifacts\\DMC_evaluation2.zip",
+                                    "filename":  "DMC_evaluation2.zip",
+                                    "file_type":  "zip",
+                                    "size_bytes":  60563825,
+                                    "sha256":  "6157de72f94afc4d4377d79283c1d4d525ed192f6d1645d2f365532437b4cc0e"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-0854Z\\artifacts\\DMC_evaluation2-zip-listing.txt",
+                                    "filename":  "DMC_evaluation2-zip-listing.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  149369,
+                                    "sha256":  "755ffa35db88b8b068dd32abf0d3821ef93b4ec3683d1efeb45cdf0744e83a7c"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-0854Z\\artifacts\\figshare-25202060-metadata.json",
+                                    "filename":  "figshare-25202060-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11805,
+                                    "sha256":  "187d5d3de5e278c3e53e87d6e297c97f6fc999e1efd889398d0efc175b1011e0"
+                                }
+                            ],
+        "license_public_access_note":  "Public Figshare dataset with DOI 10.25403/UPresearchdata.25202060.v1 and CC BY 4.0 license; direct file download available without login.",
+        "recommended_use":  "Use as plantwide-control benchmark for HYSYS case loading, scripted variable sweeps, control-strategy regression tests, and archive integrity checks on large package payloads.",
+        "dedupe_keys":  {
+                            "source_page":  "https://figshare.com/articles/25202060",
+                            "download_url":  "https://api.figshare.com/v2/articles/25202060/files",
+                            "title":  "Evaluation of plantwide control strategies implemented for an SO2 abatement plant",
+                            "filenames":  [
+                                              "All_control_off_DMC.hsc",
+                                              "DMC_evaluation2.zip",
+                                              "DMC_evaluation2-zip-listing.txt",
+                                              "figshare-25202060-metadata.json"
+                                          ],
+                            "sha256":  [
+                                           "2b7426874874269c51bf6cf950072b7abc8c2a424e3b9adcdce8acbe0232bfd8",
+                                           "6157de72f94afc4d4377d79283c1d4d525ed192f6d1645d2f365532437b4cc0e",
+                                           "755ffa35db88b8b068dd32abf0d3821ef93b4ec3683d1efeb45cdf0744e83a7c",
+                                           "187d5d3de5e278c3e53e87d6e297c97f6fc999e1efd889398d0efc175b1011e0"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown (not executed; case metadata/version not parsed)",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model execution or convergence verification was performed in local Aspen HYSYS runtime.",
+                               "Repository-style README is absent in downloaded artifacts; interpretation relies on Figshare metadata and article description.",
+                               "The large zip uses application-specific serialized assets with uncommon extensions; semantic contents need manual review before feature extraction."
+                           ]
+    },
+    {
+        "title":  "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS",
+        "type":  "candidate_repository",
+        "quality":  "D",
+        "source_page":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "download_url":  "https://codeload.github.com/Mahdi-Arashian/sour-gas-sweetening-hysys/zip/refs/heads/main",
+        "local_artifacts":  [
+
+                            ],
+        "license_public_access_note":  "Public GitHub repository page is accessible, but no explicit software/data license file was detected in repository contents.",
+        "recommended_use":  "Potential natural-gas sweetening benchmark if licensing permission is clarified by maintainer.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+                            "download_url":  "https://codeload.github.com/Mahdi-Arashian/sour-gas-sweetening-hysys/zip/refs/heads/main",
+                            "title":  "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS",
+                            "filenames":  [
+                                              "GTU Simulation.hsc",
+                                              "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_downloaded"
+                                    },
+        "residual_risks":  [
+                               "License ambiguity: no explicit LICENSE detected, so archive/reuse rights are unclear.",
+                               "Not downloaded this run to avoid policy risk on unclear redistribution terms."
+                           ]
+    },
+    {
+        "title":  "hysys_python_GA Decarbonization case package candidate",
+        "type":  "candidate_repository",
+        "quality":  "D",
+        "source_page":  "https://github.com/lihaijie1228/hysys_python_GA",
+        "download_url":  "https://codeload.github.com/lihaijie1228/hysys_python_GA/zip/refs/heads/main",
+        "local_artifacts":  [
+
+                            ],
+        "license_public_access_note":  "Public GitHub repository page is accessible, but no explicit license file was detected in repository contents.",
+        "recommended_use":  "Potential decarbonization optimization benchmark (HYSYS + CSV + GA script) after rights clarification.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/lihaijie1228/hysys_python_GA",
+                            "download_url":  "https://codeload.github.com/lihaijie1228/hysys_python_GA/zip/refs/heads/main",
+                            "title":  "hysys_python_GA Decarbonization case package candidate",
+                            "filenames":  [
+                                              "simulaton_file/Decarbonization/Decarbonization.hsc",
+                                              "simulaton_file/Decarbonization/File.csv",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_downloaded"
+                                    },
+        "residual_risks":  [
+                               "License ambiguity: repository lacks explicit license declaration.",
+                               "Case lineage and validation context are limited from metadata-only inspection."
+                           ]
+    }
+]
