@@ -1,0 +1,41 @@
+﻿{
+    "run_utc":  "2026-05-11T13:13:57.1403260Z",
+    "heartbeat":  "2026-05-11-heartbeat-1254Z",
+    "search_mines":  [
+                         "GitHub repository search API (hysys/.hsc focused)",
+                         "Figshare API",
+                         "Mendeley public dataset metadata/API docs",
+                         "OSF public search API",
+                         "Zenodo API (timed out)"
+                     ],
+    "probes":  [
+                   {
+                       "source_page":  "https://github.com/chickenhgbla/gaussian-process-rto",
+                       "download_url":  "https://codeload.github.com/chickenhgbla/gaussian-process-rto/zip/refs/heads/master",
+                       "contains_hsc":  true,
+                       "contains_hysys_xml":  false,
+                       "contains_readme":  true,
+                       "contains_license":  false,
+                       "note":  "Found testing.hsc and one CSV; skipped for archive due missing explicit license."
+                   },
+                   {
+                       "source_page":  "https://github.com/sanjay-saran/dme-production-methanol",
+                       "download_url":  "https://codeload.github.com/sanjay-saran/dme-production-methanol/zip/refs/heads/main",
+                       "contains_hsc":  false,
+                       "contains_hysys_xml":  false,
+                       "contains_readme":  true,
+                       "contains_license":  false,
+                       "note":  "No HYSYS case file in repository snapshot."
+                   },
+                   {
+                       "source_page":  "https://researchdata.up.ac.za/articles/dataset/Evaluation_of_plantwide_control_strategies_implemented_for_an_SO2_abatement_plant/25202060",
+                       "download_url":  "https://api.figshare.com/v2/articles/25202060/files",
+                       "contains_hsc":  true,
+                       "contains_hysys_xml":  false,
+                       "contains_readme":  false,
+                       "contains_license":  true,
+                       "note":  "Duplicate of already archived Figshare source_page; not re-downloaded."
+                   }
+               ],
+    "zenodo_api_status":  "504 Gateway Timeout during files.key query; no new candidate confirmed this run."
+}

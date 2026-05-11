@@ -1,0 +1,161 @@
+﻿[
+    {
+        "title":  "gaussian-process-rto (GitHub candidate with testing.hsc, license unclear)",
+        "type":  "github_repository_candidate",
+        "quality":  "D",
+        "source_page":  "https://github.com/chickenhgbla/gaussian-process-rto",
+        "download_url":  "https://codeload.github.com/chickenhgbla/gaussian-process-rto/zip/refs/heads/master",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1254Z/artifacts/candidate_probe_report.json",
+                                    "filename":  "candidate_probe_report.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2370,
+                                    "sha256":  "2bc1617c664510df49179b351c65dbb7aa07ccdba1853556d6a4af66828b1ad4"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1254Z/artifacts/chickenhgbla__gaussian-process-rto-master-zip-listing.txt",
+                                    "filename":  "chickenhgbla__gaussian-process-rto-master-zip-listing.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  377,
+                                    "sha256":  "762c4e0b3102e5520a211f6645b9dca8ec9b884831a34d61d2318bfdf2f5289c"
+                                }
+                            ],
+        "license_public_access_note":  "Public repository access confirmed; no explicit LICENSE file detected in snapshot. Treat redistribution rights as unclear until maintainer clarifies.",
+        "recommended_use":  "Do not archive model package yet. Use as manual review candidate for licensing clearance and potential COM automation regression test once permission is explicit.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/chickenhgbla/gaussian-process-rto",
+                            "download_url":  "https://codeload.github.com/chickenhgbla/gaussian-process-rto/zip/refs/heads/master",
+                            "title":  "gaussian-process-rto",
+                            "filenames":  [
+                                              "testing.hsc",
+                                              "fd_data.csv",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "762c4e0b3102e5520a211f6645b9dca8ec9b884831a34d61d2318bfdf2f5289c"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License/re-distribution permission unclear",
+                               "Model validity not executed in local HYSYS runtime",
+                               "Single-case repository with limited provenance context"
+                           ]
+    },
+    {
+        "title":  "Figshare 25202060 SO2 abatement plantwide control (duplicate)",
+        "type":  "dataset_duplicate_skip",
+        "quality":  "D",
+        "source_page":  "https://researchdata.up.ac.za/articles/dataset/Evaluation_of_plantwide_control_strategies_implemented_for_an_SO2_abatement_plant/25202060",
+        "download_url":  "https://api.figshare.com/v2/articles/25202060/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1254Z/artifacts/candidate_probe_report.json",
+                                    "filename":  "candidate_probe_report.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2370,
+                                    "sha256":  "2bc1617c664510df49179b351c65dbb7aa07ccdba1853556d6a4af66828b1ad4"
+                                }
+                            ],
+        "license_public_access_note":  "CC BY 4.0 and publicly accessible, but already archived in CASE/2026-05-11-heartbeat-0854Z.",
+        "recommended_use":  "Reuse existing local copy and avoid duplicate download; suitable for DMC/control automation replay.",
+        "dedupe_keys":  {
+                            "source_page":  "https://researchdata.up.ac.za/articles/dataset/Evaluation_of_plantwide_control_strategies_implemented_for_an_SO2_abatement_plant/25202060",
+                            "download_url":  "https://api.figshare.com/v2/articles/25202060/files",
+                            "title":  "Evaluation of plantwide control strategies implemented for an SO2 abatement plant",
+                            "filenames":  [
+                                              "All_control_off_DMC.hsc",
+                                              "DMC_evaluation2.zip"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  "unknown",
+                                        "contains_pdf_or_report":  "unknown",
+                                        "contains_readme":  "unknown",
+                                        "contains_license":  true,
+                                        "contains_automation_script":  "unknown",
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Duplicate source in repository baseline",
+                               "No additional value from re-fetch in this run"
+                           ]
+    },
+    {
+        "title":  "dme-production-methanol (GitHub candidate without HYSYS case file)",
+        "type":  "github_repository_candidate",
+        "quality":  "D",
+        "source_page":  "https://github.com/sanjay-saran/dme-production-methanol",
+        "download_url":  "https://codeload.github.com/sanjay-saran/dme-production-methanol/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1254Z/artifacts/candidate_probe_report.json",
+                                    "filename":  "candidate_probe_report.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2370,
+                                    "sha256":  "2bc1617c664510df49179b351c65dbb7aa07ccdba1853556d6a4af66828b1ad4"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1254Z/artifacts/sanjay-saran__dme-production-methanol-main-zip-listing.txt",
+                                    "filename":  "sanjay-saran__dme-production-methanol-main-zip-listing.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  74,
+                                    "sha256":  "0d9542f4687fd41939339a0c314ef4cc14e389986487dcbfa7788c34b190db9e"
+                                }
+                            ],
+        "license_public_access_note":  "Public repository access confirmed; no explicit LICENSE file detected and no HYSYS model file found.",
+        "recommended_use":  "Skip for benchmark library unless upstream adds .hsc/.xml or reproducible HYSYS package artifacts.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/sanjay-saran/dme-production-methanol",
+                            "download_url":  "https://codeload.github.com/sanjay-saran/dme-production-methanol/zip/refs/heads/main",
+                            "title":  "dme-production-methanol",
+                            "filenames":  [
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "0d9542f4687fd41939339a0c314ef4cc14e389986487dcbfa7788c34b190db9e"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No .hsc/.xml in repository snapshot",
+                               "License/re-distribution permission unclear"
+                           ]
+    }
+]
