@@ -1,0 +1,18 @@
+﻿
+FullName                                                                     Length LastWriteTime           
+--------                                                                     ------ -------------           
+Aspen_HYSYS_Python-main/                                                          0 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/.gitattributes                                           66 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/HYSYS_python_spreadsheets.py                           3994 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/LICENSE                                                1070 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/README.md                                              3629 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/Test_1.bk0                                           457376 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/Test_1.hsc                                           458576 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/Test_1.py                                              2386 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/__pycache__/                                              0 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/__pycache__/HYSYS_python_spreadsheets.cpython-37.pyc   3182 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/figures/                                                  0 2021/2/18 1:29:20 +08:00
+Aspen_HYSYS_Python-main/figures/HYSYS_Python.PNG                             187385 2021/2/18 1:29:20 +08:00
+
+
+

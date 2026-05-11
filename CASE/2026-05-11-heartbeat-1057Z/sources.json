@@ -1,0 +1,336 @@
+[
+  {
+    "title": "Aspen HYSYS Python Spreadsheet Connection Test Case (GitHub)",
+    "type": "github_repo_archive",
+    "quality": "B",
+    "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+    "download_url": "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main.zip",
+        "filename": "Aspen_HYSYS_Python-main.zip",
+        "file_type": "zip",
+        "size_bytes": 468090,
+        "sha256": "cc0b0a154f9cbfb7d8c189eac02e737c8e4096ab2e022f21412edf10e46f19a1"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main-zip-listing.txt",
+        "filename": "Aspen_HYSYS_Python-main-zip-listing.txt",
+        "file_type": "txt",
+        "size_bytes": 1551,
+        "sha256": "754c58fcabd8260d50890fa4c72297e8d3ed95811888e147628b40c43c788cfb"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main\\Aspen_HYSYS_Python-main\\README.md",
+        "filename": "README.md",
+        "file_type": "md",
+        "size_bytes": 3629,
+        "sha256": "fd80dd2ae6359822685a8ba59c406800774be61878f09d9e565806d4d0045148"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main\\Aspen_HYSYS_Python-main\\LICENSE",
+        "filename": "LICENSE",
+        "file_type": "no_ext",
+        "size_bytes": 1070,
+        "sha256": "f19cb0e7a1d6c2322b8e81a49a9cdb79fc326bb658cf57e199d9ad0f5256ad9d"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main\\Aspen_HYSYS_Python-main\\Test_1.hsc",
+        "filename": "Test_1.hsc",
+        "file_type": "hsc",
+        "size_bytes": 458576,
+        "sha256": "6121ca8f5e7670382ded2ba8a2c7b5d1cec62b5b4ccaa169738259fca368c5d1"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main\\Aspen_HYSYS_Python-main\\Test_1.bk0",
+        "filename": "Test_1.bk0",
+        "file_type": "bk0",
+        "size_bytes": 457376,
+        "sha256": "109102f3e0c6fba7a52023fe1c26e2173582a00ca7d398fc9331dcfe04506ddd"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main\\Aspen_HYSYS_Python-main\\Test_1.py",
+        "filename": "Test_1.py",
+        "file_type": "py",
+        "size_bytes": 2386,
+        "sha256": "322f101ffc6fbd2c84ca434e8bc0a65293377348b46b7e9b445ee4e8d14e378f"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\Aspen_HYSYS_Python-main\\Aspen_HYSYS_Python-main\\HYSYS_python_spreadsheets.py",
+        "filename": "HYSYS_python_spreadsheets.py",
+        "file_type": "py",
+        "size_bytes": 3994,
+        "sha256": "77f286a951dd74fe5ec6209a566cde2e08064426f2f60c407a256d2f55b14cee"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license in LICENSE file; direct archive download is available without login.",
+    "recommended_use": "HYSYS spreadsheet-link automation smoke tests, COM path access regression checks, and case open/save workflow tests around Test_1.hsc.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+      "download_url": "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+      "title": "Aspen HYSYS Python Spreadsheet Connection Test Case (GitHub)",
+      "filenames": [
+        "Aspen_HYSYS_Python-main-zip-listing.txt",
+        "Aspen_HYSYS_Python-main.zip",
+        "HYSYS_python_spreadsheets.py",
+        "LICENSE",
+        "README.md",
+        "Test_1.bk0",
+        "Test_1.hsc",
+        "Test_1.py"
+      ],
+      "sha256": [
+        "109102f3e0c6fba7a52023fe1c26e2173582a00ca7d398fc9331dcfe04506ddd",
+        "322f101ffc6fbd2c84ca434e8bc0a65293377348b46b7e9b445ee4e8d14e378f",
+        "6121ca8f5e7670382ded2ba8a2c7b5d1cec62b5b4ccaa169738259fca368c5d1",
+        "754c58fcabd8260d50890fa4c72297e8d3ed95811888e147628b40c43c788cfb",
+        "77f286a951dd74fe5ec6209a566cde2e08064426f2f60c407a256d2f55b14cee",
+        "cc0b0a154f9cbfb7d8c189eac02e737c8e4096ab2e022f21412edf10e46f19a1",
+        "f19cb0e7a1d6c2322b8e81a49a9cdb79fc326bb658cf57e199d9ad0f5256ad9d",
+        "fd80dd2ae6359822685a8ba59c406800774be61878f09d9e565806d4d0045148"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc",
+        ".bk0"
+      ],
+      "suspected_hysys_version": "Unknown (README does not pin version)",
+      "contains_hsc": true,
+      "contains_hysys_xml": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No Aspen HYSYS runtime execution was performed in this run.",
+      "Case quality and convergence status were not independently validated.",
+      "Repository is tutorial-oriented and has limited accompanying validation dataset."
+    ]
+  },
+  {
+    "title": "ap-python Aspen HYSYS Automation Test Case (GitHub)",
+    "type": "github_repo_archive",
+    "quality": "B",
+    "source_page": "https://github.com/bsha0/ap-python",
+    "download_url": "https://codeload.github.com/bsha0/ap-python/zip/refs/heads/master",
+    "local_artifacts": [
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\ap-python-master.zip",
+        "filename": "ap-python-master.zip",
+        "file_type": "zip",
+        "size_bytes": 752667,
+        "sha256": "dcdfa82f1296d248f597501156a494d98e8f185c083b599d646f849cb27df07a"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\ap-python-master-zip-listing.txt",
+        "filename": "ap-python-master-zip-listing.txt",
+        "file_type": "txt",
+        "size_bytes": 3235,
+        "sha256": "fd814ce0d322f573484c41c87ce0be52a48452a23cc5245317ea6892f31d9ebc"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\ap-python-master\\ap-python-master\\README.md",
+        "filename": "README.md",
+        "file_type": "md",
+        "size_bytes": 2837,
+        "sha256": "7e1f4232e6364c290914828588661c7bc217b673e3ac30d2ee9b7c10baba7fb4"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\ap-python-master\\ap-python-master\\LICENSE",
+        "filename": "LICENSE",
+        "file_type": "no_ext",
+        "size_bytes": 1064,
+        "sha256": "fc34f9213db3d59666e1e4fe7fdd137419f4a725f91149e88271ab4fb3392769"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\ap-python-master\\ap-python-master\\ap-python\\ap_python\\tests\\Atmospheric Crude Tower.hsc",
+        "filename": "Atmospheric Crude Tower.hsc",
+        "file_type": "hsc",
+        "size_bytes": 990667,
+        "sha256": "1c781125a86e7895d77938c3643fb156aee8e0e8ae2e66e5b40d2644348420bd"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\ap-python-master\\ap-python-master\\ap-python\\ap_python\\tests\\hysys_test.py",
+        "filename": "hysys_test.py",
+        "file_type": "py",
+        "size_bytes": 924,
+        "sha256": "807ccbbe6ae05cb822e74824db8bcccc06f07c7d869b8856f86b65b7c46f5fc5"
+      },
+      {
+        "path": "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-11-heartbeat-1057Z\\artifacts\\ap-python-master\\ap-python-master\\ap-python\\ap_python\\aspenhysys\\application.py",
+        "filename": "application.py",
+        "file_type": "py",
+        "size_bytes": 3082,
+        "sha256": "84d052ba431e6866cc902d3a6a0765fe10952e214cdfab22ea3f48d4b87ed9a4"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license in LICENSE file; direct archive download is available without login.",
+    "recommended_use": "HYSYS COM automation regression tests using Atmospheric Crude Tower.hsc plus scripted read/write variable-path operations.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/bsha0/ap-python",
+      "download_url": "https://codeload.github.com/bsha0/ap-python/zip/refs/heads/master",
+      "title": "ap-python Aspen HYSYS Automation Test Case (GitHub)",
+      "filenames": [
+        "Atmospheric Crude Tower.hsc",
+        "LICENSE",
+        "README.md",
+        "ap-python-master-zip-listing.txt",
+        "ap-python-master.zip",
+        "application.py",
+        "hysys_test.py"
+      ],
+      "sha256": [
+        "1c781125a86e7895d77938c3643fb156aee8e0e8ae2e66e5b40d2644348420bd",
+        "7e1f4232e6364c290914828588661c7bc217b673e3ac30d2ee9b7c10baba7fb4",
+        "807ccbbe6ae05cb822e74824db8bcccc06f07c7d869b8856f86b65b7c46f5fc5",
+        "84d052ba431e6866cc902d3a6a0765fe10952e214cdfab22ea3f48d4b87ed9a4",
+        "dcdfa82f1296d248f597501156a494d98e8f185c083b599d646f849cb27df07a",
+        "fc34f9213db3d59666e1e4fe7fdd137419f4a725f91149e88271ab4fb3392769",
+        "fd814ce0d322f573484c41c87ce0be52a48452a23cc5245317ea6892f31d9ebc"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "Unknown (README does not pin version)",
+      "contains_hsc": true,
+      "contains_hysys_xml": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No Aspen HYSYS runtime execution was performed in this run.",
+      "The included case file is test-oriented and may not represent industrial-scale process complexity.",
+      "Repository examples include Windows automation assumptions that were not validated here."
+    ]
+  },
+  {
+    "title": "HysysExcel repository candidate (license unclear)",
+    "type": "candidate_repository",
+    "quality": "D",
+    "source_page": "https://github.com/ArturTask/HysysExcel",
+    "download_url": "https://codeload.github.com/ArturTask/HysysExcel/zip/refs/heads/master",
+    "local_artifacts": [],
+    "license_public_access_note": "Public repository page accessible but no explicit license file detected; redistribution/archive rights unclear.",
+    "recommended_use": "Potential Excel-HYSYS coupling benchmark if maintainer clarifies licensing.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/ArturTask/HysysExcel",
+      "download_url": "https://codeload.github.com/ArturTask/HysysExcel/zip/refs/heads/master",
+      "title": "HysysExcel repository candidate (license unclear)",
+      "filenames": [
+        "README.md",
+        "Test_1.hsc",
+        "test.xlsx"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "Unknown",
+      "contains_hsc": true,
+      "contains_hysys_xml": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_downloaded"
+    },
+    "residual_risks": [
+      "License ambiguity blocks archival download in this workflow.",
+      "Model provenance and validation evidence not confirmed from metadata-only view."
+    ]
+  },
+  {
+    "title": "TFG HYSYS simulations repository candidate (license unclear)",
+    "type": "candidate_repository",
+    "quality": "D",
+    "source_page": "https://github.com/guillemrh/TFG",
+    "download_url": "https://codeload.github.com/guillemrh/TFG/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public repository page accessible but no explicit license file detected; redistribution/archive rights unclear.",
+    "recommended_use": "Potential multi-case benchmark (PE/PE2/COL_T5) after explicit license confirmation.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/guillemrh/TFG",
+      "download_url": "https://codeload.github.com/guillemrh/TFG/zip/refs/heads/main",
+      "title": "TFG HYSYS simulations repository candidate (license unclear)",
+      "filenames": [
+        "README.md",
+        "COL_T5.hsc",
+        "PE.hsc",
+        "PE2.hsc",
+        "Book1.xlsx",
+        "T4_T5.xlsx"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "Unknown",
+      "contains_hsc": true,
+      "contains_hysys_xml": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_downloaded"
+    },
+    "residual_risks": [
+      "License ambiguity blocks archival download in this workflow.",
+      "Potential academic project scope with limited validation context."
+    ]
+  },
+  {
+    "title": "HYSYS-MATLAB-LINK repository candidate (license unclear)",
+    "type": "candidate_repository",
+    "quality": "D",
+    "source_page": "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+    "download_url": "https://codeload.github.com/afabrild/HYSYS-MATLAB-LINK/zip/refs/heads/master",
+    "local_artifacts": [],
+    "license_public_access_note": "Public repository page accessible but no explicit license file detected; redistribution/archive rights unclear.",
+    "recommended_use": "Potential HYSYS-MATLAB integration regression case after licensing clarity.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+      "download_url": "https://codeload.github.com/afabrild/HYSYS-MATLAB-LINK/zip/refs/heads/master",
+      "title": "HYSYS-MATLAB-LINK repository candidate (license unclear)",
+      "filenames": [
+        "README.md",
+        "Distill_Example.hsc",
+        "PFR_Optimization.m"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "Unknown",
+      "contains_hsc": true,
+      "contains_hysys_xml": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_downloaded"
+    },
+    "residual_risks": [
+      "License ambiguity blocks archival download in this workflow.",
+      "Limited metadata and no verification dataset from public listing alone."
+    ]
+  }
+]

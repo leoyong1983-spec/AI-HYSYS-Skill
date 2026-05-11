@@ -1,0 +1,35 @@
+﻿
+FullName                                                               Length LastWriteTime           
+--------                                                               ------ -------------           
+ap-python-master/                                                           0 2018/7/19 7:22:44 +08:00
+ap-python-master/.gitignore                                              1227 2018/7/19 7:22:44 +08:00
+ap-python-master/LICENSE                                                 1064 2018/7/19 7:22:44 +08:00
+ap-python-master/README.md                                               2837 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/                                                 0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/                                       0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/__init__.py                            0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/aspenhysys/                            0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/aspenhysys/__init__.py                46 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/aspenhysys/application.py           3082 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/aspenplus/                             0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/aspenplus/__init__.py                 46 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/aspenplus/application.py            3374 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/                                 0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/.vscode/                         0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/.vscode/launch.json           3258 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/Atmospheric Crude Tower.hsc 990667 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/aplus_test.py                 1042 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/hysys_test.py                  924 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/pfdtut.bkp                  192262 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/pfdtut1.bkp                 188894 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/screenshots/                     0 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/screenshots/aplus.1.png      35426 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/screenshots/aplus.2.png      85332 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/screenshots/hysys.1.png      89992 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/screenshots/hysys.2.png      16058 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/ap_python/tests/screenshots/hysys.3.png      15938 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/install.bat                                    224 2018/7/19 7:22:44 +08:00
+ap-python-master/ap-python/setup.py                                       365 2018/7/19 7:22:44 +08:00
+
+
+
