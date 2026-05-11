@@ -1,0 +1,314 @@
+﻿[
+    {
+        "title":  "Pressure Drop Estimation in Pipelines (GitHub)",
+        "type":  "github_repo_archive",
+        "quality":  "B",
+        "source_page":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "download_url":  "https://codeload.github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main.zip",
+                                    "filename":  "Pressure-Drop-Estimation-in-Pipelines-main.zip",
+                                    "file_type":  "zip",
+                                    "size_bytes":  3309592,
+                                    "sha256":  "417430411a0c3dedad281abbcdbbcea9601d5dfd8f96be821960f941f1a6fda8"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  1080,
+                                    "sha256":  "2fc2b29226692a8475140def88a7acc02cb6d1d8b0eefdc0edbecf3549dd62bc"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/Pressure Drop Estimation in Pipelines-ppt.pdf",
+                                    "filename":  "Pressure Drop Estimation in Pipelines-ppt.pdf",
+                                    "file_type":  "pdf",
+                                    "size_bytes":  849484,
+                                    "sha256":  "5f718989fac6572b1869837637c34360b28854b60340d98ccf9b9872857fb18a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/Pressure Drop Estimation in Pipelines.pptx",
+                                    "filename":  "Pressure Drop Estimation in Pipelines.pptx",
+                                    "file_type":  "pptx",
+                                    "size_bytes":  2386029,
+                                    "sha256":  "ab32c04fac21841a75c0ead2aca6b3318ad6873f8f75835018cdc7351dd1379c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  3489,
+                                    "sha256":  "61b9b694c1098e46890667cc2e1ac6c672f7580bb1a9fe292b827ac156b8bc7b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/aspen report.pdf",
+                                    "filename":  "aspen report.pdf",
+                                    "file_type":  "pdf",
+                                    "size_bytes":  143415,
+                                    "sha256":  "c8468eaaa9e3990db7c024a59a0c6c85e3ee316d507ee570ef2044ebad14293b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+                                    "filename":  "Pressure Drop Estimation in pipelines.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  262372,
+                                    "sha256":  "312418da47afc724bd75ef9d61c05c95cb1ad783010d39bc06793a25b579b9ac"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/DWSIM/dwsim report.pdf",
+                                    "filename":  "dwsim report.pdf",
+                                    "file_type":  "pdf",
+                                    "size_bytes":  218159,
+                                    "sha256":  "f3e51b2b30b01fdac9ccaf9bbff6b22370abf578d3392dbec63c4ed477b43d5a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/DWSIM/Pressure Drop Estimation in pipelines.dwxmz",
+                                    "filename":  "Pressure Drop Estimation in pipelines.dwxmz",
+                                    "file_type":  "dwxmz",
+                                    "size_bytes":  19034,
+                                    "sha256":  "dbb91a41557c6366dc66f51849c97287abd0bf904b76df25020374ca216d3f3c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/MATLAB/Pressure_Drop_Estimation_in_Pipelines.m",
+                                    "filename":  "Pressure_Drop_Estimation_in_Pipelines.m",
+                                    "file_type":  "m",
+                                    "size_bytes":  2980,
+                                    "sha256":  "154695977a1ecdd279c6d64224a8deb28dbeae062f0347c87d72610bdeb12034"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/MS EXCEL/Pressure Drop Estimation in Pipelines.xlsx",
+                                    "filename":  "Pressure Drop Estimation in Pipelines.xlsx",
+                                    "file_type":  "xlsx",
+                                    "size_bytes":  14138,
+                                    "sha256":  "48644f2d8ea3fa0c6641c30e6a95a244a0ee5478fc2b8a75caa18b7f49be6da2"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/PYTHON/Pressure Drop Estimation in Pipelines.py",
+                                    "filename":  "Pressure Drop Estimation in Pipelines.py",
+                                    "file_type":  "py",
+                                    "size_bytes":  3026,
+                                    "sha256":  "a08e9627216b4f7c07b533a3cf04050287aaf566742bdb69408e7cdffb819259"
+                                }
+                            ],
+        "license_public_access_note":  "MIT license in repository; public access without login; archiving for research references is allowed under MIT terms",
+        "recommended_use":  "Pipeline pressure-drop workflow regression test and cross-tool validation",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                            "download_url":  "https://codeload.github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines/zip/refs/heads/main",
+                            "title":  "Pressure Drop Estimation in Pipelines (GitHub)",
+                            "filenames":  [
+                                              "aspen report.pdf",
+                                              "dwsim report.pdf",
+                                              "LICENSE",
+                                              "Pressure Drop Estimation in pipelines.dwxmz",
+                                              "Pressure Drop Estimation in pipelines.hsc",
+                                              "Pressure Drop Estimation in Pipelines.pptx",
+                                              "Pressure Drop Estimation in Pipelines.py",
+                                              "Pressure Drop Estimation in Pipelines.xlsx",
+                                              "Pressure Drop Estimation in Pipelines-ppt.pdf",
+                                              "Pressure_Drop_Estimation_in_Pipelines.m",
+                                              "Pressure-Drop-Estimation-in-Pipelines-main.zip",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "154695977a1ecdd279c6d64224a8deb28dbeae062f0347c87d72610bdeb12034",
+                                           "2fc2b29226692a8475140def88a7acc02cb6d1d8b0eefdc0edbecf3549dd62bc",
+                                           "312418da47afc724bd75ef9d61c05c95cb1ad783010d39bc06793a25b579b9ac",
+                                           "417430411a0c3dedad281abbcdbbcea9601d5dfd8f96be821960f941f1a6fda8",
+                                           "48644f2d8ea3fa0c6641c30e6a95a244a0ee5478fc2b8a75caa18b7f49be6da2",
+                                           "5f718989fac6572b1869837637c34360b28854b60340d98ccf9b9872857fb18a",
+                                           "61b9b694c1098e46890667cc2e1ac6c672f7580bb1a9fe292b827ac156b8bc7b",
+                                           "a08e9627216b4f7c07b533a3cf04050287aaf566742bdb69408e7cdffb819259",
+                                           "ab32c04fac21841a75c0ead2aca6b3318ad6873f8f75835018cdc7351dd1379c",
+                                           "c8468eaaa9e3990db7c024a59a0c6c85e3ee316d507ee570ef2044ebad14293b",
+                                           "dbb91a41557c6366dc66f51849c97287abd0bf904b76df25020374ca216d3f3c",
+                                           "f3e51b2b30b01fdac9ccaf9bbff6b22370abf578d3392dbec63c4ed477b43d5a"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           "hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "not stated in README",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run_local_hysys_not_executed"
+                                    },
+        "residual_risks":  [
+                               "HYSYS model not executed locally in this run",
+                               "No independent recalculation was performed; rely on author-provided report and scripts"
+                           ]
+    },
+    {
+        "title":  "Natural Gas Sweetening — DEA Absorption Simulation (GitHub)",
+        "type":  "github_repo_archive",
+        "quality":  "B",
+        "source_page":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "download_url":  "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main.zip",
+                                    "filename":  "Natural-Gas-Sweetening-main.zip",
+                                    "file_type":  "zip",
+                                    "size_bytes":  1695224,
+                                    "sha256":  "f717bd4642c5c089ec9dd3bc63771494aba4fe932d3489c20fabe7d138bc3d43"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening Report.pdf",
+                                    "filename":  "Gas Sweetening Report.pdf",
+                                    "file_type":  "pdf",
+                                    "size_bytes":  509135,
+                                    "sha256":  "42d87b82a0256ee4964345a95097079dd1831202cf0dbb37d629bf9997896206"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening.hsc",
+                                    "filename":  "Gas Sweetening.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  1257174,
+                                    "sha256":  "fcda75090796e9ba8a69bfb29a769deea36761d11d26c93d51d98318d19d4610"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  1078,
+                                    "sha256":  "fbe106769586a0dc58e757d2573a06250b2c6dd5441086db57a89bbf594916b1"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  5650,
+                                    "sha256":  "95c3fcb2ac15892974ea722b67968bbd84c267ba8e25faae57a21cc2ca88e916"
+                                }
+                            ],
+        "license_public_access_note":  "MIT license in repository; public access without login; archiving for research references is allowed under MIT terms",
+        "recommended_use":  "DEA sweetening benchmark for absorber-regenerator automation smoke tests and sensitivity analysis",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+                            "download_url":  "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main",
+                            "title":  "Natural Gas Sweetening — DEA Absorption Simulation (GitHub)",
+                            "filenames":  [
+                                              "Gas Sweetening Report.pdf",
+                                              "Gas Sweetening.hsc",
+                                              "LICENSE",
+                                              "Natural-Gas-Sweetening-main.zip",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "42d87b82a0256ee4964345a95097079dd1831202cf0dbb37d629bf9997896206",
+                                           "95c3fcb2ac15892974ea722b67968bbd84c267ba8e25faae57a21cc2ca88e916",
+                                           "f717bd4642c5c089ec9dd3bc63771494aba4fe932d3489c20fabe7d138bc3d43",
+                                           "fbe106769586a0dc58e757d2573a06250b2c6dd5441086db57a89bbf594916b1",
+                                           "fcda75090796e9ba8a69bfb29a769deea36761d11d26c93d51d98318d19d4610"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           "hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Aspen HYSYS V14 (README stated)",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run_local_hysys_not_executed"
+                                    },
+        "residual_risks":  [
+                               "HYSYS model not executed locally in this run",
+                               "Process specs and convergence quality were not independently verified against plant data in this run"
+                           ]
+    },
+    {
+        "title":  "Crude Oil Atmospheric Distillation: Simulation \u0026 Energy Optimization (GitHub)",
+        "type":  "github_repo_archive",
+        "quality":  "B",
+        "source_page":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "download_url":  "https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main.zip",
+                                    "filename":  "CDU-Simulation-Optimization-main.zip",
+                                    "file_type":  "zip",
+                                    "size_bytes":  1051033,
+                                    "sha256":  "3a89ffd1cd787a5371165602543db0371d664f9c390158c8f3a31039eedab667"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/CDU_Report.pdf",
+                                    "filename":  "CDU_Report.pdf",
+                                    "file_type":  "pdf",
+                                    "size_bytes":  322508,
+                                    "sha256":  "f6342deb74233ff0bba84a0576d0f3fe9e980faace527927557b960b8dc68f5d"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  1078,
+                                    "sha256":  "fbe106769586a0dc58e757d2573a06250b2c6dd5441086db57a89bbf594916b1"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/project.hsc",
+                                    "filename":  "project.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  765164,
+                                    "sha256":  "795c3587c611405f4786115514030036987615e47c33fe74aba1fcb1610fbdd2"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  7898,
+                                    "sha256":  "6828dea0de571f5ad0817418ca8696bd6a0c69fad0e45492aec16f12f362af15"
+                                }
+                            ],
+        "license_public_access_note":  "MIT license in repository; public access without login; archiving for research references is allowed under MIT terms",
+        "recommended_use":  "CDU atmospheric distillation baseline for optimization and energy-integration benchmark tests",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+                            "download_url":  "https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+                            "title":  "Crude Oil Atmospheric Distillation: Simulation \u0026 Energy Optimization (GitHub)",
+                            "filenames":  [
+                                              "CDU_Report.pdf",
+                                              "CDU-Simulation-Optimization-main.zip",
+                                              "LICENSE",
+                                              "project.hsc",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "3a89ffd1cd787a5371165602543db0371d664f9c390158c8f3a31039eedab667",
+                                           "6828dea0de571f5ad0817418ca8696bd6a0c69fad0e45492aec16f12f362af15",
+                                           "795c3587c611405f4786115514030036987615e47c33fe74aba1fcb1610fbdd2",
+                                           "f6342deb74233ff0bba84a0576d0f3fe9e980faace527927557b960b8dc68f5d",
+                                           "fbe106769586a0dc58e757d2573a06250b2c6dd5441086db57a89bbf594916b1"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           "hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Aspen HYSYS V14 (README stated)",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run_local_hysys_not_executed"
+                                    },
+        "residual_risks":  [
+                               "HYSYS model not executed locally in this run",
+                               "Optimization claims were not re-simulated in this run"
+                           ]
+    }
+]
