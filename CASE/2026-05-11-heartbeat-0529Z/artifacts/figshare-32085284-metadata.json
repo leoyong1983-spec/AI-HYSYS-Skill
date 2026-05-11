@@ -1,0 +1,268 @@
+﻿{
+    "files":  [
+                  {
+                      "id":  63963785,
+                      "name":  "ef6c00473_si_001.pdf",
+                      "size":  2092199,
+                      "is_link_only":  false,
+                      "download_url":  "https://ndownloader.figshare.com/files/63963785",
+                      "supplied_md5":  "de480918ed9ab09c43e922b4fa1efb15",
+                      "computed_md5":  "de480918ed9ab09c43e922b4fa1efb15",
+                      "mimetype":  "application/pdf"
+                  }
+              ],
+    "folder_structure":  {
+
+                         },
+    "authors":  [
+                    {
+                        "id":  23782244,
+                        "full_name":  "Alexandre\nM. de Almeida",
+                        "first_name":  "Alexandre\nM.",
+                        "last_name":  "de Almeida",
+                        "is_active":  false,
+                        "url_name":  "_",
+                        "orcid_id":  ""
+                    },
+                    {
+                        "id":  6045779,
+                        "full_name":  "Raquel M. Cavalcante",
+                        "first_name":  "Raquel M.",
+                        "last_name":  "Cavalcante",
+                        "is_active":  false,
+                        "url_name":  "_",
+                        "orcid_id":  ""
+                    },
+                    {
+                        "id":  2801992,
+                        "full_name":  "André F. Young",
+                        "first_name":  "André F.",
+                        "last_name":  "Young",
+                        "is_active":  false,
+                        "url_name":  "_",
+                        "orcid_id":  ""
+                    }
+                ],
+    "custom_fields":  [
+
+                      ],
+    "figshare_url":  "https://acs.figshare.com/articles/journal_contribution/Comparative_Analysis_of_MEA_Absorption_and_Membrane_Separation_for_FCCU_CO_sub_2_sub_Capture_Process_Simulation_and_Techno-Economic_Evaluation/32085284",
+    "download_disabled":  false,
+    "description":  "Fluid Catalytic Cracking Units (FCCUs) are major contributors\nto\nrefinery CO\u003csub\u003e2\u003c/sub\u003e emissions, accounting for up to 30% of the\ntotal. While CCS is recognized as a key mitigation strategy, comparative\nevaluations of alternative capture technologies under consistent operating\nconditions remain limited. This study investigates three FCCU–CCS\nconfigurations: postcombustion chemical absorption with monoethanolamine\n(PCC-MEA), postcombustion polymeric membrane separation (PCC-Membrane),\nand oxy-combustion chemical absorption (OCC-MEA). Process simulations\nwere developed in Aspen HYSYS v14, including flue gas conditioning,\ncapture units, compression, and TEG dehydration. Key performance indicators,\nfixed capital investment (FCI), net present value (NPV), and a marginal\nabatement cost curve (MACC) were assessed using CAPCOST methodology.\nAll scenarios achieved \u003e90% CO\u003csub\u003e2\u003c/sub\u003e capture efficiency and\n\u003e99.9 mol % product purity. PCC-MEA and OCC-MEA reached ∼95%\nefficiency with 77.6 and 105.4 t·h\u003csup\u003e–1\u003c/sup\u003e of CO\u003csub\u003e2\u003c/sub\u003e captured, respectively, while the PCC-Membrane achieved 99.9%\nefficiency and 108.2 t·h\u003csup\u003e–1\u003c/sup\u003e of CO\u003csub\u003e2\u003c/sub\u003e captured. The economic analysis showed NPVs of −970.6 MMUSD\n(PCC-MEA), −1214 MMUSD (PCC-Membrane), and −1138.6 MMUSD\n(OCC-MEA), compared with −617.5 MMUSD for the base FCCU, resulting\nin abatement costs of 22–27 USD·t\u003csup\u003e–1\u003c/sup\u003e CO\u003csub\u003e2\u003c/sub\u003e. The comparative analysis shows that PCC-MEA remains the\nmost cost-effective option, membranes provide the highest capture\nefficiency at higher cost, and OCC-MEA offers a compromise benefiting\nfrom richer flue gas composition. These findings highlight both the\ntechnical feasibility and the economic challenges of deploying CCS\nin FCCUs, underlining the need for supportive policies and further\noptimization to enable large-scale implementation.",
+    "funding":  null,
+    "funding_list":  [
+
+                     ],
+    "version":  1,
+    "status":  "public",
+    "size":  2092199,
+    "created_date":  "2026-04-23T16:05:52Z",
+    "modified_date":  "2026-04-23T16:05:52Z",
+    "is_public":  true,
+    "is_confidential":  false,
+    "is_metadata_record":  false,
+    "confidential_reason":  "",
+    "metadata_reason":  "",
+    "license":  {
+                    "value":  10,
+                    "name":  "CC BY-NC 4.0",
+                    "url":  "https://creativecommons.org/licenses/by-nc/4.0/"
+                },
+    "tags":  [
+                 "key performance indicators",
+                 "key mitigation strategy",
+                 "fixed capital investment",
+                 "aspen hysys v14",
+                 "postcombustion chemical absorption",
+                 "combustion chemical absorption",
+                 "alternative capture technologies",
+                 "comparative analysis shows",
+                 "mea ), compared",
+                 "highest capture efficiency",
+                 "2 \u003c/ sub",
+                 "membrane achieved 99",
+                 "comparative analysis",
+                 "membrane ),",
+                 "mea absorption",
+                 "scenarios achieved",
+                 "npv ),",
+                 "membrane separation",
+                 "comparative evaluations",
+                 "capture units",
+                 "capture efficiency",
+                 "− 970",
+                 "− 617",
+                 "− 1138",
+                 "· h",
+                 "teg dehydration",
+                 "technical feasibility",
+                 "supportive policies",
+                 "scale implementation",
+                 "product purity",
+                 "process simulations",
+                 "process simulation",
+                 "membranes provide",
+                 "mea remains",
+                 "mea offers",
+                 "mea ).",
+                 "major contributors",
+                 "findings highlight",
+                 "enable large",
+                 "effective option",
+                 "economic challenges",
+                 "compromise benefiting",
+                 "base fccu",
+                 "abatement costs",
+                 "5 mmusd"
+             ],
+    "keywords":  [
+                     "key performance indicators",
+                     "key mitigation strategy",
+                     "fixed capital investment",
+                     "aspen hysys v14",
+                     "postcombustion chemical absorption",
+                     "combustion chemical absorption",
+                     "alternative capture technologies",
+                     "comparative analysis shows",
+                     "mea ), compared",
+                     "highest capture efficiency",
+                     "2 \u003c/ sub",
+                     "membrane achieved 99",
+                     "comparative analysis",
+                     "membrane ),",
+                     "mea absorption",
+                     "scenarios achieved",
+                     "npv ),",
+                     "membrane separation",
+                     "comparative evaluations",
+                     "capture units",
+                     "capture efficiency",
+                     "− 970",
+                     "− 617",
+                     "− 1138",
+                     "· h",
+                     "teg dehydration",
+                     "technical feasibility",
+                     "supportive policies",
+                     "scale implementation",
+                     "product purity",
+                     "process simulations",
+                     "process simulation",
+                     "membranes provide",
+                     "mea remains",
+                     "mea offers",
+                     "mea ).",
+                     "major contributors",
+                     "findings highlight",
+                     "enable large",
+                     "effective option",
+                     "economic challenges",
+                     "compromise benefiting",
+                     "base fccu",
+                     "abatement costs",
+                     "5 mmusd"
+                 ],
+    "categories":  [
+                       {
+                           "id":  1,
+                           "title":  "Biophysics",
+                           "parent_id":  48,
+                           "path":  "",
+                           "source_id":  "",
+                           "taxonomy_id":  10
+                       },
+                       {
+                           "id":  4,
+                           "title":  "Biochemistry",
+                           "parent_id":  38,
+                           "path":  "",
+                           "source_id":  "",
+                           "taxonomy_id":  10
+                       },
+                       {
+                           "id":  272,
+                           "title":  "Environmental Sciences not elsewhere classified",
+                           "parent_id":  33,
+                           "path":  "",
+                           "source_id":  "",
+                           "taxonomy_id":  10
+                       },
+                       {
+                           "id":  873,
+                           "title":  "Chemical Sciences not elsewhere classified",
+                           "parent_id":  38,
+                           "path":  "",
+                           "source_id":  "",
+                           "taxonomy_id":  10
+                       },
+                       {
+                           "id":  45,
+                           "title":  "Sociology",
+                           "parent_id":  26,
+                           "path":  "",
+                           "source_id":  "",
+                           "taxonomy_id":  10
+                       },
+                       {
+                           "id":  734,
+                           "title":  "Biological Sciences not elsewhere classified",
+                           "parent_id":  48,
+                           "path":  "",
+                           "source_id":  "",
+                           "taxonomy_id":  10
+                       },
+                       {
+                           "id":  106,
+                           "title":  "Science Policy",
+                           "parent_id":  40,
+                           "path":  "",
+                           "source_id":  "",
+                           "taxonomy_id":  10
+                       }
+                   ],
+    "references":  [
+                       "https://doi.org/10.1021/acs.energyfuels.6c00473"
+                   ],
+    "has_linked_file":  false,
+    "citation":  "de Almeida, Alexandre\nM.; Cavalcante, Raquel M.; Young, André F. (2026). Comparative\nAnalysis of MEA Absorption and Membrane\nSeparation for FCCU CO\u003csub\u003e2\u003c/sub\u003e Capture: Process Simulation and\nTechno-Economic Evaluation. ACS Publications. Journal contribution. https://doi.org/10.1021/acs.energyfuels.6c00473.s001",
+    "related_materials":  [
+                              {
+                                  "id":  276239042,
+                                  "identifier":  "10.1021/acs.energyfuels.6c00473",
+                                  "title":  "Comparative\nAnalysis of MEA Absorption and Membrane\nSeparation for FCCU CO\u003csub\u003e2\u003c/sub\u003e Capture: Process Simulation and\nTechno-Economic Evaluation",
+                                  "relation":  "IsSupplementTo",
+                                  "identifier_type":  "DOI",
+                                  "is_linkout":  true,
+                                  "link":  "https://doi.org/10.1021/acs.energyfuels.6c00473"
+                              }
+                          ],
+    "is_embargoed":  false,
+    "embargo_date":  null,
+    "embargo_type":  null,
+    "embargo_title":  "",
+    "embargo_reason":  "",
+    "embargo_options":  [
+
+                        ],
+    "id":  32085284,
+    "title":  "Comparative\nAnalysis of MEA Absorption and Membrane\nSeparation for FCCU CO\u003csub\u003e2\u003c/sub\u003e Capture: Process Simulation and\nTechno-Economic Evaluation",
+    "doi":  "10.1021/acs.energyfuels.6c00473.s001",
+    "handle":  "",
+    "url":  "https://api.figshare.com/v2/articles/32085284",
+    "published_date":  "2026-04-23T16:05:52Z",
+    "thumb":  "https://ndownloader.figshare.com/files/63963785/preview/63963785/thumb.png",
+    "defined_type":  6,
+    "defined_type_name":  "journal contribution",
+    "group_id":  2523,
+    "url_private_api":  "https://api.figshare.com/v2/account/articles/32085284",
+    "url_public_api":  "https://api.figshare.com/v2/articles/32085284",
+    "url_private_html":  "https://figshare.com/account/articles/32085284",
+    "url_public_html":  "https://acs.figshare.com/articles/journal_contribution/Comparative_Analysis_of_MEA_Absorption_and_Membrane_Separation_for_FCCU_CO_sub_2_sub_Capture_Process_Simulation_and_Techno-Economic_Evaluation/32085284",
+    "timeline":  {
+                     "posted":  "2026-04-23T16:05:52",
+                     "publisherPublication":  "2026-04-23T00:00:00",
+                     "firstOnline":  "2026-04-23"
+                 },
+    "resource_title":  "Comparative\nAnalysis of MEA Absorption and Membrane\nSeparation for FCCU CO\u003csub\u003e2\u003c/sub\u003e Capture: Process Simulation and\nTechno-Economic Evaluation",
+    "resource_doi":  "10.1021/acs.energyfuels.6c00473"
+}

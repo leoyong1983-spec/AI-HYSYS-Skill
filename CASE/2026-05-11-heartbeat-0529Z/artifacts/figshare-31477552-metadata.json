@@ -1,0 +1,466 @@
+﻿{
+    "files":  [
+
+              ],
+    "folder_structure":  {
+
+                         },
+    "authors":  [
+                    {
+                        "id":  7683287,
+                        "full_name":  "T. Anderson",
+                        "first_name":  "T.",
+                        "last_name":  "Anderson",
+                        "is_active":  false,
+                        "url_name":  "_",
+                        "orcid_id":  ""
+                    },
+                    {
+                        "id":  23321494,
+                        "full_name":  "P. Vijay",
+                        "first_name":  "P.",
+                        "last_name":  "Vijay",
+                        "is_active":  false,
+                        "url_name":  "_",
+                        "orcid_id":  ""
+                    },
+                    {
+                        "id":  23286823,
+                        "full_name":  "Moses Tade",
+                        "first_name":  "Moses",
+                        "last_name":  "Tade",
+                        "is_active":  true,
+                        "url_name":  "Moses_Tade",
+                        "orcid_id":  "0000-0001-6378-3274"
+                    }
+                ],
+    "custom_fields":  [
+                          {
+                              "name":  "Publisher DOI",
+                              "value":  [
+                                            "https://doi.org/10.1016/j.cherd.2013.07.025"
+                                        ],
+                              "settings":  {
+                                               "placeholder":  "Publisher DOI",
+                                               "is_multiple":  false
+                                           },
+                              "field_type":  "url",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Subtype",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Subtype"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Is open access",
+                              "value":  "Fulltext not available",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Is open access"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Faculty",
+                              "value":  "Faculty of Science and Engineering",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Faculty"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "School",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "School"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Source Title",
+                              "value":  "Chemical Engineering Research and Design",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Source Title"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Volume",
+                              "value":  "92",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Volume"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Issue",
+                              "value":  "2",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Issue"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Start Page",
+                              "value":  "295",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Start Page"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "End Page",
+                              "value":  "307",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "End Page"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Article number",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Article number"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Chapter number",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Chapter number"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Editors",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Editors"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Editions",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Editions"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Series",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Series"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Commissioning body",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Commissioning body"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Publisher",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Publisher"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Location",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Location"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Name of conference",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Name of conference"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Start date",
+                              "value":  "",
+                              "settings":  {
+
+                                           },
+                              "field_type":  "date",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "End date",
+                              "value":  "",
+                              "settings":  {
+
+                                           },
+                              "field_type":  "date",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Language",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Language"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Refereed",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Refereed"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Provenance",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  250
+                                                               },
+                                               "placeholder":  "Provenance"
+                                           },
+                              "field_type":  "text",
+                              "order":  null,
+                              "is_mandatory":  false
+                          },
+                          {
+                              "name":  "Notes",
+                              "value":  "",
+                              "settings":  {
+                                               "validations":  {
+                                                                   "min_length":  1,
+                                                                   "max_length":  10000
+                                                               },
+                                               "placeholder":  "Notes"
+                                           },
+                              "field_type":  "textarea",
+                              "order":  null,
+                              "is_mandatory":  false
+                          }
+                      ],
+    "figshare_url":  "https://curate.curtin.edu.au/articles/journal_contribution/An_adaptable_steady_state_aspen_hysys_model_for_the_methane_fuelled_solid_oxide_fuel_cell/31477552",
+    "download_disabled":  false,
+    "description":  "An adaptable model for the methane fed internal reforming SOFC using the in built features of Aspen Hysys is presented in this paper. The model includes the electrochemistry, the diffusion phenomena and the reforming kinetics in detail. Three potential methods for representing the SOFC are investigated out of which the recycled reforming model is found to be capable of providing reasonable results over a wide range of operating conditions. The electrochemical model that gives good agreement with experimental data is also identified. From the simulations, it is concluded that the developed model is reasonably accurate over a wide operating range and can be used for steady state analysis. The computational challenges in the modelling are discussed. The model will be used for system level optimisation studies of the SOFC system especially in conjuncture with gas turbines and steam turbines.",
+    "funding":  null,
+    "funding_list":  [
+
+                     ],
+    "version":  1,
+    "status":  "public",
+    "size":  0,
+    "created_date":  "2026-03-27T18:38:49Z",
+    "modified_date":  "2026-03-27T18:38:49Z",
+    "is_public":  true,
+    "is_confidential":  false,
+    "is_metadata_record":  true,
+    "confidential_reason":  "",
+    "metadata_reason":  "",
+    "license":  {
+                    "value":  300,
+                    "name":  "All rights reserved, written permission required",
+                    "url":  "https://researchtoolkit.library.curtin.edu.au/publishing/espace/meeting-copyright-obligations/#accordion_espace-copyright-statement_collapse_all-rights-reserved"
+                },
+    "tags":  [
+                 "Journal Article"
+             ],
+    "keywords":  [
+                     "Journal Article"
+                 ],
+    "categories":  [
+
+                   ],
+    "references":  [
+                       "https://doi.org/10.1016/j.cherd.2013.07.025",
+                       "https://portal.issn.org/resource/ISSN/0263-8762"
+                   ],
+    "has_linked_file":  false,
+    "citation":  "Anderson, T.; Vijay, P.; Tade, Moses (2014). An adaptable steady state aspen hysys model for the methane fuelled solid oxide fuel cell. Curtin University. Journal contribution. https://hdl.handle.net/20.500.11937/6733",
+    "related_materials":  [
+                              {
+                                  "id":  274534777,
+                                  "identifier":  "10.1016/j.cherd.2013.07.025",
+                                  "title":  "10.1016/j.cherd.2013.07.025",
+                                  "relation":  "IsPublishedIn",
+                                  "identifier_type":  "DOI",
+                                  "is_linkout":  true,
+                                  "link":  "https://doi.org/10.1016/j.cherd.2013.07.025"
+                              },
+                              {
+                                  "id":  274534780,
+                                  "identifier":  "0263-8762",
+                                  "title":  "0263-8762",
+                                  "relation":  "IsPublishedIn",
+                                  "identifier_type":  "ISSN",
+                                  "is_linkout":  false,
+                                  "link":  "https://portal.issn.org/resource/ISSN/0263-8762"
+                              }
+                          ],
+    "is_embargoed":  false,
+    "embargo_date":  null,
+    "embargo_type":  null,
+    "embargo_title":  "",
+    "embargo_reason":  "",
+    "embargo_options":  [
+
+                        ],
+    "id":  31477552,
+    "title":  "An adaptable steady state aspen hysys model for the methane fuelled solid oxide fuel cell",
+    "doi":  "",
+    "handle":  "20.500.11937/6733",
+    "url":  "https://api.figshare.com/v2/articles/31477552",
+    "published_date":  "2026-03-27T18:38:49Z",
+    "thumb":  "",
+    "defined_type":  6,
+    "defined_type_name":  "journal contribution",
+    "group_id":  59869,
+    "url_private_api":  "https://api.figshare.com/v2/account/articles/31477552",
+    "url_public_api":  "https://api.figshare.com/v2/articles/31477552",
+    "url_private_html":  "https://figshare.com/account/articles/31477552",
+    "url_public_html":  "https://curate.curtin.edu.au/articles/journal_contribution/An_adaptable_steady_state_aspen_hysys_model_for_the_methane_fuelled_solid_oxide_fuel_cell/31477552",
+    "timeline":  {
+                     "posted":  "2026-03-27T18:38:49",
+                     "publisherPublication":  "2014-01-01T00:00:00",
+                     "firstOnline":  "2017-01-30"
+                 },
+    "resource_title":  "",
+    "resource_doi":  ""
+}

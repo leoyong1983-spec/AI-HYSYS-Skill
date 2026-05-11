@@ -1,0 +1,128 @@
+﻿{
+    "created":  "2023-03-31T02:35:24.865562+00:00",
+    "modified":  "2023-03-31T14:26:36.987915+00:00",
+    "id":  7787405,
+    "conceptrecid":  "7787404",
+    "doi":  "10.5281/zenodo.7787405",
+    "conceptdoi":  "10.5281/zenodo.7787404",
+    "doi_url":  "https://doi.org/10.5281/zenodo.7787405",
+    "metadata":  {
+                     "title":  "Data for Process Design and Energy Assessment of an Onboard Carbon Capture System  with Boilers or Heat Pumps for Additional Steam Generation",
+                     "doi":  "10.5281/zenodo.7787405",
+                     "publication_date":  "2023-03-31",
+                     "description":  "\u003cp\u003e1. Supporting file includes main stream information\u0026nbsp;used in Aspen HYSYS model, process simulations\u0026nbsp;of boiler and heat pump for model construction.\u003cbr\u003e\n2.\u0026nbsp;Supporting file also includes main information\u0026nbsp;used in ProMAX model, process simulations\u0026nbsp;of carbon capture process\u0026nbsp;for model construction.\u003c/p\u003e",
+                     "access_right":  "open",
+                     "creators":  [
+                                      {
+                                          "name":  "Meangik Cho",
+                                          "affiliation":  "KRISO"
+                                      },
+                                      {
+                                          "name":  "Youngkyun Seo",
+                                          "affiliation":  "KRISO"
+                                      },
+                                      {
+                                          "name":  "Eunyoung Park",
+                                          "affiliation":  "KRISO"
+                                      },
+                                      {
+                                          "name":  "Seongjong Han",
+                                          "affiliation":  "KRISO"
+                                      }
+                                  ],
+                     "keywords":  [
+                                      "boiler",
+                                      "heat pump",
+                                      "CO2 removal"
+                                  ],
+                     "resource_type":  {
+                                           "title":  "Dataset",
+                                           "type":  "dataset"
+                                       },
+                     "license":  {
+                                     "id":  "cc-by-4.0"
+                                 },
+                     "relations":  {
+                                       "version":  [
+                                                       {
+                                                           "index":  0,
+                                                           "is_last":  true,
+                                                           "parent":  {
+                                                                          "pid_type":  "recid",
+                                                                          "pid_value":  "7787404"
+                                                                      }
+                                                       }
+                                                   ]
+                                   }
+                 },
+    "title":  "Data for Process Design and Energy Assessment of an Onboard Carbon Capture System  with Boilers or Heat Pumps for Additional Steam Generation",
+    "links":  {
+                  "self":  "https://zenodo.org/api/records/7787405",
+                  "self_html":  "https://zenodo.org/records/7787405",
+                  "preview_html":  "https://zenodo.org/records/7787405?preview=1",
+                  "doi":  "https://doi.org/10.5281/zenodo.7787405",
+                  "self_doi":  "https://doi.org/10.5281/zenodo.7787405",
+                  "self_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.7787405",
+                  "reserve_doi":  "https://zenodo.org/api/records/7787405/draft/pids/doi",
+                  "parent":  "https://zenodo.org/api/records/7787404",
+                  "parent_html":  "https://zenodo.org/records/7787404",
+                  "parent_doi":  "https://doi.org/10.5281/zenodo.7787404",
+                  "parent_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.7787404",
+                  "self_iiif_manifest":  "https://zenodo.org/api/iiif/record:7787405/manifest",
+                  "self_iiif_sequence":  "https://zenodo.org/api/iiif/record:7787405/sequence/default",
+                  "files":  "https://zenodo.org/api/records/7787405/files",
+                  "media_files":  "https://zenodo.org/api/records/7787405/media-files",
+                  "archive":  "https://zenodo.org/api/records/7787405/files-archive",
+                  "archive_media":  "https://zenodo.org/api/records/7787405/media-files-archive",
+                  "latest":  "https://zenodo.org/api/records/7787405/versions/latest",
+                  "latest_html":  "https://zenodo.org/records/7787405/latest",
+                  "versions":  "https://zenodo.org/api/records/7787405/versions",
+                  "draft":  "https://zenodo.org/api/records/7787405/draft",
+                  "access_links":  "https://zenodo.org/api/records/7787405/access/links",
+                  "access_grants":  "https://zenodo.org/api/records/7787405/access/grants",
+                  "access_users":  "https://zenodo.org/api/records/7787405/access/users",
+                  "access_request":  "https://zenodo.org/api/records/7787405/access/request",
+                  "access":  "https://zenodo.org/api/records/7787405/access",
+                  "communities":  "https://zenodo.org/api/records/7787405/communities",
+                  "communities-suggestions":  "https://zenodo.org/api/records/7787405/communities-suggestions",
+                  "request_deletion":  "https://zenodo.org/api/records/7787405/request-deletion",
+                  "file_modification":  "https://zenodo.org/api/records/7787405/file-modification",
+                  "quota_increase":  "https://zenodo.org/api/records/7787405/quota-increase",
+                  "requests":  "https://zenodo.org/api/records/7787405/requests"
+              },
+    "updated":  "2023-03-31T14:26:36.987915+00:00",
+    "recid":  "7787405",
+    "revision":  2,
+    "files":  [
+                  {
+                      "id":  "ee2c1022-5bd7-4947-89e9-ee60d5802adf",
+                      "key":  "Data for manuscript at Zenodo.xlsx",
+                      "size":  48691,
+                      "checksum":  "md5:7039fa44f26020d23368585e565c00ad",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/7787405/files/Data%20for%20manuscript%20at%20Zenodo.xlsx/content"
+                                }
+                  }
+              ],
+    "swh":  {
+
+            },
+    "owners":  [
+                   {
+                       "id":  "525665"
+                   }
+               ],
+    "status":  "published",
+    "stats":  {
+                  "downloads":  36,
+                  "unique_downloads":  34,
+                  "views":  75,
+                  "unique_views":  68,
+                  "version_downloads":  36,
+                  "version_unique_downloads":  34,
+                  "version_unique_views":  67,
+                  "version_views":  74
+              },
+    "state":  "done",
+    "submitted":  true
+}

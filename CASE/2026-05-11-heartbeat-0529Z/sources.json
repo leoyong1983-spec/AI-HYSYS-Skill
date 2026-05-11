@@ -1,0 +1,143 @@
+﻿[
+    {
+        "title":  "An adaptable steady state Aspen HYSYS model for the methane fuelled solid oxide fuel cell (Figshare 31477552)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://curate.curtin.edu.au/articles/journal_contribution/An_adaptable_steady_state_aspen_hysys_model_for_the_methane_fuelled_solid_oxide_fuel_cell/31477552",
+        "download_url":  "https://api.figshare.com/v2/articles/31477552/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0529Z/artifacts/figshare-31477552-metadata.json",
+                                    "filename":  "figshare-31477552-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  25231,
+                                    "sha256":  "546602bfc46a6c44fadc371bbf82d3efea219e3034fff714513e09ed4d3bb54b"
+                                }
+                            ],
+        "license_public_access_note":  "Public metadata page but license is \"All rights reserved, written permission required\" and no downloadable model files were exposed.",
+        "recommended_use":  "Track for manual author outreach only; not suitable for automated benchmark ingestion at this stage.",
+        "dedupe_keys":  {
+                            "source_page":  "https://curate.curtin.edu.au/articles/journal_contribution/An_adaptable_steady_state_aspen_hysys_model_for_the_methane_fuelled_solid_oxide_fuel_cell/31477552",
+                            "download_url":  "https://api.figshare.com/v2/articles/31477552/files",
+                            "title":  "An adaptable steady state aspen hysys model for the methane fuelled solid oxide fuel cell",
+                            "filenames":  [
+                                              "figshare-31477552-metadata.json"
+                                          ],
+                            "sha256":  [
+                                           "546602bfc46a6c44fadc371bbf82d3efea219e3034fff714513e09ed4d3bb54b"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown; title claims an Aspen HYSYS model but no downloadable files were provided.",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No downloadable case package was available from the public record.",
+                               "Rights-reserved license blocks safe repository archival without explicit permission."
+                           ]
+    },
+    {
+        "title":  "Comparative Analysis of MEA Absorption and Membrane Separation for FCCU CO2 Capture (Figshare 32085284)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://acs.figshare.com/articles/journal_contribution/Comparative_Analysis_of_MEA_Absorption_and_Membrane_Separation_for_FCCU_CO_sub_2_sub_Capture_Process_Simulation_and_Techno-Economic_Evaluation/32085284",
+        "download_url":  "https://api.figshare.com/v2/articles/32085284/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0529Z/artifacts/figshare-32085284-metadata.json",
+                                    "filename":  "figshare-32085284-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  13981,
+                                    "sha256":  "3178d3acc0c18e4fd3111540b23b52a4da3d59d75fc13abaa1b291b45b156cd2"
+                                }
+                            ],
+        "license_public_access_note":  "Metadata and supplementary PDF are public (CC BY-NC 4.0), but no .hsc/.xml model files are exposed.",
+        "recommended_use":  "Reference-only literature candidate; can support parameter assumptions but not direct HYSYS automation testing.",
+        "dedupe_keys":  {
+                            "source_page":  "https://acs.figshare.com/articles/journal_contribution/Comparative_Analysis_of_MEA_Absorption_and_Membrane_Separation_for_FCCU_CO_sub_2_sub_Capture_Process_Simulation_and_Techno-Economic_Evaluation/32085284",
+                            "download_url":  "https://api.figshare.com/v2/articles/32085284/files",
+                            "title":  "Comparative Analysis of MEA Absorption and Membrane Separation for FCCU CO2 Capture",
+                            "filenames":  [
+                                              "figshare-32085284-metadata.json"
+                                          ],
+                            "sha256":  [
+                                           "3178d3acc0c18e4fd3111540b23b52a4da3d59d75fc13abaa1b291b45b156cd2"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown; publication discusses process simulation but does not publish HYSYS case files.",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Supplementary package appears PDF-only, so model-level reproducibility is limited.",
+                               "CC BY-NC terms may restrict downstream commercial redistribution scenarios."
+                           ]
+    },
+    {
+        "title":  "Data for Process Design and Energy Assessment of an Onboard Carbon Capture System (Zenodo 7787405)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/7787405",
+        "download_url":  "https://zenodo.org/api/records/7787405/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0529Z/artifacts/zenodo-7787405-metadata.json",
+                                    "filename":  "zenodo-7787405-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7646,
+                                    "sha256":  "5796ab057f460e44f5c429a41a0d2b23cc9e10747ff4a751ba272f3990a98639"
+                                }
+                            ],
+        "license_public_access_note":  "Open Zenodo record under CC-BY-4.0, but available file list contains spreadsheet data only and no HYSYS model files.",
+        "recommended_use":  "Possible data companion for validation tables; not directly usable as a HYSYS benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/7787405",
+                            "download_url":  "https://zenodo.org/api/records/7787405/files",
+                            "title":  "Data for Process Design and Energy Assessment of an Onboard Carbon Capture System with Boilers or Heat Pumps for Additional Steam Generation",
+                            "filenames":  [
+                                              "zenodo-7787405-metadata.json"
+                                          ],
+                            "sha256":  [
+                                           "5796ab057f460e44f5c429a41a0d2b23cc9e10747ff4a751ba272f3990a98639"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown; metadata exposes only XLSX supplemental data.",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No direct Aspen HYSYS model artifact was provided in the public file set.",
+                               "Would require manual reconstruction from article context and spreadsheets."
+                           ]
+    }
+]
