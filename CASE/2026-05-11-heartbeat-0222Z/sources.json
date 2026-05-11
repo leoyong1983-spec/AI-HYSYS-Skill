@@ -1,0 +1,224 @@
+﻿[
+    {
+        "title":  "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization (Zenodo 18806107)",
+        "type":  "dataset",
+        "quality":  "B",
+        "source_page":  "https://zenodo.org/records/18806107",
+        "download_url":  "https://zenodo.org/api/records/18806107/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/1. Análisis Multicriterio.xlsx",
+                                    "filename":  "1. Análisis Multicriterio.xlsx",
+                                    "file_type":  "xlsx",
+                                    "size_bytes":  63475,
+                                    "sha256":  "ef4b304b8f4d4e6aa78303c6b5dd998216df0add09a0b7ea70ebfab5936640ac"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/2. Calculo de la Potencia nominal.xlsx",
+                                    "filename":  "2. Calculo de la Potencia nominal.xlsx",
+                                    "file_type":  "xlsx",
+                                    "size_bytes":  1147741,
+                                    "sha256":  "c241fe3b35130e8374fe797b2887aad924cc86bd827265717ffad6dbfe58efac"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/3. Calculo del poder calorifico de los bloques.xlsx",
+                                    "filename":  "3. Calculo del poder calorifico de los bloques.xlsx",
+                                    "file_type":  "xlsx",
+                                    "size_bytes":  383154,
+                                    "sha256":  "0a4b8c6080c9221d3f26bd15e8322994add41e60305aafffee14daa5c4e01c5a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/4. Balance estequiometrico para el proceso combustion.EES",
+                                    "filename":  "4. Balance estequiometrico para el proceso combustion.EES",
+                                    "file_type":  "ees",
+                                    "size_bytes":  111095,
+                                    "sha256":  "6d69f19f1a9bce6b675076f28ed42660efb72b436501594fb7628092e5356391"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/5. Poder calorifico por bloques final.EES",
+                                    "filename":  "5. Poder calorifico por bloques final.EES",
+                                    "file_type":  "ees",
+                                    "size_bytes":  62844,
+                                    "sha256":  "ac27409341a9b70881804d0f0adf6b972e72e83c44441d8714e6dd5cfc4ace63"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/6. Temperatura de salida de los gases de combustion.EES",
+                                    "filename":  "6. Temperatura de salida de los gases de combustion.EES",
+                                    "file_type":  "ees",
+                                    "size_bytes":  34929,
+                                    "sha256":  "dc2f74ac44dbce463255160bbf4e1b4da3389fc45d0cbb9e3f6af7040d4da8d6"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/7. Sistema Integrado OCC,ASU,CCS.hsc",
+                                    "filename":  "7. Sistema Integrado OCC,ASU,CCS.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  13444211,
+                                    "sha256":  "4ea97496450234e5c36a6273ecc6e8507400892553f694ca7cb2fb5e37a360f6"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/record-18806107.json",
+                                    "filename":  "record-18806107.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11081,
+                                    "sha256":  "6663f5d9bc51bdd9ad50da8bf9153151d2afc39348a4c3102988ff55125e59cb"
+                                }
+                            ],
+        "license_public_access_note":  "Open access Zenodo record under CC-BY-4.0; DOI 10.5281/zenodo.18806107.",
+        "recommended_use":  "CO2 capture and oxy-combustion HYSYS regression case, COM automation smoke tests, and sensitivity studies with paired spreadsheet calculations.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/18806107",
+                            "download_url":  "https://zenodo.org/api/records/18806107/files",
+                            "title":  "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+                            "filenames":  [
+                                              "1. Análisis Multicriterio.xlsx",
+                                              "2. Calculo de la Potencia nominal.xlsx",
+                                              "3. Calculo del poder calorifico de los bloques.xlsx",
+                                              "4. Balance estequiometrico para el proceso combustion.EES",
+                                              "5. Poder calorifico por bloques final.EES",
+                                              "6. Temperatura de salida de los gases de combustion.EES",
+                                              "7. Sistema Integrado OCC,ASU,CCS.hsc",
+                                              "record-18806107.json"
+                                          ],
+                            "sha256":  [
+                                           "ef4b304b8f4d4e6aa78303c6b5dd998216df0add09a0b7ea70ebfab5936640ac",
+                                           "c241fe3b35130e8374fe797b2887aad924cc86bd827265717ffad6dbfe58efac",
+                                           "0a4b8c6080c9221d3f26bd15e8322994add41e60305aafffee14daa5c4e01c5a",
+                                           "6d69f19f1a9bce6b675076f28ed42660efb72b436501594fb7628092e5356391",
+                                           "ac27409341a9b70881804d0f0adf6b972e72e83c44441d8714e6dd5cfc4ace63",
+                                           "dc2f74ac44dbce463255160bbf4e1b4da3389fc45d0cbb9e3f6af7040d4da8d6",
+                                           "4ea97496450234e5c36a6273ecc6e8507400892553f694ca7cb2fb5e37a360f6",
+                                           "6663f5d9bc51bdd9ad50da8bf9153151d2afc39348a4c3102988ff55125e59cb"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown (not opened); .hsc model provided.",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No local HYSYS runtime validation was performed; model not opened or solved.",
+                               "Dataset documentation is primarily metadata-level; detailed operating assumptions must be inferred from file naming and article context."
+                           ]
+    },
+    {
+        "title":  "Hydrogen Co-Firing in Gas Turbines package candidate (Zenodo 19469917)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/19469917",
+        "download_url":  "https://zenodo.org/api/records/19469917/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-19469917/record-19469917.json",
+                                    "filename":  "record-19469917.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7070,
+                                    "sha256":  "5470f8dd7b17007b05a1e2c5f1f0ddb53adfba2742fdacdb5edfa4d10f097b22"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-19469917/Upload data.rar",
+                                    "filename":  "Upload data.rar",
+                                    "file_type":  "rar",
+                                    "size_bytes":  536754,
+                                    "sha256":  "053964b8630525a2871ad5d8aa21878aa49fdfc2ec26e9f02242a3dd2e069c7a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-19469917/Upload-data-rar-listing.txt",
+                                    "filename":  "Upload-data-rar-listing.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  293,
+                                    "sha256":  "c4138bcf98dad6f840c9ea5aa63029ae44963a576e0a405c69603ac18df20957"
+                                }
+                            ],
+        "license_public_access_note":  "Open access Zenodo record under CC-BY-4.0, but downloaded RAR listing did not expose HYSYS model files.",
+        "recommended_use":  "Candidate tracking only; keep for manual review of supplementary package scope.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/19469917",
+                            "download_url":  "https://zenodo.org/api/records/19469917/files",
+                            "title":  "Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+                            "filenames":  [
+                                              "record-19469917.json",
+                                              "Upload data.rar",
+                                              "Upload-data-rar-listing.txt"
+                                          ],
+                            "sha256":  [
+                                           "5470f8dd7b17007b05a1e2c5f1f0ddb53adfba2742fdacdb5edfa4d10f097b22",
+                                           "053964b8630525a2871ad5d8aa21878aa49fdfc2ec26e9f02242a3dd2e069c7a",
+                                           "c4138bcf98dad6f840c9ea5aa63029ae44963a576e0a405c69603ac18df20957"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown; no .hsc/.xml found in static RAR listing.",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "RAR archive contains only figures and spreadsheets in static listing; no confirmed HYSYS case file.",
+                               "Archive was not executed or deeply unpacked beyond safe file listing."
+                           ]
+    },
+    {
+        "title":  "Aspen HYSYS model for the Tennessee Eastman process (Zenodo 10966344)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/10966344",
+        "download_url":  "https://zenodo.org/api/records/10966344/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-10966344-candidate/record-10966344.json",
+                                    "filename":  "record-10966344.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6478,
+                                    "sha256":  "4444ce57971ff0696dfa56f05bb1a533effaf03ca0c4a471d874ee261c4cd28e"
+                                }
+                            ],
+        "license_public_access_note":  "Record is open but license is CC-BY-NC-ND-4.0; redistribution into a public mixed-use benchmark repo needs maintainer/legal confirmation.",
+        "recommended_use":  "Manual license review candidate before any model-file ingestion.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/10966344",
+                            "download_url":  "https://zenodo.org/api/records/10966344/files",
+                            "title":  "Aspen HYSYS model for the Tennessee Eastman process",
+                            "filenames":  [
+                                              "record-10966344.json"
+                                          ],
+                            "sha256":  [
+                                           "4444ce57971ff0696dfa56f05bb1a533effaf03ca0c4a471d874ee261c4cd28e"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown; record metadata indicates HSC model available but not fetched in this run.",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License terms may not align with unrestricted redistribution expectations of this public repository.",
+                               "Model file was intentionally not downloaded pending explicit redistribution policy decision."
+                           ]
+    }
+]
