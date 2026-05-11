@@ -36,6 +36,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-11 自动心跳新增两条更贴近“外部监督系统”和“agentic simulation”的证据：[research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](../research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) 展示 Aspen HYSYS/Python 与 ScadaBR 通过 Modbus 做实时监控、监督和动态模型验证；[research/reasoning-agent-distillation-nature-2026.pdf](../research/reasoning-agent-distillation-nature-2026.pdf) 展示 LLM reasoning agent 自动化流程仿真、优化、碳核算和节能方案构建。项目结论是：SCADA/Modbus 只能作为外部监督、培训、dashboard 或 digital twin testbed 通道，不能默认写回生产控制；Aspen Plus reasoning-agent 论文可借鉴分步工具链和碳核算模式，但不证明 HYSYS 从零建模已经可靠。
 
+2026-05-12 自动心跳新增两类证据：[official/aspen-hysys-tupras-column-performance-2019.pdf](../official/aspen-hysys-tupras-column-performance-2019.pdf) 展示 Tüpraş 使用 Aspen HYSYS column analysis 与 Aspen EDR 集成进行塔性能诊断和能力提升；[research/hysys-psd-xgboost-pso-springer-2026.pdf](../research/hysys-psd-xgboost-pso-springer-2026.pdf) 展示 Aspen HYSYS 压力摆动精馏模型结合 XGBoost 与 PSO 做热负荷预测和工况优化。项目结论是：AI-HYSYS-Skill 可以服务已有 HYSYS case 的诊断、KPI schema、候选优化变量和报告输出；ML surrogate / optimizer 只能作为候选建议层，不能替代 HYSYS runtime 或人工审核。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

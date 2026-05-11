@@ -274,6 +274,7 @@ Official AspenTech pages:
 - [Aspen HYSYS V7.3 Customization Guide article](https://esupport.aspentech.com/s_Article?key=131879)
 - [Aspen HYSYS 2025 brochure PDF](https://www.aspentech.com/-/media/aspentech/home/resources/brochure/pdfs/fy25/q4/at-4162_bro_aspen-hysys_final_0525.pdf)
 - [AspenTech performance engineering digital twin case study](https://www.aspentech.com/en/resources/case-studies/energy-company-saves-%246m-usd-with-a-performance-engineering-digital-twin)
+- [Control Column Performance Using Aspen HYSYS](https://www.aspentech.com/en/resources/case-studies/control-column-performance-using-aspen-hysys)
 - [AspenTech process simulation digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield)
 - [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new)
 - [AspenTech EHM105 AI-Powered Digital Twins course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA)
@@ -295,6 +296,7 @@ Recent AI paper:
 - [PINN Digital Twin for Aspen HYSYS generated dynamic data (arXiv:2603.24644)](https://arxiv.org/abs/2603.24644)
 - [Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models](https://doi.org/10.1002/cjce.70297)
 - [AI-driven surrogate modeling for LNG process optimization](https://doi.org/10.1016/j.jclepro.2026.148110)
+- [Optimizing Pressure Swing Distillation Using Aspen HYSYS and Machine Learning Algorithms](https://doi.org/10.1007/s11814-026-00646-x)
 - [HEFA/SAF production planning surrogate model paper](https://www.sciencedirect.com/science/article/pii/S009813542600102X)
 - [Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation](https://doi.org/10.1038/s44172-025-00583-3)
 

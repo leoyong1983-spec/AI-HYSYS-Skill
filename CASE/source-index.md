@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-11（Asia/Shanghai）
+最近心跳测试：2026-05-12（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -23,6 +23,8 @@
 | 官方 | [official/aspen-hysys-brochure-2025-05.pdf](official/aspen-hysys-brochure-2025-05.pdf) | 保存 2025-05 官方 HYSYS brochure PDF，补强 Industrial AI、model-backed intelligence、经济、能耗、安全、排放等产品叙事 | [Aspen HYSYS brochure PDF](https://www.aspentech.com/-/media/aspentech/home/resources/brochure/pdfs/fy25/q4/at-4162_bro_aspen-hysys_final_0525.pdf) | 真 PDF |
 | 官方 | [official/aspen-hysys-performance-digital-twin-case-study.html](official/aspen-hysys-performance-digital-twin-case-study.html) | 官方案例页面：Aspen HYSYS 用于性能工程数字孪生，识别热虹吸系统液压不稳定并支撑经济收益叙事 | [AspenTech performance engineering digital twin case study](https://www.aspentech.com/en/resources/case-studies/energy-company-saves-%246m-usd-with-a-performance-engineering-digital-twin) | HTML 快照 |
 | 官方 | [official/aspen-hysys-performance-digital-twin-case-study.pdf](official/aspen-hysys-performance-digital-twin-case-study.pdf) | 官方案例 PDF：保存 HYSYS + Aspen EDR 数字孪生案例全文，支持“现有模型接管 + 诊断/报告/优化”的工程价值定位 | [AspenTech performance engineering digital twin PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy21/q2/at-06386--cs-english-v9.pdf?sc_lang=en) | 真 PDF |
+| 官方 | [official/aspen-hysys-tupras-column-performance-2026.html](official/aspen-hysys-tupras-column-performance-2026.html) | 官方案例页面：Tüpraş 使用 Aspen HYSYS column analysis 与 Aspen Exchanger Design & Rating 集成提升塔能力并满足产品规格 | [Control Column Performance Using Aspen HYSYS](https://www.aspentech.com/en/resources/case-studies/control-column-performance-using-aspen-hysys) | HTML 快照 |
+| 官方 | [official/aspen-hysys-tupras-column-performance-2019.pdf](official/aspen-hysys-tupras-column-performance-2019.pdf) | 官方案例 PDF：保留 column hydraulics、tray rating、column performance 和 plant digital twin 场景的英文全文 | [AspenTech Tüpraş PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy19/q3/at-05656-tupras-case-study.pdf?sc_lang=en) | 真 PDF |
 | 官方 | [official/aspen-hybrid-model-condensate-digital-twin-article.html](official/aspen-hybrid-model-condensate-digital-twin-article.html) | 官方文章页面：ADNOC 使用 hybrid model 和 process simulation digital twin 优化凝析油收益 | [AspenTech condensate digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield) | HTML 快照 |
 | 官方 | [official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf](official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf) | 官方文章 PDF：补强 hybrid model、AI、first-principles、historian、soft sensor、condensate yield 和 GHG reduction 的工程链路 | [AspenTech condensate digital twin PDF](https://www.aspentech.com/-/media/aspentech/home/resources/articles/pdfs/fy25/q2/at-3653-art_hp-adnoc-digital-twin.pdf) | 真 PDF |
 | 官方 | [official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.html](official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.html) | 官方案例页面：HPCL 使用 Aspen AI Model Builder 和 Aspen HYSYS 部署 AI soft sensors 做实时质量控制 | [AspenTech HPCL Industrial AI case study](https://www.aspentech.com/en/resources/case-studies/real-time-quality-control-how-hpcl-uses-industrial-ai-to-improve-refining-processes) | HTML 快照 |
@@ -63,6 +65,8 @@
 | 研究 | [research/pinn-digital-twin-arxiv-2603.24644-abstract.html](research/pinn-digital-twin-arxiv-2603.24644-abstract.html) | 保留 PINN 数字孪生论文摘要页面与原始编号 | [PINN digital twin abstract](https://arxiv.org/abs/2603.24644) | HTML 快照 |
 | 研究 | [notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE HYSYS 原油蒸馏 + 机器学习代理模型论文的元数据、访问限制、价值判断和边界结论 | [ResearchGate metadata](https://www.researchgate.net/publication/400895104_Data-driven_simulation_of_crude_distillation_using_Aspen_HYSYS_and_comparative_machine_learning_models), [DOI](https://doi.org/10.1002/cjce.70297) | Wiley/ResearchGate 匿名抓取受访问控制阻断；仅保存 CASE 笔记，不保存伪 PDF |
 | 研究 | [research/hysys-lng-surrogate-jcp-2026-metadata.html](research/hysys-lng-surrogate-jcp-2026-metadata.html) | 记录 2026 Journal of Cleaner Production LNG surrogate 论文元数据，补强“仿真数据 -> ML surrogate -> LNG 优化/低数字碳足迹”的研究证据 | [SQU metadata](https://squ.elsevierpure.com/en/publications/artificial-intelligence-driven-surrogate-modeling-for-computation/), [DOI](https://doi.org/10.1016/j.jclepro.2026.148110) | HTML 元数据；ScienceDirect 摘要页显示使用 Aspen HYSYS V14，不保存全文 |
+| 研究 | [research/hysys-psd-xgboost-pso-springer-2026.html](research/hysys-psd-xgboost-pso-springer-2026.html) | 2026 Korean Journal of Chemical Engineering 论文页面：Aspen HYSYS 压力摆动精馏模型结合 XGBoost 与 PSO 做热负荷预测和工况优化 | [Springer article](https://link.springer.com/article/10.1007/s11814-026-00646-x) | HTML 快照 |
+| 研究 | [research/hysys-psd-xgboost-pso-springer-2026.pdf](research/hysys-psd-xgboost-pso-springer-2026.pdf) | 论文 PDF：补强“HYSYS baseline -> ML surrogate -> optimizer -> HYSYS/人工复核”的边界证据 | [Springer PDF](https://link.springer.com/content/pdf/10.1007/s11814-026-00646-x.pdf) | 真 PDF；不等同于 surrogate 替代 HYSYS baseline |
 | 研究 | [notes/heartbeat-scan-2026-04-30.md](notes/heartbeat-scan-2026-04-30.md) | 记录 HEFA / SAF production planning surrogate 论文线索、访问限制和项目边界；补强 surrogate 与 PIMS/计划优化系统之间的边界 | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S009813542600102X), [SSRN DOI](https://doi.org/10.2139/ssrn.5373950) | ScienceDirect/AIChE/SSRN 匿名访问受限；仅保存 CASE 笔记，不保存伪快照 |
 | 研究 | [research/reasoning-agent-distillation-nature-2026.pdf](research/reasoning-agent-distillation-nature-2026.pdf) | 2026 Nature Communications Engineering 论文，展示 LLM reasoning agent 自动化流程仿真、优化、碳核算和节能方案构建 | [Nature DOI](https://doi.org/10.1038/s44172-025-00583-3) | 真 PDF；Aspen Plus 相邻证据，不是 HYSYS 直接证据 |
 | 研究 | [research/reasoning-agent-distillation-nature-2026.html](research/reasoning-agent-distillation-nature-2026.html) | 保存 reasoning-agent distillation 论文页面，用于核对 DOI、发布日期、摘要和开放状态 | [Nature article page](https://www.nature.com/articles/s44172-025-00583-3) | HTML 快照 |
@@ -78,6 +82,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-02.md](notes/heartbeat-scan-2026-05-02.md) | 记录 2026-05-02 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-05.md](notes/heartbeat-scan-2026-05-05.md) | 记录 2026-05-05 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-11.md](notes/heartbeat-scan-2026-05-11.md) | 记录 2026-05-11 自动心跳保存的 HYSYS/Python/ScadaBR、SCADABR-PYTHON 和 reasoning-agent 资料、价值判断、项目改进和边界结论 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-12.md](notes/heartbeat-scan-2026-05-12.md) | 记录 2026-05-12 自动心跳保存的 Tüpraş HYSYS column performance 官方案例和 Springer HYSYS+XGBoost/PSO 资料、价值判断、项目改进和边界结论 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明
