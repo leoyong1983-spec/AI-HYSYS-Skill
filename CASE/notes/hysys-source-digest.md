@@ -38,6 +38,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-12 自动心跳新增两类证据：[official/aspen-hysys-tupras-column-performance-2019.pdf](../official/aspen-hysys-tupras-column-performance-2019.pdf) 展示 Tüpraş 使用 Aspen HYSYS column analysis 与 Aspen EDR 集成进行塔性能诊断和能力提升；[research/hysys-psd-xgboost-pso-springer-2026.pdf](../research/hysys-psd-xgboost-pso-springer-2026.pdf) 展示 Aspen HYSYS 压力摆动精馏模型结合 XGBoost 与 PSO 做热负荷预测和工况优化。项目结论是：AI-HYSYS-Skill 可以服务已有 HYSYS case 的诊断、KPI schema、候选优化变量和报告输出；ML surrogate / optimizer 只能作为候选建议层，不能替代 HYSYS runtime 或人工审核。
 
+2026-05-13 自动心跳补强 online deployment 与 first-principles baseline 边界：[official/aspen-online-product-page-2026.html](../official/aspen-online-product-page-2026.html) 明确 Aspen OnLine 使用 live data matched with process simulation，并可在 Aspen Plus / Aspen HYSYS simulation environment 中生成用 plant historian 或 lab data 校验的项目文件；[research/first-principles-modeling-age-ai-tudelft-2026.html](../research/first-principles-modeling-age-ai-tudelft-2026.html) 记录 IECR 2026 综述，强调 AI 时代第一性原理建模仍有核心作用。项目结论是：AI-HYSYS-Skill 可以帮助准备 online/historian/KPI/schema/审计材料，但不能复刻 Aspen OnLine，也不能让 AI、hybrid model 或 surrogate 替代 HYSYS 机理基线和人工工程审核。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
