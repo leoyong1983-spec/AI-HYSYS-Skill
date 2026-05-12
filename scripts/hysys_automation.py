@@ -3,14 +3,16 @@ from __future__ import annotations
 import contextlib
 import os
 import shutil
+import subprocess
 import tempfile
 import time
+import winreg
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable, Sequence
 
 import pythoncom
-from win32com.client import DispatchEx
+from win32com.client import DispatchEx, GetActiveObject
 
 
 class HysysAutomationError(RuntimeError):
@@ -19,10 +21,15 @@ class HysysAutomationError(RuntimeError):
 
 @dataclass(slots=True)
 class HysysLaunchOptions:
+    prog_id: str = "HYSYS.Application"
+    registered_prog_id: str = "HYSYS.Application.V15.0"
     visible: bool = False
     suppress_popups: bool = True
     startup_retries: int = 2
     startup_retry_delay_s: float = 1.0
+    fallback_to_registered_server: bool = True
+    attach_timeout_s: float = 120.0
+    attach_poll_interval_s: float = 2.0
 
 
 @dataclass(frozen=True, slots=True)
@@ -71,6 +78,7 @@ class HysysCaseSession:
         self.case = None
         self._case_path: Path | None = None
         self._com_initialized = False
+        self._launched_process: subprocess.Popen | None = None
 
     def __enter__(self) -> "HysysCaseSession":
         self._initialize_com()
@@ -95,7 +103,7 @@ class HysysCaseSession:
         last_error: Exception | None = None
         for attempt in range(1, self.options.startup_retries + 2):
             try:
-                app = DispatchEx("HYSYS.Application")
+                app = DispatchEx(self.options.prog_id)
                 app.Visible = self.options.visible
                 with contextlib.suppress(Exception):
                     app.ChangePreferencesToMinimizePopupWindows(
@@ -106,8 +114,44 @@ class HysysCaseSession:
                 last_error = exc
                 if attempt <= self.options.startup_retries:
                     time.sleep(self.options.startup_retry_delay_s)
+
+        if self.options.fallback_to_registered_server:
+            app = self._launch_registered_server_and_attach(last_error)
+            app.Visible = self.options.visible
+            with contextlib.suppress(Exception):
+                app.ChangePreferencesToMinimizePopupWindows(
+                    self.options.suppress_popups
+                )
+            return app
+
         raise HysysAutomationError(
             f"Unable to launch HYSYS.Application via COM: {last_error}"
+        )
+
+    def _launch_registered_server_and_attach(self, direct_error: Exception | None):
+        exe_path, arguments = registered_local_server_command(
+            self.options.registered_prog_id
+        )
+        self._launched_process = subprocess.Popen(
+            [str(exe_path), *arguments],
+            cwd=str(exe_path.parent),
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+
+        deadline = time.monotonic() + self.options.attach_timeout_s
+        last_error: Exception | None = direct_error
+        while time.monotonic() < deadline:
+            try:
+                return GetActiveObject(self.options.prog_id)
+            except Exception as exc:  # pragma: no cover - COM specific
+                last_error = exc
+                time.sleep(self.options.attach_poll_interval_s)
+
+        raise HysysAutomationError(
+            "Unable to attach to HYSYS.Application after starting the registered "
+            f"automation server {exe_path}. Direct COM error: {direct_error}; "
+            f"attach error: {last_error}"
         )
 
     @property
@@ -245,6 +289,7 @@ class HysysCaseSession:
             with contextlib.suppress(Exception):
                 self.app.Quit()
             self.app = None
+        self._launched_process = None
 
     def _flowsheet(self):
         if self.case is None:
@@ -262,6 +307,46 @@ class HysysCaseSession:
 def make_temp_case_path(prefix: str = "hysys_case") -> Path:
     temp_dir = Path(tempfile.gettempdir())
     return temp_dir / f"{prefix}_{int(time.time())}.hsc"
+
+
+def registered_local_server_command(
+    prog_id: str = "HYSYS.Application.V15.0",
+) -> tuple[Path, list[str]]:
+    """Return the COM LocalServer32 executable and arguments for HYSYS.
+
+    Some Aspen HYSYS installations register an unquoted LocalServer32 value even
+    when the executable path contains spaces. Parsing around the first `.exe`
+    keeps the fallback launch path robust without mutating the registry.
+    """
+
+    try:
+        with winreg.OpenKey(winreg.HKEY_CLASSES_ROOT, rf"{prog_id}\CLSID") as key:
+            clsid, _ = winreg.QueryValueEx(key, "")
+        with winreg.OpenKey(
+            winreg.HKEY_CLASSES_ROOT, rf"CLSID\{clsid}\LocalServer32"
+        ) as key:
+            command, _ = winreg.QueryValueEx(key, "")
+    except OSError as exc:
+        raise HysysAutomationError(
+            f"Unable to read LocalServer32 registration for {prog_id}: {exc}"
+        ) from exc
+
+    marker = ".exe"
+    marker_index = command.lower().find(marker)
+    if marker_index < 0:
+        raise HysysAutomationError(
+            f"Cannot parse LocalServer32 command for {prog_id}: {command}"
+        )
+
+    exe_path = Path(command[: marker_index + len(marker)].strip().strip('"'))
+    arguments = command[marker_index + len(marker) :].strip().split()
+    if not arguments:
+        arguments = ["/Automation"]
+    if not exe_path.exists():
+        raise HysysAutomationError(
+            f"Registered HYSYS executable does not exist: {exe_path}"
+        )
+    return exe_path, arguments
 
 
 def set_stream_state(

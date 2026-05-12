@@ -34,6 +34,8 @@ REQUIRED_FILES = [
     ".github/ISSUE_TEMPLATE/config.yml",
     ".github/workflows/repo-hygiene.yml",
     "scripts/hysys_automation.py",
+    "scripts/hysys_readiness_check.py",
+    "scripts/hysys_h2_density_table.py",
     "scripts/validate_repo.ps1",
     "scripts/validate_repo.py",
 ]
@@ -130,6 +132,10 @@ def check_readme_content(readme_text: str, errors: list[str]) -> None:
         errors.append("README.md should point readers to the CASE index.")
     if "hysys_automation.py" not in readme_text:
         errors.append("README.md should mention the reusable HYSYS automation wrapper.")
+    if "hysys_readiness_check.py" not in readme_text:
+        errors.append("README.md should mention the real HYSYS readiness check.")
+    if "hysys_h2_density_table.py" not in readme_text:
+        errors.append("README.md should mention the native HYSYS hydrogen density example.")
     if "control-lane-decision-matrix.md" not in readme_text:
         errors.append("README.md should point readers to the control lane decision matrix.")
 

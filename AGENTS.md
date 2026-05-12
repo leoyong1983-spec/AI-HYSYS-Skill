@@ -10,6 +10,8 @@ Keep this repository installable, reviewable, and trustworthy as an AI-ready HYS
 - `references/` contains the domain guardrails that explain control-lane choice, package deliverables, and project lessons.
 - `CASE/` contains the public source pack, digest notes, and release-positioning material for the open-source repo.
 - `scripts/hysys_automation.py` is a reusable direct COM starter wrapper.
+- `scripts/hysys_readiness_check.py` verifies real Windows/HYSYS runtime readiness when Aspen HYSYS is available.
+- `scripts/hysys_h2_density_table.py` is a minimal native HYSYS property-table smoke calculation for pure hydrogen.
 - `agents/openai.yaml` contains the Codex-facing UI metadata.
 - `scripts/validate_repo.ps1` is the preferred local validation entry point on Windows.
 - `scripts/validate_repo.py` is the lightweight repository smoke test.
@@ -38,6 +40,7 @@ Use external knowledge in this order:
 - Do not change the license without maintainer approval.
 - Do not commit secrets, credentials, proprietary plant data, private case files, or personal machine paths.
 - Do not claim Aspen HYSYS runtime validation unless a real local HYSYS environment was available and exercised.
+- Do not relabel external EOS calculations or fitted data as HYSYS-native results; native results must come from a HYSYS object/property readback.
 - Do not silently upgrade the scope from basic process package support to detailed design.
 - Do not replace official HYSYS behavior with speculative wrapper behavior.
 
