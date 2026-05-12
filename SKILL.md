@@ -40,11 +40,12 @@ Decide the path in this order:
 
 1. If the workspace already contains proven HYSYS runners, smoke tests, tuning scripts, workbook bridges, or export tools, reuse them first.
 2. If direct COM launch works, use `HYSYS.Application` as the default execution lane.
-3. If object-path access is fragile but spreadsheet names or workbook tags are stable, use the spreadsheet bridge.
-4. If HYSYS data tables or special objects are already configured and expose the required variables cleanly, use them as supplementary lanes and document the schema.
-5. If only an existing indirect bridge is already in service, use it carefully and document that the lane is weaker than direct COM.
-6. Do not default to AI greenfield case construction for production work.
-7. Do not default to GUI clicking for production work.
+3. If direct `DispatchEx("HYSYS.Application")` fails but the registry contains a valid `LocalServer32`, start the registered `aspenhysys.exe /Automation` server and attach to the active HYSYS object before abandoning native HYSYS.
+4. If object-path access is fragile but spreadsheet names or workbook tags are stable, use the spreadsheet bridge.
+5. If HYSYS data tables or special objects are already configured and expose the required variables cleanly, use them as supplementary lanes and document the schema.
+6. If only an existing indirect bridge is already in service, use it carefully and document that the lane is weaker than direct COM.
+7. Do not default to AI greenfield case construction for production work.
+8. Do not default to GUI clicking for production work.
 
 Treat direct COM as the authoritative baseline lane because it controls case launch, open, save, and object access directly.
 
@@ -58,12 +59,15 @@ Always check:
 
 1. Aspen HYSYS installation path
 2. Aspen HYSYS version
-3. Whether `HYSYS.Application` launches
-4. Whether a known case can open and save
-5. Whether spreadsheet or workbook bridges exist and bind correctly
-6. Whether existing case files, workcopies, audits, status files, and package exports already exist
+3. Whether the active Python environment can import `pythoncom` and `win32com.client`
+4. Whether `HYSYS.Application` launches directly or via registered automation-server fallback
+5. Whether a known case can open and save, or whether a minimal smoke-test case can be created and saved when no valid case exists
+6. Whether spreadsheet or workbook bridges exist and bind correctly
+7. Whether existing case files, workcopies, audits, status files, and package exports already exist
 
 Do not begin tuning or package compilation before confirming which control lane actually works.
+
+Use `scripts/hysys_readiness_check.py` when available. It must classify Python/pywin32 failures, COM registry failures, launch failures, case open/create failures, object-binding failures, and solver failures separately.
 
 If multiple lanes work, prefer the one already proven in the current workspace.
 
@@ -91,6 +95,12 @@ Use explicit run modes:
 3. `bounded-tuning` for small, auditable parameter changes
 4. `freeze-and-export` for baseline locking and package generation
 5. `review-support` for comment closure, consistency checking, and supplemental outputs
+
+For simple property-table requests, such as pure hydrogen density from 1 MPa to 90 MPa, prefer a minimal native HYSYS material-stream case after readiness passes. Record the table pressure basis explicitly:
+
+1. `MPa(a)` means the table pressure is written directly as absolute pressure.
+2. `MPa(g)` means the table pressure is converted before writing to HYSYS, normally `P_abs = P_gauge + 0.101325 MPa`.
+3. Read the HYSYS property directly, for example `MassDensity.GetValue('kg/m3')`, and do not relabel external EOS or fitted values as HYSYS-native results.
 
 For bounded tuning:
 
@@ -216,3 +226,5 @@ When this skill is used well, the result should be a chain of artifacts, not jus
 3. Calculation or tuning outputs
 4. Export tables
 5. Package-stage formal deliverables or review-support files when requested
+
+For property-table outputs, include the HYSYS version, property package, component list, pressure basis, pressure conversion if any, density property path, source case path, CSV/JSON outputs, and run log.

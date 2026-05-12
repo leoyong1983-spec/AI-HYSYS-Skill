@@ -91,6 +91,8 @@ AI-HYSYS-Skill/
 |   `-- project-lessons.md
 |-- scripts/
 |   |-- hysys_automation.py
+|   |-- hysys_readiness_check.py
+|   |-- hysys_h2_density_table.py
 |   |-- validate_repo.ps1
 |   `-- validate_repo.py
 |-- CASE/
@@ -113,12 +115,20 @@ Minimum practical requirements:
 - Windows
 - Aspen HYSYS installed locally
 - a working `HYSYS.Application` COM registration
+- Python with `pywin32` (`pythoncom` and `win32com.client`) for direct COM automation
 
 Optional but useful:
 
 - Python for orchestration and batch workflows
 - Excel or Aspen Simulation Workbook for spreadsheet-bridge control
 - project-local runner scripts or templates
+
+Install or repair `pywin32` in the Python environment that will run the scripts:
+
+```powershell
+py -m pip install pywin32
+py -c "import pythoncom, win32com.client; print('pywin32 ok')"
+```
 
 ## Quick Start
 
@@ -150,6 +160,14 @@ Copy-Item `
 
 ### 3. Use it in a real HYSYS task
 
+First prove the runtime lane on the target Windows machine:
+
+```powershell
+py .\scripts\hysys_readiness_check.py --create-smoke-case
+```
+
+The readiness check verifies Python, `pywin32`, COM registration, HYSYS launch/attach, version readback, and optional minimal case create/save. The HYSYS wrapper first tries normal `DispatchEx("HYSYS.Application")`; if that fails, it falls back to the registered `LocalServer32` automation server and attaches to the active HYSYS object.
+
 Example prompts:
 
 ```text
@@ -163,6 +181,27 @@ Use ai-hysys-basic-package to open the latest valid HYSYS case, run a bounded up
 ```text
 Use ai-hysys-basic-package to freeze the accepted HYSYS case as a review-stage baseline and prepare machine-readable package outputs.
 ```
+
+### Native HYSYS hydrogen density example
+
+For a quick pure-hydrogen property-table smoke test, run HYSYS directly and export CSV/JSON:
+
+```powershell
+# Absolute-pressure table, 1-90 MPa(a), every 1 MPa
+py .\scripts\hysys_h2_density_table.py `
+  --pressure-basis absolute `
+  --start-mpa 1 --end-mpa 90 --step-mpa 1 `
+  --temperature-c 20
+
+# Gauge-pressure table, 1-90 MPa(g), every 1 MPa.
+# HYSYS receives P_abs = P_gauge + 0.101325 MPa.
+py .\scripts\hysys_h2_density_table.py `
+  --pressure-basis gauge `
+  --start-mpa 1 --end-mpa 90 --step-mpa 1 `
+  --temperature-c 20
+```
+
+The generated table reads `MassDensity.GetValue('kg/m3')` from a native HYSYS material stream. It is not a fitted curve and it is not an external Peng-Robinson reimplementation.
 
 ### Option A: Use it as a Codex skill
 
@@ -195,14 +234,16 @@ If you do not use Codex skills directly, you can still reuse:
 
 ## CASE Folder
 
-`CASE/` is a curated public source pack prepared on 2026-04-21 (Asia/Shanghai). It is grouped into:
+`CASE/` is a curated public source pack prepared on 2026-04-21 (Asia/Shanghai). It is not guaranteed to contain a loadable HYSYS case for every topic. Treat it as a source and precedent library first, and only treat files as runnable models after a real open/save smoke test passes. It is grouped into:
 
 - `official/` for AspenTech product and support pages
-- `community/` for public bridge examples and sample HYSYS case files
+- `community/` for public bridge examples and sample HYSYS case files when present
 - `research/` for recent AI-for-HYSYS academic material
 - `notes/` for Chinese digest notes and a release playbook
 
 Start with [CASE/source-index.md](CASE/source-index.md) and [CASE/notes/hysys-source-digest.md](CASE/notes/hysys-source-digest.md).
+
+For a concise runtime postmortem from the HYSYS-native hydrogen density task, see [CASE/notes/runtime-lessons-2026-05-12.md](CASE/notes/runtime-lessons-2026-05-12.md).
 
 ## Maintenance and Validation
 
@@ -215,6 +256,8 @@ This repository includes lightweight open-source maintenance scaffolding:
 - `.github/workflows/repo-hygiene.yml` for push, pull request, manual, and daily repository checks
 - `scripts/validate_repo.ps1` as the Windows-friendly local validation entry point
 - `scripts/validate_repo.py` for the underlying repository smoke checks without requiring Aspen HYSYS
+- `scripts/hysys_readiness_check.py` for real Windows/HYSYS runtime verification
+- `scripts/hysys_h2_density_table.py` for a minimal native HYSYS property-table smoke calculation
 
 Run the local validation entry point after repository-facing changes:
 
@@ -251,6 +294,13 @@ A good run should leave artifacts such as:
 - `run_status.md`
 - baseline or workcopy traceability
 - review-stage package outputs when requested
+
+For property-table tasks, also record:
+
+- whether the table pressure is absolute `MPa(a)` or gauge `MPa(g)`
+- any conversion used before writing pressure to HYSYS
+- the HYSYS property package and component list
+- the exact HYSYS property path or method used, such as `MassDensity.GetValue('kg/m3')`
 
 ## What This Toolkit Does Not Do By Default
 
