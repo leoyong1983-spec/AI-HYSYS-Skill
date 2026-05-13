@@ -1,0 +1,448 @@
+﻿[
+    {
+        "title":  "Corey-McInrue/Node-C-ASPEN-HYSYS",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Corey-McInrue__Node-C-ASPEN-HYSYS-readme.base64.txt",
+                                    "filename":  "github-Corey-McInrue__Node-C-ASPEN-HYSYS-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  376,
+                                    "sha256":  "a13790a63311ace0770475123aaca86175a73b55d571e1680fb3c48594667b06"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Corey-McInrue__Node-C-ASPEN-HYSYS-repo.json",
+                                    "filename":  "github-Corey-McInrue__Node-C-ASPEN-HYSYS-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11648,
+                                    "sha256":  "1f2c40a956a0a5469a5dc374a6407799181eb4391dbb2e02b5230a14458fa85a"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Corey-McInrue__Node-C-ASPEN-HYSYS-tree.json",
+                                    "filename":  "github-Corey-McInrue__Node-C-ASPEN-HYSYS-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1348,
+                                    "sha256":  "a8ccf3d164371ac365e56b7d3c91a4afa8e41ffd378c6f33c79e5146d865c561"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, but no repository license detected. Tree contains NODECFINAL.hsc and README.md; model was not downloaded because archival rights are unclear.",
+        "recommended_use":  "Manual permission-review candidate for a 2025 Aspen HYSYS Node C process simulation case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+                            "download_url":  "",
+                            "title":  "Corey-McInrue/Node-C-ASPEN-HYSYS",
+                            "filenames":  [
+                                              "NODECFINAL.hsc",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; model not archived.",
+                               "No validation data found in tree metadata."
+                           ]
+    },
+    {
+        "title":  "JeePeiQi0101/Aspen.HYSYS",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/JeePeiQi0101/Aspen.HYSYS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-JeePeiQi0101__Aspen.HYSYS-readme.base64.txt",
+                                    "filename":  "github-JeePeiQi0101__Aspen.HYSYS-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-JeePeiQi0101__Aspen.HYSYS-repo.json",
+                                    "filename":  "github-JeePeiQi0101__Aspen.HYSYS-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10928,
+                                    "sha256":  "3fe404553d68962028df3b3019d04f3415b00c5e54a2e4d1c57fbe2f0050d0f5"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-JeePeiQi0101__Aspen.HYSYS-tree.json",
+                                    "filename":  "github-JeePeiQi0101__Aspen.HYSYS-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2452,
+                                    "sha256":  "0ed4e0606357a60ad4f4b941d84925309e008dda80c69448baa8e4da9a86a69e"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, but no repository license detected. Tree contains three Aspen HYSYS XML simulation files and a PDF report; files were not downloaded.",
+        "recommended_use":  "Manual permission-review candidate for hydrolysis of acetic anhydride HYSYS XML cases.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/JeePeiQi0101/Aspen.HYSYS",
+                            "download_url":  "",
+                            "title":  "JeePeiQi0101/Aspen.HYSYS",
+                            "filenames":  [
+                                              "Aspen HYSYS simulation file_Parallel.xml",
+                                              "Aspen HYSYS simulation file_Series.xml",
+                                              "Aspen HYSYS simulation file_Single.xml",
+                                              "Hydrolysis of Acetic Anhydride report.pdf"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".xml"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  true,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; XML cases/report not archived.",
+                               "HYSYS XML status inferred from filenames only."
+                           ]
+    },
+    {
+        "title":  "marcellobozzini/Python-Driving-License",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/marcellobozzini/Python-Driving-License",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-marcellobozzini__Python-Driving-License-readme.base64.txt",
+                                    "filename":  "github-marcellobozzini__Python-Driving-License-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-marcellobozzini__Python-Driving-License-repo.json",
+                                    "filename":  "github-marcellobozzini__Python-Driving-License-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  12268,
+                                    "sha256":  "e0dfa19ddf1c44128cdcfd56bfffdbb44531ad7952105fc93a59fb65000cedde"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-marcellobozzini__Python-Driving-License-tree.json",
+                                    "filename":  "github-marcellobozzini__Python-Driving-License-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1450,
+                                    "sha256":  "227fa8cb01f5617a22da76098e877137d982e55fc78614d8b1646205b329afe2"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, but no repository license detected. Tree contains Separazione_reattori.hsc and a Jupyter notebook; files were not downloaded.",
+        "recommended_use":  "Manual permission-review candidate for HYSYS/Python automation example.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/marcellobozzini/Python-Driving-License",
+                            "download_url":  "",
+                            "title":  "marcellobozzini/Python-Driving-License",
+                            "filenames":  [
+                                              "Separazione_reattori.hsc",
+                                              "Python Driving License.ipynb"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; model/notebook not archived.",
+                               "Notebook must not be executed without review."
+                           ]
+    },
+    {
+        "title":  "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation-readme.base64.txt",
+                                    "filename":  "github-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  4200,
+                                    "sha256":  "4381a4dabc7ee46d78e9dbca41710fb1bef6ceb967cffc7eaacf9c69871e6507"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation-repo.json",
+                                    "filename":  "github-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  19698,
+                                    "sha256":  "01d500c8494d9c07c7e9918289795d96e3f539800f7c9797ffda87f562650741"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation-tree.json",
+                                    "filename":  "github-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1200,
+                                    "sha256":  "21068777a408c6c42564577a9d0b72f9858551cdbaced849d05125389950207a"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. Tree inspection found README only and no HYSYS model file.",
+        "recommended_use":  "Do not ingest; keep as rejected candidate unless a model file appears.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+                            "download_url":  "",
+                            "title":  "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+                            "filenames":  [
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model file; no license."
+                           ]
+    },
+    {
+        "title":  "DanielVazVaz/PySIS",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/DanielVazVaz/PySIS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-DanielVazVaz__PySIS-readme.base64.txt",
+                                    "filename":  "github-DanielVazVaz__PySIS-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  2128,
+                                    "sha256":  "f7cd35805589ae03f54be91ef4677fc7b38c1d68241b19435c203e4050e58a66"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-DanielVazVaz__PySIS-repo.json",
+                                    "filename":  "github-DanielVazVaz__PySIS-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10380,
+                                    "sha256":  "407123e7e9d5601e0b4ef34a9d807abd04068922e6800d19f55cb514abdccaf3"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-DanielVazVaz__PySIS-tree.json",
+                                    "filename":  "github-DanielVazVaz__PySIS-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7856,
+                                    "sha256":  "a3f60449b322b805b224e6e2d01b9f1ce6d69163dd47aaf65c64278a66fa6139"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. It is a Python abstraction layer over Aspen HYSYS and no model file was found.",
+        "recommended_use":  "Potential automation API reference only; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/DanielVazVaz/PySIS",
+                            "download_url":  "",
+                            "title":  "DanielVazVaz/PySIS",
+                            "filenames":  [
+                                              "README.md",
+                                              "pysis/flowsheet.py"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model file; no license."
+                           ]
+    },
+    {
+        "title":  "Avest-AI/MemCal",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Avest-AI/MemCal",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Avest-AI__MemCal-readme.base64.txt",
+                                    "filename":  "github-Avest-AI__MemCal-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  2416,
+                                    "sha256":  "be7514bb4b95bf790684d059ab957daf8037c0b9b0bd57f79b7cd39c488347c6"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Avest-AI__MemCal-repo.json",
+                                    "filename":  "github-Avest-AI__MemCal-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10104,
+                                    "sha256":  "4150cd9c12b7fc89b6cf46f7dbde2ce7621bb75af4972aadadae589fdcd64fd6"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-Avest-AI__MemCal-tree.json",
+                                    "filename":  "github-Avest-AI__MemCal-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1676,
+                                    "sha256":  "82063bf6483dfc863c3f4b09983d1bf54ad9f5e27eb14ba4897740e3c435400d"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. It describes an Aspen HYSYS membrane extension but no case model was found in the tree metadata.",
+        "recommended_use":  "Manual review only for membrane extension context; not a CASE benchmark.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Avest-AI/MemCal",
+                            "download_url":  "",
+                            "title":  "Avest-AI/MemCal",
+                            "filenames":  [
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model file; no license."
+                           ]
+    },
+    {
+        "title":  "vminasid/Hysys-Unisis2Matlab",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/vminasid/Hysys-Unisis2Matlab",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-vminasid__Hysys-Unisis2Matlab-readme.base64.txt",
+                                    "filename":  "github-vminasid__Hysys-Unisis2Matlab-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  5236,
+                                    "sha256":  "1d6d775f48f95c9eeb4cb9a7a0c56694ee051c019db504c8a2f1bec264e64de9"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-vminasid__Hysys-Unisis2Matlab-repo.json",
+                                    "filename":  "github-vminasid__Hysys-Unisis2Matlab-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11610,
+                                    "sha256":  "888cb088bbb4d70b9fb7590f8775cb24de3481578a47310c1a773515854246fd"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2201Z\\artifacts\\github-vminasid__Hysys-Unisis2Matlab-tree.json",
+                                    "filename":  "github-vminasid__Hysys-Unisis2Matlab-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2698,
+                                    "sha256":  "70239c87fb68c03bbb5bcac614877d808010110d2fb39ff04bd0419cff98b077"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository with GPL-3.0 license. Contains MATLAB code for Unisim/Hysys model conversion but no model file was found.",
+        "recommended_use":  "Possible automation-code reference only; not a HYSYS benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/vminasid/Hysys-Unisis2Matlab",
+                            "download_url":  "",
+                            "title":  "vminasid/Hysys-Unisis2Matlab",
+                            "filenames":  [
+                                              "NLPGenerator.m",
+                                              "README.md",
+                                              "LICENSE"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "GPL license obligations if code is reused.",
+                               "No model file."
+                           ]
+    }
+]
