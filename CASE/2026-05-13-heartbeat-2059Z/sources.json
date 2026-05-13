@@ -1,0 +1,449 @@
+﻿[
+    {
+        "title":  "Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-Mahdi-Arashian__sour-gas-sweetening-hysys-readme.base64.txt",
+                                    "filename":  "github-Mahdi-Arashian__sour-gas-sweetening-hysys-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  1644,
+                                    "sha256":  "125df3768d0c007fd888f3390a16e263fea4311e43456bfa3a2ced366f3aa100"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-Mahdi-Arashian__sour-gas-sweetening-hysys-repo.json",
+                                    "filename":  "github-Mahdi-Arashian__sour-gas-sweetening-hysys-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  12450,
+                                    "sha256":  "dd8e63614415726fb1548983c51e80a6ed22e29373c03cd0e7fdebc88b2efd77"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-Mahdi-Arashian__sour-gas-sweetening-hysys-tree.json",
+                                    "filename":  "github-Mahdi-Arashian__sour-gas-sweetening-hysys-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1964,
+                                    "sha256":  "9cd66d17dd757555fb0243eb2b1ddce80a643aa005fef3cd7b8916a8b0f5bf20"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, but no repository license detected. Contains GTU Simulation.hsc and a PDF report, so rights for archival/download are unclear; model/report were not downloaded.",
+        "recommended_use":  "Manual license review candidate for sour gas sweetening HYSYS benchmark; if permission is confirmed, classify as gas treating/amine sweetening automation test.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+                            "download_url":  "",
+                            "title":  "Mahdi-Arashian/sour-gas-sweetening-hysys",
+                            "filenames":  [
+                                              "GTU Simulation.hsc",
+                                              "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; do not archive model/report until permission or license is clarified.",
+                               "Repository quality cannot be validated without downloading and inspecting the case/report."
+                           ]
+    },
+    {
+        "title":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-readme.base64.txt",
+                                    "filename":  "github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  6260,
+                                    "sha256":  "6b8a1f76800f950fe5adb0f5a591f2a633118c29c4671909a47df4af2c8eb448"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-repo.json",
+                                    "filename":  "github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  14160,
+                                    "sha256":  "9c469b59d825afc4df6aab22dc11228e6d08e66afac84f2066d9346b83edacce"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-tree.json",
+                                    "filename":  "github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9478,
+                                    "sha256":  "2b5f6b9de34732cb3b2e62a2b57ff686d4175235c1b0a0b19b74f21252d39d46"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository with MIT license, but tree inspection found HYSYS-derived CSV/XLSX data and no .hsc/.hscz/HYSYS XML model file.",
+        "recommended_use":  "Possible surrogate-model/data-validation reference for atmospheric distillation, not a HYSYS benchmark case until a model file is located.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                            "download_url":  "",
+                            "title":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                            "filenames":  [
+                                              "data/Apen Hysys Data.csv",
+                                              "data/Thermodynamic Validation.xlsx",
+                                              "README.md",
+                                              "LICENSE"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No HYSYS model file found; keep as candidate/data-only reference."
+                           ]
+    },
+    {
+        "title":  "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-readme.base64.txt",
+                                    "filename":  "github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  472,
+                                    "sha256":  "4c699f52aaf8cac9852287ceab4aa5645b09d734acbb3e4d46c1494e27233153"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-repo.json",
+                                    "filename":  "github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  13302,
+                                    "sha256":  "f4468ced06b7f94b2bad0d4bc30695d2b418819081b13d6f54c5c89d176f35cd"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-tree.json",
+                                    "filename":  "github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  13442,
+                                    "sha256":  "3cba911e92d76bd87cd2fab8fcedceff60de45ead25deee891f7090744660bf7"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. Contains HYSYS connection scripts and Excel macro files but no discovered HYSYS model file.",
+        "recommended_use":  "Manual review candidate for automation-interface examples, not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                            "download_url":  "",
+                            "title":  "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                            "filenames":  [
+                                              "Dynamic/Python/Connections.py",
+                                              "Steady-State/Python/Connections.py",
+                                              "Connection.xlsm",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No license and no model file; Excel macro files should not be executed."
+                           ]
+    },
+    {
+        "title":  "snua/HYSYS-dynamic-simulation",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/snua/HYSYS-dynamic-simulation",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-snua__HYSYS-dynamic-simulation-readme.base64.txt",
+                                    "filename":  "github-snua__HYSYS-dynamic-simulation-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  108,
+                                    "sha256":  "e8205f6c961ea619817975564e36611b46ca1978740b4f5941de180ac2c0cc35"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-snua__HYSYS-dynamic-simulation-repo.json",
+                                    "filename":  "github-snua__HYSYS-dynamic-simulation-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11224,
+                                    "sha256":  "0bd541b9018fe067623d3b47d06179ff6e516ad03ce7bb2fcc33584cee216daa"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-snua__HYSYS-dynamic-simulation-tree.json",
+                                    "filename":  "github-snua__HYSYS-dynamic-simulation-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2368,
+                                    "sha256":  "21ffe9b5781bd0d7cfe3eb6803556796070560b2029c799884d60c6fbcd9443b"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. Contains HYSYS dynamic simulation teaching PDFs but no model file in tree.",
+        "recommended_use":  "Manual education-reference candidate only; not a case benchmark.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/snua/HYSYS-dynamic-simulation",
+                            "download_url":  "",
+                            "title":  "snua/HYSYS-dynamic-simulation",
+                            "filenames":  [
+                                              "Intro-Dynamic-Simulation-Slides.pdf",
+                                              "Intro-Dynamic-Simulation-Worksheet.pdf",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model file; no explicit license for archiving PDFs."
+                           ]
+    },
+    {
+        "title":  "YuniqueCore/DynPlots",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/YuniqueCore/DynPlots",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-YuniqueCore__DynPlots-readme.base64.txt",
+                                    "filename":  "github-YuniqueCore__DynPlots-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-YuniqueCore__DynPlots-repo.json",
+                                    "filename":  "github-YuniqueCore__DynPlots-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  12814,
+                                    "sha256":  "074d42a739c7f4ffac46ed5fdf958477f9c57e8781211fd3d5ecaf2c5d29fcc7"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-YuniqueCore__DynPlots-tree.json",
+                                    "filename":  "github-YuniqueCore__DynPlots-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7292,
+                                    "sha256":  "58d105b064893492910d8ad0a4b6e3e7d25795d821f8328390e55398c0d3b1c8"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository with MIT license, but it is a HYSYS dynamic data dump plotting tool and no HYSYS model file was found.",
+        "recommended_use":  "Possible tooling reference for dynamic data analysis; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/YuniqueCore/DynPlots",
+                            "download_url":  "",
+                            "title":  "YuniqueCore/DynPlots",
+                            "filenames":  [
+                                              "LICENSE"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No HYSYS case file; not suitable for CASE benchmark ingestion."
+                           ]
+    },
+    {
+        "title":  "naawu789/HySysID",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/naawu789/HySysID",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-naawu789__HySysID-readme.base64.txt",
+                                    "filename":  "github-naawu789__HySysID-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  324,
+                                    "sha256":  "8eadd175e78686197ae9ae89f6d1ad09221bf6106eb237d173c0b26a779bdeea"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-naawu789__HySysID-repo.json",
+                                    "filename":  "github-naawu789__HySysID-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10256,
+                                    "sha256":  "0eb0ba94f0a9733a689fa7e110c7b0679fcb856ef46cc7260d74d16e26625865"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-naawu789__HySysID-tree.json",
+                                    "filename":  "github-naawu789__HySysID-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  42894,
+                                    "sha256":  "efdaee55b01935eea049eff3ae7849b65afb69bd694b218d4d8751c272f0b66d"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository with MIT license, but tree inspection found MATLAB identification examples and PDFs, not Aspen HYSYS case files.",
+        "recommended_use":  "Not recommended for HYSYS CASE benchmark; possible system-identification reference only.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/naawu789/HySysID",
+                            "download_url":  "",
+                            "title":  "naawu789/HySysID",
+                            "filenames":  [
+                                              "README.md",
+                                              "LICENSE"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Name collision with HYSYS; no Aspen HYSYS evidence found in repository tree."
+                           ]
+    },
+    {
+        "title":  "sajjad-ah/ASPEN-HYSYS",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-sajjad-ah__ASPEN-HYSYS-readme.base64.txt",
+                                    "filename":  "github-sajjad-ah__ASPEN-HYSYS-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-sajjad-ah__ASPEN-HYSYS-repo.json",
+                                    "filename":  "github-sajjad-ah__ASPEN-HYSYS-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10646,
+                                    "sha256":  "937c61b37ff397c77c3cfea5a1acff3a5658aea714598a08fef9bb99e9d2dc0c"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-13-heartbeat-2059Z\\artifacts\\github-sajjad-ah__ASPEN-HYSYS-tree.json",
+                                    "filename":  "github-sajjad-ah__ASPEN-HYSYS-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  17162,
+                                    "sha256":  "dc2aee2046360c740f3c6c2e60d719959ba95e1639803916c86cb65c001a0c81"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. Contains Aspen/UniSim automation and safety PDFs but no discovered HYSYS model file.",
+        "recommended_use":  "Manual automation-code reference only; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+                            "download_url":  "",
+                            "title":  "sajjad-ah/ASPEN-HYSYS",
+                            "filenames":  [
+                                              "SAFETY INSTRUMENTED SYSTEMS.pdf",
+                                              "UniSimCompressorData.py"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No license and no model file; do not ingest as benchmark case."
+                           ]
+    }
+]
