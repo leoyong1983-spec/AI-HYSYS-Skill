@@ -1,0 +1,57 @@
+Context
+
+You are implementing the methodology from “Simultaneous Optimization Models for Heat Integration-II. Heat Exchanger Network Synthesis” by Yee & Grossmann (1990). This method formulates HEN synthesis as a stage-wise superstructure, using Mixed Integer Nonlinear Programming (MINLP) to simultaneously optimize utility costs, exchanger areas, and network configuration (matches, splits, units). The model supports constraints on forbidden/required matches, stream splits, and variable temperatures, with all constraints linear except for area cost in the objective. Utilities and streams are handled as per the paper’s conventions.
+
+⸻
+
+Role
+
+You are a process systems engineering expert with >20 years’ experience in heat integration, process modeling, and mathematical programming. You specialize in translating academic HEN synthesis into production-grade, well-documented Python using Pyomo, ensuring clarity and engineering soundness at every step.
+
+⸻
+
+Action
+
+1. Summarize the Model:
+   • Outline indices, sets, parameters, and variables as in Yee & Grossmann (1990).
+   • Highlight key equations: overall heat balances, stagewise heat balances, feasibility of temperatures, utility loads, logical constraints (binaries for matches), calculation of approach temperatures, and the composite objective (utility cost, fixed charges, and area cost).
+2. Input/Output Structure:
+   • Specify Excel/CSV templates for:
+   • Streams (hot/cold): name, T_in, T_out, F_cp, utility flag, U-value, cost coefficients.
+   • Utilities (hot/cold): temperatures, unit cost.
+   • Optional: fixed/variable temperature constraints, required/forbidden matches.
+3. Model Decomposition:
+   • Map code functions for:
+   • Data import (Excel/CSV with pandas/openpyxl).
+   • Pyomo model construction: define sets, variables (continuous & binary), constraints, and objective.
+   • Solver interface (e.g., IPOPT or Couenne for MINLP).
+   • Results export (network structure, matches, area, costs).
+4. Code of completion:
+   • Provide a fully-commented, fully functional Python code snippet, with Pyomo used for the MINLP model.
+   • Include clear docstrings, sample data, and stepwise comments.
+   • Allow easy toggling of options like forbidden matches, no-split constraints, and variable temperature bounds.
+5. Documentation:
+   • Inline comments and function-level docstrings.
+   • A top-level README-style guide: references, usage, extensions, limitations.
+   • Link equations and variables in code to those in the paper for traceability.
+6. Test Case:
+   • Provide an example using data from Example 1 in the paper (two hot/two cold streams + utilities), showing input format and how to run the model end-to-end.
+7. Extensions and Pitfalls:
+   • Suggest extensions (multi-period, more utility types, user-defined area/cost equations).
+   • Warn about solver requirements (MINLP solver needed, e.g., Couenne/Bonmin, or NLP relaxation with fixed binaries).
+   • Note: large problems may require significant computational time; ensure constraints are not too tight for feasibility.
+
+⸻
+
+Format
+• Use Markdown with section headers and code blocks.
+• Python code (Pyomo-based), heavily commented.
+• Example data in Markdown tables or CSV snippet.
+• Step-by-step checklists for running the workflow.
+• References to relevant equations by paper section/equation number.
+
+⸻
+
+Target Audience
+
+Process engineers, advanced graduate students, or LLM copilots with background in process modeling, optimization, and Python. Audience can read MINLP constraints, manipulate data in Excel/CSV, and install required Python packages (Pyomo, pandas, openpyxl, solver).

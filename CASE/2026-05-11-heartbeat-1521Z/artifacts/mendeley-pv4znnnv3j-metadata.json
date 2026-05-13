@@ -1,0 +1,218 @@
+﻿{
+    "id":  "pv4znnnv3j",
+    "doi":  {
+                "id":  "10.17632/pv4znnnv3j.1",
+                "status":  "allocated",
+                "prefix":  "10.17632"
+            },
+    "name":  "Stratified Tank and Solar Collector using Aspen Custom Modeler (ACM)",
+    "description":  "These ACM files contain the code to download, install, and use a stratified tank and solar collector as unit operations in the Aspen Dynamics and Aspen Plus simulation software. It can be used in the design and optimisation of process flows that include drying. In the stratified tank, a one-dimensional model was created with stacked vertical disks where each vertical disk is assumed to be well mixed and uniform with heat transfer occurring at the boundaries of the disks and by flow in and out of the tank.  In the solar collector, the model assumes that the system operates with a single liquid phase.  The accumulation of energy in the collector is equated to the energy gained by solar irradiation minus the energy lost to the surroundings. The steady state design model was built using the HYSYS software. Each drying stage was modelled as an equilibrium stage where the moisture removal would proceed at a constant rate. The moist air exiting the stage is maintained at a temperature 5°C above its dew point to ensure that moisture in the air does not re-condense.",
+    "version":  1,
+    "contributors":  [
+                         {
+                             "institution":  {
+                                                 "name":  "University of Trinidad and Tobago"
+                                             },
+                             "contribution":  "",
+                             "profile_id":  "692cdfb1-cf2f-34d9-818b-c42eac2f8ebd",
+                             "first_name":  "Adrian",
+                             "last_name":  "Lutchman"
+                         },
+                         {
+                             "profile_id":  "fd98626b-3be7-3638-85c8-277c9c2cd727",
+                             "first_name":  "Ejae",
+                             "last_name":  "John"
+                         },
+                         {
+                             "institution":  {
+                                                 "name":  "Hampton University"
+                                             },
+                             "contribution":  "",
+                             "profile_id":  "8fb98f82-94bb-4548-9390-83ba86967279",
+                             "first_name":  "Brian",
+                             "last_name":  "Aufderheide"
+                         }
+                     ],
+    "files":  [
+                  {
+                      "filename":  "1000 KG DRYER.HSC",
+                      "id":  "65ede85b-938e-4d46-831c-ddd7e183bffc",
+                      "folder_id":  "dbe9f49a-0612-49d8-a6c4-549f0d218b80",
+                      "content_details":  {
+                                              "id":  "ce1fb2d5-56c5-4e4e-9262-39af7517681e",
+                                              "sha256_hash":  "fc62b5db664157945176a978baef1ab98bfa2726bbcf8483f56935c5f01cd432",
+                                              "content_type":  "application/octet-stream",
+                                              "size":  296054,
+                                              "created_date":  "2019-09-28T00:00:00Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/65ede85b-938e-4d46-831c-ddd7e183bffc/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/65ede85b-938e-4d46-831c-ddd7e183bffc/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T15:21:23.346159411Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  296054,
+                      "status":  "COMPLETED"
+                  },
+                  {
+                      "filename":  "SolarCollectorFinal.acmf",
+                      "id":  "ddab7ef5-0b53-4264-89da-c9264831bc79",
+                      "folder_id":  "f3e10bfc-f692-4d4c-9c7c-abdfbafe285e",
+                      "content_details":  {
+                                              "id":  "009cea82-45af-4deb-a3b2-4822c0bed2d0",
+                                              "sha256_hash":  "2bf6f2f036200762a3d333951590adfd6223892c3098f2456016a4d16d0714e7",
+                                              "content_type":  "application/octet-stream",
+                                              "size":  6985,
+                                              "created_date":  "2019-09-27T00:00:00Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/ddab7ef5-0b53-4264-89da-c9264831bc79/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/ddab7ef5-0b53-4264-89da-c9264831bc79/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T15:21:23.346200504Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  6985,
+                      "status":  "COMPLETED"
+                  },
+                  {
+                      "filename":  "StratifiedTankFinal.acmf",
+                      "id":  "ba8f642f-863b-4c45-9ec6-57f8231ccf3e",
+                      "folder_id":  "8e72126d-6a14-491a-9ef0-12b24253c322",
+                      "content_details":  {
+                                              "id":  "3e43012b-f8ac-48fc-9bda-52f5f594ae31",
+                                              "sha256_hash":  "cdb72e44bb606775b55491fd64b244e607d19da37a2b3b710e2bdab7c01ea854",
+                                              "content_type":  "application/octet-stream",
+                                              "size":  18277,
+                                              "created_date":  "2019-09-27T00:00:00Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/ba8f642f-863b-4c45-9ec6-57f8231ccf3e/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/ba8f642f-863b-4c45-9ec6-57f8231ccf3e/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T15:21:23.346218945Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  18277,
+                      "status":  "COMPLETED"
+                  },
+                  {
+                      "filename":  "StratTank.msi",
+                      "id":  "9cb42814-5c75-46f2-a32e-24693485bf59",
+                      "folder_id":  "8e72126d-6a14-491a-9ef0-12b24253c322",
+                      "content_details":  {
+                                              "id":  "c76f2d9f-b56d-4b17-befa-e27b0dc7113f",
+                                              "sha256_hash":  "13f390104f6d167370aac3602f72fe186ec00cb559a3d48a43adb5cc2c7582c1",
+                                              "content_type":  "application/octet-stream",
+                                              "size":  679424,
+                                              "created_date":  "2019-09-27T00:00:00Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/9cb42814-5c75-46f2-a32e-24693485bf59/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/9cb42814-5c75-46f2-a32e-24693485bf59/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T15:21:23.346232496Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  679424,
+                      "status":  "COMPLETED"
+                  },
+                  {
+                      "filename":  "UTTSC.msi",
+                      "id":  "08fb86a5-24e3-4570-b8ba-a6de9b775889",
+                      "folder_id":  "f3e10bfc-f692-4d4c-9c7c-abdfbafe285e",
+                      "content_details":  {
+                                              "id":  "eb2951c3-16ba-430e-a532-c38d91906e59",
+                                              "sha256_hash":  "df1235b36e526c6487378d82659367196dd98d194dcf26b335f828dec8f34622",
+                                              "content_type":  "application/octet-stream",
+                                              "size":  676864,
+                                              "created_date":  "2019-09-27T00:00:00Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/08fb86a5-24e3-4570-b8ba-a6de9b775889/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/08fb86a5-24e3-4570-b8ba-a6de9b775889/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T15:21:23.346246386Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  676864,
+                      "status":  "COMPLETED"
+                  }
+              ],
+    "versions":  [
+                     {
+                         "version":  1,
+                         "available":  true,
+                         "publish_date":  "2019-09-28T19:25:00.588Z"
+                     }
+                 ],
+    "articles":  [
+
+                 ],
+    "categories":  [
+                       {
+                           "id":  "http://data.elsevier.com/vocabulary/OmniScience/Concept-252589012",
+                           "label":  "Computer Simulation"
+                       },
+                       {
+                           "id":  "http://data.elsevier.com/vocabulary/OmniScience/Concept-256999312",
+                           "label":  "Modelling"
+                       },
+                       {
+                           "id":  "http://data.elsevier.com/vocabulary/OmniScience/Concept-264265386",
+                           "label":  "Solar Drying"
+                       }
+                   ],
+    "institutions":  [
+                         {
+                             "id":  "4e79ac3d-dcb0-56f0-9bc9-9a30d4ae853d",
+                             "name":  "University of Trinidad and Tobago - Point Lisas Campus"
+                         },
+                         {
+                             "id":  "7e1e6eff-c78f-58a8-8a87-717a437fd06b",
+                             "name":  "University of Trinidad and Tobago",
+                             "ror_id":  "https://ror.org/03np13864"
+                         }
+                     ],
+    "metrics":  {
+                    "views":  0,
+                    "file_downloads":  0,
+                    "file_previews":  0
+                },
+    "available":  true,
+    "size":  1677604,
+    "owner":  {
+                  "profile_id":  "fd98626b-3be7-3638-85c8-277c9c2cd727",
+                  "first_name":  "Ejae",
+                  "last_name":  "John"
+              },
+    "channel":  "WEB",
+    "owner_id":  "fd98626b-3be7-3638-85c8-277c9c2cd727",
+    "publish_date":  "2019-09-28T19:25:00.588Z",
+    "data_licence":  {
+                         "id":  "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+                         "description":  "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+                         "url":  "http://creativecommons.org/licenses/by/4.0",
+                         "category":  "Creative",
+                         "short_name":  "CC BY 4.0",
+                         "full_name":  "Creative Commons Attribution 4.0 International"
+                     },
+    "related_links":  [
+
+                      ],
+    "funders":  [
+
+                ],
+    "customer_id":  "7377952c-6404-4428-bbfc-77242cfc301e",
+    "modified_on":  "2019-09-28T19:24:12.121Z",
+    "created_on":  "2019-09-27T20:40:40.118Z",
+    "confidential":  false,
+    "links":  {
+                  "view":  "https://data.mendeley.com/datasets/pv4znnnv3j"
+              },
+    "repository":  {
+                       "id":  "MENDELEY_DATA",
+                       "name":  "Mendeley Data"
+                   }
+}

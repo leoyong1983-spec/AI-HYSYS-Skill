@@ -1,0 +1,7 @@
+parameter,value
+num_stages,2.0
+fixed_cost,8000.0
+area_cost_coeff,160.0
+area_cost_exponent,0.6
+min_approach_temp,10.0
+epsilon,0.01

@@ -1,0 +1,224 @@
+﻿[
+    {
+        "title":  "tennessee-eastman-hysys repository candidate (license boundary)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/iraola/tennessee-eastman-hysys",
+        "download_url":  "https://codeload.github.com/iraola/tennessee-eastman-hysys/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-iraola-tennessee-eastman-hysys/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  19127,
+                                    "sha256":  "38762e3777f4ec00a6f769062a7c3f704fb78ce08303ecff88558da4c49cf9ea"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-iraola-tennessee-eastman-hysys/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  198,
+                                    "sha256":  "088881bec8724433840511bf67a4e34ed289293ce79e033f636faebff3656617"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-iraola-tennessee-eastman-hysys/repo.json",
+                                    "filename":  "repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5699,
+                                    "sha256":  "44aca87cc492e74998a208c293b24510053184132aba1d804c302a8790040681"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-iraola-tennessee-eastman-hysys/tree.json",
+                                    "filename":  "tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  916,
+                                    "sha256":  "a5ae20bb7a28f6dc04db2f3211cc70e4bbbc4c7aa7a5ba55b59bff3df9e8562a"
+                                }
+                            ],
+        "license_public_access_note":  "Repository includes HSC model but license is CC BY-NC-ND 4.0 (non-commercial, no-derivatives); not auto-ingested into open benchmark archive.",
+        "recommended_use":  "Manual legal review candidate; consider storing only metadata pointer unless policy explicitly accepts NC-ND content.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/iraola/tennessee-eastman-hysys",
+                            "download_url":  "https://codeload.github.com/iraola/tennessee-eastman-hysys/zip/refs/heads/main",
+                            "title":  "tennessee-eastman-hysys repository candidate (license boundary)",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md",
+                                              "repo.json",
+                                              "tree.json"
+                                          ],
+                            "sha256":  [
+                                           "38762e3777f4ec00a6f769062a7c3f704fb78ce08303ecff88558da4c49cf9ea",
+                                           "088881bec8724433840511bf67a4e34ed289293ce79e033f636faebff3656617",
+                                           "44aca87cc492e74998a208c293b24510053184132aba1d804c302a8790040681",
+                                           "a5ae20bb7a28f6dc04db2f3211cc70e4bbbc4c7aa7a5ba55b59bff3df9e8562a"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown (not opened)",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License terms may conflict with unrestricted redistribution in public benchmark repositories.",
+                               "No runtime validation in local HYSYS environment."
+                           ]
+    },
+    {
+        "title":  "HYSYS-Python-Case-Builder repository candidate (no case file)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "download_url":  "https://codeload.github.com/GaboTalero/HYSYS-Python-Case-Builder/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-GaboTalero-HYSYS-Python-Case-Builder/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  1071,
+                                    "sha256":  "470b2bb93fa496aaabc65dade5fd79f1ed13a6afc6a889003bc8e27422845d04"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-GaboTalero-HYSYS-Python-Case-Builder/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  2268,
+                                    "sha256":  "42375c62457efa6149ef127037ef8f4d8dc055b11bb36b201232fe735d120203"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-GaboTalero-HYSYS-Python-Case-Builder/repo.json",
+                                    "filename":  "repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6040,
+                                    "sha256":  "bb2c619cddb2889f9e60c9f84ba0b86fbefa99b190cc6e0414385f4dfac73f66"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-GaboTalero-HYSYS-Python-Case-Builder/tree.json",
+                                    "filename":  "tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2424,
+                                    "sha256":  "7d97167010a2c7b64695c8c86603b9859d7f842c9ec8483de553f0f28fad8384"
+                                }
+                            ],
+        "license_public_access_note":  "MIT licensed public repository, but tree probe shows scripts only and no .hsc/.xml model artifacts.",
+        "recommended_use":  "Use as automation script reference only; not a direct CASE package until model files are published.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+                            "download_url":  "https://codeload.github.com/GaboTalero/HYSYS-Python-Case-Builder/zip/refs/heads/main",
+                            "title":  "HYSYS-Python-Case-Builder repository candidate (no case file)",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md",
+                                              "repo.json",
+                                              "tree.json"
+                                          ],
+                            "sha256":  [
+                                           "470b2bb93fa496aaabc65dade5fd79f1ed13a6afc6a889003bc8e27422845d04",
+                                           "42375c62457efa6149ef127037ef8f4d8dc055b11bb36b201232fe735d120203",
+                                           "bb2c619cddb2889f9e60c9f84ba0b86fbefa99b190cc6e0414385f4dfac73f66",
+                                           "7d97167010a2c7b64695c8c86603b9859d7f842c9ec8483de553f0f28fad8384"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "N/A (no case file found)",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No downloadable HYSYS model file means package cannot serve as benchmark case.",
+                               "README examples may depend on private/local case paths."
+                           ]
+    },
+    {
+        "title":  "HDA-Surrogate-Optimization repository candidate (interface demo only)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+        "download_url":  "https://codeload.github.com/Galigeigei-Z/HDA-Surrogate-Optimization/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-Galigeigei-Z-HDA-Surrogate-Optimization/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  1069,
+                                    "sha256":  "75f104599d5e497f0fb844292d4ac1c62c4b7137f020b1198b1aeecfa8fad4f5"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-Galigeigei-Z-HDA-Surrogate-Optimization/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  2682,
+                                    "sha256":  "a93e4edfa1f532f9b9fefbe44987d6a4a2217dae8366da717f31260007dec3b7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-Galigeigei-Z-HDA-Surrogate-Optimization/repo.json",
+                                    "filename":  "repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6325,
+                                    "sha256":  "65ae06f9f8a87be279b399007dd3b85ad6b2ab15d62136d0b98b48389cbe05fd"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-Galigeigei-Z-HDA-Surrogate-Optimization/tree.json",
+                                    "filename":  "tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7794,
+                                    "sha256":  "dbfbd7735548010e0d519a2d94e7a3c702435cd4a21bf2abf99a2d25edaea246"
+                                }
+                            ],
+        "license_public_access_note":  "MIT licensed repository; includes HYSYS interface demo code and spreadsheets but no .hsc/.xml case files in tree listing.",
+        "recommended_use":  "Potential helper for COM/workbook automation scaffolding; requires separate public HYSYS case source.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+                            "download_url":  "https://codeload.github.com/Galigeigei-Z/HDA-Surrogate-Optimization/zip/refs/heads/main",
+                            "title":  "HDA-Surrogate-Optimization repository candidate (interface demo only)",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md",
+                                              "repo.json",
+                                              "tree.json"
+                                          ],
+                            "sha256":  [
+                                           "75f104599d5e497f0fb844292d4ac1c62c4b7137f020b1198b1aeecfa8fad4f5",
+                                           "a93e4edfa1f532f9b9fefbe44987d6a4a2217dae8366da717f31260007dec3b7",
+                                           "65ae06f9f8a87be279b399007dd3b85ad6b2ab15d62136d0b98b48389cbe05fd",
+                                           "dbfbd7735548010e0d519a2d94e7a3c702435cd4a21bf2abf99a2d25edaea246"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "N/A (no case file found)",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No direct HYSYS case package present for benchmark ingestion.",
+                               "May rely on mocked objects rather than executable Aspen model states."
+                           ]
+    }
+]

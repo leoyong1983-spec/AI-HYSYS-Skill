@@ -1,0 +1,10 @@
+{
+    "NOK": "auto",
+    "Epsilon_dt": 10.0,
+    "Omega_Q_factor": 1.5,
+    "Omega_T": 450,
+    "Allow_Splits": true,
+    "solver_name": "bonmin",
+    "time_limit_seconds": 1800,
+    "Q_min_pre_exchanger": 100.0
+}

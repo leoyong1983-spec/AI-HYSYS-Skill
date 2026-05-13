@@ -1,0 +1,550 @@
+﻿[
+    {
+        "title":  "Dataset for publication \"Onboard carbon capture for circular marine fuels\" (Zenodo 14882867)",
+        "type":  "dataset",
+        "quality":  "A",
+        "source_page":  "https://zenodo.org/records/14882867",
+        "download_url":  "https://zenodo.org/api/records/14882867/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_methanol.hsc",
+                                    "filename":  "Capture_onboard_methanol.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  1682163,
+                                    "sha256":  "c4a623c52786e149c9a02fba293970a1c4016b7efb620e96597f9b63f1fa10be"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_NG.hsc",
+                                    "filename":  "Capture_onboard_NG.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  1627312,
+                                    "sha256":  "d37f6f7b58e7fab04b3861e646c78d492dbca1b54f195a04aac2296b41300ea6"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Circular-marine-fuels-2030.xlsx",
+                                    "filename":  "Circular-marine-fuels-2030.xlsx",
+                                    "file_type":  "xlsx",
+                                    "size_bytes":  25428,
+                                    "sha256":  "0f208330455783e1f269d5021aa628ab1df45d26a646241ae242e5d5437f2101"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Circular-marine-fuels-2050.xlsx",
+                                    "filename":  "Circular-marine-fuels-2050.xlsx",
+                                    "file_type":  "xlsx",
+                                    "size_bytes":  25417,
+                                    "sha256":  "d0f3bcd67f7caebad0390be508f3acc413ff5afb79c93496c761978d4604c3e6"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Data.xlsx",
+                                    "filename":  "Data.xlsx",
+                                    "file_type":  "xlsx",
+                                    "size_bytes":  13276,
+                                    "sha256":  "804946130c0a3c3e8226fa36f8c18c8c3de797aaaee7b551a8369cbb9a26b783"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/env_calc.ipynb",
+                                    "filename":  "env_calc.ipynb",
+                                    "file_type":  "ipynb",
+                                    "size_bytes":  31824,
+                                    "sha256":  "9edee6041bce6557fb0ec4ffe4ec962ae057cbd462ccec22083cc5b9581805ae"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/LNG_Production.apw",
+                                    "filename":  "LNG_Production.apw",
+                                    "file_type":  "apw",
+                                    "size_bytes":  40177152,
+                                    "sha256":  "a28b78b5322f1e050064f5e938d59128d0af65647a79e0ba53ced966b5dd22fb"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/MeOH_Production.hsc",
+                                    "filename":  "MeOH_Production.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  1790289,
+                                    "sha256":  "9590b123ec24dbfff1457ccd0c41c0c360fbbfe219470addfd5f5ba9e5c2457b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Plotting.ipynb",
+                                    "filename":  "Plotting.ipynb",
+                                    "file_type":  "ipynb",
+                                    "size_bytes":  6896,
+                                    "sha256":  "b2e9caf24f6fb4139fc454750cae1eb546133950cfb9796c49e87df996b4f487"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/record-14882867.json",
+                                    "filename":  "record-14882867.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9328,
+                                    "sha256":  "6ef06b93ab5c5154508dcdf4f5c2196a78f35b48f04555628e8df4feaefa17f9"
+                                }
+                            ],
+        "license_public_access_note":  "Open access Zenodo record; metadata license cc-by-4.0; DOI 10.5281/zenodo.14882867.",
+        "recommended_use":  "HYSYS case ingestion, COM automation smoke tests, parameter/sensitivity sweeps, and cross-checking with accompanying spreadsheet datasets.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/14882867",
+                            "download_url":  "https://zenodo.org/api/records/14882867/files",
+                            "title":  "Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+                            "filenames":  [
+                                              "Capture_onboard_methanol.hsc",
+                                              "Capture_onboard_NG.hsc",
+                                              "Circular-marine-fuels-2030.xlsx",
+                                              "Circular-marine-fuels-2050.xlsx",
+                                              "Data.xlsx",
+                                              "env_calc.ipynb",
+                                              "LNG_Production.apw",
+                                              "MeOH_Production.hsc",
+                                              "Plotting.ipynb",
+                                              "record-14882867.json"
+                                          ],
+                            "sha256":  [
+                                           "c4a623c52786e149c9a02fba293970a1c4016b7efb620e96597f9b63f1fa10be",
+                                           "d37f6f7b58e7fab04b3861e646c78d492dbca1b54f195a04aac2296b41300ea6",
+                                           "0f208330455783e1f269d5021aa628ab1df45d26a646241ae242e5d5437f2101",
+                                           "d0f3bcd67f7caebad0390be508f3acc413ff5afb79c93496c761978d4604c3e6",
+                                           "804946130c0a3c3e8226fa36f8c18c8c3de797aaaee7b551a8369cbb9a26b783",
+                                           "9edee6041bce6557fb0ec4ffe4ec962ae057cbd462ccec22083cc5b9581805ae",
+                                           "a28b78b5322f1e050064f5e938d59128d0af65647a79e0ba53ced966b5dd22fb",
+                                           "9590b123ec24dbfff1457ccd0c41c0c360fbbfe219470addfd5f5ba9e5c2457b",
+                                           "b2e9caf24f6fb4139fc454750cae1eb546133950cfb9796c49e87df996b4f487",
+                                           "6ef06b93ab5c5154508dcdf4f5c2196a78f35b48f04555628e8df4feaefa17f9"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc",
+                                                                           ".apw"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown (not opened); .hsc files present.",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No local HYSYS runtime verification performed; models were not opened or solved.",
+                               "Record also includes Aspen Plus (.apw); users should isolate HYSYS-only workflows when needed."
+                           ]
+    },
+    {
+        "title":  "dwsim-paper supplementary repository with HYSYS cases (andr1976)",
+        "type":  "code_repository",
+        "quality":  "B",
+        "source_page":  "https://github.com/andr1976/dwsim-paper",
+        "download_url":  "https://codeload.github.com/andr1976/dwsim-paper/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main.zip",
+                                    "filename":  "dwsim-paper-main.zip",
+                                    "file_type":  "zip",
+                                    "size_bytes":  8469305,
+                                    "sha256":  "041ffdf4a19b225abc31a0fbf8dd8f1ee58af132669f71aeca7e57dfdee8069c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  1073,
+                                    "sha256":  "ae87ae18d56599739dbdcf555510465de48ba1592bda0821f3d37d50667e9f2d"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  2436,
+                                    "sha256":  "2aada01fa6a1600e12dcd4faff4f0cdc04f82deea55b372cb62b4157ee2c298b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/requirements.txt",
+                                    "filename":  "requirements.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  69,
+                                    "sha256":  "eed92cec728e332b80f2a4a72300b143bd1071851e2408cafd1cb8b12608cc4f"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/DWSIM_result.csv",
+                                    "filename":  "DWSIM_result.csv",
+                                    "file_type":  "csv",
+                                    "size_bytes":  10027,
+                                    "sha256":  "a3b6f3e3f136d609ca1a2a0612bb089adc09a6fa32e79a7546704688fdb7d952"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/DWSIM_results_cleaned.csv",
+                                    "filename":  "DWSIM_results_cleaned.csv",
+                                    "file_type":  "csv",
+                                    "size_bytes":  10027,
+                                    "sha256":  "690692e04f5a001f71c7038fc383e76de49397ed495f4cc5920a7bf68d6268c3"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/HYSYS_result.csv",
+                                    "filename":  "HYSYS_result.csv",
+                                    "file_type":  "csv",
+                                    "size_bytes":  7500,
+                                    "sha256":  "7411ae3936a9230a5674f1bb579e83703b88fccf25b2968c0bc2f6d570a34da0"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/raw_testplan.csv",
+                                    "filename":  "raw_testplan.csv",
+                                    "file_type":  "csv",
+                                    "size_bytes":  25000,
+                                    "sha256":  "1f87fa3aaac6b495ef53001ad1bc4a9bb9f1d069489d38143c018f7c7d346b31"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/scaled_testplan.csv",
+                                    "filename":  "scaled_testplan.csv",
+                                    "file_type":  "csv",
+                                    "size_bytes":  25021,
+                                    "sha256":  "8d3ffd3bd38e8a8a54c7362efdca4b29dd7f84b5d5e3ed76de85bb28fafd801f"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure6_corrected.png",
+                                    "filename":  "figure6_corrected.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  38045,
+                                    "sha256":  "f7bf518c6a39c94a8d1b7c760efaf73d620c38714bc61b0bc21bb6ec87b1e407"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_1.png",
+                                    "filename":  "figure_1.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  348101,
+                                    "sha256":  "43e1c7f610264c78267cde2a9b2b6b845c1a71381247f16017cc283f9f07c84f"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_2.png",
+                                    "filename":  "figure_2.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  20393,
+                                    "sha256":  "281e7212f82fe15332c4a615764c84879a316d1742374df27597425b76ec1000"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_3.png",
+                                    "filename":  "figure_3.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  102719,
+                                    "sha256":  "1d3613eb005dbf2ac1da1de9eb6782a82e0ec3834ed987f0c3867033bef84c91"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_4.png",
+                                    "filename":  "figure_4.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  135506,
+                                    "sha256":  "88ffd5748ab579466acf846b447fc354f9760435b654e4da63cea48684cb2ae0"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_5.png",
+                                    "filename":  "figure_5.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  129139,
+                                    "sha256":  "9765171d830df45997c1e2b4317af643103e0889f4b95e17c17b674dfd5c9622"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_6.png",
+                                    "filename":  "figure_6.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  38368,
+                                    "sha256":  "47e0b4d1b714747a001ea67bfe5b104fe65e99514940999a1b8f0b924d35c63a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_7.png",
+                                    "filename":  "figure_7.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  34463,
+                                    "sha256":  "aee0e92d0ac2c9eb4f9a54024c5b8eb0b3c6b4443046ffa31a77df8ac014ac34"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_8.png",
+                                    "filename":  "figure_8.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  30701,
+                                    "sha256":  "b003e645e39999aa3666d872e43e19645cca4c7748d0b263d8fcaf656fb99dc4"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/power.png",
+                                    "filename":  "power.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  34519,
+                                    "sha256":  "dbcf914b0abbfdfb931a8851d4adb8da048ccc74f550bcc9bf48fff103cca984"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/rvp_plot.png",
+                                    "filename":  "rvp_plot.png",
+                                    "file_type":  "png",
+                                    "size_bytes":  30674,
+                                    "sha256":  "febcc37cb1730d9b866c42c9c5e7ed53d0c55b1de1590e776a2ec91b4cdcd3ea"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Paper_draft_v10.docx",
+                                    "filename":  "Paper_draft_v10.docx",
+                                    "file_type":  "docx",
+                                    "size_bytes":  1023209,
+                                    "sha256":  "c55a33c965ebb39bc4add14f2dacd70b2f9e4ab46ab2ce28dae63e67e95f9f80"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_ANRA.docx",
+                                    "filename":  "Revised_Paper_ANRA.docx",
+                                    "file_type":  "docx",
+                                    "size_bytes":  1023486,
+                                    "sha256":  "4c9d2d3750b0a101d2c28a4c0f80691ba944f90c08f698f7edda5360b47f5db0"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_ANRA.pdf",
+                                    "filename":  "Revised_Paper_ANRA.pdf",
+                                    "file_type":  "pdf",
+                                    "size_bytes":  615869,
+                                    "sha256":  "c8ea176df98d488aa2eb10c1a6e3f244763ec9d3542a485f97493fdcc4c5900e"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_Track_Changes_ANRA.docx",
+                                    "filename":  "Revised_Paper_Track_Changes_ANRA.docx",
+                                    "file_type":  "docx",
+                                    "size_bytes":  1023185,
+                                    "sha256":  "3473fe5546421f1f2f504100783d451d8456a2c914bccfe873210acbcb10623a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/presentation/Simulate365 User meeting Anders Andreasen.pdf",
+                                    "filename":  "Simulate365 User meeting Anders Andreasen.pdf",
+                                    "file_type":  "pdf",
+                                    "size_bytes":  1069718,
+                                    "sha256":  "362dcaf1f4fdeddac4d05ddfdb574ea148ca897cacfe0a9b1b9f6912049c786b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/DWSIM_automation.py",
+                                    "filename":  "DWSIM_automation.py",
+                                    "file_type":  "py",
+                                    "size_bytes":  6350,
+                                    "sha256":  "105378572ec9302d87cd91664e03dcb99dd711dba2d73d93aa0c16206f1441f7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/HYSYS_automation.py",
+                                    "filename":  "HYSYS_automation.py",
+                                    "file_type":  "py",
+                                    "size_bytes":  5877,
+                                    "sha256":  "36dbe1bcebe66412d7251258a2330b80f4fb9dc45260064dbb260c9c5afbf1ef"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/plot_data.py",
+                                    "filename":  "plot_data.py",
+                                    "file_type":  "py",
+                                    "size_bytes":  2942,
+                                    "sha256":  "32c1fbd997af67a302125fce5c1d546c0661c6f439c6fc81a033e4af191e327c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Base_case_bechmark.dwxmz",
+                                    "filename":  "Base_case_bechmark.dwxmz",
+                                    "file_type":  "dwxmz",
+                                    "size_bytes":  617611,
+                                    "sha256":  "1c86ad373bbd719c6318fb809a4abbe0179a6fb3f1ebf11e0d52bff886ce4be5"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.bk0",
+                                    "filename":  "Black oil EOS density.bk0",
+                                    "file_type":  "bk0",
+                                    "size_bytes":  815520,
+                                    "sha256":  "7708e7b78b85d98ed3aacb79332f611f419b64b1bab12508ea0920033caa8bc7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.hsc",
+                                    "filename":  "Black oil EOS density.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  813271,
+                                    "sha256":  "41561670ec54a57d7d94e412b5770ce3e42974ddcbb1ada8a06785c74c0d210b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.xml",
+                                    "filename":  "Black oil EOS density.xml",
+                                    "file_type":  "xml",
+                                    "size_bytes":  5026200,
+                                    "sha256":  "5bdf0773c16a8b5475df01224916255d6898c880f736de276512ebe6b7ed7215"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Graph_for_paper.dwxmz",
+                                    "filename":  "Graph_for_paper.dwxmz",
+                                    "file_type":  "dwxmz",
+                                    "size_bytes":  615836,
+                                    "sha256":  "6955129936f2747b98bd3e058083afef92e1db4a1d8e6a656832b632dc95059a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Graph_for_paper_backup.dwxmz",
+                                    "filename":  "Graph_for_paper_backup.dwxmz",
+                                    "file_type":  "dwxmz",
+                                    "size_bytes":  615836,
+                                    "sha256":  "29422737340ac6a3bd16b238c69adeb341b623b2ba012b4d36090216be34b0e3"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.hsc",
+                                    "filename":  "Optim.hsc",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  817635,
+                                    "sha256":  "0d0f4599d70d97fe4530a03610b8416fb2c64dfee260664103dfc81dacae00c3"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.xml",
+                                    "filename":  "Optim.xml",
+                                    "file_type":  "xml",
+                                    "size_bytes":  5010843,
+                                    "sha256":  "02da4806bad3acec59aaf9ce535d57632d14448f60e71799c2eab9805d899c28"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/optimisation.dwxmz",
+                                    "filename":  "optimisation.dwxmz",
+                                    "file_type":  "dwxmz",
+                                    "size_bytes":  636984,
+                                    "sha256":  "165d540baf68343290e66b6c3f2fbd8a8bd4f39478a2b0b7f892a20e95138d0f"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository with MIT license (LICENSE file included in snapshot).",
+        "recommended_use":  "HYSYS vs DWSIM benchmark regression, script-driven case manipulation, and CSV-based validation pipeline tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/andr1976/dwsim-paper",
+                            "download_url":  "https://codeload.github.com/andr1976/dwsim-paper/zip/refs/heads/main",
+                            "title":  "dwsim-paper",
+                            "filenames":  [
+                                              "dwsim-paper-main.zip",
+                                              "LICENSE",
+                                              "README.md",
+                                              "requirements.txt",
+                                              "DWSIM_result.csv",
+                                              "DWSIM_results_cleaned.csv",
+                                              "HYSYS_result.csv",
+                                              "raw_testplan.csv",
+                                              "scaled_testplan.csv",
+                                              "figure6_corrected.png",
+                                              "figure_1.png",
+                                              "figure_2.png",
+                                              "figure_3.png",
+                                              "figure_4.png",
+                                              "figure_5.png",
+                                              "figure_6.png",
+                                              "figure_7.png",
+                                              "figure_8.png",
+                                              "power.png",
+                                              "rvp_plot.png",
+                                              "Paper_draft_v10.docx",
+                                              "Revised_Paper_ANRA.docx",
+                                              "Revised_Paper_ANRA.pdf",
+                                              "Revised_Paper_Track_Changes_ANRA.docx",
+                                              "Simulate365 User meeting Anders Andreasen.pdf",
+                                              "DWSIM_automation.py",
+                                              "HYSYS_automation.py",
+                                              "plot_data.py",
+                                              "Base_case_bechmark.dwxmz",
+                                              "Black oil EOS density.bk0",
+                                              "Black oil EOS density.hsc",
+                                              "Black oil EOS density.xml",
+                                              "Graph_for_paper.dwxmz",
+                                              "Graph_for_paper_backup.dwxmz",
+                                              "Optim.hsc",
+                                              "Optim.xml",
+                                              "optimisation.dwxmz"
+                                          ],
+                            "sha256":  [
+                                           "041ffdf4a19b225abc31a0fbf8dd8f1ee58af132669f71aeca7e57dfdee8069c",
+                                           "ae87ae18d56599739dbdcf555510465de48ba1592bda0821f3d37d50667e9f2d",
+                                           "2aada01fa6a1600e12dcd4faff4f0cdc04f82deea55b372cb62b4157ee2c298b",
+                                           "eed92cec728e332b80f2a4a72300b143bd1071851e2408cafd1cb8b12608cc4f",
+                                           "a3b6f3e3f136d609ca1a2a0612bb089adc09a6fa32e79a7546704688fdb7d952",
+                                           "690692e04f5a001f71c7038fc383e76de49397ed495f4cc5920a7bf68d6268c3",
+                                           "7411ae3936a9230a5674f1bb579e83703b88fccf25b2968c0bc2f6d570a34da0",
+                                           "1f87fa3aaac6b495ef53001ad1bc4a9bb9f1d069489d38143c018f7c7d346b31",
+                                           "8d3ffd3bd38e8a8a54c7362efdca4b29dd7f84b5d5e3ed76de85bb28fafd801f",
+                                           "f7bf518c6a39c94a8d1b7c760efaf73d620c38714bc61b0bc21bb6ec87b1e407",
+                                           "43e1c7f610264c78267cde2a9b2b6b845c1a71381247f16017cc283f9f07c84f",
+                                           "281e7212f82fe15332c4a615764c84879a316d1742374df27597425b76ec1000",
+                                           "1d3613eb005dbf2ac1da1de9eb6782a82e0ec3834ed987f0c3867033bef84c91",
+                                           "88ffd5748ab579466acf846b447fc354f9760435b654e4da63cea48684cb2ae0",
+                                           "9765171d830df45997c1e2b4317af643103e0889f4b95e17c17b674dfd5c9622",
+                                           "47e0b4d1b714747a001ea67bfe5b104fe65e99514940999a1b8f0b924d35c63a",
+                                           "aee0e92d0ac2c9eb4f9a54024c5b8eb0b3c6b4443046ffa31a77df8ac014ac34",
+                                           "b003e645e39999aa3666d872e43e19645cca4c7748d0b263d8fcaf656fb99dc4",
+                                           "dbcf914b0abbfdfb931a8851d4adb8da048ccc74f550bcc9bf48fff103cca984",
+                                           "febcc37cb1730d9b866c42c9c5e7ed53d0c55b1de1590e776a2ec91b4cdcd3ea",
+                                           "c55a33c965ebb39bc4add14f2dacd70b2f9e4ab46ab2ce28dae63e67e95f9f80",
+                                           "4c9d2d3750b0a101d2c28a4c0f80691ba944f90c08f698f7edda5360b47f5db0",
+                                           "c8ea176df98d488aa2eb10c1a6e3f244763ec9d3542a485f97493fdcc4c5900e",
+                                           "3473fe5546421f1f2f504100783d451d8456a2c914bccfe873210acbcb10623a",
+                                           "362dcaf1f4fdeddac4d05ddfdb574ea148ca897cacfe0a9b1b9f6912049c786b",
+                                           "105378572ec9302d87cd91664e03dcb99dd711dba2d73d93aa0c16206f1441f7",
+                                           "36dbe1bcebe66412d7251258a2330b80f4fb9dc45260064dbb260c9c5afbf1ef",
+                                           "32c1fbd997af67a302125fce5c1d546c0661c6f439c6fc81a033e4af191e327c",
+                                           "1c86ad373bbd719c6318fb809a4abbe0179a6fb3f1ebf11e0d52bff886ce4be5",
+                                           "7708e7b78b85d98ed3aacb79332f611f419b64b1bab12508ea0920033caa8bc7",
+                                           "41561670ec54a57d7d94e412b5770ce3e42974ddcbb1ada8a06785c74c0d210b",
+                                           "5bdf0773c16a8b5475df01224916255d6898c880f736de276512ebe6b7ed7215",
+                                           "6955129936f2747b98bd3e058083afef92e1db4a1d8e6a656832b632dc95059a",
+                                           "29422737340ac6a3bd16b238c69adeb341b623b2ba012b4d36090216be34b0e3",
+                                           "0d0f4599d70d97fe4530a03610b8416fb2c64dfee260664103dfc81dacae00c3",
+                                           "02da4806bad3acec59aaf9ce535d57632d14448f60e71799c2eab9805d899c28",
+                                           "165d540baf68343290e66b6c3f2fbd8a8bd4f39478a2b0b7f892a20e95138d0f"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc",
+                                                                           ".xml"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown (not opened); README indicates Aspen HYSYS required for automation script.",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  true,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Repository mixes DWSIM and HYSYS assets; downstream ingestion should filter by extension and directory.",
+                               "Paper-level assumptions may not match target industrial configuration without adaptation."
+                           ]
+    },
+    {
+        "title":  "Software Files for Manuscript under Consideration \"Flexible Process Design and Optimization for Cost-Efficient Dimethyl Ether Production\" (Zenodo 15338007)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/15338007",
+        "download_url":  "https://zenodo.org/api/records/15338007/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-15338007-metadata.json",
+                                    "filename":  "zenodo-15338007-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  4414,
+                                    "sha256":  "845ec70aad32a5e1a216f3e99253ef22c0aa3ec3537a75b59ac37ef4a81d04c9"
+                                }
+                            ],
+        "license_public_access_note":  "Record metadata is public, but access_right is restricted; files list is empty for anonymous access.",
+        "recommended_use":  "Manual follow-up candidate only; request access from authors/record owner before archival ingestion.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/15338007",
+                            "download_url":  "https://zenodo.org/api/records/15338007/files",
+                            "title":  "Software Files for Manuscript under Consideration \"Flexible Process Design and Optimization for Cost-Efficient Dimethyl Ether Production\"",
+                            "filenames":  [
+                                              "zenodo-15338007-metadata.json"
+                                          ],
+                            "sha256":  [
+                                           "845ec70aad32a5e1a216f3e99253ef22c0aa3ec3537a75b59ac37ef4a81d04c9"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown; Aspen simulation files claimed in description but not downloadable anonymously.",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Restricted-access record cannot be validated or downloaded without permission.",
+                               "Potentially valuable DME package may require legal/author clearance before reuse."
+                           ]
+    }
+]

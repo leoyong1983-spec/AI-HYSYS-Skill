@@ -1,0 +1,49 @@
+﻿{
+    "collected_utc":  "2026-05-11T19:17:30.6678824Z",
+    "repo":  "royhanikbarr/Gas-Turbine-Hysys",
+    "source_page":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+    "default_branch":  "main",
+    "repo_license_spdx":  "NONE",
+    "repo_visibility":  "public",
+    "repo_description":  "Simulation of Gas Turbine Power Plant in Aspen Hysys",
+    "archive_zip_url":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys/archive/refs/heads/main.zip",
+    "counts":  {
+                   "total_files":  4,
+                   "hsc_files":  1,
+                   "hysys_xml_files":  0,
+                   "excel_or_csv_files":  0,
+                   "pdf_or_report_files":  1,
+                   "readme_files":  1,
+                   "license_files":  0,
+                   "automation_script_files":  0
+               },
+    "sample_paths":  {
+                         "hsc":  [
+                                     "Gas Turbine Power Plant Simulation.hsc"
+                                 ],
+                         "xml":  [
+
+                                 ],
+                         "excel_or_csv":  [
+
+                                          ],
+                         "pdf":  [
+                                     "Simulation of Gas Turbine in Hysys.pdf"
+                                 ],
+                         "readme":  [
+                                        "README.md"
+                                    ],
+                         "license":  [
+
+                                     ],
+                         "scripts":  {
+
+                                     }
+                     },
+    "readme_excerpt":  "# Gas-Turbine-Hysys\nSimulation of Gas Turbine Power Plant in Aspen Hysys\n\n### Description\n![Simulation Picture](https://github.com/royhanikbarr/Gas-Turbine-Hysys/blob/main/simulation%20of%20gas%20turbine.PNG)\n\nBasically there are two type of cycles in Gas Turbine simulation \n1. Open loop\n2. Closed Loop\n\nIn my simulation, open loop is more effective to generate power\n\nSo, I want to optimize the power generation with heat exchanger\n\nThe increase of adding the heat exchanger is 11.53%\n\nIt\u0027s so fun to learn gas turbine cycle, especially in simulation of hysys\n\n\n\n\nI hope you enjoy, thank you\n",
+    "assessment":  {
+                       "quality":  "D",
+                       "not_downloaded_reason":  "Public repository but no explicit redistribution license found; rights for long-term archiving in this repo are unclear.",
+                       "dedupe_check":  "No matching existing source_page/download_url/title in prior CASE sources.json at time of run."
+                   }
+}

@@ -1,0 +1,47 @@
+﻿[
+    {
+        "filename":  "1000 KG DRYER.HSC",
+        "original_filename":  "1000 KG DRYER.HSC",
+        "local_path":  "CASE\\2026-05-11-heartbeat-1521Z\\artifacts\\1000 KG DRYER.HSC",
+        "size_bytes":  296054,
+        "sha256":  "fc62b5db664157945176a978baef1ab98bfa2726bbcf8483f56935c5f01cd432",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/65ede85b-938e-4d46-831c-ddd7e183bffc/file_downloaded",
+        "content_type":  "application/octet-stream"
+    },
+    {
+        "filename":  "SolarCollectorFinal.acmf",
+        "original_filename":  "SolarCollectorFinal.acmf",
+        "local_path":  "CASE\\2026-05-11-heartbeat-1521Z\\artifacts\\SolarCollectorFinal.acmf",
+        "size_bytes":  6985,
+        "sha256":  "2bf6f2f036200762a3d333951590adfd6223892c3098f2456016a4d16d0714e7",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/ddab7ef5-0b53-4264-89da-c9264831bc79/file_downloaded",
+        "content_type":  "application/octet-stream"
+    },
+    {
+        "filename":  "StratifiedTankFinal.acmf",
+        "original_filename":  "StratifiedTankFinal.acmf",
+        "local_path":  "CASE\\2026-05-11-heartbeat-1521Z\\artifacts\\StratifiedTankFinal.acmf",
+        "size_bytes":  18277,
+        "sha256":  "cdb72e44bb606775b55491fd64b244e607d19da37a2b3b710e2bdab7c01ea854",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/ba8f642f-863b-4c45-9ec6-57f8231ccf3e/file_downloaded",
+        "content_type":  "application/octet-stream"
+    },
+    {
+        "filename":  "StratTank.msi",
+        "original_filename":  "StratTank.msi",
+        "local_path":  "CASE\\2026-05-11-heartbeat-1521Z\\artifacts\\StratTank.msi",
+        "size_bytes":  679424,
+        "sha256":  "13f390104f6d167370aac3602f72fe186ec00cb559a3d48a43adb5cc2c7582c1",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/9cb42814-5c75-46f2-a32e-24693485bf59/file_downloaded",
+        "content_type":  "application/octet-stream"
+    },
+    {
+        "filename":  "UTTSC.msi",
+        "original_filename":  "UTTSC.msi",
+        "local_path":  "CASE\\2026-05-11-heartbeat-1521Z\\artifacts\\UTTSC.msi",
+        "size_bytes":  676864,
+        "sha256":  "df1235b36e526c6487378d82659367196dd98d194dcf26b335f828dec8f34622",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/08fb86a5-24e3-4570-b8ba-a6de9b775889/file_downloaded",
+        "content_type":  "application/octet-stream"
+    }
+]

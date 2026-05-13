@@ -1,0 +1,10 @@
+{
+    "NOK": 4,
+    "Epsilon_dt": 1.0,
+    "Omega_Q_factor": 1.5,
+    "Omega_T": 600,
+    "Allow_Splits": true,
+    "HRAT_Target": 20.0,
+    "solver_name": "couenne",
+    "time_limit_seconds": 3600
+}

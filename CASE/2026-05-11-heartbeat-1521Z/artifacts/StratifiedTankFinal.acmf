@@ -1,0 +1,546 @@
+Version "27.0-0";
+Libraries "Modeler.acml", "SystemLibrary.acml";
+Model StartTank
+
+//Solar Collector Loop
+ToSC as output MaterialPort;
+FromSC as input MaterialPort;
+// <equation_name> : <expression1> = <expression2>;
+ToSC.F = FromSC.F;
+ToSC.P = FromSC.P;
+
+// Call (<output argument list>) = <procedure name>(<input argument list>);
+for comps in ComponentList do
+ ToSC.z(comps)=FromSC.z(comps);
+endfor
+
+//Heat Exchanger Loop
+ToHX as output MaterialPort;
+FromHX as input MaterialPort;
+// <equation_name> : <expression1> = <expression2>;
+ToHX.F = FromHX.F;
+ToHX.P = FromHX.P;
+
+// Call (<output argument list>) = <procedure name>(<input argument list>);
+for comps in ComponentList do
+ ToHX.z(comps)=FromHX.z(comps);
+endfor
+
+//Single value variable declaration
+B as RealParameter (description:"Thermal expansion coefficient, M3K-1", value:69e-6); 
+g as RealParameter (description:"gravitational acceleration, m/s2", value:9.81);
+Cp as RealParameter (description:"specific heat of water, J/(g C)", value: 4200);
+Rmm as IntegerParameter (description:"Relative Molecular Mass of Fluid", value:18);
+k as RealParameter (description:"Thermal Conductivity of fluid, W/(m.K)", value:0.58);
+Mu as visc_liq (description: "Viscosity of fluid, Pa.s", value:0.00092, spec: Fixed);
+hwall as heat_trans_coeff (description:"Wall Heat Transfer Coefficient (kW/m2/K", value:0.001, spec:Fixed);
+D as LengthParameter (description:"Diameter of Tank, M", value:2);
+H as LengthParameter (description:"Height of Tank,M", value:2);
+Mn as RealVariable (description:"Net Mass Flow");
+Fn as RealVariable (description:"Net Molar Flow");
+Vn as RealVariable (description:"Net Velocity");
+Tamb as temperature (description:"Ambient Temperature, C", value:30, spec:Fixed);
+FromSCT as temperature;
+FromHXT as temperature;
+ToSCT as temperature;
+ToHXT as temperature;
+TBar as Temperature(description:"Bulk Temperaature of Tank", spec:Free);
+rhoBar as Dens_Mass_Liq(description:"Bulk density of Tank", spec:Free);
+
+FromSCT=FromSC.T;
+FromHXT=FromHX.T;
+//Setup Domains
+Z as LengthDomain (HighestOrderDerivative:2, DiscretizationMethod:"BFD2", Length:H, SpacingPreference:0.05);
+
+//Setup Distributions
+Tnode as Distribution1D  of Temperature (XDomain is Z);
+Vz as Distribution1D (XDomain is Z);
+
+//Calculate rhoBar
+AvgDensity: call(rhoBar)= pDens_Mass_Liq(TBar,FromSC.P,FromSC.z);
+
+//Calculate TBar 
+AvgTemperature: TBar=SIGMA(Tnode)/(Z.EndNode+1);
+
+//Calculate Net Vz 
+NetMolarFlow: Fn=(FromSC.F-FromHX.F); //Net Molar Flow down is positive
+NetMassFlow: Mn=Rmm*Fn; //Net Mass Flow
+NetVelocity: Vn=Mn/(0.7857*D^2*rhoBar); //Velocity at top and bottom of tank as net volumetric flow
+
+MotionEquations:
+rhoBar*($Vz(Z.Interior) + Vz(Z.Interior)*Vz(Z.Interior).ddx) - Mu*Vz(Z.Interior).d2dx2 + rhoBar*B*g*(Tnode(Z.Interior)-TBar) =0 ;
+rhoBar*($Vz(Z.EndNode) + Vz(Z.EndNode)*Vz(Z.EndNode).ddx) + rhoBar*B*g*(Tnode(Z.EndNOde)-TBar) =0 ;
+
+
+EnergyEquations:
+
+rhoBar*Cp*(0.7857*D^2*Z.SpacingPreference*$Tnode(Z.Interior)+Vz(Z.Interior)*Tnode(Z.Interior).ddx) + k*Tnode(Z.Interior).d2dx2 + hwall*3.14*D*Z.SpacingPreference*(Tnode(Z.Interior)-Tamb) =0;
+
+
+//Initial Conditions
+Vz(Z.Interior+Z.EndNode):Vn;                                                 
+Vz(Z.Interior+Z.EndNode):Initial;
+Tnode([0]+Z.Interior+Z.EndNode):Tamb;
+Tnode([0]+Z.Interior+Z.EndNode):Initial;
+
+//BC
+Vz([0])=Vn; //Velocity at top and bottom of tank as net volumetric flow
+
+//Energy Balances on Top Node
+rhoBar*Cp*(0.7857*D^2*Z.SpacingPreference*$Tnode(0))
+= FromSC.F*Rmm*Cp*(FromScT-Tnode(0))+ToHX.F*Rmm*Cp*(Tnode(1)-ToHX.T);
+
+//Energy Balance on Bottom Node
+rhoBar*Cp*(0.7857*D^2*Z.SpacingPreference*$Tnode(Z.EndNode))
+= FromSC.F*Rmm*Cp*(Tnode(Z.EndNode-1)-ToSC.T)+FromHX.F*Rmm*Cp*(FromHXT-Tnode(Z.EndNode));
+
+//Grab Temperatures
+ToSCT = Tnode([Z.EndNode]);
+ToHXT = Tnode([0]);
+
+//OUtlet Temperatures
+ToSC.T = ToSCT;
+ToHX.T = ToHXT;
+
+call (ToSC.H) = pEnth_Mol (ToSC.T, ToSC.P, ToSC.z);
+call (ToHX.H) = pEnth_Mol (ToHX.T, ToHX.P, ToHX.z);
+
+ToSC.V=1/(rhoBar/Rmm);
+ToHX.V=1/(rhoBar/Rmm);
+
+//SYSTEM SECTION - WARNING: DO NOT EDIT
+  Current_Icon : "System";
+SystemData : Text
+<FORMLIST DEFAULTFORM="AllVariables">
+</FORMLIST>
+<EXPORTDATA>AS::0::1
+DISPLAY::StartTank
+CATEGORY::ACM Models
+GUID270::{088D3CD3-97A7-4B2B-B084-5A9C16172674}
+PORT::FromHX::1::Mole Fraction::FromHX::0
+PORT::ToHX::1::Mole Fraction::ToHX::0
+PORT::FromSC::1::Mole Fraction::FromSC::0
+PORT::ToSC::1::Mole Fraction::ToSC::0
+QUERY::AllVariables::1::0::3</EXPORTDATA>
+EndText;
+
+//SYSTEM SECTION END
+End
+Model UTTSC
+/* Model built based on
+(1)   "All-glass vacuum tube collector heat transfer model used in forced-circulation solar water heating system"
+      Zhiyong Li *, Chao Chen, Hailiang Luo, Ye Zhang, Yaning Xue*/
+
+//Declaration of System Parameters
+eps as RealParameter (description:"Proportion of hot water?s XA to the entire tube XA (1)->Fig4", lower:0,upper:1, value:0.5);
+pi as RealParameter (description:"Pi", value:3.14);
+r1 as Length (description:"Inner tube radius, m", value:0.0185, spec:Fixed);
+r2 as Length (description:"Inner tube radius, m", value:0.0235, spec:Fixed);
+a as Length (description:"Distance between adjacent tubes, m", value:0.01464, spec:Fixed);
+y as RealVariable (description:"Thermal expansion coefficient, 1/K", value:0.0000081, spec:Fixed);
+g as RealVariable (description:"Gravitational acceleration, m/s2", value:9.81, spec:Fixed);
+TauAlphaTheta as RealVariable (description:"Product of transmittance s of outer tube and absorptance a of coating at prevailing incident angle", value:0.837, spec:Fixed);
+w as Length (description:"Length of tube, m", value:1.8, spec:Fixed);
+Beta as Angle (description:"Tilt angle of collector, Deg", value:0.96, spec:Fixed);
+n as RealVariable (description:"Number of tubes", value:32, spec:Fixed);
+A2 as RealVariable (description:"Area of Absorber Surface, M2", value:3, spec:Fixed);
+MSpec as mass (description:"Mass charge of collector, kg", value:10, spec: Fixed);
+
+// Declaration of variables;
+Tam as temperature (description:"Ambient Temperature, C", value:30, spec:Fixed);
+Ul as RealVariable (description:"Heat loss coefficient, W/(m2 C) (Found experimentally)", value:0.85, spec:Fixed);
+DP as press_drop (description:"Pressure drop due to friction");
+Mc as RealVariable (description:"Natural circulation mass flow rate, kg/s");
+rho as dens_mass (description:"Mass density of components, kg/m3");
+rhoMol as dens_mol_liq (description:"Liquid molar density, kmol/m3" );
+rhoMolOut as dens_mol_liq (description:"Liquid molar density, kmol/m3" );
+avgMM as molweight (description:"Average Molar weight, kg/kmol");
+Mu as viscosity (description:"Kinematic viscosity, cP");
+Cp as RealVariable (description:"Specific heat of water, J/(kg C)");
+CpMol as cp_mol_liq (description:"Molar Specific Heat Capacity, KJ/Kmol/K");
+M as mass (description:"Mass charge of collector, kg");
+MFlow as flow_mass (description:"Mass Flow, kg/s");
+Tp as temperature (description:"Mean temperatures of water in solar collector, C", value: 30);
+Tm as temperature (description:"Mean temperatures of water in solar collector, C", value: 30, spec: fixed);
+Tin as temperature (description:"Inlet Temperature");
+Tout as temperature (description:"Outlet temperatures of water from solar collector, C");
+k as RealVariable (description:"Defined coefficient");
+ItoSpec as RealVariable (description:"Solar Insolation, W/M2", value:0.001, spec: Fixed);
+Ito as RealVariable (description:"Solar Insolation, W/M2");
+A1 as RealVariable (description:"Dissipation area of solar collector, m2");
+
+
+// Declaration of ports
+FO as output MoleFractionPort(Description:"Output port for heated fluid(Heated Side)");
+FI as input MoleFractionPort(Description:"Input port for fluid to be heated  (Cold Side)");
+
+//Collector Dimensions
+A1=w*n*2*r1;
+M=MSpec;
+
+//Fluid Properties
+//***************************************************
+//Calculate Fluid Density
+call (rhoMol) = pDens_Mol_Liq (FI.T, FI.P, FI.z);
+call (avgMM) = pMolWeight (FI.z);
+rho = rhoMol * avgMM; //Convert from kmol/m3 to kg/m3
+
+//Calculate fluid viscosity
+call (Mu) = pVisc_Liq (FI.T, FI.P, FI.z);
+
+// Calculate Fluid mass specific heat capacity J/Kg K
+call (CpMol) = pCp_Mol_Liq (FI.T, FI.P, FI.z);
+Cp*avgMM-CpMol*1000=0; //Convert Cp from kJ/kmol.K to J/kg.C
+//****************************************************
+
+// Material balance relationships
+//****************************************************
+// Both Steady State and dynamic
+//Total Molar Flow
+FO.F=FI.F;
+
+//Component Mole Fractions
+for comps in ComponentList do
+ FO.z(comps)=FI.z(comps);
+endfor
+//****************************************************
+
+//****************************************************
+
+//water mass charge of system, kg
+//**********************
+
+//MassFlow through the system
+MFlow*3600-FI.F*avgMM=0; //Convert kmol/hr to kg/sec
+
+//Outlet Pressure Calculation
+FI.P - DP - FO.P=0;
+DP*(r1*r1*pi*r1*r1*0.25)-2*Mu*0.001*w*MFlow*1e-5=0; //multiply by 1e-5 to convert from kPa to bars
+
+
+//Outlet Temperature Calculatione
+  (Tin+Tout)*Mflow-w*k*Mc+w*k*eps*Mflow-2*Tp*MFlow=0; //eqn 
+
+  if itoSpec <= 0.01 then
+    ito=0.00001;
+  else
+    ito=itoSpec;
+  endif
+  
+  Tin=FI.T;
+  Mc*sqrt((2*eps*pi*Mu*0.001*Cp))-eps*pi*r1*r1*rho*sqrt(y*g*Ito*TauAlphaTheta*r1*w*sin(Beta))=0; //eqn 19
+  k*Mc*Cp-2*Ito*r1*TauAlphaTheta=0; //defined on pg 1417
+  (M*Cp*$Tp-3600*(MFlow*Cp*(Tin-Tout)+Ito*TauAlphaTheta*A2-Ul*(Tp-Tam)*A1))*0.001=0; //Eqn 1
+  FO.T=Tout;
+  call (FO.h) = pEnth_Mol (FO.T, FO.P, FO.Z);
+  call (rhoMolOut) = pDens_Mol_Liq (FO.T, FO.P, FO.z);;
+  FO.V*rhoMolOut-1=0;
+//****************************************************
+
+//SYSTEM SECTION - WARNING: DO NOT EDIT
+  Current_Icon : "UTTSCI";
+TYPE UTTSC_T0 ROLE "ICON" text
+Name = UTTSCI
+lines = 28
+
+sub main
+call Path.Begin
+'' <<Path:0
+call Path.Box(-0.35,0.1,0.4,-0.3,0,0,1)
+call Path.Box(-0.3,0.05,0.35,-0.25,0,0,1)
+call Path.Box(-0.25,0.05,-0.2,-0.25,0,0,1)
+call Path.Box(-0.15,0.05,-0.1,-0.25,0,0,1)
+call Path.Text(0.1,-0.05,"Solar",0,"Times New Roman",0.0703812,0,0)
+call Path.Text(0.1,-0.15,"Collector",0,"Times New Roman",0.0703812,0,0)
+'' >>
+call Path.End
+end sub
+
+sub LabPos
+call Label.at(0.05,0.2)
+end sub
+
+sub ports
+call Port.name("UniversalIN")
+call Port.at(-0.348387,-0.102053)
+call Port.direction(0)
+call Port.name("UniversalOUT")
+call Port.at(0.390616,-0.102053)
+call Port.IOtype(1)
+call Port.direction(0)
+end sub
+
+
+
+endtext
+
+UTTSC_T0_I0 as UTTSC_T0;
+SystemData : Text
+<FORMLIST DEFAULTFORM="SC_Input">
+  <FORM NAME="SC_Input" CLSID="{6BA76840-806B-11D0-BE51-0000C09984EF}">
+    { Version : 1
+SizeX : 8730
+SizeY : 1035
+ShowAllVariables : False
+ShowAllAttributes : False
+ExpandAll : True
+ShowRegistryAttributes : True
+VariablesPaths : [ Ito Tam ]
+AttributesPaths : [ Description Value Units Spec ]
+ColumnWidths : [ 1215 3720 1215 1200 1215 ]
+}
+  </FORM>
+</FORMLIST>
+<EXPORTDATA>AS::0::1
+DISPLAY::UTTSC
+CATEGORY::ACM Models
+GUID270::{44144E21-FC27-4695-A5A8-316945FA3159}
+PORT::FI::1::Mole Fraction::Input port for fluid to be heated (Cold Side)::1
+PORT::FO::1::Mole Fraction::Output port for fluid to be heated (Heated Side)::1
+QUERY::SC_Input::1::1::3
+QUERY::AllVariables::1::0::3</EXPORTDATA>
+EndText;
+
+//SYSTEM SECTION END
+End
+SystemData : Text
+globaldatasection
+EndText;
+SystemData : Text
+<FORMLIST DEFAULTFORM="AllGlobals">
+  <FORM NAME="AllGlobals" CLSID="{6BA76840-806B-11D0-BE51-0000C09984EF}">
+    { Version : 1
+SizeX : 5250
+SizeY : 3750
+ShowAllVariables : True
+ShowAllAttributes : False
+ExpandAll : True
+ShowRegistryAttributes : True
+VariablesPaths : [ ]
+AttributesPaths : [ ]
+ColumnWidths : [ ]
+}
+  </FORM>
+</FORMLIST>
+EndText;
+
+FLOWSHEET
+
+CONSTRAINTS
+  // Flowsheet variables and equations...
+END
+
+//SYSTEM SECTION - WARNING: DO NOT EDIT
+SystemData : Text
+<FORMLIST DEFAULTFORM="AllVariables">
+</FORMLIST>
+EndText;
+
+//SYSTEM SECTION END
+  ActiveTasks : [];
+  Graphics : TEXT CLSID {A0DFFFE6-908E-11CE-A964-0000C08C668E}
+# of PFS Objects = 1
+SIZE -3 3 -3 3
+LEGEND
+Version: 2
+Dim: -3.85846 -3.2 -3.16609 -3.33768
+Size: 0.0277727
+Font: 1 0 =Times New Roman
+# of PFS Objects = 0
+VIEWPORT -7.970769 35.632389 3.300000 -17.057398
+LAYOUT
+TableFormat 1
+Pages 1 1 1 1
+PAGESETUP
+PAPERSIZE 
+PAPERSOURCE 
+ORIENTATION -1
+PRINTPAGENO 1 1
+LEFTMARGIN 10mm
+RIGHTMARGIN 10mm
+TOPMARGIN 10mm
+BOTTOMMARGIN 10mm
+VISIBILITY 0.030000
+PFDFLAG 255 255
+PFDMODE 0
+SCALE 0.027773
+
+ENDTEXT;
+END
+
+Properties
+Package : "None";
+End
+
+Options
+  AbsoluteSingularityTol: 1.e-004;
+  AbsPerturb: 1.e-005;
+  AbsTearTol: 1.e-005;
+  AbsTol: 1.e-005;
+  AssignmentWarningsEnabled: True;
+  ChangeTol: 1.e-005;
+  CheckProcDerivs: "Off";
+  Compression: True;
+  CurrentUOMSet: "Metric";
+  Decomposer.ProgID: "AspenTech.Decomposer";
+  Decomposition.MultipleGroup: True;
+  DerivAbsTol: 1.e-003;
+  DerivRelTol: 0.1;
+  EqnTol: 1.e-005;
+  EquationSensCheck: False;
+  EquationSensTol: 10000000000.;
+  EstimationPrintLevel: "Medium";
+  EstimationReturntoBestPoint: False;
+  EstimationSolver: 2;
+  Estimator: 1;
+  ExplicitEventTolerance: 1.e-005;
+  Feasopt.MaxAbsStep: 10.;
+  Feasopt.MaxEval: 100;
+  Feasopt.MaxRelStep: 10.;
+  Feasopt.OptTol: 1.e-004;
+  Homotopy.InitialStep: 0.1;
+  Homotopy.MaximumStep: 1.;
+  Homotopy.MinimumStep: 1.e-002;
+  Homotopy.StepDecrement: 0.5;
+  Homotopy.StepIncrement: 10;
+  Integration.AbsErrorTol: 1.e-005;
+  Integration.AbsTearTol: 1.e-005;
+  Integration.DiscontinuityEventTol: 1.e-005;
+  Integration.EnforceMinStep: False;
+  Integration.IncSensErrors: False;
+  Integration.InitStepSize: 5.e-003;
+  Integration.ItplToComTime: True;
+  Integration.LocateIEvents: False;
+  Integration.MaxOrder: 5;
+  Integration.MaxStepSize: 1.;
+  Integration.MinStepSize: 1.e-003;
+  Integration.ProgID: "AspenTech.UnifiedIntegrator";
+  Integration.RcvTornVars: False;
+  Integration.ReInitAfterEE: False;
+  Integration.ReInitAfterIE: False;
+  Integration.RelErrorTol: 1.e-005;
+  Integration.RelTearTol: 1.e-005;
+  Integration.RewindToLastConvStep: False;
+  Integration.ShowHIErrors: 0;
+  Integration.ShowHTIErrors: 0;
+  Integration.StepRedFact: 0.5;
+  Integration.StepSize: 1.e-002;
+  Integration.StepSizeType: "Variable";
+  Integration.TestSAndAVars: False;
+  Integration.UsePrevAfterEE: False;
+  Integrator: "ImplicitEuler";
+  KeepCompiledEvaluationFiles: False;
+  LinearSolver: "MA48";
+  ListEquivalenceVariables: True;
+  LogLikelihood.MaxIter: 100;
+  LogLikelihood.SolTol: 1.e-004;
+  MA48.DropTol: 0.;
+  MA48.EnableRefineIter: True;
+  MA48.MaxRefineIter: 10;
+  MA48.PivotSearch: 3;
+  MA48.PivotTol: 1.e-050;
+  MA48.Repivot: 0;
+  MA48.UseTranspose: 0;
+  MaxTearIter: 100;
+  Nl2sol.AbsFuncTol: 1.e-020;
+  Nl2sol.FalseConvTol: 0.;
+  Nl2sol.MaxIter: 50;
+  Nl2sol.RelFuncTol: 1.e-004;
+  Nl2sol.SolTol: 1.e-004;
+  NLASolver: "Standard";
+  Nonlinear.AbsPert: 1.e-005;
+  Nonlinear.BestOnFail: True;
+  Nonlinear.BoundClip: 1.e-006;
+  Nonlinear.BoundFrac: 1.;
+  Nonlinear.ConvCrit: "Residual";
+  Nonlinear.CreepIter: 0;
+  Nonlinear.CreepSize: 0.1;
+  Nonlinear.Dogleg: False;
+  Nonlinear.HiResidual: 0;
+  Nonlinear.HiVarSteps: 0;
+  Nonlinear.MathsPrint: 0;
+  Nonlinear.MaxDivSteps: 10;
+  Nonlinear.MaxFastNewtonSteps: 5;
+  Nonlinear.MaxIter: 100;
+  Nonlinear.MaxStepRed: 10;
+  Nonlinear.MaxVarStep: 50.;
+  Nonlinear.Method: "Mixed Newton";
+  Nonlinear.RangeFrac: 0.;
+  Nonlinear.SingPert: 1.e-002;
+  OptimizationObjFun: "Minimize";
+  OptimizationPrintLevel: "Medium";
+  Optimizer: 1;
+  PrintLevel: 2;
+  PropInfo: -1;
+  RelativeSingularityCheck: True;
+  RelativeSingularityTol: 1.e-002;
+  RelPerturb: 1.e-005;
+  RelTearTol: 1.e-005;
+  RelTol: 1.e-005;
+  RunMode: "SteadyState";
+  SaveFreeVariableValues: True;
+  Scaling: False;
+  SensErrorCheck: True;
+  SnapshotSettings.EnableDynInitialization: True;
+  SnapshotSettings.EnableFileSaved: False;
+  SnapshotSettings.EnableInitialization: True;
+  SnapshotSettings.EnableInitialSpec: True;
+  SnapshotSettings.EnableMaximum: True;
+  SnapshotSettings.EnableonReinitialization: False;
+  SnapshotSettings.EnableProblemEdit: True;
+  SnapshotSettings.EnableRegularSnapshot: False;
+  SnapshotSettings.EnableSteadyState: True;
+  SnapshotSettings.Interval: 2.;
+  SnapshotSettings.Maximum: 10;
+  SnapshotSettings.SaveConvergedOnly: True;
+  SnapshotSettings.TakeAutoSnapshots: True;
+  SyncSteps: "Full";
+  Tearing: "update";
+  TearUpdate: "Direct";
+  TimeSettings.CommunicationInterval: 1.e-002;
+  TimeSettings.CommunicationUnits: "Hours";
+  TimeSettings.DisplayUpdateInterval: 2000;
+  TimeSettings.EnablePauseAt: False;
+  TimeSettings.EnableStepFor: False;
+  TimeSettings.PauseAt: 0.;
+  TimeSettings.RealTimeSyncFactor: 0.;
+  TimeSettings.RecordHistory: False;
+  TimeSettings.StepFor: 0;
+  TimeSettings.TimeDisplayUnits: "Hours";
+  UseCompiledEvaluation: False;
+  UseSavedSnapshotOnLoad: False;
+  WatchGroup: 0;
+  WatchSubGroup: 0;
+  Wegstein.MaxAcceleration: 0.;
+  Wegstein.MinAcceleration: -5.;
+  OpenLASolver: "";
+  OpenNLASolver: "";
+  OpenOPTSolver: "";
+  OpenESTSolver: "";
+End
+Optimization
+  IsDynamic : FALSE;
+  ElementSizeBoundsAutomatic : TRUE;
+  EndTime : 1.000000000000000;
+  Control.FinalTime_Initial : 1.000000000000000;
+  Control.FinalTime_Upper : 2.000000000000000;
+  Control.FinalTime_Lower : 0.5000000000000000;
+  Control.FinalTime_IsFixed : TRUE;
+  Control.FinalTime_IsObjective : FALSE;
+  Control.Elements : 5;
+  Control.FixedInterval : TRUE;
+  Control.MovingElementsVarying : FALSE;
+  Control.PiecewiseLinear : FALSE;
+  Control(0) : 0.2000000000000000, 0.05000000000000000, 0.4000000000000000 ;
+  Control(1) : 0.2000000000000000, 0.05000000000000000, 0.4000000000000000 ;
+  Control(2) : 0.2000000000000000, 0.05000000000000000, 0.4000000000000000 ;
+  Control(3) : 0.2000000000000000, 0.05000000000000000, 0.4000000000000000 ;
+  Control(4) : 0.2000000000000000, 0.05000000000000000, 0.4000000000000000 ;
+End
+Estimation
+  CalcHeteroParams : TRUE;
+  ExperimentTimeUnit: "";
+End
+Homotopy
+ Enabled: FALSE;
+End

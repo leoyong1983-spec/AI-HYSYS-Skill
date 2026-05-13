@@ -1,0 +1,215 @@
+﻿[
+    {
+        "title":  "hysys-to-excel-intro candidate (Excel VBA bridge, no case file)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+        "download_url":  "https://codeload.github.com/oscarcontrerasnavas/hysys-to-excel-intro/zip/refs/heads/master",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-oscarcontrerasnavas-hysys-to-excel-intro/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  35149,
+                                    "sha256":  "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-oscarcontrerasnavas-hysys-to-excel-intro/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  399,
+                                    "sha256":  "0ca2089bac23e219ce23ecbd1b752b164fc65de3b8ad31bb43024cec0c2c7e94"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-oscarcontrerasnavas-hysys-to-excel-intro/repo.json",
+                                    "filename":  "repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6346,
+                                    "sha256":  "32aeab5bfc51cc7bb3f610ba1434603768c4fa6d10f04d93cb30bea911016821"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-oscarcontrerasnavas-hysys-to-excel-intro/tree.json",
+                                    "filename":  "tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1181,
+                                    "sha256":  "3ddcd3dc82e3319a54e44a9c80bbb963391916e5fcaf87a508ebc7d8cdf1618d"
+                                }
+                            ],
+        "license_public_access_note":  "Public repository with GPL-3.0 license; tree shows xlsm/vb bridge files but no .hsc/.xml model file.",
+        "recommended_use":  "Reference for Excel-to-HYSYS automation pattern only; not a benchmark case package.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+                            "download_url":  "https://codeload.github.com/oscarcontrerasnavas/hysys-to-excel-intro/zip/refs/heads/master",
+                            "title":  "hysys-to-excel-intro candidate (Excel VBA bridge, no case file)",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md",
+                                              "repo.json",
+                                              "tree.json"
+                                          ],
+                            "sha256":  [
+                                           "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+                                           "0ca2089bac23e219ce23ecbd1b752b164fc65de3b8ad31bb43024cec0c2c7e94",
+                                           "32aeab5bfc51cc7bb3f610ba1434603768c4fa6d10f04d93cb30bea911016821",
+                                           "3ddcd3dc82e3319a54e44a9c80bbb963391916e5fcaf87a508ebc7d8cdf1618d"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No Aspen HYSYS case model artifact available for ingestion.",
+                               "Contains macro-enabled workbook; not executed for safety."
+                           ]
+    },
+    {
+        "title":  "hysysopt candidate (optimization scripts without case assets)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/perrywzm/hysysopt",
+        "download_url":  "https://codeload.github.com/perrywzm/hysysopt/zip/refs/heads/master",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-perrywzm-hysysopt/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  43,
+                                    "sha256":  "094b90648c2d058cdf5ea52f041142ebdaa97895deea3acf5ecb896c567130f7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-perrywzm-hysysopt/repo.json",
+                                    "filename":  "repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5031,
+                                    "sha256":  "079c830853a7bdc5caff588cc134367706c609eaec0a0a9931a381ec542efdfc"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-perrywzm-hysysopt/tree.json",
+                                    "filename":  "tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  4654,
+                                    "sha256":  "f6d605d25f1649979a76e8f13957b104278b9e2f264967e2ec3f8025cb1e9ef6"
+                                }
+                            ],
+        "license_public_access_note":  "Public repository but no declared SPDX license; tree probe shows notebooks/scripts/images and no .hsc/.xml.",
+        "recommended_use":  "Use as algorithmic reference for HYSYS optimization wrappers; requires external licensed case files.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/perrywzm/hysysopt",
+                            "download_url":  "https://codeload.github.com/perrywzm/hysysopt/zip/refs/heads/master",
+                            "title":  "hysysopt candidate (optimization scripts without case assets)",
+                            "filenames":  [
+                                              "README.md",
+                                              "repo.json",
+                                              "tree.json"
+                                          ],
+                            "sha256":  [
+                                           "094b90648c2d058cdf5ea52f041142ebdaa97895deea3acf5ecb896c567130f7",
+                                           "079c830853a7bdc5caff588cc134367706c609eaec0a0a9931a381ec542efdfc",
+                                           "f6d605d25f1649979a76e8f13957b104278b9e2f264967e2ec3f8025cb1e9ef6"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No published HYSYS model package in repository tree.",
+                               "License ambiguity prevents direct archive ingestion."
+                           ]
+    },
+    {
+        "title":  "ai-hysys-autobuilder candidate (MIT scripts, no public case files)",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+        "download_url":  "https://codeload.github.com/aqiqiqiu/ai-hysys-autobuilder/zip/refs/heads/dryrun",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-aqiqiqiu-ai-hysys-autobuilder/LICENSE",
+                                    "filename":  "LICENSE",
+                                    "file_type":  "no_ext",
+                                    "size_bytes":  1057,
+                                    "sha256":  "75054b6a08e1008c86b6045ab99add2c8fa571987880951a9929f11ee56a7d64"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-aqiqiqiu-ai-hysys-autobuilder/README.md",
+                                    "filename":  "README.md",
+                                    "file_type":  "md",
+                                    "size_bytes":  3393,
+                                    "sha256":  "475d74c1a44d07fd09ac1dbd99f4a8e93ecac13ff3c1b6c3d0b78e4e8a5b7a9b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-aqiqiqiu-ai-hysys-autobuilder/repo.json",
+                                    "filename":  "repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5613,
+                                    "sha256":  "3869ba9d06a408ec398c9d53c8807dbabde037fc9e3edcb31804de3ea664a8d4"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2316Z/artifacts/github-aqiqiqiu-ai-hysys-autobuilder/tree.json",
+                                    "filename":  "tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5707,
+                                    "sha256":  "1c2a2b68427b3bf9d456653bd5f6c772aa608cdd56d839b1bc951400041d54d1"
+                                }
+                            ],
+        "license_public_access_note":  "Public MIT repository; contains COM automation code and configs but no .hsc/.xml models in tree listing.",
+        "recommended_use":  "Potential automation utility reference; cannot serve as baseline case corpus item without model files.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+                            "download_url":  "https://codeload.github.com/aqiqiqiu/ai-hysys-autobuilder/zip/refs/heads/dryrun",
+                            "title":  "ai-hysys-autobuilder candidate (MIT scripts, no public case files)",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md",
+                                              "repo.json",
+                                              "tree.json"
+                                          ],
+                            "sha256":  [
+                                           "75054b6a08e1008c86b6045ab99add2c8fa571987880951a9929f11ee56a7d64",
+                                           "475d74c1a44d07fd09ac1dbd99f4a8e93ecac13ff3c1b6c3d0b78e4e8a5b7a9b",
+                                           "3869ba9d06a408ec398c9d53c8807dbabde037fc9e3edcb31804de3ea664a8d4",
+                                           "1c2a2b68427b3bf9d456653bd5f6c772aa608cdd56d839b1bc951400041d54d1"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No downloadable HYSYS case files to validate reproducibility.",
+                               "Repository currently focused on code path, not benchmark data path."
+                           ]
+    }
+]

@@ -1,0 +1,165 @@
+﻿[
+    {
+        "title":  "SinaGhanbarii/HDA-Plant-Simulation candidate package",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+        "download_url":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation/archive/refs/heads/main.zip",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE\\2026-05-11-heartbeat-1909Z\\artifacts\\metadata_SinaGhanbarii__HDA-Plant-Simulation.json",
+                                    "filename":  "metadata_SinaGhanbarii__HDA-Plant-Simulation.json",
+                                    "file_type":  "application/json",
+                                    "size_bytes":  4764,
+                                    "sha256":  "fd184497e55b29216c3a17d052564c86572db69c79ae22ebc1fa960f5593899f"
+                                }
+                            ],
+        "license_public_access_note":  "No explicit repo license detected; treat as rights-unclear for archival redistribution.",
+        "recommended_use":  "用于流程自动化脚本接口测试与多case批处理基准（需先获授权）",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+                            "download_url":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation/archive/refs/heads/main.zip",
+                            "title":  "SinaGhanbarii/HDA-Plant-Simulation candidate package",
+                            "filenames":  [
+                                              "HDA 2024 Aspen/1-HDA-Setup.hsc",
+                                              "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+                                              "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+                                              "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc",
+                                              "Book1.xlsx",
+                                              "HDA Product Column.xlsx",
+                                              "Heat exchangers.xlsx",
+                                              "HDA Report.pdf",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "fd184497e55b29216c3a17d052564c86572db69c79ae22ebc1fa960f5593899f"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License/re-distribution rights unclear; no model package downloaded.",
+                               "HYSYS runtime compatibility unknown because model execution was not performed.",
+                               "Repository contents may change over time; this record captures metadata at collection time."
+                           ]
+    },
+    {
+        "title":  "masoud-abdi/The-simulation-of-Acetic-Acid-process candidate package",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+        "download_url":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process/archive/refs/heads/main.zip",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE\\2026-05-11-heartbeat-1909Z\\artifacts\\metadata_masoud-abdi__The-simulation-of-Acetic-Acid-process.json",
+                                    "filename":  "metadata_masoud-abdi__The-simulation-of-Acetic-Acid-process.json",
+                                    "file_type":  "application/json",
+                                    "size_bytes":  2913,
+                                    "sha256":  "afc28f2306e64d1e18bafce28e23bdedf0ab0f08e13c781717d67c560950484c"
+                                }
+                            ],
+        "license_public_access_note":  "No explicit repo license detected; treat as rights-unclear for archival redistribution.",
+        "recommended_use":  "用于单案例读取与报告抽取测试（需先获授权）",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+                            "download_url":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process/archive/refs/heads/main.zip",
+                            "title":  "masoud-abdi/The-simulation-of-Acetic-Acid-process candidate package",
+                            "filenames":  [
+                                              "acetic fin.hsc",
+                                              "Acid-Material.pdf",
+                                              "HYSYS-Print.pdf",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "afc28f2306e64d1e18bafce28e23bdedf0ab0f08e13c781717d67c560950484c"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "HYSYS v10 (README声明)",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License/re-distribution rights unclear; no model package downloaded.",
+                               "HYSYS runtime compatibility unknown because model execution was not performed.",
+                               "Repository contents may change over time; this record captures metadata at collection time."
+                           ]
+    },
+    {
+        "title":  "royhanikbarr/Gas-Turbine-Hysys candidate package",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+        "download_url":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys/archive/refs/heads/main.zip",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE\\2026-05-11-heartbeat-1909Z\\artifacts\\metadata_royhanikbarr__Gas-Turbine-Hysys.json",
+                                    "filename":  "metadata_royhanikbarr__Gas-Turbine-Hysys.json",
+                                    "file_type":  "application/json",
+                                    "size_bytes":  2720,
+                                    "sha256":  "7bbc5970ef1512a51488f9c6a4792ac5b258f69eb4c30abf38968ea832b5fce2"
+                                }
+                            ],
+        "license_public_access_note":  "No explicit repo license detected; treat as rights-unclear for archival redistribution.",
+        "recommended_use":  "用于透平流程对象遍历与能量平衡报表抽取测试（需先获授权）",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+                            "download_url":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys/archive/refs/heads/main.zip",
+                            "title":  "royhanikbarr/Gas-Turbine-Hysys candidate package",
+                            "filenames":  [
+                                              "Gas Turbine Power Plant Simulation.hsc",
+                                              "Simulation of Gas Turbine in Hysys.pdf",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "7bbc5970ef1512a51488f9c6a4792ac5b258f69eb4c30abf38968ea832b5fce2"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License/re-distribution rights unclear; no model package downloaded.",
+                               "HYSYS runtime compatibility unknown because model execution was not performed.",
+                               "Repository contents may change over time; this record captures metadata at collection time."
+                           ]
+    }
+]

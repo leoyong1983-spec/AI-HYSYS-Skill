@@ -1,0 +1,10 @@
+﻿{
+    "source_page":  "https://github.com/bpalotai/Flowsheet-toolbox",
+    "download_url":  "https://codeload.github.com/bpalotai/Flowsheet-toolbox/zip/refs/heads/main",
+    "observed_via":  "GitHub tree probe before rate limit",
+    "license_spdx":  "NOASSERTION_or_missing",
+    "hsc_paths":  [
+                      "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+                  ],
+    "reason_not_downloaded":  "License terms unclear for redistribution/archive."
+}

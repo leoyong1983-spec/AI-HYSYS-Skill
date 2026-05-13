@@ -1,0 +1,329 @@
+﻿[
+    {
+        "title":  "Natural-Gas-Sweetening (GitHub fork probe, duplicate model)",
+        "type":  "github_repository_probe",
+        "quality":  "D",
+        "source_page":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "download_url":  "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "artifacts/github_probe_candidates.json",
+                                    "filename":  "github_probe_candidates.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9681,
+                                    "sha256":  "287728ab5f8f01638f23a9dc07b1e10c2da44da30318ada386f920cd5be2b190"
+                                }
+                            ],
+        "license_public_access_note":  "Repository probe shows LICENSE file present, but model SHA256 matches existing 2026-05-11-heartbeat-0741Z asset exactly; skipped as duplicate.",
+        "recommended_use":  "No new ingestion; retain as duplicate reference for dedupe regression tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+                            "download_url":  "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main",
+                            "title":  "Natural-Gas-Sweetening",
+                            "filenames":  [
+                                              "Gas Sweetening.hsc"
+                                          ],
+                            "sha256":  [
+                                           "fcda75090796e9ba8a69bfb29a769deea36761d11d26c93d51d98318d19d4610"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No new value due exact SHA duplicate with existing CASE asset."
+                           ]
+    },
+    {
+        "title":  "CDU-Simulation-Optimization (GitHub fork probe, duplicate model)",
+        "type":  "github_repository_probe",
+        "quality":  "D",
+        "source_page":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "download_url":  "https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "artifacts/github_probe_candidates.json",
+                                    "filename":  "github_probe_candidates.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9681,
+                                    "sha256":  "287728ab5f8f01638f23a9dc07b1e10c2da44da30318ada386f920cd5be2b190"
+                                }
+                            ],
+        "license_public_access_note":  "Repository probe shows LICENSE file present, but model SHA256 matches existing 2026-05-11-heartbeat-0741Z asset exactly; skipped as duplicate.",
+        "recommended_use":  "No new ingestion; use as dedupe test sample only.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+                            "download_url":  "https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+                            "title":  "CDU-Simulation-Optimization",
+                            "filenames":  [
+                                              "project.hsc"
+                                          ],
+                            "sha256":  [
+                                           "795c3587c611405f4786115514030036987615e47c33fe74aba1fcb1610fbdd2"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No new value due exact SHA duplicate with existing CASE asset."
+                           ]
+    },
+    {
+        "title":  "Projects-ASPEN-HYSYS (multi-case candidate, license unclear)",
+        "type":  "github_repository_candidate",
+        "quality":  "D",
+        "source_page":  "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+        "download_url":  "https://codeload.github.com/CristopherCano/Projects-ASPEN-HYSYS/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "artifacts/github_probe_candidates.json",
+                                    "filename":  "github_probe_candidates.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9681,
+                                    "sha256":  "287728ab5f8f01638f23a9dc07b1e10c2da44da30318ada386f920cd5be2b190"
+                                }
+                            ],
+        "license_public_access_note":  "Publicly accessible repository, but probe found no LICENSE file; redistribution/archive permission is unclear, so not ingested.",
+        "recommended_use":  "Manual license confirmation before any archive ingestion; if approved, this is a rich benchmark pack for distillation/steam-cycle scenarios.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+                            "download_url":  "https://codeload.github.com/CristopherCano/Projects-ASPEN-HYSYS/zip/refs/heads/main",
+                            "title":  "Projects-ASPEN-HYSYS",
+                            "filenames":  [
+                                              "Combustion Process of Natural Gas-Precalentando.hsc",
+                                              "Caso A1.hsc"
+                                          ],
+                            "sha256":  [
+                                           "940ecb8c123a3e3f6b40fa3d3646e8602304bc6b67c262a6fd9733431f7d738d",
+                                           "311a08289d738ce58cb45aab97922f6b65cc47c53ea63e79dbf7c68cbd0ad449"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License ambiguity blocks redistribution-safe archival.",
+                               "Content appears educational/project-style; provenance and validation depth vary by subfolder."
+                           ]
+    },
+    {
+        "title":  "Aspen-HYSYS-Projects (single-model candidate, license unclear)",
+        "type":  "github_repository_candidate",
+        "quality":  "D",
+        "source_page":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+        "download_url":  "https://codeload.github.com/Paryazdan/Aspen-HYSYS-Projects/zip/refs/heads/master",
+        "local_artifacts":  [
+                                {
+                                    "path":  "artifacts/github_probe_candidates.json",
+                                    "filename":  "github_probe_candidates.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9681,
+                                    "sha256":  "287728ab5f8f01638f23a9dc07b1e10c2da44da30318ada386f920cd5be2b190"
+                                }
+                            ],
+        "license_public_access_note":  "Public repository but no LICENSE file detected in probe; archival permission unclear.",
+        "recommended_use":  "Potential simple HYSYS smoke-case once license is clarified.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+                            "download_url":  "https://codeload.github.com/Paryazdan/Aspen-HYSYS-Projects/zip/refs/heads/master",
+                            "title":  "Aspen-HYSYS-Projects",
+                            "filenames":  [
+                                              "YazdanihaPHw3aSim.hsc"
+                                          ],
+                            "sha256":  [
+                                           "3470d1dd7e9464c52efb71175199019a0a7fcb2a8a78459fa6af1eb7a44b682e"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License ambiguity blocks redistribution-safe archival.",
+                               "Minimal documentation reduces reproducibility confidence."
+                           ]
+    },
+    {
+        "title":  "Methanol_Synthesis_Aspen_hysys (single-model candidate, license unclear)",
+        "type":  "github_repository_candidate",
+        "quality":  "D",
+        "source_page":  "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+        "download_url":  "https://codeload.github.com/kush1706/Methanol_Synthesis_Aspen_hysys/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "artifacts/github_probe_candidates.json",
+                                    "filename":  "github_probe_candidates.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9681,
+                                    "sha256":  "287728ab5f8f01638f23a9dc07b1e10c2da44da30318ada386f920cd5be2b190"
+                                }
+                            ],
+        "license_public_access_note":  "No LICENSE file detected; public access exists but redistribution/archive permission is unclear.",
+        "recommended_use":  "Potential methanol synthesis benchmark if author grants explicit redistribution permission.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+                            "download_url":  "https://codeload.github.com/kush1706/Methanol_Synthesis_Aspen_hysys/zip/refs/heads/main",
+                            "title":  "Methanol_Synthesis_Aspen_hysys",
+                            "filenames":  [
+                                              "GROUP_17.hsc.hsc"
+                                          ],
+                            "sha256":  [
+                                           "03ef684c62244d08f9cdc41e11e8fefb69fa08cffe23af931b77cf69bca70a21"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License ambiguity blocks redistribution-safe archival.",
+                               "No README/report means reconstruction context is weak."
+                           ]
+    },
+    {
+        "title":  "Thermoexergetic anaysis f multicomponent distillation System (Mendeley, no model file)",
+        "type":  "mendeley_dataset_candidate",
+        "quality":  "D",
+        "source_page":  "https://data.mendeley.com/datasets/cny3h66vx8",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/cny3h66vx8/files/a1950960-8071-4fa6-8983-1624782040f8/file_downloaded",
+        "local_artifacts":  [
+                                {
+                                    "path":  "artifacts/mendeley_cny3h66vx8_metadata.json",
+                                    "filename":  "mendeley_cny3h66vx8_metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  4934,
+                                    "sha256":  "521d0e3b22733e95675daa10f6c29dcc3eb290dc1a7266d46dce588b578f4f5c"
+                                }
+                            ],
+        "license_public_access_note":  "CC BY 4.0 metadata present and public, but exposed file set only includes a DOC document (no .hsc/.xml/case package).",
+        "recommended_use":  "Reference-only metadata; not suitable as executable HYSYS benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/cny3h66vx8",
+                            "download_url":  "https://data.mendeley.com/public-files/datasets/cny3h66vx8/files/a1950960-8071-4fa6-8983-1624782040f8/file_downloaded",
+                            "title":  "Thermoexergetic anaysis f muticomponent distillation System",
+                            "filenames":  [
+                                              "ENGOPT DATASET.doc"
+                                          ],
+                            "sha256":  [
+                                           "f3b45a71894d1d7bdaf057b8528524d4f79477e4e58a77b6d7dd47146d85a440"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No machine-loadable HYSYS model file available from public files."
+                           ]
+    },
+    {
+        "title":  "Exergoeconomic Analysis (Mendeley, no model file)",
+        "type":  "mendeley_dataset_candidate",
+        "quality":  "D",
+        "source_page":  "https://data.mendeley.com/datasets/g5k7tndk77",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/e0d214ec-716d-430f-bd1e-ad237968865b/file_downloaded",
+        "local_artifacts":  [
+                                {
+                                    "path":  "artifacts/mendeley_g5k7tndk77_metadata.json",
+                                    "filename":  "mendeley_g5k7tndk77_metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10094,
+                                    "sha256":  "3852052dce718ed92f936b995a73011d3ab74a47287633e6047e437353f4a90f"
+                                }
+                            ],
+        "license_public_access_note":  "CC BY 4.0 metadata present and public, but exposed files are spreadsheets only (no .hsc/.xml model package).",
+        "recommended_use":  "Useful for tabular validation input/output checks, not for direct HYSYS case execution.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/g5k7tndk77",
+                            "download_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/e0d214ec-716d-430f-bd1e-ad237968865b/file_downloaded",
+                            "title":  "Exergoeconomic Analysis",
+                            "filenames":  [
+                                              "Compressoreffeciency.xlsx"
+                                          ],
+                            "sha256":  [
+                                           "3d7b1fbabc40a625085132744675e3eba6b78c52be443467ed07c5118e5e8a2a"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "HYSYS 10.1 mentioned in metadata method",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No machine-loadable HYSYS model file available from public files."
+                           ]
+    }
+]

@@ -1,0 +1,3 @@
+Utility,Type,T_in,T_out,Cost,h
+Steam,Hot,500,500,80,2.0
+CW,Cold,293,313,20,2.0

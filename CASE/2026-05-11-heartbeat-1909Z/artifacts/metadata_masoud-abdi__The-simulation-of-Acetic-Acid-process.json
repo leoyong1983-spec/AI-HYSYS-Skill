@@ -1,0 +1,50 @@
+﻿{
+    "collected_utc":  "2026-05-11T19:17:29.3666198Z",
+    "repo":  "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "source_page":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "default_branch":  "main",
+    "repo_license_spdx":  "NONE",
+    "repo_visibility":  "public",
+    "repo_description":  "The simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10. I put the file here and be careful open it by ASPEN HYSYS v. 10. The data of each stream and the process flow diagram is attached.",
+    "archive_zip_url":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process/archive/refs/heads/main.zip",
+    "counts":  {
+                   "total_files":  4,
+                   "hsc_files":  1,
+                   "hysys_xml_files":  0,
+                   "excel_or_csv_files":  0,
+                   "pdf_or_report_files":  2,
+                   "readme_files":  1,
+                   "license_files":  0,
+                   "automation_script_files":  0
+               },
+    "sample_paths":  {
+                         "hsc":  [
+                                     "acetic fin.hsc"
+                                 ],
+                         "xml":  [
+
+                                 ],
+                         "excel_or_csv":  [
+
+                                          ],
+                         "pdf":  [
+                                     "Acid-Material.pdf",
+                                     "HYSYS-Print.pdf"
+                                 ],
+                         "readme":  [
+                                        "README.md"
+                                    ],
+                         "license":  [
+
+                                     ],
+                         "scripts":  {
+
+                                     }
+                     },
+    "readme_excerpt":  "#  The-simulation-of-Acetic-Acid-process\nThe simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10.\nI put the file here and be careful open it by ASPEN HYSYS v. 10.\nIn this project, we simulated the process using software tools and the use of stoichiometric reaction and stoichiometric reactor, which operates based on stoichiometric reaction and is an unrealistic equipment in the industry.\nThe data of each stream and the process flow diagram is attached.\nIf you have any questions, we will be in touch by my email (masoud abdi 789@gmail.com).\n",
+    "assessment":  {
+                       "quality":  "D",
+                       "not_downloaded_reason":  "Public repository but no explicit redistribution license found; rights for long-term archiving in this repo are unclear.",
+                       "dedupe_check":  "No matching existing source_page/download_url/title in prior CASE sources.json at time of run."
+                   }
+}

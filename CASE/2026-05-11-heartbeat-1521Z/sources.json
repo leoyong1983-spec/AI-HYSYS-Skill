@@ -1,0 +1,201 @@
+﻿[
+    {
+        "title":  "Stratified Tank and Solar Collector using Aspen Custom Modeler (ACM)",
+        "type":  "dataset_package",
+        "quality":  "C",
+        "source_page":  "https://data.mendeley.com/datasets/pv4znnnv3j/1",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/65ede85b-938e-4d46-831c-ddd7e183bffc/file_downloaded",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/mendeley-pv4znnnv3j-metadata.json",
+                                    "filename":  "mendeley-pv4znnnv3j-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  13846,
+                                    "sha256":  "41d2f5ebd695cfab240c2cdc84a0221764fe775f72271d76eb34133916f46eb6"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/1000 KG DRYER.HSC",
+                                    "filename":  "1000 KG DRYER.HSC",
+                                    "file_type":  "hsc",
+                                    "size_bytes":  296054,
+                                    "sha256":  "fc62b5db664157945176a978baef1ab98bfa2726bbcf8483f56935c5f01cd432"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/SolarCollectorFinal.acmf",
+                                    "filename":  "SolarCollectorFinal.acmf",
+                                    "file_type":  "acmf",
+                                    "size_bytes":  6985,
+                                    "sha256":  "2bf6f2f036200762a3d333951590adfd6223892c3098f2456016a4d16d0714e7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/StratifiedTankFinal.acmf",
+                                    "filename":  "StratifiedTankFinal.acmf",
+                                    "file_type":  "acmf",
+                                    "size_bytes":  18277,
+                                    "sha256":  "cdb72e44bb606775b55491fd64b244e607d19da37a2b3b710e2bdab7c01ea854"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/StratTank.msi",
+                                    "filename":  "StratTank.msi",
+                                    "file_type":  "msi",
+                                    "size_bytes":  679424,
+                                    "sha256":  "13f390104f6d167370aac3602f72fe186ec00cb559a3d48a43adb5cc2c7582c1"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/UTTSC.msi",
+                                    "filename":  "UTTSC.msi",
+                                    "file_type":  "msi",
+                                    "size_bytes":  676864,
+                                    "sha256":  "df1235b36e526c6487378d82659367196dd98d194dcf26b335f828dec8f34622"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/download-manifest.json",
+                                    "filename":  "download-manifest.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2611,
+                                    "sha256":  "0bbdcd60d5c4228e4a71d9733831a2d81e0ba160e59dc186bda2625b0d4daad5"
+                                }
+                            ],
+        "license_public_access_note":  "Mendeley Data public dataset, CC BY 4.0, DOI 10.17632/pv4znnnv3j.1. Contains model/data files plus MSI installers; archived without execution.",
+        "recommended_use":  "HYSYS/ACM COM-automation smoke test, file-handover parsing, and static artifact integrity benchmarking.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/pv4znnnv3j/1",
+                            "download_url":  "https://data.mendeley.com/public-files/datasets/pv4znnnv3j/files/65ede85b-938e-4d46-831c-ddd7e183bffc/file_downloaded",
+                            "title":  "Stratified Tank and Solar Collector using Aspen Custom Modeler (ACM)",
+                            "filenames":  [
+                                              "mendeley-pv4znnnv3j-metadata.json",
+                                              "1000 KG DRYER.HSC",
+                                              "SolarCollectorFinal.acmf",
+                                              "StratifiedTankFinal.acmf",
+                                              "StratTank.msi",
+                                              "UTTSC.msi",
+                                              "download-manifest.json"
+                                          ],
+                            "sha256":  [
+                                           "41d2f5ebd695cfab240c2cdc84a0221764fe775f72271d76eb34133916f46eb6",
+                                           "fc62b5db664157945176a978baef1ab98bfa2726bbcf8483f56935c5f01cd432",
+                                           "2bf6f2f036200762a3d333951590adfd6223892c3098f2456016a4d16d0714e7",
+                                           "cdb72e44bb606775b55491fd64b244e607d19da37a2b3b710e2bdab7c01ea854",
+                                           "13f390104f6d167370aac3602f72fe186ec00cb559a3d48a43adb5cc2c7582c1",
+                                           "df1235b36e526c6487378d82659367196dd98d194dcf26b335f828dec8f34622",
+                                           "0bbdcd60d5c4228e4a71d9733831a2d81e0ba160e59dc186bda2625b0d4daad5"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc",
+                                                                           ".acmf"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown (dataset does not declare version)",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Archive contains MSI installer binaries; they were not executed and should remain quarantined for static use only.",
+                               "No local Aspen runtime validation performed; model convergence/compatibility remains unverified on this host.",
+                               "Supporting narrative/report files are limited, so process-context completeness is moderate."
+                           ]
+    },
+    {
+        "title":  "Data for: Mixed-integer optimization of distillation sequences with Aspen Plus: A practical approach (Aspen Plus only candidate)",
+        "type":  "dataset_candidate",
+        "quality":  "D",
+        "source_page":  "https://data.mendeley.com/datasets/wp9srb96th/1",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/wp9srb96th/files/0e5441cf-cc69-4485-97f3-22d56badade2/file_downloaded",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/candidate-mendeley-wp9srb96th-metadata.json",
+                                    "filename":  "candidate-mendeley-wp9srb96th-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1463,
+                                    "sha256":  "ea474d70552715fb44ed6196f494ca13a641a4e90ab35b5cd5847b132953193f"
+                                }
+                            ],
+        "license_public_access_note":  "Public metadata accessible on Mendeley Data (CC BY-NC 3.0), but package is Aspen Plus-focused and not confirmed as HYSYS case material.",
+        "recommended_use":  "Candidate for manual review only; do not ingest into HYSYS benchmark corpus unless HYSYS-equivalent model evidence is found.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/wp9srb96th/1",
+                            "download_url":  "https://data.mendeley.com/public-files/datasets/wp9srb96th/files/6827b034-a935-4b8a-9969-307f47861bfd/file_downloaded | https://data.mendeley.com/public-files/datasets/wp9srb96th/files/7d3ffbab-fea8-456c-99f3-dc477a90f323/file_downloaded | https://data.mendeley.com/public-files/datasets/wp9srb96th/files/0e5441cf-cc69-4485-97f3-22d56badade2/file_downloaded",
+                            "title":  "Data for: Mixed-integer optimization of distillation sequences with Aspen Plus: A practical approach",
+                            "filenames":  [
+                                              "01_Description of Supplementary Material.pdf",
+                                              "02_Excel Files.zip",
+                                              "03_Aspen Plus Files.zip"
+                                          ],
+                            "sha256":  [
+                                           "ea474d70552715fb44ed6196f494ca13a641a4e90ab35b5cd5847b132953193f"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".zip"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Material appears Aspen Plus oriented; HYSYS model availability unverified.",
+                               "CC BY-NC terms may constrain some redistribution/commercial-adjacent workflows."
+                           ]
+    },
+    {
+        "title":  "Thermodynamic and Economic Assessment of a Liquid Nitrogen Precooling Dual-Pressure Claude Cycle for Hydrogen Liquefaction (no case file exposed)",
+        "type":  "dataset_candidate",
+        "quality":  "D",
+        "source_page":  "https://data.mendeley.com/datasets/wzd6j2pd4v/1",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/wzd6j2pd4v/files/823b2f19-9083-425f-94d1-6441590be252/file_downloaded",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1521Z/artifacts/candidate-mendeley-wzd6j2pd4v-metadata.json",
+                                    "filename":  "candidate-mendeley-wzd6j2pd4v-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  775,
+                                    "sha256":  "8b0d408a5fdb502a358fd50acf7b812b8ea56ef648d5801567885335fcc02845"
+                                }
+                            ],
+        "license_public_access_note":  "Public metadata accessible on Mendeley Data (CC BY 4.0), but exposed artifact does not list HYSYS case files.",
+        "recommended_use":  "Use as validation-data reference only; pair with a separate open HYSYS model package.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/wzd6j2pd4v/1",
+                            "download_url":  "https://data.mendeley.com/public-files/datasets/wzd6j2pd4v/files/823b2f19-9083-425f-94d1-6441590be252/file_downloaded",
+                            "title":  "Thermodynamic and Economic Assessment of a Liquid Nitrogen Precooling Dual-Pressure Claude Cycle for Hydrogen Liquefaction",
+                            "filenames":  [
+                                              "data.docx"
+                                          ],
+                            "sha256":  [
+                                           "8b0d408a5fdb502a358fd50acf7b812b8ea56ef648d5801567885335fcc02845"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No .hsc/.xml model file exposed in metadata.",
+                               "Dataset description references stream summaries; reverse reconstruction effort would be manual and error-prone."
+                           ]
+    }
+]
