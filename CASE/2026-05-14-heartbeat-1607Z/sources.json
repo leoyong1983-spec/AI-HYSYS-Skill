@@ -1,0 +1,538 @@
+﻿[
+    {
+        "title":  "GitHub candidate: ved10544-spec/Ved10544",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/ved10544-spec/Ved10544",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-ved10544-spec__Ved10544-readme.base64.txt",
+                                    "filename":  "github-ved10544-spec__Ved10544-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-ved10544-spec__Ved10544-repo.json",
+                                    "filename":  "github-ved10544-spec__Ved10544-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10662,
+                                    "sha256":  "c91baa61193213330533edfaa14273a45522604b79d5492b06f68d50cbc73a65"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-ved10544-spec__Ved10544-tree.json",
+                                    "filename":  "github-ved10544-spec__Ved10544-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  256,
+                                    "sha256":  "66b80fe575c43bf19f5240855ac7bbe11f28ab60782257164022456a1e6e688f"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected; no explicit license detected, and no HYSYS model file was available to archive.",
+        "recommended_use":  "None until a model file and license are added; keep as a low-priority watchlist item.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/ved10544-spec/Ved10544",
+                            "download_url":  "",
+                            "title":  "GitHub candidate: ved10544-spec/Ved10544",
+                            "filenames":  [
+                                              "github-ved10544-spec__Ved10544-readme.base64.txt",
+                                              "github-ved10544-spec__Ved10544-repo.json",
+                                              "github-ved10544-spec__Ved10544-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9",
+                                           "c91baa61193213330533edfaa14273a45522604b79d5492b06f68d50cbc73a65",
+                                           "66b80fe575c43bf19f5240855ac7bbe11f28ab60782257164022456a1e6e688f"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Repository description references Aspen Hysys, but the default branch tree returned no downloadable HYSYS model files and no clear license.",
+                               "Repository contents may change after this heartbeat; rerun GitHub tree inspection before changing quality rating."
+                           ]
+    },
+    {
+        "title":  "GitHub candidate: shri2901/AspenHYSYS",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/shri2901/AspenHYSYS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-shri2901__AspenHYSYS-readme.base64.txt",
+                                    "filename":  "github-shri2901__AspenHYSYS-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-shri2901__AspenHYSYS-repo.json",
+                                    "filename":  "github-shri2901__AspenHYSYS-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10268,
+                                    "sha256":  "1b59d5f9c7fdc06ff52f66903251341e4a55b7dc478845716ee2e8bacc71fa79"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-shri2901__AspenHYSYS-tree.json",
+                                    "filename":  "github-shri2901__AspenHYSYS-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  256,
+                                    "sha256":  "66b80fe575c43bf19f5240855ac7bbe11f28ab60782257164022456a1e6e688f"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected; no explicit license detected, and no HYSYS model file was available to archive.",
+        "recommended_use":  "None; revisit only if repository content changes.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/shri2901/AspenHYSYS",
+                            "download_url":  "",
+                            "title":  "GitHub candidate: shri2901/AspenHYSYS",
+                            "filenames":  [
+                                              "github-shri2901__AspenHYSYS-readme.base64.txt",
+                                              "github-shri2901__AspenHYSYS-repo.json",
+                                              "github-shri2901__AspenHYSYS-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9",
+                                           "1b59d5f9c7fdc06ff52f66903251341e4a55b7dc478845716ee2e8bacc71fa79",
+                                           "66b80fe575c43bf19f5240855ac7bbe11f28ab60782257164022456a1e6e688f"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Repository name matches Aspen HYSYS, but API tree inspection found no model files and no clear license.",
+                               "Repository contents may change after this heartbeat; rerun GitHub tree inspection before changing quality rating."
+                           ]
+    },
+    {
+        "title":  "GitHub candidate: miladmolaee/AspenHysys",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/miladmolaee/AspenHysys",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-miladmolaee__AspenHysys-readme.base64.txt",
+                                    "filename":  "github-miladmolaee__AspenHysys-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  16,
+                                    "sha256":  "aa21540a70d2769f4508ceccc1a11edb5732844d3b3a23ae86d8d247767bd62b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-miladmolaee__AspenHysys-repo.json",
+                                    "filename":  "github-miladmolaee__AspenHysys-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10612,
+                                    "sha256":  "593942fb394ecfd755a1194dde626b2595d1579467c1de5de65724823d2e2d4a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-miladmolaee__AspenHysys-tree.json",
+                                    "filename":  "github-miladmolaee__AspenHysys-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  824,
+                                    "sha256":  "d3d601bc183cd1e40e77c4b32b021f94852fa58c88ed969defa60d10f26777e3"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected; no explicit license detected, and no HYSYS model file was available to archive.",
+        "recommended_use":  "None; not suitable as a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/miladmolaee/AspenHysys",
+                            "download_url":  "",
+                            "title":  "GitHub candidate: miladmolaee/AspenHysys",
+                            "filenames":  [
+                                              "github-miladmolaee__AspenHysys-readme.base64.txt",
+                                              "github-miladmolaee__AspenHysys-repo.json",
+                                              "github-miladmolaee__AspenHysys-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "aa21540a70d2769f4508ceccc1a11edb5732844d3b3a23ae86d8d247767bd62b",
+                                           "593942fb394ecfd755a1194dde626b2595d1579467c1de5de65724823d2e2d4a",
+                                           "d3d601bc183cd1e40e77c4b32b021f94852fa58c88ed969defa60d10f26777e3"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Repository name matches Aspen HYSYS, but only minimal README metadata was found and no model file is present.",
+                               "Repository contents may change after this heartbeat; rerun GitHub tree inspection before changing quality rating."
+                           ]
+    },
+    {
+        "title":  "GitHub candidate: abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-readme.base64.txt",
+                                    "filename":  "github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  2300,
+                                    "sha256":  "9a8f72372d11d4f83da1e2f21d692d9e65439e4a418f953b0af667cc0b934489"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-repo.json",
+                                    "filename":  "github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  13538,
+                                    "sha256":  "8d8a26f8909090d03b55288d3cc42b4028640427d1f222af86af9ddb5e4c1f32"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-tree.json",
+                                    "filename":  "github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1466,
+                                    "sha256":  "8d68fef61649c0b68472a57a779b6413c5a46ba250ff51addbf63c9cfa148a2d"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected; no explicit license detected, and no HYSYS model file was available to archive.",
+        "recommended_use":  "Potential topic lead for N2 rejection if the author later publishes the case file.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                            "download_url":  "",
+                            "title":  "GitHub candidate: abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                            "filenames":  [
+                                              "github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-readme.base64.txt",
+                                              "github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-repo.json",
+                                              "github-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "9a8f72372d11d4f83da1e2f21d692d9e65439e4a418f953b0af667cc0b934489",
+                                           "8d8a26f8909090d03b55288d3cc42b4028640427d1f222af86af9ddb5e4c1f32",
+                                           "8d68fef61649c0b68472a57a779b6413c5a46ba250ff51addbf63c9cfa148a2d"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Relevant nitrogen rejection topic and README-only Aspen HYSYS description, but no .hsc/.hscz/XML/.compound model file and no license.",
+                               "Repository contents may change after this heartbeat; rerun GitHub tree inspection before changing quality rating."
+                           ]
+    },
+    {
+        "title":  "GitHub candidate: abdulhafiz891/Optimization-in-Aspen-Hysys",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/abdulhafiz891/Optimization-in-Aspen-Hysys",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-abdulhafiz891__Optimization-in-Aspen-Hysys-readme.base64.txt",
+                                    "filename":  "github-abdulhafiz891__Optimization-in-Aspen-Hysys-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  2480,
+                                    "sha256":  "49de4281e2e40e56fd9d812c85b876b34904b56900d01d6f96939d0be08994de"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-abdulhafiz891__Optimization-in-Aspen-Hysys-repo.json",
+                                    "filename":  "github-abdulhafiz891__Optimization-in-Aspen-Hysys-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  12406,
+                                    "sha256":  "e820479266210284f44845cbac3984980c94384772132134774902f6ec576de0"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/github-abdulhafiz891__Optimization-in-Aspen-Hysys-tree.json",
+                                    "filename":  "github-abdulhafiz891__Optimization-in-Aspen-Hysys-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  904,
+                                    "sha256":  "d67cc4b8c6c89bdddff76990ff9cc56d6da23676d073c50d4440f0d5b8ead30a"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected; no explicit license detected, and no HYSYS model file was available to archive.",
+        "recommended_use":  "Potential automation/optimization lead only if source model and license are later published.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/abdulhafiz891/Optimization-in-Aspen-Hysys",
+                            "download_url":  "",
+                            "title":  "GitHub candidate: abdulhafiz891/Optimization-in-Aspen-Hysys",
+                            "filenames":  [
+                                              "github-abdulhafiz891__Optimization-in-Aspen-Hysys-readme.base64.txt",
+                                              "github-abdulhafiz891__Optimization-in-Aspen-Hysys-repo.json",
+                                              "github-abdulhafiz891__Optimization-in-Aspen-Hysys-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "49de4281e2e40e56fd9d812c85b876b34904b56900d01d6f96939d0be08994de",
+                                           "e820479266210284f44845cbac3984980c94384772132134774902f6ec576de0",
+                                           "d67cc4b8c6c89bdddff76990ff9cc56d6da23676d073c50d4440f0d5b8ead30a"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Relevant optimization/HYSYS wording, but the repository contains README metadata only and no HYSYS case file or license.",
+                               "Repository contents may change after this heartbeat; rerun GitHub tree inspection before changing quality rating."
+                           ]
+    },
+    {
+        "title":  "Duplicate Zenodo record: Aspen HYSYS model for the Tennessee Eastman process",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/10966344",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/zenodo-10966344-record.json",
+                                    "filename":  "zenodo-10966344-record.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6478,
+                                    "sha256":  "1a52c810794fe65957edb4075ee069b9f1a1239d037c55484a23148dd901a244"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo record metadata indicates CC-BY-NC-ND-4.0. No payload was downloaded in this run because the record is duplicate or requires safer manual inspection.",
+        "recommended_use":  "Already available as a benchmark candidate for control/optimization smoke tests via the existing archived HSC file.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/10966344",
+                            "download_url":  "",
+                            "title":  "Duplicate Zenodo record: Aspen HYSYS model for the Tennessee Eastman process",
+                            "filenames":  [
+                                              "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+                                          ],
+                            "sha256":  [
+                                           "1a52c810794fe65957edb4075ee069b9f1a1239d037c55484a23148dd901a244"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Already archived in CASE/2026-05-14-heartbeat-1007Z; this run saved record metadata only and did not duplicate the HSC file.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat."
+                           ]
+    },
+    {
+        "title":  "Duplicate Zenodo record: Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/14882867",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/zenodo-14882867-record.json",
+                                    "filename":  "zenodo-14882867-record.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  16164,
+                                    "sha256":  "fc9c9e78f001b53ebb2622505521a1edd20c830a4d10a6da100669da3c8d778c"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo record metadata indicates CC-BY-4.0. No payload was downloaded in this run because the record is duplicate or requires safer manual inspection.",
+        "recommended_use":  "Already available for onboard carbon capture, methanol/LNG production, and data-backed automation comparisons from the prior archive.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/14882867",
+                            "download_url":  "",
+                            "title":  "Duplicate Zenodo record: Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+                            "filenames":  [
+                                              "MeOH_Production.hsc",
+                                              "Capture_onboard_NG.hsc",
+                                              "Capture_onboard_methanol.hsc",
+                                              "Circular-marine-fuels-2050.xlsx",
+                                              "Data.xlsx"
+                                          ],
+                            "sha256":  [
+                                           "fc9c9e78f001b53ebb2622505521a1edd20c830a4d10a6da100669da3c8d778c"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Already archived in CASE/2026-05-11-heartbeat-0026Z; this run saved record metadata only and did not duplicate model/data files.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat."
+                           ]
+    },
+    {
+        "title":  "Duplicate Zenodo record: Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/18806107",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/zenodo-18806107-record.json",
+                                    "filename":  "zenodo-18806107-record.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11081,
+                                    "sha256":  "a17811eb339671c0a49c12c060f767640fd1ccd2e6f925dcd7d66b9cf6940a8b"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo record metadata indicates CC-BY-4.0. No payload was downloaded in this run because the record is duplicate or requires safer manual inspection.",
+        "recommended_use":  "Already available for modular oxy-combustion, ASU, and CCS process automation comparisons from the prior archive.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/18806107",
+                            "download_url":  "",
+                            "title":  "Duplicate Zenodo record: Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+                            "filenames":  [
+                                              "7. Sistema Integrado OCC,ASU,CCS.hsc",
+                                              "1. Análisis Multicriterio.xlsx"
+                                          ],
+                            "sha256":  [
+                                           "a17811eb339671c0a49c12c060f767640fd1ccd2e6f925dcd7d66b9cf6940a8b"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Already archived in CASE/2026-05-11-heartbeat-0222Z; this run saved record metadata only and did not duplicate model/data files.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat."
+                           ]
+    },
+    {
+        "title":  "Zenodo candidate: Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/19469917",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1607Z/artifacts/zenodo-19469917-record.json",
+                                    "filename":  "zenodo-19469917-record.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7070,
+                                    "sha256":  "b6b3a3abfa1bb371d1192813256067a055e25f389b3bf154ff4a11980dd3e98f"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo record metadata indicates CC-BY-4.0. No payload was downloaded in this run because the record is duplicate or requires safer manual inspection.",
+        "recommended_use":  "Manual follow-up candidate for hydrogen co-firing/economic dispatch if a safe extraction workflow confirms HYSYS case files and companion data.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/19469917",
+                            "download_url":  "",
+                            "title":  "Zenodo candidate: Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+                            "filenames":  [
+                                              "Upload data.rar"
+                                          ],
+                            "sha256":  [
+                                           "b6b3a3abfa1bb371d1192813256067a055e25f389b3bf154ff4a11980dd3e98f"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Candidate-only: record metadata is public and licensed, but the downloadable payload is a RAR archive that was not safely inspected in this run; no model file was archived.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat."
+                           ]
+    }
+]
