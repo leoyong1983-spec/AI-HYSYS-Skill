@@ -1,0 +1,802 @@
+[
+  {
+    "description": "Aspen HYSYS - Python connection",
+    "fullName": "edgarsmdn/Aspen_HYSYS_Python",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjQ3NzQ1ODcw",
+      "is_bot": false,
+      "login": "edgarsmdn",
+      "type": "User",
+      "url": "https://github.com/edgarsmdn"
+    },
+    "updatedAt": "2026-05-14T13:37:40Z",
+    "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python"
+  },
+  {
+    "description": "Abstract layer over Aspen HYSYS using Python",
+    "fullName": "DanielVazVaz/PySIS",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjM5Mjk1Njcw",
+      "is_bot": false,
+      "login": "DanielVazVaz",
+      "type": "User",
+      "url": "https://github.com/DanielVazVaz"
+    },
+    "updatedAt": "2026-04-22T15:19:21Z",
+    "url": "https://github.com/DanielVazVaz/PySIS"
+  },
+  {
+    "description": "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+    "fullName": "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjU1ODQ1ODUx",
+      "is_bot": false,
+      "login": "pSantosb",
+      "type": "User",
+      "url": "https://github.com/pSantosb"
+    },
+    "updatedAt": "2026-03-01T09:48:46Z",
+    "url": "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity"
+  },
+  {
+    "description": "Introduction to Dynamic Simulation using Aspen HYSYS",
+    "fullName": "snua/HYSYS-dynamic-simulation",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjI4OTk4NTY1",
+      "is_bot": false,
+      "login": "snua",
+      "type": "User",
+      "url": "https://github.com/snua"
+    },
+    "updatedAt": "2023-09-24T05:43:09Z",
+    "url": "https://github.com/snua/HYSYS-dynamic-simulation"
+  },
+  {
+    "description": "A fast and accurate simulation software for membrane gas separation (extension in Aspen HYSYS)",
+    "fullName": "Avest-AI/MemCal",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBiWg7w",
+      "is_bot": false,
+      "login": "Avest-AI",
+      "type": "User",
+      "url": "https://github.com/Avest-AI"
+    },
+    "updatedAt": "2025-10-26T13:29:11Z",
+    "url": "https://github.com/Avest-AI/MemCal"
+  },
+  {
+    "description": "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+    "fullName": "afabrild/HYSYS-MATLAB-LINK",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjMzODg3NDI4",
+      "is_bot": false,
+      "login": "afabrild",
+      "type": "User",
+      "url": "https://github.com/afabrild"
+    },
+    "updatedAt": "2025-11-02T12:02:26Z",
+    "url": "https://github.com/afabrild/HYSYS-MATLAB-LINK"
+  },
+  {
+    "description": "Chemical process simulation with Aspen | Hysys",
+    "fullName": "CristopherCano/Projects-ASPEN-HYSYS",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjcxOTE1MDY4",
+      "is_bot": false,
+      "login": "CristopherCano",
+      "type": "User",
+      "url": "https://github.com/CristopherCano"
+    },
+    "updatedAt": "2025-04-16T19:19:39Z",
+    "url": "https://github.com/CristopherCano/Projects-ASPEN-HYSYS"
+  },
+  {
+    "description": "Simulation of Gas Turbine Power Plant in Aspen Hysys",
+    "fullName": "royhanikbarr/Gas-Turbine-Hysys",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOB70VcA",
+      "is_bot": false,
+      "login": "royhanikbarr",
+      "type": "User",
+      "url": "https://github.com/royhanikbarr"
+    },
+    "updatedAt": "2025-03-24T07:57:57Z",
+    "url": "https://github.com/royhanikbarr/Gas-Turbine-Hysys"
+  },
+  {
+    "description": "Aspen Hysys",
+    "fullName": "ved10544-spec/Ved10544",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOEDEJtQ",
+      "is_bot": false,
+      "login": "ved10544-spec",
+      "type": "User",
+      "url": "https://github.com/ved10544-spec"
+    },
+    "updatedAt": "2026-03-27T23:24:24Z",
+    "url": "https://github.com/ved10544-spec/Ved10544"
+  },
+  {
+    "description": "Package for Aspen Hysys- Python connection",
+    "fullName": "cityfamer/HyPy",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjExMjI4NTM2",
+      "is_bot": false,
+      "login": "cityfamer",
+      "type": "User",
+      "url": "https://github.com/cityfamer"
+    },
+    "updatedAt": "2023-06-13T06:45:24Z",
+    "url": "https://github.com/cityfamer/HyPy"
+  },
+  {
+    "description": "programm for automation work with Aspen HYSYS",
+    "fullName": "Rus-tam/hysys_observer",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjU2NDg2NjY1",
+      "is_bot": false,
+      "login": "Rus-tam",
+      "type": "User",
+      "url": "https://github.com/Rus-tam"
+    },
+    "updatedAt": "2025-10-27T15:27:50Z",
+    "url": "https://github.com/Rus-tam/hysys_observer"
+  },
+  {
+    "description": "Simulation of Chemical Processes in Aspen Hysys",
+    "fullName": "royhanikbarr/Aspen-Hysys-Simulation",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOB70VcA",
+      "is_bot": false,
+      "login": "royhanikbarr",
+      "type": "User",
+      "url": "https://github.com/royhanikbarr"
+    },
+    "updatedAt": "2025-06-04T19:55:48Z",
+    "url": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation"
+  },
+  {
+    "description": "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS & DWSIM).",
+    "fullName": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "U_kgDOCLpF7Q",
+      "is_bot": false,
+      "login": "kavinrajachakravarthy",
+      "type": "User",
+      "url": "https://github.com/kavinrajachakravarthy"
+    },
+    "updatedAt": "2026-04-27T02:50:41Z",
+    "url": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines"
+  },
+  {
+    "description": "This repository includes some useful codes for ASPEN-HYSYS automation",
+    "fullName": "sajjad-ah/ASPEN-HYSYS",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjQyNjQzNDY0",
+      "is_bot": false,
+      "login": "sajjad-ah",
+      "type": "User",
+      "url": "https://github.com/sajjad-ah"
+    },
+    "updatedAt": "2026-05-13T06:03:35Z",
+    "url": "https://github.com/sajjad-ah/ASPEN-HYSYS"
+  },
+  {
+    "description": "DRY (CO2) REFORMING OF METHANE USING RGIBBS REACTOR (ASPEN HYSYS)",
+    "fullName": "Shreya88876/Aspen_file_shreya",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOCpOolw",
+      "is_bot": false,
+      "login": "Shreya88876",
+      "type": "User",
+      "url": "https://github.com/Shreya88876"
+    },
+    "updatedAt": "2024-09-25T13:53:52Z",
+    "url": "https://github.com/Shreya88876/Aspen_file_shreya"
+  },
+  {
+    "description": "Utilising MS Excel & Aspen HYSYS for Hydrolysis of Acetic Anhydride",
+    "fullName": "JeePeiQi0101/Aspen.HYSYS",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBcO22Q",
+      "is_bot": false,
+      "login": "JeePeiQi0101",
+      "type": "User",
+      "url": "https://github.com/JeePeiQi0101"
+    },
+    "updatedAt": "2025-03-24T08:27:04Z",
+    "url": "https://github.com/JeePeiQi0101/Aspen.HYSYS"
+  },
+  {
+    "description": "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+    "fullName": "marcellobozzini/Python-Driving-License",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBYq6Ww",
+      "is_bot": false,
+      "login": "marcellobozzini",
+      "type": "User",
+      "url": "https://github.com/marcellobozzini"
+    },
+    "updatedAt": "2023-10-12T10:10:56Z",
+    "url": "https://github.com/marcellobozzini/Python-Driving-License"
+  },
+  {
+    "description": "Aspen HYSYS Simulation for Node C of CP407 Group 9 Design 2025",
+    "fullName": "Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDODEOxhg",
+      "is_bot": false,
+      "login": "Corey-McInrue",
+      "type": "User",
+      "url": "https://github.com/Corey-McInrue"
+    },
+    "updatedAt": "2025-04-03T19:16:04Z",
+    "url": "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS"
+  },
+  {
+    "description": "The simulation is about Nitrogen Rejection using Cryogenic Distillation in Aspen HYSYS",
+    "fullName": "abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOB0Btmw",
+      "is_bot": false,
+      "login": "abdulhafiz891",
+      "type": "User",
+      "url": "https://github.com/abdulhafiz891"
+    },
+    "updatedAt": "2023-04-10T09:59:55Z",
+    "url": "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection"
+  },
+  {
+    "description": "docs: add guide on simulating and modeling heat exchangers in Aspen HYSYS",
+    "fullName": "oraclesep/Aspen",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBvUhIQ",
+      "is_bot": false,
+      "login": "oraclesep",
+      "type": "User",
+      "url": "https://github.com/oraclesep"
+    },
+    "updatedAt": "2025-09-19T10:47:40Z",
+    "url": "https://github.com/oraclesep/Aspen"
+  },
+  {
+    "description": "",
+    "fullName": "GerasimovRM/AspenHysysReader",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjQ4MzEwNDAz",
+      "is_bot": false,
+      "login": "GerasimovRM",
+      "type": "User",
+      "url": "https://github.com/GerasimovRM"
+    },
+    "updatedAt": "2025-10-10T11:18:41Z",
+    "url": "https://github.com/GerasimovRM/AspenHysysReader"
+  },
+  {
+    "description": "This repository is intended to serve as a tutorial for beginners to connect Aspen HYSYS with coding platforms like Python and MATLAB. and carry out customization tasks.",
+    "fullName": "Anikesh31/simulator_codingplatform_integration",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjQ5MDEzOTc0",
+      "is_bot": false,
+      "login": "Anikesh31",
+      "type": "User",
+      "url": "https://github.com/Anikesh31"
+    },
+    "updatedAt": "2026-04-29T08:47:03Z",
+    "url": "https://github.com/Anikesh31/simulator_codingplatform_integration"
+  },
+  {
+    "description": "",
+    "fullName": "shri2901/AspenHYSYS",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOB1evUw",
+      "is_bot": false,
+      "login": "shri2901",
+      "type": "User",
+      "url": "https://github.com/shri2901"
+    },
+    "updatedAt": "2024-07-28T22:28:17Z",
+    "url": "https://github.com/shri2901/AspenHYSYS"
+  },
+  {
+    "description": "",
+    "fullName": "miladmolaee/AspenHysys",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjIzMDIzNTIy",
+      "is_bot": false,
+      "login": "miladmolaee",
+      "type": "User",
+      "url": "https://github.com/miladmolaee"
+    },
+    "updatedAt": "2025-08-31T15:04:20Z",
+    "url": "https://github.com/miladmolaee/AspenHysys"
+  },
+  {
+    "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+    "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "U_kgDOClAUYg",
+      "is_bot": false,
+      "login": "GaboTalero",
+      "type": "User",
+      "url": "https://github.com/GaboTalero"
+    },
+    "updatedAt": "2026-04-25T19:57:04Z",
+    "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+  },
+  {
+    "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+    "fullName": "sanjay-saran/dme-production-methanol",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBz9xbQ",
+      "is_bot": false,
+      "login": "sanjay-saran",
+      "type": "User",
+      "url": "https://github.com/sanjay-saran"
+    },
+    "updatedAt": "2025-04-23T13:35:19Z",
+    "url": "https://github.com/sanjay-saran/dme-production-methanol"
+  },
+  {
+    "description": "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+    "fullName": "leoyong1983-spec/AI-HYSYS-Skill",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "U_kgDOEGlu5w",
+      "is_bot": false,
+      "login": "leoyong1983-spec",
+      "type": "User",
+      "url": "https://github.com/leoyong1983-spec"
+    },
+    "updatedAt": "2026-05-14T21:22:08Z",
+    "url": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill"
+  },
+  {
+    "description": "Modeling the Tennessee Eastman process in Aspen HYSYS for hybrid monitoring and fault detection",
+    "fullName": "iraola/tennessee-eastman-hysys",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjIwMTg5ODE3",
+      "is_bot": false,
+      "login": "iraola",
+      "type": "User",
+      "url": "https://github.com/iraola"
+    },
+    "updatedAt": "2025-11-02T12:06:25Z",
+    "url": "https://github.com/iraola/tennessee-eastman-hysys"
+  },
+  {
+    "description": "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+    "fullName": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOEONUqw",
+      "is_bot": false,
+      "login": "Mahdi-Arashian",
+      "type": "User",
+      "url": "https://github.com/Mahdi-Arashian"
+    },
+    "updatedAt": "2026-05-10T19:54:34Z",
+    "url": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys"
+  },
+  {
+    "description": "A chemical engineering simulation app. The goal is to make it as sophisticated as Aspen HYSYS.",
+    "fullName": "safarov399/NablaSim",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjc0ODU1NDA4",
+      "is_bot": false,
+      "login": "safarov399",
+      "type": "User",
+      "url": "https://github.com/safarov399"
+    },
+    "updatedAt": "2026-04-21T10:23:32Z",
+    "url": "https://github.com/safarov399/NablaSim"
+  },
+  {
+    "description": "The simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10. I put the file here and be careful open it by ASPEN HYSYS v. 10. The data of each stream and the process flow diagram is attached.",
+    "fullName": "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBZ1O8g",
+      "is_bot": false,
+      "login": "masoud-abdi",
+      "type": "User",
+      "url": "https://github.com/masoud-abdi"
+    },
+    "updatedAt": "2024-04-30T07:19:37Z",
+    "url": "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process"
+  },
+  {
+    "description": "",
+    "fullName": "Paryazdan/Aspen-HYSYS-Projects",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjY4NDQ4MTM3",
+      "is_bot": false,
+      "login": "Paryazdan",
+      "type": "User",
+      "url": "https://github.com/Paryazdan"
+    },
+    "updatedAt": "2020-09-21T09:04:09Z",
+    "url": "https://github.com/Paryazdan/Aspen-HYSYS-Projects"
+  },
+  {
+    "description": "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+    "fullName": "Galigeigei-Z/HDA-Surrogate-Optimization",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "U_kgDODLfYvw",
+      "is_bot": false,
+      "login": "Galigeigei-Z",
+      "type": "User",
+      "url": "https://github.com/Galigeigei-Z"
+    },
+    "updatedAt": "2026-05-14T12:13:01Z",
+    "url": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization"
+  },
+  {
+    "description": "Numerical calculation to find a Min or Max value",
+    "fullName": "abdulhafiz891/Optimization-in-Aspen-Hysys",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOB0Btmw",
+      "is_bot": false,
+      "login": "abdulhafiz891",
+      "type": "User",
+      "url": "https://github.com/abdulhafiz891"
+    },
+    "updatedAt": "2023-04-10T14:12:48Z",
+    "url": "https://github.com/abdulhafiz891/Optimization-in-Aspen-Hysys"
+  },
+  {
+    "description": "",
+    "fullName": "kush1706/Methanol_Synthesis_Aspen_hysys",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBjXT0w",
+      "is_bot": false,
+      "login": "kush1706",
+      "type": "User",
+      "url": "https://github.com/kush1706"
+    },
+    "updatedAt": "2023-07-21T16:23:56Z",
+    "url": "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys"
+  },
+  {
+    "description": "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+    "fullName": "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "U_kgDODXbV4w",
+      "is_bot": false,
+      "login": "Jeslin-Jacob",
+      "type": "User",
+      "url": "https://github.com/Jeslin-Jacob"
+    },
+    "updatedAt": "2025-12-21T15:33:53Z",
+    "url": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation"
+  },
+  {
+    "description": "Python tool for formatting raw Aspen HYSYS output into a structured mass & energy balance spreadsheet. Cleans, transforms, and styles the data automatically using pandas and openpyxl.",
+    "fullName": "Mo-Somji/HYSYS-ME-Balance-Formatting",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjUyNjM1OTM3",
+      "is_bot": false,
+      "login": "Mo-Somji",
+      "type": "User",
+      "url": "https://github.com/Mo-Somji"
+    },
+    "updatedAt": "2026-03-02T14:56:52Z",
+    "url": "https://github.com/Mo-Somji/HYSYS-ME-Balance-Formatting"
+  },
+  {
+    "description": "",
+    "fullName": "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDODUJL2w",
+      "is_bot": false,
+      "login": "Ankesh-cloud",
+      "type": "User",
+      "url": "https://github.com/Ankesh-cloud"
+    },
+    "updatedAt": "2025-07-23T14:37:14Z",
+    "url": "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS"
+  },
+  {
+    "description": "The notebook featured in this repository takes data from some standard Aspen HYSYS reports and organizes it to enable analysis. Some exergy analysis and efficiency calculations are also conducted for a power plant.",
+    "fullName": "italosichi/HYSYS_data_import",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjY2Mzc3NDQ0",
+      "is_bot": false,
+      "login": "italosichi",
+      "type": "User",
+      "url": "https://github.com/italosichi"
+    },
+    "updatedAt": "2023-10-17T13:10:04Z",
+    "url": "https://github.com/italosichi/HYSYS_data_import"
+  },
+  {
+    "description": "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+    "fullName": "SinaGhanbarii/HDA-Plant-Simulation",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOB3yAhA",
+      "is_bot": false,
+      "login": "SinaGhanbarii",
+      "type": "User",
+      "url": "https://github.com/SinaGhanbarii"
+    },
+    "updatedAt": "2026-03-10T14:10:32Z",
+    "url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation"
+  }
+]

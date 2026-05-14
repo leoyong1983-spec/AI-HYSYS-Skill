@@ -1,0 +1,101 @@
+{
+  "sha": "58c8650246ab8d19f6f1b09e937b297a97732536",
+  "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/trees/58c8650246ab8d19f6f1b09e937b297a97732536",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "052873a7dc504b8cce8bb93c546f436664cc17d8",
+      "size": 36,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/052873a7dc504b8cce8bb93c546f436664cc17d8"
+    },
+    {
+      "path": "CleanExcelData.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f5194d7120c580cc5336997966413b3fd020800",
+      "size": 3125,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/8f5194d7120c580cc5336997966413b3fd020800"
+    },
+    {
+      "path": "ExcelManager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c558be64ef3df7d603b96f8b03ee08afe410989b",
+      "size": 2562,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/c558be64ef3df7d603b96f8b03ee08afe410989b"
+    },
+    {
+      "path": "HYSYS_python_spreadsheets.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f8055dde91b2fb4ab3e4aa4be59cb64e6b00fdda",
+      "size": 3994,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/f8055dde91b2fb4ab3e4aa4be59cb64e6b00fdda"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c65d67630ed7fc9c9e85841149b3663ef888028",
+      "size": 4519,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/0c65d67630ed7fc9c9e85841149b3663ef888028"
+    },
+    {
+      "path": "Test_1.hsc",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3913e25d33e74690680c5f0beab63475ffd69ccf",
+      "size": 503670,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/3913e25d33e74690680c5f0beab63475ffd69ccf"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "822b4d7ba3adb04c400684c056fded94082e6ec4",
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/trees/822b4d7ba3adb04c400684c056fded94082e6ec4"
+    },
+    {
+      "path": "config/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a676340aa6d8ddcd0213b14ee227d903f63a5f6",
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/trees/1a676340aa6d8ddcd0213b14ee227d903f63a5f6"
+    },
+    {
+      "path": "config/__pycache__/conf.cpython-39.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a6f2e091845b087c4f0f1fa920da9e9196c5756",
+      "size": 390,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/0a6f2e091845b087c4f0f1fa920da9e9196c5756"
+    },
+    {
+      "path": "config/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caab19fda3c937d0575540ffe4fd088d534e8609",
+      "size": 97,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/caab19fda3c937d0575540ffe4fd088d534e8609"
+    },
+    {
+      "path": "main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d01d11b5031fb386b3f11a081c369df38f34f6",
+      "size": 3015,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/83d01d11b5031fb386b3f11a081c369df38f34f6"
+    },
+    {
+      "path": "test.xlsx",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "85a410f99647641be5fb264950102b12914cbde3",
+      "size": 6047,
+      "url": "https://api.github.com/repos/ArturTask/HysysExcel/git/blobs/85a410f99647641be5fb264950102b12914cbde3"
+    }
+  ],
+  "truncated": false
+}

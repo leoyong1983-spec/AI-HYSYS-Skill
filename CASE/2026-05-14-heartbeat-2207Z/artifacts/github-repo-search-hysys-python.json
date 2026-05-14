@@ -1,0 +1,122 @@
+[
+  {
+    "description": "Aspen HYSYS - Python connection",
+    "fullName": "edgarsmdn/Aspen_HYSYS_Python",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjQ3NzQ1ODcw",
+      "is_bot": false,
+      "login": "edgarsmdn",
+      "type": "User",
+      "url": "https://github.com/edgarsmdn"
+    },
+    "updatedAt": "2026-05-14T13:37:40Z",
+    "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python"
+  },
+  {
+    "description": "Package for Aspen Hysys- Python connection",
+    "fullName": "cityfamer/HyPy",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjExMjI4NTM2",
+      "is_bot": false,
+      "login": "cityfamer",
+      "type": "User",
+      "url": "https://github.com/cityfamer"
+    },
+    "updatedAt": "2023-06-13T06:45:24Z",
+    "url": "https://github.com/cityfamer/HyPy"
+  },
+  {
+    "description": "",
+    "fullName": "tzejit/Hysys-python-link",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "MDQ6VXNlcjUxODc1MzQ0",
+      "is_bot": false,
+      "login": "tzejit",
+      "type": "User",
+      "url": "https://github.com/tzejit"
+    },
+    "updatedAt": "2023-02-24T10:04:40Z",
+    "url": "https://github.com/tzejit/Hysys-python-link"
+  },
+  {
+    "description": "使用python 连接hysys ，并采用遗传算法实现稳态优化",
+    "fullName": "lihaijie1228/hysys_python_GA",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBj-EuA",
+      "is_bot": false,
+      "login": "lihaijie1228",
+      "type": "User",
+      "url": "https://github.com/lihaijie1228"
+    },
+    "updatedAt": "2026-03-10T13:52:07Z",
+    "url": "https://github.com/lihaijie1228/hysys_python_GA"
+  },
+  {
+    "description": "采用python连接 hysys 动态仿真模型，并使用强化学习修正仿真模型，以实现仿真模型与真实结果的一致性",
+    "fullName": "lihaijie1228/dynamic_hysys_python",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "owner": {
+      "id": "U_kgDOBj-EuA",
+      "is_bot": false,
+      "login": "lihaijie1228",
+      "type": "User",
+      "url": "https://github.com/lihaijie1228"
+    },
+    "updatedAt": "2025-10-29T09:46:02Z",
+    "url": "https://github.com/lihaijie1228/dynamic_hysys_python"
+  },
+  {
+    "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+    "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+    "isArchived": false,
+    "isFork": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "owner": {
+      "id": "U_kgDOClAUYg",
+      "is_bot": false,
+      "login": "GaboTalero",
+      "type": "User",
+      "url": "https://github.com/GaboTalero"
+    },
+    "updatedAt": "2026-04-25T19:57:04Z",
+    "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+  }
+]
