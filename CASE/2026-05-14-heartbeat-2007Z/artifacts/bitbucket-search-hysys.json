@@ -1,0 +1,4 @@
+﻿{
+    "url":  "https://api.bitbucket.org/2.0/repositories?q=name~%22hysys%22%20OR%20description~%22hysys%22\u0026pagelen=20",
+    "error":  "远程服务器返回错误: (410) 不再存在。"
+}
