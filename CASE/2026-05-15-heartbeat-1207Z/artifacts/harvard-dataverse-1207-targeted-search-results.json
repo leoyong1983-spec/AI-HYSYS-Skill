@@ -1,0 +1,346 @@
+[
+  {
+    "query": "Aspen HYSYS",
+    "url": "https://dataverse.harvard.edu/api/search?q=Aspen+HYSYS&per_page=10",
+    "hits": [
+      {
+        "name": "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/VMAWN8",
+        "global_id": "doi:10.7910/DVN/VMAWN8",
+        "description": "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies.",
+        "published_at": "2024-02-11T16:24:42Z"
+      },
+      {
+        "name": "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/QOBGVF",
+        "global_id": "doi:10.7910/DVN/QOBGVF",
+        "description": "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD.",
+        "published_at": "2023-10-20T21:49:31Z"
+      },
+      {
+        "name": "Replication Data for: Testing of Automated Photochemical Reflectance Index Sensors as Proxy Measurements of Light Use Efficiency in an Aspen Forest",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/ZDZHAH",
+        "global_id": "doi:10.7910/DVN/ZDZHAH",
+        "description": "Commercially available autonomous photochemical reflectance index (PRI) sensors are a new development in the remote sensing field that offer novel opportunities for a deeper exploration of vegetation physiology dynamics. In this study, we evaluated the reliability of autonomous PRI sensors (SRS-PRI) developed by METER Group Inc. as proxies of light use efficiency (LUE) in an aspen (Populus tremuloides) forest stand. Before comparisons between PRI and LUE measurements were made, the optical SRS-PRI sensor pairs required calibrations to resolve diurnal and seasonal patterns properly. An offline diurnal calibration procedure was shown to account for variable sky conditions and diurnal illumination changes affecting sensor response. Eddy covariance measurements provided seasonal gross primary productivity (GPP) measures as well as apparent canopy quantum yield dynamics (α). LUE was derived from the ratio of GPP to absorbed photosynthetically active radiation (APAR). Corrected PRI values were derived after diurnal and midday cross-calibration of the sensor’s 532 nm and 570 nm fore-optics, and closely related to both LUE (R2 = 0.62, p < 0.05) and α (R2 = 0.72, p < 0.05). A LUE model derived from corrected PRI values showed good correlation to measured GPP (R2 = 0.77, p < 0.05), with an accuracy comparable to results obtained from an α driven LUE model (R2 = 0.79, p < 0.05). The automated PRI sensors proved to be suitable proxies of light use efficiency. The onset of continuous PRI sensors signifies new opportunities for explicitly examining the cause of changing PRI, LUE, and productivity over time and space. As such, this technology represents great value for the flux, remote sensing and modeling community.",
+        "published_at": "2020-03-12T17:57:46Z"
+      },
+      {
+        "name": "QISAP : Quantum Instruction Set Analytics Platform",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/QMYLWC",
+        "global_id": "doi:10.7910/DVN/QMYLWC",
+        "description": "The current landscape of quantum computing is dominated by the Noisy Intermediate-Scale Quantum (NISQ) era, where hardware limitations necessitate highly optimized quantum circuits to maximize computational fidelity. This research presents a comparative analysis of three prominent quantum compilers—Qiskit, Cirq, and PyQuil—evaluating their performance on the Greenberger-Horne-Zeilinger (GHZ) state generation circuit. The study focuses on key performance metrics including circuit depth, CX gate count, and total gate count for 3, 4, and 5-qubit GHZ states compiled for Rigetti’s Aspen-M quantum processor. While all compilers produced functionally equivalent circuits for this benchmark, significant differences in compilation strategies and overhead were observed. The findings highlight the critical trade-offs between compilation time and circuit optimization, and underscore the importance of hardwareaware compilation in the NISQ era. Index Terms of File (Research Paper) Quantum computing, quantum compilation, NISQ devices, GHZ state, compiler performance, Qiskit, Cirq, PyQuil",
+        "published_at": "2025-09-03T04:43:14Z"
+      },
+      {
+        "name": "scheme-aspen.scheme",
+        "type": "file",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/3732365",
+        "global_id": null,
+        "description": null,
+        "published_at": "2020-03-12T18:13:41Z"
+      },
+      {
+        "name": "scheme-aspen.scheme",
+        "type": "file",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/4004065",
+        "global_id": null,
+        "description": null,
+        "published_at": "2020-09-19T20:16:57Z"
+      },
+      {
+        "name": "cuminNew.bkp",
+        "type": "file",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7477764",
+        "global_id": null,
+        "description": "The Aspen Plus simulation for cumin essential oil standardization.",
+        "published_at": "2023-10-20T21:49:31Z"
+      },
+      {
+        "name": "Euc.bkp",
+        "type": "file",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7477773",
+        "global_id": null,
+        "description": "The Aspen Plus simulation for eucalyptus essential oil standardization.",
+        "published_at": "2023-10-20T21:49:31Z"
+      },
+      {
+        "name": "ConnectAspenCumin.py",
+        "type": "file",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7477771",
+        "global_id": null,
+        "description": "The Python file to connect NOMAD to Aspen Plus for the cumin standardization case study.",
+        "published_at": "2023-10-20T21:49:31Z"
+      },
+      {
+        "name": "ConnectAspenEucalyptus.py",
+        "type": "file",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7477774",
+        "global_id": null,
+        "description": "The Python file to connect NOMAD to Aspen Plus for the eucalyptus standardization case study.",
+        "published_at": "2023-10-20T21:49:31Z"
+      }
+    ]
+  },
+  {
+    "query": "HYSYS .hsc",
+    "url": "https://dataverse.harvard.edu/api/search?q=HYSYS+.hsc&per_page=10",
+    "hits": [
+      {
+        "name": "HEROES forced_src-HSC-G Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/THXTEP",
+        "global_id": "doi:10.7910/DVN/THXTEP",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter",
+        "published_at": "2023-02-17T19:30:30Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-Z Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/WVJWB9",
+        "global_id": "doi:10.7910/DVN/WVJWB9",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter",
+        "published_at": "2023-02-17T19:30:16Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-R2 Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/358ILW",
+        "global_id": "doi:10.7910/DVN/358ILW",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter",
+        "published_at": "2023-02-17T19:30:24Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-I2 Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/S9YC2Z",
+        "global_id": "doi:10.7910/DVN/S9YC2Z",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter",
+        "published_at": "2023-02-17T19:30:20Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-Y Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/BJVBKK",
+        "global_id": "doi:10.7910/DVN/BJVBKK",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter",
+        "published_at": "2023-02-17T19:30:13Z"
+      },
+      {
+        "name": "Replication Data for: Computational model for HSC culture and feedback",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/4DNDZU",
+        "global_id": "doi:10.7910/DVN/4DNDZU",
+        "description": "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\"",
+        "published_at": "2019-02-09T01:11:34Z"
+      },
+      {
+        "name": "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/M9ZT0F",
+        "global_id": "doi:10.7910/DVN/M9ZT0F",
+        "description": "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models.",
+        "published_at": "2018-02-26T10:43:18Z"
+      },
+      {
+        "name": "The Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/ECSFZG",
+        "global_id": "doi:10.7910/DVN/ECSFZG",
+        "description": "The data set reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models.",
+        "published_at": "2017-04-24T11:52:42Z"
+      },
+      {
+        "name": "Data on wheat response to a wide range of temperatures, as determined from the Hot Serial Cereal (HSC) Experiment",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/AEFLHB",
+        "global_id": "doi:10.7910/DVN/AEFLHB",
+        "description": "Temperatures are warming on a global scale, a phenomenon that likely will affect future crop productivity. Crop growth models are useful tools to predict the likely effects of these global changes on agricultural productivity and to develop strategies to maximize the benefits and minimize the detriments of such changes. However, few such models have been tested at the higher temperatures expected in the future. Therefore, a “Hot Serial Cereal” experiment was conducted on wheat (Triticum aestivum L.), the world’s foremost food and feed crop, in order to obtain a dataset appropriate for testing the high temperature performance of wheat growth models. The wheat (Cereal) was planted serially (Serial) about every six weeks for over two years at Maricopa, Arizona, USA, which experiences the whole range of temperatures at which plants grow on Earth. In addition, on six planting dates infrared heaters in a T-FACE (temperature free-air controlled enhancement) system (Hot) were deployed over one-third of the plots to warm the wheat by additional target 1.5°C during daytime and 3.0°C at night. Achieved average degrees of warming were 1.3 and 2.7°C for day and night. Overall, a dataset covering 27 differently treated wheat crops with three replicates each was obtained covering an air temperature range from -2 to 42°C. Herein, the management, soils, weather, physiology, phenology, growth, yield, quality, and other data are presented.",
+        "published_at": "2018-02-16T08:47:57Z"
+      },
+      {
+        "name": "Preferential Pattern of Rural Women for Crop Diversification in the Villages of Hisar District",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/ZLDSJB",
+        "global_id": "doi:10.7910/DVN/ZLDSJB",
+        "description": "India is a country of about one billion people. More than 70 percent of India's population lives in rural areas where the main occupation is agriculture. Indian agriculture is characterized by small farm holdings. The average farm size is only 1.57 hectares. Around 93 percent of farmers have land holdings smaller than 4 ha and they cultivate nearly 55 percent of the arable land. Due to diverse agro-climatic conditions in the country, a large number of agricultural items are produced. Crop diversification is intended to give a wider choice in the production of a variety of crops in a given area so as to expand production related activities on various crops and also to lessen risk. Crop diversification in India is generally viewed as a shift from traditionally grown less remunerative crops. Crop diversification and also the growing of large number of crops are practised in rain fed lands to reduce the risk factor of crop failures due to drought and less rains. Diversification originated from the word ‘Diverge’ which means to move or extend in a different direction from a common point. Crop diversification is essential for an agricultural based economy like Haryana to meet the cash needs of the family as well as to combat risk associated with mono-cropping. Moreover the state is facing problems of decreasing size of farm holdings, decreasing cultivable area, increasing soil salinity as well as rising water tables, imbalanced use of fertilizers and micro-nutrient deficiency, harsh climate, low forest cover (3.52%), considerable area still under rain fed farming (19%), lack of required processing and value addition facilities, storage constraints and off late shortage of labour for farming operations. All these factors are adversely affecting productivity enhancement. Traditionally diversification was used more in the context of a subsistence kind of farming, wherein farmers grew many crops on their farm. The household level food security as also risk was in important consideration in diversification. The farmers with smaller (< 2.0 hac.) farms do practice diversified farming. On quite small holdings often fragmented farmers nation wide allocate their land among seasonal crops, fruits and vegetables ,dairy and perhaps poultry to maximise their household labour utilization and income but the role of women in diversification is still not visible. Keeping all this in view preferential pattern of rural women for crop diversification was studied. The experiment was carried in Bandaheri and Burak villages of Hisar II block of district Hisar, Haryana. Data were collected with the help of structured interview schedule.",
+        "published_at": "2016-08-20T03:47:14Z"
+      }
+    ]
+  },
+  {
+    "query": "HYSYS simulation file",
+    "url": "https://dataverse.harvard.edu/api/search?q=HYSYS+simulation+file&per_page=10",
+    "hits": [
+      {
+        "name": "Simulated surface Chl, satellite-like derived Chl, and remotely sensed reflectance",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/NWR1QY",
+        "global_id": "doi:10.7910/DVN/NWR1QY",
+        "description": "Model output Daily from 1994-2006 (note each year has only 360 days) in netcdf files. - Simulated surface (0-50m) Chl-a (Called \"actual Chl-a\" in the BG paper). Units mgChl/m3 - Derived Chl-a from the simulated remotely sensed reflectance. (Called \"GS derived Chl-a:\" in the BG paper). Units mgChl/m3 - Simulated remotely sensed reflectance in the blue spectrum (450, 475,500nm) and green (550 nm). Units 1/sr",
+        "published_at": "2018-01-26T15:36:54Z"
+      },
+      {
+        "name": "Interannual Simulation",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/interannual",
+        "global_id": null,
+        "description": "SImulation 1992-2006. Output only provided for 1994-2006",
+        "published_at": "2018-01-26T15:35:18Z"
+      },
+      {
+        "name": "Simulation Dataverse",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/mmcamar",
+        "global_id": null,
+        "description": "dynamic model of TLR4 trafficking between cell membranes, endosomal system and trans-Golgi compartment",
+        "published_at": "2016-08-31T13:08:42Z"
+      },
+      {
+        "name": "Replication files for: Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/F7KYTE",
+        "global_id": "doi:10.7910/DVN/F7KYTE",
+        "description": "Replication files for \"Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona\"",
+        "published_at": "2025-05-09T18:11:14Z"
+      },
+      {
+        "name": "Replication files",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/domenech_replication",
+        "global_id": null,
+        "description": null,
+        "published_at": "2025-05-09T18:11:12Z"
+      },
+      {
+        "name": "Planet Formation Simulation Dataverse",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/planetformation",
+        "global_id": null,
+        "description": "This dataverse contains data relating to planet formation simulations, including simulation input files, select output files and processed data.",
+        "published_at": "2019-10-18T00:01:20Z"
+      },
+      {
+        "name": "Planetary Impact Simulation Dataverse",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/giantimpact",
+        "global_id": null,
+        "description": "This dataverse contains planetary impact simulation data and data products.",
+        "published_at": "2019-10-18T00:01:53Z"
+      },
+      {
+        "name": "Planet Growth Simulation Dataverse",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/accretion",
+        "global_id": null,
+        "description": "This dataverse contains planet growth and dynamics simulation data and data products.",
+        "published_at": "2020-08-06T21:40:58Z"
+      },
+      {
+        "name": "Replication Data for: \"Did Earth eat its leftovers? Impact ejecta as a component of the late veneer\"",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/4NOILF",
+        "global_id": "doi:10.7910/DVN/4NOILF",
+        "description": "This dataset contains data from the article: Carter, P. J. and Stewart, S. T., 2021, \"Did Earth eat its leftovers? Impact ejecta as a component of the late veneer\", PSJ, in press. These data consist of N-body simulation input files, processed data, select simulation output and code to read input/output files. See the README file for further information",
+        "published_at": "2022-04-08T14:45:09Z"
+      },
+      {
+        "name": "Replication Data for: \"Colliding in the shadows of giants: Planetesimal collisions during the growth and migration of gas giants\"",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/5YQDU9",
+        "global_id": "doi:10.7910/DVN/5YQDU9",
+        "description": "This dataset contains data from the article: Carter, P. J. and Stewart, S. T., 2020, \"Colliding in the shadows of giants: Planetesimal collisions during the growth and migration of gas giants\", PSJ, 1, 45. These data consist of N-body simulation input files, processed data, select simulation output and code to read input/output files. See the README file for further information.",
+        "published_at": "2020-08-06T21:41:18Z"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS supplementary",
+    "url": "https://dataverse.harvard.edu/api/search?q=Aspen+HYSYS+supplementary&per_page=10",
+    "hits": [
+      {
+        "name": "Supplementary Files",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/T9HCLU",
+        "global_id": "doi:10.7910/DVN/T9HCLU",
+        "description": "Supplementary Files",
+        "published_at": "2025-08-27T01:11:32Z"
+      },
+      {
+        "name": "Supplementary file - Dissertation GRDR",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/dissertationGRDR2025",
+        "global_id": null,
+        "description": null,
+        "published_at": "2025-08-27T00:48:19Z"
+      },
+      {
+        "name": "Supplementary Data for Alves et al. 2020",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/radwave",
+        "global_id": null,
+        "description": "This Dataverse contains supplementary data presented in Alves et al. 2019, including the distances to the diffuse ``bridging\" sightlines between molecular clouds.",
+        "published_at": "2019-10-03T11:52:11Z"
+      },
+      {
+        "name": "Supplementary Figures for Bridging Sightlines",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/8ZFKW1",
+        "global_id": "doi:10.7910/DVN/8ZFKW1",
+        "description": "This set of figures contains the cornerplots of the model parameters and the line-of-sight extinction profiles for all the ``tenuous connection\" sightlines found in this table",
+        "published_at": "2019-10-03T11:52:28Z"
+      },
+      {
+        "name": "Bridging Sightlines",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/K16GQX",
+        "global_id": "doi:10.7910/DVN/K16GQX",
+        "description": "This dataset contains model parameters for the ``tenuous connections\" bridging major star-forming regions along the Radcliffe Wave. For each model parameter, we report the 16th, 50th, and 84th percentile of the samples from our dynesty chain, which should be regarded as the statistical uncertainties. An additional systematic uncertainty of 5% is expected. The column headings are as follows: 'name' is the cloud coincident with the sightline. Since these regions are virtually unstudied, we assign them a name based on their Galactic coordinates 'l' is the Galactic longitude of the sightline (in degrees) 'b' is the Galactic latitude of the sightline (in degrees) 'n' is the normalization parameter 'f' is the foreground extinction parameter (in mag) 'm' is the cloud distance modulus parameter (in mag) 'd' is the cloud distance (derived from m) in pc 'p' is the outlier fraction parameter 'sfore' is the foreground smoothing parameter 'sback' is the background smoothing parameter See Section 3.2 for a complete description of the model parameters.",
+        "published_at": "2021-02-01T21:07:32Z"
+      },
+      {
+        "name": "Best-Fit Model for the Radcliffe Wave",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/OE51SZ",
+        "global_id": "doi:10.7910/DVN/OE51SZ",
+        "description": "A table containing the Heliocentric Galactic Cartesian coordinates (x, y, z) in parsecs for the best-fit model of the Radcliffe Wave shown in Figure 2 of Alves+2020.",
+        "published_at": "2021-10-22T21:05:02Z"
+      },
+      {
+        "name": "Identification of the effect of humidity on chronometer rate (Supplementary materials)",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/hamilton2024",
+        "global_id": null,
+        "description": "Source data + variable descriptions",
+        "published_at": "2024-12-30T13:43:54Z"
+      },
+      {
+        "name": "Replication Data for: Identification of the effect of humidity on chronometer rate: A belated response to George Daniels",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/1WJYTQ",
+        "global_id": "doi:10.7910/DVN/1WJYTQ",
+        "description": "source data",
+        "published_at": "2024-12-30T13:43:56Z"
+      },
+      {
+        "name": "Supplementary Data for Squeezing-Enhanced Photon-Number Measurements for GKP State Generation",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/architecture2025",
+        "global_id": null,
+        "description": "raw data of figures in article Squeezing-Enhanced Photon-Number Measurements for GKP State Generation",
+        "published_at": "2025-11-24T21:52:03Z"
+      },
+      {
+        "name": "Supplementary Materials for \"The Transmission Game: Testing behavioral interventions in a pandemic-like simulation\"",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/transmissionSupplementary",
+        "global_id": null,
+        "description": null,
+        "published_at": "2021-10-24T05:11:00Z"
+      }
+    ]
+  }
+]

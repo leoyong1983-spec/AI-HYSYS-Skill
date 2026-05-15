@@ -1,0 +1,361 @@
+[
+  {
+    "title": "LNG niching metaheuristics HYSYS optimization code",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+    "download_url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-1207-tree-summary.json",
+        "filename": "github-1207-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 4872,
+        "sha256": "5df1f808991580a8e6b3e7c46c251e783506ab0fc9c64abe2d7132d7c1127d27"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata/search result was accessible. No qualifying HYSYS model file was found, so no payload was downloaded.",
+    "recommended_use": "Reference only for optimization patterns; not a benchmark case until a public HYSYS case file is available.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+      "download_url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+      "title": "M-Hamdy-M/lng-niching-metaheuristics",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "README/search terms indicate HYSYS/LNG optimization, but repository tree contains Python notebooks/code only and no qualifying HYSYS model file.",
+      "No model, script, notebook or workbook was downloaded or executed."
+    ]
+  },
+  {
+    "title": "HYSYS GOSP design README candidate",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Ambercozy/HYSYS-GOSP-Design",
+    "download_url": "https://github.com/Ambercozy/HYSYS-GOSP-Design",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-1207-tree-summary.json",
+        "filename": "github-1207-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 4872,
+        "sha256": "5df1f808991580a8e6b3e7c46c251e783506ab0fc9c64abe2d7132d7c1127d27"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata/search result was accessible. No qualifying HYSYS model file was found, so no payload was downloaded.",
+    "recommended_use": "Use only as a lead for manual follow-up; not suitable for automated benchmark ingestion.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Ambercozy/HYSYS-GOSP-Design",
+      "download_url": "https://github.com/Ambercozy/HYSYS-GOSP-Design",
+      "title": "Ambercozy/HYSYS-GOSP-Design",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Repository name and README match GOSP/HYSYS query, but tree contains README only and no model payload.",
+      "No model, script, notebook or workbook was downloaded or executed."
+    ]
+  },
+  {
+    "title": "CrBlend-ML HYSYS connector lead",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Jimohmuktar/CrBlend-ML",
+    "download_url": "https://github.com/Jimohmuktar/CrBlend-ML",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-1207-tree-summary.json",
+        "filename": "github-1207-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 4872,
+        "sha256": "5df1f808991580a8e6b3e7c46c251e783506ab0fc9c64abe2d7132d7c1127d27"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata/search result was accessible. No qualifying HYSYS model file was found, so no payload was downloaded.",
+    "recommended_use": "Possible connector-reference lead, but not a HYSYS model benchmark.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Jimohmuktar/CrBlend-ML",
+      "download_url": "https://github.com/Jimohmuktar/CrBlend-ML",
+      "title": "Jimohmuktar/CrBlend-ML",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Repository contains Python code including hysys_connector.py but no .hsc/.hscz/HYSYS XML/.compound model file.",
+      "No model, script, notebook or workbook was downloaded or executed."
+    ]
+  },
+  {
+    "title": "GitHub-first 2026-05-15 1207Z topic and license sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/search",
+    "download_url": "https://github.com/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-1207-search-merged-repos.json",
+        "filename": "github-1207-search-merged-repos.json",
+        "file_type": "json",
+        "size_bytes": 4998,
+        "sha256": "802fa258e24c2eb31d4dc11d5c311d265a78e829211923d7082f0e118fcaed00"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-1207-tree-summary.json",
+        "filename": "github-1207-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 4872,
+        "sha256": "5df1f808991580a8e6b3e7c46c251e783506ab0fc9c64abe2d7132d7c1127d27"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-aspen-hysys-case-file.json",
+        "filename": "github-cli-search-aspen-hysys-case-file.json",
+        "file_type": "json",
+        "size_bytes": 2130,
+        "sha256": "e9a60d169980c6fdc08f38ca98dcddf9466d8bf352448756ae4556c5e98add7b"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-aspen-hysys-simulation-file.json",
+        "filename": "github-cli-search-aspen-hysys-simulation-file.json",
+        "file_type": "json",
+        "size_bytes": 5788,
+        "sha256": "d311b3139313e59fe7d029c3a7fe74a3592ba204ee849962425d722ab82b83c1"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-ammonia-hsc.json",
+        "filename": "github-cli-search-hysys-ammonia-hsc.json",
+        "file_type": "json",
+        "size_bytes": 680,
+        "sha256": "0b1dc09b72883cd55f2311103bd2dcb4c116c0e4590d117989f9db243c912bb6"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-co2-capture-hsc.json",
+        "filename": "github-cli-search-hysys-co2-capture-hsc.json",
+        "file_type": "json",
+        "size_bytes": 70,
+        "sha256": "2fb8cad4b63347a0961895b5e44c4b3721ffed4ecdcdb1abbf0a03015684dfc3"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-gas-oil-separation.json",
+        "filename": "github-cli-search-hysys-gas-oil-separation.json",
+        "file_type": "json",
+        "size_bytes": 1134,
+        "sha256": "55648c26163726e4387206fe9c6f6f39875f363c696ddc860e3f77fbdc549b50"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-gosp.json",
+        "filename": "github-cli-search-hysys-gosp.json",
+        "file_type": "json",
+        "size_bytes": 594,
+        "sha256": "513f04253dc124e1150dffd607e41fe0ed0e16e981cdd27c4bc1bd3960006c82"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-hydrogen-hsc.json",
+        "filename": "github-cli-search-hysys-hydrogen-hsc.json",
+        "file_type": "json",
+        "size_bytes": 1215,
+        "sha256": "7c0683a5521e3080e9bc62201a826fb4cb258866fbfd7e14f475fef83375610a"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-license-mit-hsc.json",
+        "filename": "github-cli-search-hysys-license-mit-hsc.json",
+        "file_type": "json",
+        "size_bytes": 56,
+        "sha256": "207a5cdcb414b55f47fea2f76b9ba27c15de9d57e6e2ceb3f444e9b9e5d83b8b"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-lng-hsc.json",
+        "filename": "github-cli-search-hysys-lng-hsc.json",
+        "file_type": "json",
+        "size_bytes": 58,
+        "sha256": "6a5d4b2851cb3a9ed68c13c9321c5d5b7fc7d3c4dc5e69a34ad82a3c0c1e4fa5"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-methanol-hsc.json",
+        "filename": "github-cli-search-hysys-methanol-hsc.json",
+        "file_type": "json",
+        "size_bytes": 714,
+        "sha256": "222e3c2cae2b235eb3564ddf6336bbc0f77cd2c84152580a4bd6893924bff0f7"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-natural-gas-hsc.json",
+        "filename": "github-cli-search-hysys-natural-gas-hsc.json",
+        "file_type": "json",
+        "size_bytes": 627,
+        "sha256": "9a8f0133708b2c0ebb3f9fcd3fcdd62573eb0c4d89c7d5660dfabac48d7a1f50"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/github-cli-search-hysys-syngas-hsc.json",
+        "filename": "github-cli-search-hysys-syngas-hsc.json",
+        "file_type": "json",
+        "size_bytes": 61,
+        "sha256": "26453ef7d71f2948f83059fb762dbb976ddc443a1388b88308327b0be991079f"
+      }
+    ],
+    "license_public_access_note": "Search and tree metadata only. No new licensed, non-duplicate HYSYS model payload was found.",
+    "recommended_use": "Use this sweep to refine search terms and suppress no-model GitHub leads in future heartbeats.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/search",
+      "download_url": "https://github.com/search",
+      "title": "GitHub-first 2026-05-15 1207Z topic and license sweep",
+      "filenames": [
+        "github-1207-search-merged-repos.json",
+        "github-1207-tree-summary.json",
+        "github-cli-search-aspen-hysys-case-file.json",
+        "github-cli-search-aspen-hysys-simulation-file.json",
+        "github-cli-search-hysys-ammonia-hsc.json",
+        "github-cli-search-hysys-co2-capture-hsc.json",
+        "github-cli-search-hysys-gas-oil-separation.json",
+        "github-cli-search-hysys-gosp.json",
+        "github-cli-search-hysys-hydrogen-hsc.json",
+        "github-cli-search-hysys-license-mit-hsc.json",
+        "github-cli-search-hysys-lng-hsc.json",
+        "github-cli-search-hysys-methanol-hsc.json",
+        "github-cli-search-hysys-natural-gas-hsc.json",
+        "github-cli-search-hysys-syngas-hsc.json"
+      ],
+      "sha256": [
+        "802fa258e24c2eb31d4dc11d5c311d265a78e829211923d7082f0e118fcaed00",
+        "5df1f808991580a8e6b3e7c46c251e783506ab0fc9c64abe2d7132d7c1127d27",
+        "e9a60d169980c6fdc08f38ca98dcddf9466d8bf352448756ae4556c5e98add7b",
+        "d311b3139313e59fe7d029c3a7fe74a3592ba204ee849962425d722ab82b83c1",
+        "0b1dc09b72883cd55f2311103bd2dcb4c116c0e4590d117989f9db243c912bb6",
+        "2fb8cad4b63347a0961895b5e44c4b3721ffed4ecdcdb1abbf0a03015684dfc3",
+        "55648c26163726e4387206fe9c6f6f39875f363c696ddc860e3f77fbdc549b50",
+        "513f04253dc124e1150dffd607e41fe0ed0e16e981cdd27c4bc1bd3960006c82",
+        "7c0683a5521e3080e9bc62201a826fb4cb258866fbfd7e14f475fef83375610a",
+        "207a5cdcb414b55f47fea2f76b9ba27c15de9d57e6e2ceb3f444e9b9e5d83b8b",
+        "6a5d4b2851cb3a9ed68c13c9321c5d5b7fc7d3c4dc5e69a34ad82a3c0c1e4fa5",
+        "222e3c2cae2b235eb3564ddf6336bbc0f77cd2c84152580a4bd6893924bff0f7",
+        "9a8f0133708b2c0ebb3f9fcd3fcdd62573eb0c4d89c7d5660dfabac48d7a1f50",
+        "26453ef7d71f2948f83059fb762dbb976ddc443a1388b88308327b0be991079f"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub repository search can surface README-only or code-only repositories.",
+      "No payload files were downloaded."
+    ]
+  },
+  {
+    "title": "Scientific data repository 2026-05-15 1207Z sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://zenodo.org/search",
+    "download_url": "https://zenodo.org/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/zenodo-1207-targeted-search-results.json",
+        "filename": "zenodo-1207-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 242188,
+        "sha256": "321c922413a11c7278e1226c3419a7946e3c7e3f0668efe4a4bca460ec064f2f"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/figshare-1207-targeted-search-results.json",
+        "filename": "figshare-1207-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 22467,
+        "sha256": "05ff942826419ce1a450bbc3a4b4bb8895f1c5eafb7e76aa1d3ba1f7617055e4"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1207Z/artifacts/harvard-dataverse-1207-targeted-search-results.json",
+        "filename": "harvard-dataverse-1207-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 28662,
+        "sha256": "686ec5b9d6c39cd2325dce107ac8483ce3be6e0b6d02069d7d3c2ca67a83cf84"
+      }
+    ],
+    "license_public_access_note": "Zenodo, Figshare and Harvard Dataverse metadata were searched. Results were known duplicates, irrelevant false positives, or did not expose qualifying .hsc/.hscz/HYSYS XML/.compound payloads.",
+    "recommended_use": "Use the metadata to refine repository-specific filters; keep Zenodo 14882867 on the duplicate allowlist.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/search",
+      "download_url": "https://zenodo.org/search",
+      "title": "Scientific data repository 2026-05-15 1207Z sweep",
+      "filenames": [
+        "zenodo-1207-targeted-search-results.json",
+        "figshare-1207-targeted-search-results.json",
+        "harvard-dataverse-1207-targeted-search-results.json"
+      ],
+      "sha256": [
+        "321c922413a11c7278e1226c3419a7946e3c7e3f0668efe4a4bca460ec064f2f",
+        "05ff942826419ce1a450bbc3a4b4bb8895f1c5eafb7e76aa1d3ba1f7617055e4",
+        "686ec5b9d6c39cd2325dce107ac8483ce3be6e0b6d02069d7d3c2ca67a83cf84"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Figshare search returned broad irrelevant results for HYSYS terms.",
+      "Harvard Dataverse returned mostly unrelated HSC abbreviation hits.",
+      "Zenodo hits include known duplicates and non-HYSYS primary files such as .lnr/.apw/PDF/XLSX."
+    ]
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "query": "Aspen HYSYS .hsc",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+.hsc&page_size=10",
+    "hits": [
+      {
+        "id": 32300837,
+        "title": "A systematic literature review of assurance and greenwashing in sustainability reporting",
+        "doi": "10.6084/m9.figshare.32300837.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300837",
+        "published_date": "2026-05-15T12:12:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32288667,
+        "title": "Past, present and future Greenland Ice Sheet surface melt, 1500-2200 CE",
+        "doi": "",
+        "handle": "10779/lincoln.32288667.v1",
+        "url": "https://api.figshare.com/v2/articles/32288667",
+        "published_date": "2026-05-15T12:10:05Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32300808,
+        "title": "Data for analysis of <b>Seismic passive resistance of retaining wall supporting submerged c-</b><b>φ</b><b> backfill</b>",
+        "doi": "10.6084/m9.figshare.32300808.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300808",
+        "published_date": "2026-05-15T12:08:29Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32077170,
+        "title": "Supplementary Material - Environmental sustainability analysis of hard coating TiN CVD by LCA",
+        "doi": "10.60893/figshare.jva.32077170.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32077170",
+        "published_date": "2026-05-15T12:07:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32300823,
+        "title": "Household Integrated Expenditure Survey Data",
+        "doi": "10.6084/m9.figshare.32300823.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300823",
+        "published_date": "2026-05-15T12:07:22Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32113300,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32113300.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32113300",
+        "published_date": "2026-05-15T12:06:55Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123632,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32123632.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123632",
+        "published_date": "2026-05-15T12:06:46Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32104309,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32104309.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32104309",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32300827,
+        "title": "Populism in the EU and the trade-off between ethical claiming and mainstreaming",
+        "doi": "10.6084/m9.figshare.32300827.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300827",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123629,
+        "title": "Supplement Number 1",
+        "doi": "10.60893/figshare.jcp.32123629.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123629",
+        "published_date": "2026-05-15T12:06:29Z",
+        "defined_type_name": "figure"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS case file",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+case+file&page_size=10",
+    "hits": [
+      {
+        "id": 32300837,
+        "title": "A systematic literature review of assurance and greenwashing in sustainability reporting",
+        "doi": "10.6084/m9.figshare.32300837.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300837",
+        "published_date": "2026-05-15T12:12:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32288667,
+        "title": "Past, present and future Greenland Ice Sheet surface melt, 1500-2200 CE",
+        "doi": "",
+        "handle": "10779/lincoln.32288667.v1",
+        "url": "https://api.figshare.com/v2/articles/32288667",
+        "published_date": "2026-05-15T12:10:05Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32300808,
+        "title": "Data for analysis of <b>Seismic passive resistance of retaining wall supporting submerged c-</b><b>φ</b><b> backfill</b>",
+        "doi": "10.6084/m9.figshare.32300808.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300808",
+        "published_date": "2026-05-15T12:08:29Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32077170,
+        "title": "Supplementary Material - Environmental sustainability analysis of hard coating TiN CVD by LCA",
+        "doi": "10.60893/figshare.jva.32077170.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32077170",
+        "published_date": "2026-05-15T12:07:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32300823,
+        "title": "Household Integrated Expenditure Survey Data",
+        "doi": "10.6084/m9.figshare.32300823.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300823",
+        "published_date": "2026-05-15T12:07:22Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32113300,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32113300.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32113300",
+        "published_date": "2026-05-15T12:06:55Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123632,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32123632.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123632",
+        "published_date": "2026-05-15T12:06:46Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32104309,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32104309.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32104309",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32300827,
+        "title": "Populism in the EU and the trade-off between ethical claiming and mainstreaming",
+        "doi": "10.6084/m9.figshare.32300827.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300827",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123629,
+        "title": "Supplement Number 1",
+        "doi": "10.60893/figshare.jcp.32123629.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123629",
+        "published_date": "2026-05-15T12:06:29Z",
+        "defined_type_name": "figure"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS simulation file",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+simulation+file&page_size=10",
+    "hits": [
+      {
+        "id": 32300837,
+        "title": "A systematic literature review of assurance and greenwashing in sustainability reporting",
+        "doi": "10.6084/m9.figshare.32300837.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300837",
+        "published_date": "2026-05-15T12:12:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32288667,
+        "title": "Past, present and future Greenland Ice Sheet surface melt, 1500-2200 CE",
+        "doi": "",
+        "handle": "10779/lincoln.32288667.v1",
+        "url": "https://api.figshare.com/v2/articles/32288667",
+        "published_date": "2026-05-15T12:10:05Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32300808,
+        "title": "Data for analysis of <b>Seismic passive resistance of retaining wall supporting submerged c-</b><b>φ</b><b> backfill</b>",
+        "doi": "10.6084/m9.figshare.32300808.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300808",
+        "published_date": "2026-05-15T12:08:29Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32077170,
+        "title": "Supplementary Material - Environmental sustainability analysis of hard coating TiN CVD by LCA",
+        "doi": "10.60893/figshare.jva.32077170.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32077170",
+        "published_date": "2026-05-15T12:07:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32300823,
+        "title": "Household Integrated Expenditure Survey Data",
+        "doi": "10.6084/m9.figshare.32300823.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300823",
+        "published_date": "2026-05-15T12:07:22Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32113300,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32113300.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32113300",
+        "published_date": "2026-05-15T12:06:55Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123632,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32123632.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123632",
+        "published_date": "2026-05-15T12:06:46Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32104309,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32104309.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32104309",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32300827,
+        "title": "Populism in the EU and the trade-off between ethical claiming and mainstreaming",
+        "doi": "10.6084/m9.figshare.32300827.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300827",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123629,
+        "title": "Supplement Number 1",
+        "doi": "10.60893/figshare.jcp.32123629.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123629",
+        "published_date": "2026-05-15T12:06:29Z",
+        "defined_type_name": "figure"
+      }
+    ]
+  },
+  {
+    "query": "HYSYS hsc",
+    "url": "https://api.figshare.com/v2/articles?search_for=HYSYS+hsc&page_size=10",
+    "hits": [
+      {
+        "id": 32300837,
+        "title": "A systematic literature review of assurance and greenwashing in sustainability reporting",
+        "doi": "10.6084/m9.figshare.32300837.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300837",
+        "published_date": "2026-05-15T12:12:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32288667,
+        "title": "Past, present and future Greenland Ice Sheet surface melt, 1500-2200 CE",
+        "doi": "",
+        "handle": "10779/lincoln.32288667.v1",
+        "url": "https://api.figshare.com/v2/articles/32288667",
+        "published_date": "2026-05-15T12:10:05Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32300808,
+        "title": "Data for analysis of <b>Seismic passive resistance of retaining wall supporting submerged c-</b><b>φ</b><b> backfill</b>",
+        "doi": "10.6084/m9.figshare.32300808.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300808",
+        "published_date": "2026-05-15T12:08:29Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32077170,
+        "title": "Supplementary Material - Environmental sustainability analysis of hard coating TiN CVD by LCA",
+        "doi": "10.60893/figshare.jva.32077170.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32077170",
+        "published_date": "2026-05-15T12:07:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32300823,
+        "title": "Household Integrated Expenditure Survey Data",
+        "doi": "10.6084/m9.figshare.32300823.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300823",
+        "published_date": "2026-05-15T12:07:22Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32113300,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32113300.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32113300",
+        "published_date": "2026-05-15T12:06:55Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123632,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32123632.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123632",
+        "published_date": "2026-05-15T12:06:46Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32104309,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32104309.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32104309",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32300827,
+        "title": "Populism in the EU and the trade-off between ethical claiming and mainstreaming",
+        "doi": "10.6084/m9.figshare.32300827.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300827",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123629,
+        "title": "Supplement Number 1",
+        "doi": "10.60893/figshare.jcp.32123629.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123629",
+        "published_date": "2026-05-15T12:06:29Z",
+        "defined_type_name": "figure"
+      }
+    ]
+  },
+  {
+    "query": "HYSYS hscz",
+    "url": "https://api.figshare.com/v2/articles?search_for=HYSYS+hscz&page_size=10",
+    "hits": [
+      {
+        "id": 32300837,
+        "title": "A systematic literature review of assurance and greenwashing in sustainability reporting",
+        "doi": "10.6084/m9.figshare.32300837.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300837",
+        "published_date": "2026-05-15T12:12:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32288667,
+        "title": "Past, present and future Greenland Ice Sheet surface melt, 1500-2200 CE",
+        "doi": "",
+        "handle": "10779/lincoln.32288667.v1",
+        "url": "https://api.figshare.com/v2/articles/32288667",
+        "published_date": "2026-05-15T12:10:05Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32300808,
+        "title": "Data for analysis of <b>Seismic passive resistance of retaining wall supporting submerged c-</b><b>φ</b><b> backfill</b>",
+        "doi": "10.6084/m9.figshare.32300808.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300808",
+        "published_date": "2026-05-15T12:08:29Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32077170,
+        "title": "Supplementary Material - Environmental sustainability analysis of hard coating TiN CVD by LCA",
+        "doi": "10.60893/figshare.jva.32077170.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32077170",
+        "published_date": "2026-05-15T12:07:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32300823,
+        "title": "Household Integrated Expenditure Survey Data",
+        "doi": "10.6084/m9.figshare.32300823.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300823",
+        "published_date": "2026-05-15T12:07:22Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32113300,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32113300.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32113300",
+        "published_date": "2026-05-15T12:06:55Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123632,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32123632.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123632",
+        "published_date": "2026-05-15T12:06:46Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32104309,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32104309.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32104309",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32300827,
+        "title": "Populism in the EU and the trade-off between ethical claiming and mainstreaming",
+        "doi": "10.6084/m9.figshare.32300827.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300827",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123629,
+        "title": "Supplement Number 1",
+        "doi": "10.60893/figshare.jcp.32123629.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123629",
+        "published_date": "2026-05-15T12:06:29Z",
+        "defined_type_name": "figure"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS supplementary",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+supplementary&page_size=10",
+    "hits": [
+      {
+        "id": 32300837,
+        "title": "A systematic literature review of assurance and greenwashing in sustainability reporting",
+        "doi": "10.6084/m9.figshare.32300837.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300837",
+        "published_date": "2026-05-15T12:12:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32288667,
+        "title": "Past, present and future Greenland Ice Sheet surface melt, 1500-2200 CE",
+        "doi": "",
+        "handle": "10779/lincoln.32288667.v1",
+        "url": "https://api.figshare.com/v2/articles/32288667",
+        "published_date": "2026-05-15T12:10:05Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32300808,
+        "title": "Data for analysis of <b>Seismic passive resistance of retaining wall supporting submerged c-</b><b>φ</b><b> backfill</b>",
+        "doi": "10.6084/m9.figshare.32300808.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300808",
+        "published_date": "2026-05-15T12:08:29Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32077170,
+        "title": "Supplementary Material - Environmental sustainability analysis of hard coating TiN CVD by LCA",
+        "doi": "10.60893/figshare.jva.32077170.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32077170",
+        "published_date": "2026-05-15T12:07:45Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32300823,
+        "title": "Household Integrated Expenditure Survey Data",
+        "doi": "10.6084/m9.figshare.32300823.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300823",
+        "published_date": "2026-05-15T12:07:22Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32113300,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32113300.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32113300",
+        "published_date": "2026-05-15T12:06:55Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123632,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32123632.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123632",
+        "published_date": "2026-05-15T12:06:46Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32104309,
+        "title": "Supplementary Material",
+        "doi": "10.60893/figshare.jcp.32104309.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32104309",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "figure"
+      },
+      {
+        "id": 32300827,
+        "title": "Populism in the EU and the trade-off between ethical claiming and mainstreaming",
+        "doi": "10.6084/m9.figshare.32300827.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32300827",
+        "published_date": "2026-05-15T12:06:37Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32123629,
+        "title": "Supplement Number 1",
+        "doi": "10.60893/figshare.jcp.32123629.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32123629",
+        "published_date": "2026-05-15T12:06:29Z",
+        "defined_type_name": "figure"
+      }
+    ]
+  }
+]
