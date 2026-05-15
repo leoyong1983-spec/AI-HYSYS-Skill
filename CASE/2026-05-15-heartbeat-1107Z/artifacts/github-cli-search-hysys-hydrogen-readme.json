@@ -1,0 +1,525 @@
+{
+  "query": "HYSYS hydrogen in:readme",
+  "items": [
+    {
+      "description": "Catalytic Reformer RON prediction",
+      "fullName": "jamestjsp/RON_Prediction",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjUzNTMyNDI5",
+        "is_bot": false,
+        "login": "jamestjsp",
+        "type": "User",
+        "url": "https://github.com/jamestjsp"
+      },
+      "updatedAt": "2025-04-07T09:26:54Z",
+      "url": "https://github.com/jamestjsp/RON_Prediction"
+    },
+    {
+      "description": "This is my second project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+      "fullName": "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCIrxHA",
+        "is_bot": false,
+        "login": "Pouria-MK",
+        "type": "User",
+        "url": "https://github.com/Pouria-MK"
+      },
+      "updatedAt": "2026-03-30T17:19:52Z",
+      "url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit"
+    },
+    {
+      "description": "",
+      "fullName": "ArminHasanpour/ArminHasanpour",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODGl9wA",
+        "is_bot": false,
+        "login": "ArminHasanpour",
+        "type": "User",
+        "url": "https://github.com/ArminHasanpour"
+      },
+      "updatedAt": "2025-04-19T12:34:05Z",
+      "url": "https://github.com/ArminHasanpour/ArminHasanpour"
+    },
+    {
+      "description": "",
+      "fullName": "Ibrahim-Badmus/hydrogen-process-models",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODNs9wA",
+        "is_bot": false,
+        "login": "Ibrahim-Badmus",
+        "type": "User",
+        "url": "https://github.com/Ibrahim-Badmus"
+      },
+      "updatedAt": "2025-12-31T14:45:29Z",
+      "url": "https://github.com/Ibrahim-Badmus/hydrogen-process-models"
+    },
+    {
+      "description": "",
+      "fullName": "Ibrahim-Badmus/hydrogen-techno-economics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODNs9wA",
+        "is_bot": false,
+        "login": "Ibrahim-Badmus",
+        "type": "User",
+        "url": "https://github.com/Ibrahim-Badmus"
+      },
+      "updatedAt": "2025-12-31T14:16:25Z",
+      "url": "https://github.com/Ibrahim-Badmus/hydrogen-techno-economics"
+    },
+    {
+      "description": "",
+      "fullName": "Ibrahim-Badmus/python-hydrogen-optimization",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODNs9wA",
+        "is_bot": false,
+        "login": "Ibrahim-Badmus",
+        "type": "User",
+        "url": "https://github.com/Ibrahim-Badmus"
+      },
+      "updatedAt": "2025-12-31T14:50:34Z",
+      "url": "https://github.com/Ibrahim-Badmus/python-hydrogen-optimization"
+    },
+    {
+      "description": "Config files for my GitHub profile.",
+      "fullName": "AbdulMoiz00/AbdulMoiz00",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBliKrw",
+        "is_bot": false,
+        "login": "AbdulMoiz00",
+        "type": "User",
+        "url": "https://github.com/AbdulMoiz00"
+      },
+      "updatedAt": "2026-04-12T14:42:20Z",
+      "url": "https://github.com/AbdulMoiz00/AbdulMoiz00"
+    },
+    {
+      "description": "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+      "fullName": "SinaGhanbarii/HDA-Plant-Simulation",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOB3yAhA",
+        "is_bot": false,
+        "login": "SinaGhanbarii",
+        "type": "User",
+        "url": "https://github.com/SinaGhanbarii"
+      },
+      "updatedAt": "2026-03-10T14:10:32Z",
+      "url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation"
+    },
+    {
+      "description": "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+      "fullName": "leoyong1983-spec/AI-HYSYS-Skill",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOEGlu5w",
+        "is_bot": false,
+        "login": "leoyong1983-spec",
+        "type": "User",
+        "url": "https://github.com/leoyong1983-spec"
+      },
+      "updatedAt": "2026-05-15T09:33:46Z",
+      "url": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill"
+    },
+    {
+      "description": "Project which involves around simulating the process of production of green hydrogen.",
+      "fullName": "rahulgarg223/Simulation-of-Production-of-Green-Hydrogen",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOByv-FQ",
+        "is_bot": false,
+        "login": "rahulgarg223",
+        "type": "User",
+        "url": "https://github.com/rahulgarg223"
+      },
+      "updatedAt": "2025-06-30T02:28:14Z",
+      "url": "https://github.com/rahulgarg223/Simulation-of-Production-of-Green-Hydrogen"
+    },
+    {
+      "description": "",
+      "fullName": "hermionini/manishamt",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBq9gfQ",
+        "is_bot": false,
+        "login": "hermionini",
+        "type": "User",
+        "url": "https://github.com/hermionini"
+      },
+      "updatedAt": "2026-04-06T13:01:33Z",
+      "url": "https://github.com/hermionini/manishamt"
+    },
+    {
+      "description": "",
+      "fullName": "FlameEnjoyer/academic-portfolio",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCyl7Sw",
+        "is_bot": false,
+        "login": "FlameEnjoyer",
+        "type": "User",
+        "url": "https://github.com/FlameEnjoyer"
+      },
+      "updatedAt": "2026-03-01T14:03:09Z",
+      "url": "https://github.com/FlameEnjoyer/academic-portfolio"
+    },
+    {
+      "description": "This is my final project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+      "fullName": "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCIrxHA",
+        "is_bot": false,
+        "login": "Pouria-MK",
+        "type": "User",
+        "url": "https://github.com/Pouria-MK"
+      },
+      "updatedAt": "2026-03-30T17:19:53Z",
+      "url": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors"
+    },
+    {
+      "description": "My personal portfolio repo containing projects, code, papers, and more.",
+      "fullName": "rubel-miah-che/rubel-portfolio",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODehVUQ",
+        "is_bot": false,
+        "login": "rubel-miah-che",
+        "type": "User",
+        "url": "https://github.com/rubel-miah-che"
+      },
+      "updatedAt": "2025-11-03T06:44:50Z",
+      "url": "https://github.com/rubel-miah-che/rubel-portfolio"
+    },
+    {
+      "description": "A curated list of awesome resources on Thermodynamics",
+      "fullName": "iurisegtovich/AwesomeThermodynamics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjEwOTMwNTE3",
+        "is_bot": false,
+        "login": "iurisegtovich",
+        "type": "User",
+        "url": "https://github.com/iurisegtovich"
+      },
+      "updatedAt": "2026-05-11T07:31:56Z",
+      "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+    },
+    {
+      "description": "Data and reproducible analysis scripts for process-informed MOF and zeolite selection in gasification-derived hydrogen purification.",
+      "fullName": "Asgari-research/h2-gasification-mof-zeolite-screening",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOBoluIQ",
+        "is_bot": false,
+        "login": "Asgari-research",
+        "type": "User",
+        "url": "https://github.com/Asgari-research"
+      },
+      "updatedAt": "2026-05-10T09:35:19Z",
+      "url": "https://github.com/Asgari-research/h2-gasification-mof-zeolite-screening"
+    },
+    {
+      "description": "Energy, Machine Learning & CFD Analyst",
+      "fullName": "DennisWayo/denniswayo.github.io-old",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBwgQew",
+        "is_bot": false,
+        "login": "DennisWayo",
+        "type": "User",
+        "url": "https://github.com/DennisWayo"
+      },
+      "updatedAt": "2024-08-25T16:28:43Z",
+      "url": "https://github.com/DennisWayo/denniswayo.github.io-old"
+    },
+    {
+      "description": "my special repository",
+      "fullName": "miladmolaee/miladmolaee",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjIzMDIzNTIy",
+        "is_bot": false,
+        "login": "miladmolaee",
+        "type": "User",
+        "url": "https://github.com/miladmolaee"
+      },
+      "updatedAt": "2025-08-31T15:02:41Z",
+      "url": "https://github.com/miladmolaee/miladmolaee"
+    },
+    {
+      "description": "AI-optimised benzene hydrogenation process simulation — 24-module Python engine with ML surrogate models, Bayesian & PSO optimisation, and full industrial flowsheet design (55,455 t/yr cyclohexane).",
+      "fullName": "Username-16/cyclohexane-process-simulation",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOB8McOA",
+        "is_bot": false,
+        "login": "Username-16",
+        "type": "User",
+        "url": "https://github.com/Username-16"
+      },
+      "updatedAt": "2026-03-22T17:22:10Z",
+      "url": "https://github.com/Username-16/cyclohexane-process-simulation"
+    },
+    {
+      "description": "Researcher in Oil and Gas procesing, Advanced materials and Smart Manufacturing",
+      "fullName": "Obinna-Okolie/Obinna_Okolie",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjI2MTkyOTgz",
+        "is_bot": false,
+        "login": "Obinna-Okolie",
+        "type": "User",
+        "url": "https://github.com/Obinna-Okolie"
+      },
+      "updatedAt": "2026-01-12T21:34:50Z",
+      "url": "https://github.com/Obinna-Okolie/Obinna_Okolie"
+    },
+    {
+      "description": "PROFILE",
+      "fullName": "wisemansg/wisemansg",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODXuaeQ",
+        "is_bot": false,
+        "login": "wisemansg",
+        "type": "User",
+        "url": "https://github.com/wisemansg"
+      },
+      "updatedAt": "2026-02-12T21:57:00Z",
+      "url": "https://github.com/wisemansg/wisemansg"
+    },
+    {
+      "description": "",
+      "fullName": "z08r3p/CHEN90012",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOC3pSAQ",
+        "is_bot": false,
+        "login": "z08r3p",
+        "type": "User",
+        "url": "https://github.com/z08r3p"
+      },
+      "updatedAt": "2024-12-31T12:26:00Z",
+      "url": "https://github.com/z08r3p/CHEN90012"
+    },
+    {
+      "description": "A complete guide to exergy analysis and its role in the energy transition. Open-sourced by Exergy Lab.",
+      "fullName": "cdimurro/the-exergy-imperative",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODRaxWg",
+        "is_bot": false,
+        "login": "cdimurro",
+        "type": "User",
+        "url": "https://github.com/cdimurro"
+      },
+      "updatedAt": "2026-04-20T14:03:50Z",
+      "url": "https://github.com/cdimurro/the-exergy-imperative"
+    },
+    {
+      "description": "",
+      "fullName": "WilliamGrossKC/FluidSolver",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU2NDU1MzMy",
+        "is_bot": false,
+        "login": "WilliamGrossKC",
+        "type": "User",
+        "url": "https://github.com/WilliamGrossKC"
+      },
+      "updatedAt": "2026-03-23T06:06:48Z",
+      "url": "https://github.com/WilliamGrossKC/FluidSolver"
+    },
+    {
+      "description": "Revision of all topics",
+      "fullName": "Gopal564/Chemical-Engineering-Revision",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjg3OTc1MTQ0",
+        "is_bot": false,
+        "login": "Gopal564",
+        "type": "User",
+        "url": "https://github.com/Gopal564"
+      },
+      "updatedAt": "2025-03-15T04:44:37Z",
+      "url": "https://github.com/Gopal564/Chemical-Engineering-Revision"
+    },
+    {
+      "description": "",
+      "fullName": "JoshuaKiplimo/ResParse",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU0MTUyMzIx",
+        "is_bot": false,
+        "login": "JoshuaKiplimo",
+        "type": "User",
+        "url": "https://github.com/JoshuaKiplimo"
+      },
+      "updatedAt": "2022-12-12T14:45:36Z",
+      "url": "https://github.com/JoshuaKiplimo/ResParse"
+    }
+  ]
+}

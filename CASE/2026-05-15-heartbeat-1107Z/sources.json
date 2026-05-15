@@ -1,0 +1,340 @@
+[
+  {
+    "title": "Conceptual Design and Economic Feasibility of Valuable Substances Recovery Unit",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+    "download_url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit-repo.json",
+        "filename": "github-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit-repo.json",
+        "file_type": "json",
+        "size_bytes": 9598,
+        "sha256": "80f37bd816be5ba67aad4e7c0a4c5462bb47ca88d6ca6259456279957f03ec3c"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit-tree.json",
+        "filename": "github-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit-tree.json",
+        "file_type": "json",
+        "size_bytes": 7124,
+        "sha256": "9fd61237b172683f1d988cdc70b7c5169809169d55ada2c19f0d16914e55f27b"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata was accessible, but no repository License was detected by GitHub API. The tree contains HYSYS .hsc files plus XML, Excel and PDF materials, but payload files were not downloaded pending manual permission review.",
+    "recommended_use": "If license/author permission is clarified, use as a hydrogen/methanol recovery process benchmark with compressor/cooling-cycle alternatives and report/data cross-checks.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      "download_url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      "title": "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      "filenames": [
+        "SIM/compressor and cooling water.hsc",
+        "SIM/no compressor and cooling cycle.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License and redistribution rights unresolved.",
+      "Repository tree metadata confirms filenames only; model SHA was not calculated because payload was not downloaded.",
+      "No scripts, spreadsheets or HYSYS models were executed."
+    ]
+  },
+  {
+    "title": "Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+    "type": "dataset",
+    "quality": "A",
+    "source_page": "https://zenodo.org/records/14882867",
+    "download_url": "https://zenodo.org/records/14882867",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/zenodo-1107-targeted-search-results.json",
+        "filename": "zenodo-1107-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 212583,
+        "sha256": "68e6cdf71223745df65ed107d2b56e6e24870ab131dfff1b2bd919e3276f20f6"
+      }
+    ],
+    "license_public_access_note": "Zenodo record is public and CC-BY-4.0. It contains HYSYS .hsc files and data, but this source is already archived in the existing CASE library, so no duplicate payload was downloaded.",
+    "recommended_use": "Use the existing archived copy for onboard carbon capture, circular marine fuels, methanol and natural-gas capture regression tests.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/records/14882867",
+      "download_url": "https://zenodo.org/records/14882867",
+      "title": "Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+      "filenames": [
+        "MeOH_Production.hsc",
+        "Capture_onboard_methanol.hsc",
+        "Capture_onboard_NG.hsc",
+        "Data.xlsx",
+        "Circular-marine-fuels-2050.xlsx"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source; this run did not download payload files.",
+      "No model was opened or solved."
+    ]
+  },
+  {
+    "title": "Zenodo 1107Z targeted HYSYS search sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://zenodo.org/search",
+    "download_url": "https://zenodo.org/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/zenodo-1107-targeted-search-results.json",
+        "filename": "zenodo-1107-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 212583,
+        "sha256": "68e6cdf71223745df65ed107d2b56e6e24870ab131dfff1b2bd919e3276f20f6"
+      }
+    ],
+    "license_public_access_note": "Search metadata only. Results were either known duplicates, spreadsheet/PDF-only records, or records without qualifying .hsc/.hscz/HYSYS XML/.compound files.",
+    "recommended_use": "Use the result metadata to avoid repeated Zenodo duplicate downloads and to refine non-HYSYS primary-model filters.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/search",
+      "download_url": "https://zenodo.org/search",
+      "title": "Zenodo 1107Z targeted HYSYS search sweep",
+      "filenames": [
+        "zenodo-1107-targeted-search-results.json"
+      ],
+      "sha256": [
+        "68e6cdf71223745df65ed107d2b56e6e24870ab131dfff1b2bd919e3276f20f6"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Search results may mention Aspen HYSYS while only providing PDFs, spreadsheets, .lnr files, or Aspen Plus .apw files.",
+      "No payload files were downloaded."
+    ]
+  },
+  {
+    "title": "GitHub-first 2026-05-15 1107Z search and tree sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/search",
+    "download_url": "https://github.com/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-aspen-hysys-readme.json",
+        "filename": "github-cli-search-aspen-hysys-readme.json",
+        "file_type": "json",
+        "size_bytes": 22973,
+        "sha256": "d721d0f35d7537fecb47ab0dd86f1699e2f62a604cc57bf7d6593e8ce6e18979"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-ammonia-readme.json",
+        "filename": "github-cli-search-hysys-ammonia-readme.json",
+        "file_type": "json",
+        "size_bytes": 6175,
+        "sha256": "bd3a183eca759a48f9809828c857675d06406846df553f618ec8965618876c3a"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-case-file-readme.json",
+        "filename": "github-cli-search-hysys-case-file-readme.json",
+        "file_type": "json",
+        "size_bytes": 2665,
+        "sha256": "466ed078e9320257efd868041dd790c324366f2e1936a30a1ad9e98ef4f58751"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-co2-readme.json",
+        "filename": "github-cli-search-hysys-co2-readme.json",
+        "file_type": "json",
+        "size_bytes": 5999,
+        "sha256": "13a3cc147fe4594d42d890328458e80558e3fa8148c5599aa2b01718208064d2"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-hsc-readme.json",
+        "filename": "github-cli-search-hysys-hsc-readme.json",
+        "file_type": "json",
+        "size_bytes": 10006,
+        "sha256": "c895cc26912bd984c498411a7fb0995b344ca17dcc38ee14eb573c8c6b3392cd"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-hscz-readme.json",
+        "filename": "github-cli-search-hysys-hscz-readme.json",
+        "file_type": "json",
+        "size_bytes": 55,
+        "sha256": "dcd163395d9da097718040a9b09df9ef272c4a314e0347a86d8ff7e4cfcfcf46"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-hydrogen-readme.json",
+        "filename": "github-cli-search-hysys-hydrogen-readme.json",
+        "file_type": "json",
+        "size_bytes": 16279,
+        "sha256": "dbbda810a3b4d4f37a70fc3b46d2c5e2982b60374a94bdaef0cf7ad202f9a22c"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-license-gpl3.json",
+        "filename": "github-cli-search-hysys-license-gpl3.json",
+        "file_type": "json",
+        "size_bytes": 3554,
+        "sha256": "a228b9eebe924e9d2af3a03ddedb9fb6540a767a48856cf0f583d8c9ce8e56c0"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-license-mit.json",
+        "filename": "github-cli-search-hysys-license-mit.json",
+        "file_type": "json",
+        "size_bytes": 9214,
+        "sha256": "53f3f34a42e763711647be707a947cf1c496ee4ec0c62803c11908ccc1ac26a5"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-lng-readme.json",
+        "filename": "github-cli-search-hysys-lng-readme.json",
+        "file_type": "json",
+        "size_bytes": 3805,
+        "sha256": "99d56b3d5300d08977f7048b7dfb60acd41191d8a44b49693ec8b04d6c727635"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-methanol-readme.json",
+        "filename": "github-cli-search-hysys-methanol-readme.json",
+        "file_type": "json",
+        "size_bytes": 9514,
+        "sha256": "00f1e5d034447c96997e9a56ceb80243a91db63c136cd61f66f8e2dc6a16869c"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-cli-search-hysys-simulation-file-readme.json",
+        "filename": "github-cli-search-hysys-simulation-file-readme.json",
+        "file_type": "json",
+        "size_bytes": 7508,
+        "sha256": "d17df8a682923020f396ff5d07bdc42690f54706966059004a9984dd36e106a0"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-1107-search-merged-repos.json",
+        "filename": "github-1107-search-merged-repos.json",
+        "file_type": "json",
+        "size_bytes": 48855,
+        "sha256": "7eae23deeab701a67662e8efb1dc6f5c6ade0e0b1fc50b869ad483c916bdda75"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/github-1107-tree-summary.json",
+        "filename": "github-1107-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 37193,
+        "sha256": "31f88c21afeef141a6c0bea509948223ad732039682b0a5963cac74afe590b49"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/dedupe-summary.json",
+        "filename": "dedupe-summary.json",
+        "file_type": "json",
+        "size_bytes": 239,
+        "sha256": "345e87f79061fad8a809e425710f84502b5e4f1d8ff6aea69b1e665d5090f4ff"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-1107Z/artifacts/security-inventory.json",
+        "filename": "security-inventory.json",
+        "file_type": "json",
+        "size_bytes": 369,
+        "sha256": "0ced7464da9d44c0322cf908914eb322cf9393d177185cdda6aafe42186cfed2"
+      }
+    ],
+    "license_public_access_note": "Search and tree metadata only. No new licensed, non-duplicate HYSYS model payload was found in this run.",
+    "recommended_use": "Use this sweep to refine duplicate allowlists and keep the no-license Pouria recovery-unit repository in a manual review queue.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/search",
+      "download_url": "https://github.com/search",
+      "title": "GitHub-first 2026-05-15 1107Z search and tree sweep",
+      "filenames": [
+        "github-cli-search-aspen-hysys-readme.json",
+        "github-cli-search-hysys-ammonia-readme.json",
+        "github-cli-search-hysys-case-file-readme.json",
+        "github-cli-search-hysys-co2-readme.json",
+        "github-cli-search-hysys-hsc-readme.json",
+        "github-cli-search-hysys-hscz-readme.json",
+        "github-cli-search-hysys-hydrogen-readme.json",
+        "github-cli-search-hysys-license-gpl3.json",
+        "github-cli-search-hysys-license-mit.json",
+        "github-cli-search-hysys-lng-readme.json",
+        "github-cli-search-hysys-methanol-readme.json",
+        "github-cli-search-hysys-simulation-file-readme.json",
+        "github-1107-search-merged-repos.json",
+        "github-1107-tree-summary.json",
+        "dedupe-summary.json",
+        "security-inventory.json"
+      ],
+      "sha256": [
+        "d721d0f35d7537fecb47ab0dd86f1699e2f62a604cc57bf7d6593e8ce6e18979",
+        "bd3a183eca759a48f9809828c857675d06406846df553f618ec8965618876c3a",
+        "466ed078e9320257efd868041dd790c324366f2e1936a30a1ad9e98ef4f58751",
+        "13a3cc147fe4594d42d890328458e80558e3fa8148c5599aa2b01718208064d2",
+        "c895cc26912bd984c498411a7fb0995b344ca17dcc38ee14eb573c8c6b3392cd",
+        "dcd163395d9da097718040a9b09df9ef272c4a314e0347a86d8ff7e4cfcfcf46",
+        "dbbda810a3b4d4f37a70fc3b46d2c5e2982b60374a94bdaef0cf7ad202f9a22c",
+        "a228b9eebe924e9d2af3a03ddedb9fb6540a767a48856cf0f583d8c9ce8e56c0",
+        "53f3f34a42e763711647be707a947cf1c496ee4ec0c62803c11908ccc1ac26a5",
+        "99d56b3d5300d08977f7048b7dfb60acd41191d8a44b49693ec8b04d6c727635",
+        "00f1e5d034447c96997e9a56ceb80243a91db63c136cd61f66f8e2dc6a16869c",
+        "d17df8a682923020f396ff5d07bdc42690f54706966059004a9984dd36e106a0",
+        "7eae23deeab701a67662e8efb1dc6f5c6ade0e0b1fc50b869ad483c916bdda75",
+        "31f88c21afeef141a6c0bea509948223ad732039682b0a5963cac74afe590b49",
+        "345e87f79061fad8a809e425710f84502b5e4f1d8ff6aea69b1e665d5090f4ff",
+        "0ced7464da9d44c0322cf908914eb322cf9393d177185cdda6aafe42186cfed2"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub search can surface the current archive repository itself; self-hits were excluded from source entries.",
+      "GitHub code search may miss binary HYSYS case files, so tree scanning remains required."
+    ]
+  }
+]

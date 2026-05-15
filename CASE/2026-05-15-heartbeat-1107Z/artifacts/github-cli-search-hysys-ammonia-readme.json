@@ -1,0 +1,205 @@
+{
+  "query": "HYSYS ammonia in:readme",
+  "items": [
+    {
+      "description": "",
+      "fullName": "Ibrahim-Badmus/hydrogen-process-models",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODNs9wA",
+        "is_bot": false,
+        "login": "Ibrahim-Badmus",
+        "type": "User",
+        "url": "https://github.com/Ibrahim-Badmus"
+      },
+      "updatedAt": "2025-12-31T14:45:29Z",
+      "url": "https://github.com/Ibrahim-Badmus/hydrogen-process-models"
+    },
+    {
+      "description": "",
+      "fullName": "Ibrahim-Badmus/hydrogen-techno-economics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODNs9wA",
+        "is_bot": false,
+        "login": "Ibrahim-Badmus",
+        "type": "User",
+        "url": "https://github.com/Ibrahim-Badmus"
+      },
+      "updatedAt": "2025-12-31T14:16:25Z",
+      "url": "https://github.com/Ibrahim-Badmus/hydrogen-techno-economics"
+    },
+    {
+      "description": "",
+      "fullName": "Ibrahim-Badmus/python-hydrogen-optimization",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODNs9wA",
+        "is_bot": false,
+        "login": "Ibrahim-Badmus",
+        "type": "User",
+        "url": "https://github.com/Ibrahim-Badmus"
+      },
+      "updatedAt": "2025-12-31T14:50:34Z",
+      "url": "https://github.com/Ibrahim-Badmus/python-hydrogen-optimization"
+    },
+    {
+      "description": "Project which involves around simulating the process of production of green hydrogen.",
+      "fullName": "rahulgarg223/Simulation-of-Production-of-Green-Hydrogen",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOByv-FQ",
+        "is_bot": false,
+        "login": "rahulgarg223",
+        "type": "User",
+        "url": "https://github.com/rahulgarg223"
+      },
+      "updatedAt": "2025-06-30T02:28:14Z",
+      "url": "https://github.com/rahulgarg223/Simulation-of-Production-of-Green-Hydrogen"
+    },
+    {
+      "description": "",
+      "fullName": "FlameEnjoyer/academic-portfolio",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCyl7Sw",
+        "is_bot": false,
+        "login": "FlameEnjoyer",
+        "type": "User",
+        "url": "https://github.com/FlameEnjoyer"
+      },
+      "updatedAt": "2026-03-01T14:03:09Z",
+      "url": "https://github.com/FlameEnjoyer/academic-portfolio"
+    },
+    {
+      "description": "My personal portfolio repo containing projects, code, papers, and more.",
+      "fullName": "rubel-miah-che/rubel-portfolio",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODehVUQ",
+        "is_bot": false,
+        "login": "rubel-miah-che",
+        "type": "User",
+        "url": "https://github.com/rubel-miah-che"
+      },
+      "updatedAt": "2025-11-03T06:44:50Z",
+      "url": "https://github.com/rubel-miah-che/rubel-portfolio"
+    },
+    {
+      "description": "A curated list of awesome resources on Thermodynamics",
+      "fullName": "iurisegtovich/AwesomeThermodynamics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjEwOTMwNTE3",
+        "is_bot": false,
+        "login": "iurisegtovich",
+        "type": "User",
+        "url": "https://github.com/iurisegtovich"
+      },
+      "updatedAt": "2026-05-11T07:31:56Z",
+      "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+    },
+    {
+      "description": "A rigorous heat balance for cylindrical storage tanks, insulated and uninsulated, based on Kumana and Kothari's 1982 paper.",
+      "fullName": "RHorsley80/tank_heat_balance",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOD_4FNg",
+        "is_bot": false,
+        "login": "RHorsley80",
+        "type": "User",
+        "url": "https://github.com/RHorsley80"
+      },
+      "updatedAt": "2026-04-07T04:11:56Z",
+      "url": "https://github.com/RHorsley80/tank_heat_balance"
+    },
+    {
+      "description": "A complete guide to exergy analysis and its role in the energy transition. Open-sourced by Exergy Lab.",
+      "fullName": "cdimurro/the-exergy-imperative",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODRaxWg",
+        "is_bot": false,
+        "login": "cdimurro",
+        "type": "User",
+        "url": "https://github.com/cdimurro"
+      },
+      "updatedAt": "2026-04-20T14:03:50Z",
+      "url": "https://github.com/cdimurro/the-exergy-imperative"
+    },
+    {
+      "description": "Revision of all topics",
+      "fullName": "Gopal564/Chemical-Engineering-Revision",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjg3OTc1MTQ0",
+        "is_bot": false,
+        "login": "Gopal564",
+        "type": "User",
+        "url": "https://github.com/Gopal564"
+      },
+      "updatedAt": "2025-03-15T04:44:37Z",
+      "url": "https://github.com/Gopal564/Chemical-Engineering-Revision"
+    }
+  ]
+}

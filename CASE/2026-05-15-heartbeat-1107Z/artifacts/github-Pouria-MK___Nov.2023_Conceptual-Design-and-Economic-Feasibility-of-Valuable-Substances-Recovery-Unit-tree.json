@@ -1,0 +1,147 @@
+{
+  "sha": "c22dc6b5f01e9c287669b9bdffd4162a541efda0",
+  "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/trees/c22dc6b5f01e9c287669b9bdffd4162a541efda0",
+  "tree": [
+    {
+      "path": "DIG",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32fd36da989f48b898838dfc7f625f3803b05d15",
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/trees/32fd36da989f48b898838dfc7f625f3803b05d15"
+    },
+    {
+      "path": "DIG/Main-reactions-occurring-in-the-CO2-H2-system.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6649d37a2d6c341d5102b6cc22656f52fe3475",
+      "size": 30540,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/5f6649d37a2d6c341d5102b6cc22656f52fe3475"
+    },
+    {
+      "path": "DIG/compressor and cooling water.vsdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3047f80518efd33f08cbee10d6efc4610ea909eb",
+      "size": 66917,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/3047f80518efd33f08cbee10d6efc4610ea909eb"
+    },
+    {
+      "path": "DIG/cooling cycle and no compressor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87d738fdc9ec1c332c3361b4019f2f2c833a2835",
+      "size": 28777,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/87d738fdc9ec1c332c3361b4019f2f2c833a2835"
+    },
+    {
+      "path": "DIG/cooling cycle and no compressor.vsdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a6f6746d9a2ee148daebd370b7ef8611181b807",
+      "size": 65500,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/2a6f6746d9a2ee148daebd370b7ef8611181b807"
+    },
+    {
+      "path": "DOCS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23ffc3b1593d2be8507b88a534e39291edc2d86b",
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/trees/23ffc3b1593d2be8507b88a534e39291edc2d86b"
+    },
+    {
+      "path": "DOCS/Plant_Design_1402_1_HW2_R01.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044ecbdf8e0efe190600267a0d625e882846b596",
+      "size": 150115,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/044ecbdf8e0efe190600267a0d625e882846b596"
+    },
+    {
+      "path": "DOCS/REPORT.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c93c5cfe705a8b1312d99d52f7a458e4c9c8ab92",
+      "size": 1435109,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/c93c5cfe705a8b1312d99d52f7a458e4c9c8ab92"
+    },
+    {
+      "path": "MISC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9560409ccccd39f26d136f6cb6c011d5d72d1c1c",
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/trees/9560409ccccd39f26d136f6cb6c011d5d72d1c1c"
+    },
+    {
+      "path": "MISC/case study 1.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cee8c23836847c7b71d2a4b673ab9fc477677fa",
+      "size": 22488,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/4cee8c23836847c7b71d2a4b673ab9fc477677fa"
+    },
+    {
+      "path": "MISC/q_cond vs vap frac.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6852127f6ba1ca7258f9ad09d15aa34c1df908c",
+      "size": 212581,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/b6852127f6ba1ca7258f9ad09d15aa34c1df908c"
+    },
+    {
+      "path": "MISC/temp vs vap frac.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb90f1614141a05482be5f1c6f13037ee349c2e",
+      "size": 210799,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/dbb90f1614141a05482be5f1c6f13037ee349c2e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "333fa812a23c5a7b6497b8f3b52586e523f09279",
+      "size": 3409,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/333fa812a23c5a7b6497b8f3b52586e523f09279"
+    },
+    {
+      "path": "SIM",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5945c13f5d733a6f24ea6623cd271ceb39093954",
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/trees/5945c13f5d733a6f24ea6623cd271ceb39093954"
+    },
+    {
+      "path": "SIM/compressor and cooling water.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f1c05455fe870a95de5b0256168f1fb8481cef",
+      "size": 768823,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/a1f1c05455fe870a95de5b0256168f1fb8481cef"
+    },
+    {
+      "path": "SIM/compressor and cooling water.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2fe8bab206809cc896cf1e613e78cc1268cf7b",
+      "size": 3376416,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/ea2fe8bab206809cc896cf1e613e78cc1268cf7b"
+    },
+    {
+      "path": "SIM/no compressor and cooling cycle.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f720882d51f94392a2e34a5712c790db6b2a35",
+      "size": 749936,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/58f720882d51f94392a2e34a5712c790db6b2a35"
+    },
+    {
+      "path": "SIM/no compressor and cooling cycle.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "009c6e0532ca2fa09e70ad82b459766dd38ae0fd",
+      "size": 3392908,
+      "url": "https://api.github.com/repos/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/git/blobs/009c6e0532ca2fa09e70ad82b459766dd38ae0fd"
+    }
+  ],
+  "truncated": false
+}

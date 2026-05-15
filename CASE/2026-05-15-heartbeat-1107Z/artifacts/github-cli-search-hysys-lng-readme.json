@@ -1,0 +1,125 @@
+{
+  "query": "HYSYS LNG in:readme",
+  "items": [
+    {
+      "description": "Predicting saturated vapor pressure of LNG from density and temperature data with a view to improving tank pressure management.",
+      "fullName": "sai-ashwin-2001/ml-proj-bitsf464",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjY0ODg3NDE1",
+        "is_bot": false,
+        "login": "sai-ashwin-2001",
+        "type": "User",
+        "url": "https://github.com/sai-ashwin-2001"
+      },
+      "updatedAt": "2022-04-22T17:12:45Z",
+      "url": "https://github.com/sai-ashwin-2001/ml-proj-bitsf464"
+    },
+    {
+      "description": "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+      "fullName": "leoyong1983-spec/AI-HYSYS-Skill",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOEGlu5w",
+        "is_bot": false,
+        "login": "leoyong1983-spec",
+        "type": "User",
+        "url": "https://github.com/leoyong1983-spec"
+      },
+      "updatedAt": "2026-05-15T09:33:46Z",
+      "url": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill"
+    },
+    {
+      "description": "The simulation is about Nitrogen Rejection using Cryogenic Distillation in Aspen HYSYS",
+      "fullName": "abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOB0Btmw",
+        "is_bot": false,
+        "login": "abdulhafiz891",
+        "type": "User",
+        "url": "https://github.com/abdulhafiz891"
+      },
+      "updatedAt": "2023-04-10T09:59:55Z",
+      "url": "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection"
+    },
+    {
+      "description": "Deep Learning-Accelerated Exergy Analysis for Cryogenic Refrigeration Cycles",
+      "fullName": "alimardani76/pyexergy",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjkxMTMzNDAx",
+        "is_bot": false,
+        "login": "alimardani76",
+        "type": "User",
+        "url": "https://github.com/alimardani76"
+      },
+      "updatedAt": "2026-02-13T23:37:15Z",
+      "url": "https://github.com/alimardani76/pyexergy"
+    },
+    {
+      "description": "",
+      "fullName": "wakeelahmedsyed/wakeelahmedsyed.github.io",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjY2OTA4Nzcz",
+        "is_bot": false,
+        "login": "wakeelahmedsyed",
+        "type": "User",
+        "url": "https://github.com/wakeelahmedsyed"
+      },
+      "updatedAt": "2026-05-04T12:28:39Z",
+      "url": "https://github.com/wakeelahmedsyed/wakeelahmedsyed.github.io"
+    },
+    {
+      "description": "",
+      "fullName": "jasa03/jasa03.github.io",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBcEKPg",
+        "is_bot": false,
+        "login": "jasa03",
+        "type": "User",
+        "url": "https://github.com/jasa03"
+      },
+      "updatedAt": "2025-12-14T05:58:25Z",
+      "url": "https://github.com/jasa03/jasa03.github.io"
+    }
+  ]
+}

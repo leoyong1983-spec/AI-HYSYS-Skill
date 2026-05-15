@@ -1,0 +1,325 @@
+{
+  "query": "HYSYS methanol in:readme",
+  "items": [
+    {
+      "description": "Chemical process simulation with Aspen | Hysys",
+      "fullName": "CristopherCano/Projects-ASPEN-HYSYS",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjcxOTE1MDY4",
+        "is_bot": false,
+        "login": "CristopherCano",
+        "type": "User",
+        "url": "https://github.com/CristopherCano"
+      },
+      "updatedAt": "2025-04-16T19:19:39Z",
+      "url": "https://github.com/CristopherCano/Projects-ASPEN-HYSYS"
+    },
+    {
+      "description": "This is my second project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+      "fullName": "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCIrxHA",
+        "is_bot": false,
+        "login": "Pouria-MK",
+        "type": "User",
+        "url": "https://github.com/Pouria-MK"
+      },
+      "updatedAt": "2026-03-30T17:19:52Z",
+      "url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit"
+    },
+    {
+      "description": "Config files for my GitHub profile.",
+      "fullName": "AbdulMoiz00/AbdulMoiz00",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBliKrw",
+        "is_bot": false,
+        "login": "AbdulMoiz00",
+        "type": "User",
+        "url": "https://github.com/AbdulMoiz00"
+      },
+      "updatedAt": "2026-04-12T14:42:20Z",
+      "url": "https://github.com/AbdulMoiz00/AbdulMoiz00"
+    },
+    {
+      "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+      "fullName": "sanjay-saran/dme-production-methanol",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBz9xbQ",
+        "is_bot": false,
+        "login": "sanjay-saran",
+        "type": "User",
+        "url": "https://github.com/sanjay-saran"
+      },
+      "updatedAt": "2025-04-23T13:35:19Z",
+      "url": "https://github.com/sanjay-saran/dme-production-methanol"
+    },
+    {
+      "description": "This project simulates the Rectisol process for CO₂ removal from pre-combustion syngas generated from air-blown gasification in an IGCC (Integrated Gasification Combined Cycle) power plant.",
+      "fullName": "sanjay-saran/Rectisol-IGCC-Air-sim",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBz9xbQ",
+        "is_bot": false,
+        "login": "sanjay-saran",
+        "type": "User",
+        "url": "https://github.com/sanjay-saran"
+      },
+      "updatedAt": "2025-04-27T15:29:01Z",
+      "url": "https://github.com/sanjay-saran/Rectisol-IGCC-Air-sim"
+    },
+    {
+      "description": "",
+      "fullName": "sakw150/Chemical-Process-Synthesis-",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBuB0kQ",
+        "is_bot": false,
+        "login": "sakw150",
+        "type": "User",
+        "url": "https://github.com/sakw150"
+      },
+      "updatedAt": "2022-12-13T02:49:42Z",
+      "url": "https://github.com/sakw150/Chemical-Process-Synthesis-"
+    },
+    {
+      "description": "",
+      "fullName": "ArminHasanpour/ArminHasanpour",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODGl9wA",
+        "is_bot": false,
+        "login": "ArminHasanpour",
+        "type": "User",
+        "url": "https://github.com/ArminHasanpour"
+      },
+      "updatedAt": "2025-04-19T12:34:05Z",
+      "url": "https://github.com/ArminHasanpour/ArminHasanpour"
+    },
+    {
+      "description": "",
+      "fullName": "praga-del/distillation-design",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOD2vOlw",
+        "is_bot": false,
+        "login": "praga-del",
+        "type": "User",
+        "url": "https://github.com/praga-del"
+      },
+      "updatedAt": "2026-04-01T17:36:09Z",
+      "url": "https://github.com/praga-del/distillation-design"
+    },
+    {
+      "description": "",
+      "fullName": "AdityaSharma911/ML-for-DME-Optimization-",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU1MjcwOTgy",
+        "is_bot": false,
+        "login": "AdityaSharma911",
+        "type": "User",
+        "url": "https://github.com/AdityaSharma911"
+      },
+      "updatedAt": "2023-07-31T15:38:40Z",
+      "url": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-"
+    },
+    {
+      "description": "",
+      "fullName": "praga-del/distillation-stages",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOD2vOlw",
+        "is_bot": false,
+        "login": "praga-del",
+        "type": "User",
+        "url": "https://github.com/praga-del"
+      },
+      "updatedAt": "2026-04-01T11:59:08Z",
+      "url": "https://github.com/praga-del/distillation-stages"
+    },
+    {
+      "description": "",
+      "fullName": "praga-del/distillation",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOD2vOlw",
+        "is_bot": false,
+        "login": "praga-del",
+        "type": "User",
+        "url": "https://github.com/praga-del"
+      },
+      "updatedAt": "2026-04-01T12:28:06Z",
+      "url": "https://github.com/praga-del/distillation"
+    },
+    {
+      "description": "",
+      "fullName": "praga-del/distillation_design-",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOD2vOlw",
+        "is_bot": false,
+        "login": "praga-del",
+        "type": "User",
+        "url": "https://github.com/praga-del"
+      },
+      "updatedAt": "2026-04-02T15:50:54Z",
+      "url": "https://github.com/praga-del/distillation_design-"
+    },
+    {
+      "description": "Methanol Synthesis Reactor Model",
+      "fullName": "ldminnes/msr-pbr",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjc2NTkwMTI4",
+        "is_bot": false,
+        "login": "ldminnes",
+        "type": "User",
+        "url": "https://github.com/ldminnes"
+      },
+      "updatedAt": "2025-09-16T15:55:32Z",
+      "url": "https://github.com/ldminnes/msr-pbr"
+    },
+    {
+      "description": "",
+      "fullName": "z08r3p/CHEN90012",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOC3pSAQ",
+        "is_bot": false,
+        "login": "z08r3p",
+        "type": "User",
+        "url": "https://github.com/z08r3p"
+      },
+      "updatedAt": "2024-12-31T12:26:00Z",
+      "url": "https://github.com/z08r3p/CHEN90012"
+    },
+    {
+      "description": "",
+      "fullName": "wesleyZero/capstone_II",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOB6-aSw",
+        "is_bot": false,
+        "login": "wesleyZero",
+        "type": "User",
+        "url": "https://github.com/wesleyZero"
+      },
+      "updatedAt": "2024-06-21T16:46:47Z",
+      "url": "https://github.com/wesleyZero/capstone_II"
+    },
+    {
+      "description": "A complete guide to exergy analysis and its role in the energy transition. Open-sourced by Exergy Lab.",
+      "fullName": "cdimurro/the-exergy-imperative",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODRaxWg",
+        "is_bot": false,
+        "login": "cdimurro",
+        "type": "User",
+        "url": "https://github.com/cdimurro"
+      },
+      "updatedAt": "2026-04-20T14:03:50Z",
+      "url": "https://github.com/cdimurro/the-exergy-imperative"
+    }
+  ]
+}
