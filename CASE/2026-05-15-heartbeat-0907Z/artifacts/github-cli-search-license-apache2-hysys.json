@@ -1,0 +1,25 @@
+{
+  "query": "HYSYS license:apache-2.0",
+  "items": [
+    {
+      "description": "",
+      "fullName": "stonedingwt/HYSys",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "url": "https://api.github.com/licenses/apache-2.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjUzODczODk1",
+        "is_bot": false,
+        "login": "stonedingwt",
+        "type": "User",
+        "url": "https://github.com/stonedingwt"
+      },
+      "updatedAt": "2026-03-08T15:43:26Z",
+      "url": "https://github.com/stonedingwt/HYSys"
+    }
+  ]
+}

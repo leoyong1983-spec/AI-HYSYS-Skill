@@ -1,0 +1,127 @@
+{
+  "final_new_downloads": [],
+  "duplicate_payloads_removed_before_commit": [
+    {
+      "repo": "shahria-sunny/Natural-Gas-Sweetening",
+      "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+      "license": "MIT",
+      "attempted_files": [
+        {
+          "source_path": "Gas Sweetening Report.pdf",
+          "sha256": "42d87b82a0256ee4964345a95097079dd1831202cf0dbb37d629bf9997896206",
+          "size_bytes": 509135
+        },
+        {
+          "source_path": "Gas Sweetening.hsc",
+          "sha256": "fcda75090796e9ba8a69bfb29a769deea36761d11d26c93d51d98318d19d4610",
+          "size_bytes": 1257174
+        },
+        {
+          "source_path": "LICENSE",
+          "sha256": "fbe106769586a0dc58e757d2573a06250b2c6dd5441086db57a89bbf594916b1",
+          "size_bytes": 1078
+        },
+        {
+          "source_path": "README.md",
+          "sha256": "95c3fcb2ac15892974ea722b67968bbd84c267ba8e25faae57a21cc2ca88e916",
+          "size_bytes": 5650
+        }
+      ],
+      "existing_archive_paths": [
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main.zip",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening.hsc"
+      ],
+      "action": "removed_current_run_payload_before_commit_after_sha_dedupe"
+    },
+    {
+      "repo": "shahria-sunny/CDU-Simulation-Optimization",
+      "source_page": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+      "license": "MIT",
+      "attempted_files": [
+        {
+          "source_path": "CDU_Report.pdf",
+          "sha256": "f6342deb74233ff0bba84a0576d0f3fe9e980faace527927557b960b8dc68f5d",
+          "size_bytes": 322508
+        },
+        {
+          "source_path": "LICENSE",
+          "sha256": "fbe106769586a0dc58e757d2573a06250b2c6dd5441086db57a89bbf594916b1",
+          "size_bytes": 1078
+        },
+        {
+          "source_path": "README.md",
+          "sha256": "6828dea0de571f5ad0817418ca8696bd6a0c69fad0e45492aec16f12f362af15",
+          "size_bytes": 7898
+        },
+        {
+          "source_path": "project.hsc",
+          "sha256": "795c3587c611405f4786115514030036987615e47c33fe74aba1fcb1610fbdd2",
+          "size_bytes": 765164
+        }
+      ],
+      "existing_archive_paths": [
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main.zip",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/project.hsc"
+      ],
+      "action": "removed_current_run_payload_before_commit_after_sha_dedupe"
+    },
+    {
+      "repo": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "source_page": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "license": "MIT",
+      "attempted_files": [
+        {
+          "source_path": "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+          "sha256": "312418da47afc724bd75ef9d61c05c95cb1ad783010d39bc06793a25b579b9ac",
+          "size_bytes": 262372
+        },
+        {
+          "source_path": "ASPEN HYSYS/aspen report.pdf",
+          "sha256": "c8468eaaa9e3990db7c024a59a0c6c85e3ee316d507ee570ef2044ebad14293b",
+          "size_bytes": 143415
+        },
+        {
+          "source_path": "DWSIM/dwsim report.pdf",
+          "sha256": "f3e51b2b30b01fdac9ccaf9bbff6b22370abf578d3392dbec63c4ed477b43d5a",
+          "size_bytes": 218159
+        },
+        {
+          "source_path": "LICENSE",
+          "sha256": "2fc2b29226692a8475140def88a7acc02cb6d1d8b0eefdc0edbecf3549dd62bc",
+          "size_bytes": 1080
+        },
+        {
+          "source_path": "MATLAB/Pressure_Drop_Estimation_in_Pipelines.m",
+          "sha256": "154695977a1ecdd279c6d64224a8deb28dbeae062f0347c87d72610bdeb12034",
+          "size_bytes": 2980
+        },
+        {
+          "source_path": "MS EXCEL/Pressure Drop Estimation in Pipelines.xlsx",
+          "sha256": "48644f2d8ea3fa0c6641c30e6a95a244a0ee5478fc2b8a75caa18b7f49be6da2",
+          "size_bytes": 14138
+        },
+        {
+          "source_path": "PYTHON/Pressure Drop Estimation in Pipelines.py",
+          "sha256": "a08e9627216b4f7c07b533a3cf04050287aaf566742bdb69408e7cdffb819259",
+          "size_bytes": 3026
+        },
+        {
+          "source_path": "Pressure Drop Estimation in Pipelines-ppt.pdf",
+          "sha256": "5f718989fac6572b1869837637c34360b28854b60340d98ccf9b9872857fb18a",
+          "size_bytes": 849484
+        },
+        {
+          "source_path": "README.md",
+          "sha256": "61b9b694c1098e46890667cc2e1ac6c672f7580bb1a9fe292b827ac156b8bc7b",
+          "size_bytes": 3489
+        }
+      ],
+      "existing_archive_paths": [
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main.zip",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc"
+      ],
+      "action": "removed_current_run_payload_before_commit_after_sha_dedupe"
+    }
+  ],
+  "note": "These MIT repositories were re-discovered and briefly fetched for SHA verification, but SHA/source-page dedupe showed they were already archived. Current-run payload directories were removed before commit; only metadata and this dedupe evidence remain."
+}
