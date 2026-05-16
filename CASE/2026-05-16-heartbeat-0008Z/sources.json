@@ -1,0 +1,361 @@
+[
+  {
+    "title": "ML for DME Optimization HYSYS-adjacent lead",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-",
+    "download_url": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-0008-tree-summary.json",
+        "filename": "github-0008-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 9944,
+        "sha256": "22b1c40cb9d100dfc2d0c11b3cbf0e857dba06c77cb8e4dd3633b1c6261daf61"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata/search result was accessible, but no qualifying .hsc/.hscz/HYSYS XML/.compound file was found. No payload was downloaded.",
+    "recommended_use": "No benchmark use until a public HYSYS case file is added.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-",
+      "download_url": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-",
+      "title": "AdityaSharma911/ML-for-DME-Optimization-",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "MIT repository surfaced by HYSYS compound query, but tree contains Markdown and notebooks only; no HYSYS model file.",
+      "No model, script, notebook or workbook was downloaded or executed."
+    ]
+  },
+  {
+    "title": "CheProcess thermodynamic package lead",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/AhmadAlsaadi/CheProcess",
+    "download_url": "https://github.com/AhmadAlsaadi/CheProcess",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-0008-tree-summary.json",
+        "filename": "github-0008-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 9944,
+        "sha256": "22b1c40cb9d100dfc2d0c11b3cbf0e857dba06c77cb8e4dd3633b1c6261daf61"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata/search result was accessible, but no qualifying .hsc/.hscz/HYSYS XML/.compound file was found. No payload was downloaded.",
+    "recommended_use": "Reference only; not a HYSYS model benchmark.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/AhmadAlsaadi/CheProcess",
+      "download_url": "https://github.com/AhmadAlsaadi/CheProcess",
+      "title": "AhmadAlsaadi/CheProcess",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GPL-3.0 repository surfaced by compound query, but tree contains Python code only and no HYSYS case file.",
+      "No model, script, notebook or workbook was downloaded or executed."
+    ]
+  },
+  {
+    "title": "DWSIM interop services lead",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+    "download_url": "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-0008-tree-summary.json",
+        "filename": "github-0008-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 9944,
+        "sha256": "22b1c40cb9d100dfc2d0c11b3cbf0e857dba06c77cb8e4dd3633b1c6261daf61"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata/search result was accessible, but no qualifying .hsc/.hscz/HYSYS XML/.compound file was found. No payload was downloaded.",
+    "recommended_use": "Interop reference only; not a HYSYS benchmark case.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+      "download_url": "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+      "title": "OntoLedgy/ol_dwsim_interop_services",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "AGPL-3.0 repository surfaced by compound query, but no HYSYS case file exists in tree.",
+      "No model, script, notebook or workbook was downloaded or executed."
+    ]
+  },
+  {
+    "title": "GitHub-first 2026-05-16 0008Z dynamic/distillation/version sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/search",
+    "download_url": "https://github.com/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-0008-search-merged-repos.json",
+        "filename": "github-0008-search-merged-repos.json",
+        "file_type": "json",
+        "size_bytes": 9256,
+        "sha256": "be398c9300e533adf5f4af6d694573825c9a49e08108b102fca3a5a64cdcb794"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-0008-tree-summary.json",
+        "filename": "github-0008-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 9944,
+        "sha256": "22b1c40cb9d100dfc2d0c11b3cbf0e857dba06c77cb8e4dd3633b1c6261daf61"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-acid-gas-hsc.json",
+        "filename": "github-cli-search-hysys-acid-gas-hsc.json",
+        "file_type": "json",
+        "size_bytes": 67,
+        "sha256": "20f1db183956d1d521d9100a2a8b4d1d8edd933b8e0e44c398635086c9eaebd2"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-amine-hsc.json",
+        "filename": "github-cli-search-hysys-amine-hsc.json",
+        "file_type": "json",
+        "size_bytes": 60,
+        "sha256": "a9f767c4e95f12d08669288f7a723cce6ddd358ce18fc05595843372be2fc9a7"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-compound.json",
+        "filename": "github-cli-search-hysys-compound.json",
+        "file_type": "json",
+        "size_bytes": 6764,
+        "sha256": "412aca67266270f5a2cfdd1a9587a0ee2fa82b66b1aa6b8ced879ee2014caaad"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-dehydration-hsc.json",
+        "filename": "github-cli-search-hysys-dehydration-hsc.json",
+        "file_type": "json",
+        "size_bytes": 717,
+        "sha256": "0a20f38ad95ca3046e8e42840142ee9e160e8b1ca21673995d3a050af437f0bb"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-distillation-hsc.json",
+        "filename": "github-cli-search-hysys-distillation-hsc.json",
+        "file_type": "json",
+        "size_bytes": 3540,
+        "sha256": "c0e2e2023fc0345a53bc8acbc137a8ce09b6a6914d1d395373e86bb8a6c821ee"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-dynamic-hsc.json",
+        "filename": "github-cli-search-hysys-dynamic-hsc.json",
+        "file_type": "json",
+        "size_bytes": 77,
+        "sha256": "883cc0f95cc02101574e78f10adf0a4234fe62c6ff63658928f40b980ad28878"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-hscz.json",
+        "filename": "github-cli-search-hysys-hscz.json",
+        "file_type": "json",
+        "size_bytes": 55,
+        "sha256": "dcd163395d9da097718040a9b09df9ef272c4a314e0347a86d8ff7e4cfcfcf46"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-license-mit.json",
+        "filename": "github-cli-search-hysys-license-mit.json",
+        "file_type": "json",
+        "size_bytes": 56,
+        "sha256": "207a5cdcb414b55f47fea2f76b9ba27c15de9d57e6e2ceb3f444e9b9e5d83b8b"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-supplementary.json",
+        "filename": "github-cli-search-hysys-supplementary.json",
+        "file_type": "json",
+        "size_bytes": 679,
+        "sha256": "81d0b89e8d664583e96fa255dc0ac4000c24ae1f79e25d8a5bb507d7d4af04e3"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-v12-hsc.json",
+        "filename": "github-cli-search-hysys-v12-hsc.json",
+        "file_type": "json",
+        "size_bytes": 68,
+        "sha256": "dffcb8488bddccfadcbc565692269270c798b5247db3f0c3ae6814dbd1e1fcec"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-v14-hsc.json",
+        "filename": "github-cli-search-hysys-v14-hsc.json",
+        "file_type": "json",
+        "size_bytes": 733,
+        "sha256": "6e53d410852f99a676c7b4511f6f8877629104c5a5774657e95ffe4b845c754a"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/github-cli-search-hysys-validation.json",
+        "filename": "github-cli-search-hysys-validation.json",
+        "file_type": "json",
+        "size_bytes": 1264,
+        "sha256": "7346063a0c4882da62c79393e5fee9f89c02fce42f5d67d5175049765016b92a"
+      }
+    ],
+    "license_public_access_note": "Search and tree metadata only. No new licensed, non-duplicate HYSYS model payload was found.",
+    "recommended_use": "Use this sweep to suppress no-model compound-query false positives and continue prioritizing tree-confirmed model files.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/search",
+      "download_url": "https://github.com/search",
+      "title": "GitHub-first 2026-05-16 0008Z dynamic/distillation/version sweep",
+      "filenames": [
+        "github-0008-search-merged-repos.json",
+        "github-0008-tree-summary.json",
+        "github-cli-search-hysys-acid-gas-hsc.json",
+        "github-cli-search-hysys-amine-hsc.json",
+        "github-cli-search-hysys-compound.json",
+        "github-cli-search-hysys-dehydration-hsc.json",
+        "github-cli-search-hysys-distillation-hsc.json",
+        "github-cli-search-hysys-dynamic-hsc.json",
+        "github-cli-search-hysys-hscz.json",
+        "github-cli-search-hysys-license-mit.json",
+        "github-cli-search-hysys-supplementary.json",
+        "github-cli-search-hysys-v12-hsc.json",
+        "github-cli-search-hysys-v14-hsc.json",
+        "github-cli-search-hysys-validation.json"
+      ],
+      "sha256": [
+        "be398c9300e533adf5f4af6d694573825c9a49e08108b102fca3a5a64cdcb794",
+        "22b1c40cb9d100dfc2d0c11b3cbf0e857dba06c77cb8e4dd3633b1c6261daf61",
+        "20f1db183956d1d521d9100a2a8b4d1d8edd933b8e0e44c398635086c9eaebd2",
+        "a9f767c4e95f12d08669288f7a723cce6ddd358ce18fc05595843372be2fc9a7",
+        "412aca67266270f5a2cfdd1a9587a0ee2fa82b66b1aa6b8ced879ee2014caaad",
+        "0a20f38ad95ca3046e8e42840142ee9e160e8b1ca21673995d3a050af437f0bb",
+        "c0e2e2023fc0345a53bc8acbc137a8ce09b6a6914d1d395373e86bb8a6c821ee",
+        "883cc0f95cc02101574e78f10adf0a4234fe62c6ff63658928f40b980ad28878",
+        "dcd163395d9da097718040a9b09df9ef272c4a314e0347a86d8ff7e4cfcfcf46",
+        "207a5cdcb414b55f47fea2f76b9ba27c15de9d57e6e2ceb3f444e9b9e5d83b8b",
+        "81d0b89e8d664583e96fa255dc0ac4000c24ae1f79e25d8a5bb507d7d4af04e3",
+        "dffcb8488bddccfadcbc565692269270c798b5247db3f0c3ae6814dbd1e1fcec",
+        "6e53d410852f99a676c7b4511f6f8877629104c5a5774657e95ffe4b845c754a",
+        "7346063a0c4882da62c79393e5fee9f89c02fce42f5d67d5175049765016b92a"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub repository search returned code-only or no-model repositories.",
+      "No payload files were downloaded."
+    ]
+  },
+  {
+    "title": "Scientific data repository 2026-05-16 0008Z targeted sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://zenodo.org/search",
+    "download_url": "https://zenodo.org/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/zenodo-0008-targeted-search-results.json",
+        "filename": "zenodo-0008-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 213924,
+        "sha256": "10d31305286fbde0ecb73e9a8f0b65d05b6526250313a60a083657838fe5789a"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/figshare-0008-targeted-search-results.json",
+        "filename": "figshare-0008-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 16359,
+        "sha256": "937fc7bd8ffdc3f01224258ba3bbad356587082c4f2c78b8a6a74b6bb539c95f"
+      },
+      {
+        "path": "CASE/2026-05-16-heartbeat-0008Z/artifacts/harvard-dataverse-0008-targeted-search-results.json",
+        "filename": "harvard-dataverse-0008-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 21216,
+        "sha256": "4b8c495fad04158363da817fbc1844ffa0a313532c3c0a31f885b3b430bda371"
+      }
+    ],
+    "license_public_access_note": "Zenodo, Figshare and Harvard Dataverse metadata were searched. Results were known duplicates, irrelevant false positives, or did not expose qualifying .hsc/.hscz/HYSYS XML/.compound payloads.",
+    "recommended_use": "Use the metadata to refine search filters; keep Zenodo 14882867 and other prior Zenodo HYSYS records on the duplicate allowlist.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/search",
+      "download_url": "https://zenodo.org/search",
+      "title": "Scientific data repository 2026-05-16 0008Z targeted sweep",
+      "filenames": [
+        "zenodo-0008-targeted-search-results.json",
+        "figshare-0008-targeted-search-results.json",
+        "harvard-dataverse-0008-targeted-search-results.json"
+      ],
+      "sha256": [
+        "10d31305286fbde0ecb73e9a8f0b65d05b6526250313a60a083657838fe5789a",
+        "937fc7bd8ffdc3f01224258ba3bbad356587082c4f2c78b8a6a74b6bb539c95f",
+        "4b8c495fad04158363da817fbc1844ffa0a313532c3c0a31f885b3b430bda371"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Figshare returned broad irrelevant results for HYSYS terms.",
+      "Harvard Dataverse returned mostly unrelated HSC abbreviation hits.",
+      "Zenodo hits were mostly PDF/XLSX, .lnr/.apw, or already-known duplicates."
+    ]
+  }
+]

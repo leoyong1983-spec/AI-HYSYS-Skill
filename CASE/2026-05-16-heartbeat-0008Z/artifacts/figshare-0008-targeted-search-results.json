@@ -1,0 +1,392 @@
+[
+  {
+    "query": "Aspen HYSYS hsc",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+hsc&page_size=8",
+    "hits": [
+      {
+        "id": 32305323,
+        "title": "MacArthur Foundation 100&Change Registration Submission – Mind Medicine Australia 2024",
+        "doi": "10.6084/m9.figshare.32305323.v2",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305323",
+        "published_date": "2026-05-16T00:05:35Z",
+        "defined_type_name": "online resource"
+      },
+      {
+        "id": 32305332,
+        "title": "AI Mediated Cognition Canonical FAQ and Field Guide: How AI Changes Thinking, Memory, and Meaning",
+        "doi": "10.6084/m9.figshare.32305332.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305332",
+        "published_date": "2026-05-16T00:04:50Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305317,
+        "title": "<b>Dataset & R codes-</b><b>Top-down effects dominate the relationship between plant–herbivorous insect interactions and ecosystem stability</b>",
+        "doi": "10.6084/m9.figshare.32305317.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305317",
+        "published_date": "2026-05-16T00:03:40Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305326,
+        "title": "Cognitive Drift and Co Cognition Canonical Overview FAQ: AI Mediated Thought, Recursive Feedback, and Semantic Stability",
+        "doi": "10.6084/m9.figshare.32305326.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305326",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305329,
+        "title": "PLS Results",
+        "doi": "10.6084/m9.figshare.32305329.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305329",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305299,
+        "title": "<b><i>S</i></b><b>upplementary Material</b>",
+        "doi": "10.6084/m9.figshare.32305299.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305299",
+        "published_date": "2026-05-15T23:48:23Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305316,
+        "title": "Decoding Chemical\nResonance in π‑Conjugated\nSystems",
+        "doi": "10.1021/acsphyschemau.6c00031.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305316",
+        "published_date": "2026-05-15T23:44:27Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305313,
+        "title": "Sulphopreussomerins:\nSulfur-Containing Preussomerins\nIsolated from the Marine-Derived Fungus Pyrenochaetopsis\nindica",
+        "doi": "10.1021/acs.jnatprod.6c00324.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305313",
+        "published_date": "2026-05-15T23:43:51Z",
+        "defined_type_name": "journal contribution"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS hscz",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+hscz&page_size=8",
+    "hits": [
+      {
+        "id": 32305323,
+        "title": "MacArthur Foundation 100&Change Registration Submission – Mind Medicine Australia 2024",
+        "doi": "10.6084/m9.figshare.32305323.v2",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305323",
+        "published_date": "2026-05-16T00:05:35Z",
+        "defined_type_name": "online resource"
+      },
+      {
+        "id": 32305332,
+        "title": "AI Mediated Cognition Canonical FAQ and Field Guide: How AI Changes Thinking, Memory, and Meaning",
+        "doi": "10.6084/m9.figshare.32305332.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305332",
+        "published_date": "2026-05-16T00:04:50Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305317,
+        "title": "<b>Dataset & R codes-</b><b>Top-down effects dominate the relationship between plant–herbivorous insect interactions and ecosystem stability</b>",
+        "doi": "10.6084/m9.figshare.32305317.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305317",
+        "published_date": "2026-05-16T00:03:40Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305326,
+        "title": "Cognitive Drift and Co Cognition Canonical Overview FAQ: AI Mediated Thought, Recursive Feedback, and Semantic Stability",
+        "doi": "10.6084/m9.figshare.32305326.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305326",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305329,
+        "title": "PLS Results",
+        "doi": "10.6084/m9.figshare.32305329.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305329",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305299,
+        "title": "<b><i>S</i></b><b>upplementary Material</b>",
+        "doi": "10.6084/m9.figshare.32305299.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305299",
+        "published_date": "2026-05-15T23:48:23Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305316,
+        "title": "Decoding Chemical\nResonance in π‑Conjugated\nSystems",
+        "doi": "10.1021/acsphyschemau.6c00031.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305316",
+        "published_date": "2026-05-15T23:44:27Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305313,
+        "title": "Sulphopreussomerins:\nSulfur-Containing Preussomerins\nIsolated from the Marine-Derived Fungus Pyrenochaetopsis\nindica",
+        "doi": "10.1021/acs.jnatprod.6c00324.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305313",
+        "published_date": "2026-05-15T23:43:51Z",
+        "defined_type_name": "journal contribution"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS dynamic simulation",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+dynamic+simulation&page_size=8",
+    "hits": [
+      {
+        "id": 32305323,
+        "title": "MacArthur Foundation 100&Change Registration Submission – Mind Medicine Australia 2024",
+        "doi": "10.6084/m9.figshare.32305323.v2",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305323",
+        "published_date": "2026-05-16T00:05:35Z",
+        "defined_type_name": "online resource"
+      },
+      {
+        "id": 32305332,
+        "title": "AI Mediated Cognition Canonical FAQ and Field Guide: How AI Changes Thinking, Memory, and Meaning",
+        "doi": "10.6084/m9.figshare.32305332.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305332",
+        "published_date": "2026-05-16T00:04:50Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305317,
+        "title": "<b>Dataset & R codes-</b><b>Top-down effects dominate the relationship between plant–herbivorous insect interactions and ecosystem stability</b>",
+        "doi": "10.6084/m9.figshare.32305317.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305317",
+        "published_date": "2026-05-16T00:03:40Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305326,
+        "title": "Cognitive Drift and Co Cognition Canonical Overview FAQ: AI Mediated Thought, Recursive Feedback, and Semantic Stability",
+        "doi": "10.6084/m9.figshare.32305326.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305326",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305329,
+        "title": "PLS Results",
+        "doi": "10.6084/m9.figshare.32305329.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305329",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305299,
+        "title": "<b><i>S</i></b><b>upplementary Material</b>",
+        "doi": "10.6084/m9.figshare.32305299.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305299",
+        "published_date": "2026-05-15T23:48:23Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305316,
+        "title": "Decoding Chemical\nResonance in π‑Conjugated\nSystems",
+        "doi": "10.1021/acsphyschemau.6c00031.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305316",
+        "published_date": "2026-05-15T23:44:27Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305313,
+        "title": "Sulphopreussomerins:\nSulfur-Containing Preussomerins\nIsolated from the Marine-Derived Fungus Pyrenochaetopsis\nindica",
+        "doi": "10.1021/acs.jnatprod.6c00324.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305313",
+        "published_date": "2026-05-15T23:43:51Z",
+        "defined_type_name": "journal contribution"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS distillation",
+    "url": "https://api.figshare.com/v2/articles?search_for=Aspen+HYSYS+distillation&page_size=8",
+    "hits": [
+      {
+        "id": 32305323,
+        "title": "MacArthur Foundation 100&Change Registration Submission – Mind Medicine Australia 2024",
+        "doi": "10.6084/m9.figshare.32305323.v2",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305323",
+        "published_date": "2026-05-16T00:05:35Z",
+        "defined_type_name": "online resource"
+      },
+      {
+        "id": 32305332,
+        "title": "AI Mediated Cognition Canonical FAQ and Field Guide: How AI Changes Thinking, Memory, and Meaning",
+        "doi": "10.6084/m9.figshare.32305332.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305332",
+        "published_date": "2026-05-16T00:04:50Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305317,
+        "title": "<b>Dataset & R codes-</b><b>Top-down effects dominate the relationship between plant–herbivorous insect interactions and ecosystem stability</b>",
+        "doi": "10.6084/m9.figshare.32305317.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305317",
+        "published_date": "2026-05-16T00:03:40Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305326,
+        "title": "Cognitive Drift and Co Cognition Canonical Overview FAQ: AI Mediated Thought, Recursive Feedback, and Semantic Stability",
+        "doi": "10.6084/m9.figshare.32305326.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305326",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305329,
+        "title": "PLS Results",
+        "doi": "10.6084/m9.figshare.32305329.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305329",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305299,
+        "title": "<b><i>S</i></b><b>upplementary Material</b>",
+        "doi": "10.6084/m9.figshare.32305299.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305299",
+        "published_date": "2026-05-15T23:48:23Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305316,
+        "title": "Decoding Chemical\nResonance in π‑Conjugated\nSystems",
+        "doi": "10.1021/acsphyschemau.6c00031.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305316",
+        "published_date": "2026-05-15T23:44:27Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305313,
+        "title": "Sulphopreussomerins:\nSulfur-Containing Preussomerins\nIsolated from the Marine-Derived Fungus Pyrenochaetopsis\nindica",
+        "doi": "10.1021/acs.jnatprod.6c00324.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305313",
+        "published_date": "2026-05-15T23:43:51Z",
+        "defined_type_name": "journal contribution"
+      }
+    ]
+  },
+  {
+    "query": "HYSYS supplementary hsc",
+    "url": "https://api.figshare.com/v2/articles?search_for=HYSYS+supplementary+hsc&page_size=8",
+    "hits": [
+      {
+        "id": 32305323,
+        "title": "MacArthur Foundation 100&Change Registration Submission – Mind Medicine Australia 2024",
+        "doi": "10.6084/m9.figshare.32305323.v2",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305323",
+        "published_date": "2026-05-16T00:05:35Z",
+        "defined_type_name": "online resource"
+      },
+      {
+        "id": 32305332,
+        "title": "AI Mediated Cognition Canonical FAQ and Field Guide: How AI Changes Thinking, Memory, and Meaning",
+        "doi": "10.6084/m9.figshare.32305332.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305332",
+        "published_date": "2026-05-16T00:04:50Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305317,
+        "title": "<b>Dataset & R codes-</b><b>Top-down effects dominate the relationship between plant–herbivorous insect interactions and ecosystem stability</b>",
+        "doi": "10.6084/m9.figshare.32305317.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305317",
+        "published_date": "2026-05-16T00:03:40Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305326,
+        "title": "Cognitive Drift and Co Cognition Canonical Overview FAQ: AI Mediated Thought, Recursive Feedback, and Semantic Stability",
+        "doi": "10.6084/m9.figshare.32305326.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305326",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "preprint"
+      },
+      {
+        "id": 32305329,
+        "title": "PLS Results",
+        "doi": "10.6084/m9.figshare.32305329.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305329",
+        "published_date": "2026-05-16T00:00:03Z",
+        "defined_type_name": "dataset"
+      },
+      {
+        "id": 32305299,
+        "title": "<b><i>S</i></b><b>upplementary Material</b>",
+        "doi": "10.6084/m9.figshare.32305299.v1",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305299",
+        "published_date": "2026-05-15T23:48:23Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305316,
+        "title": "Decoding Chemical\nResonance in π‑Conjugated\nSystems",
+        "doi": "10.1021/acsphyschemau.6c00031.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305316",
+        "published_date": "2026-05-15T23:44:27Z",
+        "defined_type_name": "journal contribution"
+      },
+      {
+        "id": 32305313,
+        "title": "Sulphopreussomerins:\nSulfur-Containing Preussomerins\nIsolated from the Marine-Derived Fungus Pyrenochaetopsis\nindica",
+        "doi": "10.1021/acs.jnatprod.6c00324.s001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/32305313",
+        "published_date": "2026-05-15T23:43:51Z",
+        "defined_type_name": "journal contribution"
+      }
+    ]
+  }
+]

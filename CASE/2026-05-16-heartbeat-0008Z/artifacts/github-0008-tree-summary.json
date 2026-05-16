@@ -1,0 +1,376 @@
+[
+  {
+    "repo": "jjgomera/pychemqt",
+    "url": "https://github.com/jjgomera/pychemqt",
+    "description": "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+    "license": "GPL-3.0",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 1,
+      ".txt": 2,
+      ".py": 388
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [],
+    "companion": {
+      ".csv": [
+        "dat/MathiasCopeman.csv"
+      ],
+      ".txt": [
+        ".circleci/requirements_test.txt",
+        "docs/requirements.txt"
+      ],
+      ".py": [
+        ".script/copyright.py",
+        ".script/crude.py",
+        ".script/database.py",
+        ".script/ipython.py",
+        ".script/mEoSAncillary.py",
+        ".script/plot2point.py",
+        ".script/plotMEoS.py",
+        ".script/superancillary.py",
+        ".script/svg.py",
+        ".script/translate_elemental.py"
+      ]
+    }
+  },
+  {
+    "repo": "AdityaSharma911/ML-for-DME-Optimization-",
+    "url": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-",
+    "description": "",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".ipynb": 2
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".ipynb": [
+        "ANN_final.ipynb",
+        "Regression_.ipynb"
+      ]
+    }
+  },
+  {
+    "repo": "AhmadAlsaadi/CheProcess",
+    "url": "https://github.com/AhmadAlsaadi/CheProcess",
+    "description": "",
+    "license": "GPL-3.0",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".txt": 1,
+      ".py": 272
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [],
+    "companion": {
+      ".txt": [
+        "requirements_docs.txt"
+      ],
+      ".py": [
+        "Samples/__init__.py",
+        "UI/BIP.py",
+        "UI/UI_corriente.py",
+        "UI/__init__.py",
+        "UI/bombaCurva.py",
+        "UI/delegate.py",
+        "UI/flujo.py",
+        "UI/inputTable.py",
+        "UI/mainWindow.py",
+        "UI/newComponent.py"
+      ]
+    }
+  },
+  {
+    "repo": "OntoLedgy/ol_dwsim_interop_services",
+    "url": "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+    "description": "A Model Context Protocol (MCP) server that exposes DWSIM's chemical process simulation engine to Large Language Model (LLM) agents through safe, composable tools and resources.",
+    "license": "AGPL-3.0",
+    "default_branch": "develop",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".xml": 2,
+      ".md": 465,
+      ".txt": 5,
+      ".py": 184
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      ".github/workflows/README.md",
+      ".spec-workflow/user-templates/README.md",
+      "README.md",
+      "mcp_service/dwsim_worker/README.md",
+      "mcp_service/server/README.md",
+      "mcp_service/server/dwsim_mcp_server/apps/README.md",
+      "mcp_service/server/dwsim_mcp_server/models/README.md",
+      "mcp_service/server/tests/README.md",
+      "prebuilt/README.md"
+    ],
+    "companion": {
+      ".xml": [
+        "docs/samples/07fc8fdf-446f-4eed-af30-1c6b3dca501c.xml",
+        "prebuilt/DwsimWorker/DwsimWorker.xml"
+      ],
+      ".md": [
+        ".claude/CLAUDE.md",
+        ".claude/agents.md",
+        ".claude/agents/spec-design-validator.md",
+        ".claude/agents/spec-requirements-validator.md",
+        ".claude/agents/spec-task-executor.md",
+        ".claude/agents/spec-task-validator.md",
+        ".claude/bugs/calculation-errors/analysis.md",
+        ".claude/bugs/calculation-errors/dwsim-patch.md",
+        ".claude/bugs/calculation-errors/report.md",
+        ".claude/commands/bug-analyze.md"
+      ],
+      ".txt": [
+        "LICENSES/AGPL-3.0-or-later.txt",
+        "LICENSES/Apache-2.0.txt",
+        "LICENSES/MIT.txt",
+        "mcp_service/dwsim_worker/DwsimWorker.Tests/test_output.txt",
+        "mcp_service/dwsim_worker/DwsimWorker.Tests/test_output2.txt"
+      ],
+      ".py": [
+        "mcp_service/dwsim_worker/main.py",
+        "mcp_service/server/debug_flash.py",
+        "mcp_service/server/dwsim_mcp_server/__init__.py",
+        "mcp_service/server/dwsim_mcp_server/adapter/__init__.py",
+        "mcp_service/server/dwsim_mcp_server/adapter/alias_seeder.py",
+        "mcp_service/server/dwsim_mcp_server/adapter/dwsim_adapter.py",
+        "mcp_service/server/dwsim_mcp_server/adapter/factory.py",
+        "mcp_service/server/dwsim_mcp_server/adapter/translators.py",
+        "mcp_service/server/dwsim_mcp_server/apps/__init__.py",
+        "mcp_service/server/dwsim_mcp_server/auth/__init__.py"
+      ]
+    }
+  },
+  {
+    "repo": "ruhanfarajov/aspenhysys",
+    "url": "https://github.com/ruhanfarajov/aspenhysys",
+    "description": "AI integrated model",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS distillation hsc in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 32
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "app/__init__.py",
+        "app/api/__init__.py",
+        "app/api/routes.py",
+        "app/core/__init__.py",
+        "app/core/config.py",
+        "app/core/logging.py",
+        "app/db/__init__.py",
+        "app/db/base.py",
+        "app/db/session.py",
+        "app/main.py"
+      ]
+    }
+  },
+  {
+    "repo": "JoshuaKiplimo/ResParse",
+    "url": "https://github.com/JoshuaKiplimo/ResParse",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS compound in:readme",
+      "HYSYS validation hsc in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 1,
+      ".pdf": 2,
+      ".txt": 3,
+      ".py": 10
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "readme.txt"
+    ],
+    "companion": {
+      ".csv": [
+        "TechnologySkills.csv"
+      ],
+      ".pdf": [
+        "resume/JOSHUA KIPRONO.pdf",
+        "resume/entry-level-computer-science-resume-example.pdf"
+      ],
+      ".txt": [
+        "readme.txt",
+        "requirements.txt",
+        "resume/test.txt"
+      ],
+      ".py": [
+        ".streamlit/Voice.py",
+        "ResumeMatch.py",
+        "actionVerbs.py",
+        "get_jobs.py",
+        "majors.py",
+        "packages/common.py",
+        "packages/listing.py",
+        "packages/page.py",
+        "pdfGenerator.py",
+        "textFormat.py"
+      ]
+    }
+  },
+  {
+    "repo": "iurisegtovich/AwesomeThermodynamics",
+    "url": "https://github.com/iurisegtovich/AwesomeThermodynamics",
+    "description": "A curated list of awesome resources on Thermodynamics",
+    "license": "",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".txt": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".txt": [
+        "FIGs/imgsrc.txt"
+      ]
+    }
+  },
+  {
+    "repo": "huzaifashahid7/Catalytic-wet-oxidation",
+    "url": "https://github.com/huzaifashahid7/Catalytic-wet-oxidation",
+    "description": "Research on catalytic wet air oxidation for industrial wastewater treatment using Fe/Al₂O₃.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Catalytic-wet-air-oxidation-project.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "joseabraham-mena/EOSPy",
+    "url": "https://github.com/joseabraham-mena/EOSPy",
+    "description": "",
+    "license": "",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 2,
+      ".md": 1,
+      ".py": 5
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".csv": [
+        "Databases/Database.csv",
+        "Databases/VirialCoefficients.csv"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "EOS/Peng-Robinson.py",
+        "EOS/ReducedVariables.py",
+        "EOS/Virial.PY",
+        "EOS/vanderWaals.py",
+        "Tests.py"
+      ]
+    }
+  },
+  {
+    "repo": "Gopal564/Chemical-Engineering-Revision",
+    "url": "https://github.com/Gopal564/Chemical-Engineering-Revision",
+    "description": "Revision of all topics",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  }
+]

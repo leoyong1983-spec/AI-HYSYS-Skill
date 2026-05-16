@@ -1,0 +1,25 @@
+{
+  "query": "HYSYS dehydration hsc in:readme",
+  "items": [
+    {
+      "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+      "fullName": "sanjay-saran/dme-production-methanol",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBz9xbQ",
+        "is_bot": false,
+        "login": "sanjay-saran",
+        "type": "User",
+        "url": "https://github.com/sanjay-saran"
+      },
+      "updatedAt": "2025-04-23T13:35:19Z",
+      "url": "https://github.com/sanjay-saran/dme-production-methanol"
+    }
+  ]
+}

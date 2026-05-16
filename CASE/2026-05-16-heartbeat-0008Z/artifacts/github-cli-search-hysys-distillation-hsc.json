@@ -1,0 +1,125 @@
+{
+  "query": "HYSYS distillation hsc in:readme",
+  "items": [
+    {
+      "description": "Aspen HYSYS - Python connection",
+      "fullName": "edgarsmdn/Aspen_HYSYS_Python",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjQ3NzQ1ODcw",
+        "is_bot": false,
+        "login": "edgarsmdn",
+        "type": "User",
+        "url": "https://github.com/edgarsmdn"
+      },
+      "updatedAt": "2026-05-14T13:37:40Z",
+      "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python"
+    },
+    {
+      "description": "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+      "fullName": "afabrild/HYSYS-MATLAB-LINK",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjMzODg3NDI4",
+        "is_bot": false,
+        "login": "afabrild",
+        "type": "User",
+        "url": "https://github.com/afabrild"
+      },
+      "updatedAt": "2025-11-02T12:02:26Z",
+      "url": "https://github.com/afabrild/HYSYS-MATLAB-LINK"
+    },
+    {
+      "description": "",
+      "fullName": "guillemrh/TFG",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjY3Mjg2MTM3",
+        "is_bot": false,
+        "login": "guillemrh",
+        "type": "User",
+        "url": "https://github.com/guillemrh"
+      },
+      "updatedAt": "2022-04-26T16:04:55Z",
+      "url": "https://github.com/guillemrh/TFG"
+    },
+    {
+      "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+      "fullName": "sanjay-saran/dme-production-methanol",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBz9xbQ",
+        "is_bot": false,
+        "login": "sanjay-saran",
+        "type": "User",
+        "url": "https://github.com/sanjay-saran"
+      },
+      "updatedAt": "2025-04-23T13:35:19Z",
+      "url": "https://github.com/sanjay-saran/dme-production-methanol"
+    },
+    {
+      "description": "Excel and Hysys intaraction",
+      "fullName": "ArturTask/HysysExcel",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjYyNzUxNTc0",
+        "is_bot": false,
+        "login": "ArturTask",
+        "type": "User",
+        "url": "https://github.com/ArturTask"
+      },
+      "updatedAt": "2026-02-03T18:05:21Z",
+      "url": "https://github.com/ArturTask/HysysExcel"
+    },
+    {
+      "description": "AI integrated model",
+      "fullName": "ruhanfarajov/aspenhysys",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODnOG2w",
+        "is_bot": false,
+        "login": "ruhanfarajov",
+        "type": "User",
+        "url": "https://github.com/ruhanfarajov"
+      },
+      "updatedAt": "2026-02-20T18:25:53Z",
+      "url": "https://github.com/ruhanfarajov/aspenhysys"
+    }
+  ]
+}

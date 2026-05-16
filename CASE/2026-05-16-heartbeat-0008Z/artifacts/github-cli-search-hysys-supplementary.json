@@ -1,0 +1,25 @@
+{
+  "query": "HYSYS supplementary hsc in:readme",
+  "items": [
+    {
+      "description": "Supplementary material and information ",
+      "fullName": "andr1976/dwsim-paper",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU4NDc1NTM1",
+        "is_bot": false,
+        "login": "andr1976",
+        "type": "User",
+        "url": "https://github.com/andr1976"
+      },
+      "updatedAt": "2025-10-22T16:40:55Z",
+      "url": "https://github.com/andr1976/dwsim-paper"
+    }
+  ]
+}

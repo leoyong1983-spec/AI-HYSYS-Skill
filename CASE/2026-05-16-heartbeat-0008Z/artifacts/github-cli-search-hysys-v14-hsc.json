@@ -1,0 +1,25 @@
+{
+  "query": "\"Aspen HYSYS\" V14 hsc in:readme",
+  "items": [
+    {
+      "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+      "fullName": "Jimohmuktar/CrBlend-ML",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODuwaFg",
+        "is_bot": false,
+        "login": "Jimohmuktar",
+        "type": "User",
+        "url": "https://github.com/Jimohmuktar"
+      },
+      "updatedAt": "2026-03-05T21:34:16Z",
+      "url": "https://github.com/Jimohmuktar/CrBlend-ML"
+    }
+  ]
+}

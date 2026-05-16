@@ -1,0 +1,217 @@
+[
+  {
+    "query": "Aspen HYSYS dynamic simulation",
+    "url": "https://dataverse.harvard.edu/api/search?q=Aspen+HYSYS+dynamic+simulation&per_page=8",
+    "hits": [
+      {
+        "name": "High Fidelity Benchmark Test Results from Pseudo-dynamic Hybrid Simulations on Ductile Steel Braced Frames",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/HR5DR2",
+        "global_id": "doi:10.7910/DVN/HR5DR2",
+        "description": "This data base includes high-fidelity experimental benchmark test results from pseudo-dynamic hybrid simulations performed on ductile steel braced frames. The reference publications are provided in the following.",
+        "published_at": "2025-01-06T01:03:37Z"
+      },
+      {
+        "name": "High Fidelity Benchmark Test Results from Pseudo-dynamic Hybrid Simulations on Ductile Steel Braced Frames",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/Braced_Frames_Benchmark_Results",
+        "global_id": null,
+        "description": "This dataset includes high-fidelity benchmark experimental test results form pseudo-dynamic hybrid simulations on ductile steel braced frames.",
+        "published_at": "2025-01-06T01:03:35Z"
+      },
+      {
+        "name": "Simulated surface Chl, satellite-like derived Chl, and remotely sensed reflectance",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/NWR1QY",
+        "global_id": "doi:10.7910/DVN/NWR1QY",
+        "description": "Model output Daily from 1994-2006 (note each year has only 360 days) in netcdf files. - Simulated surface (0-50m) Chl-a (Called \"actual Chl-a\" in the BG paper). Units mgChl/m3 - Derived Chl-a from the simulated remotely sensed reflectance. (Called \"GS derived Chl-a:\" in the BG paper). Units mgChl/m3 - Simulated remotely sensed reflectance in the blue spectrum (450, 475,500nm) and green (550 nm). Units 1/sr",
+        "published_at": "2018-01-26T15:36:54Z"
+      },
+      {
+        "name": "Simulation Dataverse",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/mmcamar",
+        "global_id": null,
+        "description": "dynamic model of TLR4 trafficking between cell membranes, endosomal system and trans-Golgi compartment",
+        "published_at": "2016-08-31T13:08:42Z"
+      },
+      {
+        "name": "Interannual Simulation",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/interannual",
+        "global_id": null,
+        "description": "SImulation 1992-2006. Output only provided for 1994-2006",
+        "published_at": "2018-01-26T15:35:18Z"
+      },
+      {
+        "name": "Replication Data for: Group A streptococcus dynamics in DLD",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/Q9M9QL",
+        "global_id": "doi:10.7910/DVN/Q9M9QL",
+        "description": "GAS cluster dynamics in DLD with the two color of flourscent-labelled GAS were imaged in the DLD device inlet and outlets (small, medium, and large). The CSV files includes the analyzed data.",
+        "published_at": "2025-09-30T14:10:49Z"
+      },
+      {
+        "name": "Replication Data for: Cluster dynamics in batch",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/YSLHGB",
+        "global_id": "doi:10.7910/DVN/YSLHGB",
+        "description": "Testing heat-killed bacteria cluster formation by mixing two flouroscently labeled bacteria. Dye:Oregon green, excitation wave length: 488nm filter: FITC CF633-WGA, excitation wave length: 640nm filter Cy5 Each batch of single-stained bacteria has concentration of 100ul bacteria in 4ml PBS or serum mixture diluted 3% The concentration of the mixed batch would be the same as each single-stained batch (100ul in 4ml) file name type: mixture- type of buffer-constant shaking or stationary_time after mixing Example: mixture-PBS-CS-4h Codes: constant shaking: CS Stationary: S type of imaging : flouroscent: FS Parameters of experiments: biological state: Heat-killed solution resting state: constant shaking, stationary Time of leaving the sample for cluster formation: Intervals of 4h is considered. Type of solution: pooled serum 2.5 v/v% diluted by PBS or serum magnification: 20X Pixel size : 16um camera and microscope setting sola power 9% for FITC and 20% for Cy5 exposure: 1 frame PFs (autofocus is on) optical configuration was one with elham_fitc and elham_cy5 scan 3*3 and 3 times in ND aquisition not in aquire and fast tiune-lapse [in calibration tab}",
+        "published_at": "2025-09-30T13:55:25Z"
+      },
+      {
+        "name": "Size-based sorting of dynamic bacterial clusters Dataverse",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/GAS_clusters_DLD_tegenfeldt_lab",
+        "global_id": null,
+        "description": null,
+        "published_at": "2025-09-29T21:18:34Z"
+      }
+    ]
+  },
+  {
+    "query": "Aspen HYSYS distillation",
+    "url": "https://dataverse.harvard.edu/api/search?q=Aspen+HYSYS+distillation&per_page=8",
+    "hits": [
+      {
+        "name": "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/QOBGVF",
+        "global_id": "doi:10.7910/DVN/QOBGVF",
+        "description": "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD.",
+        "published_at": "2023-10-20T21:49:31Z"
+      },
+      {
+        "name": "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/VMAWN8",
+        "global_id": "doi:10.7910/DVN/VMAWN8",
+        "description": "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies.",
+        "published_at": "2024-02-11T16:24:42Z"
+      },
+      {
+        "name": "State of Aadhaar",
+        "type": "dataverse",
+        "url": "https://dataverse.harvard.edu/dataverse/stateofaadhaar",
+        "global_id": null,
+        "description": "State of Aadhaar distils insights drawn from two national household surveys on Aadhaar, conducted between May and September 2019, and subsequent human-centred design research. Capturing the experiences and perspectives of over 167,000 residents, together these surveys represent the largest primary dataset on the use of Aadhaar and, more broadly, digital ID anywhere in the world. We believe the success of Aadhaar will ultimately depend on how well the program can learn from the experiences and concerns of those who use (or are unable to use) Aadhaar across a wide range of circumstances in their daily lives. Taking residents’ perspectives into account can help better design and implement Aadhaar and other digital IDs.",
+        "published_at": "2019-12-02T13:52:32Z"
+      },
+      {
+        "name": "Replication Data for: Testing of Automated Photochemical Reflectance Index Sensors as Proxy Measurements of Light Use Efficiency in an Aspen Forest",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/ZDZHAH",
+        "global_id": "doi:10.7910/DVN/ZDZHAH",
+        "description": "Commercially available autonomous photochemical reflectance index (PRI) sensors are a new development in the remote sensing field that offer novel opportunities for a deeper exploration of vegetation physiology dynamics. In this study, we evaluated the reliability of autonomous PRI sensors (SRS-PRI) developed by METER Group Inc. as proxies of light use efficiency (LUE) in an aspen (Populus tremuloides) forest stand. Before comparisons between PRI and LUE measurements were made, the optical SRS-PRI sensor pairs required calibrations to resolve diurnal and seasonal patterns properly. An offline diurnal calibration procedure was shown to account for variable sky conditions and diurnal illumination changes affecting sensor response. Eddy covariance measurements provided seasonal gross primary productivity (GPP) measures as well as apparent canopy quantum yield dynamics (α). LUE was derived from the ratio of GPP to absorbed photosynthetically active radiation (APAR). Corrected PRI values were derived after diurnal and midday cross-calibration of the sensor’s 532 nm and 570 nm fore-optics, and closely related to both LUE (R2 = 0.62, p < 0.05) and α (R2 = 0.72, p < 0.05). A LUE model derived from corrected PRI values showed good correlation to measured GPP (R2 = 0.77, p < 0.05), with an accuracy comparable to results obtained from an α driven LUE model (R2 = 0.79, p < 0.05). The automated PRI sensors proved to be suitable proxies of light use efficiency. The onset of continuous PRI sensors signifies new opportunities for explicitly examining the cause of changing PRI, LUE, and productivity over time and space. As such, this technology represents great value for the flux, remote sensing and modeling community.",
+        "published_at": "2020-03-12T17:57:46Z"
+      },
+      {
+        "name": "Bias detection in polish journalism",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/WNR9KO",
+        "global_id": "doi:10.7910/DVN/WNR9KO",
+        "description": "The dataset contains a list of articles gathered from various polish media outlets on many topics. The articles have been judged for subjectivity using 4 LLMs: \"bielik\": { \"repo\": \"speakleash/Bielik-11B-v3.0-Instruct-GGUF\", \"filename\": \"Bielik-11B-v3.0-Instruct.Q4_K_M.gguf\", \"description\": \"Bielik 11B v3.0 - Specialized for Polish.\" }, \"llama3\": { \"repo\": \"QuantFactory/Meta-Llama-3-8B-Instruct-GGUF\", \"filename\": \"Meta-Llama-3-8B-Instruct.Q4_K_M.gguf\", \"description\": \"Meta Llama 3 8B Instruct - Strong general capability.\" }, \"mistral\": { \"repo\": \"TheBloke/OpenHermes-2.5-Mistral-7B-GGUF\", \"filename\": \"openhermes-2.5-mistral-7b.Q4_K_M.gguf\", \"description\": \"OpenHermes 2.5 (Mistral 7B) - Excellent instruction following.\" }, \"deepseek\": { \"repo\": \"bartowski/DeepSeek-R1-Distill-Llama-8B-GGUF\", \"filename\": \"DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf\", \"description\": \"DeepSeek R1 Distill Llama 8B - Strong reasoning model.\" } The average review contains all of the reviews with reasoning and score, as well as a choice, which model (based on the average score) was closest to it. The individual files with modelname_trim syntax are a result of using the model as an LLM-as-a-judge, for determining which model gave the best response. A README and regenerator.py script have been provided to recreate the text used in the articles. Other scripting (training, LLM server etc.) can be found in the project's repo: https://github.com/JakubLegutko/SentimentDetector",
+        "published_at": "2026-02-23T17:45:29Z"
+      },
+      {
+        "name": "earbm_AC85_L9515_Zz813o_013",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/A3FJPP",
+        "global_id": "doi:10.7910/DVN/A3FJPP",
+        "description": "Watson, John, 1746-1817. An alarming portraiture of the pernicious effects of the customary use of distilled spiritous liquors : with some remarks and advice relative to the subject. Philadelphia : Published by Kimber and Conrad, 1813. AC85.L9515.Zz813o. Houghton Library, Harvard University, Cambridge, Mass.",
+        "published_at": "2023-02-17T20:43:44Z"
+      },
+      {
+        "name": "Replication Data for: Can Large Language Models (or Humans) Disentangle Text?",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/TEC1ZP",
+        "global_id": "doi:10.7910/DVN/TEC1ZP",
+        "description": "Can Large Language Models (or Humans) Disentangle Text? Abstract: We investigate the potential of large language models (LLMs) to disentangle text variables—to remove the textual traces of an undesired forbidden variable in a task sometimes known as text distillation and closely related to the fairness in AI and causal inference literature. We employ a range of various LLM approaches in an attempt to disentangle text by identifying and removing information about a target variable while preserving other relevant signals. We show that in the strong test of removing sentiment, the statistical association between the processed text and sentiment is still detectable to machine learning classifiers post-LLM-disentanglement. Furthermore, we find that human annotators also struggle to disentangle sentiment while preserving other semantic content. This suggests there may be limited separability between concept variables in some text contexts, highlighting limitations of methods relying on text-level transformations and also raising questions about the robustness of disentanglement methods that achieve statistical independence in representation space if this is difficult for human coders operating on raw text to attain. Dataverse: This repository contains data from the human-coded and processed reviews. Paper link: arXiv.org/abs/2403.16584",
+        "published_at": "2025-01-13T16:33:43Z"
+      },
+      {
+        "name": "Executive Agreements Database, Statement Concerning the Agreement with Brazil Regarding Certain Distilled Spirits Effected By Exchange Of Letters Act Washington April 9, 2012 Entered Into Force April 9, 2012",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/L9GUOP",
+        "global_id": "doi:10.7910/DVN/L9GUOP",
+        "description": "TIAS 12-409 cover memo",
+        "published_at": "2021-01-01T21:57:46Z"
+      }
+    ]
+  },
+  {
+    "query": "HYSYS hscz",
+    "url": "https://dataverse.harvard.edu/api/search?q=HYSYS+hscz&per_page=8",
+    "hits": []
+  },
+  {
+    "query": "HYSYS hsc Aspen",
+    "url": "https://dataverse.harvard.edu/api/search?q=HYSYS+hsc+Aspen&per_page=8",
+    "hits": [
+      {
+        "name": "HEROES forced_src-HSC-G Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/THXTEP",
+        "global_id": "doi:10.7910/DVN/THXTEP",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter",
+        "published_at": "2023-02-17T19:30:30Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-Z Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/WVJWB9",
+        "global_id": "doi:10.7910/DVN/WVJWB9",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter",
+        "published_at": "2023-02-17T19:30:16Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-R2 Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/358ILW",
+        "global_id": "doi:10.7910/DVN/358ILW",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter",
+        "published_at": "2023-02-17T19:30:24Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-I2 Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/S9YC2Z",
+        "global_id": "doi:10.7910/DVN/S9YC2Z",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter",
+        "published_at": "2023-02-17T19:30:20Z"
+      },
+      {
+        "name": "HEROES forced_src-HSC-Y Catalogs",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/BJVBKK",
+        "global_id": "doi:10.7910/DVN/BJVBKK",
+        "description": "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter",
+        "published_at": "2023-02-17T19:30:13Z"
+      },
+      {
+        "name": "Replication Data for: Computational model for HSC culture and feedback",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/4DNDZU",
+        "global_id": "doi:10.7910/DVN/4DNDZU",
+        "description": "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\"",
+        "published_at": "2019-02-09T01:11:34Z"
+      },
+      {
+        "name": "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/VMAWN8",
+        "global_id": "doi:10.7910/DVN/VMAWN8",
+        "description": "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies.",
+        "published_at": "2024-02-11T16:24:42Z"
+      },
+      {
+        "name": "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+        "type": "dataset",
+        "url": "https://doi.org/10.7910/DVN/M9ZT0F",
+        "global_id": "doi:10.7910/DVN/M9ZT0F",
+        "description": "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models.",
+        "published_at": "2018-02-26T10:43:18Z"
+      }
+    ]
+  }
+]
