@@ -1,0 +1,884 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS PFD hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20PFD%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS flowsheet hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20flowsheet%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS report hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20report%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS Excel validation hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20Excel%20validation%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS V10 hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20V10%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS V11 hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20V11%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS model file",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20model%20file\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hscz",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20hscz\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases xml",
+        "url":  "https://api.figshare.com/v2/articles?search_for=HYSYS%20XML%20Cases%20xml\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32298315,
+                         "title":  "Dataset for \"Influence of Grain Size Polydispersity on Seismic Spectra of Geophysical Granular Flows: Combined Experimental and Numerical Insights\"",
+                         "doi":  "10.6084/m9.figshare.32298315.v4",
+                         "url":  "https://api.figshare.com/v2/articles/32298315",
+                         "published_date":  "2026-05-16T04:55:43Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305611,
+                         "title":  "public data credibility-sensitive theory of sustainable investment decision-making",
+                         "doi":  "10.6084/m9.figshare.32305611.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305611",
+                         "published_date":  "2026-05-16T04:54:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305608,
+                         "title":  "Advancing Research Assessment Reform: A Holistic Framework for Institutional Excellence and Societal Impact",
+                         "doi":  "10.6084/m9.figshare.32305608.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305608",
+                         "published_date":  "2026-05-16T04:54:37Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305601,
+                         "title":  "Ozonation and UV-C photolysis for the removal of antipsychotics in real hospital wastewater: kinetics, removal efficiency, and insights into transformation products",
+                         "doi":  "10.6084/m9.figshare.32305601.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305601",
+                         "published_date":  "2026-05-16T04:42:40Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305590,
+                         "title":  "Supplementary Dataset 3 Simplified Mass Spec analysis",
+                         "doi":  "10.6084/m9.figshare.32305590.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305590",
+                         "published_date":  "2026-05-16T04:37:36Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305588,
+                         "title":  "Light-Driven Proton-Coupled\nTwo-Electron Ligand Reduction\nCauses the Rearrangement of the Coordination Sphere in Cu(I) 4H‑Imidazolato Complexes",
+                         "doi":  "10.1021/jacs.6c00920.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305588",
+                         "published_date":  "2026-05-16T04:33:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305584,
+                         "title":  "Programmable Hierarchical\nAssembly of Atomically Precise\nMetal Nanoclusters Using Supra-Amphiphilic Nucleic Acids",
+                         "doi":  "10.1021/jacsau.6c00287.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305584",
+                         "published_date":  "2026-05-16T04:29:29Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305582,
+                         "title":  "Antibiotic\nMetabolites\nAre an Overlooked Driver of\nResistance Dissemination in Plant Systems",
+                         "doi":  "10.1021/acs.est.6c04146.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305582",
+                         "published_date":  "2026-05-16T04:29:27Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305566,
+                         "title":  "\u003cb\u003eResearch on the Antecedent Mechanisms of Continued Adoption of the Smart Classroom Platform Among University Students: A Configurational Analysis Based on the UTAUT Model\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32305566.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305566",
+                         "published_date":  "2026-05-16T04:06:40Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305576,
+                         "title":  "pH-Responsive\nGlycosylated PC Nanoparticles for Oral\nInsulin Delivery",
+                         "doi":  "10.1021/acs.biomac.5c02672.s001",
+                         "url":  "https://api.figshare.com/v2/articles/32305576",
+                         "published_date":  "2026-05-16T04:04:26Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    }
+]

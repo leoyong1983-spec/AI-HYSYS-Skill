@@ -1,0 +1,1551 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS PFD hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20PFD%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Replication Data for: Computational model for HSC culture and feedback",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4DNDZU",
+                         "url":  "https://doi.org/10.7910/DVN/4DNDZU",
+                         "published_at":  "2019-02-09T01:11:34Z",
+                         "authors":  [
+                                         "Mahadik, Bhushan"
+                                     ],
+                         "description":  "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\""
+                     },
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/M9ZT0F",
+                         "url":  "https://doi.org/10.7910/DVN/M9ZT0F",
+                         "published_at":  "2018-02-26T10:43:18Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce A.",
+                                         "Ottman, Michael J.",
+                                         "Wall, Gerard W.",
+                                         "White, Jeffrey W.",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod K.",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew J.",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie A.",
+                                         "Izaurralde, Roberto C.",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis D.",
+                                         "Kassie, Belay T.",
+                                         "Kersebaum, Kurt C.",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David B.",
+                                         "Nendel, Claas",
+                                         "O\u0027Leary, Garry",
+                                         "Olesen, Jørgen E.",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Rezaei, Ehsan Eyshi",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund P.",
+                                         "Semenov, Mikhail A.",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "The Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ECSFZG",
+                         "url":  "https://doi.org/10.7910/DVN/ECSFZG",
+                         "published_at":  "2017-04-24T11:52:42Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce",
+                                         "Ottman, Michael",
+                                         "Wall, Gerard",
+                                         "White, Jeffrey",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie",
+                                         "Izaurralde, Roberto",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis",
+                                         "Kassie, Belay",
+                                         "Kersebaum, Kurt",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David",
+                                         "Nendel, Claas",
+                                         "O’Leary, Garry",
+                                         "Olesen, Jørgen",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Eyshi Rezaei, Ehsan",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund",
+                                         "Semenov, Mikhail",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The data set reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QOBGVF",
+                         "url":  "https://doi.org/10.7910/DVN/QOBGVF",
+                         "published_at":  "2023-10-20T21:49:31Z",
+                         "authors":  [
+                                         "Nikkhah, Ali",
+                                         "Nikkhah, Hasan",
+                                         "Shahbazi, Amir",
+                                         "Kamelan Zargar Zarin, Mona",
+                                         "Beykal Iz, Duygu",
+                                         "Ebadi, Mohammad-Taghi",
+                                         "Fakhroleslam, Mohammad",
+                                         "Beykal, Burcu"
+                                     ],
+                         "description":  "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS flowsheet hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20flowsheet%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Recycling Of anode Material From Spent Lithium-Ion Batteries - A Review",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/IMR7VN",
+                         "url":  "https://doi.org/10.7910/DVN/IMR7VN",
+                         "published_at":  "2024-08-03T09:12:48Z",
+                         "authors":  [
+                                         "Chikwane, Wayne"
+                                     ],
+                         "description":  "Different pre-treatment and mechanical processes are discussed in this paper with the aim to produce black mass from end-of-life batteries which is further separated into cathode and anode (graphite) materials. A proposed separation flowsheet consisting of several processes is given at the end of the paper and the flowsheet consists of all processes involved during the recycle of graphite from spent LIBs, these processes are all industrially scalable."
+                     },
+                     {
+                         "name":  "Replication Data for: Computational model for HSC culture and feedback",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4DNDZU",
+                         "url":  "https://doi.org/10.7910/DVN/4DNDZU",
+                         "published_at":  "2019-02-09T01:11:34Z",
+                         "authors":  [
+                                         "Mahadik, Bhushan"
+                                     ],
+                         "description":  "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\""
+                     },
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/M9ZT0F",
+                         "url":  "https://doi.org/10.7910/DVN/M9ZT0F",
+                         "published_at":  "2018-02-26T10:43:18Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce A.",
+                                         "Ottman, Michael J.",
+                                         "Wall, Gerard W.",
+                                         "White, Jeffrey W.",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod K.",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew J.",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie A.",
+                                         "Izaurralde, Roberto C.",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis D.",
+                                         "Kassie, Belay T.",
+                                         "Kersebaum, Kurt C.",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David B.",
+                                         "Nendel, Claas",
+                                         "O\u0027Leary, Garry",
+                                         "Olesen, Jørgen E.",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Rezaei, Ehsan Eyshi",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund P.",
+                                         "Semenov, Mikhail A.",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "The Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ECSFZG",
+                         "url":  "https://doi.org/10.7910/DVN/ECSFZG",
+                         "published_at":  "2017-04-24T11:52:42Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce",
+                                         "Ottman, Michael",
+                                         "Wall, Gerard",
+                                         "White, Jeffrey",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie",
+                                         "Izaurralde, Roberto",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis",
+                                         "Kassie, Belay",
+                                         "Kersebaum, Kurt",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David",
+                                         "Nendel, Claas",
+                                         "O’Leary, Garry",
+                                         "Olesen, Jørgen",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Eyshi Rezaei, Ehsan",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund",
+                                         "Semenov, Mikhail",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The data set reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS report hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20report%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Replication Data for: Report",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/7EO8JF",
+                         "url":  "https://doi.org/10.7910/DVN/7EO8JF",
+                         "published_at":  "2015-07-10T20:00:18Z",
+                         "authors":  [
+                                         "Zigler, Cory"
+                                     ],
+                         "description":  "Replication Data for: Report"
+                     },
+                     {
+                         "name":  "datos vacunas influenzas cenabast",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/EOSFYC",
+                         "url":  "https://doi.org/10.7910/DVN/EOSFYC",
+                         "published_at":  "2021-05-08T14:00:58Z",
+                         "authors":  [
+                                         "CESS"
+                                     ],
+                         "description":  "El siguiente archivo contiene los valores unitarios del precio de las vacunas adquiridas por CENABAST. En base a estos datos se estimaron el numero de vacunas. El calculo se realizó en especifico con la siguiente tipo de vacuna: \"VAC ANTIINFLUENZ TRI O TETRAVAL 1DO JRP\""
+                     },
+                     {
+                         "name":  "Datos sin procesar",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/XLKRKB",
+                         "url":  "https://doi.org/10.7910/DVN/XLKRKB",
+                         "published_at":  "2021-05-06T12:54:42Z",
+                         "authors":  [
+                                         "Raposo, Felipe"
+                                     ],
+                         "description":  "Estos son los datos recolectados para los videos."
+                     },
+                     {
+                         "name":  "datos_videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VAMTS0",
+                         "url":  "https://doi.org/10.7910/DVN/VAMTS0",
+                         "published_at":  "2021-05-06T12:53:47Z",
+                         "authors":  [
+                                         "Raposo, Felipe"
+                                     ],
+                         "description":  "Esta base comprende los datos utilizados para hacer los videos."
+                     },
+                     {
+                         "name":  "Statistics on Public Expenditures for Economic Development (SPEED): 2017 Global Food Policy Report Table 2",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WJGCAA",
+                         "url":  "https://doi.org/10.7910/DVN/WJGCAA",
+                         "published_at":  "2018-04-05T18:39:43Z",
+                         "authors":  [
+                                         "International Food Policy Research Institute (IFPRI)"
+                                     ],
+                         "description":  "The Statistics on Public Expenditures for Economic Development (SPEED) database is a resource of the International Food Policy Research Institute (IFPRI) that contains information on agricultural and other sectoral public expenditures in 147 countries from 1980 to 2014. Policy makers, researchers, and other stakeholders can use this robust database to examine both historical trends and the allocation of government resources across sectors. It also allows for comparisons with other countries within a region or at a similar level of development. Because the SPEED database covers many countries for a long time period, it allows analysts of government spending to examine national policy priorities, as reflected in the allocation of public expenditures, and track development goals and the cost-effectiveness of public spending both within and across countries. Indicators reported in this data study include total agricultural expenditure, agricultural spending per capita, and the ratio of agricultural spending to agricultural gross domestic product (GDP) for years 1980, 1995, and 2014. IFPRI researchers have compiled data from multiple sources, including the International Monetary Fund, World Bank, United Nations, and national governments, and conducted extensive data checks and adjustments to ensure consistent spending measurements over time that are free of exchange-rate fluctuations and currency denomination changes."
+                     },
+                     {
+                         "name":  "Statistics on Public Expenditures for Economic Development (SPEED): 2019 Global Food Policy Report Table 2",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/F7IOM2",
+                         "url":  "https://doi.org/10.7910/DVN/F7IOM2",
+                         "published_at":  "2019-03-27T09:43:33Z",
+                         "authors":  [
+                                         "International Food Policy Research Institute (IFPRI)"
+                                     ],
+                         "description":  "The Statistics on Public Expenditures for Economic Development (SPEED) database is a resource of the International Food Policy Research Institute (IFPRI) that contains information on agricultural and other sectoral public expenditures in 147 countries from 1980 to 2016. Policymakers, researchers, and other stakeholders can use this robust database to examine both historical trends and the allocation of government resources across sectors. It also allows for comparisons with other countries within a region or at a similar level of development. Because the SPEED database covers many countries for a long time period, it allows analysts of government spending to examine national policy priorities, as reflected in the allocation of public expenditures, and track development goals and the cost-effectiveness of public spending both within and across countries. Indicators reported in this data study include total agricultural expenditure, agricultural spending per capita, and the ratio of agricultural spending to the agricultural gross domestic product (GDP) for years 1995, 2000, and 2016. IFPRI researchers have compiled data from multiple sources, including the International Monetary Fund, World Bank, United Nations, and national governments, and conducted extensive data checks and adjustments to ensure consistent spending measurements over time that are free of exchange-rate fluctuations and currency denomination changes."
+                     },
+                     {
+                         "name":  "Agricultural Science and Technology Indicators: 2019 Global Food Policy Report Annex Table 1",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/9OXBIB",
+                         "url":  "https://doi.org/10.7910/DVN/9OXBIB",
+                         "published_at":  "2019-03-27T09:42:24Z",
+                         "authors":  [
+                                         "International Food Policy Research Institute (IFPRI)"
+                                     ],
+                         "description":  "Policymakers recognize that increased investment in agricultural research is key to increasing agricultural productivity. Despite this, many low- and middle-income countries struggle with capacity and funding constraints in their agricultural research systems. Agricultural Science and Technology Indicators (ASTI), facilitated by the International Food Policy Research Institute (IFPRI) within the portfolio of the CGIAR Research Program on Policies, Institutions, and Markets, works with national, regional, and international partners to collect time series data on the funding, human resource capacity, and outputs of agricultural research in low- and middle-income countries. Based on this information, ASTI produces analysis, capacity-building tools, and outreach products to help facilitate policies for effective and efficient agricultural research. “Agricultural research” includes government, higher education, and nonprofit agencies, but excludes the private for-profit sector. Total agricultural research spending includes salaries, operating and program costs, and capital investments for all agencies, excluding the private for-profit sector, involved in agricultural research in a country. Expenditures are adjusted for inflation and expressed in 2011 prices. Purchasing power parities (PPPs) measure the relative purchasing power of currencies across countries by eliminating national differences in pricing levels for a wide range of goods. PPPs are relatively stable over time, whereas exchange rates fluctuate considerably. In addition to looking at absolute levels of agricultural research investment and capacity, another way of comparing commitment to agricultural research is to measure research intensity—that is, total agricultural research spending as a percentage of agricultural output (AgGDP). “Total agricultural researchers” (excluding the private for-profit sector) are reported in full-time equivalents (FTEs) to account for the proportion of time researchers actually spend on research activities. A critical mass of qualified agricultural researchers is crucial for implementing a viable research agenda, for effectively communicating with stakeholders, and for securing external funding. Therefore, it is important to look at the share of PhD-qualified researchers. Gender balance in agricultural research is important, given that women researchers offer different insights and perspectives that can help research agencies more effectively address the unique and pressing challenges of female farmers. Age imbalances among research staff should be minimized to ensure the continuity of future research as researchers retire."
+                     },
+                     {
+                         "name":  "Agricultural Science and Technology Indicators: 2018 Global Food Policy Report Annex Table 1",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/LXRF8B",
+                         "url":  "https://doi.org/10.7910/DVN/LXRF8B",
+                         "published_at":  "2018-03-19T20:14:10Z",
+                         "authors":  [
+                                         "Agricultural Science and Technology Indicators (ASTI)"
+                                     ],
+                         "description":  "Policy makers recognize that increased investment in agricultural research is key to increasing agricultural productivity. Despite this, many low- and middle-income countries struggle with capacity and funding constraints in their agricultural research systems. Agricultural Science and Technology Indicators (ASTI), led by the International Food Policy Research Institute (IFPRI), within the portfolio of the CGIAR Research Program on Policies, Institutions, and Markets works with national, regional, and international partners to collect time series data on the funding, human resource capacity, and outputs of agricultural research in low- and middle-income countries. Based on this information, ASTI produces analysis, capacity-building tools, and outreach products to help facilitate policies for effective and efficient agricultural research. Indicators “Agricultural research” includes government, higher education, and nonprofit agencies, but excludes the private for-profit sector. Total agricultural research spending includes salaries, operating and program costs, and capital investments for all agencies (excluding the private for-profit sector) involved in agricultural research in a country. Expenditures are adjusted for inflation and expressed in 2011 prices. Purchasing power parities (PPPs) measure the relative purchasing power of currencies across countries by eliminating national differences in pricing levels for a wide range of goods. PPPs are relatively stable over time, whereas exchange rates fluctuate considerably. In addition to looking at absolute levels of agricultural research investment and capacity, another way of comparing commitment to agricultural research is to measure research intensity—that is, total agricultural research spending as a percentage of agricultural output (AgGDP). “Total agricultural researchers” includes all research agencies (excluding the private for-profit sector) in a country. Totals are reported in full-time equivalents (FTEs) to account for the proportion of time researchers actually spend on research activities. A critical mass of qualified agricultural researchers is crucial for implementing a viable research agenda, for effectively communicating with stakeholders, and in securing external funding. Therefore, it is important to look at the share of PhD-qualified researchers. Gender balance in agricultural research is important, given that women researchers offer different insights and perspectives that can help research agencies more effectively address the unique and pressing challenges of female farmers. Age imbalances among research staff should be minimized. Having too many PhD-qualified researchers approaching retirement age can jeopardize the continuity of future research. Research involves unavoidable time lags from the point when investments are made until tangible benefits are attained; in the interim, long-term, stable funding is required. The volatility coefficient measures the volatility of agricultural research spending by applying the standard deviation formula to average one-year logarithmic growth of agricultural research spending over a certain period. A value of 0 indicates “no volatility”; countries with values between 0 and 0.1 are classified as having “low volatility”; countries with values between 0.1 and 0.2 are considered to have “moderate volatility”; and countries with values above 0.2 fall into the “high volatility” category."
+                     },
+                     {
+                         "name":  "Agricultural Total Factor Productivity (TFP), 1991-2015: 2019 Global Food Policy Report Annex Table 4",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/9IOAKR",
+                         "url":  "https://doi.org/10.7910/DVN/9IOAKR",
+                         "published_at":  "2019-03-27T09:44:23Z",
+                         "authors":  [
+                                         "International Food Policy Research Institute (IFPRI)"
+                                     ],
+                         "description":  "Increasing the efficiency of agricultural production—getting more output from the same amount of resources—is critical for improving food security. To measure the efficiency of agricultural systems, we use total factor productivity (TFP). TFP is an indicator of how efficiently agricultural land, labor, capital, and materials (agricultural inputs) are used to produce a country’s crops and livestock (agricultural output)—it is calculated as the ratio of total agricultural output to total production inputs. When more output is produced from a constant amount of resources, meaning that resources are being used more efficiently, TFP increases. Measures of land and labor productivity—partial factor productivity (PFP) measures—are calculated as the ratio of total output to total agricultural area (land productivity) and to the number of economically active persons in agriculture (labor productivity). Because PFP measures are easy to estimate, they are often used to measure agricultural production performance. These measures normally show higher rates of growth than TFP, because growth in land and labor productivity can result not only from increases in TFP but also from a more intensive use of other inputs (such as fertilizer or machinery). Indicators of both TFP and PFP contribute to the understanding of agricultural systems needed for policy and investment decisions by enabling comparisons across time and across countries and regions. The data file provides estimates of IFPRI\u0027s TFP and PFP measures for developing countries for three-sub-periods between 1991 and 2014(1991-2000,2001-2010 and 2010-2014). These TFP and PFP estimates were generated using the most recent data from Economic Research Service of the United States Department of Agriculture (ERS-USDA), the FAOSTAT database of the Food and Agriculture Organization of the United Nations (FAO), and national statistical sources."
+                     },
+                     {
+                         "name":  "Food Policy Research Capacity Indicators (FPRCI), 2011-2018: 2019 Global Food Policy Report Annex Table 3",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QU15AW",
+                         "url":  "https://doi.org/10.7910/DVN/QU15AW",
+                         "published_at":  "2019-03-27T09:44:00Z",
+                         "authors":  [
+                                         "International Food Policy Research Institute (IFPRI)"
+                                     ],
+                         "description":  "Food policy research plays a crucial role in guiding the agricultural development of countries. To achieve food security goals, countries need to strengthen their capacity to conduct food policy research. Strong local policy research institutions help in shaping an evidence-based policy-making process. Measuring national capacity for food policy research is important for identifying capacity gaps in food policy research and guiding the allocation of resources to fill those gaps. Food policy research capacity is defined as any socioeconomic or policy-related research capacity in the area of food, agriculture, or natural resources. To measure this capacity, the International Food Policy Research Institute (IFPRI) developed a set of indicators of the quantity and quality of policy research at the country level. IFPRI created a database for food policy research capacity in 2010 and has continued to expand and refine it. The data presented are currently collected for 33 countries; data for Myanmar were added in 2017. A consistent methodology is followed to enable comparison of values across time and countries. The database was most recently updated with numbers for 2018. “Analysts/researchers” is a head count of professionals employed at local organizations whose work involves food policy research or analysis. To introduce some uniformity, IFPRI also presents a modified quantification of the headcount: \"full-time equivalent analysts/researchers with the Ph.D. equivalent.\" To obtain an indicator of per capita food policy research capacity, this research capacity is then divided by the country’s rural population (\"full-time equivalent researchers per million rural residents\"). This helps to illustrate the impact of local food policy research in a country. This indicator was last updated in 2015. The quality of a country’s food policy research capacity is estimated by tallying the number of relevant international publications in peer-reviewed journals over a five-year period. IFPRI views this as a reflection of the local enabling environment for food policy research. This indicator allows for comparison across countries, as it ensures an internationally accepted standard of quality for publications. The final indicator (\"publications per full-time equivalent researcher\") is derived by dividing the number of international publications by the number of full-time equivalent researchers with a Ph.D., providing a measure of productivity."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS Excel validation hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20Excel%20validation%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Replication Data for: Cross-validation data for Hamilton et al. North Ecuador Estuaries.",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WNQBBP",
+                         "url":  "https://doi.org/10.7910/DVN/WNQBBP",
+                         "published_at":  "2017-06-13T02:27:46Z",
+                         "authors":  [
+                                         "Hamilton, Stuart"
+                                     ],
+                         "description":  "Data includes the study areas from Hamilton et al. 2007 with the AGMB processed according to the data in the Global Mangrove Carbon Stocks Database, excluding soil."
+                     },
+                     {
+                         "name":  "Supplemental Table 1.",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/HSV1ET",
+                         "url":  "https://doi.org/10.7910/DVN/HSV1ET",
+                         "published_at":  "2017-06-23T20:12:11Z",
+                         "authors":  [
+                                         "Hamilton, Stuart"
+                                     ],
+                         "description":  "Supplemental Table 1. Stats in Excel for cross-country comparison."
+                     },
+                     {
+                         "name":  "Impact Evaluation of the World Food Programme’s Moderate Acute Malnutrition Treatment and Prevention Programmes in Kassala Sudan",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BWJWJF",
+                         "url":  "https://doi.org/10.7910/DVN/BWJWJF",
+                         "published_at":  "2017-09-27T07:41:50Z",
+                         "authors":  [
+                                         "Guevarra, Ernest"
+                                     ],
+                         "description":  "Impact Evaluation of the World Food Programme’s Moderate Acute Malnutrition Treatment and Prevention Programmes in Kassala Sudan"
+                     },
+                     {
+                         "name":  "Dataset 1 — Low-Cost Triaxial Accelerometer Benchtop Validation Dataset",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/U02XUW",
+                         "url":  "https://doi.org/10.7910/DVN/U02XUW",
+                         "published_at":  "2026-02-22T17:48:45Z",
+                         "authors":  [
+                                         "Trombini-Souza, Francis"
+                                     ],
+                         "description":  "Triaxial linear acceleration data collected during controlled benchtop validation tests, including simultaneous recordings from 49 units of a low-cost sensor under test (SUT) and a reference commercial sensor (RS). The dataset contains raw and processed data from repeated trials under standardized mechanical conditions to assess accuracy, precision, and agreement between devices."
+                     },
+                     {
+                         "name":  "Wild edible plant use in Tshopo district, DR Congo",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/I5FVAI",
+                         "url":  "https://doi.org/10.7910/DVN/I5FVAI",
+                         "published_at":  "2018-12-10T16:08:53Z",
+                         "authors":  [
+                                         "Termote, C.",
+                                         "Meyi, M.B.",
+                                         "Djailo, B. D",
+                                         "van Damme, P. "
+                                     ],
+                         "description":  "Data from Oriental Province, northeast Congo (26 % rural, 74% urban*) Agro ecological zone is Tropics lowland, warm, farming system is Forest Based Research objectif: to assess the contribution of wild foods to diets in Kisangani and a rural Turumbu village Yaoseko) Data were collected using a 24 hour dietary intake recall, interviewer administered, portion sizes were assessed using photographs, price-weight conversion list, and direct measurements. Food composition data used was DR Congo (Degroote, 1965), complemented with data from Tanzania (Lukmanji, 2008) and USDA (2015). Food consumed were identified up to the species level. Herbarium specimens of wild plants were collected and identified using local flore references in herbarium of Yangambi (DR Congo) and Brussels (Belgium). food composition tables are De Groote V (1966)"
+                     },
+                     {
+                         "name":  "Biodiversity and dietary diversity in Vihiga Kenya",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/O0CDZB",
+                         "url":  "https://doi.org/10.7910/DVN/O0CDZB",
+                         "published_at":  "2018-12-10T16:25:27Z",
+                         "authors":  [
+                                         "Termote, C.",
+                                         "Oduor Odhiambo, F."
+                                     ],
+                         "description":  "The objective of the study was to assess contribution of local agrobiodiversity to the diet and assess diet diversity in Vihiga County, Western Kenya // the dataset also serves as baseline survey in a 3 year project on participatory development of interventions to diversify diets in Vihiga. Dietary assessment was conducted using two non-consecutive 24 hour recalls from 1580 women and children in plenty and lean seasons. Household measures, monetary values, direct weighing, or clay moulding were used to assess portion sizes. We also estimated quantities of foods in form of fluids using volume estimations. Food compostion tables used were the following: Tanzanian food composition (Lukmanji et al., 2008) complemented with information from the USDA food composition table (USDA, 2014), the Kenyan food composition table (Sehmi, 1993) and the West African food composition table (Stadlmayr et al., 2012). Nutrients composition of raw ingredients was converted into cooked ones using the USDA Table for Nutrient Retention Factors (2007). Species Identification was done at the East African Herbarium, Botany department of National of Museums of Kenya for missing or unknown species."
+                     },
+                     {
+                         "name":  "Investigating the current and potential role of local biodiversity in meeting nutritional requirements of infants and young children in rural Southern Benin",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ENDSGS",
+                         "url":  "https://doi.org/10.7910/DVN/ENDSGS",
+                         "published_at":  "2018-12-07T16:16:23Z",
+                         "authors":  [
+                                         "Termote, C.",
+                                         "Ntandou-Bouzitou, D.G."
+                                     ],
+                         "description":  "Research question: Why in the presence of high diversity of food sources undernutrition exists at high level in infants and young children in villages of Bopa and Houeyogbe Districts in southern Benin? Objective: To assess the role of local biodiversity in meeting nutritional requirements of infants and young children in rural Southern Benin. Dietary intake data at detailed taxonomic level, collected from Mono department, Bopa and Houéyogbé communes, rural areas. October - December 2013 / May-July 2014. A 24 recall was used to collect data. 2 non-consecutives recalls with 5-7 days separating the recall periods were conducted. This dataset contains only data from the first recall day. Primary care givers, mainly mothers were interviewed. Standardized household units (plate, glasses, spoons, etc) and monetary value for out-of-home meals together with a detailed description of the foods and mode of preparation. During a preceding ethnobotancial study to document all locally available foods from local agrobiodiversity, a botanist from the national herbarium and a local ichthyologist and an expert in the mammals, birds and reptiles assisted in the species identification. Food composition tables used to tranform food intake data into nutrient intakes: Stadlmayr B, et al. (2012) West African Food Composition Table. (Rome), p 148. Barikmo I, Ouattara F, \u0026 Oshaug A (2004) Table de composition d\u0027aliments du Mali. in Research series No. 9. (Norway). Oguntona E \u0026 Akinyele I (1995) Nutrient Composition of Commonly Eaten Foods in Nigeria - Raw, processed and prepared. in Publication Series 1995 (Ibadan, Nigeria), p 131; software used: Lucille dietary intake software Ugent"
+                     },
+                     {
+                         "name":  "Food security and the contribution of wild foods to diets, nutrition at three villages of Sinharaja Forest in Sri Lanka",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QW0SEO",
+                         "url":  "https://doi.org/10.7910/DVN/QW0SEO",
+                         "published_at":  "2018-12-07T12:58:27Z",
+                         "authors":  [
+                                         "Hunter, D.",
+                                         "Ratnasekera, D."
+                                     ],
+                         "description":  "Data from Ratnapura district adjacent to Sinharaja forest, southwest Sri Lanka (rural). Agro-ecological zone is Tropics, lowland, farming system is rice based. Food composition tables used are Database of Wayamba University, Sri Lanka and Indian food composition table. Food and drink intake was assessed using a 1 day 24 hour recall, portion sizes were assessed using pictures. Database of Wayamba University, Sri Lanka (Thamilini J, Silva K, Sirasa M, \u0026 Samarasinghe W (2016) Food composition data in Sri Lanka: Past, present and future. in 11th international food data conference \"Food composition and public health nutrition\" (Hyderabad, India), pp S1-P33.) and the Indian food composition table (Gopalan C, Rama Sastri B, Balasubramanian, \u0026 S (1982) Nutritive Value of Indian Foods. (New Delhi, India), p 204.). Herbarium specimens were collected and identified using local floral references Assanayake MD (2003) A revised handbook to the flora of Ceylon. (Zeitltlinger publishers, New Zealand) and Ashton M, Gunatilleke S, Zoysa N, \u0026 M.D D (1997) A field guide to the common trees and shrubs of Sri Lanka. in Wild life Heritage Trust publications (Colombo)."
+                     },
+                     {
+                         "name":  "Biodiversity and complementary feeding practices of children in the north west region of Cameroon",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/J94MZQ",
+                         "url":  "https://doi.org/10.7910/DVN/J94MZQ",
+                         "published_at":  "2018-12-07T15:47:54Z",
+                         "authors":  [
+                                         "Bechem, M.",
+                                         "Huybregts, L",
+                                         "van Damme, P."
+                                     ],
+                         "description":  "Data from Northwest Region (rural) agro-ecological zone is Tropics lowland, warm Tree Crop farming system. West-African food composition table is used Stadlmayr B, et al. (2012) West-African Food Composition Table. (Rome), p 148. Species consumed were identified using ICRAF data for Cameroun and World Vegetable Centre, Yaoundé, Cameroon Only mothers with children between 12-23 months were interviewed. Households were first visited to inform the mother/caregiver on the study background and objectives after which consent to participate was asked by reading out a consent form. Only upon agreement and subsequent signing of the form, an interview was conducted. The study was approved by ethics Clearance Committee, Yaoundé, Cameroon. Food and drink intake was assessed using a 2 day interview-administered 24-hour recall. Composition of food was obtained from FAO (2012). West African Food Composition Table, FAO, Rome, Italy and species were identified at World Vegetable Centre, Yaoundé, Cameroon"
+                     },
+                     {
+                         "name":  "Biodiversity and complementary feeding practices of children in the north west region of Viet Nam",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ZO9YA2",
+                         "url":  "https://doi.org/10.7910/DVN/ZO9YA2",
+                         "published_at":  "2018-09-27T11:49:14Z",
+                         "authors":  [
+                                         "Raneri, J."
+                                     ],
+                         "description":  "Quantitative 24hour recall Data, for Thai minority ethnic women and children aged 12-24 months old. Data from Mai son district, North West Vietnam (rural) agro ecological zone is Tropics highland, cool, with a farming system that is Highland intensive mixed. Food composition tables used are Vietnam and ASEAN (refs: National Institute of Nutrition (1972) Food products in Vietnam: composition and nutritive value. (Hanoi, Vietnam)./ Institute of Nutrition MU (2014) ASEAN Food Composition Database, Electronic version 1. (Thailand) Species were defined using a local ethnobiologist in collaboration with the head of agriculture extension provided data for missing or unknown species. Interactive 24 hour dietary recall (with a repeat on 2 non-consecutive days for a subsample) of a woman of reproductive age and a child between 12-23 months of age per selected household. This is repeated in two season: lean and abundant to capture seasonal dietary variations. Information on the species and variety of foods consumed, and their source was included. Full information available in the protocol"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS V10 hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20V10%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Replication Data for: Computational model for HSC culture and feedback",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4DNDZU",
+                         "url":  "https://doi.org/10.7910/DVN/4DNDZU",
+                         "published_at":  "2019-02-09T01:11:34Z",
+                         "authors":  [
+                                         "Mahadik, Bhushan"
+                                     ],
+                         "description":  "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\""
+                     },
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/M9ZT0F",
+                         "url":  "https://doi.org/10.7910/DVN/M9ZT0F",
+                         "published_at":  "2018-02-26T10:43:18Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce A.",
+                                         "Ottman, Michael J.",
+                                         "Wall, Gerard W.",
+                                         "White, Jeffrey W.",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod K.",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew J.",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie A.",
+                                         "Izaurralde, Roberto C.",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis D.",
+                                         "Kassie, Belay T.",
+                                         "Kersebaum, Kurt C.",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David B.",
+                                         "Nendel, Claas",
+                                         "O\u0027Leary, Garry",
+                                         "Olesen, Jørgen E.",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Rezaei, Ehsan Eyshi",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund P.",
+                                         "Semenov, Mikhail A.",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "The Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ECSFZG",
+                         "url":  "https://doi.org/10.7910/DVN/ECSFZG",
+                         "published_at":  "2017-04-24T11:52:42Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce",
+                                         "Ottman, Michael",
+                                         "Wall, Gerard",
+                                         "White, Jeffrey",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie",
+                                         "Izaurralde, Roberto",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis",
+                                         "Kassie, Belay",
+                                         "Kersebaum, Kurt",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David",
+                                         "Nendel, Claas",
+                                         "O’Leary, Garry",
+                                         "Olesen, Jørgen",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Eyshi Rezaei, Ehsan",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund",
+                                         "Semenov, Mikhail",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The data set reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QOBGVF",
+                         "url":  "https://doi.org/10.7910/DVN/QOBGVF",
+                         "published_at":  "2023-10-20T21:49:31Z",
+                         "authors":  [
+                                         "Nikkhah, Ali",
+                                         "Nikkhah, Hasan",
+                                         "Shahbazi, Amir",
+                                         "Kamelan Zargar Zarin, Mona",
+                                         "Beykal Iz, Duygu",
+                                         "Ebadi, Mohammad-Taghi",
+                                         "Fakhroleslam, Mohammad",
+                                         "Beykal, Burcu"
+                                     ],
+                         "description":  "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS V11 hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20V11%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Replication Data for: Computational model for HSC culture and feedback",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4DNDZU",
+                         "url":  "https://doi.org/10.7910/DVN/4DNDZU",
+                         "published_at":  "2019-02-09T01:11:34Z",
+                         "authors":  [
+                                         "Mahadik, Bhushan"
+                                     ],
+                         "description":  "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\""
+                     },
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/M9ZT0F",
+                         "url":  "https://doi.org/10.7910/DVN/M9ZT0F",
+                         "published_at":  "2018-02-26T10:43:18Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce A.",
+                                         "Ottman, Michael J.",
+                                         "Wall, Gerard W.",
+                                         "White, Jeffrey W.",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod K.",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew J.",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie A.",
+                                         "Izaurralde, Roberto C.",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis D.",
+                                         "Kassie, Belay T.",
+                                         "Kersebaum, Kurt C.",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David B.",
+                                         "Nendel, Claas",
+                                         "O\u0027Leary, Garry",
+                                         "Olesen, Jørgen E.",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Rezaei, Ehsan Eyshi",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund P.",
+                                         "Semenov, Mikhail A.",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "The Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ECSFZG",
+                         "url":  "https://doi.org/10.7910/DVN/ECSFZG",
+                         "published_at":  "2017-04-24T11:52:42Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce",
+                                         "Ottman, Michael",
+                                         "Wall, Gerard",
+                                         "White, Jeffrey",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie",
+                                         "Izaurralde, Roberto",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis",
+                                         "Kassie, Belay",
+                                         "Kersebaum, Kurt",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David",
+                                         "Nendel, Claas",
+                                         "O’Leary, Garry",
+                                         "Olesen, Jørgen",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Eyshi Rezaei, Ehsan",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund",
+                                         "Semenov, Mikhail",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The data set reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QOBGVF",
+                         "url":  "https://doi.org/10.7910/DVN/QOBGVF",
+                         "published_at":  "2023-10-20T21:49:31Z",
+                         "authors":  [
+                                         "Nikkhah, Ali",
+                                         "Nikkhah, Hasan",
+                                         "Shahbazi, Amir",
+                                         "Kamelan Zargar Zarin, Mona",
+                                         "Beykal Iz, Duygu",
+                                         "Ebadi, Mohammad-Taghi",
+                                         "Fakhroleslam, Mohammad",
+                                         "Beykal, Burcu"
+                                     ],
+                         "description":  "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS model file",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20model%20file\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Replication files for: Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/F7KYTE",
+                         "url":  "https://doi.org/10.7910/DVN/F7KYTE",
+                         "published_at":  "2025-05-09T18:11:14Z",
+                         "authors":  [
+                                         "Domenech-Arumi, Gerard"
+                                     ],
+                         "description":  "Replication files for \"Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona\""
+                     },
+                     {
+                         "name":  "San275 lab book pages (now replaced with dummy file).pdf",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/HKK1KU",
+                         "url":  "https://doi.org/10.7910/DVN/HKK1KU",
+                         "published_at":  "2019-11-17T20:12:25Z",
+                         "authors":  [
+                                         "Durham, William"
+                                     ],
+                         "description":  "run log"
+                     },
+                     {
+                         "name":  "San250 lab book pages.pdf",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/W2FDI8",
+                         "url":  "https://doi.org/10.7910/DVN/W2FDI8",
+                         "published_at":  "2018-09-02T15:36:21Z",
+                         "authors":  [
+                                         "Durham, William"
+                                     ],
+                         "description":  "run log"
+                     },
+                     {
+                         "name":  "CAST model experiments",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/DKBK12",
+                         "url":  "https://doi.org/10.7910/DVN/DKBK12",
+                         "published_at":  "2025-08-31T14:02:35Z",
+                         "authors":  [
+                                         "Koscianski, André",
+                                         "Koscianski, André"
+                                     ],
+                         "description":  "Set of original experiments with the CAST (Control Assisted Simulation Technique) model approach. This dataset includes three experiments, organized into subfolders: (i) stirred tank, (ii) Lotka-Volterra, (iii) agent based model of epidemics."
+                     },
+                     {
+                         "name":  "Supplementary Files",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/T9HCLU",
+                         "url":  "https://doi.org/10.7910/DVN/T9HCLU",
+                         "published_at":  "2025-08-27T01:11:32Z",
+                         "authors":  [
+                                         "Rodrigues, Gustavo D"
+                                     ],
+                         "description":  "Supplementary Files"
+                     },
+                     {
+                         "name":  "Replication Data for: Data Construction Files",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ZZGSIL",
+                         "url":  "https://doi.org/10.7910/DVN/ZZGSIL",
+                         "published_at":  "2015-07-10T20:01:37Z",
+                         "authors":  [
+                                         "Zigler, Cory"
+                                     ],
+                         "description":  "Replication Data for: Data Construction Files"
+                     },
+                     {
+                         "name":  "Replication Data for: Measuring constitutional loyalty",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/SSQWDD",
+                         "url":  "https://doi.org/10.7910/DVN/SSQWDD",
+                         "published_at":  "2025-02-06T11:27:53Z",
+                         "authors":  [
+                                         "Gutmann, Jerg",
+                                         "Sarel, Roee",
+                                         "Voigt, Stefan"
+                                     ],
+                         "description":  "Replication files for Gutmann, Jerg, Roee Sarel, and Stefan Voigt, Measuring constitutional loyalty, forthcoming: Public Choice."
+                     },
+                     {
+                         "name":  "Analytic code for: \"Increased duration of paid maternity leave lowers infant mortality in low- and middle-income countries: a quasi-experimental study\"",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/YXYS7Y",
+                         "url":  "https://doi.org/10.7910/DVN/YXYS7Y",
+                         "published_at":  "2016-06-28T20:33:17Z",
+                         "authors":  [
+                                         "Nandi, Arijit",
+                                         "Hajizadeh, Mohammad",
+                                         "Harper, Sam",
+                                         "Koski, Alissa",
+                                         "Strumpf, Erin C",
+                                         "Heymann, Jody"
+                                     ],
+                         "description":  "The policy data, as well as the statistical code for producing the analytic dataset and replicating our results (given DHS data that must be downloaded from the DHS program), are provided. Please consult the \u0027readme\u0027 file for detailed instructions."
+                     },
+                     {
+                         "name":  "Replication Data for: The effect of paid maternity leave on early childhood growth in low-income and middle-income countries ",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/LDIFOI",
+                         "url":  "https://doi.org/10.7910/DVN/LDIFOI",
+                         "published_at":  "2018-05-24T21:16:22Z",
+                         "authors":  [
+                                         "Jahagirdar, Deepa",
+                                         "Harper, Sam",
+                                         "Heymann, Jody",
+                                         "Swaminathan, Hema",
+                                         "Mukherji, Arnab",
+                                         "Nandi, Arijit"
+                                     ],
+                         "description":  "Despite recent improvements, low height-for-age, a key indicator of inadequate child nutrition, is an ongoing public health issue in low-income and middle-income countries. Paid maternity leave has the potential to improve child nutrition, but few studies have estimated its impact."
+                     },
+                     {
+                         "name":  "Replication data for evaluation of the association between a novel baby-friendly hospital program and equitable support for breastfeeding in Vietnam",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/JOGYS9",
+                         "url":  "https://doi.org/10.7910/DVN/JOGYS9",
+                         "published_at":  "2021-07-19T22:46:33Z",
+                         "authors":  [
+                                         "Nandi, Arijit",
+                                         "Joyce, Caroline",
+                                         "Hou, Sherry Shu-Yeu",
+                                         "Ta, Binh T. T.",
+                                         "Vu, Duong Hoang",
+                                         "Mathisen, Roger",
+                                         "Vincent, Ilona",
+                                         "Duc, Vinh Nguyen"
+                                     ],
+                         "description":  "Data, codebook, and code for evaluation of the association between a novel baby-friendly hospital program and equitable support for breastfeeding in Vietnam."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hscz",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20hscz\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QOBGVF",
+                         "url":  "https://doi.org/10.7910/DVN/QOBGVF",
+                         "published_at":  "2023-10-20T21:49:31Z",
+                         "authors":  [
+                                         "Nikkhah, Ali",
+                                         "Nikkhah, Hasan",
+                                         "Shahbazi, Amir",
+                                         "Kamelan Zargar Zarin, Mona",
+                                         "Beykal Iz, Duygu",
+                                         "Ebadi, Mohammad-Taghi",
+                                         "Fakhroleslam, Mohammad",
+                                         "Beykal, Burcu"
+                                     ],
+                         "description":  "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD."
+                     },
+                     {
+                         "name":  "Replication Data for: Testing of Automated Photochemical Reflectance Index Sensors as Proxy Measurements of Light Use Efficiency in an Aspen Forest",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ZDZHAH",
+                         "url":  "https://doi.org/10.7910/DVN/ZDZHAH",
+                         "published_at":  "2020-03-12T17:57:46Z",
+                         "authors":  [
+                                         "Castro, Saulo",
+                                         "Sanchez-Azofeifa, Arturo",
+                                         "Sanchez-Azofeifa, Gerardo Arturo"
+                                     ],
+                         "description":  "Commercially available autonomous photochemical reflectance index (PRI) sensors are a new development in the remote sensing field that offer novel opportunities for a deeper exploration of vegetation physiology dynamics. In this study, we evaluated the reliability of autonomous PRI sensors (SRS-PRI) developed by METER Group Inc. as proxies of light use efficiency (LUE) in an aspen (Populus tremuloides) forest stand. Before comparisons between PRI and LUE measurements were made, the optical SRS-PRI sensor pairs required calibrations to resolve diurnal and seasonal patterns properly. An offline diurnal calibration procedure was shown to account for variable sky conditions and diurnal illumination changes affecting sensor response. Eddy covariance measurements provided seasonal gross primary productivity (GPP) measures as well as apparent canopy quantum yield dynamics (α). LUE was derived from the ratio of GPP to absorbed photosynthetically active radiation (APAR). Corrected PRI values were derived after diurnal and midday cross-calibration of the sensor’s 532 nm and 570 nm fore-optics, and closely related to both LUE (R2 = 0.62, p \u003c 0.05) and α (R2 = 0.72, p \u003c 0.05). A LUE model derived from corrected PRI values showed good correlation to measured GPP (R2 = 0.77, p \u003c 0.05), with an accuracy comparable to results obtained from an α driven LUE model (R2 = 0.79, p \u003c 0.05). The automated PRI sensors proved to be suitable proxies of light use efficiency. The onset of continuous PRI sensors signifies new opportunities for explicitly examining the cause of changing PRI, LUE, and productivity over time and space. As such, this technology represents great value for the flux, remote sensing and modeling community."
+                     },
+                     {
+                         "name":  "QISAP : Quantum Instruction Set Analytics Platform",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QMYLWC",
+                         "url":  "https://doi.org/10.7910/DVN/QMYLWC",
+                         "published_at":  "2025-09-03T04:43:14Z",
+                         "authors":  [
+                                         "Jha, Ayush"
+                                     ],
+                         "description":  "The current landscape of quantum computing is dominated by the Noisy Intermediate-Scale Quantum (NISQ) era, where hardware limitations necessitate highly optimized quantum circuits to maximize computational fidelity. This research presents a comparative analysis of three prominent quantum compilers—Qiskit, Cirq, and PyQuil—evaluating their performance on the Greenberger-Horne-Zeilinger (GHZ) state generation circuit. The study focuses on key performance metrics including circuit depth, CX gate count, and total gate count for 3, 4, and 5-qubit GHZ states compiled for Rigetti’s Aspen-M quantum processor. While all compilers produced functionally equivalent circuits for this benchmark, significant differences in compilation strategies and overhead were observed. The findings highlight the critical trade-offs between compilation time and circuit optimization, and underscore the importance of hardwareaware compilation in the NISQ era. Index Terms of File (Research Paper) Quantum computing, quantum compilation, NISQ devices, GHZ state, compiler performance, Qiskit, Cirq, PyQuil"
+                     },
+                     {
+                         "name":  "The Impacts of Industrial and Entrepreneurial Work on Income and Health: Experimental Evidence from Ethiopia",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/DNQHTO",
+                         "url":  "https://doi.org/10.7910/DVN/DNQHTO",
+                         "published_at":  "2017-08-01T21:06:51Z",
+                         "authors":  [
+                                         "Blattman, Christopher",
+                                         "Dercon, Stefan"
+                                     ],
+                         "description":  "Working with five Ethiopian firms, we randomized applicants to an industrial job offer, an “entrepreneurship” program of $300 plus business training, or control status. Industrial jobs offered more and steadier hours but low wages and risky conditions. The job offer doubled exposure to industrial work but, since most quit within months, had no impact on employment or income after a year. Applicants largely took industrial work to cope with adverse shocks. This exposure, meanwhile, significantly increased health problems. The entrepreneurship program raised earnings 33% and provided steadier hours. When barriers to self-employment were relieved, applicants preferred entrepreneurial to industrial labor."
+                     },
+                     {
+                         "name":  "Aspen Institute Poll: January 2000",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.25940/ROPER-31108298",
+                         "url":  "https://doi.org/10.25940/ROPER-31108298",
+                         "published_at":  "2020-12-22T19:54:48Z",
+                         "authors":  [
+                                         "Institute, Aspen"
+                                     ],
+                         "description":  null
+                     },
+                     {
+                         "name":  "Replication data for: Time and State Dependence in an Ss Decision Experiment",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.3886/E114078V1",
+                         "url":  "https://doi.org/10.3886/E114078V1",
+                         "published_at":  "2020-07-30T06:29:03Z",
+                         "authors":  [
+                                         "Magnani, Jacopo",
+                                         "Gorry, Aspen",
+                                         "Oprea, Ryan"
+                                     ],
+                         "description":  "Flow earnings in a laboratory experiment decline the further a Brownian state variable, z, evolves from its optimal level, z*. Optimal state dependent models predict subjects will pay a fixed cost to return z to z* only when z strays outside a critical inaction region around the optimum. On average, subjects adjust at states remarkably close to optimal threshold levels but, as in the field, do not establish true \"state dependent\" inaction regions, suggesting significant \"time dependent\" components in adjustment rules. Structural estimates of subjective observation cost qualitatively account for variation in time dependence observed across treatments. (JEL C91, D21, D80)"
+                     },
+                     {
+                         "name":  "Replication data for: Time and State Dependence in an Ss Decision Experiment",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.3886/E114078",
+                         "url":  "https://doi.org/10.3886/E114078",
+                         "published_at":  "2020-07-30T06:29:03Z",
+                         "authors":  [
+                                         "Magnani, Jacopo",
+                                         "Gorry, Aspen",
+                                         "Oprea, Ryan"
+                                     ],
+                         "description":  "Flow earnings in a laboratory experiment decline the further a Brownian state variable, z, evolves from its optimal level, z*. Optimal state dependent models predict subjects will pay a fixed cost to return z to z* only when z strays outside a critical inaction region around the optimum. On average, subjects adjust at states remarkably close to optimal threshold levels but, as in the field, do not establish true \"state dependent\" inaction regions, suggesting significant \"time dependent\" components in adjustment rules. Structural estimates of subjective observation cost qualitatively account for variation in time dependence observed across treatments. (JEL C91, D21, D80)"
+                     },
+                     {
+                         "name":  "Influence of Aspen Serpentine Leafminer (Phyllocnistis populiella) on Burn Severity In Trembling Aspen (Populus tremuloides)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.5683/SP3/8OU83A",
+                         "url":  "https://doi.org/10.5683/SP3/8OU83A",
+                         "published_at":  "2025-11-22T07:05:47Z",
+                         "authors":  [
+                                         "Russell, Sadie"
+                                     ],
+                         "description":  "Trembling aspen (Populus tremuloides) is a fire-resilient tree species, making its role increasingly important as wildfire seasons intensify in British Columbia, Canada. However, forest pests like the aspen serpentine leafminer (Phyllocnistis populiella) raise concerns about their potential to alter fire behavior by affecting forest structure and fuel conditions. This study evaluates whether leafminer outbreaks influence burn severity in aspen-dominated stands of northeastern British Columbia. Using provincial and federal datasets from 2010 to 2020, fire-affected aspen stands were analyzed at a 200 m resolution, comparing areas with and without prior leafminer outbreaks. A random forest model assessed the effect of leafminer presence on burn severity, measured by the differenced Normalized Burn Ratio (dNBR), while controlling for 11 climate, topography, and vegetation variables. Among 10,326 aspen-dominated burn pixels, 21% showed leafminer presence. The model achieved an R² of 0.84, with surrounding mean dNBR exerting the greatest influence on model performance, while leafminer presence had the least effect. Burn severity was slightly lower in leafminer-affected areas, with a mean dNBR decrease of 0.03. Additionally, higher trembling aspen percentage and climate conditions favorable to aspen growth were strongly associated with reduced burn severity. These findings suggest that while the leafminer’s impact on burn severity is minimal, finer-scale analyses or investigations of outbreak severity may reveal more nuanced effects on aspen fire resilience."
+                     },
+                     {
+                         "name":  "Ectomycorrhizal and arbuscular colonization of aspen roots",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7939/DVN/LD0ME9",
+                         "url":  "https://doi.org/10.7939/DVN/LD0ME9",
+                         "published_at":  "2025-11-20T07:02:03Z",
+                         "authors":  [
+                                         "Karst, Justine"
+                                     ],
+                         "description":  "On August 24, 2019, Justine Karst and Nadir Erbilgin sampled a 30–50 cm segment of root from each of three aspen (Populus tremuloides) trees within each plot at the interface of the humus layer of the forest floor and mineral soil. We traced roots from boles and confirmed their identity to be aspen by taste-testing. Sampled roots were put on ice after collection and transported to the University of Alberta the same day and stored at -20 °C prior to processing. Aspen roots were thawed and washed free of adhering soil. Fine roots (\u003c 1 mm in diameter) were retained, cut into 1 cm fragments, mixed thoroughly in a dish of water, and subsampled for scoring roots for mycorrhizal colonization. Justine Karst scored roots for ectomycorrhizal colonization and James Franklin scored roots for arbuscular mycorrhizal colonization."
+                     }
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases xml",
+        "url":  "https://dataverse.harvard.edu/api/search?q=HYSYS%20XML%20Cases%20xml\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Spatial Interpolation for Ground Station-based Environment Data in Oklahoma",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/LJBB7S",
+                         "url":  "https://doi.org/10.7910/DVN/LJBB7S",
+                         "published_at":  "2025-01-31T23:51:05Z",
+                         "authors":  [
+                                         "HU, Tao"
+                                     ],
+                         "description":  "The first case study focuses on spatial interpolation for ground station-based environmental data. Spatial interpolation is a critical process in environmental science, where data from ground stations are used to estimate values in unmeasured locations. This case study showcases how our Common Workflow Language (CWL) based Workflow Management System (WfMS) can handle complex spatial data processes, ensuring accurate and efficient interpolation. In this case study, two spatial interpolation models were implemented. IDW (Inverse Distance Weighting) is a deterministic method for spatial interpolation, which estimates the values at unknown points using the values from known points weighted by the inverse of their distances. Kriging is a geostatistical interpolation technique that not only considers the distance between known and unknown points but also models the spatial autocorrelation among the measured points. It provides more accurate estimations by using a weighted average of known points, where the weights are determined based on the spatial structure of the data."
+                     },
+                     {
+                         "name":  "Geographical Accessibility to Primary Care Health Facilities in Oklahoma",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/AQCAVJ",
+                         "url":  "https://doi.org/10.7910/DVN/AQCAVJ",
+                         "published_at":  "2025-01-31T23:46:59Z",
+                         "authors":  [
+                                         "HU, Tao"
+                                     ],
+                         "description":  "Geographical accessibility measures the ease with which people can reach desired services, such as healthcare facilities. It is an important aspect of health geography and urban planning, as it influences both policy decisions and resource allocation. This case study demonstrates the application of the GIScience Worklfow Management System (WfMS) to analyze geographical accessibility to primary care health facilities in Oklahoma. By integrating three spatial analysis models (2SFCA, E2SFCA, and G2SFCA) into a single workflow, users can efficiently compare and interpret the accessibility measures. This case study involves 7 different nodes: CsvReader, GeoFileReader, 2SFCA, E2SFCA, G2SFCA, RenameFileName, and GeoFileViewer."
+                     },
+                     {
+                         "name":  "Benoîte Groult XML",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/MT4U6T",
+                         "url":  "https://doi.org/10.7910/DVN/MT4U6T",
+                         "published_at":  "2021-03-29T14:45:43Z",
+                         "authors":  [
+                                         "Meynard, Cécile",
+                                         "Greslou, Elisabeth"
+                                     ],
+                         "description":  "Ce jeu de données est constitué des encodages en XML-TEI des manuscrits de Mon Evasion, de Benoîte Groult, féministe française."
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type and S100a9 knock-out mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WJVQSB",
+                         "url":  "https://doi.org/10.7910/DVN/WJVQSB",
+                         "published_at":  "2025-10-13T19:18:08Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Psychological trauma increases inflammation. In a mouse model of psychological trauma (repeated social defeat stress), we used single cell RNA sequencing to assess the gene expression in splenocytes ± psychological trauma as well as without S100a9 (gene of interest)"
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/3LGNXQ",
+                         "url":  "https://doi.org/10.7910/DVN/3LGNXQ",
+                         "published_at":  "2025-10-13T19:24:27Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Splenocytes from 5 control and 5 social defeat mice were pooled respectively prior to performing single cell RNA sequencing by 10X Genomics."
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type and ITGAX-Cre Tyrosine Hydroxylase knock-out mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VUIU3O",
+                         "url":  "https://doi.org/10.7910/DVN/VUIU3O",
+                         "published_at":  "2025-10-13T17:51:14Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Psychological trauma increases inflammation. In a mouse model of psychological trauma (repeated social defeat stress), we used single cell RNA sequencing to assess the gene expression in splenocytes ± psychological trauma as well as without TH in ITGAX positive cells"
+                     },
+                     {
+                         "name":  "ClinicalTrials.Gov CSV (from XML)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/TJZUYL",
+                         "url":  "https://doi.org/10.7910/DVN/TJZUYL",
+                         "published_at":  "2017-12-26T20:09:17Z",
+                         "authors":  [
+                                         "Laohaprapanon, Suriyan",
+                                         "Sood, Gaurav"
+                                     ],
+                         "description":  "ClinicalTrials.gov distributes a massive clumsy folder with lots of XMLs. We have collated all the XMLs into a single CSV. The source XML and resulting CSV are posted."
+                     },
+                     {
+                         "name":  "Results of the multi-criteria analysis to prioritize health care facilities for electrification",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/T4XOZC",
+                         "url":  "https://doi.org/10.7910/DVN/T4XOZC",
+                         "published_at":  "2024-02-14T11:39:53Z",
+                         "authors":  [
+                                         "Andrade, Andrés"
+                                     ],
+                         "description":  "Results of the multi-criteria analysis to prioritize health care facilities for electrification. The multi-criteria analysis was carried out in the study once with objective weightings and once with subjective weightings."
+                     },
+                     {
+                         "name":  "MCA Questionnaire",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/YHM8SB",
+                         "url":  "https://doi.org/10.7910/DVN/YHM8SB",
+                         "published_at":  "2024-02-14T11:40:56Z",
+                         "authors":  [
+                                         "Andrade, Andrés"
+                                     ],
+                         "description":  "The dataset contains the expert questionnaire, based on which the weightings of the multi-criteria analysis were determined."
+                     },
+                     {
+                         "name":  "Replication data for: Design study MEVA (WRF Simulation data, 3 km domain)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/29762",
+                         "url":  "https://doi.org/10.7910/DVN/29762",
+                         "published_at":  "2017-08-23T06:26:50Z",
+                         "authors":  [
+                                         "Bauer, Hans-Stefan"
+                                     ],
+                         "description":  "Data from WRF model simulation used for a design study (MEVA), 3 km domain"
+                     }
+                 ]
+    }
+]

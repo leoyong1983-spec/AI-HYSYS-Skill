@@ -1,0 +1,26 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS hsc",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22Aspen%20HYSYS%20hsc%22%20OR%20description%20~%20%22Aspen%20HYSYS%20hsc%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS hscz",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22HYSYS%20hscz%22%20OR%20description%20~%20%22HYSYS%20hscz%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22HYSYS%20XML%20Cases%22%20OR%20description%20~%20%22HYSYS%20XML%20Cases%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    }
+]

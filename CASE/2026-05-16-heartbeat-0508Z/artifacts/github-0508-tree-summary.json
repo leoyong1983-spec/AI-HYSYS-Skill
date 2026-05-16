@@ -1,0 +1,275 @@
+[
+  {
+    "repo": "rubel-miah-che/rubel-portfolio",
+    "url": "https://github.com/rubel-miah-che/rubel-portfolio",
+    "description": "My personal portfolio repo containing projects, code, papers, and more.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS PFD hsc in:readme",
+      "HYSYS Python COM hsc in:readme",
+      "HYSYS MATLAB hsc in:readme",
+      "\"Aspen HYSYS\" \"process simulation\" hsc in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 5,
+      ".md": 1,
+      ".py": 4
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "cv/Rubel_Miah_Academic_CV.pdf",
+        "papers/119_ICChE2023_Manuscript_Ridika.pdf",
+        "papers/538.pdf",
+        "papers/FullPaper_47.pdf",
+        "papers/PIIS2405844024167539.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "Learning_2.py",
+        "learning.py",
+        "notebooks/Learning_2.py",
+        "notebooks/learning.py"
+      ]
+    }
+  },
+  {
+    "repo": "JoshuaKiplimo/ResParse",
+    "url": "https://github.com/JoshuaKiplimo/ResParse",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS report hsc in:readme",
+      "HYSYS Excel validation hsc in:readme",
+      "HYSYS Python COM hsc in:readme",
+      "HYSYS MATLAB hsc in:readme",
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 1,
+      ".pdf": 2,
+      ".txt": 3,
+      ".py": 10
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "readme.txt"
+    ],
+    "companion": {
+      ".csv": [
+        "TechnologySkills.csv"
+      ],
+      ".pdf": [
+        "resume/JOSHUA KIPRONO.pdf",
+        "resume/entry-level-computer-science-resume-example.pdf"
+      ],
+      ".txt": [
+        "readme.txt",
+        "requirements.txt",
+        "resume/test.txt"
+      ],
+      ".py": [
+        ".streamlit/Voice.py",
+        "ResumeMatch.py",
+        "actionVerbs.py",
+        "get_jobs.py",
+        "majors.py",
+        "packages/common.py",
+        "packages/listing.py",
+        "packages/page.py",
+        "pdfGenerator.py",
+        "textFormat.py"
+      ]
+    }
+  },
+  {
+    "repo": "jjgomera/pychemqt",
+    "url": "https://github.com/jjgomera/pychemqt",
+    "description": "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+    "license": "GPL-3.0",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 1,
+      ".txt": 2,
+      ".py": 388
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [],
+    "companion": {
+      ".csv": [
+        "dat/MathiasCopeman.csv"
+      ],
+      ".txt": [
+        ".circleci/requirements_test.txt",
+        "docs/requirements.txt"
+      ],
+      ".py": [
+        ".script/copyright.py",
+        ".script/crude.py",
+        ".script/database.py",
+        ".script/ipython.py",
+        ".script/mEoSAncillary.py",
+        ".script/plot2point.py",
+        ".script/plotMEoS.py",
+        ".script/superancillary.py",
+        ".script/svg.py",
+        ".script/translate_elemental.py"
+      ]
+    }
+  },
+  {
+    "repo": "ruhanfarajov/aspenhysys",
+    "url": "https://github.com/ruhanfarajov/aspenhysys",
+    "description": "AI integrated model",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS Python COM hsc in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 32
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "app/__init__.py",
+        "app/api/__init__.py",
+        "app/api/routes.py",
+        "app/core/__init__.py",
+        "app/core/config.py",
+        "app/core/logging.py",
+        "app/db/__init__.py",
+        "app/db/base.py",
+        "app/db/session.py",
+        "app/main.py"
+      ]
+    }
+  },
+  {
+    "repo": "iurisegtovich/AwesomeThermodynamics",
+    "url": "https://github.com/iurisegtovich/AwesomeThermodynamics",
+    "description": "A curated list of awesome resources on Thermodynamics",
+    "license": "",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".txt": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".txt": [
+        "FIGs/imgsrc.txt"
+      ]
+    }
+  },
+  {
+    "repo": "huzaifashahid7/Catalytic-wet-oxidation",
+    "url": "https://github.com/huzaifashahid7/Catalytic-wet-oxidation",
+    "description": "Research on catalytic wet air oxidation for industrial wastewater treatment using Fe/Al₂O₃.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Catalytic-wet-air-oxidation-project.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "joseabraham-mena/EOSPy",
+    "url": "https://github.com/joseabraham-mena/EOSPy",
+    "description": "",
+    "license": "",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 2,
+      ".md": 1,
+      ".py": 5
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".csv": [
+        "Databases/Database.csv",
+        "Databases/VirialCoefficients.csv"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "EOS/Peng-Robinson.py",
+        "EOS/ReducedVariables.py",
+        "EOS/Virial.PY",
+        "EOS/vanderWaals.py",
+        "Tests.py"
+      ]
+    }
+  },
+  {
+    "repo": "Gopal564/Chemical-Engineering-Revision",
+    "url": "https://github.com/Gopal564/Chemical-Engineering-Revision",
+    "license": "",
+    "queries": [
+      "HYSYS compound in:readme"
+    ],
+    "error": "Get \"https://api.github.com/repos/Gopal564/Chemical-Engineering-Revision/git/trees/62cb125ba4313d17fd967b1e7d35d4ad41a84121?recursive=1\": net/http: TLS handshake timeout"
+  }
+]

@@ -1,0 +1,236 @@
+{
+  "queries": {
+    "github-cli-search-hysys-pfd-hsc": "HYSYS PFD hsc in:readme",
+    "github-cli-search-hysys-flowsheet-hsc": "HYSYS flowsheet hsc in:readme",
+    "github-cli-search-hysys-report-hsc": "HYSYS report hsc in:readme",
+    "github-cli-search-hysys-excel-validation-hsc": "HYSYS Excel validation hsc in:readme",
+    "github-cli-search-hysys-python-com-hsc": "HYSYS Python COM hsc in:readme",
+    "github-cli-search-hysys-matlab-hsc": "HYSYS MATLAB hsc in:readme",
+    "github-cli-search-aspen-hysys-process-simulation": "\"Aspen HYSYS\" \"process simulation\" hsc in:readme",
+    "github-cli-search-aspen-hysys-model-file": "\"Aspen HYSYS\" \"model file\" in:readme",
+    "github-cli-search-hysys-extension-hscz": "HYSYS hscz in:readme",
+    "github-cli-search-hysys-extension-compound": "HYSYS compound in:readme",
+    "github-cli-search-hysys-v10-hsc": "\"ASPEN HYSYS v. 10\" hsc in:readme",
+    "github-cli-search-hysys-v11-hsc": "\"Aspen HYSYS V11\" hsc in:readme"
+  },
+  "unique_repos": 23,
+  "new_unseen_repos": 8,
+  "errors": [],
+  "new_repos": [
+    {
+      "fullName": "rubel-miah-che/rubel-portfolio",
+      "queries": [
+        "HYSYS PFD hsc in:readme",
+        "HYSYS Python COM hsc in:readme",
+        "HYSYS MATLAB hsc in:readme",
+        "\"Aspen HYSYS\" \"process simulation\" hsc in:readme"
+      ],
+      "repo": {
+        "description": "My personal portfolio repo containing projects, code, papers, and more.",
+        "fullName": "rubel-miah-che/rubel-portfolio",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "U_kgDODehVUQ",
+          "is_bot": false,
+          "login": "rubel-miah-che",
+          "type": "User",
+          "url": "https://github.com/rubel-miah-che"
+        },
+        "updatedAt": "2025-11-03T06:44:50Z",
+        "url": "https://github.com/rubel-miah-che/rubel-portfolio"
+      }
+    },
+    {
+      "fullName": "JoshuaKiplimo/ResParse",
+      "queries": [
+        "HYSYS report hsc in:readme",
+        "HYSYS Excel validation hsc in:readme",
+        "HYSYS Python COM hsc in:readme",
+        "HYSYS MATLAB hsc in:readme",
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "JoshuaKiplimo/ResParse",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjU0MTUyMzIx",
+          "is_bot": false,
+          "login": "JoshuaKiplimo",
+          "type": "User",
+          "url": "https://github.com/JoshuaKiplimo"
+        },
+        "updatedAt": "2022-12-12T14:45:36Z",
+        "url": "https://github.com/JoshuaKiplimo/ResParse"
+      }
+    },
+    {
+      "fullName": "ruhanfarajov/aspenhysys",
+      "queries": [
+        "HYSYS Python COM hsc in:readme"
+      ],
+      "repo": {
+        "description": "AI integrated model",
+        "fullName": "ruhanfarajov/aspenhysys",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "U_kgDODnOG2w",
+          "is_bot": false,
+          "login": "ruhanfarajov",
+          "type": "User",
+          "url": "https://github.com/ruhanfarajov"
+        },
+        "updatedAt": "2026-02-20T18:25:53Z",
+        "url": "https://github.com/ruhanfarajov/aspenhysys"
+      }
+    },
+    {
+      "fullName": "jjgomera/pychemqt",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+        "fullName": "jjgomera/pychemqt",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0"
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjE3MTA1NDc=",
+          "is_bot": false,
+          "login": "jjgomera",
+          "type": "User",
+          "url": "https://github.com/jjgomera"
+        },
+        "updatedAt": "2026-05-10T21:37:14Z",
+        "url": "https://github.com/jjgomera/pychemqt"
+      }
+    },
+    {
+      "fullName": "iurisegtovich/AwesomeThermodynamics",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "A curated list of awesome resources on Thermodynamics",
+        "fullName": "iurisegtovich/AwesomeThermodynamics",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjEwOTMwNTE3",
+          "is_bot": false,
+          "login": "iurisegtovich",
+          "type": "User",
+          "url": "https://github.com/iurisegtovich"
+        },
+        "updatedAt": "2026-05-11T07:31:56Z",
+        "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+      }
+    },
+    {
+      "fullName": "huzaifashahid7/Catalytic-wet-oxidation",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "Research on catalytic wet air oxidation for industrial wastewater treatment using Fe/Al₂O₃.",
+        "fullName": "huzaifashahid7/Catalytic-wet-oxidation",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "U_kgDODJJN0A",
+          "is_bot": false,
+          "login": "huzaifashahid7",
+          "type": "User",
+          "url": "https://github.com/huzaifashahid7"
+        },
+        "updatedAt": "2025-07-18T03:32:27Z",
+        "url": "https://github.com/huzaifashahid7/Catalytic-wet-oxidation"
+      }
+    },
+    {
+      "fullName": "joseabraham-mena/EOSPy",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "joseabraham-mena/EOSPy",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjMwMzI4Mjg2",
+          "is_bot": false,
+          "login": "joseabraham-mena",
+          "type": "User",
+          "url": "https://github.com/joseabraham-mena"
+        },
+        "updatedAt": "2018-09-16T18:25:04Z",
+        "url": "https://github.com/joseabraham-mena/EOSPy"
+      }
+    },
+    {
+      "fullName": "Gopal564/Chemical-Engineering-Revision",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "Revision of all topics",
+        "fullName": "Gopal564/Chemical-Engineering-Revision",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjg3OTc1MTQ0",
+          "is_bot": false,
+          "login": "Gopal564",
+          "type": "User",
+          "url": "https://github.com/Gopal564"
+        },
+        "updatedAt": "2025-03-15T04:44:37Z",
+        "url": "https://github.com/Gopal564/Chemical-Engineering-Revision"
+      }
+    }
+  ]
+}
