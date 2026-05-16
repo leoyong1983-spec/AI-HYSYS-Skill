@@ -1,0 +1,957 @@
+﻿[
+    {
+        "full_name":  "Asgari-research/h2-gasification-mof-zeolite-screening",
+        "html_url":  "https://github.com/Asgari-research/h2-gasification-mof-zeolite-screening",
+        "description":  "Data and reproducible analysis scripts for process-informed MOF and zeolite selection in gasification-derived hydrogen purification.",
+        "updated_at":  "2026-05-10T09:35:19Z",
+        "queries":  [
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "OntoLedgy/ol_dwsim_interop_services",
+        "html_url":  "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+        "description":  "A Model Context Protocol (MCP) server that exposes DWSIM\u0027s chemical process simulation engine to Large Language Model (LLM) agents through safe, composable tools and resources.",
+        "updated_at":  "2026-05-07T17:09:56Z",
+        "queries":  [
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "Obinna-Okolie/Obinna_Okolie",
+        "html_url":  "https://github.com/Obinna-Okolie/Obinna_Okolie",
+        "description":  "Researcher in Oil and Gas procesing, Advanced materials and Smart Manufacturing",
+        "updated_at":  "2026-01-12T21:34:50Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "suryonaufal/suryonaufal",
+        "html_url":  "https://github.com/suryonaufal/suryonaufal",
+        "description":  "Profile of number #1 AI engineer in Indonesia",
+        "updated_at":  "2026-02-28T17:39:01Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "wisemansg/wisemansg",
+        "html_url":  "https://github.com/wisemansg/wisemansg",
+        "description":  "PROFILE",
+        "updated_at":  "2026-02-12T21:57:00Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "jjgomera/pychemqt",
+        "html_url":  "https://github.com/jjgomera/pychemqt",
+        "description":  "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+        "updated_at":  "2026-05-10T21:37:14Z",
+        "queries":  [
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "html_url":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "description":  null,
+        "updated_at":  "2022-09-12T22:55:51Z",
+        "queries":  [
+                        "github-repo-hysys-supersonic.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "GaboTalero/GaboTalero",
+        "html_url":  "https://github.com/GaboTalero/GaboTalero",
+        "description":  "GitHub profile README",
+        "updated_at":  "2026-04-25T22:22:44Z",
+        "queries":  [
+                        "github-repo-hysys-python-com.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Deepanshu-Sati/flash-solver",
+        "html_url":  "https://github.com/Deepanshu-Sati/flash-solver",
+        "description":  "Interactive vapor-liquid equilibrium flash calculation tool for chemical engineering",
+        "updated_at":  "2026-04-30T06:22:45Z",
+        "queries":  [
+                        "github-repo-hysys-python-com.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "aqiqiqiu/ai-hysys-autobuilder",
+        "html_url":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+        "description":  null,
+        "updated_at":  "2026-04-27T12:08:29Z",
+        "queries":  [
+                        "github-repo-hysys-python-com.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "FlameEnjoyer/academic-portfolio",
+        "html_url":  "https://github.com/FlameEnjoyer/academic-portfolio",
+        "description":  null,
+        "updated_at":  "2026-03-01T14:03:09Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "alimardani76/pyexergy",
+        "html_url":  "https://github.com/alimardani76/pyexergy",
+        "description":  "Deep Learning-Accelerated Exergy Analysis for Cryogenic Refrigeration Cycles",
+        "updated_at":  "2026-02-13T23:37:15Z",
+        "queries":  [
+                        "github-repo-hysys-lng.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+        "html_url":  "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+        "description":  "The simulation is about Nitrogen Rejection using Cryogenic Distillation in Aspen HYSYS",
+        "updated_at":  "2023-04-10T09:59:55Z",
+        "queries":  [
+                        "github-repo-hysys-lng.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries",
+        "html_url":  "https://github.com/AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries",
+        "description":  "A random forest regressor model was used to predict the  salaries of chemical engineering-related jobs scraped from Glassdoor.com",
+        "updated_at":  "2023-07-03T07:59:55Z",
+        "queries":  [
+                        "github-repo-hysys-excel-validation.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Gopal564/Chemical-Engineering-Revision",
+        "html_url":  "https://github.com/Gopal564/Chemical-Engineering-Revision",
+        "description":  "Revision of all topics",
+        "updated_at":  "2025-03-15T04:44:37Z",
+        "queries":  [
+                        "github-repo-hysys-excel-validation.json",
+                        "github-repo-hysys-supersonic.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "JoshuaKiplimo/ResParse",
+        "html_url":  "https://github.com/JoshuaKiplimo/ResParse",
+        "description":  null,
+        "updated_at":  "2022-12-12T14:45:36Z",
+        "queries":  [
+                        "github-repo-hysys-excel-validation.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "avaldeslopez93/avaldeslopez93",
+        "html_url":  "https://github.com/avaldeslopez93/avaldeslopez93",
+        "description":  "My GitHub profile",
+        "updated_at":  "2026-04-18T17:33:11Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "AbhiA0821/Resume-Matcher",
+        "html_url":  "https://github.com/AbhiA0821/Resume-Matcher",
+        "description":  "AI-Powered Resume \u0026 Job Matcher using KNN + Random Forest",
+        "updated_at":  "2026-03-11T17:18:02Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "JavierBerenguer/Trabajo-Final-de-Grado",
+        "html_url":  "https://github.com/JavierBerenguer/Trabajo-Final-de-Grado",
+        "description":  "Desarrollo de una herramienta de simulacion y optimización de reactores ideales y no ideales",
+        "updated_at":  "2026-04-28T16:19:30Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "sai-ashwin-2001/ml-proj-bitsf464",
+        "html_url":  "https://github.com/sai-ashwin-2001/ml-proj-bitsf464",
+        "description":  "Predicting saturated vapor pressure of LNG from density and temperature data with a view to improving tank pressure management.",
+        "updated_at":  "2022-04-22T17:12:45Z",
+        "queries":  [
+                        "github-repo-hysys-lng.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Brianhuynh97/Brianhuynh97",
+        "html_url":  "https://github.com/Brianhuynh97/Brianhuynh97",
+        "description":  "Config files for my GitHub profile.",
+        "updated_at":  "2026-05-15T00:37:30Z",
+        "queries":  [
+                        "github-repo-hysys-matlab.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "cdsulliv/ResumeParsing",
+        "html_url":  "https://github.com/cdsulliv/ResumeParsing",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "Acadlore/Journals",
+        "html_url":  "https://github.com/Acadlore/Journals",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "pyvideo/pyvideo.github.io",
+        "html_url":  "https://github.com/pyvideo/pyvideo.github.io",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  5
+    },
+    {
+        "full_name":  "wingyin01/IDAT_7215_Project",
+        "html_url":  "https://github.com/wingyin01/IDAT_7215_Project",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "petermr/CEVOpen",
+        "html_url":  "https://github.com/petermr/CEVOpen",
+        "description":  "Contentmining of Open phytochemical literature for medicinal activities",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Syn-Sat/Surrogate_Modelling",
+        "html_url":  "https://github.com/Syn-Sat/Surrogate_Modelling",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "choxos/funded-trials",
+        "html_url":  "https://github.com/choxos/funded-trials",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "jkitchin/jkitchin.github.com",
+        "html_url":  "https://github.com/jkitchin/jkitchin.github.com",
+        "description":  "my blog",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "luetzyas/infoM-hs21-luetzyas",
+        "html_url":  "https://github.com/luetzyas/infoM-hs21-luetzyas",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Davidzf21/Rec_Informacion",
+        "html_url":  "https://github.com/Davidzf21/Rec_Informacion",
+        "description":  "Repositorio con las prácticas de la asignatura",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "alison985/ahrq_ngc",
+        "html_url":  "https://github.com/alison985/ahrq_ngc",
+        "description":  "Archive of AHRQ National Guideline Clearinghouse guidelines.",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "roguengc/ngc_dump",
+        "html_url":  "https://github.com/roguengc/ngc_dump",
+        "description":  "a dump of the current NGC data",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "UCLA-BD2K/heartCases",
+        "html_url":  "https://github.com/UCLA-BD2K/heartCases",
+        "description":  "A medical language processing system for case reports, particularly those involving cardiovascular disease.",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "prasang-gupta/prasang-gupta.github.io",
+        "html_url":  "https://github.com/prasang-gupta/prasang-gupta.github.io",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  7
+    },
+    {
+        "full_name":  "ehijano/rss_fetch",
+        "html_url":  "https://github.com/ehijano/rss_fetch",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  8
+    },
+    {
+        "full_name":  "SoFairOA/Dataset",
+        "html_url":  "https://github.com/SoFairOA/Dataset",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json",
+                        "github-code-aspen-hysys-ext-xml.json"
+                    ],
+        "score":  7
+    },
+    {
+        "full_name":  "Lucifer267/RAG_Medical",
+        "html_url":  "https://github.com/Lucifer267/RAG_Medical",
+        "description":  "An advanced real-time medical QA system that compares three distinct retrieval approaches and autonomously selects the most factually accurate answer using LLM judgment.",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json",
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  12
+    },
+    {
+        "full_name":  "hoangbros03/DDI-Multimodals-Fusion",
+        "html_url":  "https://github.com/hoangbros03/DDI-Multimodals-Fusion",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "mrepol742/CryptographySystem",
+        "html_url":  "https://github.com/mrepol742/CryptographySystem",
+        "description":  "Encrypt decrypt using caesar,  symmetric (AES), asymmetric (RSA) and hybrid.",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "JanLeppert/janleppert.github.io",
+        "html_url":  "https://github.com/JanLeppert/janleppert.github.io",
+        "description":  "repo for my personal website",
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "johanix/draft-leon-dnsop-signaling-zone-owner-intent",
+        "html_url":  "https://github.com/johanix/draft-leon-dnsop-signaling-zone-owner-intent",
+        "description":  null,
+        "updated_at":  null,
+        "queries":  [
+                        "github-code-hysys-xml-cases-ext-xml.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "virajdesai0309/portfolio",
+        "html_url":  "https://github.com/virajdesai0309/portfolio",
+        "description":  null,
+        "updated_at":  "2025-12-13T05:26:03Z",
+        "queries":  [
+                        "github-repo-hysys-excel-validation.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "OptiMaL-PSE-Lab/Sketch2Simulation",
+        "html_url":  "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation",
+        "description":  "Sketch2Simulation: Automating Flowsheet Generation via Multi Agent Large Language Models",
+        "updated_at":  "2026-05-05T21:43:52Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "hiroto-f/process-design-pse7",
+        "html_url":  "https://github.com/hiroto-f/process-design-pse7",
+        "description":  "メタネーションを対象としたプロセス設計",
+        "updated_at":  "2026-05-16T15:51:52Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "praga-del/distillation-stages",
+        "html_url":  "https://github.com/praga-del/distillation-stages",
+        "description":  null,
+        "updated_at":  "2026-04-01T11:59:08Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "praga-del/distillation-design",
+        "html_url":  "https://github.com/praga-del/distillation-design",
+        "description":  null,
+        "updated_at":  "2026-04-01T17:36:09Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "praga-del/distillation",
+        "html_url":  "https://github.com/praga-del/distillation",
+        "description":  null,
+        "updated_at":  "2026-04-01T12:28:06Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "joao-baza/TCC",
+        "html_url":  "https://github.com/joao-baza/TCC",
+        "description":  null,
+        "updated_at":  "2026-05-13T04:35:12Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "akinami-421/-agent-",
+        "html_url":  "https://github.com/akinami-421/-agent-",
+        "description":  null,
+        "updated_at":  "2026-05-13T03:15:33Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "sajjad-ah/ASPEN-HYSYS",
+        "html_url":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+        "description":  "This repository includes some useful codes for ASPEN-HYSYS automation",
+        "updated_at":  "2026-05-13T06:03:35Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "SethDwumah/SethDesk",
+        "html_url":  "https://github.com/SethDwumah/SethDesk",
+        "description":  null,
+        "updated_at":  "2026-05-15T01:22:15Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "Casimir40K/MANA",
+        "html_url":  "https://github.com/Casimir40K/MANA",
+        "description":  "Process simulation app for MATLAB",
+        "updated_at":  "2026-05-13T19:05:22Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-matlab.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "praga-del/distillation_design-",
+        "html_url":  "https://github.com/praga-del/distillation_design-",
+        "description":  null,
+        "updated_at":  "2026-04-02T15:50:54Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "ashpursglove/PandID",
+        "html_url":  "https://github.com/ashpursglove/PandID",
+        "description":  "A local P\u0026ID drawing and simulation tool. No cloud, no subscriptions, no nonsense.",
+        "updated_at":  "2026-05-14T11:52:45Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-recent.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  5
+    },
+    {
+        "full_name":  "subhaus95/portfolio-in-a-box",
+        "html_url":  "https://github.com/subhaus95/portfolio-in-a-box",
+        "description":  "A tiered guide to building your public presence — for students in any discipline",
+        "updated_at":  "2026-05-05T00:35:50Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-matlab.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  5
+    },
+    {
+        "full_name":  "atlanticbhandari07/CCS_Git_test_01",
+        "html_url":  "https://github.com/atlanticbhandari07/CCS_Git_test_01",
+        "description":  "CCS simulation and optimization scripts",
+        "updated_at":  "2026-05-15T12:06:58Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-co2-capture.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-recent.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  6
+    },
+    {
+        "full_name":  "dpatel322853/Lumped-dynamic-model-for-PST-calculation",
+        "html_url":  "https://github.com/dpatel322853/Lumped-dynamic-model-for-PST-calculation",
+        "description":  "PST calculation for TALL trip in Ethylene system",
+        "updated_at":  "2026-05-16T15:39:18Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-excel-validation.json",
+                        "github-repo-hysys-recent.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  5
+    },
+    {
+        "full_name":  "leoyong1983-spec/AI-HYSYS-Skill",
+        "html_url":  "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+        "description":  "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+        "updated_at":  "2026-05-16T11:20:12Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-case-file.json",
+                        "github-repo-hysys-excel-validation.json",
+                        "github-repo-hysys-lng.json",
+                        "github-repo-hysys-matlab.json",
+                        "github-repo-hysys-python-com.json",
+                        "github-repo-hysys-recent.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  9
+    },
+    {
+        "full_name":  "AbdulMoiz00/AbdulMoiz00",
+        "html_url":  "https://github.com/AbdulMoiz00/AbdulMoiz00",
+        "description":  "Config files for my GitHub profile.",
+        "updated_at":  "2026-04-12T14:42:20Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-matlab.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "RHorsley80/tank_heat_balance",
+        "html_url":  "https://github.com/RHorsley80/tank_heat_balance",
+        "description":  "A rigorous heat balance for cylindrical storage tanks, insulated and uninsulated, based on Kumana and Kothari\u0027s 1982 paper.",
+        "updated_at":  "2026-04-07T04:11:56Z",
+        "queries":  [
+                        "github-repo-aspen-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Eng-fwzan/mech-ai-platform",
+        "html_url":  "https://github.com/Eng-fwzan/mech-ai-platform",
+        "description":  null,
+        "updated_at":  "2026-04-14T18:24:24Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-case-file.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "html_url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+        "updated_at":  "2026-04-25T19:57:04Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-case-file.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "bpalotai/Flowsheet-toolbox",
+        "html_url":  "https://github.com/bpalotai/Flowsheet-toolbox",
+        "description":  null,
+        "updated_at":  "2026-04-21T17:28:18Z",
+        "queries":  [
+                        "github-repo-aspen-file.json",
+                        "github-repo-hysys-case-file.json",
+                        "github-repo-hysys-simulation-files.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "atlanticbhandari07/CCS_code",
+        "html_url":  "https://github.com/atlanticbhandari07/CCS_code",
+        "description":  "CO2 Capture Simulation Python scripts for thesis - HYSYS automation, cost optimization, and gas velocity analysis",
+        "updated_at":  "2026-05-15T21:04:13Z",
+        "queries":  [
+                        "github-repo-hysys-co2-capture.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "hermionini/manishamt",
+        "html_url":  "https://github.com/hermionini/manishamt",
+        "description":  null,
+        "updated_at":  "2026-04-06T13:01:33Z",
+        "queries":  [
+                        "github-repo-hysys-co2-capture.json",
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+        "html_url":  "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+        "description":  "This is my final project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor\u0027s chemical engineering program at sharif university of technology.",
+        "updated_at":  "2026-03-30T17:19:53Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+        "html_url":  "https://github.com/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+        "description":  "This is my first project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor\u0027s chemical engineering program at sharif university of technology.",
+        "updated_at":  "2026-03-30T17:19:51Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+        "html_url":  "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+        "description":  "This is my second project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor\u0027s chemical engineering program at sharif university of technology.",
+        "updated_at":  "2026-03-30T17:19:52Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "html_url":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "description":  "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+        "updated_at":  "2026-04-27T02:50:41Z",
+        "queries":  [
+                        "github-repo-hysys-excel-validation.json",
+                        "github-repo-hysys-matlab.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "jasa03/jasa03.github.io",
+        "html_url":  "https://github.com/jasa03/jasa03.github.io",
+        "description":  null,
+        "updated_at":  "2025-12-14T05:58:25Z",
+        "queries":  [
+                        "github-repo-hysys-excel-validation.json",
+                        "github-repo-hysys-lng.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "iurisegtovich/AwesomeThermodynamics",
+        "html_url":  "https://github.com/iurisegtovich/AwesomeThermodynamics",
+        "description":  "A curated list of awesome resources on Thermodynamics",
+        "updated_at":  "2026-05-11T07:31:56Z",
+        "queries":  [
+                        "github-repo-hysys-co2-capture.json",
+                        "github-repo-hysys-excel-validation.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "z08r3p/CHEN90012",
+        "html_url":  "https://github.com/z08r3p/CHEN90012",
+        "description":  null,
+        "updated_at":  "2024-12-31T12:26:00Z",
+        "queries":  [
+                        "github-repo-hysys-co2-capture.json",
+                        "github-repo-hysys-excel-validation.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "ryanroy9698/ryanroy9698.github.io",
+        "html_url":  "https://github.com/ryanroy9698/ryanroy9698.github.io",
+        "description":  "Academic and Collaborative Projects",
+        "updated_at":  "2024-06-03T03:31:25Z",
+        "queries":  [
+                        "github-repo-hysys-co2-capture.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "abdelaleeem/Real-Enthalpy-",
+        "html_url":  "https://github.com/abdelaleeem/Real-Enthalpy-",
+        "description":  "this code is for calculating real enthalpy",
+        "updated_at":  "2024-10-28T23:20:44Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+        "html_url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+        "description":  "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+        "updated_at":  "2026-05-14T12:13:01Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-python-com.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "SWaelchli/WalFlow",
+        "html_url":  "https://github.com/SWaelchli/WalFlow",
+        "description":  "WalFlow is a web-based hydraulic simulator. Drag and drop rotating equipment, valves, and pipes to build interactive PFDs and instantly simulate real-time network operating conditions.",
+        "updated_at":  "2026-03-22T23:43:39Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "wakeelahmedsyed/wakeelahmedsyed.github.io",
+        "html_url":  "https://github.com/wakeelahmedsyed/wakeelahmedsyed.github.io",
+        "description":  null,
+        "updated_at":  "2026-05-04T12:28:39Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-lng.json",
+                        "github-repo-hysys-python-com.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "html_url":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "description":  "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+        "updated_at":  "2026-05-10T19:54:34Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "Mahdi-Arashian/Mahdi-Arashian",
+        "html_url":  "https://github.com/Mahdi-Arashian/Mahdi-Arashian",
+        "description":  null,
+        "updated_at":  "2026-05-10T13:39:55Z",
+        "queries":  [
+                        "github-repo-aspen-hysys-recent.json",
+                        "github-repo-hysys-matlab.json",
+                        "github-repo-hysys-recent.json"
+                    ],
+        "score":  3
+    },
+    {
+        "full_name":  "M-Hamdy-M/lng-niching-metaheuristics",
+        "html_url":  "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+        "description":  null,
+        "updated_at":  "2025-06-21T08:46:00Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "mustafaChemEng/Syngas-Production-Process",
+        "html_url":  "https://github.com/mustafaChemEng/Syngas-Production-Process",
+        "description":  "Syngas Production as an Alternative Renewable Energy Source",
+        "updated_at":  "2025-03-21T08:44:08Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "fleaaron/Application-of-RL-in-process-control",
+        "html_url":  "https://github.com/fleaaron/Application-of-RL-in-process-control",
+        "description":  "The code for my thesis work with the title Application of Reinforcement learning algorithms in process control",
+        "updated_at":  "2026-03-16T10:17:58Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    },
+    {
+        "full_name":  "Jimohmuktar/CrBlend-ML",
+        "html_url":  "https://github.com/Jimohmuktar/CrBlend-ML",
+        "description":  "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+        "updated_at":  "2026-03-05T21:34:16Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json",
+                        "github-repo-hysys-excel-validation.json"
+                    ],
+        "score":  2
+    },
+    {
+        "full_name":  "ruhanfarajov/aspenhysys",
+        "html_url":  "https://github.com/ruhanfarajov/aspenhysys",
+        "description":  "AI integrated model",
+        "updated_at":  "2026-02-20T18:25:53Z",
+        "queries":  [
+                        "github-repo-hysys-case-file.json"
+                    ],
+        "score":  1
+    }
+]

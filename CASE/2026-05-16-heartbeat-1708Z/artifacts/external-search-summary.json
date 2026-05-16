@@ -1,0 +1,44 @@
+﻿[
+    {
+        "file":  "zenodo-1708-targeted-search-results.json",
+        "url":  "https://zenodo.org/api/records?q=Aspen%20HYSYS\u0026size=20",
+        "exit_code":  0,
+        "item_count":  20,
+        "error":  ""
+    },
+    {
+        "file":  "figshare-1708-targeted-search-results.json",
+        "url":  "https://api.figshare.com/v2/articles/search",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "harvard-dataverse-1708-targeted-search-results.json",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20simulation\u0026per_page=50",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "mendeley-datacite-1708-targeted-search-results.json",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20simulation\u0026page%5Bsize%5D=50",
+        "exit_code":  0,
+        "item_count":  50,
+        "error":  ""
+    },
+    {
+        "file":  "gitlab-1708-project-search-results.json",
+        "url":  "https://gitlab.com/api/v4/projects?search=Aspen%20HYSYS\u0026simple=true\u0026per_page=50",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "bitbucket-1708-repository-search-results.json",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name~%22hysys%22%20OR%20description~%22HYSYS%22\u0026pagelen=50",
+        "exit_code":  1,
+        "item_count":  null,
+        "error":  "HTTP 410 from public repository search endpoint"
+    }
+]

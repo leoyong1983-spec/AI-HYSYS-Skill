@@ -1,0 +1,97 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "JoshuaKiplimo/ResParse",
+                 "url":  "https://github.com/JoshuaKiplimo/ResParse",
+                 "description":  null,
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2023-11-09T03:05:26Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  25,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  ".streamlit/Voice.py",
+                                       "size":  974,
+                                       "sha":  "bc41c81c5e098042016d2fd005175bb2a11ebacc"
+                                   },
+                                   {
+                                       "path":  "ResumeMatch.py",
+                                       "size":  24911,
+                                       "sha":  "c8bac54ef12964a663ceb4132420c04494e5525d"
+                                   },
+                                   {
+                                       "path":  "TechnologySkills.csv",
+                                       "size":  2522169,
+                                       "sha":  "6ea4994ce023780a632bd811ae778fa12e523085"
+                                   },
+                                   {
+                                       "path":  "actionVerbs.py",
+                                       "size":  1670,
+                                       "sha":  "aa129980c4880cf9f59b98fab502636cd5937ac1"
+                                   },
+                                   {
+                                       "path":  "get_jobs.py",
+                                       "size":  0,
+                                       "sha":  "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+                                   },
+                                   {
+                                       "path":  "majors.py",
+                                       "size":  1293,
+                                       "sha":  "91950cdaa9980e6045a69b60ba674359df1e849b"
+                                   },
+                                   {
+                                       "path":  "packages/common.py",
+                                       "size":  1421,
+                                       "sha":  "d1242a1773d33b80437c4999022174176a0695c5"
+                                   },
+                                   {
+                                       "path":  "packages/listing.py",
+                                       "size":  3703,
+                                       "sha":  "63d17d7885ff6d00464236932decd00082e2b42c"
+                                   },
+                                   {
+                                       "path":  "packages/page.py",
+                                       "size":  2655,
+                                       "sha":  "a304161b00301fcef7275d13a5ab97878f66aa82"
+                                   },
+                                   {
+                                       "path":  "pdfGenerator.py",
+                                       "size":  2275,
+                                       "sha":  "69165cb5a45360d88330848bba2d27b3c9279efc"
+                                   },
+                                   {
+                                       "path":  "readme.txt",
+                                       "size":  233959,
+                                       "sha":  "bde9b8a524076842e19c7dcacd030b12600f8fbb"
+                                   },
+                                   {
+                                       "path":  "resume/JOSHUA KIPRONO.pdf",
+                                       "size":  146935,
+                                       "sha":  "0eb772a363d1b281dfdbc3861099744e0ef64e32"
+                                   },
+                                   {
+                                       "path":  "resume/entry-level-computer-science-resume-example.pdf",
+                                       "size":  30702,
+                                       "sha":  "de4b8460006aa95bf2f6fee8b627d7845bb86d08"
+                                   },
+                                   {
+                                       "path":  "textFormat.py",
+                                       "size":  2379,
+                                       "sha":  "a3ca89786b24f7244ac800cf227262a5db00b2f6"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-excel-validation.json"
+                ],
+    "error":  null
+}

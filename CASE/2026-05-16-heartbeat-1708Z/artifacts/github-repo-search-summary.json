@@ -1,0 +1,79 @@
+﻿[
+    {
+        "file":  "github-repo-hysys-recent.json",
+        "query":  "HYSYS in:name,description,readme",
+        "exit_code":  0,
+        "item_count":  15,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-aspen-hysys-recent.json",
+        "query":  "Aspen HYSYS in:readme,description",
+        "exit_code":  0,
+        "item_count":  15,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-case-file.json",
+        "query":  "HYSYS case file in:readme,description",
+        "exit_code":  0,
+        "item_count":  15,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-simulation-files.json",
+        "query":  "HYSYS simulation files in:readme,description",
+        "exit_code":  0,
+        "item_count":  15,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-aspen-file.json",
+        "query":  "Aspen HYSYS file in:readme,description",
+        "exit_code":  0,
+        "item_count":  15,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-python-com.json",
+        "query":  "HYSYS Python COM in:readme,description",
+        "exit_code":  0,
+        "item_count":  15,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-matlab.json",
+        "query":  "HYSYS MATLAB in:readme,description",
+        "exit_code":  0,
+        "item_count":  15,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-excel-validation.json",
+        "query":  "HYSYS Excel validation in:readme,description",
+        "exit_code":  0,
+        "item_count":  11,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-supersonic.json",
+        "query":  "HYSYS supersonic in:readme,description",
+        "exit_code":  0,
+        "item_count":  2,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-lng.json",
+        "query":  "HYSYS LNG in:readme,description",
+        "exit_code":  0,
+        "item_count":  6,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-hysys-co2-capture.json",
+        "query":  "HYSYS CO2 capture in:readme,description",
+        "exit_code":  0,
+        "item_count":  6,
+        "error":  ""
+    }
+]

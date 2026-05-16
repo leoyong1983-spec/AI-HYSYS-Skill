@@ -1,0 +1,39 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Brianhuynh97/Brianhuynh97",
+                 "url":  "https://github.com/Brianhuynh97/Brianhuynh97",
+                 "description":  "Config files for my GitHub profile.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-05-16T12:26:30Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  6,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1068,
+                                       "sha":  "b66d12995c4746846364202ef5d8d81dfb38919d"
+                                   },
+                                   {
+                                       "path":  "Readme.md",
+                                       "size":  5213,
+                                       "sha":  "09c62de8d74076e4ab8833bffea10822ef5c7742"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-matlab.json",
+                    "github-repo-hysys-python-com.json",
+                    "github-repo-hysys-recent.json"
+                ],
+    "error":  null
+}

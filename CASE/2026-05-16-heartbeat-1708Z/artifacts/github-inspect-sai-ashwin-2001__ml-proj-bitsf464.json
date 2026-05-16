@@ -1,0 +1,47 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "sai-ashwin-2001/ml-proj-bitsf464",
+                 "url":  "https://github.com/sai-ashwin-2001/ml-proj-bitsf464",
+                 "description":  "Predicting saturated vapor pressure of LNG from density and temperature data with a view to improving tank pressure management.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2022-04-22T18:57:26Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  5,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Project proposal.pdf",
+                                       "size":  62529,
+                                       "sha":  "9a7585909d3bec1fedf2ef6c0e6ffc7c5bb7eae9"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  890,
+                                       "sha":  "9a32729b110b3fd963bfe9c16fa1fe59ccfefbd7"
+                                   },
+                                   {
+                                       "path":  "REFERENCE PAPER-1-s2.0-S2405656120300596-main.pdf",
+                                       "size":  3059292,
+                                       "sha":  "a7ada0e0364a5f2a4a4b768a7b5441b889346b84"
+                                   },
+                                   {
+                                       "path":  "Report_ML_Project_GRP3.pdf",
+                                       "size":  1158420,
+                                       "sha":  "9ad47c2bbfe38f3c983be3b69f450b0cc7483533"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-lng.json"
+                ],
+    "error":  null
+}

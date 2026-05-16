@@ -1,0 +1,37 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "alimardani76/pyexergy",
+                 "url":  "https://github.com/alimardani76/pyexergy",
+                 "description":  "Deep Learning-Accelerated Exergy Analysis for Cryogenic Refrigeration Cycles",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-05-13T10:48:15Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  6,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  3807,
+                                       "sha":  "c58269e541568f47fd77e59ee1cf499e4a3d33ce"
+                                   },
+                                   {
+                                       "path":  "init.py",
+                                       "size":  3383,
+                                       "sha":  "2fe8947df3ac7e217a3813225fc45f192d592067"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-lng.json"
+                ],
+    "error":  null
+}

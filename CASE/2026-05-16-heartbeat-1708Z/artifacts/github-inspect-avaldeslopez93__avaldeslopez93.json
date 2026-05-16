@@ -1,0 +1,32 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "avaldeslopez93/avaldeslopez93",
+                 "url":  "https://github.com/avaldeslopez93/avaldeslopez93",
+                 "description":  "My GitHub profile",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-04-18T17:33:07Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  1,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  4893,
+                                       "sha":  "7ba4135425ff8bddaf2f04627db5787d902a60a5"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-matlab.json"
+                ],
+    "error":  null
+}

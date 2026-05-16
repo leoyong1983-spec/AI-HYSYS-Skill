@@ -1,0 +1,32 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "suryonaufal/suryonaufal",
+                 "url":  "https://github.com/suryonaufal/suryonaufal",
+                 "description":  "Profile of number #1 AI engineer in Indonesia",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-05-16T02:06:13Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  2,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  12401,
+                                       "sha":  "c962636cedc859354b89864fd89342656547c51f"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-matlab.json"
+                ],
+    "error":  null
+}

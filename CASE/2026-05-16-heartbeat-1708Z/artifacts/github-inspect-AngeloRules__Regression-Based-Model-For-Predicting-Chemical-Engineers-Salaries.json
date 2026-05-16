@@ -1,0 +1,47 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries",
+                 "url":  "https://github.com/AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries",
+                 "description":  "A random forest regressor model was used to predict the  salaries of chemical engineering-related jobs scraped from Glassdoor.com",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2022-07-14T21:04:45Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  19,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "DataCleaning.ipynb",
+                                       "size":  319844,
+                                       "sha":  "79d22ecf79abaa218f20e65d09f4e0368a89e9a2"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  11249,
+                                       "sha":  "9ffa92dfb63653a642d60b019890872b16ebaf2e"
+                                   },
+                                   {
+                                       "path":  "dashboard.py",
+                                       "size":  14708,
+                                       "sha":  "973ff4ca1b1b209b4a01a3ba7c963023995cf45b"
+                                   },
+                                   {
+                                       "path":  "glassdoor.py",
+                                       "size":  9713,
+                                       "sha":  "e98afbf3adc3caf0b4e64731450582a50668c6b4"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-excel-validation.json"
+                ],
+    "error":  null
+}
