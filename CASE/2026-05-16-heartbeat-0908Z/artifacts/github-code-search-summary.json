@@ -1,0 +1,44 @@
+﻿[
+    {
+        "file":  "github-code-hysys-ext-hsc.json",
+        "args":  "HYSYS --extension hsc",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-code-aspen-hysys-ext-hsc.json",
+        "args":  "Aspen HYSYS --extension hsc",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-code-hysys-ext-hscz.json",
+        "args":  "HYSYS --extension hscz",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-code-aspen-hysys-ext-hscz.json",
+        "args":  "Aspen HYSYS --extension hscz",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-code-hysys-ext-compound.json",
+        "args":  "HYSYS --extension compound",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-code-hysys-xml-cases-ext-xml.json",
+        "args":  "HYSYS XML Cases --extension xml",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-code-aspen-hysys-ext-xml.json",
+        "args":  "Aspen HYSYS --extension xml",
+        "count":  28,
+        "error":  null
+    }
+]

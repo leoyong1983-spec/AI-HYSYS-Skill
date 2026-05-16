@@ -1,0 +1,1080 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS .hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20.hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS .hscz",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20.hscz\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS case file",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20case%20file\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS simulation file",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20simulation%20file\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS supplementary material hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20supplementary%20material%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases xml",
+        "url":  "https://api.figshare.com/v2/articles?search_for=HYSYS%20XML%20Cases%20xml\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS CO2 capture hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20CO2%20capture%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS LNG hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20LNG%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hydrogen hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20hydrogen%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS ammonia hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20ammonia%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS methanol hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20methanol%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305923,
+                         "title":  "Data for HFM",
+                         "doi":  "10.6084/m9.figshare.32305923.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305923",
+                         "published_date":  "2026-05-16T09:10:39Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305925,
+                         "title":  "Clinical-pathological diagnostic concordance in inflammatory dermatoses: a single-center retrospective analysis",
+                         "doi":  "10.6084/m9.figshare.32305925.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305925",
+                         "published_date":  "2026-05-16T09:09:38Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32261658,
+                         "title":  "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake",
+                         "doi":  "10.6084/m9.figshare.32261658.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32261658",
+                         "published_date":  "2026-05-16T09:03:28Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305914,
+                         "title":  "data",
+                         "doi":  "10.6084/m9.figshare.32305914.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305914",
+                         "published_date":  "2026-05-16T09:01:16Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245230,
+                         "title":  "Quantum-Inspired Art: Visualizing Schrödinger’s Wave Function",
+                         "doi":  "10.6084/m9.figshare.32245230.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245230",
+                         "published_date":  "2026-05-16T08:54:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  30445820,
+                         "title":  "\u003cb\u003eA preliminary study on the characterization of calcifying nanoparticles cultured in hepatic hydatid cyst\u003c/b\u003e\u003cb\u003e, \u003c/b\u003e\u003cb\u003egallstones and kidney stones\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.30445820.v9",
+                         "url":  "https://api.figshare.com/v2/articles/30445820",
+                         "published_date":  "2026-05-16T08:53:28Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32245251,
+                         "title":  "The Relativity of Consciousness: A Biological and Contextual Phenomenon",
+                         "doi":  "10.6084/m9.figshare.32245251.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32245251",
+                         "published_date":  "2026-05-16T08:51:38Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32305899,
+                         "title":  "Natural plant antioxidants in the regulation of skin aging through the oxidative stress pathway in a D-galactose-induced accelerated aging animal model A systematic review",
+                         "doi":  "10.6084/m9.figshare.32305899.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305899",
+                         "published_date":  "2026-05-16T08:46:25Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305863,
+                         "title":  "The Philosophical Paradigm of Empathy, Emotional Subjectivity, and Digital Cognition in Education",
+                         "doi":  "10.6084/m9.figshare.32305863.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305863",
+                         "published_date":  "2026-05-16T08:45:20Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32166846,
+                         "title":  "显式常数的稀疏傅里叶频率 Riesz 基构造理论及其数学机械化验证",
+                         "doi":  "10.6084/m9.figshare.32166846.v3",
+                         "url":  "https://api.figshare.com/v2/articles/32166846",
+                         "published_date":  "2026-05-16T08:43:52Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    }
+]

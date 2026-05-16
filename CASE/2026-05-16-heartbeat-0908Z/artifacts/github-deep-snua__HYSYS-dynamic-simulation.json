@@ -1,0 +1,45 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2019-03-14T12:49:32Z",
+                 "defaultBranchRef":  {
+                                          "name":  "master"
+                                      },
+                 "description":  "Introduction to Dynamic Simulation using Aspen HYSYS",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  null,
+                 "nameWithOwner":  "snua/HYSYS-dynamic-simulation",
+                 "pushedAt":  "2019-03-14T13:01:09Z",
+                 "url":  "https://github.com/snua/HYSYS-dynamic-simulation"
+             },
+    "tree":  {
+                 "tree_sha":  "ead1fbcb8c3c8bd4810f1f878e3dce92dcf97f80",
+                 "truncated":  false,
+                 "file_count":  4,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Intro-Dynamic-Simulation-Slides.pdf",
+                                       "size":  782817,
+                                       "sha":  "4b7e87168545c127bc511c1e59753492a0a80fa2"
+                                   },
+                                   {
+                                       "path":  "Intro-Dynamic-Simulation-Worksheet.pdf",
+                                       "size":  1249182,
+                                       "sha":  "efdf0248a04769358f2b7623cf83b99b258ca3f7"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  80,
+                                       "sha":  "6c9270ddc9be9ce326a78efe2f70294fe96d7b39"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null
+}

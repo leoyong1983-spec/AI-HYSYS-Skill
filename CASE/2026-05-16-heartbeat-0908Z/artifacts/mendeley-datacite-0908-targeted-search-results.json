@@ -1,0 +1,90 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS .hsc",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20.hsc\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS .hscz",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20.hscz\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS case file",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20case%20file\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS simulation file",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20simulation%20file\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS supplementary material hsc",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20supplementary%20material%20hsc\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases xml",
+        "url":  "https://api.datacite.org/dois?query=HYSYS%20XML%20Cases%20xml\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS CO2 capture hsc",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20CO2%20capture%20hsc\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS LNG hsc",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20LNG%20hsc\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hydrogen hsc",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20hydrogen%20hsc\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS ammonia hsc",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20ammonia%20hsc\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS methanol hsc",
+        "url":  "https://api.datacite.org/dois?query=Aspen%20HYSYS%20methanol%20hsc\u0026client-id=elsevier.mendeley\u0026schema-version=4\u0026page[size]=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    }
+]

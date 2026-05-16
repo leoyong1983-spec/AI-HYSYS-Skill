@@ -1,0 +1,3157 @@
+﻿[
+    {
+        "fullName":  "AlexandreZimmermann/Hysys",
+        "url":  "https://github.com/AlexandreZimmermann/Hysys",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2024-05-13T01:50:59Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Alnawakhtha/Computer-aided-CDU-Revamp",
+        "url":  "https://github.com/Alnawakhtha/Computer-aided-CDU-Revamp",
+        "description":  "CDU \u0026 VDU Simulation \u0026 Optimization This project models BAPCO’s CDU and VDU in Aspen HYSYS to enhance energy efficiency using pinch analysis and optimize heater design in Aspen EDR. Conducted under UoB supervision with BAPCO data, it explores heat integration to reduce fuel consumption and costs.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-06-02T03:41:52Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+        "url":  "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-07-23T14:37:14Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "url":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2022-09-12T22:55:51Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-matlab"
+                    ]
+    },
+    {
+        "fullName":  "blackHorseAngel/hySys",
+        "url":  "https://github.com/blackHorseAngel/hySys",
+        "description":  "简单的后台管理系统",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2024-10-17T15:44:07Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "cleberrj/Hysys",
+        "url":  "https://github.com/cleberrj/Hysys",
+        "description":  "Script de backup dos logs de acesso de usuários ao Hysys",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2022-03-01T14:22:25Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "ehsan2741/HysysConnection",
+        "url":  "https://github.com/ehsan2741/HysysConnection",
+        "description":  "",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2018-03-11T15:52:28Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "FKlocker/Antoine",
+        "url":  "https://github.com/FKlocker/Antoine",
+        "description":  "Utiliza los datos de HYSYS para graficar las curvas.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-02T12:04:57Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "hairizuanbinnoorazman/HYSYS-to-Excel",
+        "url":  "https://github.com/hairizuanbinnoorazman/HYSYS-to-Excel",
+        "description":  "Extract values from HYSYS to Excel which allows automation to a certain degree. Code created is for use with HYSYS version 7.2 and any Excel. Code is in VBA",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2024-02-18T00:57:14Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "harisimpelsys-gif/Hysys-Demo-website",
+        "url":  "https://github.com/harisimpelsys-gif/Hysys-Demo-website",
+        "description":  "Corporate Consulting Website – Hysys(Demo Site)",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-04-20T08:18:09Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Hassanova123/HYSYS",
+        "url":  "https://github.com/Hassanova123/HYSYS",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2021-09-13T13:23:03Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Hysys43/Hysys43",
+        "url":  "https://github.com/Hysys43/Hysys43",
+        "description":  "Config files for my GitHub profile.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2022-12-11T13:06:28Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Hysysgvcfdggg8/Hysysgvcfdggg8",
+        "url":  "https://github.com/Hysysgvcfdggg8/Hysysgvcfdggg8",
+        "description":  "Config files for my GitHub profile.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-11-13T14:45:02Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "italosichi/HYSYS_data_import",
+        "url":  "https://github.com/italosichi/HYSYS_data_import",
+        "description":  "The notebook featured in this repository takes data from some standard Aspen HYSYS reports and organizes it to enable analysis. Some exergy analysis and efficiency calculations are also conducted for a power plant.",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-10-17T13:10:04Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "jjgomera/pychemqt",
+        "url":  "https://github.com/jjgomera/pychemqt",
+        "description":  "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "gpl-3.0",
+                        "name":  "GNU General Public License v3.0",
+                        "url":  "https://api.github.com/licenses/gpl-3.0"
+                    },
+        "updatedAt":  "2026-05-10T21:37:14Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "junnujohn4352/chemflows",
+        "url":  "https://github.com/junnujohn4352/chemflows",
+        "description":  "ChemFlow is an advanced web-based simulation platform designed as a robust alternative to Aspen HYSYS, offering intuitive process modeling and optimization tools. It empowers engineers to design, analyze, and simulate chemical processes with ease, delivering accurate insights and enhancing operational efficiency.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-02-11T15:21:06Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "leoyong1983-spec/AI-HYSYS-Skill",
+        "url":  "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+        "description":  "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-05-16T06:21:12Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "lior-abadi/chemEng-system-design",
+        "url":  "https://github.com/lior-abadi/chemEng-system-design",
+        "description":  "Design of a chemical process that synthesizes Formaldehyde. All calculus and design drafts are made via Visual Basic code integrated with Excel \u0026 Hysys/Unisim.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-03-15T07:47:57Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "LizandroCloud/SCADABR-PYTHON",
+        "url":  "https://github.com/LizandroCloud/SCADABR-PYTHON",
+        "description":  "Conectting SCADABR with Hysys Simulator",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-01-11T21:46:29Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Mo-Somji/HYSYS-ME-Balance-Formatting",
+        "url":  "https://github.com/Mo-Somji/HYSYS-ME-Balance-Formatting",
+        "description":  "Python tool for formatting raw Aspen HYSYS output into a structured mass \u0026 energy balance spreadsheet. Cleans, transforms, and styles the data automatically using pandas and openpyxl.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-03-02T14:56:52Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "olaf-b/hysyslib",
+        "url":  "https://github.com/olaf-b/hysyslib",
+        "description":  "",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "other",
+                        "name":  "Other",
+                        "url":  ""
+                    },
+        "updatedAt":  "2024-06-21T05:44:51Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "oraclesep/Aspen",
+        "url":  "https://github.com/oraclesep/Aspen",
+        "description":  "docs: add guide on simulating and modeling heat exchangers in Aspen HYSYS",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-09-19T10:47:40Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "ramirocrespo/aspen",
+        "url":  "https://github.com/ramirocrespo/aspen",
+        "description":  "Simulaciones en ASPEN Plus y HYSYS",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2022-01-09T15:46:03Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "safarov399/NablaSim",
+        "url":  "https://github.com/safarov399/NablaSim",
+        "description":  "A chemical engineering simulation app. The goal is to make it as sophisticated as Aspen HYSYS.",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-04-21T10:23:32Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "stupidcoderjyy/hysys",
+        "url":  "https://github.com/stupidcoderjyy/hysys",
+        "description":  "",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-04-16T18:58:56Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "victorferrer-aspen/HYSYSTestsTool",
+        "url":  "https://github.com/victorferrer-aspen/HYSYSTestsTool",
+        "description":  "",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2021-12-20T02:34:35Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "wisemansg/hysys",
+        "url":  "https://github.com/wisemansg/hysys",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-04-14T19:44:09Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Zinatullin76/IM",
+        "url":  "https://github.com/Zinatullin76/IM",
+        "description":  "Description Python Hysys connection",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-01-26T11:58:04Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "zxzenius/HysysDataExtractor",
+        "url":  "https://github.com/zxzenius/HysysDataExtractor",
+        "description":  "",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2022-09-13T19:35:53Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  [
+                         "afabrild/HYSYS-MATLAB-LINK",
+                         "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR"
+                     ],
+        "url":  [
+                    "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+                    "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR"
+                ],
+        "description":  [
+                            "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+                            ""
+                        ],
+        "defaultBranch":  [
+                              "master",
+                              "main"
+                          ],
+        "license":  [
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        }
+                    ],
+        "updatedAt":  [
+                          "2025-11-02T12:02:26Z",
+                          "2022-09-12T22:55:51Z"
+                      ],
+        "visibility":  [
+                           "public",
+                           "public"
+                       ],
+        "isFork":  [
+                       false,
+                       false
+                   ],
+        "isArchived":  [
+                           false,
+                           false
+                       ],
+        "hasDownloads":  [
+                             true,
+                             true
+                         ],
+        "queries":  [
+                        "github-repo-merged-results"
+                    ]
+    },
+    {
+        "fullName":  [
+                         "perrywzm/hysysopt",
+                         "oscarcontrerasnavas/hysys-to-excel-intro",
+                         "GaboTalero/HYSYS-Python-Case-Builder"
+                     ],
+        "url":  [
+                    "https://github.com/perrywzm/hysysopt",
+                    "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+                    "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+                ],
+        "description":  [
+                            "For optimizing HYSYS case files",
+                            "Excel file with VBA simple script to get info from hysys cases",
+                            "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface."
+                        ],
+        "defaultBranch":  [
+                              "master",
+                              "master",
+                              "main"
+                          ],
+        "license":  [
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "gpl-3.0",
+                            "name":  "GNU General Public License v3.0",
+                            "url":  "https://api.github.com/licenses/gpl-3.0"
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        }
+                    ],
+        "updatedAt":  [
+                          "2025-11-16T12:18:33Z",
+                          "2025-11-02T12:03:15Z",
+                          "2026-04-25T19:57:04Z"
+                      ],
+        "visibility":  [
+                           "public",
+                           "public",
+                           "public"
+                       ],
+        "isFork":  [
+                       false,
+                       false,
+                       false
+                   ],
+        "isArchived":  [
+                           false,
+                           false,
+                           false
+                       ],
+        "hasDownloads":  [
+                             true,
+                             true,
+                             true
+                         ],
+        "queries":  [
+                        "github-repo-merged-results"
+                    ]
+    },
+    {
+        "fullName":  [
+                         "marcellobozzini/Python-Driving-License",
+                         "robfox92/matlab-fitness-hysys",
+                         "Corey-McInrue/Node-C-ASPEN-HYSYS",
+                         "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                         "royhanikbarr/Aspen-Hysys-Simulation",
+                         "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation"
+                     ],
+        "url":  [
+                    "https://github.com/marcellobozzini/Python-Driving-License",
+                    "https://github.com/robfox92/matlab-fitness-hysys",
+                    "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+                    "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                    "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+                    "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation"
+                ],
+        "description":  [
+                            "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+                            "Functions to allow MATLAB optimization algorithms to interface with HYSYS simulations",
+                            "Aspen HYSYS Simulation for Node C of CP407 Group 9 Design 2025",
+                            "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+                            "Simulation of Chemical Processes in Aspen Hysys",
+                            "A comprehensive process simulation of crude oil characterization and fractionation using Aspen Hysys. The project models a pre-treatment unit and an atmospheric distillation column to separate crude oil into high-value products like kerosene, diesel, and AGO, demonstrating proficiency in process design, heat integration, and equipment sizing."
+                        ],
+        "defaultBranch":  [
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main"
+                          ],
+        "license":  [
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        }
+                    ],
+        "updatedAt":  [
+                          "2023-10-12T10:10:56Z",
+                          "2023-07-10T05:30:54Z",
+                          "2025-04-03T19:16:04Z",
+                          "2025-12-21T15:33:53Z",
+                          "2025-06-04T19:55:48Z",
+                          "2025-08-03T08:23:22Z"
+                      ],
+        "visibility":  [
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public"
+                       ],
+        "isFork":  [
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false
+                   ],
+        "isArchived":  [
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false
+                       ],
+        "hasDownloads":  [
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true
+                         ],
+        "queries":  [
+                        "github-repo-merged-results"
+                    ]
+    },
+    {
+        "fullName":  [
+                         "edgarsmdn/Aspen_HYSYS_Python",
+                         "DanielVazVaz/PySIS",
+                         "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                         "snua/HYSYS-dynamic-simulation",
+                         "Avest-AI/MemCal",
+                         "afabrild/HYSYS-MATLAB-LINK",
+                         "CristopherCano/Projects-ASPEN-HYSYS",
+                         "royhanikbarr/Gas-Turbine-Hysys",
+                         "ved10544-spec/Ved10544",
+                         "cityfamer/HyPy",
+                         "Rus-tam/hysys_observer",
+                         "royhanikbarr/Aspen-Hysys-Simulation",
+                         "sajjad-ah/ASPEN-HYSYS",
+                         "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                         "Shreya88876/Aspen_file_shreya",
+                         "JeePeiQi0101/Aspen.HYSYS",
+                         "marcellobozzini/Python-Driving-License",
+                         "Corey-McInrue/Node-C-ASPEN-HYSYS",
+                         "abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                         "oraclesep/Aspen",
+                         "GerasimovRM/AspenHysysReader",
+                         "Anikesh31/simulator_codingplatform_integration",
+                         "shri2901/AspenHYSYS",
+                         "sanjay-saran/dme-production-methanol",
+                         "leoyong1983-spec/AI-HYSYS-Skill",
+                         "GaboTalero/HYSYS-Python-Case-Builder",
+                         "miladmolaee/AspenHysys",
+                         "iraola/tennessee-eastman-hysys",
+                         "Mahdi-Arashian/sour-gas-sweetening-hysys",
+                         "safarov399/NablaSim",
+                         "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+                         "Paryazdan/Aspen-HYSYS-Projects",
+                         "Galigeigei-Z/HDA-Surrogate-Optimization",
+                         "abdulhafiz891/Optimization-in-Aspen-Hysys",
+                         "kush1706/Methanol_Synthesis_Aspen_hysys",
+                         "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                         "Mo-Somji/HYSYS-ME-Balance-Formatting",
+                         "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+                         "italosichi/HYSYS_data_import",
+                         "shahria-sunny/Natural-Gas-Sweetening",
+                         "SinaGhanbarii/HDA-Plant-Simulation",
+                         "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+                         "shahria-sunny/CDU-Simulation-Optimization",
+                         "junnujohn4352/chemflows",
+                         "Alnawakhtha/Computer-aided-CDU-Revamp"
+                     ],
+        "url":  [
+                    "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+                    "https://github.com/DanielVazVaz/PySIS",
+                    "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                    "https://github.com/snua/HYSYS-dynamic-simulation",
+                    "https://github.com/Avest-AI/MemCal",
+                    "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+                    "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+                    "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+                    "https://github.com/ved10544-spec/Ved10544",
+                    "https://github.com/cityfamer/HyPy",
+                    "https://github.com/Rus-tam/hysys_observer",
+                    "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+                    "https://github.com/sajjad-ah/ASPEN-HYSYS",
+                    "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                    "https://github.com/Shreya88876/Aspen_file_shreya",
+                    "https://github.com/JeePeiQi0101/Aspen.HYSYS",
+                    "https://github.com/marcellobozzini/Python-Driving-License",
+                    "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+                    "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                    "https://github.com/oraclesep/Aspen",
+                    "https://github.com/GerasimovRM/AspenHysysReader",
+                    "https://github.com/Anikesh31/simulator_codingplatform_integration",
+                    "https://github.com/shri2901/AspenHYSYS",
+                    "https://github.com/sanjay-saran/dme-production-methanol",
+                    "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+                    "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+                    "https://github.com/miladmolaee/AspenHysys",
+                    "https://github.com/iraola/tennessee-eastman-hysys",
+                    "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+                    "https://github.com/safarov399/NablaSim",
+                    "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+                    "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+                    "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+                    "https://github.com/abdulhafiz891/Optimization-in-Aspen-Hysys",
+                    "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+                    "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                    "https://github.com/Mo-Somji/HYSYS-ME-Balance-Formatting",
+                    "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+                    "https://github.com/italosichi/HYSYS_data_import",
+                    "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+                    "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+                    "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+                    "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+                    "https://github.com/junnujohn4352/chemflows",
+                    "https://github.com/Alnawakhtha/Computer-aided-CDU-Revamp"
+                ],
+        "description":  [
+                            "Aspen HYSYS - Python connection",
+                            "Abstract layer over Aspen HYSYS using Python",
+                            "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+                            "Introduction to Dynamic Simulation using Aspen HYSYS",
+                            "A fast and accurate simulation software for membrane gas separation (extension in Aspen HYSYS)",
+                            "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+                            "Chemical process simulation with Aspen | Hysys",
+                            "Simulation of Gas Turbine Power Plant in Aspen Hysys",
+                            "Aspen Hysys",
+                            "Package for Aspen Hysys- Python connection",
+                            "programm for automation work with Aspen HYSYS",
+                            "Simulation of Chemical Processes in Aspen Hysys",
+                            "This repository includes some useful codes for ASPEN-HYSYS automation",
+                            "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+                            "DRY (CO2) REFORMING OF METHANE USING RGIBBS REACTOR (ASPEN HYSYS)",
+                            "Utilising MS Excel \u0026 Aspen HYSYS for Hydrolysis of Acetic Anhydride",
+                            "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+                            "Aspen HYSYS Simulation for Node C of CP407 Group 9 Design 2025",
+                            "The simulation is about Nitrogen Rejection using Cryogenic Distillation in Aspen HYSYS",
+                            "docs: add guide on simulating and modeling heat exchangers in Aspen HYSYS",
+                            "",
+                            "This repository is intended to serve as a tutorial for beginners to connect Aspen HYSYS with coding platforms like Python and MATLAB. and carry out customization tasks.",
+                            "",
+                            "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+                            "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+                            "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+                            "",
+                            "Modeling the Tennessee Eastman process in Aspen HYSYS for hybrid monitoring and fault detection",
+                            "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+                            "A chemical engineering simulation app. The goal is to make it as sophisticated as Aspen HYSYS.",
+                            "The simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10. I put the file here and be careful open it by ASPEN HYSYS v. 10. The data of each stream and the process flow diagram is attached.",
+                            "",
+                            "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+                            "Numerical calculation to find a Min or Max value",
+                            "",
+                            "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+                            "Python tool for formatting raw Aspen HYSYS output into a structured mass \u0026 energy balance spreadsheet. Cleans, transforms, and styles the data automatically using pandas and openpyxl.",
+                            "",
+                            "The notebook featured in this repository takes data from some standard Aspen HYSYS reports and organizes it to enable analysis. Some exergy analysis and efficiency calculations are also conducted for a power plant.",
+                            "Steady-state simulation of a natural gas sweetening unit using DEA solvent in Aspen HYSYS V14. Models full absorption-regeneration loop. \u003e99.9% H₂S removal. Complete stream tables, column profiles, and energy analysis included.",
+                            "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+                            "A comprehensive process simulation of crude oil characterization and fractionation using Aspen Hysys. The project models a pre-treatment unit and an atmospheric distillation column to separate crude oil into high-value products like kerosene, diesel, and AGO, demonstrating proficiency in process design, heat integration, and equipment sizing.",
+                            "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+                            "ChemFlow is an advanced web-based simulation platform designed as a robust alternative to Aspen HYSYS, offering intuitive process modeling and optimization tools. It empowers engineers to design, analyze, and simulate chemical processes with ease, delivering accurate insights and enhancing operational efficiency.",
+                            "CDU \u0026 VDU Simulation \u0026 Optimization This project models BAPCO’s CDU and VDU in Aspen HYSYS to enhance energy efficiency using pinch analysis and optimize heater design in Aspen EDR. Conducted under UoB supervision with BAPCO data, it explores heat integration to reduce fuel consumption and costs."
+                        ],
+        "defaultBranch":  [
+                              "main",
+                              "master",
+                              "main",
+                              "master",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "master",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main"
+                          ],
+        "license":  [
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "other",
+                            "name":  "Other",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        }
+                    ],
+        "updatedAt":  [
+                          "2026-05-14T13:37:40Z",
+                          "2026-04-22T15:19:21Z",
+                          "2026-03-01T09:48:46Z",
+                          "2023-09-24T05:43:09Z",
+                          "2025-10-26T13:29:11Z",
+                          "2025-11-02T12:02:26Z",
+                          "2025-04-16T19:19:39Z",
+                          "2025-03-24T07:57:57Z",
+                          "2026-03-27T23:24:24Z",
+                          "2023-06-13T06:45:24Z",
+                          "2025-10-27T15:27:50Z",
+                          "2025-06-04T19:55:48Z",
+                          "2026-05-13T06:03:35Z",
+                          "2026-04-27T02:50:41Z",
+                          "2024-09-25T13:53:52Z",
+                          "2025-03-24T08:27:04Z",
+                          "2023-10-12T10:10:56Z",
+                          "2025-04-03T19:16:04Z",
+                          "2023-04-10T09:59:55Z",
+                          "2025-09-19T10:47:40Z",
+                          "2025-10-10T11:18:41Z",
+                          "2026-04-29T08:47:03Z",
+                          "2024-07-28T22:28:17Z",
+                          "2025-04-23T13:35:19Z",
+                          "2026-05-16T06:21:12Z",
+                          "2026-04-25T19:57:04Z",
+                          "2025-08-31T15:04:20Z",
+                          "2025-11-02T12:06:25Z",
+                          "2026-05-10T19:54:34Z",
+                          "2026-04-21T10:23:32Z",
+                          "2024-04-30T07:19:37Z",
+                          "2020-09-21T09:04:09Z",
+                          "2026-05-14T12:13:01Z",
+                          "2023-04-10T14:12:48Z",
+                          "2023-07-21T16:23:56Z",
+                          "2025-12-21T15:33:53Z",
+                          "2026-03-02T14:56:52Z",
+                          "2025-07-23T14:37:14Z",
+                          "2023-10-17T13:10:04Z",
+                          "2026-05-03T16:19:16Z",
+                          "2026-03-10T14:10:32Z",
+                          "2025-08-03T08:23:22Z",
+                          "2026-04-29T18:07:37Z",
+                          "2026-02-11T15:21:06Z",
+                          "2025-06-02T03:41:52Z"
+                      ],
+        "visibility":  [
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public"
+                       ],
+        "isFork":  [
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false
+                   ],
+        "isArchived":  [
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false
+                       ],
+        "hasDownloads":  [
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true
+                         ],
+        "queries":  [
+                        "github-repo-merged-results"
+                    ]
+    },
+    {
+        "fullName":  [
+                         "edgarsmdn/Aspen_HYSYS_Python",
+                         "SuradechKKPB/AutomatedHYSYS",
+                         "DanielVazVaz/PySIS",
+                         "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                         "snua/HYSYS-dynamic-simulation",
+                         "jjgomera/pychemqt",
+                         "perrywzm/hysysopt",
+                         "Avest-AI/MemCal",
+                         "afabrild/HYSYS-MATLAB-LINK",
+                         "IcedCoffeeBoy/PSO_hysys_optimisation",
+                         "oscarcontrerasnavas/hysys-to-excel-intro",
+                         "bobpullem/C-Python-and-HYSYS",
+                         "theodoreOnzGit/hysys-tutorials",
+                         "vminasid/Hysys-Unisis2Matlab",
+                         "CristopherCano/Projects-ASPEN-HYSYS",
+                         "hairizuanbinnoorazman/HYSYS-to-Excel",
+                         "may3rd/COSMO",
+                         "royhanikbarr/Gas-Turbine-Hysys",
+                         "punkeel/HySystemdNotifier",
+                         "zxzenius/HysysDataExtractor",
+                         "andr1976/dwsim-paper",
+                         "olaf-b/hysyslib",
+                         "Zinatullin76/IM",
+                         "ved10544-spec/Ved10544",
+                         "lior-abadi/chemEng-system-design",
+                         "cityfamer/HyPy",
+                         "ramirocrespo/aspen",
+                         "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                         "ArturTask/HysysExcel",
+                         "LizandroCloud/SCADABR-PYTHON",
+                         "harisimpelsys-gif/Hysys-Demo-website",
+                         "Rus-tam/hysys_observer",
+                         "Hysysgvcfdggg8/Hysysgvcfdggg8",
+                         "royhanikbarr/Aspen-Hysys-Simulation",
+                         "ehsan2741/HysysConnection",
+                         "stupidcoderjyy/hysys",
+                         "stonedingwt/HYSys",
+                         "AlexandreZimmermann/Hysys",
+                         "wisemansg/hysys",
+                         "victorferrer-aspen/HYSYSTestsTool",
+                         "FKlocker/Antoine",
+                         "YuniqueCore/DynPlots",
+                         "sajjad-ah/ASPEN-HYSYS",
+                         "Hysys43/Hysys43",
+                         "Anikesh31/simulator_codingplatform_integration",
+                         "Hassanova123/HYSYS",
+                         "blackHorseAngel/hySys",
+                         "Shreya88876/Aspen_file_shreya",
+                         "cleberrj/Hysys",
+                         "marcellobozzini/Python-Driving-License"
+                     ],
+        "url":  [
+                    "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+                    "https://github.com/SuradechKKPB/AutomatedHYSYS",
+                    "https://github.com/DanielVazVaz/PySIS",
+                    "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                    "https://github.com/snua/HYSYS-dynamic-simulation",
+                    "https://github.com/jjgomera/pychemqt",
+                    "https://github.com/perrywzm/hysysopt",
+                    "https://github.com/Avest-AI/MemCal",
+                    "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+                    "https://github.com/IcedCoffeeBoy/PSO_hysys_optimisation",
+                    "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+                    "https://github.com/bobpullem/C-Python-and-HYSYS",
+                    "https://github.com/theodoreOnzGit/hysys-tutorials",
+                    "https://github.com/vminasid/Hysys-Unisis2Matlab",
+                    "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+                    "https://github.com/hairizuanbinnoorazman/HYSYS-to-Excel",
+                    "https://github.com/may3rd/COSMO",
+                    "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+                    "https://github.com/punkeel/HySystemdNotifier",
+                    "https://github.com/zxzenius/HysysDataExtractor",
+                    "https://github.com/andr1976/dwsim-paper",
+                    "https://github.com/olaf-b/hysyslib",
+                    "https://github.com/Zinatullin76/IM",
+                    "https://github.com/ved10544-spec/Ved10544",
+                    "https://github.com/lior-abadi/chemEng-system-design",
+                    "https://github.com/cityfamer/HyPy",
+                    "https://github.com/ramirocrespo/aspen",
+                    "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                    "https://github.com/ArturTask/HysysExcel",
+                    "https://github.com/LizandroCloud/SCADABR-PYTHON",
+                    "https://github.com/harisimpelsys-gif/Hysys-Demo-website",
+                    "https://github.com/Rus-tam/hysys_observer",
+                    "https://github.com/Hysysgvcfdggg8/Hysysgvcfdggg8",
+                    "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+                    "https://github.com/ehsan2741/HysysConnection",
+                    "https://github.com/stupidcoderjyy/hysys",
+                    "https://github.com/stonedingwt/HYSys",
+                    "https://github.com/AlexandreZimmermann/Hysys",
+                    "https://github.com/wisemansg/hysys",
+                    "https://github.com/victorferrer-aspen/HYSYSTestsTool",
+                    "https://github.com/FKlocker/Antoine",
+                    "https://github.com/YuniqueCore/DynPlots",
+                    "https://github.com/sajjad-ah/ASPEN-HYSYS",
+                    "https://github.com/Hysys43/Hysys43",
+                    "https://github.com/Anikesh31/simulator_codingplatform_integration",
+                    "https://github.com/Hassanova123/HYSYS",
+                    "https://github.com/blackHorseAngel/hySys",
+                    "https://github.com/Shreya88876/Aspen_file_shreya",
+                    "https://github.com/cleberrj/Hysys",
+                    "https://github.com/marcellobozzini/Python-Driving-License"
+                ],
+        "description":  [
+                            "Aspen HYSYS - Python connection",
+                            "HYSYS Automation",
+                            "Abstract layer over Aspen HYSYS using Python",
+                            "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+                            "Introduction to Dynamic Simulation using Aspen HYSYS",
+                            "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+                            "For optimizing HYSYS case files",
+                            "A fast and accurate simulation software for membrane gas separation (extension in Aspen HYSYS)",
+                            "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+                            "NUS Chemical Engineering Design Project Optimization ",
+                            "Excel file with VBA simple script to get info from hysys cases",
+                            "Use the c# and python to connect and optimze the hysys model",
+                            "Tutorials for HYSYS for Theo Ong YouTube Channel",
+                            "This program generates Non-Linear Programming MATLAB code from an existing Unisim/Hysis model. ",
+                            "Chemical process simulation with Aspen | Hysys",
+                            "Extract values from HYSYS to Excel which allows automation to a certain degree. Code created is for use with HYSYS version 7.2 and any Excel. Code is in VBA",
+                            "Automated HYSYS for optimization",
+                            "Simulation of Gas Turbine Power Plant in Aspen Hysys",
+                            "",
+                            "",
+                            "Supplementary material and information ",
+                            "",
+                            "Description Python Hysys connection",
+                            "Aspen Hysys",
+                            "Design of a chemical process that synthesizes Formaldehyde. All calculus and design drafts are made via Visual Basic code integrated with Excel \u0026 Hysys/Unisim.",
+                            "Package for Aspen Hysys- Python connection",
+                            "Simulaciones en ASPEN Plus y HYSYS",
+                            "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+                            "Excel and Hysys intaraction",
+                            "Conectting SCADABR with Hysys Simulator",
+                            "Corporate Consulting Website – Hysys(Demo Site)",
+                            "programm for automation work with Aspen HYSYS",
+                            "Config files for my GitHub profile.",
+                            "Simulation of Chemical Processes in Aspen Hysys",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "Utiliza los datos de HYSYS para graficar las curvas.",
+                            "HYSYS dynamic data DUMP file difference drawing software",
+                            "This repository includes some useful codes for ASPEN-HYSYS automation",
+                            "Config files for my GitHub profile.",
+                            "This repository is intended to serve as a tutorial for beginners to connect Aspen HYSYS with coding platforms like Python and MATLAB. and carry out customization tasks.",
+                            "",
+                            "简单的后台管理系统",
+                            "DRY (CO2) REFORMING OF METHANE USING RGIBBS REACTOR (ASPEN HYSYS)",
+                            "Script de backup dos logs de acesso de usuários ao Hysys",
+                            "This Repository contains the Jupiter file and an Aspen HYSYS simulation. "
+                        ],
+        "defaultBranch":  [
+                              "main",
+                              "master",
+                              "master",
+                              "main",
+                              "master",
+                              "master",
+                              "master",
+                              "main",
+                              "master",
+                              "master",
+                              "master",
+                              "master",
+                              "master",
+                              "master",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "master",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "master",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "master",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main",
+                              "main"
+                          ],
+        "license":  [
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "gpl-3.0",
+                            "name":  "GNU General Public License v3.0",
+                            "url":  "https://api.github.com/licenses/gpl-3.0"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "gpl-3.0",
+                            "name":  "GNU General Public License v3.0",
+                            "url":  "https://api.github.com/licenses/gpl-3.0"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "gpl-3.0",
+                            "name":  "GNU General Public License v3.0",
+                            "url":  "https://api.github.com/licenses/gpl-3.0"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "gpl-3.0",
+                            "name":  "GNU General Public License v3.0",
+                            "url":  "https://api.github.com/licenses/gpl-3.0"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "gpl-3.0",
+                            "name":  "GNU General Public License v3.0",
+                            "url":  "https://api.github.com/licenses/gpl-3.0"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "other",
+                            "name":  "Other",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "apache-2.0",
+                            "name":  "Apache License 2.0",
+                            "url":  "https://api.github.com/licenses/apache-2.0"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "mit",
+                            "name":  "MIT License",
+                            "url":  "https://api.github.com/licenses/mit"
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        },
+                        {
+                            "key":  "",
+                            "name":  "",
+                            "url":  ""
+                        }
+                    ],
+        "updatedAt":  [
+                          "2026-05-14T13:37:40Z",
+                          "2025-12-25T16:04:39Z",
+                          "2026-04-22T15:19:21Z",
+                          "2026-03-01T09:48:46Z",
+                          "2023-09-24T05:43:09Z",
+                          "2026-05-10T21:37:14Z",
+                          "2025-11-16T12:18:33Z",
+                          "2025-10-26T13:29:11Z",
+                          "2025-11-02T12:02:26Z",
+                          "2025-02-05T02:50:15Z",
+                          "2025-11-02T12:03:15Z",
+                          "2025-11-02T12:03:18Z",
+                          "2025-11-02T12:03:47Z",
+                          "2024-12-25T01:13:46Z",
+                          "2025-04-16T19:19:39Z",
+                          "2024-02-18T00:57:14Z",
+                          "2025-06-05T16:48:57Z",
+                          "2025-03-24T07:57:57Z",
+                          "2026-05-14T00:28:28Z",
+                          "2022-09-13T19:35:53Z",
+                          "2025-10-22T16:40:55Z",
+                          "2024-06-21T05:44:51Z",
+                          "2025-01-26T11:58:04Z",
+                          "2026-03-27T23:24:24Z",
+                          "2025-03-15T07:47:57Z",
+                          "2023-06-13T06:45:24Z",
+                          "2022-01-09T15:46:03Z",
+                          "2026-04-27T02:50:41Z",
+                          "2026-02-03T18:05:21Z",
+                          "2026-01-11T21:46:29Z",
+                          "2026-04-20T08:18:09Z",
+                          "2025-10-27T15:27:50Z",
+                          "2023-11-13T14:45:02Z",
+                          "2025-06-04T19:55:48Z",
+                          "2018-03-11T15:52:28Z",
+                          "2026-04-16T18:58:56Z",
+                          "2026-03-08T15:43:26Z",
+                          "2024-05-13T01:50:59Z",
+                          "2026-04-14T19:44:09Z",
+                          "2021-12-20T02:34:35Z",
+                          "2025-11-02T12:04:57Z",
+                          "2023-12-22T16:54:22Z",
+                          "2026-05-13T06:03:35Z",
+                          "2022-12-11T13:06:28Z",
+                          "2026-04-29T08:47:03Z",
+                          "2021-09-13T13:23:03Z",
+                          "2024-10-17T15:44:07Z",
+                          "2024-09-25T13:53:52Z",
+                          "2022-03-01T14:22:25Z",
+                          "2023-10-12T10:10:56Z"
+                      ],
+        "visibility":  [
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public",
+                           "public"
+                       ],
+        "isFork":  [
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false,
+                       false
+                   ],
+        "isArchived":  [
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false,
+                           false
+                       ],
+        "hasDownloads":  [
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true,
+                             true
+                         ],
+        "queries":  [
+                        "github-repo-merged-results"
+                    ]
+    },
+    {
+        "fullName":  "abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+        "url":  "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+        "description":  "The simulation is about Nitrogen Rejection using Cryogenic Distillation in Aspen HYSYS",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-04-10T09:59:55Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "abdulhafiz891/Optimization-in-Aspen-Hysys",
+        "url":  "https://github.com/abdulhafiz891/Optimization-in-Aspen-Hysys",
+        "description":  "Numerical calculation to find a Min or Max value",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-04-10T14:12:48Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "afabrild/HYSYS-MATLAB-LINK",
+        "url":  "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+        "description":  "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-02T12:02:26Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad",
+                        "github-repo-hysys-matlab"
+                    ]
+    },
+    {
+        "fullName":  "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+        "url":  "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+        "description":  "A comprehensive process simulation of crude oil characterization and fractionation using Aspen Hysys. The project models a pre-treatment unit and an atmospheric distillation column to separate crude oil into high-value products like kerosene, diesel, and AGO, demonstrating proficiency in process design, heat integration, and equipment sizing.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-08-03T08:23:22Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-simulation"
+                    ]
+    },
+    {
+        "fullName":  "andr1976/dwsim-paper",
+        "url":  "https://github.com/andr1976/dwsim-paper",
+        "description":  "Supplementary material and information ",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2025-10-22T16:40:55Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Anikesh31/simulator_codingplatform_integration",
+        "url":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+        "description":  "This repository is intended to serve as a tutorial for beginners to connect Aspen HYSYS with coding platforms like Python and MATLAB. and carry out customization tasks.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-04-29T08:47:03Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "ArturTask/HysysExcel",
+        "url":  "https://github.com/ArturTask/HysysExcel",
+        "description":  "Excel and Hysys intaraction",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-02-03T18:05:21Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Avest-AI/MemCal",
+        "url":  "https://github.com/Avest-AI/MemCal",
+        "description":  "A fast and accurate simulation software for membrane gas separation (extension in Aspen HYSYS)",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-10-26T13:29:11Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "bobpullem/C-Python-and-HYSYS",
+        "url":  "https://github.com/bobpullem/C-Python-and-HYSYS",
+        "description":  "Use the c# and python to connect and optimze the hysys model",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-02T12:03:18Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "cityfamer/HyPy",
+        "url":  "https://github.com/cityfamer/HyPy",
+        "description":  "Package for Aspen Hysys- Python connection",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-06-13T06:45:24Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Corey-McInrue/Node-C-ASPEN-HYSYS",
+        "url":  "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+        "description":  "Aspen HYSYS Simulation for Node C of CP407 Group 9 Design 2025",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-04-03T19:16:04Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-simulation"
+                    ]
+    },
+    {
+        "fullName":  "CristopherCano/Projects-ASPEN-HYSYS",
+        "url":  "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+        "description":  "Chemical process simulation with Aspen | Hysys",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-04-16T19:19:39Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "DanielVazVaz/PySIS",
+        "url":  "https://github.com/DanielVazVaz/PySIS",
+        "description":  "Abstract layer over Aspen HYSYS using Python",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-04-22T15:19:21Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "edgarsmdn/Aspen_HYSYS_Python",
+        "url":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+        "description":  "Aspen HYSYS - Python connection",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-05-14T13:37:40Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-04-25T19:57:04Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-case-file"
+                    ]
+    },
+    {
+        "fullName":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+        "url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+        "description":  "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-05-14T12:13:01Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "GerasimovRM/AspenHysysReader",
+        "url":  "https://github.com/GerasimovRM/AspenHysysReader",
+        "description":  "",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-10-10T11:18:41Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "IcedCoffeeBoy/PSO_hysys_optimisation",
+        "url":  "https://github.com/IcedCoffeeBoy/PSO_hysys_optimisation",
+        "description":  "NUS Chemical Engineering Design Project Optimization ",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-02-05T02:50:15Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "iraola/tennessee-eastman-hysys",
+        "url":  "https://github.com/iraola/tennessee-eastman-hysys",
+        "description":  "Modeling the Tennessee Eastman process in Aspen HYSYS for hybrid monitoring and fault detection",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "other",
+                        "name":  "Other",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-02T12:06:25Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "JeePeiQi0101/Aspen.HYSYS",
+        "url":  "https://github.com/JeePeiQi0101/Aspen.HYSYS",
+        "description":  "Utilising MS Excel \u0026 Aspen HYSYS for Hydrolysis of Acetic Anhydride",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-03-24T08:27:04Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "url":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "description":  "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2025-12-21T15:33:53Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-simulation"
+                    ]
+    },
+    {
+        "fullName":  "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "url":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "description":  "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-04-27T02:50:41Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "kush1706/Methanol_Synthesis_Aspen_hysys",
+        "url":  "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-07-21T16:23:56Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "url":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "description":  "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-05-10T19:54:34Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "marcellobozzini/Python-Driving-License",
+        "url":  "https://github.com/marcellobozzini/Python-Driving-License",
+        "description":  "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-10-12T10:10:56Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad",
+                        "github-repo-hysys-simulation"
+                    ]
+    },
+    {
+        "fullName":  "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+        "url":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+        "description":  "The simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10. I put the file here and be careful open it by ASPEN HYSYS v. 10. The data of each stream and the process flow diagram is attached.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2024-04-30T07:19:37Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "may3rd/COSMO",
+        "url":  "https://github.com/may3rd/COSMO",
+        "description":  "Automated HYSYS for optimization",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "gpl-3.0",
+                        "name":  "GNU General Public License v3.0",
+                        "url":  "https://api.github.com/licenses/gpl-3.0"
+                    },
+        "updatedAt":  "2025-06-05T16:48:57Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "miladmolaee/AspenHysys",
+        "url":  "https://github.com/miladmolaee/AspenHysys",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-08-31T15:04:20Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "oscarcontrerasnavas/hysys-to-excel-intro",
+        "url":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+        "description":  "Excel file with VBA simple script to get info from hysys cases",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "gpl-3.0",
+                        "name":  "GNU General Public License v3.0",
+                        "url":  "https://api.github.com/licenses/gpl-3.0"
+                    },
+        "updatedAt":  "2025-11-02T12:03:15Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad",
+                        "github-repo-hysys-case-file"
+                    ]
+    },
+    {
+        "fullName":  "Paryazdan/Aspen-HYSYS-Projects",
+        "url":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+        "description":  "",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2020-09-21T09:04:09Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "perrywzm/hysysopt",
+        "url":  "https://github.com/perrywzm/hysysopt",
+        "description":  "For optimizing HYSYS case files",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-16T12:18:33Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad",
+                        "github-repo-hysys-case-file"
+                    ]
+    },
+    {
+        "fullName":  "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "url":  "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "description":  "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-03-01T09:48:46Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "punkeel/HySystemdNotifier",
+        "url":  "https://github.com/punkeel/HySystemdNotifier",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "gpl-3.0",
+                        "name":  "GNU General Public License v3.0",
+                        "url":  "https://api.github.com/licenses/gpl-3.0"
+                    },
+        "updatedAt":  "2026-05-14T00:28:28Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "robfox92/matlab-fitness-hysys",
+        "url":  "https://github.com/robfox92/matlab-fitness-hysys",
+        "description":  "Functions to allow MATLAB optimization algorithms to interface with HYSYS simulations",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-07-10T05:30:54Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-simulation"
+                    ]
+    },
+    {
+        "fullName":  "royhanikbarr/Aspen-Hysys-Simulation",
+        "url":  "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+        "description":  "Simulation of Chemical Processes in Aspen Hysys",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-06-04T19:55:48Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad",
+                        "github-repo-hysys-simulation"
+                    ]
+    },
+    {
+        "fullName":  "royhanikbarr/Gas-Turbine-Hysys",
+        "url":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+        "description":  "Simulation of Gas Turbine Power Plant in Aspen Hysys",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-03-24T07:57:57Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "Rus-tam/hysys_observer",
+        "url":  "https://github.com/Rus-tam/hysys_observer",
+        "description":  "programm for automation work with Aspen HYSYS",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-10-27T15:27:50Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "sajjad-ah/ASPEN-HYSYS",
+        "url":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+        "description":  "This repository includes some useful codes for ASPEN-HYSYS automation",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-05-13T06:03:35Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "sanjay-saran/dme-production-methanol",
+        "url":  "https://github.com/sanjay-saran/dme-production-methanol",
+        "description":  "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-04-23T13:35:19Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "shahria-sunny/CDU-Simulation-Optimization",
+        "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "description":  "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-04-29T18:07:37Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "shahria-sunny/Natural-Gas-Sweetening",
+        "url":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "description":  "Steady-state simulation of a natural gas sweetening unit using DEA solvent in Aspen HYSYS V14. Models full absorption-regeneration loop. \u003e99.9% H₂S removal. Complete stream tables, column profiles, and energy analysis included.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-05-03T16:19:16Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "Shreya88876/Aspen_file_shreya",
+        "url":  "https://github.com/Shreya88876/Aspen_file_shreya",
+        "description":  "DRY (CO2) REFORMING OF METHANE USING RGIBBS REACTOR (ASPEN HYSYS)",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2024-09-25T13:53:52Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "shri2901/AspenHYSYS",
+        "url":  "https://github.com/shri2901/AspenHYSYS",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2024-07-28T22:28:17Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "SinaGhanbarii/HDA-Plant-Simulation",
+        "url":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+        "description":  "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-03-10T14:10:32Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys"
+                    ]
+    },
+    {
+        "fullName":  "snua/HYSYS-dynamic-simulation",
+        "url":  "https://github.com/snua/HYSYS-dynamic-simulation",
+        "description":  "Introduction to Dynamic Simulation using Aspen HYSYS",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-09-24T05:43:09Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "stonedingwt/HYSys",
+        "url":  "https://github.com/stonedingwt/HYSys",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "apache-2.0",
+                        "name":  "Apache License 2.0",
+                        "url":  "https://api.github.com/licenses/apache-2.0"
+                    },
+        "updatedAt":  "2026-03-08T15:43:26Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "SuradechKKPB/AutomatedHYSYS",
+        "url":  "https://github.com/SuradechKKPB/AutomatedHYSYS",
+        "description":  "HYSYS Automation",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-12-25T16:04:39Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "theodoreOnzGit/hysys-tutorials",
+        "url":  "https://github.com/theodoreOnzGit/hysys-tutorials",
+        "description":  "Tutorials for HYSYS for Theo Ong YouTube Channel",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-02T12:03:47Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "ved10544-spec/Ved10544",
+        "url":  "https://github.com/ved10544-spec/Ved10544",
+        "description":  "Aspen Hysys",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2026-03-27T23:24:24Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys",
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "vminasid/Hysys-Unisis2Matlab",
+        "url":  "https://github.com/vminasid/Hysys-Unisis2Matlab",
+        "description":  "This program generates Non-Linear Programming MATLAB code from an existing Unisim/Hysis model. ",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "gpl-3.0",
+                        "name":  "GNU General Public License v3.0",
+                        "url":  "https://api.github.com/licenses/gpl-3.0"
+                    },
+        "updatedAt":  "2024-12-25T01:13:46Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    },
+    {
+        "fullName":  "YuniqueCore/DynPlots",
+        "url":  "https://github.com/YuniqueCore/DynPlots",
+        "description":  "HYSYS dynamic data DUMP file difference drawing software",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2023-12-22T16:54:22Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-broad"
+                    ]
+    }
+]
