@@ -1,0 +1,369 @@
+﻿[
+    {
+        "repo":  "andr1976/dwsim-paper",
+        "url":  "https://github.com/andr1976/dwsim-paper",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Supplementary material and information ",
+        "hysys_like":  [
+                           "simulations/Black oil EOS density.hsc",
+                           "simulations/Optim.hsc"
+                       ],
+        "companion_count":  15,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "README.md",
+                                 "data/DWSIM_result.csv",
+                                 "data/DWSIM_results_cleaned.csv",
+                                 "data/HYSYS_result.csv",
+                                 "data/raw_testplan.csv",
+                                 "data/scaled_testplan.csv",
+                                 "paper/Paper_draft_v10.docx",
+                                 "paper/Revised_Paper_ANRA.docx",
+                                 "paper/Revised_Paper_ANRA.pdf",
+                                 "paper/Revised_Paper_Track_Changes_ANRA.docx",
+                                 "presentation/Simulate365 User meeting Anders Andreasen.pdf",
+                                 "scripts/DWSIM_automation.py",
+                                 "scripts/HYSYS_automation.py",
+                                 "scripts/plot_data.py"
+                             ]
+    },
+    {
+        "repo":  "aqiqiqiu/ai-hysys-autobuilder",
+        "url":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  17,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "README.md",
+                                 "src/ai_hysys_autobuilder/__init__.py",
+                                 "src/ai_hysys_autobuilder/__main__.py",
+                                 "src/ai_hysys_autobuilder/hysys_com.py",
+                                 "src/ai_hysys_autobuilder/interact.py",
+                                 "src/ai_hysys_autobuilder/interactive_selector.py",
+                                 "src/ai_hysys_autobuilder/logging_utils.py",
+                                 "src/ai_hysys_autobuilder/models.py",
+                                 "src/ai_hysys_autobuilder/parameter_config.py",
+                                 "src/ai_hysys_autobuilder/reactor_builders.py",
+                                 "src/ai_hysys_autobuilder/reactor_selection.py",
+                                 "src/ai_hysys_autobuilder/runner.py",
+                                 "src/ai_hysys_autobuilder/runnerh.py",
+                                 "src/ai_hysys_autobuilder/创建物流.py",
+                                 "src/ai_hysys_autobuilder/成功读取成分.py",
+                                 "src/ai_hysys_autobuilder/读取成分.py"
+                             ]
+    },
+    {
+        "repo":  "edgarsmdn/Aspen_HYSYS_Python",
+        "url":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Aspen HYSYS - Python connection",
+        "hysys_like":  [
+                           "Test_1.hsc"
+                       ],
+        "companion_count":  4,
+        "companion_sample":  [
+                                 "HYSYS_python_spreadsheets.py",
+                                 "LICENSE",
+                                 "README.md",
+                                 "Test_1.py"
+                             ]
+    },
+    {
+        "repo":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  9,
+        "companion_sample":  [
+                                 "EXtest.py",
+                                 "HYSYS_python_simulation.py",
+                                 "HYSYS_python_spreadsheets_creator.py",
+                                 "HyCOM_DIC_creator.py",
+                                 "Hysys_python_creator.py",
+                                 "Hysys_python_flowsheet.py",
+                                 "LICENSE",
+                                 "README.md",
+                                 "project_paths.py"
+                             ]
+    },
+    {
+        "repo":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+        "url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  14,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "README.md",
+                                 "heat_network_supertargeting/README.md",
+                                 "heat_network_supertargeting/data/Input Sheet of 20.xlsx",
+                                 "heat_network_supertargeting/heat_network_demo/__init__.py",
+                                 "heat_network_supertargeting/heat_network_demo/session.py",
+                                 "heat_network_supertargeting/heat_network_demo/supertargeting.py",
+                                 "heat_network_supertargeting/heat_network_demo/workbook.py",
+                                 "hysys_interface_demo/README.md",
+                                 "hysys_interface_demo/hysys_demo/__init__.py",
+                                 "hysys_interface_demo/hysys_demo/metrics.py",
+                                 "hysys_interface_demo/hysys_demo/mock.py",
+                                 "hysys_interface_demo/hysys_demo/model.py",
+                                 "hysys_interface_demo/hysys_demo/session.py"
+                             ]
+    },
+    {
+        "repo":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "url":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  10,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "README.md",
+                                 "data/Apen Hysys Data.csv",
+                                 "data/Thermodynamic Validation.xlsx",
+                                 "data/Yield_RBF_Populated_per_blend.csv",
+                                 "data/rbf_error_matrix.csv",
+                                 "data/rbf_error_matrix_per_blend.csv",
+                                 "data/rbf_validation_point_errors.csv",
+                                 "src/Rbf Validation.py",
+                                 "src/rbf_interpolation.py"
+                             ]
+    },
+    {
+        "repo":  "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "url":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+        "hysys_like":  [
+                           "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc"
+                       ],
+        "companion_count":  9,
+        "companion_sample":  [
+                                 "ASPEN HYSYS/aspen report.pdf",
+                                 "DWSIM/dwsim report.pdf",
+                                 "LICENSE",
+                                 "MATLAB/Pressure_Drop_Estimation_in_Pipelines.m",
+                                 "MS EXCEL/Pressure Drop Estimation in Pipelines.xlsx",
+                                 "PYTHON/Pressure Drop Estimation in Pipelines.py",
+                                 "Pressure Drop Estimation in Pipelines-ppt.pdf",
+                                 "Pressure Drop Estimation in Pipelines.pptx",
+                                 "README.md"
+                             ]
+    },
+    {
+        "repo":  "naawu789/HySysID",
+        "url":  "https://github.com/naawu789/HySysID",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  52,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "Map_ID_DMD/run_DMD_v3.m",
+                                 "Map_ID_GD/C_est.m",
+                                 "Map_ID_GD/D_est.m",
+                                 "Map_ID_GD/f_est.m",
+                                 "Map_ID_GD/g_est.m",
+                                 "Map_ID_GD/pickexample.m",
+                                 "Map_ID_GD/run_est.m",
+                                 "README.md",
+                                 "Sample_Data/Lite/C_ex1_2.m",
+                                 "Sample_Data/Lite/D_ex1_2.m",
+                                 "Sample_Data/Lite/f_ex1_2.m",
+                                 "Sample_Data/Lite/g_ex1_2.m",
+                                 "Sample_Data/Lite/run_ex1_2.m",
+                                 "Sample_Data/Simu/C_ex1_2a.m",
+                                 "Sample_Data/Simu/D_ex1_2a.m",
+                                 "Sample_Data/Simu/f_ex1_2a.m",
+                                 "Sample_Data/Simu/g_ex1_2a.m",
+                                 "Sample_Data/Simu/initialization_ex1_2a.m",
+                                 "Sample_Data/Simu/postprocessing_ex1_2a.m",
+                                 "Sample_Data/Simu/run_ex1_2a.m",
+                                 "Sample_Test_Cases/run_DMD_test.m",
+                                 "Sample_Test_Cases/run_GD_test.m",
+                                 "Sample_Test_Cases/run_SINDY_test.m",
+                                 "Sample_Test_Cases/run_SVM_test.m",
+                                 "Set_ID_SVM/C_ex1.m",
+                                 "Set_ID_SVM/D_ex1.m",
+                                 "Set_ID_SVM/HausdorffDist.m",
+                                 "Set_ID_SVM/Plots/mapid_1_noise.pdf",
+                                 "Set_ID_SVM/Plots/mapid_2_noise.pdf"
+                             ]
+    },
+    {
+        "repo":  "perrywzm/hysysopt",
+        "url":  "https://github.com/perrywzm/hysysopt",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "For optimizing HYSYS case files",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  13,
+        "companion_sample":  [
+                                 "README.md",
+                                 "costing.py",
+                                 "hysysopt/__init__.py",
+                                 "hysysopt/distcol.py",
+                                 "hysysopt/interface.py",
+                                 "hysysopt/optimizer.py",
+                                 "hysysopt/optimizers/pso.py",
+                                 "hysysopt/util.py",
+                                 "hysysopt/visualizer.py",
+                                 "main.py",
+                                 "plot_grid.py",
+                                 "test_costing.py",
+                                 "visualizer.py"
+                             ]
+    },
+    {
+        "repo":  "shahria-sunny/CDU-Simulation-Optimization",
+        "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+        "hysys_like":  [
+                           "project.hsc"
+                       ],
+        "companion_count":  3,
+        "companion_sample":  [
+                                 "CDU_Report.pdf",
+                                 "LICENSE",
+                                 "README.md"
+                             ]
+    },
+    {
+        "repo":  "shahria-sunny/Natural-Gas-Sweetening",
+        "url":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Steady-state simulation of a natural gas sweetening unit using DEA solvent in Aspen HYSYS V14. Models full absorption-regeneration loop. \u003e99.9% H₂S removal. Complete stream tables, column profiles, and energy analysis included.",
+        "hysys_like":  [
+                           "Gas Sweetening.hsc"
+                       ],
+        "companion_count":  3,
+        "companion_sample":  [
+                                 "Gas Sweetening Report.pdf",
+                                 "LICENSE",
+                                 "README.md"
+                             ]
+    },
+    {
+        "repo":  "tinchofiuba/pythonHysys",
+        "url":  "https://github.com/tinchofiuba/pythonHysys",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Vinculo usando python para acceder a corrientes y propiedades de hysys",
+        "hysys_like":  [
+                           "case.hsc",
+                           "final.hsc"
+                       ],
+        "companion_count":  9,
+        "companion_sample":  [
+                                 "GUI_ui.py",
+                                 "LICENSE",
+                                 "README.md",
+                                 "__init__.py",
+                                 "default_ui_GUI.py",
+                                 "ec cuadratica.py",
+                                 "hysys2Python.py",
+                                 "model.py",
+                                 "ui_GUI.py"
+                             ]
+    },
+    {
+        "repo":  "YuniqueCore/DynPlots",
+        "url":  "https://github.com/YuniqueCore/DynPlots",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "HYSYS dynamic data DUMP file difference drawing software",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  8,
+        "companion_sample":  [
+                                 "DynPlots/Backends/Common/FileHelper.py",
+                                 "DynPlots/Backends/Common/PathHelper.py",
+                                 "DynPlots/Backends/Common/__init__.py",
+                                 "DynPlots/Backends/DataHandler.py",
+                                 "DynPlots/Backends/__init__.py",
+                                 "DynPlots/Test/Backends_test.py",
+                                 "DynPlots/Test/__init__.py",
+                                 "LICENSE"
+                             ]
+    }
+]

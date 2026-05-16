@@ -1,0 +1,44 @@
+﻿[
+    {
+        "file":  "zenodo-2208-hysys-case-file-results.json",
+        "url":  "https://zenodo.org/api/records?q=%22Aspen%20HYSYS%22%20%22case%20file%22\u0026size=20",
+        "exit_code":  0,
+        "item_count":  20,
+        "error":  ""
+    },
+    {
+        "file":  "zenodo-2208-hysys-supplementary-results.json",
+        "url":  "https://zenodo.org/api/records?q=%22Aspen%20HYSYS%22%20%22supplementary%20material%22\u0026size=20",
+        "exit_code":  0,
+        "item_count":  20,
+        "error":  ""
+    },
+    {
+        "file":  "figshare-2208-hysys-case-file-results.json",
+        "url":  "https://api.figshare.com/v2/articles/search",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "harvard-dataverse-2208-hysys-case-file-results.json",
+        "url":  "https://dataverse.harvard.edu/api/search?q=%22Aspen%20HYSYS%22%20%22case%20file%22\u0026per_page=20",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "datacite-2208-hysys-supplementary-results.json",
+        "url":  "https://api.datacite.org/dois?query=%22Aspen%20HYSYS%22%20%22supplementary%20material%22\u0026page%5Bsize%5D=20",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "gitlab-2208-hysys-project-results.json",
+        "url":  "https://gitlab.com/api/v4/projects?search=HYSYS%20case%20file\u0026simple=true\u0026per_page=20",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    }
+]

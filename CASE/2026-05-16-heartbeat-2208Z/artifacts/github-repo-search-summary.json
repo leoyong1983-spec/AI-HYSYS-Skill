@@ -1,0 +1,58 @@
+﻿[
+    {
+        "file":  "github-repo-search-hysys-hsc.json",
+        "query":  "HYSYS hsc",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-hsc.json",
+        "query":  "Aspen HYSYS hsc",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-case-file.json",
+        "query":  "HYSYS case file",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-simulation-files.json",
+        "query":  "Aspen HYSYS simulation files",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-excel-validation.json",
+        "query":  "HYSYS Excel validation",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-python-com.json",
+        "query":  "HYSYS Python COM",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-license-mit-broadened.json",
+        "query":  "HYSYS license:mit",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-license-mit-broadened.json",
+        "query":  "Aspen HYSYS license:mit",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    }
+]
