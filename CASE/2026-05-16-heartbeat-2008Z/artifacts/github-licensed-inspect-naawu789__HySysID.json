@@ -1,0 +1,353 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "naawu789/HySysID",
+                 "url":  "https://github.com/naawu789/HySysID",
+                 "description":  null,
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-04-15T21:26:58Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  84,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1065,
+                                       "sha":  "44bd6dd5dbf2cd10b20cb8d0e5a14865335f37e9"
+                                   },
+                                   {
+                                       "path":  "Map_ID_DMD/run_DMD_v3.m",
+                                       "size":  3404,
+                                       "sha":  "27e05ffc051a8a7b06726d9a5d67492da1f97d3a"
+                                   },
+                                   {
+                                       "path":  "Map_ID_GD/C_est.m",
+                                       "size":  207,
+                                       "sha":  "27f3ecbb26118564a68059774ff66ddb7b297711"
+                                   },
+                                   {
+                                       "path":  "Map_ID_GD/D_est.m",
+                                       "size":  220,
+                                       "sha":  "d4c4ab90a0a9a601302e5ffad69417c427476471"
+                                   },
+                                   {
+                                       "path":  "Map_ID_GD/f_est.m",
+                                       "size":  427,
+                                       "sha":  "2de02981877d23bdad2698102504407063b556c1"
+                                   },
+                                   {
+                                       "path":  "Map_ID_GD/g_est.m",
+                                       "size":  1175,
+                                       "sha":  "07f803845e687a18e7d54c180f7a5938c4bbb755"
+                                   },
+                                   {
+                                       "path":  "Map_ID_GD/pickexample.m",
+                                       "size":  2691,
+                                       "sha":  "19d949887c4489be27b2848b4fa23babda5a9cac"
+                                   },
+                                   {
+                                       "path":  "Map_ID_GD/run_est.m",
+                                       "size":  2373,
+                                       "sha":  "9f65da84d8c102854c04209259f7fe04c3110a5b"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  242,
+                                       "sha":  "fb916c1059c0672ef53b897547f91fbf09f4855f"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Lite/C_ex1_2.m",
+                                       "size":  97,
+                                       "sha":  "9c52e41a585d9c15eafc0bb9d6786b08f66cf149"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Lite/D_ex1_2.m",
+                                       "size":  121,
+                                       "sha":  "94880054de11c36786555b6a0049e8a0ba07fd16"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Lite/f_ex1_2.m",
+                                       "size":  113,
+                                       "sha":  "e68de8ee73b752ae9ab7762f9166f8610aab60c7"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Lite/g_ex1_2.m",
+                                       "size":  99,
+                                       "sha":  "adc76c667d9aabb44674793a6debb2d02e1ddcaa"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Lite/run_ex1_2.m",
+                                       "size":  752,
+                                       "sha":  "a5c3a667b3ddd08ed1772b61e4dd9b91748b4fa4"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/C_ex1_2a.m",
+                                       "size":  873,
+                                       "sha":  "4b641ff9a7bcb7a15c5e3a280f94c3f54ba36713"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/D_ex1_2a.m",
+                                       "size":  896,
+                                       "sha":  "327ddb18b38ab9bf9c5c29e580783eebcd2d3ad5"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/Data_Example_1_2_BB.mat",
+                                       "size":  93884,
+                                       "sha":  "765566c1d95aa01bbbe3ed7ba16518c39ff9d417"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/Example_1_2a.slx",
+                                       "size":  21000,
+                                       "sha":  "cb5f35f84edeb3115bbc6e9f8b6840efaa305256"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/f_ex1_2a.m",
+                                       "size":  908,
+                                       "sha":  "b6e51065968c6786789ff268cb27d39699d125d2"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/g_ex1_2a.m",
+                                       "size":  892,
+                                       "sha":  "b7b95eb01b2577be4851b315ca917bcf10513351"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/initialization_ex1_2a.m",
+                                       "size":  2087,
+                                       "sha":  "69f470c27763ae543628b9f310647e57e393ebf6"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/postprocessing_ex1_2a.m",
+                                       "size":  1250,
+                                       "sha":  "0f2837f02610c22935ce26943df6098796302902"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/Simu/run_ex1_2a.m",
+                                       "size":  1658,
+                                       "sha":  "4434fd4c08d2a26d9de29f2c8ca7e06c14434fd9"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/j_bb_08.mat",
+                                       "size":  215,
+                                       "sha":  "41bce4fdc63fd3118b982aa63915e2786b3d955a"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/j_bb_1.mat",
+                                       "size":  203,
+                                       "sha":  "adb9ca0786f7aec0339d05ec44f902d5bed63c5f"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/j_nu.mat",
+                                       "size":  224,
+                                       "sha":  "582e61e08b45fd3839a4d05f35212ba57a31ff2d"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/j_th.mat",
+                                       "size":  220,
+                                       "sha":  "c1861557fc59e413df45436aceda3157cd98b5ba"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/t_bb_08.mat",
+                                       "size":  1477,
+                                       "sha":  "6de7be153f3830379227def81fc846ff0f098fe2"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/t_bb_1.mat",
+                                       "size":  1536,
+                                       "sha":  "9c08d268af278fb1b406482021445bf5293b91c4"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/t_nu.mat",
+                                       "size":  17700,
+                                       "sha":  "914ec946b349576a8371706398fd454ed59a24b2"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/t_th.mat",
+                                       "size":  2275,
+                                       "sha":  "46f13c8aa71fe2080d43fbe62b428a0b61e5c847"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/x_bb_08.mat",
+                                       "size":  2967,
+                                       "sha":  "dd27bc149c4ed7bb1673401a33dc4dbb2f3cef93"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/x_bb_1.mat",
+                                       "size":  2520,
+                                       "sha":  "08d17c25ef990e36fc5415d541d1a72df1e4d7f5"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/x_nu.mat",
+                                       "size":  54977,
+                                       "sha":  "79016f4cb4101fe5fb65705e0032bb31085b9a79"
+                                   },
+                                   {
+                                       "path":  "Sample_Data/x_th.mat",
+                                       "size":  932,
+                                       "sha":  "172d5699b78de152333d41264387d9dd0bb99e4b"
+                                   },
+                                   {
+                                       "path":  "Sample_Test_Cases/run_DMD_test.m",
+                                       "size":  963,
+                                       "sha":  "1d6905a00bc73a9b9a819871a36f51fb283c2e5c"
+                                   },
+                                   {
+                                       "path":  "Sample_Test_Cases/run_GD_test.m",
+                                       "size":  908,
+                                       "sha":  "399370fdc9fc048a243d0f6dfa5f2c9c97d026b5"
+                                   },
+                                   {
+                                       "path":  "Sample_Test_Cases/run_SINDY_test.m",
+                                       "size":  628,
+                                       "sha":  "45212cec507dcb7805edec87b56298d2a64b1c65"
+                                   },
+                                   {
+                                       "path":  "Sample_Test_Cases/run_SVM_test.m",
+                                       "size":  1591,
+                                       "sha":  "83c286d06850e9160cf2ecb70fd0cf35301c74b6"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/C_ex1.m",
+                                       "size":  180,
+                                       "sha":  "ed9314effc7e276c13bf7f511202b0004a19972c"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/D_ex1.m",
+                                       "size":  180,
+                                       "sha":  "98275044855bca216eda31299556504808533623"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/HausdorffDist.m",
+                                       "size":  4736,
+                                       "sha":  "65cad9fe496c0c06cbdba795e5e3354c01d4a3fa"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/mapid_1_noise.pdf",
+                                       "size":  2896,
+                                       "sha":  "6eaadf1538cc74db2668dc3f30a26c479643742f"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/mapid_2_noise.pdf",
+                                       "size":  2865,
+                                       "sha":  "eb7757067b15b02c1e060b45f43b0595379e36a0"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/mapid_3_noise.pdf",
+                                       "size":  2847,
+                                       "sha":  "396421e2975a33f27a6a0a87738bd2d85b538d87"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/mapid_no_noise.pdf",
+                                       "size":  2777,
+                                       "sha":  "4d51c4b9bc0cfe9b2e51493925010cefb5865863"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/setid_1_noise.pdf",
+                                       "size":  21338,
+                                       "sha":  "ff04125bec50f2592391f4b300b413bb832256e2"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/setid_2_noise.pdf",
+                                       "size":  21191,
+                                       "sha":  "157ddd53eadab726830bee43e3df963fe185e16b"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/setid_3_noise.pdf",
+                                       "size":  20901,
+                                       "sha":  "5032d3d372903d37b732c6a9a9614830cc1a5a89"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/setid_no_noise.pdf",
+                                       "size":  21141,
+                                       "sha":  "64c4facfe3123ef11172948e0a89b9ec4ecf8d25"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/sim_1_noise.pdf",
+                                       "size":  37090,
+                                       "sha":  "2e89ec8cad51089fa32e23f2be2996a7e25df49f"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/sim_2_noise.pdf",
+                                       "size":  78115,
+                                       "sha":  "b4bab55e14907eac9c942968de8bb065e6db1636"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/sim_3_noise.pdf",
+                                       "size":  59149,
+                                       "sha":  "ce36db973e3a218d800102ca07968457abcb97ac"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/sim_no_noise.pdf",
+                                       "size":  28018,
+                                       "sha":  "34d6acda0701d577fcb1fd87514c64b7041663c3"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/svm_1_noise.pdf",
+                                       "size":  50480,
+                                       "sha":  "62e437822da903097f4efda731c5cbba41b72e69"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/svm_2_noise.pdf",
+                                       "size":  44484,
+                                       "sha":  "beb0320e3ea0ba8d240cbbbeee21a3c7f22dbe29"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/svm_3_noise.pdf",
+                                       "size":  50692,
+                                       "sha":  "bc07ed1b44919da7bf1293a64d8f7d1c75da3438"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/Plots/svm_no_noise.pdf",
+                                       "size":  26215,
+                                       "sha":  "2d7c6f1c1f7ea7f740f60abf4e9bb08258139a99"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/f_ex1.m",
+                                       "size":  421,
+                                       "sha":  "8c5738b3e523fdfc5db343feec1f22f2c9a813d8"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/g_ex1.m",
+                                       "size":  341,
+                                       "sha":  "f584f0ea64c1f5f99945c7c4274e8639de17850f"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/noise.m",
+                                       "size":  123,
+                                       "sha":  "6f71e5211f31c02f88b177fa8a92da6f759329bb"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/run_SVM_v3.m",
+                                       "size":  3723,
+                                       "sha":  "42800db14e39563a5578a99e4346bac3f4e178c4"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/run_ex1_2.m",
+                                       "size":  775,
+                                       "sha":  "4cf64e669cc601460323c4dd5f506150bdf31751"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/svm_v4.m",
+                                       "size":  2720,
+                                       "sha":  "f611b2c1ece2c635514384a67d1fdf376302b01e"
+                                   },
+                                   {
+                                       "path":  "Set_ID_SVM/svm_v5.m",
+                                       "size":  1387,
+                                       "sha":  "9dbea023f0d7d9dccaea5d38bdf005ead315e748"
+                                   },
+                                   {
+                                       "path":  "readme_plot1.JPG",
+                                       "size":  24964,
+                                       "sha":  "21e009a4c79be50ddfb03f3705f723795924ddab"
+                                   }
+                               ]
+             },
+    "error":  null
+}

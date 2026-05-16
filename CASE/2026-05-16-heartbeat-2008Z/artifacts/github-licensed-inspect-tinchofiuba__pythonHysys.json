@@ -1,0 +1,77 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "tinchofiuba/pythonHysys",
+                 "url":  "https://github.com/tinchofiuba/pythonHysys",
+                 "description":  "Vinculo usando python para acceder a corrientes y propiedades de hysys",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2024-10-31T14:47:15Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  19,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "case.hsc",
+                                        "size":  198617,
+                                        "sha":  "b850c08a55eb82e9750a51747c494c613809cf77"
+                                    },
+                                    {
+                                        "path":  "final.hsc",
+                                        "size":  1414968,
+                                        "sha":  "c9ed2b6af5f251540c80745cb4b5d04148f01283"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "GUI_ui.py",
+                                       "size":  2877,
+                                       "sha":  "aca4d539e109f7e42e76cd165b8ae77a6812403e"
+                                   },
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1071,
+                                       "sha":  "23a27b027ff06a054804642c3e18113cc2803fde"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  85,
+                                       "sha":  "f32962e9f107f6e4d7a6216d8917a17a62cd1fa3"
+                                   },
+                                   {
+                                       "path":  "__init__.py",
+                                       "size":  1,
+                                       "sha":  "8b137891791fe96927ad78e64b0aad7bded08bdc"
+                                   },
+                                   {
+                                       "path":  "default_ui_GUI.py",
+                                       "size":  2682,
+                                       "sha":  "e0e427575764c57cc100fa3222fb607bae7449c0"
+                                   },
+                                   {
+                                       "path":  "ec cuadratica.py",
+                                       "size":  385,
+                                       "sha":  "b0191fa4bbd4d9c76a9876a526fb554fb8ba2e98"
+                                   },
+                                   {
+                                       "path":  "hysys2Python.py",
+                                       "size":  1972,
+                                       "sha":  "8352c1b5846475a200d4b8d450d093d65343e8fc"
+                                   },
+                                   {
+                                       "path":  "model.py",
+                                       "size":  1624,
+                                       "sha":  "70d19aa827377edd2091047dfdfcdfa1ce4c2143"
+                                   },
+                                   {
+                                       "path":  "ui_GUI.py",
+                                       "size":  4150,
+                                       "sha":  "7b853203f66af7d23e586d5b5be87e6f053f6847"
+                                   }
+                               ]
+             },
+    "error":  null
+}

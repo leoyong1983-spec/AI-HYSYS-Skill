@@ -1,0 +1,103 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+                 "url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+                 "description":  "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-05-04T05:08:20Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  21,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1069,
+                                       "sha":  "4392ed97c56c62a99b2bbc6dd645955510926183"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  2682,
+                                       "sha":  "571ca700281653d8336ba84d182666500f2ce944"
+                                   },
+                                   {
+                                       "path":  "heat_network_supertargeting/README.md",
+                                       "size":  960,
+                                       "sha":  "84f443c9a83ab42e623d0f32ea362f89442e4f7f"
+                                   },
+                                   {
+                                       "path":  "heat_network_supertargeting/data/Input Sheet of 20.xlsx",
+                                       "size":  7766,
+                                       "sha":  "2a836754fafadc2094205fa1b9926e3d33714ce0"
+                                   },
+                                   {
+                                       "path":  "heat_network_supertargeting/heat_network_demo/__init__.py",
+                                       "size":  440,
+                                       "sha":  "18f873c3808728c431ab7508467ecb53929abcc7"
+                                   },
+                                   {
+                                       "path":  "heat_network_supertargeting/heat_network_demo/session.py",
+                                       "size":  767,
+                                       "sha":  "3b6d5869bfa71354d7010d948e4afaf5834e38a8"
+                                   },
+                                   {
+                                       "path":  "heat_network_supertargeting/heat_network_demo/supertargeting.py",
+                                       "size":  77823,
+                                       "sha":  "8ed4c1744f7d6fa1bda85c2e78390541249fb947"
+                                   },
+                                   {
+                                       "path":  "heat_network_supertargeting/heat_network_demo/workbook.py",
+                                       "size":  5279,
+                                       "sha":  "0e115aa15e8bfbd02b1023f2ee3d9823bdd7badd"
+                                   },
+                                   {
+                                       "path":  "heat_network_supertargeting/supertargeting_demo.ipynb",
+                                       "size":  10307,
+                                       "sha":  "c1ebc0c64df414077a959bc1d84a467acb803b94"
+                                   },
+                                   {
+                                       "path":  "hysys_interface_demo/README.md",
+                                       "size":  1101,
+                                       "sha":  "901750219dc9bd22dbb9c704b31729f42a0815bb"
+                                   },
+                                   {
+                                       "path":  "hysys_interface_demo/hysys_demo/__init__.py",
+                                       "size":  578,
+                                       "sha":  "440baf161b61b19c2f8ccb380535718f3209a987"
+                                   },
+                                   {
+                                       "path":  "hysys_interface_demo/hysys_demo/metrics.py",
+                                       "size":  1616,
+                                       "sha":  "706a5c57cfccdc7583753e6f5c00004474d68957"
+                                   },
+                                   {
+                                       "path":  "hysys_interface_demo/hysys_demo/mock.py",
+                                       "size":  4485,
+                                       "sha":  "6dca49d6117e8e52f8b02a19016d56409537531a"
+                                   },
+                                   {
+                                       "path":  "hysys_interface_demo/hysys_demo/model.py",
+                                       "size":  7256,
+                                       "sha":  "942da30abb56847815d704fa873a74b7be6fe5e7"
+                                   },
+                                   {
+                                       "path":  "hysys_interface_demo/hysys_demo/session.py",
+                                       "size":  788,
+                                       "sha":  "f307010a4ecd9b0c302485c8dd1065e02b2d065c"
+                                   },
+                                   {
+                                       "path":  "hysys_interface_demo/notebooks/01_hysys_interface_tutorial.ipynb",
+                                       "size":  17680,
+                                       "sha":  "30e3b33cbc96d70b1acfde5e2bec4585fa6f8d99"
+                                   }
+                               ]
+             },
+    "error":  null
+}

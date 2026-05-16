@@ -1,0 +1,47 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "edgarsmdn/Aspen_HYSYS_Python",
+                 "url":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+                 "description":  "Aspen HYSYS - Python connection",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2023-11-01T19:33:55Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  9,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "Test_1.hsc",
+                                        "size":  458576,
+                                        "sha":  "3c1044e6d310ca784bee6f25dba59aaf41a9f04b"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "HYSYS_python_spreadsheets.py",
+                                       "size":  3994,
+                                       "sha":  "f8055dde91b2fb4ab3e4aa4be59cb64e6b00fdda"
+                                   },
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1070,
+                                       "sha":  "d044f4ae56c695d351859d93dc0abd543c914dd9"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  3629,
+                                       "sha":  "3b259a808fc791a425f073875114611d13b3d738"
+                                   },
+                                   {
+                                       "path":  "Test_1.py",
+                                       "size":  2386,
+                                       "sha":  "74e77a2356bce9804b711842d9d0a5defd21d509"
+                                   }
+                               ]
+             },
+    "error":  null
+}

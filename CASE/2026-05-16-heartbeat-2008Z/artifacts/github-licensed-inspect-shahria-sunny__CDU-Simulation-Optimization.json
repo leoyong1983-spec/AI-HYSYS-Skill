@@ -1,0 +1,42 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "shahria-sunny/CDU-Simulation-Optimization",
+                 "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+                 "description":  "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-04-29T18:07:34Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  4,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "project.hsc",
+                                        "size":  765164,
+                                        "sha":  "9c8f506bd4e0099767abb17ce218197320ce1a39"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "CDU_Report.pdf",
+                                       "size":  322508,
+                                       "sha":  "831966ac8499c3b27f3668c9a4b3d418a707ec73"
+                                   },
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1078,
+                                       "sha":  "7d04ebfe367271dda05310b73830365bff82b501"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  7898,
+                                       "sha":  "7f31febbb6458c2d405721f788adbc549b2f2707"
+                                   }
+                               ]
+             },
+    "error":  null
+}

@@ -1,0 +1,67 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                 "url":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                 "description":  "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-12-14T15:45:26Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  11,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+                                        "size":  262372,
+                                        "sha":  "6bbb90eae8124d906e2746cd6e974ebe7954ef47"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "ASPEN HYSYS/aspen report.pdf",
+                                       "size":  143415,
+                                       "sha":  "d46c937d5e03bf2fd90a2de0bfa8ef5c415a3d9b"
+                                   },
+                                   {
+                                       "path":  "DWSIM/dwsim report.pdf",
+                                       "size":  218159,
+                                       "sha":  "17f773baa4c65d0ec98867c55624612e7280247b"
+                                   },
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1080,
+                                       "sha":  "08749beaffa3f8ef8da544ddf978021e1f786902"
+                                   },
+                                   {
+                                       "path":  "MATLAB/Pressure_Drop_Estimation_in_Pipelines.m",
+                                       "size":  2980,
+                                       "sha":  "62027174097eaf717caa0930f33bcc5f864eadd8"
+                                   },
+                                   {
+                                       "path":  "MS EXCEL/Pressure Drop Estimation in Pipelines.xlsx",
+                                       "size":  14138,
+                                       "sha":  "a55cacd30384308d89e3f430643dc2a6fa187cb5"
+                                   },
+                                   {
+                                       "path":  "PYTHON/Pressure Drop Estimation in Pipelines.py",
+                                       "size":  3026,
+                                       "sha":  "a9326bda3cf55b79dbd70e2241bb5de1fd09c978"
+                                   },
+                                   {
+                                       "path":  "Pressure Drop Estimation in Pipelines-ppt.pdf",
+                                       "size":  849484,
+                                       "sha":  "7089f98be7b05e9d10646a5cff248dc21ddd62b6"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  3489,
+                                       "sha":  "9f87a42279745ef2fdbbe191edfa1772c82cec08"
+                                   }
+                               ]
+             },
+    "error":  null
+}

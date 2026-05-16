@@ -1,0 +1,68 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "GaboTalero/HYSYS-Python-Case-Builder",
+                 "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+                 "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-04-25T19:57:00Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  9,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "EXtest.py",
+                                       "size":  4566,
+                                       "sha":  "c13e568086e4ca60579e6d3ecfa1bf9e53e86449"
+                                   },
+                                   {
+                                       "path":  "HYSYS_python_simulation.py",
+                                       "size":  5939,
+                                       "sha":  "7f1b7d85800b7e355ad11761734adb196f971fa5"
+                                   },
+                                   {
+                                       "path":  "HYSYS_python_spreadsheets_creator.py",
+                                       "size":  3925,
+                                       "sha":  "ed537d96445e6a0642bff6584eee6693e86fae62"
+                                   },
+                                   {
+                                       "path":  "HyCOM_DIC_creator.py",
+                                       "size":  1905,
+                                       "sha":  "29f99773e8869324be7393d2ce267a8a3584d92d"
+                                   },
+                                   {
+                                       "path":  "Hysys_python_creator.py",
+                                       "size":  1684,
+                                       "sha":  "286948ff95dca8eaa306910e8706002ccadb4a9d"
+                                   },
+                                   {
+                                       "path":  "Hysys_python_flowsheet.py",
+                                       "size":  7716,
+                                       "sha":  "f7b7a9083706e0c6ea08750ef38d724dfb2cd61a"
+                                   },
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1071,
+                                       "sha":  "4f5c554bf06a8559f1b9ce10509781ffbbcfecd3"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  2268,
+                                       "sha":  "2ec5bf686c171c59ae1d2db213dec70af0f6343c"
+                                   },
+                                   {
+                                       "path":  "project_paths.py",
+                                       "size":  457,
+                                       "sha":  "a33bea72169c7c33bcd920f4c9598e3e28c33534"
+                                   }
+                               ]
+             },
+    "error":  null
+}
