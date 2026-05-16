@@ -1,0 +1,884 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS .hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20.hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS .hscz",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20.hscz\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS case file",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20case%20file\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS simulation file",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20simulation%20file\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS supplementary material hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20supplementary%20material%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases xml",
+        "url":  "https://api.figshare.com/v2/articles?search_for=HYSYS%20XML%20Cases%20xml\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS CO2 capture hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20CO2%20capture%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS LNG hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20LNG%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hydrogen hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20hydrogen%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32305722,
+                         "title":  "The spatial distribution of dispersal-phase adult Varroa destructor mites on two strains of the honey bee (Apis mellifera) in New Zealand",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305722",
+                         "published_date":  "2026-05-16T06:09:42Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305719,
+                         "title":  "An RNA interference biopesticide reduces reproduction of the honey bee parasite Varroa destructor by down-regulating embryo development pathways",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32305719",
+                         "published_date":  "2026-05-16T06:07:50Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305716,
+                         "title":  "Longevity and foraging performance of honey bees treated with an RNAi-based Varroa destructor biopesticide",
+                         "doi":  "10.25455/wgtn.32305716",
+                         "url":  "https://api.figshare.com/v2/articles/32305716",
+                         "published_date":  "2026-05-16T06:06:15Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305713,
+                         "title":  "Architectural Alphabets- Activating historic architecture through play and the design of a vertical enviroschool.",
+                         "doi":  "10.26686/ye46-x765",
+                         "url":  "https://api.figshare.com/v2/articles/32305713",
+                         "published_date":  "2026-05-16T06:02:56Z",
+                         "defined_type_name":  "thesis"
+                     },
+                     {
+                         "id":  17207183,
+                         "title":  "A global dataset of pandemic- and epidemic-prone disease outbreaks",
+                         "doi":  "10.6084/m9.figshare.17207183.v11",
+                         "url":  "https://api.figshare.com/v2/articles/17207183",
+                         "published_date":  "2026-05-16T05:55:16Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305710,
+                         "title":  "Supplementary Material for: The Crescent Sign of Anterior Capsular Tear Detection Using Ultrasound Biomicroscopy",
+                         "doi":  "10.6084/m9.figshare.32305710.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305710",
+                         "published_date":  "2026-05-16T05:55:10Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305707,
+                         "title":  "Supplementary Material for: Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report",
+                         "doi":  "10.6084/m9.figshare.32305707.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305707",
+                         "published_date":  "2026-05-16T05:55:07Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305705,
+                         "title":  "Receptive language processing in children with Autism Spectrum Disorder: evidence from eye-tracking measures",
+                         "doi":  "10.6084/m9.figshare.32305705.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305705",
+                         "published_date":  "2026-05-16T05:49:11Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305702,
+                         "title":  "National ethics and public compliance in Indonesia: evidence from two policy cases",
+                         "doi":  "10.6084/m9.figshare.32305702.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305702",
+                         "published_date":  "2026-05-16T05:44:35Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32305675,
+                         "title":  "A coordination polymer constructed by Cu(II) and 2-aminoisonicotinic acid: synthesis, structure, photothermal effect, and gas adsorption",
+                         "doi":  "10.6084/m9.figshare.32305675.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305675",
+                         "published_date":  "2026-05-16T05:40:02Z",
+                         "defined_type_name":  "journal contribution"
+                     }
+                 ]
+    }
+]

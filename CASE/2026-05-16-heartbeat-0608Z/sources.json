@@ -1,0 +1,583 @@
+﻿[
+    {
+        "title":  "Candidate only: marcellobozzini/Python-Driving-License HYSYS simulation without repository license",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/marcellobozzini/Python-Driving-License",
+        "download_url":  "https://raw.githubusercontent.com/marcellobozzini/Python-Driving-License/main/Separazione_reattori.hsc",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-candidate-tree-summary.json",
+                                    "filename":  "github-candidate-tree-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3655,
+                                    "sha256":  "5c7e29f75bcde5ffc8a99b9d3bd568e5bd21a754c04b400f15e28fcba2326133"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-marcellobozzini__Python-Driving-License-contents-root.json",
+                                    "filename":  "github-marcellobozzini__Python-Driving-License-contents-root.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2022,
+                                    "sha256":  "ad0aacba99528cc39ee7a0fec23d9765682bb54808b4b42fd4673a27c30efcde"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-marcellobozzini__Python-Driving-License-repo.json",
+                                    "filename":  "github-marcellobozzini__Python-Driving-License-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  418,
+                                    "sha256":  "76807a9e2059e57075dc307e4191dc6586c4d5fe97939c496220ef7515aa5eab"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-marcellobozzini__Python-Driving-License-tree.json",
+                                    "filename":  "github-marcellobozzini__Python-Driving-License-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  727,
+                                    "sha256":  "9447fa8d73041888a5f1da63c402a9ee2bfa0097952a572a04a73d7331e22af9"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-simulation-files.json",
+                                    "filename":  "github-repo-hysys-simulation-files.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  390,
+                                    "sha256":  "3a286dd32023776b2e26efd190b240c3a1d5ca9359fb8932a5c989c45664bb64"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-search-summary.json",
+                                    "filename":  "github-repo-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1190,
+                                    "sha256":  "ed3f9a31428fb39703a7b03b32e141bbdfadc3528af030a616a9fee816678687"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  16301,
+                                    "sha256":  "68a450c1d160ee16ea3a162a85acbb1aeb78906e7d7af94ec731e089e83d9814"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository but no LICENSE or GitHub license metadata was found. Per repository rules, the .hsc and notebook were not downloaded or archived as payloads.",
+        "recommended_use":  "Manual license/author review candidate. If storage rights are confirmed, this could become a small HYSYS simulation benchmark paired with its notebook.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/marcellobozzini/Python-Driving-License",
+                            "download_url":  "https://raw.githubusercontent.com/marcellobozzini/Python-Driving-License/main/Separazione_reattori.hsc",
+                            "title":  "Python-Driving-License Aspen HYSYS simulation",
+                            "filenames":  [
+                                              "Separazione_reattori.hsc",
+                                              "Python Driving License.ipynb"
+                                          ],
+                            "sha256":  [
+                                           "github-blob-62274cb6ac668952777dceee07496a53dcb9ef5c",
+                                           "github-blob-a8f74a96c71a6d7f4fc4a771130871a4d0b8e14c"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No repository license; do not archive payload until rights are confirmed.",
+                               "Notebook may contain executable automation cells and was not downloaded or run.",
+                               "HYSYS version and model contents are unknown because the case was not opened."
+                           ]
+    },
+    {
+        "title":  "Candidate only: GaboTalero/HYSYS-Python-Case-Builder automation scripts without HYSYS model payload",
+        "type":  "repository",
+        "quality":  "D",
+        "source_page":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "download_url":  "not_downloaded_no_hysys_case_file",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-candidate-tree-summary.json",
+                                    "filename":  "github-candidate-tree-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3655,
+                                    "sha256":  "5c7e29f75bcde5ffc8a99b9d3bd568e5bd21a754c04b400f15e28fcba2326133"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-contents-root.json",
+                                    "filename":  "github-GaboTalero__HYSYS-Python-Case-Builder-contents-root.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  8393,
+                                    "sha256":  "5b78beb73e8f3e6c36c31dc43ece356900ae3f33567ec6edbfd601194dbdfc50"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-repo.json",
+                                    "filename":  "github-GaboTalero__HYSYS-Python-Case-Builder-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  486,
+                                    "sha256":  "b7a80221bc23c6141a0bc743aebe1fbb9c596168c9c6bb26390dbd04e8b1a270"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-tree.json",
+                                    "filename":  "github-GaboTalero__HYSYS-Python-Case-Builder-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2429,
+                                    "sha256":  "23dcec73dbd8e25d488d64d22b6c7fa63793497a8d6fec8cedcf56d2537b1428"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-case-file.json",
+                                    "filename":  "github-repo-hysys-case-file.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  463,
+                                    "sha256":  "f919b5e78d32fe66375d828af4cb28ac17f2ea3e1e997b375bf905c1d58ba51e"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-search-summary.json",
+                                    "filename":  "github-repo-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1190,
+                                    "sha256":  "ed3f9a31428fb39703a7b03b32e141bbdfadc3528af030a616a9fee816678687"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  16301,
+                                    "sha256":  "68a450c1d160ee16ea3a162a85acbb1aeb78906e7d7af94ec731e089e83d9814"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository with MIT license metadata. It contains Python COM automation scripts and README, but no .hsc/.hscz/.compound or confirmed HYSYS XML model file.",
+        "recommended_use":  "Reference candidate for HYSYS COM automation patterns only; not a benchmark case until paired with a model file.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+                            "download_url":  "not_downloaded_no_hysys_case_file",
+                            "title":  "HYSYS-Python-Case-Builder",
+                            "filenames":  [
+                                              "EXtest.py",
+                                              "HYSYS_python_simulation.py",
+                                              "Hysys_python_flowsheet.py",
+                                              "README.md",
+                                              "LICENSE"
+                                          ],
+                            "sha256":  [
+                                           "github-blob-c13e568086e4ca60579e6d3ecfa1bf9e53e86449",
+                                           "github-blob-7f1b7d85800b7e355ad11761734adb196f971fa5",
+                                           "github-blob-f7b7a9083706e0c6ea08750ef38d724dfb2cd61a"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No HYSYS model file in repository tree.",
+                               "Scripts were not downloaded as payloads or executed.",
+                               "Useful as automation reference, not as a CASE benchmark."
+                           ]
+    },
+    {
+        "title":  "Candidate rejected for benchmark: Zenodo 19469917 Hydrogen Co-Firing Aspen HYSYS Simulation archive has no HYSYS model file",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/19469917",
+        "download_url":  "https://zenodo.org/api/records/19469917/files/Upload%20data.rar/content",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  16301,
+                                    "sha256":  "68a450c1d160ee16ea3a162a85acbb1aeb78906e7d7af94ec731e089e83d9814"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-0608-targeted-search-results.json",
+                                    "filename":  "zenodo-0608-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  209187,
+                                    "sha256":  "ccf673d516e9588d047ec1c69e2044e9eba7bf8395fa06245d3f3ac1368fb516"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-19469917-archive-listing.txt",
+                                    "filename":  "zenodo-19469917-archive-listing.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  293,
+                                    "sha256":  "c4138bcf98dad6f840c9ea5aa63029ae44963a576e0a405c69603ac18df20957"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-19469917-record.json",
+                                    "filename":  "zenodo-19469917-record.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7070,
+                                    "sha256":  "b6b3a3abfa1bb371d1192813256067a055e25f389b3bf154ff4a11980dd3e98f"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo record is public CC-BY-4.0 with DOI 10.5281/zenodo.19469917. The small RAR was temporarily listed for safety; retained listing shows only PNG and XLSX files, so the archive was not retained as a case payload.",
+        "recommended_use":  "Do not include as HYSYS benchmark unless the authors publish an actual HYSYS case file. The Excel data may support literature review only after separate approval.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/19469917",
+                            "download_url":  "https://zenodo.org/api/records/19469917/files/Upload%20data.rar/content",
+                            "title":  "Hydrogen Co-Firing in Gas Turbines Aspen HYSYS Simulation",
+                            "filenames":  [
+                                              "Upload data.rar",
+                                              "IEEE-30bus system.xlsx",
+                                              "Result.xlsx"
+                                          ],
+                            "sha256":  [
+                                           "053964b8630525a2871ad5d8aa21878aa49fdfc2ec26e9f02242a3dd2e069c7a"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Archive title mentions Aspen HYSYS but archive listing contains no HYSYS model file.",
+                               "RAR payload was not retained in repository because it failed the model-file criterion.",
+                               "No model was opened, extracted, or solved."
+                           ]
+    },
+    {
+        "title":  "Duplicate Zenodo HYSYS records rediscovered: 10966344, 14882867, 18806107",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/search?q=Aspen%20HYSYS%20hsc",
+        "download_url":  "not_downloaded_duplicate",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/dedupe-summary.json",
+                                    "filename":  "dedupe-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  301,
+                                    "sha256":  "b92c4a6b3349fa6aacbb7e0ae25e3c5e4f47a4f5d5e70b1e8c7bb1f29ac68816"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  16301,
+                                    "sha256":  "68a450c1d160ee16ea3a162a85acbb1aeb78906e7d7af94ec731e089e83d9814"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-0608-targeted-search-results.json",
+                                    "filename":  "zenodo-0608-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  209187,
+                                    "sha256":  "ccf673d516e9588d047ec1c69e2044e9eba7bf8395fa06245d3f3ac1368fb516"
+                                }
+                            ],
+        "license_public_access_note":  "Known Zenodo records are public; 10966344 is CC-BY-NC-ND-4.0, while 14882867 and 18806107 are CC-BY-4.0. They already exist in prior CASE folders and were not downloaded again.",
+        "recommended_use":  "Keep these DOI/source URLs on the duplicate allowlist and reuse existing archived copies.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/10966344; https://zenodo.org/records/14882867; https://zenodo.org/records/18806107",
+                            "download_url":  "not_downloaded_duplicate",
+                            "title":  "Known Zenodo HYSYS model records",
+                            "filenames":  [
+                                              "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+                                              "MeOH_Production.hsc",
+                                              "Capture_onboard_NG.hsc",
+                                              "Capture_onboard_methanol.hsc",
+                                              "7. Sistema Integrado OCC,ASU,CCS.hsc"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Duplicate only; no new payload retained.",
+                               "Some records have license restrictions such as non-commercial/no-derivatives.",
+                               "HYSYS versions remain undeclared in metadata."
+                           ]
+    },
+    {
+        "title":  "Broad GitHub/GitLab/Bitbucket/Figshare/Dataverse/Mendeley metadata sweep: no new downloadable case",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "multi-source metadata sweep 2026-05-16T06:08:12.133Z",
+        "download_url":  "not_downloaded_no_confirmed_licensed_new_case",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/bitbucket-0608-repository-search-results.json",
+                                    "filename":  "bitbucket-0608-repository-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1022,
+                                    "sha256":  "76568b828a4493855f4e56a8f22b7a613484b0e730acc33e42e77ceddc793bee"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/dedupe-summary.json",
+                                    "filename":  "dedupe-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  301,
+                                    "sha256":  "b92c4a6b3349fa6aacbb7e0ae25e3c5e4f47a4f5d5e70b1e8c7bb1f29ac68816"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/figshare-0608-targeted-search-results.json",
+                                    "filename":  "figshare-0608-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  51553,
+                                    "sha256":  "2e63f82e49a8153ef618f3fc2c35b20b6f1c8fef5d25624ff2bd6ad5b1c624ae"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-aspen-hysys-ext-hsc.json",
+                                    "filename":  "github-code-aspen-hysys-ext-hsc.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-aspen-hysys-ext-hscz.json",
+                                    "filename":  "github-code-aspen-hysys-ext-hscz.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-compound.json",
+                                    "filename":  "github-code-hysys-ext-compound.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-hsc.json",
+                                    "filename":  "github-code-hysys-ext-hsc.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-hscz.json",
+                                    "filename":  "github-code-hysys-ext-hscz.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-xml.json",
+                                    "filename":  "github-code-hysys-ext-xml.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  20851,
+                                    "sha256":  "24793146d22e0be1c55bcb206f2ded3f50871fa80478bfc1b77b9d682b925539"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-xml-cases-ext-xml.json",
+                                    "filename":  "github-code-hysys-xml-cases-ext-xml.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-search-summary.json",
+                                    "filename":  "github-code-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1159,
+                                    "sha256":  "788d9334ebe26cce88a5a1fe3821763ce3fa351f9bf9aa3effbda0302c4a55fd"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-aspen-hysys-hsc.json",
+                                    "filename":  "github-repo-aspen-hysys-hsc.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-case-file.json",
+                                    "filename":  "github-repo-hysys-case-file.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  463,
+                                    "sha256":  "f919b5e78d32fe66375d828af4cb28ac17f2ea3e1e997b375bf905c1d58ba51e"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-excel-validation.json",
+                                    "filename":  "github-repo-hysys-excel-validation.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-hscz.json",
+                                    "filename":  "github-repo-hysys-hscz.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-matlab-link.json",
+                                    "filename":  "github-repo-hysys-matlab-link.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-python-com.json",
+                                    "filename":  "github-repo-hysys-python-com.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-simulation-files.json",
+                                    "filename":  "github-repo-hysys-simulation-files.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  390,
+                                    "sha256":  "3a286dd32023776b2e26efd190b240c3a1d5ca9359fb8932a5c989c45664bb64"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-search-summary.json",
+                                    "filename":  "github-repo-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1190,
+                                    "sha256":  "ed3f9a31428fb39703a7b03b32e141bbdfadc3528af030a616a9fee816678687"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/gitlab-0608-project-search-results.json",
+                                    "filename":  "gitlab-0608-project-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1194,
+                                    "sha256":  "f8efa3750152f2bd7180c8c746e0b91ae72b38e15ef6f7155f13e917b10ab828"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/harvard-dataverse-0608-targeted-search-results.json",
+                                    "filename":  "harvard-dataverse-0608-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  103478,
+                                    "sha256":  "3771f3fa2707301ec35a57ebe3176e6fb96aad67c0f9a690fe2d7d5fb0327fd2"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/mendeley-datacite-0608-targeted-search-results.json",
+                                    "filename":  "mendeley-datacite-0608-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2602,
+                                    "sha256":  "ab16c38321b3b66619ed7f5cffff3df2e23f30fba853c298d053511a8ffd6960"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  16301,
+                                    "sha256":  "68a450c1d160ee16ea3a162a85acbb1aeb78906e7d7af94ec731e089e83d9814"
+                                }
+                            ],
+        "license_public_access_note":  "Only public metadata APIs and GitHub metadata were used. No login-required, paid, customer-support, institution-only, or non-public resources were accessed.",
+        "recommended_use":  "Use this metadata to refine future query filters, especially suppressing unrelated XML and no-model repository hits.",
+        "dedupe_keys":  {
+                            "source_page":  "multi-source metadata sweep",
+                            "download_url":  "not_downloaded_no_confirmed_licensed_new_case",
+                            "title":  "0608Z broad metadata sweep",
+                            "filenames":  [
+                                              "bitbucket-0608-repository-search-results.json",
+                                              "dedupe-summary.json",
+                                              "figshare-0608-targeted-search-results.json",
+                                              "github-code-aspen-hysys-ext-hsc.json",
+                                              "github-code-aspen-hysys-ext-hscz.json",
+                                              "github-code-hysys-ext-compound.json",
+                                              "github-code-hysys-ext-hsc.json",
+                                              "github-code-hysys-ext-hscz.json",
+                                              "github-code-hysys-ext-xml.json",
+                                              "github-code-hysys-xml-cases-ext-xml.json",
+                                              "github-code-search-summary.json",
+                                              "github-repo-aspen-hysys-hsc.json",
+                                              "github-repo-hysys-case-file.json",
+                                              "github-repo-hysys-excel-validation.json",
+                                              "github-repo-hysys-hscz.json",
+                                              "github-repo-hysys-matlab-link.json",
+                                              "github-repo-hysys-python-com.json",
+                                              "github-repo-hysys-simulation-files.json",
+                                              "github-repo-search-summary.json",
+                                              "gitlab-0608-project-search-results.json",
+                                              "harvard-dataverse-0608-targeted-search-results.json",
+                                              "mendeley-datacite-0608-targeted-search-results.json",
+                                              "security-inventory.json"
+                                          ],
+                            "sha256":  [
+                                           "76568b828a4493855f4e56a8f22b7a613484b0e730acc33e42e77ceddc793bee",
+                                           "b92c4a6b3349fa6aacbb7e0ae25e3c5e4f47a4f5d5e70b1e8c7bb1f29ac68816",
+                                           "2e63f82e49a8153ef618f3fc2c35b20b6f1c8fef5d25624ff2bd6ad5b1c624ae",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "24793146d22e0be1c55bcb206f2ded3f50871fa80478bfc1b77b9d682b925539",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "788d9334ebe26cce88a5a1fe3821763ce3fa351f9bf9aa3effbda0302c4a55fd",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "f919b5e78d32fe66375d828af4cb28ac17f2ea3e1e997b375bf905c1d58ba51e",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "3a286dd32023776b2e26efd190b240c3a1d5ca9359fb8932a5c989c45664bb64",
+                                           "ed3f9a31428fb39703a7b03b32e141bbdfadc3528af030a616a9fee816678687",
+                                           "f8efa3750152f2bd7180c8c746e0b91ae72b38e15ef6f7155f13e917b10ab828",
+                                           "3771f3fa2707301ec35a57ebe3176e6fb96aad67c0f9a690fe2d7d5fb0327fd2",
+                                           "ab16c38321b3b66619ed7f5cffff3df2e23f30fba853c298d053511a8ffd6960",
+                                           "68a450c1d160ee16ea3a162a85acbb1aeb78906e7d7af94ec731e089e83d9814"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "GitHub code search did not index binary .hsc/.hscz files in this run.",
+                               "GitLab and Bitbucket public API search returned no hits.",
+                               "Figshare/Dataverse results were keyword noise and not payload-verified."
+                           ]
+    }
+]

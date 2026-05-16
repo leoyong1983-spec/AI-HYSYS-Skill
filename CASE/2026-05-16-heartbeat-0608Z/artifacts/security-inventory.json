@@ -1,0 +1,290 @@
+﻿[
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/bitbucket-0608-repository-search-results.json",
+        "filename":  "bitbucket-0608-repository-search-results.json",
+        "size_bytes":  1022,
+        "sha256":  "76568b828a4493855f4e56a8f22b7a613484b0e730acc33e42e77ceddc793bee",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/dedupe-summary.json",
+        "filename":  "dedupe-summary.json",
+        "size_bytes":  301,
+        "sha256":  "b92c4a6b3349fa6aacbb7e0ae25e3c5e4f47a4f5d5e70b1e8c7bb1f29ac68816",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/figshare-0608-targeted-search-results.json",
+        "filename":  "figshare-0608-targeted-search-results.json",
+        "size_bytes":  51553,
+        "sha256":  "2e63f82e49a8153ef618f3fc2c35b20b6f1c8fef5d25624ff2bd6ad5b1c624ae",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-candidate-tree-summary.json",
+        "filename":  "github-candidate-tree-summary.json",
+        "size_bytes":  3655,
+        "sha256":  "5c7e29f75bcde5ffc8a99b9d3bd568e5bd21a754c04b400f15e28fcba2326133",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-aspen-hysys-ext-hsc.json",
+        "filename":  "github-code-aspen-hysys-ext-hsc.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-aspen-hysys-ext-hscz.json",
+        "filename":  "github-code-aspen-hysys-ext-hscz.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-compound.json",
+        "filename":  "github-code-hysys-ext-compound.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-hsc.json",
+        "filename":  "github-code-hysys-ext-hsc.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-hscz.json",
+        "filename":  "github-code-hysys-ext-hscz.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-ext-xml.json",
+        "filename":  "github-code-hysys-ext-xml.json",
+        "size_bytes":  20851,
+        "sha256":  "24793146d22e0be1c55bcb206f2ded3f50871fa80478bfc1b77b9d682b925539",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-hysys-xml-cases-ext-xml.json",
+        "filename":  "github-code-hysys-xml-cases-ext-xml.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-code-search-summary.json",
+        "filename":  "github-code-search-summary.json",
+        "size_bytes":  1159,
+        "sha256":  "788d9334ebe26cce88a5a1fe3821763ce3fa351f9bf9aa3effbda0302c4a55fd",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-contents-root.json",
+        "filename":  "github-GaboTalero__HYSYS-Python-Case-Builder-contents-root.json",
+        "size_bytes":  8393,
+        "sha256":  "5b78beb73e8f3e6c36c31dc43ece356900ae3f33567ec6edbfd601194dbdfc50",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-repo.json",
+        "filename":  "github-GaboTalero__HYSYS-Python-Case-Builder-repo.json",
+        "size_bytes":  486,
+        "sha256":  "b7a80221bc23c6141a0bc743aebe1fbb9c596168c9c6bb26390dbd04e8b1a270",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-tree.json",
+        "filename":  "github-GaboTalero__HYSYS-Python-Case-Builder-tree.json",
+        "size_bytes":  2429,
+        "sha256":  "23dcec73dbd8e25d488d64d22b6c7fa63793497a8d6fec8cedcf56d2537b1428",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-marcellobozzini__Python-Driving-License-contents-root.json",
+        "filename":  "github-marcellobozzini__Python-Driving-License-contents-root.json",
+        "size_bytes":  2022,
+        "sha256":  "ad0aacba99528cc39ee7a0fec23d9765682bb54808b4b42fd4673a27c30efcde",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-marcellobozzini__Python-Driving-License-repo.json",
+        "filename":  "github-marcellobozzini__Python-Driving-License-repo.json",
+        "size_bytes":  418,
+        "sha256":  "76807a9e2059e57075dc307e4191dc6586c4d5fe97939c496220ef7515aa5eab",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-marcellobozzini__Python-Driving-License-tree.json",
+        "filename":  "github-marcellobozzini__Python-Driving-License-tree.json",
+        "size_bytes":  727,
+        "sha256":  "9447fa8d73041888a5f1da63c402a9ee2bfa0097952a572a04a73d7331e22af9",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-aspen-hysys-hsc.json",
+        "filename":  "github-repo-aspen-hysys-hsc.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-case-file.json",
+        "filename":  "github-repo-hysys-case-file.json",
+        "size_bytes":  463,
+        "sha256":  "f919b5e78d32fe66375d828af4cb28ac17f2ea3e1e997b375bf905c1d58ba51e",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-excel-validation.json",
+        "filename":  "github-repo-hysys-excel-validation.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-hscz.json",
+        "filename":  "github-repo-hysys-hscz.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-matlab-link.json",
+        "filename":  "github-repo-hysys-matlab-link.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-python-com.json",
+        "filename":  "github-repo-hysys-python-com.json",
+        "size_bytes":  7,
+        "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-hysys-simulation-files.json",
+        "filename":  "github-repo-hysys-simulation-files.json",
+        "size_bytes":  390,
+        "sha256":  "3a286dd32023776b2e26efd190b240c3a1d5ca9359fb8932a5c989c45664bb64",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/github-repo-search-summary.json",
+        "filename":  "github-repo-search-summary.json",
+        "size_bytes":  1190,
+        "sha256":  "ed3f9a31428fb39703a7b03b32e141bbdfadc3528af030a616a9fee816678687",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/gitlab-0608-project-search-results.json",
+        "filename":  "gitlab-0608-project-search-results.json",
+        "size_bytes":  1194,
+        "sha256":  "f8efa3750152f2bd7180c8c746e0b91ae72b38e15ef6f7155f13e917b10ab828",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/harvard-dataverse-0608-targeted-search-results.json",
+        "filename":  "harvard-dataverse-0608-targeted-search-results.json",
+        "size_bytes":  103478,
+        "sha256":  "3771f3fa2707301ec35a57ebe3176e6fb96aad67c0f9a690fe2d7d5fb0327fd2",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/mendeley-datacite-0608-targeted-search-results.json",
+        "filename":  "mendeley-datacite-0608-targeted-search-results.json",
+        "size_bytes":  2602,
+        "sha256":  "ab16c38321b3b66619ed7f5cffff3df2e23f30fba853c298d053511a8ffd6960",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-0608-targeted-search-results.json",
+        "filename":  "zenodo-0608-targeted-search-results.json",
+        "size_bytes":  209187,
+        "sha256":  "ccf673d516e9588d047ec1c69e2044e9eba7bf8395fa06245d3f3ac1368fb516",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-19469917-archive-listing.txt",
+        "filename":  "zenodo-19469917-archive-listing.txt",
+        "size_bytes":  293,
+        "sha256":  "c4138bcf98dad6f840c9ea5aa63029ae44963a576e0a405c69603ac18df20957",
+        "extension":  ".txt",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    },
+    {
+        "path":  "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-19469917-record.json",
+        "filename":  "zenodo-19469917-record.json",
+        "size_bytes":  7070,
+        "sha256":  "b6b3a3abfa1bb371d1192813256067a055e25f389b3bf154ff4a11980dd3e98f",
+        "extension":  ".json",
+        "risk_class":  "metadata_or_safe_listing",
+        "action_taken":  "stored for audit only; no executable, macro, script, notebook, or HYSYS model was run or opened"
+    }
+]
