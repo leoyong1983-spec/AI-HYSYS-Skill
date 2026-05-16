@@ -1,0 +1,68 @@
+﻿[
+    {
+        "repo":  "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "url":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "license":  "",
+        "seen_before":  false,
+        "queries":  "github-repo-hysys-matlab",
+        "file_count":  28,
+        "hysys_like":  "Project-PR/hyApp.hsc",
+        "release_assets":  "",
+        "error":  null
+    },
+    {
+        "repo":  "afabrild/HYSYS-MATLAB-LINK",
+        "url":  "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+        "license":  "",
+        "seen_before":  true,
+        "queries":  "github-repo-hysys-matlab",
+        "file_count":  3,
+        "hysys_like":  "Distill_Example.hsc",
+        "release_assets":  "",
+        "error":  null
+    },
+    {
+        "repo":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "license":  "mit",
+        "seen_before":  true,
+        "queries":  "github-repo-hysys-case-file",
+        "file_count":  9,
+        "hysys_like":  "",
+        "release_assets":  "",
+        "error":  null
+    },
+    {
+        "repo":  "marcellobozzini/Python-Driving-License",
+        "url":  "https://github.com/marcellobozzini/Python-Driving-License",
+        "license":  "",
+        "seen_before":  true,
+        "queries":  "github-repo-hysys-simulation-files",
+        "file_count":  2,
+        "hysys_like":  "Separazione_reattori.hsc",
+        "release_assets":  "",
+        "error":  null
+    },
+    {
+        "repo":  "oscarcontrerasnavas/hysys-to-excel-intro",
+        "url":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+        "license":  "gpl-3.0",
+        "seen_before":  true,
+        "queries":  "github-repo-hysys-case-file",
+        "file_count":  4,
+        "hysys_like":  "",
+        "release_assets":  "",
+        "error":  null
+    },
+    {
+        "repo":  "perrywzm/hysysopt",
+        "url":  "https://github.com/perrywzm/hysysopt",
+        "license":  "",
+        "seen_before":  true,
+        "queries":  "github-repo-hysys-case-file",
+        "file_count":  17,
+        "hysys_like":  "",
+        "release_assets":  "",
+        "error":  null
+    }
+]

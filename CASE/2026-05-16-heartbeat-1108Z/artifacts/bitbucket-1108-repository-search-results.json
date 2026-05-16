@@ -1,0 +1,42 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS hsc",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22Aspen%20HYSYS%20hsc%22%20OR%20description%20~%20%22Aspen%20HYSYS%20hsc%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hscz",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22Aspen%20HYSYS%20hscz%22%20OR%20description%20~%20%22Aspen%20HYSYS%20hscz%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS case file",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22HYSYS%20case%20file%22%20OR%20description%20~%20%22HYSYS%20case%20file%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS simulation",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22Aspen%20HYSYS%20simulation%22%20OR%20description%20~%20%22Aspen%20HYSYS%20simulation%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS supersonic separator",
+        "url":  "https://api.bitbucket.org/2.0/repositories?q=name%20~%20%22HYSYS%20supersonic%20separator%22%20OR%20description%20~%20%22HYSYS%20supersonic%20separator%22\u0026pagelen=10",
+        "error":  "远程服务器返回错误: (410) 不再存在。",
+        "hits":  [
+
+                 ]
+    }
+]

@@ -1,0 +1,48 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2019-11-15T03:56:32Z",
+                 "defaultBranchRef":  {
+                                          "name":  "master"
+                                      },
+                 "description":  "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  null,
+                 "nameWithOwner":  "afabrild/HYSYS-MATLAB-LINK",
+                 "pushedAt":  "2019-11-15T03:58:41Z",
+                 "url":  "https://github.com/afabrild/HYSYS-MATLAB-LINK"
+             },
+    "tree":  {
+                 "tree_sha":  "4ab90313ddfe42118dbf50f8bee304f0152e2fd9",
+                 "truncated":  false,
+                 "file_count":  3,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "Distill_Example.hsc",
+                                        "size":  1330654,
+                                        "sha":  "fbb07a893b4dd50daf75e648161d125ee9f60196"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Hysys_Matlab_Example.m",
+                                       "size":  2459,
+                                       "sha":  "cee717ee2de32db09db4f5f0dc44264709061c93"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1192,
+                                       "sha":  "e6f13318bf5bc5bc10fc84b15f46e32bf7a8784e"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null,
+    "seen_before":  true,
+    "queries":  [
+                    "github-repo-hysys-matlab"
+                ]
+}

@@ -1,0 +1,341 @@
+﻿[
+    {
+        "title":  "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR candidate: Project-PR/hyApp.hsc",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "download_url":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR/blob/main/Project-PR/hyApp.hsc",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+                                    "filename":  "github-inspect-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5940,
+                                    "sha256":  "a2109f19c598592a9fabc332f2f3d185a2185d236c78a3191edcc8fbe54df666"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspected-repo-summary.json",
+                                    "filename":  "github-inspected-repo-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2281,
+                                    "sha256":  "4568ee16263d94b9d37b7cbb099292eb9f386eb31da88c48c56c83ad02a30558"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-hysys-matlab.json",
+                                    "filename":  "github-repo-hysys-matlab.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  706,
+                                    "sha256":  "6d03e572399a34581470fb8c1ef7ecfba5cc0bb2e6d4616734631d85ea837b11"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-merged-results.json",
+                                    "filename":  "github-repo-merged-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5354,
+                                    "sha256":  "f6cc3770a04a2962e1701bda226ebf71dbddc28ed347e1cf47b47cc1347f7b1e"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  19162,
+                                    "sha256":  "715736795fb7aa4983e3c4f78999374f57d7556cf16b8b775fdb7bbe2d70aa5a"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, but no license file or GitHub license metadata was found. The .hsc case was not downloaded or retained because reuse and research-archive rights are unclear.",
+        "recommended_use":  "Manual license review candidate for a supersonic separator HYSYS/MATLAB coupling benchmark; if permission is granted, it may support automation smoke tests around HYSYS case loading plus MATLAB companion-script metadata extraction.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+                            "download_url":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR/blob/main/Project-PR/hyApp.hsc",
+                            "title":  "AtabakBahadornia 1D HYSYS MATLAB SUPERSONIC SEPARATOR hyApp.hsc",
+                            "filenames":  [
+                                              "hyApp.hsc",
+                                              "README.md",
+                                              "Nozzle_plot.m",
+                                              "ShockWave.m"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; do not download or redistribute until author permission or license is clarified.",
+                               "Repository is old and minimally documented; model provenance and HYSYS version are unknown.",
+                               "MATLAB scripts and MAT files were only inventoried, not run."
+                           ]
+    },
+    {
+        "title":  "GitHub duplicate and automation-reference sweep",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/search?q=Aspen+HYSYS+case+file\u0026type=repositories",
+        "download_url":  "not_downloaded_duplicate_or_no_confirmed_model",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspected-repo-summary.json",
+                                    "filename":  "github-inspected-repo-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2281,
+                                    "sha256":  "4568ee16263d94b9d37b7cbb099292eb9f386eb31da88c48c56c83ad02a30558"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-afabrild__HYSYS-MATLAB-LINK.json",
+                                    "filename":  "github-inspect-afabrild__HYSYS-MATLAB-LINK.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2083,
+                                    "sha256":  "f25682aa219b66e1a1daad4fa4ba8635f4e2a8534c80cd134880a261eb31a6df"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-GaboTalero__HYSYS-Python-Case-Builder.json",
+                                    "filename":  "github-inspect-GaboTalero__HYSYS-Python-Case-Builder.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  4108,
+                                    "sha256":  "48f9d178a93c6504117d8a6d6809958181890f52a9a301e36de30d86e6dbabb2"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-marcellobozzini__Python-Driving-License.json",
+                                    "filename":  "github-inspect-marcellobozzini__Python-Driving-License.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1847,
+                                    "sha256":  "101cde34af546d522423951765e4b179c340b93030403241315828769413bd22"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-oscarcontrerasnavas__hysys-to-excel-intro.json",
+                                    "filename":  "github-inspect-oscarcontrerasnavas__hysys-to-excel-intro.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2026,
+                                    "sha256":  "c40c672c2abf895779d6d2b01b465659c2c8837bd436295e5fd7a13be131d850"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-perrywzm__hysysopt.json",
+                                    "filename":  "github-inspect-perrywzm__hysysopt.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5233,
+                                    "sha256":  "6110e711c9ef198d2a948816ac636d9afcb33870dd5faa548f7a724b3b54ca83"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-search-summary.json",
+                                    "filename":  "github-code-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1001,
+                                    "sha256":  "419a09cf2580f4965a58e4ca03d598d9ba3e54c5cb6a34e691f4e5b56dd7eb3b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-search-summary.json",
+                                    "filename":  "github-repo-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1361,
+                                    "sha256":  "6a364663b872784efc69de869201eee8d9ac98bbd491d94052f0f39467bd3d74"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  19162,
+                                    "sha256":  "715736795fb7aa4983e3c4f78999374f57d7556cf16b8b775fdb7bbe2d70aa5a"
+                                }
+                            ],
+        "license_public_access_note":  "Several public GitHub repositories were inspected. Known .hsc candidates without licenses were treated as manual-review-only; MIT/GPL automation references without actual case payloads were not downloaded as HYSYS benchmarks.",
+        "recommended_use":  "Maintain as a deny/triage list for future GitHub-first sweeps; useful for avoiding repeated downloads of no-license or no-case repositories.",
+        "dedupe_keys":  {
+                            "source_page":  "multiple_github_repository_search_results",
+                            "download_url":  "not_downloaded_duplicate_or_no_confirmed_model",
+                            "title":  "GitHub duplicate and automation-reference sweep",
+                            "filenames":  [
+                                              "Distill_Example.hsc",
+                                              "Separazione_reattori.hsc",
+                                              "README.md",
+                                              "app.py",
+                                              "hysysopt.py"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Some repository licenses are missing or unclear.",
+                               "Automation-only repositories do not meet the benchmark rule requiring an Aspen HYSYS model payload.",
+                               "Existing duplicates should remain candidate-only unless license and uniqueness change."
+                           ]
+    },
+    {
+        "title":  "Zenodo targeted sweep: duplicates and no-model records",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/search?q=%22Aspen%20HYSYS%22",
+        "download_url":  "not_downloaded_duplicate_or_no_hysys_model",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/zenodo-1108-targeted-search-results.json",
+                                    "filename":  "zenodo-1108-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  274260,
+                                    "sha256":  "43ecaefd6bcc6e0e567d1d1b507b70c5c3a45849cdd8ac46d29026d3bf1a54f2"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/dedupe-summary.json",
+                                    "filename":  "dedupe-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  301,
+                                    "sha256":  "ff8340051e140972beacca1affa5c4e31a561080febf1c14ddb5b445bd091d0e"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  19162,
+                                    "sha256":  "715736795fb7aa4983e3c4f78999374f57d7556cf16b8b775fdb7bbe2d70aa5a"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo records were public metadata. Previously archived HYSYS records were skipped as duplicates. Records with only PDF, PNG, XLSX, or archive contents known not to include HYSYS models were not downloaded.",
+        "recommended_use":  "Use Zenodo record IDs 10966344, 14882867, and 18806107 as duplicate controls; keep 19469917 and 6621128 as no-model examples for search-filter tuning.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/search?q=%22Aspen%20HYSYS%22",
+                            "download_url":  "not_downloaded_duplicate_or_no_hysys_model",
+                            "title":  "Zenodo targeted sweep duplicates and no-model records",
+                            "filenames":  [
+                                              "Upload data.rar",
+                                              "EJSSPC0602.pdf"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Search metadata alone cannot prove hidden archive contents except where prior inventory exists.",
+                               "Some DOI/license metadata permits access but does not satisfy the must-contain-HYSYS-model rule."
+                           ]
+    },
+    {
+        "title":  "Secondary platform sweep: Figshare, Dataverse, Mendeley DataCite, GitLab, Bitbucket",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "multi_platform_targeted_search",
+        "download_url":  "not_downloaded_no_confirmed_hysys_model",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/figshare-1108-targeted-search-results.json",
+                                    "filename":  "figshare-1108-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  70768,
+                                    "sha256":  "3fb41334595025369a16b29decab2d16b887ee73ccd73460eea59d42a8ccd20a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/harvard-dataverse-1108-targeted-search-results.json",
+                                    "filename":  "harvard-dataverse-1108-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  139257,
+                                    "sha256":  "17338fb25b96589b549906f45920cb3b60da194ab5280c3f5df7af68e169c7dc"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/mendeley-datacite-1108-targeted-search-results.json",
+                                    "filename":  "mendeley-datacite-1108-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3496,
+                                    "sha256":  "ea1a339c3fc69a547c0d10d0af48149138cd84e7334c2630ea0098bc56a3f7de"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/gitlab-1108-project-search-results.json",
+                                    "filename":  "gitlab-1108-project-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1702,
+                                    "sha256":  "65bec0c428be613230699ce7db38f92298e5b072e32566fc65e1b552efefc5b9"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/bitbucket-1108-repository-search-results.json",
+                                    "filename":  "bitbucket-1108-repository-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1750,
+                                    "sha256":  "6441489f49a74db06ae9c8a128fdc14440e7fc23922ee62ea9cfbbe087efcfaf"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  19162,
+                                    "sha256":  "715736795fb7aa4983e3c4f78999374f57d7556cf16b8b775fdb7bbe2d70aa5a"
+                                }
+                            ],
+        "license_public_access_note":  "Only public search metadata was retained. No result in these secondary channels was confirmed to contain a downloadable Aspen HYSYS case payload during this run.",
+        "recommended_use":  "Use the retained search metadata to refine platform-specific filters and avoid keyword-noise records that mention process simulation without case files.",
+        "dedupe_keys":  {
+                            "source_page":  "multi_platform_targeted_search",
+                            "download_url":  "not_downloaded_no_confirmed_hysys_model",
+                            "title":  "Secondary platform sweep no confirmed HYSYS model",
+                            "filenames":  [
+
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Platform search APIs may miss files hidden behind supplemental landing pages.",
+                               "Manual review may still be needed for high-value paper supplements discovered outside public file metadata."
+                           ]
+    }
+]
