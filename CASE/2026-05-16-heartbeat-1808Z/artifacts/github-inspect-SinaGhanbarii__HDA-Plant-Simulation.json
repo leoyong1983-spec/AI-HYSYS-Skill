@@ -1,0 +1,122 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "SinaGhanbarii/HDA-Plant-Simulation",
+                 "url":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+                 "description":  "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2024-07-11T08:42:21Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  26,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "HDA 2024 Aspen/1-HDA-Setup.hsc",
+                                        "size":  64202,
+                                        "sha":  "f0ad2b2ac0d23050046901606ab3361ad479c739"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+                                        "size":  144774,
+                                        "sha":  "3821459cd351121f8bff907203a45bc9c05db47f"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+                                        "size":  159824,
+                                        "sha":  "40a5d1993cacba055a810a20b20ea88df8697fbf"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+                                        "size":  197093,
+                                        "sha":  "0583c60715e16d5b29b5f81f14e0262b65c1a03c"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+                                        "size":  198969,
+                                        "sha":  "be8841d88fdd15ebe6e5a51105d3c97ea3f7e789"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+                                        "size":  677667,
+                                        "sha":  "50c209112e2d181e959266c900b26906f242a675"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+                                        "size":  1140662,
+                                        "sha":  "660e6dd24e5400b50a30fb3dee6376eb1d233252"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+                                        "size":  1146872,
+                                        "sha":  "2506906430a75327d3d10a023572f4b5f8aa93cd"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+                                        "size":  601725,
+                                        "sha":  "d76eec81710aa97e6d169911f59f723e43823dee"
+                                    },
+                                    {
+                                        "path":  "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc",
+                                        "size":  295129,
+                                        "sha":  "684fc47837385a4b352d74eae98651a6a9ea4391"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Book1.xlsx",
+                                       "size":  11183,
+                                       "sha":  "08e8d406049e9f22e752d4d2bd5536e5f9d39452"
+                                   },
+                                   {
+                                       "path":  "DeltaT_ad.m",
+                                       "size":  893,
+                                       "sha":  "85370e81c9b5925894d94aa806f7efce507dfa56"
+                                   },
+                                   {
+                                       "path":  "HDA Product Column.xlsx",
+                                       "size":  12908,
+                                       "sha":  "e99fc67dd8bdbac6e969e5f64bbb5761c0101a3d"
+                                   },
+                                   {
+                                       "path":  "HDA Report.pdf",
+                                       "size":  1691907,
+                                       "sha":  "b805dc38561f94040c359d0c3e19103ede68d609"
+                                   },
+                                   {
+                                       "path":  "Heat exchangers.xlsx",
+                                       "size":  24501,
+                                       "sha":  "5bebbed9ef4c5115bfe495168cd7d6e1fca98e41"
+                                   },
+                                   {
+                                       "path":  "Kinetics.m",
+                                       "size":  1369,
+                                       "sha":  "308089cf84f8606644bbf128bf74493686547c88"
+                                   },
+                                   {
+                                       "path":  "Main.m",
+                                       "size":  32315,
+                                       "sha":  "5153fb7f6fdb25d7f126b61ca9185e6227ee6da2"
+                                   },
+                                   {
+                                       "path":  "MaterialBalances.m",
+                                       "size":  1850,
+                                       "sha":  "1518f9f90817175a94008b41a8e0ae4d1144ca37"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  2526,
+                                       "sha":  "6b2f77fcd0f5158b99966f65f741d81c246bd1f7"
+                                   },
+                                   {
+                                       "path":  "delT_adiabatic.m",
+                                       "size":  3608,
+                                       "sha":  "6de47c975c469303d68ca374af6058bd301fc78d"
+                                   }
+                               ]
+             },
+    "error":  null
+}

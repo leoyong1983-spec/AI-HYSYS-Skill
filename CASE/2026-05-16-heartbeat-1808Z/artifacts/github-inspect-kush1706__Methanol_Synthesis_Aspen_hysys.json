@@ -1,0 +1,28 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "kush1706/Methanol_Synthesis_Aspen_hysys",
+                 "url":  "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+                 "description":  null,
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2023-07-21T16:24:42Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  1,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "GROUP_17.hsc.hsc",
+                                        "size":  433637,
+                                        "sha":  "3b149a11de753f1e6d2da46e55b2531950bc2abe"
+                                    }
+                                ],
+                 "companion":  [
+
+                               ]
+             },
+    "error":  null
+}

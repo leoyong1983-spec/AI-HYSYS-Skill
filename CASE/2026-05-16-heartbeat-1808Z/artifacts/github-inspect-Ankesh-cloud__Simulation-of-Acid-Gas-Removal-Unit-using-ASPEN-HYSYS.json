@@ -1,0 +1,33 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+                 "url":  "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+                 "description":  null,
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-07-23T14:37:10Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  2,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Poster Presentation (1) (1) (1) (1).pdf",
+                                       "size":  1553243,
+                                       "sha":  "0807df9202dbc05333375eb04a1c17117836edad"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  55,
+                                       "sha":  "c57e99edff8a202f790f12fb1b512e873da72bab"
+                                   }
+                               ]
+             },
+    "error":  null
+}

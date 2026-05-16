@@ -1,0 +1,58 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                 "url":  "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                 "description":  "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2023-03-07T18:04:35Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  11,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Dynamic/Matlab/Connections.m",
+                                       "size":  4708,
+                                       "sha":  "16ee5daa59d1aaeef4ae95aac7d0e12abba59ec2"
+                                   },
+                                   {
+                                       "path":  "Dynamic/Matlab/HysysValue.m",
+                                       "size":  1450,
+                                       "sha":  "cfe7ab5e1b3dfc558482ae2e94f6ab34fb731aed"
+                                   },
+                                   {
+                                       "path":  "Dynamic/Python/Connections.py",
+                                       "size":  6906,
+                                       "sha":  "1df685941ec201291ed0c9e7f59755b1eb23ebe9"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  352,
+                                       "sha":  "31c53c709085b38ca737e41231a2b06bb2fae270"
+                                   },
+                                   {
+                                       "path":  "Steady-State/Matlab/Connections.m",
+                                       "size":  5489,
+                                       "sha":  "deb19072de88cbb8dacedfe8dc87655192bc2d1d"
+                                   },
+                                   {
+                                       "path":  "Steady-State/Matlab/HysysValue.m",
+                                       "size":  1450,
+                                       "sha":  "cfe7ab5e1b3dfc558482ae2e94f6ab34fb731aed"
+                                   },
+                                   {
+                                       "path":  "Steady-State/Python/Connections.py",
+                                       "size":  7178,
+                                       "sha":  "e758c43e5e5cf9c5f57e41c2da1dcf9fb3cfb5b7"
+                                   }
+                               ]
+             },
+    "error":  null
+}

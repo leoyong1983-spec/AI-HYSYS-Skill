@@ -1,0 +1,38 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "GerasimovRM/AspenHysysReader",
+                 "url":  "https://github.com/GerasimovRM/AspenHysysReader",
+                 "description":  null,
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "master",
+                 "pushed_at":  "2025-10-10T11:18:37Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  6,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "main.py",
+                                       "size":  1472,
+                                       "sha":  "468eac885c6d7cad588f71ecc5bff9194e781615"
+                                   },
+                                   {
+                                       "path":  "readme.md",
+                                       "size":  45,
+                                       "sha":  "d2b80fb226bed7b9b06cf9dfdbbcd1dae2e38b2d"
+                                   },
+                                   {
+                                       "path":  "summary.xlsx",
+                                       "size":  37864,
+                                       "sha":  "bca5fd1f4d9fd61749d76f1777d4fff225d626b0"
+                                   }
+                               ]
+             },
+    "error":  null
+}

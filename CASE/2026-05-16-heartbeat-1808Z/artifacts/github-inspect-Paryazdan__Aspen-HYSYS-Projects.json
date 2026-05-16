@@ -1,0 +1,32 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Paryazdan/Aspen-HYSYS-Projects",
+                 "url":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+                 "description":  null,
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "master",
+                 "pushed_at":  "2020-09-21T09:04:07Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  2,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "YazdanihaPHw3aSim.hsc",
+                                        "size":  181824,
+                                        "sha":  "d0bcdf472317bc9c6615af077e50df327ac8bb1b"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "YazdanihaPHw3aFlowsheet.pdf",
+                                       "size":  153020,
+                                       "sha":  "f3700301273799553e2c440099a0fa9e198af6c8"
+                                   }
+                               ]
+             },
+    "error":  null
+}
