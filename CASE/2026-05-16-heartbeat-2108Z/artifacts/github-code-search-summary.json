@@ -1,0 +1,44 @@
+﻿[
+    {
+        "file":  "github-code-hysys-extension-hsc.json",
+        "args":  "HYSYS --extension hsc --json path,repository,sha,url --limit 50",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-code-aspen-hysys-extension-hsc.json",
+        "args":  "Aspen HYSYS --extension hsc --json path,repository,sha,url --limit 50",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-code-hysys-extension-hscz.json",
+        "args":  "HYSYS --extension hscz --json path,repository,sha,url --limit 50",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-code-hysys-xml-cases-extension-xml.json",
+        "args":  "HYSYS XML Cases --extension xml --json path,repository,sha,url --limit 50",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-code-hysys-extension-compound.json",
+        "args":  "HYSYS --extension compound --json path,repository,sha,url --limit 50",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-code-aspen-hysys-readme.json",
+        "args":  "Aspen HYSYS --filename README.md --json path,repository,sha,url --limit 50",
+        "exit_code":  0,
+        "item_count":  49,
+        "error":  ""
+    }
+]

@@ -1,0 +1,403 @@
+﻿[
+    {
+        "repo":  "bpalotai/Flowsheet-toolbox",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "",
+        "hysys_like":  [
+                           "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+                       ],
+        "companion_count":  62,
+        "companion_sample":  [
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_114928/batch_results.xlsx",
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_115612/batch_results.xlsx",
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_120614/batch_results.xlsx",
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_120855/batch_results.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250622-212405.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250622-214517.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250623-211632.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250623-220729.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/calibration_results_20250622-122429.xlsx",
+                                 "Cases/HX-model-V1/SamplingResults/sampling_20250622_120844.xlsx",
+                                 "Cases/HX-model-V1/SurrogateModels/ANN-HX-V1_20250622_121212/training_data.csv",
+                                 "_example_batch_file/Heat_exchanger_process_data_result-short.xlsx",
+                                 "api/__init__.py",
+                                 "api/calibration_old.py",
+                                 "api/calibrationapi_old.py",
+                                 "api/dashboard.py",
+                                 "api/database.py",
+                                 "api/routes/__init__.py",
+                                 "api/routes/analysis.py",
+                                 "api/routes/calibration.py"
+                             ]
+    },
+    {
+        "repo":  "OptiMaL-PSE-Lab/Sketch2Simulation",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "Sketch2Simulation: Automating Flowsheet Generation via Multi Agent Large Language Models",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  24,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "README.md",
+                                 "sketch2sim/RAG/__init__.py",
+                                 "sketch2sim/RAG/components_list.xlsx",
+                                 "sketch2sim/RAG/rag_components.py",
+                                 "sketch2sim/__init__.py",
+                                 "sketch2sim/agents/__init__.py",
+                                 "sketch2sim/agents/basis_agent.py",
+                                 "sketch2sim/agents/configuration_agent.py",
+                                 "sketch2sim/agents/description_validator_agent.py",
+                                 "sketch2sim/agents/descriptor_agent.py",
+                                 "sketch2sim/agents/executor_agent.py",
+                                 "sketch2sim/agents/extractor_agent.py",
+                                 "sketch2sim/agents/fixer_agent.py",
+                                 "sketch2sim/agents/instantiation_agent.py",
+                                 "sketch2sim/coupling_normalizer.py",
+                                 "sketch2sim/instructions/hysys_template_base.py",
+                                 "sketch2sim/merge_simulation_scripts.py",
+                                 "sketch2sim/mixing_points_normalizer.py",
+                                 "sketch2sim/utils/__init__.py"
+                             ]
+    },
+    {
+        "repo":  "Gallo05952/Articolo_energies",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "",
+        "hysys_like":  [
+                           "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+                           "Articolo_energies.hsc"
+                       ],
+        "companion_count":  13,
+        "companion_sample":  [
+                                 "Analisi.xlsx",
+                                 "Funzioni/AperturaAspen.py",
+                                 "Funzioni/RunColonna.py",
+                                 "Funzioni/__init__.py",
+                                 "Funzioni/cambiopressione.py",
+                                 "Funzioni/cambiostadi.py",
+                                 "Scrittura/Energies_V1.docx",
+                                 "f.csv",
+                                 "main_conStadi.py",
+                                 "main_senzaStadi.py",
+                                 "readme.md",
+                                 "sensitivity_T_RR.csv",
+                                 "sensitivity_T_RR_NStadi.csv"
+                             ]
+    },
+    {
+        "repo":  "DanielVazVaz/PySIS",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "Abstract layer over Aspen HYSYS using Python",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  5,
+        "companion_sample":  [
+                                 "README.md",
+                                 "docs/conf.py",
+                                 "pysis/__init__.py",
+                                 "pysis/flowsheet.py",
+                                 "setup.py"
+                             ]
+    },
+    {
+        "repo":  "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  7,
+        "companion_sample":  [
+                                 "Dynamic/Matlab/Connections.m",
+                                 "Dynamic/Matlab/HysysValue.m",
+                                 "Dynamic/Python/Connections.py",
+                                 "README.md",
+                                 "Steady-State/Matlab/Connections.m",
+                                 "Steady-State/Matlab/HysysValue.m",
+                                 "Steady-State/Python/Connections.py"
+                             ]
+    },
+    {
+        "repo":  "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "This is my second project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor\u0027s chemical engineering program at sharif university of technology.",
+        "hysys_like":  [
+                           "SIM/compressor and cooling water.hsc",
+                           "SIM/no compressor and cooling cycle.hsc"
+                       ],
+        "companion_count":  6,
+        "companion_sample":  [
+                                 "DOCS/Plant_Design_1402_1_HW2_R01.pdf",
+                                 "DOCS/REPORT.pdf",
+                                 "MISC/case study 1.xlsx",
+                                 "MISC/q_cond vs vap frac.pdf",
+                                 "MISC/temp vs vap frac.pdf",
+                                 "README.md"
+                             ]
+    },
+    {
+        "repo":  "M-Hamdy-M/lng-niching-metaheuristics",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  38,
+        "companion_sample":  [
+                                 "README.md",
+                                 "hysys_optimization/problems/dsmr/smr_opt_problem.py",
+                                 "optimization/__init__.py",
+                                 "optimization/algorithms/common/selection.py",
+                                 "optimization/algorithms/core/__init__.py",
+                                 "optimization/algorithms/core/callback.py",
+                                 "optimization/algorithms/core/initializers.py",
+                                 "optimization/algorithms/core/optimization_algorithm.py",
+                                 "optimization/algorithms/core/optimization_step.py",
+                                 "optimization/algorithms/core/population.py",
+                                 "optimization/algorithms/de/variants/__init__.py",
+                                 "optimization/algorithms/de/variants/clde.py",
+                                 "optimization/algorithms/de/variants/nde.py",
+                                 "optimization/algorithms/pso/operators/component_evaluators.py",
+                                 "optimization/algorithms/pso/operators/initializers.py",
+                                 "optimization/algorithms/pso/operators/local_search_operators.py",
+                                 "optimization/algorithms/pso/operators/velocity_update_operators.py",
+                                 "optimization/algorithms/pso/types/__init__.py",
+                                 "optimization/algorithms/pso/types/swarm.py",
+                                 "optimization/algorithms/pso/variants/__init__.py"
+                             ]
+    },
+    {
+        "repo":  "SinaGhanbarii/HDA-Plant-Simulation",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+        "hysys_like":  [
+                           "HDA 2024 Aspen/1-HDA-Setup.hsc",
+                           "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+                           "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+                           "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc"
+                       ],
+        "companion_count":  10,
+        "companion_sample":  [
+                                 "Book1.xlsx",
+                                 "DeltaT_ad.m",
+                                 "HDA Product Column.xlsx",
+                                 "HDA Report.pdf",
+                                 "Heat exchangers.xlsx",
+                                 "Kinetics.m",
+                                 "Main.m",
+                                 "MaterialBalances.m",
+                                 "README.md",
+                                 "delT_adiabatic.m"
+                             ]
+    },
+    {
+        "repo":  "Armaan-2309/CHE213-Simulation-Labs",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "This repository contains MATLAB simulation codes for the CHE213 course (Mass Transfer), typically offered in the 3rd semester of the B.Tech Chemical Engineering curriculum.",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  8,
+        "companion_sample":  [
+                                 "Armaan_230195_CHE213_LAB_1.m",
+                                 "Armaan_230195_CHE213_LAB_2(i).m",
+                                 "Armaan_230195_CHE213_LAB_2(ii).m",
+                                 "Armaan_230195_CHE213_LAB_2(iii).m",
+                                 "Armaan_230195_CHE213_LAB_3.m",
+                                 "Armaan_230195_CHE213_LAB_4.m",
+                                 "CHE213 Innovation Lab Group 28.pptx",
+                                 "README.md"
+                             ]
+    },
+    {
+        "repo":  "kammmran/ChemGraph_Old_Version_KNIME_Based",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  15,
+        "companion_sample":  [
+                                 "README.md",
+                                 "main/__init__.py",
+                                 "main/asgi.py",
+                                 "main/settings.py",
+                                 "main/urls.py",
+                                 "main/wsgi.py",
+                                 "manage.py",
+                                 "pages/__init__.py",
+                                 "pages/admin.py",
+                                 "pages/apps.py",
+                                 "pages/models.py",
+                                 "pages/static/data/components.csv",
+                                 "pages/tests.py",
+                                 "pages/urls.py",
+                                 "pages/views.py"
+                             ]
+    },
+    {
+        "repo":  "RHorsley80/tank_heat_balance",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "A rigorous heat balance for cylindrical storage tanks, insulated and uninsulated, based on Kumana and Kothari\u0027s 1982 paper.",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  6,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "README.md",
+                                 "app.py",
+                                 "insulation_properties.py",
+                                 "tank_heat_balance.py",
+                                 "test_kk_example.py"
+                             ]
+    },
+    {
+        "repo":  "d9148408/ChemE-3502",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  69,
+        "companion_sample":  [
+                                 "README.md",
+                                 "Unit00/README.md",
+                                 "Unit01/README.md",
+                                 "Unit01/Unit01_Overview.pdf",
+                                 "Unit02/README.md",
+                                 "Unit02/Unit02_Python_Basics.pdf",
+                                 "Unit02/ppt/Unit02_Python_Basics_Section_S0.pdf",
+                                 "Unit02/ppt/Unit02_Python_Basics_Section_S1_S2_S3.pdf",
+                                 "Unit02/ppt/Unit02_Python_Basics_Section_S4.pdf",
+                                 "Unit02/ppt/Unit02_Python_Basics_Section_S5_S6.pdf",
+                                 "Unit02/ppt/Unit02_Python_Basics_Section_S7.pdf",
+                                 "Unit02/ppt/Unit02_Python_Basics_Section_S8.pdf",
+                                 "Unit02/ppt/Unit02_Python_Basics_Section_S9_S10.pdf",
+                                 "Unit03/README.md",
+                                 "Unit03/Unit03_Numpy.pdf",
+                                 "Unit03/Unit03_Pandas.pdf",
+                                 "Unit03/ppt/Unit03_Numpy_S0.pdf",
+                                 "Unit03/ppt/Unit03_Numpy_S1.pdf",
+                                 "Unit03/ppt/Unit03_Numpy_S2.pdf",
+                                 "Unit03/ppt/Unit03_Numpy_S3.pdf"
+                             ]
+    },
+    {
+        "repo":  "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "This is my final project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor\u0027s chemical engineering program at sharif university of technology.",
+        "hysys_like":  [
+                           "SIM/SynGas-SMR-DMR(integration).hsc",
+                           "SIM/SynGas-SMR-DMR(main).hsc"
+                       ],
+        "companion_count":  4,
+        "companion_sample":  [
+                                 "DOCS/Report.pdf",
+                                 "DOCS/Seminar.pdf",
+                                 "MISC/Reaction Conversions Sensitivity.xlsx",
+                                 "README.md"
+                             ]
+    },
+    {
+        "repo":  "idaholab/FORCE",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "The Framework for Optimization of Resources, Controls, and Economics is a collection of software tools, models, and datasets acquired and developed under the Integrated Energy Systems (IES) program to enable analysis of technical and economic viability of myriad IES configurations. FORCE is the consolidating repository for IES tools.",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  380,
+        "companion_sample":  [
+                                 "LICENSE",
+                                 "README.md",
+                                 "__init__.py",
+                                 "package/README.md",
+                                 "package/heron.py",
+                                 "package/raven_framework.py",
+                                 "package/setup.py",
+                                 "package/teal.py",
+                                 "package/ui/__init__.py",
+                                 "package/ui/controllers/__init__.py",
+                                 "package/ui/controllers/file_dialog.py",
+                                 "package/ui/controllers/file_location_persistence.py",
+                                 "package/ui/controllers/file_selection.py",
+                                 "package/ui/controllers/main.py",
+                                 "package/ui/controllers/model_status.py",
+                                 "package/ui/controllers/text_output.py",
+                                 "package/ui/main.py",
+                                 "package/ui/models/__init__.py",
+                                 "package/ui/models/main.py",
+                                 "package/ui/utils.py"
+                             ]
+    },
+    {
+        "repo":  "equinor/neqsim",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "license":  null,
+        "description":  "NeqSim is a library for calculation of fluid behavior, phase equilibrium and process simulation",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  287,
+        "companion_sample":  [
+                                 ".github/agents/README.md",
+                                 ".github/skills/README.md",
+                                 "LICENSE",
+                                 "README.md",
+                                 "devtools/README.md",
+                                 "devtools/audit_report.py",
+                                 "devtools/consistency_checker.py",
+                                 "devtools/explore_unisim_com.py",
+                                 "devtools/generate_agent_skill_map.py",
+                                 "devtools/install_skill.py",
+                                 "devtools/neqsim_cli.py",
+                                 "devtools/neqsim_contribute.py",
+                                 "devtools/neqsim_dev_setup.py",
+                                 "devtools/neqsim_doctor.py",
+                                 "devtools/neqsim_runner/README.md",
+                                 "devtools/neqsim_runner/__init__.py",
+                                 "devtools/neqsim_runner/__main__.py",
+                                 "devtools/neqsim_runner/agent_bridge.py",
+                                 "devtools/neqsim_runner/bootstrap/__init__.py",
+                                 "devtools/neqsim_runner/bootstrap/notebook_executor.py"
+                             ]
+    }
+]
