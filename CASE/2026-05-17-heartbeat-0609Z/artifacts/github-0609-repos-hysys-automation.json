@@ -1,0 +1,50 @@
+[
+  {
+    "defaultBranch": "master",
+    "description": "HYSYS Automation",
+    "fullName": "SuradechKKPB/AutomatedHYSYS",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "pushedAt": "2019-12-12T07:25:09Z",
+    "stargazersCount": 17,
+    "updatedAt": "2025-12-25T16:04:39Z",
+    "url": "https://github.com/SuradechKKPB/AutomatedHYSYS"
+  },
+  {
+    "defaultBranch": "main",
+    "description": "This repository includes some useful codes for ASPEN-HYSYS automation",
+    "fullName": "sajjad-ah/ASPEN-HYSYS",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "pushedAt": "2026-05-13T06:03:31Z",
+    "stargazersCount": 0,
+    "updatedAt": "2026-05-13T06:03:35Z",
+    "url": "https://github.com/sajjad-ah/ASPEN-HYSYS"
+  },
+  {
+    "defaultBranch": "main",
+    "description": "CO2 Capture Simulation Python scripts for thesis - HYSYS automation, cost optimization, and gas velocity analysis",
+    "fullName": "atlanticbhandari07/CCS_code",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "pushedAt": "2026-05-15T21:04:12Z",
+    "stargazersCount": 0,
+    "updatedAt": "2026-05-15T21:04:13Z",
+    "url": "https://github.com/atlanticbhandari07/CCS_code"
+  }
+]

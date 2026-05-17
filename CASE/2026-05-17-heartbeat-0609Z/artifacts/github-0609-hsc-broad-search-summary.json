@@ -1,0 +1,34 @@
+﻿[
+    {
+        "name":  "code-dot-hsc",
+        "exit":  0,
+        "count":  null,
+        "stderr":  {
+
+                   }
+    },
+    {
+        "name":  "code-star-hsc",
+        "exit":  0,
+        "count":  null,
+        "stderr":  {
+
+                   }
+    },
+    {
+        "name":  "code-casefile-hsc",
+        "exit":  0,
+        "count":  null,
+        "stderr":  {
+
+                   }
+    },
+    {
+        "name":  "code-aspen-hsc-path",
+        "exit":  0,
+        "count":  null,
+        "stderr":  {
+
+                   }
+    }
+]

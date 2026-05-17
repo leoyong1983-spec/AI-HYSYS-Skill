@@ -1,0 +1,590 @@
+[
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "MDEwOlJlcG9zaXRvcnkzMzk5ODc2OTI=",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "edgarsmdn/Aspen_HYSYS_Python",
+      "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python"
+    },
+    "sha": "3b259a808fc791a425f073875114611d13b3d738",
+    "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python/blob/d191fa261e65228aff9c5dcc1938f6ed550c8a94/README.md"
+  },
+  {
+    "path": "readme.md",
+    "repository": {
+      "id": "R_kgDOPD8n-g",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "bpalotai/Flowsheet-toolbox",
+      "url": "https://github.com/bpalotai/Flowsheet-toolbox"
+    },
+    "sha": "a83e646b4bb3799aff27b15ce63f65fd50adb286",
+    "url": "https://github.com/bpalotai/Flowsheet-toolbox/blob/39b1cc16878825ed6dfbd524eeebde0d87943c43/readme.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDORus4Kg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "OptiMaL-PSE-Lab/Sketch2Simulation",
+      "url": "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation"
+    },
+    "sha": "9c6cafc08748583ef74f0d0d2bb7411ea28389c3",
+    "url": "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation/blob/764b0dc97a21710687b2349790ff079f332f636a/README.md"
+  },
+  {
+    "path": "readme.md",
+    "repository": {
+      "id": "R_kgDOLoovqg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Gallo05952/Articolo_energies",
+      "url": "https://github.com/Gallo05952/Articolo_energies"
+    },
+    "sha": "487ca1e69853b2fb9b70f7712de6048030ddd8a4",
+    "url": "https://github.com/Gallo05952/Articolo_energies/blob/ee28e3092de71d8b57a82132b4ccdd69936ed29b/readme.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOHuxAdg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "zwang1995/Aspen-Plus-Automation",
+      "url": "https://github.com/zwang1995/Aspen-Plus-Automation"
+    },
+    "sha": "400c67c49b2a974a9e67fa017b6fa06b061c4b0c",
+    "url": "https://github.com/zwang1995/Aspen-Plus-Automation/blob/daf720b0b563f77a2a992e34675b2ee3e9e8f5a0/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "MDEwOlJlcG9zaXRvcnk2ODE0ODEyNQ==",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "iurisegtovich/AwesomeThermodynamics",
+      "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+    },
+    "sha": "12676d0bca561e52122ae01703ba37eb1c84555b",
+    "url": "https://github.com/iurisegtovich/AwesomeThermodynamics/blob/07e2593164365a87cf74eeddd2ce9d04d3ea2d46/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOHsfnrg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "DanielVazVaz/PySIS",
+      "url": "https://github.com/DanielVazVaz/PySIS"
+    },
+    "sha": "c6ebc286e845db08a2fa92db93b3604b2bb6158a",
+    "url": "https://github.com/DanielVazVaz/PySIS/blob/f4926551f023a07aa57ceac126e10e17122c22e7/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "MDEwOlJlcG9zaXRvcnkzODEyOTkyOTc=",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+      "url": "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity"
+    },
+    "sha": "31c53c709085b38ca737e41231a2b06bb2fae270",
+    "url": "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/blob/92e668edae176f1ffeba1a341fdc0f615ca4206f/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOGdoOUw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "andr1976/dwsim-paper",
+      "url": "https://github.com/andr1976/dwsim-paper"
+    },
+    "sha": "7cfac3a553f3a1005acfb73552168e1dea2b1017",
+    "url": "https://github.com/andr1976/dwsim-paper/blob/b265312f9916edf8d88374e35efa50c458d3b53c/README.md"
+  },
+  {
+    "path": "library/specializations/domains/science/chemical-engineering/README.md",
+    "repository": {
+      "id": "R_kgDOQ0IHPA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "a5c-ai/babysitter",
+      "url": "https://github.com/a5c-ai/babysitter"
+    },
+    "sha": "8e9fc1ef1f9779182270659c5d0e46cba0db6cdc",
+    "url": "https://github.com/a5c-ai/babysitter/blob/d97a2e46a84cbc3ca4589050a9bddbcbf792a785/library/specializations/domains/science/chemical-engineering/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOJfPpKA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Avest-AI/MemCal",
+      "url": "https://github.com/Avest-AI/MemCal"
+    },
+    "sha": "d4644be52889015e7e4a19a8c50a736150103973",
+    "url": "https://github.com/Avest-AI/MemCal/blob/a7322f60df369daeacd26bdb74df6439b29f1eee/README.md"
+  },
+  {
+    "path": "27-Mar-2026/AI/README.md",
+    "repository": {
+      "id": "R_kgDONfkU7A",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "CSQianDong/Awesome-arXiv-Daily-Reporter",
+      "url": "https://github.com/CSQianDong/Awesome-arXiv-Daily-Reporter"
+    },
+    "sha": "493403f219750b1911ee22cc83686e3c7e2e0499",
+    "url": "https://github.com/CSQianDong/Awesome-arXiv-Daily-Reporter/blob/5291fa21eedb1c2843d5228d79bc8006b4076626/27-Mar-2026/AI/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDONVhK9w",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Kareiman/Kareiman",
+      "url": "https://github.com/Kareiman/Kareiman"
+    },
+    "sha": "b7e2a74878a62b0892b29ed60808eab5b6f1593c",
+    "url": "https://github.com/Kareiman/Kareiman/blob/9aa4ef330f6ef97cba1be482c8b67668740f1dcb/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOQq5ABg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+      "url": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation"
+    },
+    "sha": "faf644dd7ceec0d52f4aa705866dc7a758bf9d11",
+    "url": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/blob/37adf169afb6c0267d75b192fe92f6730b3b4f93/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOM4oQ9Q",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      "url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit"
+    },
+    "sha": "333fa812a23c5a7b6497b8f3b52586e523f09279",
+    "url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit/blob/e14fd7761867fb02dcb82f6a46682a75d563c9d6/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOJnKFOQ",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "jkantorow/jkantorow",
+      "url": "https://github.com/jkantorow/jkantorow"
+    },
+    "sha": "03d11ac75df795201347d0e686f332e7c4cbe4c3",
+    "url": "https://github.com/jkantorow/jkantorow/blob/fa498f7ab596704b926b4e63673571f0783cd67f/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOLztqZw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "abdelaleeem/Real-Enthalpy-",
+      "url": "https://github.com/abdelaleeem/Real-Enthalpy-"
+    },
+    "sha": "d9c574a567835666f77c1fe80beb2431e1db9763",
+    "url": "https://github.com/abdelaleeem/Real-Enthalpy-/blob/6f96b7d24d4e9a365016cf9c36b722340e23deaa/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDORbw75A",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "FlameEnjoyer/academic-portfolio",
+      "url": "https://github.com/FlameEnjoyer/academic-portfolio"
+    },
+    "sha": "7b4bc2aa9f45e3c62e72ee491685ca5dd9dbde95",
+    "url": "https://github.com/FlameEnjoyer/academic-portfolio/blob/4ecbed633ca4f8712ef5ec62e24570f4b662dd04/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDON2T3tw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "M-Hamdy-M/lng-niching-metaheuristics",
+      "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+    },
+    "sha": "7048687f19b726b4eb20e8ac63c90fc93d09e261",
+    "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics/blob/c1accff8ce4a9da68c6c1b1f5ccdd0a7db2da5b4/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOLbaWsg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "SinaGhanbarii/HDA-Plant-Simulation",
+      "url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation"
+    },
+    "sha": "6b2f77fcd0f5158b99966f65f741d81c246bd1f7",
+    "url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation/blob/758a5ee7f551a29ce692d581c6fe6b3010f02f25/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOO-NUzg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Armaan-2309/CHE213-Simulation-Labs",
+      "url": "https://github.com/Armaan-2309/CHE213-Simulation-Labs"
+    },
+    "sha": "5c2a3a3f92eaa307c2fa950decaf5566c72e30ac",
+    "url": "https://github.com/Armaan-2309/CHE213-Simulation-Labs/blob/81588edbcf5f154de0c845d542a7f42006c5072c/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOORTM4g",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "kammmran/ChemGraph_Old_Version_KNIME_Based",
+      "url": "https://github.com/kammmran/ChemGraph_Old_Version_KNIME_Based"
+    },
+    "sha": "449dca490eeb7f979b3251fd093c087b81c67c34",
+    "url": "https://github.com/kammmran/ChemGraph_Old_Version_KNIME_Based/blob/837397567c23263cf9a431b3190463ee1f03cf89/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDON9V-Jw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "nizuga/nzuluga",
+      "url": "https://github.com/nizuga/nzuluga"
+    },
+    "sha": "72d797be56c67a7158aad1162f0ddaf1381aaef7",
+    "url": "https://github.com/nizuga/nzuluga/blob/59497c9883788b7217f3541046c12eb0117b6758/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDONhE_ow",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "pvalle6/pvalle6",
+      "url": "https://github.com/pvalle6/pvalle6"
+    },
+    "sha": "88ea57f124cddbbf3a4ada070bbf2c5065a0a2a3",
+    "url": "https://github.com/pvalle6/pvalle6/blob/11604a2b67382c8037e52d6e561888b0c5a996e7/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOSTLAcg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "shahria-sunny/Natural-Gas-Sweetening",
+      "url": "https://github.com/shahria-sunny/Natural-Gas-Sweetening"
+    },
+    "sha": "a10efdb1fa0dc3094c6aa9feef5a27a5810d07e7",
+    "url": "https://github.com/shahria-sunny/Natural-Gas-Sweetening/blob/52e86f38c03da2c514368bd570892b52f5ea6d53/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOMwkVvA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "BRYANOOKO738/BRYANOOKO738",
+      "url": "https://github.com/BRYANOOKO738/BRYANOOKO738"
+    },
+    "sha": "83aca269cb951e6d7703063e8e2e8797ca2344e5",
+    "url": "https://github.com/BRYANOOKO738/BRYANOOKO738/blob/ae63aac45820fd7f530a704b68ced87dfee60f82/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDONlzoIA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Dumbstep3/dumbstep3.github.io",
+      "url": "https://github.com/Dumbstep3/dumbstep3.github.io"
+    },
+    "sha": "c0076aac43057f2dc37b5f55738e0820cf9a20a8",
+    "url": "https://github.com/Dumbstep3/dumbstep3.github.io/blob/35e6e8f8b7d6085b22bff5ecb7e5686e2a73a430/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOQickoA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Reza-Seyyednezhad/Reza-Seyyednezhad",
+      "url": "https://github.com/Reza-Seyyednezhad/Reza-Seyyednezhad"
+    },
+    "sha": "3de8feccaefb01088ec270593b8223278992da59",
+    "url": "https://github.com/Reza-Seyyednezhad/Reza-Seyyednezhad/blob/be2ec9b0c359966354c98c587f0a5869af732e7e/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOSMTnzg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "wakeelahmedsyed/wakeelahmedsyed.github.io",
+      "url": "https://github.com/wakeelahmedsyed/wakeelahmedsyed.github.io"
+    },
+    "sha": "ee9e482da4302ef1283d1323e7572554e3c6c74c",
+    "url": "https://github.com/wakeelahmedsyed/wakeelahmedsyed.github.io/blob/e040620c4e346fb305b9955e38763f3b1203f036/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOKac9GA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "khchoi2023/khchoi2023",
+      "url": "https://github.com/khchoi2023/khchoi2023"
+    },
+    "sha": "fb7b324b83e25e92c45b8fb4860372f807c097b0",
+    "url": "https://github.com/khchoi2023/khchoi2023/blob/0f3b38d117693856c28ba343cd2c35dbcdd8bebe/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDONm7oug",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Dumbstep3/Dumbstep3",
+      "url": "https://github.com/Dumbstep3/Dumbstep3"
+    },
+    "sha": "02249a99418d755e0ed602a069cf1e32f450f631",
+    "url": "https://github.com/Dumbstep3/Dumbstep3/blob/1060a7913a264cc093b97953d8d73d1dd356a6f7/README.md"
+  },
+  {
+    "path": "prototypes/enterprise/aspen-hysys/README.md",
+    "repository": {
+      "id": "R_kgDOQFS5Mw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "jhao/pm-universe",
+      "url": "https://github.com/jhao/pm-universe"
+    },
+    "sha": "f55931890b0759a54b8a1500cc3eca43e43e44a2",
+    "url": "https://github.com/jhao/pm-universe/blob/a74de2855629453b6d326c1e419d846499a1591c/prototypes/enterprise/aspen-hysys/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOR7toaQ",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "RHorsley80/tank_heat_balance",
+      "url": "https://github.com/RHorsley80/tank_heat_balance"
+    },
+    "sha": "43a2fd8bc7701d8bea7c99f5a3a26a76d629b435",
+    "url": "https://github.com/RHorsley80/tank_heat_balance/blob/942f462cb851362e91ee0fb632d8bbef53b09adc/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOK0U5Rw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "virajdesai0309/portfolio",
+      "url": "https://github.com/virajdesai0309/portfolio"
+    },
+    "sha": "0f847bf81b4298c2c9d92b6f10c810d3d62e8cb4",
+    "url": "https://github.com/virajdesai0309/portfolio/blob/509cdcdda32715a89e8e4c939b3fa8e1dc3d5ca6/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOKKbipQ",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "DennisWayo/denniswayo.github.io-old",
+      "url": "https://github.com/DennisWayo/denniswayo.github.io-old"
+    },
+    "sha": "9fbaed18d849d02f7fc0759783e5d1d1af7783ed",
+    "url": "https://github.com/DennisWayo/denniswayo.github.io-old/blob/78cdbb66e2f1c23c719d00771869241a94315904/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOOyD4cw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "kbd7575/data-science-repository",
+      "url": "https://github.com/kbd7575/data-science-repository"
+    },
+    "sha": "c9c8d69ab79d9889b3bd0eb21f70df6a0b3ae7dd",
+    "url": "https://github.com/kbd7575/data-science-repository/blob/6e3c0ae52115df8ea7e13ead0052d8a45bdbe318/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOJlH8lA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "JieyangXu/JieyangXu",
+      "url": "https://github.com/JieyangXu/JieyangXu"
+    },
+    "sha": "778298367bac4434bb383a868892383281891107",
+    "url": "https://github.com/JieyangXu/JieyangXu/blob/f7d1ba77de4576a29618feb449c6d9c73dd48ce3/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDORwyP5Q",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Eng-fwzan/mech-ai-platform",
+      "url": "https://github.com/Eng-fwzan/mech-ai-platform"
+    },
+    "sha": "b97054642950114892a4f302d4e153d21c341871",
+    "url": "https://github.com/Eng-fwzan/mech-ai-platform/blob/97e52f2b5ffba9e758b521a81fd9b61fbd5e4a41/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOOe7nRQ",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Atharv-14954/My-Portfolio",
+      "url": "https://github.com/Atharv-14954/My-Portfolio"
+    },
+    "sha": "290ea6852bfac0c1b16766555109b402b5475bed",
+    "url": "https://github.com/Atharv-14954/My-Portfolio/blob/19813cd440456680bc00e7c7f17ca3e6934f08b9/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDORBLG8w",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "WilliamGrossKC/FluidSolver",
+      "url": "https://github.com/WilliamGrossKC/FluidSolver"
+    },
+    "sha": "363886e353c7c78aaca770e01c036911e253a5c9",
+    "url": "https://github.com/WilliamGrossKC/FluidSolver/blob/8bb191b9e64679359a57f606aebbe5707d916ebd/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOL2SeJg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "wesleyZero/capstone_II",
+      "url": "https://github.com/wesleyZero/capstone_II"
+    },
+    "sha": "f040e509a34884200df52ba57b46e53591bd1d5e",
+    "url": "https://github.com/wesleyZero/capstone_II/blob/97ed72d3a31fdd42819843299a051c41fcdf3728/README.md"
+  },
+  {
+    "path": "Unit01/README.md",
+    "repository": {
+      "id": "R_kgDORTSaIw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "d9148408/ChemE-3502",
+      "url": "https://github.com/d9148408/ChemE-3502"
+    },
+    "sha": "5283c451d2eccbedaede7448375798cbaf7faa91",
+    "url": "https://github.com/d9148408/ChemE-3502/blob/51978360475e0cb759bbe7ff4d8425b95441ddee/Unit01/README.md"
+  },
+  {
+    "path": "README.md",
+    "repository": {
+      "id": "R_kgDOM4oYMw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "url": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors"
+    },
+    "sha": "88215ca23f3cc74b8dddc15400727a653012f34e",
+    "url": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors/blob/b06bc58d19e8b0f2d5959d5bd65c84ebd4d002d2/README.md"
+  },
+  {
+    "path": "my-finetuned-ranker/README.md",
+    "repository": {
+      "id": "R_kgDOQOYMkA",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "divyansh070/CV_optimiser",
+      "url": "https://github.com/divyansh070/CV_optimiser"
+    },
+    "sha": "e77415ae7d0624ce6e27fdd9760ddde56fdadda2",
+    "url": "https://github.com/divyansh070/CV_optimiser/blob/7cd0625665e9124b88813bc86b215c19e63842f1/my-finetuned-ranker/README.md"
+  },
+  {
+    "path": "tests/integration_tests/README.md",
+    "repository": {
+      "id": "R_kgDOG-XTJQ",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "idaholab/FORCE",
+      "url": "https://github.com/idaholab/FORCE"
+    },
+    "sha": "fe9ae7a1d27924ac2741ed01fc18d8017a8a2554",
+    "url": "https://github.com/idaholab/FORCE/blob/f978eec47230b4d9d6b708db24f674cd2c08b0a9/tests/integration_tests/README.md"
+  },
+  {
+    "path": ".github/agents/README.md",
+    "repository": {
+      "id": "MDEwOlJlcG9zaXRvcnkxNjA1MzA4NjU=",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "equinor/neqsim",
+      "url": "https://github.com/equinor/neqsim"
+    },
+    "sha": "b8ba60f53d73312560ae6ec3fdfb2ed8d8d0577f",
+    "url": "https://github.com/equinor/neqsim/blob/dc06d9cc2eba1feea7b7a0cb2b80e1f06fe21678/.github/agents/README.md"
+  },
+  {
+    "path": "mirrors/repos/a5c-ai@babysitter/library/specializations/domains/science/chemical-engineering/README.md",
+    "repository": {
+      "id": "R_kgDORueYnw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "gabrielmoreira/agent-skills-mirror",
+      "url": "https://github.com/gabrielmoreira/agent-skills-mirror"
+    },
+    "sha": "8e9fc1ef1f9779182270659c5d0e46cba0db6cdc",
+    "url": "https://github.com/gabrielmoreira/agent-skills-mirror/blob/63ecba4597365086b82a48ccd7d99d2aa051cd48/mirrors/repos/a5c-ai@babysitter/library/specializations/domains/science/chemical-engineering/README.md"
+  },
+  {
+    "path": "library/science/chemical-engineering/README.md",
+    "repository": {
+      "id": "R_kgDOSLHCUg",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "MikeTreml/MissionControl",
+      "url": "https://github.com/MikeTreml/MissionControl"
+    },
+    "sha": "8e9fc1ef1f9779182270659c5d0e46cba0db6cdc",
+    "url": "https://github.com/MikeTreml/MissionControl/blob/e6f57c8f976b7678de551c89faadbf1a680521d4/library/science/chemical-engineering/README.md"
+  },
+  {
+    "path": "upstream/babysitter/skills/babysit/process/specializations/domains/science/chemical-engineering/README.md",
+    "repository": {
+      "id": "R_kgDORioHUw",
+      "isFork": false,
+      "isPrivate": false,
+      "nameWithOwner": "MaTriXy/babysitter-codex",
+      "url": "https://github.com/MaTriXy/babysitter-codex"
+    },
+    "sha": "8e9fc1ef1f9779182270659c5d0e46cba0db6cdc",
+    "url": "https://github.com/MaTriXy/babysitter-codex/blob/ec093cbe1432be534bcb506806147d9c45ab1d1b/upstream/babysitter/skills/babysit/process/specializations/domains/science/chemical-engineering/README.md"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "zenodo_aspen_hysys_hsc",
+    "url": "https://zenodo.org/api/records?q=%22Aspen+HYSYS%22+.hsc&size=10",
+    "ok": true,
+    "count_hint": 703,
+    "output": "external-0609-zenodo_aspen_hysys_hsc.json"
+  },
+  {
+    "name": "zenodo_hysys_simulation",
+    "url": "https://zenodo.org/api/records?q=%22HYSYS+simulation%22&size=10",
+    "ok": true,
+    "count_hint": 10,
+    "output": "external-0609-zenodo_hysys_simulation.json"
+  },
+  {
+    "name": "gitlab_aspen_hysys",
+    "url": "https://gitlab.com/api/v4/projects?search=Aspen+HYSYS&simple=true&per_page=20",
+    "ok": true,
+    "count_hint": 0,
+    "output": "external-0609-gitlab_aspen_hysys.json"
+  },
+  {
+    "name": "gitlab_hysys_simulation",
+    "url": "https://gitlab.com/api/v4/projects?search=HYSYS+simulation&simple=true&per_page=20",
+    "ok": true,
+    "count_hint": 0,
+    "output": "external-0609-gitlab_hysys_simulation.json"
+  },
+  {
+    "name": "harvard_dataverse_aspen_hysys",
+    "url": "https://dataverse.harvard.edu/api/search?q=Aspen+HYSYS&per_page=10",
+    "ok": true,
+    "count_hint": 50,
+    "output": "external-0609-harvard_dataverse_aspen_hysys.json"
+  }
+]
