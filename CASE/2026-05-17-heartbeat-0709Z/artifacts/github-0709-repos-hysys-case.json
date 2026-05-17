@@ -1,0 +1,53 @@
+[
+  {
+    "defaultBranch": "master",
+    "description": "For optimizing HYSYS case files",
+    "fullName": "perrywzm/hysysopt",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "pushedAt": "2019-04-03T14:52:50Z",
+    "size": 100,
+    "stargazersCount": 4,
+    "updatedAt": "2025-11-16T12:18:33Z",
+    "url": "https://github.com/perrywzm/hysysopt"
+  },
+  {
+    "defaultBranch": "master",
+    "description": "Excel file with VBA simple script to get info from hysys cases",
+    "fullName": "oscarcontrerasnavas/hysys-to-excel-intro",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0"
+    },
+    "pushedAt": "2022-06-16T22:10:00Z",
+    "size": 73,
+    "stargazersCount": 2,
+    "updatedAt": "2025-11-02T12:03:15Z",
+    "url": "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro"
+  },
+  {
+    "defaultBranch": "main",
+    "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+    "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "pushedAt": "2026-04-25T19:57:00Z",
+    "size": 14,
+    "stargazersCount": 0,
+    "updatedAt": "2026-04-25T19:57:04Z",
+    "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+  }
+]

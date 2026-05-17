@@ -1,0 +1,44 @@
+[
+  {
+    "name": "zenodo_hysys_case_file",
+    "url": "https://zenodo.org/api/records?q=%22Aspen+HYSYS%22+%22case+file%22&size=10",
+    "ok": false,
+    "error": "TimeoutError('The read operation timed out')",
+    "output": "external-0709-zenodo_hysys_case_file.json"
+  },
+  {
+    "name": "zenodo_hysys_hscz",
+    "url": "https://zenodo.org/api/records?q=%22Aspen+HYSYS%22+.hscz&size=10",
+    "ok": true,
+    "count_hint": 77,
+    "output": "external-0709-zenodo_hysys_hscz.json"
+  },
+  {
+    "name": "zenodo_hysys_compound",
+    "url": "https://zenodo.org/api/records?q=%22Aspen+HYSYS%22+.compound&size=10",
+    "ok": true,
+    "count_hint": 28475,
+    "output": "external-0709-zenodo_hysys_compound.json"
+  },
+  {
+    "name": "figshare_hysys_case",
+    "url": "https://api.figshare.com/v2/articles/search?search_for=Aspen+HYSYS+case+file&page_size=10",
+    "ok": false,
+    "error": "<HTTPError 404: 'Not Found'>",
+    "output": "external-0709-figshare_hysys_case.json"
+  },
+  {
+    "name": "figshare_hysys_hsc",
+    "url": "https://api.figshare.com/v2/articles/search?search_for=Aspen+HYSYS+hsc&page_size=10",
+    "ok": false,
+    "error": "<HTTPError 404: 'Not Found'>",
+    "output": "external-0709-figshare_hysys_hsc.json"
+  },
+  {
+    "name": "dataverse_hysys_hsc",
+    "url": "https://dataverse.harvard.edu/api/search?q=Aspen+HYSYS+hsc&per_page=10",
+    "ok": true,
+    "count_hint": 1294,
+    "output": "external-0709-dataverse_hysys_hsc.json"
+  }
+]
