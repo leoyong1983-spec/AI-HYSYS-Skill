@@ -1,0 +1,25 @@
+{
+  "name": "LICENSE.txt",
+  "path": "LICENSE.txt",
+  "sha": "350d434d743cbd5f762c280a9580469f59f65d32",
+  "size": 2122,
+  "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/contents/LICENSE.txt?ref=master",
+  "html_url": "https://github.com/msmasnadi/OPGEEv4/blob/master/LICENSE.txt",
+  "git_url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/350d434d743cbd5f762c280a9580469f59f65d32",
+  "download_url": "https://raw.githubusercontent.com/msmasnadi/OPGEEv4/master/LICENSE.txt",
+  "type": "file",
+  "content": "Q29weXJpZ2h0IMKpIDIwMTItMjAyNSBUaGUgQm9hcmQgb2YgVHJ1c3RlZXMg\nb2YgdGhlIExlbGFuZCBTdGFuZm9yZCBKdW5pb3IgVW5pdmVyc2l0eS4gQWxs\nIHJpZ2h0cyByZXNlcnZlZC4KClRoZSBmaWxlcyBoZXJlaW4gZGVyaXZlZCBm\ncm9tIHB5Z2NhbSAoYXMgaW5kaWNhdGVkIGluIGhlYWRlciBjb21tZW50cykg\nYW5kIGFyZSBDb3B5cmlnaHQgMjAxNS0yMDIyClJpY2hhcmQgUGxldmluLCBs\naWNlbnNlZCB1bmRlciB0aGUgTUlUIG9wZW4gc291cmNlIGxpY2Vuc2U6IGh0\ndHBzOi8vb3BlbnNvdXJjZS5vcmcvbGljZW5zZXMvTUlULgoKVGhlIE9pbCBQ\ncm9kdWN0aW9uIEdyZWVuaG91c2UgR2FzIEVtaXNzaW9ucyBFc3RpbWF0b3Ig\nKE9QR0VFKSBQcm9ncmFtIChTb2Z0d2FyZSksIHNvdXJjZSBjb2RlLCBiaW5h\ncnkgZmlsZXMsIGFuZApvcGVyYXRpbmcgbWFudWFscyBhcmUgYmVpbmcgcHJv\ndmlkZWQgZnJlZSBvZiBjaGFyZ2UuIFNvZnR3YXJlIG1heSBiZSBkb3dubG9h\nZGVkLCBtb2RpZmllZCBhbmQgcmVkaXN0cmlidXRlZCBmcmVlbHkKdW5kZXIg\ndGhlIGZvbGxvd2luZyB0ZXJtcyBhbmQgY29uZGl0aW9uczoKClJlZGlzdHJp\nYnV0aW9ucyBvZiBhbnkgb2YgdGhlIGZvbGxvd2luZzogU29mdHdhcmUncyBz\nb3VyY2UgY29kZSwgZXhlY3V0YWJsZXMsIGFuZCBhbnkgb3RoZXIgbWF0ZXJp\nYWxzIHByb3ZpZGVkIG11c3QKCSogcmV0YWluIHRoZSBhYm92ZSBjb3B5cmln\naHQgbm90aWNlCgkqIHJlcXVpcmUgdGhhdCB0aGUgc291cmNlIGFuZCBleGVj\ndXRhYmxlIHdpdGggYW55IG1vZGlmaWNhdGlvbnMgYmUgbWFkZSBwdWJsaWNs\neSBhdmFpbGFibGUgdW5kZXIgdGhlc2Ugc2FtZSB0ZXJtcwogICAgICBhbmQg\nY29uZGl0aW9ucyBhbmQKCSogYmUgc2VudCB0bzogQWRhbSBCcmFuZHQsIERl\ncGFydG1lbnQgb2YgRW5lcmd5IFJlc291cmNlcyBFbmdpbmVlcmluZywgU3Rh\nbmZvcmQgVW5pdmVyc2l0eSwgYWJyYW5kdEBzdGFuZm9yZC5lZHUKCSogaW5j\nbHVkZSB0aGlzIGVudGlyZSBBZ3JlZW1lbnQgd2l0aCBhbnkgcmVkaXN0cmli\ndXRpb24KCk5laXRoZXIgdGhlIG5hbWUgb2YgU3RhbmZvcmQgVW5pdmVyc2l0\neSBub3IgdGhlIG5hbWVzIG9mIHRoZSBjb250cmlidXRvcnMgbWF5IGJlIHVz\nZWQgdG8gZW5kb3JzZSBvciBwcm9tb3RlIHByb2R1Y3RzCmRlcml2ZWQgZnJv\nbSB0aGlzIFNvZnR3YXJlIHdpdGhvdXQgc3BlY2lmaWMgcHJpb3Igd3JpdHRl\nbiBwZXJtaXNzaW9uLgoKU29mdHdhcmUgaXMgYmVpbmcgcHJvdmlkZWQg4oCc\nQVMgSVPigJ0gYW5kIFdpdGggQWxsIEZhdWx0cy4gVXNlcnMgYWNrbm93bGVk\nZ2UgdGhhdCBTdGFuZm9yZCBvciBjb250cmlidXRvcnMgd2lsbCBub3QgcHJv\ndmlkZQphbnkgbWFpbnRlbmFuY2Ugb3Igc3VwcG9ydCBmb3IgU29mdHdhcmUu\nCgpTdGFuZm9yZCBtYWtlcyBubyByZXByZXNlbnRhdGlvbnMgYW5kIGV4dGVu\nZHMgbm8gd2FycmFudGllcyBvZiBhbnkga2luZCwgZWl0aGVyIGV4cHJlc3Mg\nb3IgaW1wbGllZC4KClN0YW5mb3JkIGRpc2NsYWltcyBhbnkgZXhwcmVzcyBv\nciBpbXBsaWVkIHdhcnJhbnR5IG9mIG1lcmNoYW50YWJpbGl0eSwgb3IgZml0\nbmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UsIG9mCm5vbi1pbmZyaW5n\nZW1lbnQsIG9yIGFyaXNpbmcgb3V0IG9mIGFueSBjb3Vyc2Ugb2YgZGVhbGlu\nZy4KClN0YW5mb3JkIGlzIG5vdCBsaWFibGUgZm9yIGFueSBzcGVjaWFsLCBj\nb25zZXF1ZW50aWFsLCBsb3N0IHByb2ZpdHMsIGV4cGVjdGF0aW9uLCBwdW5p\ndGl2ZSBvciBvdGhlciBpbmRpcmVjdCBkYW1hZ2VzIGluCmNvbm5lY3Rpb24g\nd2l0aCBhbnkgY2xhaW0gYXJpc2luZyBvdXQgb2Ygb3IgcmVsYXRlZCB0byB0\naGUgdXNlIG9mIFNvZnR3YXJlIHdoZXRoZXIgZ3JvdW5kZWQgaW4gdG9ydCAo\naW5jbHVkaW5nIG5lZ2xpZ2VuY2UpLApzdHJpY3QgbGlhYmlsaXR5LCBjb250\ncmFjdCwgb3Igb3RoZXJ3aXNlOyBhbmQsCgpVc2VycyB3aWxsIGluZGVtbmlm\neSwgaG9sZCBoYXJtbGVzcyBhbmQgZGVmZW5kIFN0YW5mb3JkIGFnYWluc3Qg\nYW55IGNsYWltIG9mIGFueSBraW5kIGFyaXNpbmcgb3V0IG9mIG9yIHJlbGF0\nZWQgdG8gdGhlCmV4ZXJjaXNlIG9mIGFueSByaWdodHMgaW4gdGhpcyBBZ3Jl\nZW1lbnQuCg==\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/msmasnadi/OPGEEv4/contents/LICENSE.txt?ref=master",
+    "git": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/350d434d743cbd5f762c280a9580469f59f65d32",
+    "html": "https://github.com/msmasnadi/OPGEEv4/blob/master/LICENSE.txt"
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  }
+}

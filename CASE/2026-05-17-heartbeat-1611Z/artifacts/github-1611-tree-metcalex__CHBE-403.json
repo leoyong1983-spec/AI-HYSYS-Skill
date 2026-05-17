@@ -1,0 +1,166 @@
+{
+  "sha": "04f96dd4bd05f9b75d6fc0c249958074be5f5626",
+  "url": "https://api.github.com/repos/metcalex/CHBE-403/git/trees/04f96dd4bd05f9b75d6fc0c249958074be5f5626",
+  "tree": [
+    {
+      "path": ".DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64638a0ae099bd4ce4a729e3cb8e95e5e2e1b6e2",
+      "size": 6148,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/64638a0ae099bd4ce4a729e3cb8e95e5e2e1b6e2"
+    },
+    {
+      "path": "AspenPlusTutorial.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b44a4059e49ac5492c5fe3cac0f540fce5086d7",
+      "size": 988011,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/3b44a4059e49ac5492c5fe3cac0f540fce5086d7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aa6f80c79b901a624b32d0b335cd66440d57543",
+      "size": 427,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/7aa6f80c79b901a624b32d0b335cd66440d57543"
+    },
+    {
+      "path": "hysyslib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d7ec59da18d66f836984088323158252f0de038",
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/trees/4d7ec59da18d66f836984088323158252f0de038"
+    },
+    {
+      "path": "hysyslib/Contents.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7551b4fa896afcf87853f33eab832a1982c4947a",
+      "size": 814,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/7551b4fa896afcf87853f33eab832a1982c4947a"
+    },
+    {
+      "path": "hysyslib/example.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26efc1360e437093bea2f2570555dcf5eb8f0a9",
+      "size": 921,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/b26efc1360e437093bea2f2570555dcf5eb8f0a9"
+    },
+    {
+      "path": "hysyslib/hycell.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "057ea85290d0b128d9130ef6737e619cf35e5216",
+      "size": 1140,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/057ea85290d0b128d9130ef6737e619cf35e5216"
+    },
+    {
+      "path": "hysyslib/hyconnect.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aef719adf8745ff128cbe113413b3685bdcb07a0",
+      "size": 1688,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/aef719adf8745ff128cbe113413b3685bdcb07a0"
+    },
+    {
+      "path": "hysyslib/hyintegtime.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2499630f53d5a06c9bf5ab558254c66ff6f22d24",
+      "size": 343,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/2499630f53d5a06c9bf5ab558254c66ff6f22d24"
+    },
+    {
+      "path": "hysyslib/hyintegtoggle.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b208f831fa7af8b67619865703669a8614b34f63",
+      "size": 418,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/b208f831fa7af8b67619865703669a8614b34f63"
+    },
+    {
+      "path": "hysyslib/hyisintegrating.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac4c30936fcc4fac49288fb327e8f5254ed3cde7",
+      "size": 380,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/ac4c30936fcc4fac49288fb327e8f5254ed3cde7"
+    },
+    {
+      "path": "hysyslib/hyissolving.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbb7804c7e838e1fed52756731d3719df51b34b6",
+      "size": 888,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/cbb7804c7e838e1fed52756731d3719df51b34b6"
+    },
+    {
+      "path": "hysyslib/hyrelease.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23e6284a7f3c660b4ff908ab40f1bd15aff1f677",
+      "size": 223,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/23e6284a7f3c660b4ff908ab40f1bd15aff1f677"
+    },
+    {
+      "path": "hysyslib/hyset.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f35a3ee202ad521b9e56ca4bf6b34b94c7cebb",
+      "size": 1207,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/e4f35a3ee202ad521b9e56ca4bf6b34b94c7cebb"
+    },
+    {
+      "path": "hysyslib/hysolvertoggle.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c07018df700bfe252f3f693d80ca59e7e29594",
+      "size": 415,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/f1c07018df700bfe252f3f693d80ca59e7e29594"
+    },
+    {
+      "path": "hysyslib/hyspread.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1bf53350485cd3a7c983e30f99cbf625f86b05",
+      "size": 757,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/7e1bf53350485cd3a7c983e30f99cbf625f86b05"
+    },
+    {
+      "path": "hysyslib/hyunits.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07942f16fc98c2b28971aaccd3d043a76e4272ae",
+      "size": 1108,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/07942f16fc98c2b28971aaccd3d043a76e4272ae"
+    },
+    {
+      "path": "hysyslib/hyvalue.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48cf9703ff219efd911f1cefa206c9499b547169",
+      "size": 1097,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/48cf9703ff219efd911f1cefa206c9499b547169"
+    },
+    {
+      "path": "hysyslib/lgpl.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a551285de4998aa2788432b44f14b4184b775fb1",
+      "size": 25264,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/a551285de4998aa2788432b44f14b4184b775fb1"
+    },
+    {
+      "path": "hysyslib/license.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a01ec99cb5572e77a69bb526b23a7c244caa37",
+      "size": 1593,
+      "url": "https://api.github.com/repos/metcalex/CHBE-403/git/blobs/80a01ec99cb5572e77a69bb526b23a7c244caa37"
+    }
+  ],
+  "truncated": false
+}

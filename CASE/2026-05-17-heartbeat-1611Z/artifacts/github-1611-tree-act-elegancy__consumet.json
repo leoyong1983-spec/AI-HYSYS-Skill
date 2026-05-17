@@ -1,0 +1,318 @@
+{
+  "sha": "291eb6ad1cfbb1ca4f04ed3bc7a97c05783183b0",
+  "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/291eb6ad1cfbb1ca4f04ed3bc7a97c05783183b0",
+  "tree": [
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2acadaa3a2368dba6a06fdbaa754450227817c0a",
+      "size": 1085,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/2acadaa3a2368dba6a06fdbaa754450227817c0a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1fdafc7c8467aa2e222a1d6838237094f1d4dad",
+      "size": 1443,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/a1fdafc7c8467aa2e222a1d6838237094f1d4dad"
+    },
+    {
+      "path": "bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33470d63f2499e6cf1700dc3b705b6d23340b8db",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/33470d63f2499e6cf1700dc3b705b6d23340b8db"
+    },
+    {
+      "path": "bin/consumet.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "be6ef1fd78b42bc6e21667b18dcf46feaa1f587d",
+      "size": 14732,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/be6ef1fd78b42bc6e21667b18dcf46feaa1f587d"
+    },
+    {
+      "path": "bin/error_max.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "71a3ecef81e066463c31f71bbd4fbc16a4fd19c3",
+      "size": 5203,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/71a3ecef81e066463c31f71bbd4fbc16a4fd19c3"
+    },
+    {
+      "path": "doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97d3160c7bead1214722d31475e782ff1ebc0037",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/97d3160c7bead1214722d31475e782ff1ebc0037"
+    },
+    {
+      "path": "doc/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "edc08207ca9f3d8665bda7aafaaa2c8bbaebecb6",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/edc08207ca9f3d8665bda7aafaaa2c8bbaebecb6"
+    },
+    {
+      "path": "doc/examples/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45cdd88d99f865d45447e18935f09fa97034bbfd",
+      "size": 698,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/45cdd88d99f865d45447e18935f09fa97034bbfd"
+    },
+    {
+      "path": "doc/examples/arrays",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c75d604bd19010e680bbd9f0460d4100b44b410d",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/c75d604bd19010e680bbd9f0460d4100b44b410d"
+    },
+    {
+      "path": "doc/examples/arrays/config.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f475209772131a717c32520bcc0fbed065f2c9f",
+      "size": 154,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/7f475209772131a717c32520bcc0fbed065f2c9f"
+    },
+    {
+      "path": "doc/examples/arrays/true_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf60ffef1a70f4de48fa2f1d8619f6a14917c2e3",
+      "size": 316,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/cf60ffef1a70f4de48fa2f1d8619f6a14917c2e3"
+    },
+    {
+      "path": "doc/examples/chebyshevs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29ba816d05f89b1a24def954fa1dfe784b04d5f6",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/29ba816d05f89b1a24def954fa1dfe784b04d5f6"
+    },
+    {
+      "path": "doc/examples/chebyshevs/config.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd89ba8b5bb4bbc25d86dd46f7c7e932063d562b",
+      "size": 94,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/fd89ba8b5bb4bbc25d86dd46f7c7e932063d562b"
+    },
+    {
+      "path": "doc/examples/chebyshevs/true_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e06c2b90f51594622f147881c4d600e23d50fe0",
+      "size": 591,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/4e06c2b90f51594622f147881c4d600e23d50fe0"
+    },
+    {
+      "path": "doc/examples/ripples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3a702043a4707c32f39b0960dd9a38ed7da74d0",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/e3a702043a4707c32f39b0960dd9a38ed7da74d0"
+    },
+    {
+      "path": "doc/examples/ripples/config.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bfa4db5811e25314e001585ed035326407caaf9",
+      "size": 147,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/7bfa4db5811e25314e001585ed035326407caaf9"
+    },
+    {
+      "path": "doc/examples/ripples/true_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91570162667c7dadd7375d08425f890cf58881f2",
+      "size": 250,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/91570162667c7dadd7375d08425f890cf58881f2"
+    },
+    {
+      "path": "doc/examples/rosenbrock",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b62d34a42d865910f38bb2804145be6586890236",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/b62d34a42d865910f38bb2804145be6586890236"
+    },
+    {
+      "path": "doc/examples/rosenbrock/config.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c5d5fded6bc5507e1410f2714b9eb1adce889b",
+      "size": 145,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/90c5d5fded6bc5507e1410f2714b9eb1adce889b"
+    },
+    {
+      "path": "doc/examples/rosenbrock/plot_csv.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "08c010032d018c82100bb0e1b1b5b02e4edc764a",
+      "size": 1266,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/08c010032d018c82100bb0e1b1b5b02e4edc764a"
+    },
+    {
+      "path": "doc/examples/rosenbrock/plot_pkl.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ae26873de7c2a149fe6b8ff7fdd865222abf509c",
+      "size": 1375,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/ae26873de7c2a149fe6b8ff7fdd865222abf509c"
+    },
+    {
+      "path": "doc/examples/rosenbrock/regression.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a39209b81e3bbd8bd2824d0e09e8260ebdc644",
+      "size": 289,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/66a39209b81e3bbd8bd2824d0e09e8260ebdc644"
+    },
+    {
+      "path": "doc/examples/rosenbrock/samples.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adfc4d5a3a53e35186b5e534babec4565072305c",
+      "size": 2343,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/adfc4d5a3a53e35186b5e534babec4565072305c"
+    },
+    {
+      "path": "doc/examples/rosenbrock/surrogate.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49b5b29167cb6ace0a104996943caebebca77a52",
+      "size": 1503,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/49b5b29167cb6ace0a104996943caebebca77a52"
+    },
+    {
+      "path": "doc/examples/rosenbrock/true_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9dd4e94cc2b934b7e7810f854824443abf2868b",
+      "size": 255,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/f9dd4e94cc2b934b7e7810f854824443abf2868b"
+    },
+    {
+      "path": "doc/examples/rosenbrock_excel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1075589b91b6d614885d85f3791a7419d8f2daf",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/e1075589b91b6d614885d85f3791a7419d8f2daf"
+    },
+    {
+      "path": "doc/examples/rosenbrock_excel/Rosenbrock.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3564b8e6937223e790a05232d05e1107230aae5",
+      "size": 9997,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/d3564b8e6937223e790a05232d05e1107230aae5"
+    },
+    {
+      "path": "doc/examples/rosenbrock_excel/config.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c5d5fded6bc5507e1410f2714b9eb1adce889b",
+      "size": 145,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/90c5d5fded6bc5507e1410f2714b9eb1adce889b"
+    },
+    {
+      "path": "doc/examples/rosenbrock_excel/true_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5cb4b0ed95d8a2134c5c40c79dcd932a0018d1a",
+      "size": 548,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/c5cb4b0ed95d8a2134c5c40c79dcd932a0018d1a"
+    },
+    {
+      "path": "doc/manual.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95687dfb2c889eb59ab03160116cc1b2a4212e2",
+      "size": 572376,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/f95687dfb2c889eb59ab03160116cc1b2a4212e2"
+    },
+    {
+      "path": "doc/manual.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e07d4d503a0eb2a06e378282d4427e15148a1b8f",
+      "size": 27041,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/e07d4d503a0eb2a06e378282d4427e15148a1b8f"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16ac78f25ef8f6d7bda3afb113acdc72b3841c31",
+      "size": 138,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/16ac78f25ef8f6d7bda3afb113acdc72b3841c31"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f67b06b93fce8f4bf7aad52ebdce28e92a9add8c",
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/trees/f67b06b93fce8f4bf7aad52ebdce28e92a9add8c"
+    },
+    {
+      "path": "lib/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e02ecc805f9ecf90d89e0bb4c93b7ece66ced91e",
+      "size": 5244,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/e02ecc805f9ecf90d89e0bb4c93b7ece66ced91e"
+    },
+    {
+      "path": "lib/doe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8f9b9e9da967f7d3017d00c1361bb3bd1e2e4b",
+      "size": 11296,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/6d8f9b9e9da967f7d3017d00c1361bb3bd1e2e4b"
+    },
+    {
+      "path": "lib/nomad.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcc14de1cdb1e9218747a0dfe4eb84a15d77e25c",
+      "size": 3404,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/dcc14de1cdb1e9218747a0dfe4eb84a15d77e25c"
+    },
+    {
+      "path": "lib/polytope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff69094f32aaefe583d931984c9c2cf5a414f47",
+      "size": 12522,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/8ff69094f32aaefe583d931984c9c2cf5a414f47"
+    },
+    {
+      "path": "lib/regression.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61155bb5cf58175946c910b08272e97e04fb1c92",
+      "size": 9588,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/61155bb5cf58175946c910b08272e97e04fb1c92"
+    },
+    {
+      "path": "lib/sobol.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77ffa9a36df96aba0244975034c6bc0e39c48abb",
+      "size": 15041,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/77ffa9a36df96aba0244975034c6bc0e39c48abb"
+    },
+    {
+      "path": "lib/surrogate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04be3e433701bf3a7fa3339f14a7dc739ea7f010",
+      "size": 7720,
+      "url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/04be3e433701bf3a7fa3339f14a7dc739ea7f010"
+    }
+  ],
+  "truncated": false
+}

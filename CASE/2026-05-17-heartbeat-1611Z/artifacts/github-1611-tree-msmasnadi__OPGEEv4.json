@@ -1,0 +1,3002 @@
+{
+  "sha": "38cf35d90ad0b7ffbcab037418209e1393fe407f",
+  "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/38cf35d90ad0b7ffbcab037418209e1393fe407f",
+  "tree": [
+    {
+      "path": ".coveralls.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57c88b751d07ff7dbf475f11b60d7078bd691e53",
+      "size": 71,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/57c88b751d07ff7dbf475f11b60d7078bd691e53"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32823b554cf7892183ac0420d5b12493716680e0",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/32823b554cf7892183ac0420d5b12493716680e0"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39375232f73bc1618db81cbe08f45814653047a5",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/39375232f73bc1618db81cbe08f45814653047a5"
+    },
+    {
+      "path": ".github/workflows/opgee-test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9f409b98547336489789b90c879a4ce590d3b19",
+      "size": 2366,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d9f409b98547336489789b90c879a4ce590d3b19"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f09700c6285218d19f9294994eb66cf1f1676e2e",
+      "size": 1930,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f09700c6285218d19f9294994eb66cf1f1676e2e"
+    },
+    {
+      "path": ".readthedocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ba93eec275885f642bfef0a9d33527af65180de",
+      "size": 531,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5ba93eec275885f642bfef0a9d33527af65180de"
+    },
+    {
+      "path": ".travis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6560303bdb7293c7aa426cb2d6f4148e74b0fd57",
+      "size": 1240,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6560303bdb7293c7aa426cb2d6f4148e74b0fd57"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "350d434d743cbd5f762c280a9580469f59f65d32",
+      "size": 2122,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/350d434d743cbd5f762c280a9580469f59f65d32"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "138adb24017f89725acbcf3573864155c78f6b6f",
+      "size": 358,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/138adb24017f89725acbcf3573864155c78f6b6f"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ab22879715e9341c6ea1f175d814b80c559057",
+      "size": 2342,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/33ab22879715e9341c6ea1f175d814b80c559057"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08651bbc17f7a4df649700a0855142da606e55d8",
+      "size": 3535,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/08651bbc17f7a4df649700a0855142da606e55d8"
+    },
+    {
+      "path": "codecov.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0853af1c2c91f358b18e97fd62bea5095a95085",
+      "size": 73,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b0853af1c2c91f358b18e97fd62bea5095a95085"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b125cfaf052ae2e9c2e04c9e28f32aa98c71064",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/8b125cfaf052ae2e9c2e04c9e28f32aa98c71064"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c3cbf1020d5c292abdedf27627c6abe25e2293",
+      "size": 638,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d0c3cbf1020d5c292abdedf27627c6abe25e2293"
+    },
+    {
+      "path": "docs/make.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9534b018135ed7d5caed6298980c55e8b1d2ec82",
+      "size": 764,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9534b018135ed7d5caed6298980c55e8b1d2ec82"
+    },
+    {
+      "path": "docs/opgee.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "042ed1103390fb90b6fc4232624035cb70708953",
+      "size": 242,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/042ed1103390fb90b6fc4232624035cb70708953"
+    },
+    {
+      "path": "docs/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2562bb368bfed3877349d753fb3147f91126a5fe",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/2562bb368bfed3877349d753fb3147f91126a5fe"
+    },
+    {
+      "path": "docs/source/api.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08b6c305c59452c90921f2f654974cd536c7a4de",
+      "size": 1173,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/08b6c305c59452c90921f2f654974cd536c7a4de"
+    },
+    {
+      "path": "docs/source/architecture.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9233366ce064e1722307c8bc21497c529062efe9",
+      "size": 8858,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9233366ce064e1722307c8bc21497c529062efe9"
+    },
+    {
+      "path": "docs/source/attributes.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1f72c0ec4bf193772b89347b2aef2621bc2620",
+      "size": 2117,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ae1f72c0ec4bf193772b89347b2aef2621bc2620"
+    },
+    {
+      "path": "docs/source/calculation.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f782dc44f0ee6116dfd654a4e43b35e179199a2",
+      "size": 3284,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5f782dc44f0ee6116dfd654a4e43b35e179199a2"
+    },
+    {
+      "path": "docs/source/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b788e16c91348514862ef84e3a50d6e2091816c",
+      "size": 2735,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8b788e16c91348514862ef84e3a50d6e2091816c"
+    },
+    {
+      "path": "docs/source/config.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4ccd8941cf6f11cb87c557aef1b2b3ec29ca1c7",
+      "size": 10868,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b4ccd8941cf6f11cb87c557aef1b2b3ec29ca1c7"
+    },
+    {
+      "path": "docs/source/guidelines.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed802a4bea7fc500946767c30e2c76c56d4ab8af",
+      "size": 3491,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ed802a4bea7fc500946767c30e2c76c56d4ab8af"
+    },
+    {
+      "path": "docs/source/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "487d0488bd2993185338ce9e5f454eaad4a19f22",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/487d0488bd2993185338ce9e5f454eaad4a19f22"
+    },
+    {
+      "path": "docs/source/images/class_diagram.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67705e51ead1814e9cc3854fda485d6c250256ef",
+      "size": 80844,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/67705e51ead1814e9cc3854fda485d6c250256ef"
+    },
+    {
+      "path": "docs/source/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3885da395d12ceb665b635ef2d91a0a21d870ba8",
+      "size": 906,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3885da395d12ceb665b635ef2d91a0a21d870ba8"
+    },
+    {
+      "path": "docs/source/install.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b5afadb75dd591e00cfd0b15662aff71a58f0dc",
+      "size": 1870,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1b5afadb75dd591e00cfd0b15662aff71a58f0dc"
+    },
+    {
+      "path": "docs/source/intro.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eddaf120e222a545cc4c35db1a7f32661d310c79",
+      "size": 2421,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/eddaf120e222a545cc4c35db1a7f32661d310c79"
+    },
+    {
+      "path": "docs/source/monte-carlo.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a8d3f842a112c731bcd09989188b8c373257a8",
+      "size": 8777,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c5a8d3f842a112c731bcd09989188b8c373257a8"
+    },
+    {
+      "path": "docs/source/opg.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c4814bd8afba2cc98ac27b9fcbbadab40ed6c9a",
+      "size": 2973,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0c4814bd8afba2cc98ac27b9fcbbadab40ed6c9a"
+    },
+    {
+      "path": "docs/source/opgee-xml.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9240b57ea797ea4825367bd62621360f4368d461",
+      "size": 18312,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9240b57ea797ea4825367bd62621360f4368d461"
+    },
+    {
+      "path": "docs/source/opgee.config.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f772a4e9d55ac48efc9ec10fd99eb88b6757c4a",
+      "size": 272,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3f772a4e9d55ac48efc9ec10fd99eb88b6757c4a"
+    },
+    {
+      "path": "docs/source/opgee.core.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f1a184a7180fb217a13aa662a1efac3d828b194",
+      "size": 1534,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7f1a184a7180fb217a13aa662a1efac3d828b194"
+    },
+    {
+      "path": "docs/source/opgee.mcs.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "512d506b4d2a5972e01718c146ddf244106bc097",
+      "size": 215,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/512d506b4d2a5972e01718c146ddf244106bc097"
+    },
+    {
+      "path": "docs/source/opgee.processes.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff14ae693b558418d301849898fa76e05daf406",
+      "size": 1125,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3ff14ae693b558418d301849898fa76e05daf406"
+    },
+    {
+      "path": "docs/source/opgee.smart_defaults.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f61c2e59ef642788775c60fe8f954cc0ee0304",
+      "size": 2103,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e4f61c2e59ef642788775c60fe8f954cc0ee0304"
+    },
+    {
+      "path": "docs/source/opgee.subcommand.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efb9f571a670cb68ae9db948469677f6c7692a87",
+      "size": 2216,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/efb9f571a670cb68ae9db948469677f6c7692a87"
+    },
+    {
+      "path": "docs/source/opgee.thermodynamics.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e3b1b62bd900d0466948f909e7224fbd0aa56a2",
+      "size": 177,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1e3b1b62bd900d0466948f909e7224fbd0aa56a2"
+    },
+    {
+      "path": "docs/source/opgee.utils.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ce2cc55d9b632d510e01d705376a12c60daa35",
+      "size": 303,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/64ce2cc55d9b632d510e01d705376a12c60daa35"
+    },
+    {
+      "path": "docs/source/processes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c1d582299f7ffbc68d71d666abf5ef3d94b72ac",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/6c1d582299f7ffbc68d71d666abf5ef3d94b72ac"
+    },
+    {
+      "path": "docs/source/processes/AcidGasRemoval.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e388a8533d6035b857d04d1e8796eab403661d7d",
+      "size": 262,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e388a8533d6035b857d04d1e8796eab403661d7d"
+    },
+    {
+      "path": "docs/source/processes/BitumenMining.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd43ad50a24a67ae61dfe715e6b50d075bce0a34",
+      "size": 259,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/bd43ad50a24a67ae61dfe715e6b50d075bce0a34"
+    },
+    {
+      "path": "docs/source/processes/CO2InjectionWell.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59d339a1bc5b65ee785461c4595a217463570a95",
+      "size": 266,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/59d339a1bc5b65ee785461c4595a217463570a95"
+    },
+    {
+      "path": "docs/source/processes/CO2Membrane.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fdd0c4d83d06e460a108da1001c50e5c1ff08c4",
+      "size": 255,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2fdd0c4d83d06e460a108da1001c50e5c1ff08c4"
+    },
+    {
+      "path": "docs/source/processes/CO2ReinjectionCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a01a921c00052496ddc2ec05a12b4121e54f8b7",
+      "size": 282,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8a01a921c00052496ddc2ec05a12b4121e54f8b7"
+    },
+    {
+      "path": "docs/source/processes/CrudeOilDewatering.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25aa1c48821845b2f5dfb5686afd0b3252109b09",
+      "size": 270,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/25aa1c48821845b2f5dfb5686afd0b3252109b09"
+    },
+    {
+      "path": "docs/source/processes/CrudeOilStabilization.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2617bc99271c4f2142ec283a8f887c752c6e043f",
+      "size": 276,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2617bc99271c4f2142ec283a8f887c752c6e043f"
+    },
+    {
+      "path": "docs/source/processes/CrudeOilStorage.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b0c224658c66651d2926f54bc4d5dbb52f30cf",
+      "size": 264,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/38b0c224658c66651d2926f54bc4d5dbb52f30cf"
+    },
+    {
+      "path": "docs/source/processes/CrudeOilTransport.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "966447924e3a00624c576205ec524c5c0d35628c",
+      "size": 268,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/966447924e3a00624c576205ec524c5c0d35628c"
+    },
+    {
+      "path": "docs/source/processes/Demethanizer.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57e2036b7e8c69c9b9a38af8c4e8e6554d2c0f1",
+      "size": 256,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e57e2036b7e8c69c9b9a38af8c4e8e6554d2c0f1"
+    },
+    {
+      "path": "docs/source/processes/DownholePump.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2c9fec791ed6924e0fea890bfaf3584a005413",
+      "size": 257,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7e2c9fec791ed6924e0fea890bfaf3584a005413"
+    },
+    {
+      "path": "docs/source/processes/Drilling.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e183d5d4f389c930ecb7231bca729c2491a85a",
+      "size": 248,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/78e183d5d4f389c930ecb7231bca729c2491a85a"
+    },
+    {
+      "path": "docs/source/processes/Flaring.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c857c5114e05f62b31b17a6b4691558a2cc5adc8",
+      "size": 246,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c857c5114e05f62b31b17a6b4691558a2cc5adc8"
+    },
+    {
+      "path": "docs/source/processes/GasDehydration.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cccc7c6bf40bd457cc2a38742b07a276367d68e0",
+      "size": 261,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/cccc7c6bf40bd457cc2a38742b07a276367d68e0"
+    },
+    {
+      "path": "docs/source/processes/GasDistribution.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2131f42fd8840699d4556ee887e0f1da5d6baa",
+      "size": 263,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ea2131f42fd8840699d4556ee887e0f1da5d6baa"
+    },
+    {
+      "path": "docs/source/processes/GasGathering.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "691fe36bd658ecdcde06405f077a38ab92f10d01",
+      "size": 257,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/691fe36bd658ecdcde06405f077a38ab92f10d01"
+    },
+    {
+      "path": "docs/source/processes/GasLiftingCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b2b97cabcaa961188d81bacbc9bc183aa7eef3b",
+      "size": 274,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5b2b97cabcaa961188d81bacbc9bc183aa7eef3b"
+    },
+    {
+      "path": "docs/source/processes/GasPartition.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f0203ebd22a51e4b85b22d86770bddf469ecc9",
+      "size": 257,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d3f0203ebd22a51e4b85b22d86770bddf469ecc9"
+    },
+    {
+      "path": "docs/source/processes/GasReinjectionCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "842426bb3a0d905c3a41456f4f88209e026b6820",
+      "size": 282,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/842426bb3a0d905c3a41456f4f88209e026b6820"
+    },
+    {
+      "path": "docs/source/processes/GasReinjectionWell.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12035f52a00cfa86da723174ebc03f2a507fa4a",
+      "size": 270,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b12035f52a00cfa86da723174ebc03f2a507fa4a"
+    },
+    {
+      "path": "docs/source/processes/HeavyOilDilution.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e594176cc4fd1b9d0882544ba9797dff13d0f670",
+      "size": 266,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e594176cc4fd1b9d0882544ba9797dff13d0f670"
+    },
+    {
+      "path": "docs/source/processes/HeavyOilUpgrading.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c14e9ea502bee1e99612ca32d34f2df78513edaf",
+      "size": 268,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c14e9ea502bee1e99612ca32d34f2df78513edaf"
+    },
+    {
+      "path": "docs/source/processes/LNGLiquefaction.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca5300a521a308058c4bc1a39572e8c8adfb426",
+      "size": 263,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/eca5300a521a308058c4bc1a39572e8c8adfb426"
+    },
+    {
+      "path": "docs/source/processes/LNGRegasification.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cdca4d6cbcbdd63ce6a5b1d082191cc44a44c21",
+      "size": 267,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9cdca4d6cbcbdd63ce6a5b1d082191cc44a44c21"
+    },
+    {
+      "path": "docs/source/processes/LNGTransport.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "006941d0e719ac571923f52973b1ec0a22f9db09",
+      "size": 257,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/006941d0e719ac571923f52973b1ec0a22f9db09"
+    },
+    {
+      "path": "docs/source/processes/NGL.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3908f44a29f69b02b89df99949fab2b5d256ce85",
+      "size": 253,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3908f44a29f69b02b89df99949fab2b5d256ce85"
+    },
+    {
+      "path": "docs/source/processes/PetrocokeTransport.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869f89c7bde8715dda7040677b495031bb0175d2",
+      "size": 269,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/869f89c7bde8715dda7040677b495031bb0175d2"
+    },
+    {
+      "path": "docs/source/processes/PostStorageCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3809ab908bc807b81857dc44dd87d78af1ba0f2e",
+      "size": 276,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3809ab908bc807b81857dc44dd87d78af1ba0f2e"
+    },
+    {
+      "path": "docs/source/processes/PreMembraneChiller.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a75fda9c17b220502b2c99cf388533fab581f4f",
+      "size": 270,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4a75fda9c17b220502b2c99cf388533fab581f4f"
+    },
+    {
+      "path": "docs/source/processes/PreMembraneCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "379f695f053e39b0c3f0f5967d2ae3f15ed76906",
+      "size": 276,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/379f695f053e39b0c3f0f5967d2ae3f15ed76906"
+    },
+    {
+      "path": "docs/source/processes/ReservoirWellInterface.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7078110f02377e39bbfb43795f4003008f98ddfd",
+      "size": 278,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7078110f02377e39bbfb43795f4003008f98ddfd"
+    },
+    {
+      "path": "docs/source/processes/RyanHolmes.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "858719f2610e184b90e75a27b195685c0449d229",
+      "size": 253,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/858719f2610e184b90e75a27b195685c0449d229"
+    },
+    {
+      "path": "docs/source/processes/Separation.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bd297777c3b52f6b5d46c1ca9ea27cd2270d559",
+      "size": 252,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3bd297777c3b52f6b5d46c1ca9ea27cd2270d559"
+    },
+    {
+      "path": "docs/source/processes/SourGasCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3bceca505463643c6a74706831a6adc7abf1f80",
+      "size": 268,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d3bceca505463643c6a74706831a6adc7abf1f80"
+    },
+    {
+      "path": "docs/source/processes/SourGasInjection.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df41e4d9f97a554e649888c2f914fd8f839ee5b",
+      "size": 266,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0df41e4d9f97a554e649888c2f914fd8f839ee5b"
+    },
+    {
+      "path": "docs/source/processes/SteamGeneration.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfcf4a68aa8292d25ea09c3797fbc33040a5fcf3",
+      "size": 263,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/cfcf4a68aa8292d25ea09c3797fbc33040a5fcf3"
+    },
+    {
+      "path": "docs/source/processes/StorageCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e7bcd9780e5f1bbe7854799e3e60c5ce26dd59d",
+      "size": 267,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4e7bcd9780e5f1bbe7854799e3e60c5ce26dd59d"
+    },
+    {
+      "path": "docs/source/processes/StorageSeparator.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2a68947e35be4a7bd8b51c3c94dda39fa7af39d",
+      "size": 265,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b2a68947e35be4a7bd8b51c3c94dda39fa7af39d"
+    },
+    {
+      "path": "docs/source/processes/StorageWell.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feeb2b74f955e2bb299d8989d4e16d0f2cbcfb79",
+      "size": 255,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/feeb2b74f955e2bb299d8989d4e16d0f2cbcfb79"
+    },
+    {
+      "path": "docs/source/processes/TransmissionCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8860f9ed973dee6fd9c919681a615e21101abf64",
+      "size": 277,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8860f9ed973dee6fd9c919681a615e21101abf64"
+    },
+    {
+      "path": "docs/source/processes/VFPartition.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "293d0856aac57600c24a196e5bd1abfa36beeb66",
+      "size": 255,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/293d0856aac57600c24a196e5bd1abfa36beeb66"
+    },
+    {
+      "path": "docs/source/processes/VRUCompressor.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ac3ba4a2850c9d74af585b5a41a5a325ee79987",
+      "size": 259,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7ac3ba4a2850c9d74af585b5a41a5a325ee79987"
+    },
+    {
+      "path": "docs/source/processes/Venting.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20944b8c3efac5ee02bfca026eb61247d1883bba",
+      "size": 246,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/20944b8c3efac5ee02bfca026eb61247d1883bba"
+    },
+    {
+      "path": "docs/source/processes/WaterInjection.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "408b8c58bb858ce7590171aebc2c41b415ecffa1",
+      "size": 261,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/408b8c58bb858ce7590171aebc2c41b415ecffa1"
+    },
+    {
+      "path": "docs/source/processes/WaterTreatment.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27944640c876f08bf77e79a16dde9ebe77e12f17",
+      "size": 261,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/27944640c876f08bf77e79a16dde9ebe77e12f17"
+    },
+    {
+      "path": "docs/source/processes/exploration.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c7a0959a1e773b970d0867852fb7f93fce9402d",
+      "size": 254,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6c7a0959a1e773b970d0867852fb7f93fce9402d"
+    },
+    {
+      "path": "docs/source/tutorial.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c413b74a83ffb0e227a5027501f05f1d272a7b53",
+      "size": 183,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c413b74a83ffb0e227a5027501f05f1d272a7b53"
+    },
+    {
+      "path": "docs/source/tutorial_1.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c639a399f1afebbf4e717fa20b0bfeca6c16274e",
+      "size": 3651,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c639a399f1afebbf4e717fa20b0bfeca6c16274e"
+    },
+    {
+      "path": "ez_setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a4f6829af0c28e9589253708e58f6366afc14c",
+      "size": 12292,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a4a4f6829af0c28e9589253708e58f6366afc14c"
+    },
+    {
+      "path": "opgee.pkg_list.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b8a8bafd463afcc00778ffe40aad6fa66fd497",
+      "size": 8292,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/24b8a8bafd463afcc00778ffe40aad6fa66fd497"
+    },
+    {
+      "path": "opgee.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e99944005796a36048007e3823e877ad6ddf31",
+      "size": 5895,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/40e99944005796a36048007e3823e877ad6ddf31"
+    },
+    {
+      "path": "opgee",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcab22aa2e3134881a38e1b73fa55972f798262e",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/dcab22aa2e3134881a38e1b73fa55972f798262e"
+    },
+    {
+      "path": "opgee/XMLFile.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a78fb22a41ae011ccd0d123f12de4d87daa219",
+      "size": 4536,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/01a78fb22a41ae011ccd0d123f12de4d87daa219"
+    },
+    {
+      "path": "opgee/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedaa35606906f08fd699932def6854ea207152d",
+      "size": 264,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/bedaa35606906f08fd699932def6854ea207152d"
+    },
+    {
+      "path": "opgee/analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71e611fd910e254a15593e05259c8ef0450107be",
+      "size": 8737,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/71e611fd910e254a15593e05259c8ef0450107be"
+    },
+    {
+      "path": "opgee/attributes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c7929fcfe1e493c85941f62c7c79077b50771e3",
+      "size": 13700,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2c7929fcfe1e493c85941f62c7c79077b50771e3"
+    },
+    {
+      "path": "opgee/bfs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061bff4a1eac1587a9a9b7b22ea9306e66f0d7ea",
+      "size": 4856,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/061bff4a1eac1587a9a9b7b22ea9306e66f0d7ea"
+    },
+    {
+      "path": "opgee/bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f95daa596f0a2f68a5c296edf84a9391e946e1ca",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/f95daa596f0a2f68a5c296edf84a9391e946e1ca"
+    },
+    {
+      "path": "opgee/bin/combine_csvs.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a7036cb27caa02765bb45be1ea79d54c792fbdb0",
+      "size": 1883,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a7036cb27caa02765bb45be1ea79d54c792fbdb0"
+    },
+    {
+      "path": "opgee/bin/combine_wor_data.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "096cecb062ff8504db7a39856485aeb3a808132c",
+      "size": 605,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/096cecb062ff8504db7a39856485aeb3a808132c"
+    },
+    {
+      "path": "opgee/bin/gen-proc-doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce1e0ea0bccc5c9bfcf5e8d4d31cb0b4713b5db",
+      "size": 1188,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2ce1e0ea0bccc5c9bfcf5e8d4d31cb0b4713b5db"
+    },
+    {
+      "path": "opgee/bin/read-distros.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dc1e6bec8ec47a8dcdb982dc0ac81109f31ce6d",
+      "size": 1656,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7dc1e6bec8ec47a8dcdb982dc0ac81109f31ce6d"
+    },
+    {
+      "path": "opgee/bin/save_stream_defs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6d793f8dec2aa933d3e30fbc62e23a43973889d",
+      "size": 1185,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c6d793f8dec2aa933d3e30fbc62e23a43973889d"
+    },
+    {
+      "path": "opgee/bin/stream_contents.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "57beaf285a71c03b625f9311d8f418c9fa43f3c4",
+      "size": 675,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/57beaf285a71c03b625f9311d8f418c9fa43f3c4"
+    },
+    {
+      "path": "opgee/bin/venting_fugitive_dummy_csv.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "55920b77bf447966889197f904c2d03f73f29534",
+      "size": 371,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/55920b77bf447966889197f904c2d03f73f29534"
+    },
+    {
+      "path": "opgee/built_ins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68a992a062fbfdd3fc64d449040a1343d6c4776c",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/68a992a062fbfdd3fc64d449040a1343d6c4776c"
+    },
+    {
+      "path": "opgee/built_ins/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da959dcebd41f1523b6581013f77c83f3ca68489",
+      "size": 611,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/da959dcebd41f1523b6581013f77c83f3ca68489"
+    },
+    {
+      "path": "opgee/built_ins/collect_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12ee64a28a541309b26d64c6cc9246b5857c87c4",
+      "size": 1819,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/12ee64a28a541309b26d64c6cc9246b5857c87c4"
+    },
+    {
+      "path": "opgee/built_ins/compare_excel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d57b5a33dd5b574d14b16cd0dafa280d04c83184",
+      "size": 4830,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d57b5a33dd5b574d14b16cd0dafa280d04c83184"
+    },
+    {
+      "path": "opgee/built_ins/compare_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0f8d595fd9f3aa77ff2d835e70b5b0775d6d1df",
+      "size": 7703,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b0f8d595fd9f3aa77ff2d835e70b5b0775d6d1df"
+    },
+    {
+      "path": "opgee/built_ins/config_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49830cc3ff481334c64430943e95de65426c5e2c",
+      "size": 3394,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/49830cc3ff481334c64430943e95de65426c5e2c"
+    },
+    {
+      "path": "opgee/built_ins/csv2xml_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0c6a61aa6cc31682a272448309573d5a015963",
+      "size": 6230,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9f0c6a61aa6cc31682a272448309573d5a015963"
+    },
+    {
+      "path": "opgee/built_ins/gensim_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c731b337d01b289772098bdcb3c037e7d09fc8c5",
+      "size": 4008,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c731b337d01b289772098bdcb3c037e7d09fc8c5"
+    },
+    {
+      "path": "opgee/built_ins/graph_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea3ec2172da3dd1bfd1ab5bd827ad8ca5ae269f6",
+      "size": 3902,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ea3ec2172da3dd1bfd1ab5bd827ad8ca5ae269f6"
+    },
+    {
+      "path": "opgee/built_ins/gui_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aad2402660cee0c04831e3cd18e940aa1a8f54f0",
+      "size": 2376,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/aad2402660cee0c04831e3cd18e940aa1a8f54f0"
+    },
+    {
+      "path": "opgee/built_ins/merge_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941926be580d5017013adf830591a259584fbda9",
+      "size": 2886,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/941926be580d5017013adf830591a259584fbda9"
+    },
+    {
+      "path": "opgee/built_ins/run_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2b45d2459e80d3714aa34759b129fec583f2fa",
+      "size": 14034,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ad2b45d2459e80d3714aa34759b129fec583f2fa"
+    },
+    {
+      "path": "opgee/built_ins/update_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd64cd53ab9d780d88d6d74cc7f5f6c0aa19089",
+      "size": 3490,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4fd64cd53ab9d780d88d6d74cc7f5f6c0aa19089"
+    },
+    {
+      "path": "opgee/combine_streams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3464021eb57461c3c784411de2655fd049438308",
+      "size": 4074,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3464021eb57461c3c784411de2655fd049438308"
+    },
+    {
+      "path": "opgee/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94efc163f775d71a774555f834ae365cd6e5bc18",
+      "size": 16317,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/94efc163f775d71a774555f834ae365cd6e5bc18"
+    },
+    {
+      "path": "opgee/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "917c60fbf40049dea54685f08c6679a4a5f3f417",
+      "size": 457,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/917c60fbf40049dea54685f08c6679a4a5f3f417"
+    },
+    {
+      "path": "opgee/container.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e16629e5a3fbd4b7207e5395cc3324e307f55146",
+      "size": 5271,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e16629e5a3fbd4b7207e5395cc3324e307f55146"
+    },
+    {
+      "path": "opgee/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6de912f816ff1d01e02d6f3096366ecf175828d",
+      "size": 10745,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e6de912f816ff1d01e02d6f3096366ecf175828d"
+    },
+    {
+      "path": "opgee/emissions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "843ef62b8ee93528809391adaf724e6702eaa77b",
+      "size": 9373,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/843ef62b8ee93528809391adaf724e6702eaa77b"
+    },
+    {
+      "path": "opgee/energy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daf379ad1776dce036916e124d7392e26013f909",
+      "size": 4868,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/daf379ad1776dce036916e124d7392e26013f909"
+    },
+    {
+      "path": "opgee/error.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c7b5ef369aa3a92e4f1d83f449a9e59559a410",
+      "size": 3350,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/10c7b5ef369aa3a92e4f1d83f449a9e59559a410"
+    },
+    {
+      "path": "opgee/etc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86f708d36f8310d1e0c118bceba1700aa79bd76e",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/86f708d36f8310d1e0c118bceba1700aa79bd76e"
+    },
+    {
+      "path": "opgee/etc/Darwin.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4574b58154f3b4323b1ca1e8b20aeaa6778db0",
+      "size": 10,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/db4574b58154f3b4323b1ca1e8b20aeaa6778db0"
+    },
+    {
+      "path": "opgee/etc/Windows.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821764c2c2cb21413b3966eff802ec9b4c7198ae",
+      "size": 36,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/821764c2c2cb21413b3966eff802ec9b4c7198ae"
+    },
+    {
+      "path": "opgee/etc/attributes.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2295e9376ef53100b098fffa5b6ede8ca5440309",
+      "size": 53083,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2295e9376ef53100b098fffa5b6ede8ca5440309"
+    },
+    {
+      "path": "opgee/etc/imported_fields.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61cce2f959e771b8f183d40061f91d8674a104af",
+      "size": 29861,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/61cce2f959e771b8f183d40061f91d8674a104af"
+    },
+    {
+      "path": "opgee/etc/old-xml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6df122e636e8f86f08c970466c5ef200d82844af",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/6df122e636e8f86f08c970466c5ef200d82844af"
+    },
+    {
+      "path": "opgee/etc/old-xml/test-CO2_EOR_field.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca59501e6dacd402edea964a5881f2007f4f84ea",
+      "size": 47700,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ca59501e6dacd402edea964a5881f2007f4f84ea"
+    },
+    {
+      "path": "opgee/etc/old-xml/test-fields-10.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "956317b8d7f844c0bfa93c875bb8790342619d36",
+      "size": 7937,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/956317b8d7f844c0bfa93c875bb8790342619d36"
+    },
+    {
+      "path": "opgee/etc/old-xml/test-fields-9000.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c88de6edd5f5be16e3514c06e16af98b2387cdb",
+      "size": 22709118,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2c88de6edd5f5be16e3514c06e16af98b2387cdb"
+    },
+    {
+      "path": "opgee/etc/old-xml/test-fields-all.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46144a88ddd1640421613da6f5d0934b86be8399",
+      "size": 952145,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/46144a88ddd1640421613da6f5d0934b86be8399"
+    },
+    {
+      "path": "opgee/etc/old-xml/test-fields.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a205e71644671446f10a2f8a81a5871cf5b33bb0",
+      "size": 329025,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a205e71644671446f10a2f8a81a5871cf5b33bb0"
+    },
+    {
+      "path": "opgee/etc/opgee.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56087a1f319d6f809b05880f80af6cda00767cfc",
+      "size": 21290,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/56087a1f319d6f809b05880f80af6cda00767cfc"
+    },
+    {
+      "path": "opgee/etc/opgee.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb13a5c5965af121d474e48933eebe9ba62f7719",
+      "size": 10319,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/cb13a5c5965af121d474e48933eebe9ba62f7719"
+    },
+    {
+      "path": "opgee/etc/pluginTemplate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704e77784fab8e68eca7f3aac354de73857dc6f6",
+      "size": 1390,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/704e77784fab8e68eca7f3aac354de73857dc6f6"
+    },
+    {
+      "path": "opgee/etc/system.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27bf29d3e2501d8dadb9bfe8e8bed7d875e587d",
+      "size": 5405,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f27bf29d3e2501d8dadb9bfe8e8bed7d875e587d"
+    },
+    {
+      "path": "opgee/etc/units.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4df02b3549fc9738aba4f20ff047086b1a50f903",
+      "size": 1599,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4df02b3549fc9738aba4f20ff047086b1a50f903"
+    },
+    {
+      "path": "opgee/field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a8c787a5297084b51ebafa0b9f5ea1d474369e3",
+      "size": 71222,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7a8c787a5297084b51ebafa0b9f5ea1d474369e3"
+    },
+    {
+      "path": "opgee/graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff6e627f4cf7a4fa1a460a3f8e6cd94f973d8808",
+      "size": 3571,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ff6e627f4cf7a4fa1a460a3f8e6cd94f973d8808"
+    },
+    {
+      "path": "opgee/gui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be568f1e66259f594b02ff0cb4e9f0c67f80710f",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/be568f1e66259f594b02ff0cb4e9f0c67f80710f"
+    },
+    {
+      "path": "opgee/gui/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "opgee/gui/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "849eef2ff1052cbfaa164c9db3dafbaf1cfebe34",
+      "size": 7760,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/849eef2ff1052cbfaa164c9db3dafbaf1cfebe34"
+    },
+    {
+      "path": "opgee/gui/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "722c9f45719d488e856cae256e4ece0a5cc2b52b",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/722c9f45719d488e856cae256e4ece0a5cc2b52b"
+    },
+    {
+      "path": "opgee/gui/assets/resizing_script.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a447515c1b811895c93ab5c95c4c8e7d78f6cd4",
+      "size": 357,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2a447515c1b811895c93ab5c95c4c8e7d78f6cd4"
+    },
+    {
+      "path": "opgee/gui/assets/stylesheet.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134a4a1c05d54f7602e4afc1ed5438aa90be3b07",
+      "size": 5770,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/134a4a1c05d54f7602e4afc1ed5438aa90be3b07"
+    },
+    {
+      "path": "opgee/gui/assets/tabs.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "139cfa72b89d284a0527c2b09d04a410ea18bcd3",
+      "size": 902,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/139cfa72b89d284a0527c2b09d04a410ea18bcd3"
+    },
+    {
+      "path": "opgee/gui/opg.py",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "f05f752768fdd6d0ec11f2247cd234cd3375541a",
+      "size": 10,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f05f752768fdd6d0ec11f2247cd234cd3375541a"
+    },
+    {
+      "path": "opgee/gui/process_pane.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e03454d177cf986a8d79c8abcdf3d364b559e40",
+      "size": 15263,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4e03454d177cf986a8d79c8abcdf3d364b559e40"
+    },
+    {
+      "path": "opgee/gui/results_pane.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ceca6d2e138dc47bde82f5fe90c0afe403c795",
+      "size": 5336,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/46ceca6d2e138dc47bde82f5fe90c0afe403c795"
+    },
+    {
+      "path": "opgee/gui/settings_pane.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a2ed6a1e6b9dbf4f0efb3dcf381bb9844aada2",
+      "size": 5976,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b5a2ed6a1e6b9dbf4f0efb3dcf381bb9844aada2"
+    },
+    {
+      "path": "opgee/gui/testapp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28e5c961a115f78de79a7df732b7ffeac526754d",
+      "size": 2341,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/28e5c961a115f78de79a7df732b7ffeac526754d"
+    },
+    {
+      "path": "opgee/gui/widgets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d440b50fba0034dc00d899894f07ece9b10aa7",
+      "size": 6245,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/04d440b50fba0034dc00d899894f07ece9b10aa7"
+    },
+    {
+      "path": "opgee/import_export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756580366bbba1a19e84be81f96961ac648cd473",
+      "size": 6703,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/756580366bbba1a19e84be81f96961ac648cd473"
+    },
+    {
+      "path": "opgee/log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c84c3f0a510a894b6d0b27965a6800be3b3b219d",
+      "size": 7424,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c84c3f0a510a894b6d0b27965a6800be3b3b219d"
+    },
+    {
+      "path": "opgee/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "751b39ba49820c8318ceab102f5e23c8905644ad",
+      "size": 327,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/751b39ba49820c8318ceab102f5e23c8905644ad"
+    },
+    {
+      "path": "opgee/manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf1c4ce3c7f9da1c5ce537c8934f6ddb9e20819",
+      "size": 22153,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3cf1c4ce3c7f9da1c5ce537c8934f6ddb9e20819"
+    },
+    {
+      "path": "opgee/mcs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e621fa5b1755b93a064ba8d0ca027ccc5260c6ea",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/e621fa5b1755b93a064ba8d0ca027ccc5260c6ea"
+    },
+    {
+      "path": "opgee/mcs/LHS.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6b824e72a5dc4356a92e486ac6ca25aa73d30c5",
+      "size": 6310,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e6b824e72a5dc4356a92e486ac6ca25aa73d30c5"
+    },
+    {
+      "path": "opgee/mcs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "opgee/mcs/distributed_mcs_dask.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c592ab00fd144a106672dd16f408ee62d85c8024",
+      "size": 11987,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c592ab00fd144a106672dd16f408ee62d85c8024"
+    },
+    {
+      "path": "opgee/mcs/distro.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dc883d6ee53dd3411c46fff5a84b0d9a56f3a0",
+      "size": 14294,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b5dc883d6ee53dd3411c46fff5a84b0d9a56f3a0"
+    },
+    {
+      "path": "opgee/mcs/etc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e450194ed5bec5fadf1b443180736a0451d439c",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/4e450194ed5bec5fadf1b443180736a0451d439c"
+    },
+    {
+      "path": "opgee/mcs/etc/Norway_historical_WOR.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "477b4e35f0f5922bed5ded859b86bd5e8a4417b0",
+      "size": 49043,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/477b4e35f0f5922bed5ded859b86bd5e8a4417b0"
+    },
+    {
+      "path": "opgee/mcs/etc/UK_Results_MATLAB.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4220bcaa398536b6bc88c9c2c0864381e43e549",
+      "size": 219886,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a4220bcaa398536b6bc88c9c2c0864381e43e549"
+    },
+    {
+      "path": "opgee/mcs/etc/WOR_observations.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cfeeb2957de9d50054719a8a0372fff11c2337c",
+      "size": 4954,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2cfeeb2957de9d50054719a8a0372fff11c2337c"
+    },
+    {
+      "path": "opgee/mcs/etc/WOR_observations_long.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8d3e5c45752b97cbe7625f84e7634d2361a5986",
+      "size": 1820,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e8d3e5c45752b97cbe7625f84e7634d2361a5986"
+    },
+    {
+      "path": "opgee/mcs/etc/all_wor.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1744167f9488e99eabfff514ead4437b7569e6d",
+      "size": 173176,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d1744167f9488e99eabfff514ead4437b7569e6d"
+    },
+    {
+      "path": "opgee/mcs/etc/nersc-slurm-script.bash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a0495112e508dff063fc6bf97b651a237af1cb",
+      "size": 1869,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/08a0495112e508dff063fc6bf97b651a237af1cb"
+    },
+    {
+      "path": "opgee/mcs/etc/parameter-distributions.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01b791daa62d5f67919ef536a0d2a404cc2ab52c",
+      "size": 9184,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/01b791daa62d5f67919ef536a0d2a404cc2ab52c"
+    },
+    {
+      "path": "opgee/mcs/etc/parameter-schema.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ed3bc0bd8f0bb3b6050f2e9b99093f6c06d4588",
+      "size": 7726,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2ed3bc0bd8f0bb3b6050f2e9b99093f6c06d4588"
+    },
+    {
+      "path": "opgee/mcs/etc/parameter_distributions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f483282e1b7f62869933287b5fa443a8f4a7040",
+      "size": 3172,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5f483282e1b7f62869933287b5fa443a8f4a7040"
+    },
+    {
+      "path": "opgee/mcs/etc/slurm_controller.template",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38983ff295f06360a236073f460f0907361f1a36",
+      "size": 259,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/38983ff295f06360a236073f460f0907361f1a36"
+    },
+    {
+      "path": "opgee/mcs/etc/slurm_engine.template",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b715ddb248181f49bdeb36a010ce9fc37db065d8",
+      "size": 283,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b715ddb248181f49bdeb36a010ce9fc37db065d8"
+    },
+    {
+      "path": "opgee/mcs/etc/test-mcs-field.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ef027c3b1c76663b8275b7785770d817bbcd16",
+      "size": 961,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f4ef027c3b1c76663b8275b7785770d817bbcd16"
+    },
+    {
+      "path": "opgee/mcs/etc/wor_ranges.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "040f01e8e2bd0a25937c71548714cbfbabc14e43",
+      "size": 1454,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/040f01e8e2bd0a25937c71548714cbfbabc14e43"
+    },
+    {
+      "path": "opgee/mcs/parameter_list.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "200cd481815e811d2e8e7e4e6c2fe46fc0004ccf",
+      "size": 5512,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/200cd481815e811d2e8e7e4e6c2fe46fc0004ccf"
+    },
+    {
+      "path": "opgee/mcs/simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1c2b23500a0602dfad5e8c7c14a12fbea3f3f6b",
+      "size": 22949,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b1c2b23500a0602dfad5e8c7c14a12fbea3f3f6b"
+    },
+    {
+      "path": "opgee/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14299cf00779fc38311276f2912cb0e09375f02c",
+      "size": 7733,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/14299cf00779fc38311276f2912cb0e09375f02c"
+    },
+    {
+      "path": "opgee/model_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bf4cd2440077faf153452269baaa478a8aff6c4",
+      "size": 19967,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4bf4cd2440077faf153452269baaa478a8aff6c4"
+    },
+    {
+      "path": "opgee/pkg_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7651b2aa1b301533e687217bb7736b82b1c76e1c",
+      "size": 1510,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7651b2aa1b301533e687217bb7736b82b1c76e1c"
+    },
+    {
+      "path": "opgee/post_processor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ec4c0f4eda997b9c60c87d6f99f10278110cfd",
+      "size": 6501,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/98ec4c0f4eda997b9c60c87d6f99f10278110cfd"
+    },
+    {
+      "path": "opgee/process.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ecac4ea13c0589b704be57883a191b8b758effb",
+      "size": 43080,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3ecac4ea13c0589b704be57883a191b8b758effb"
+    },
+    {
+      "path": "opgee/process_groups.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87a7d1887a93b690c6edc8ca681efac76240288c",
+      "size": 3674,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/87a7d1887a93b690c6edc8ca681efac76240288c"
+    },
+    {
+      "path": "opgee/processes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec0c633c6df2b8ea6e3d84377af8621e3227d36a",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/ec0c633c6df2b8ea6e3d84377af8621e3227d36a"
+    },
+    {
+      "path": "opgee/processes/CO2_injection_well.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ee30f1b8dcf4b11ba0d1e25c0ff830101c5a06",
+      "size": 2035,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/48ee30f1b8dcf4b11ba0d1e25c0ff830101c5a06"
+    },
+    {
+      "path": "opgee/processes/CO2_membrane.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86995bef54a194fb6062bc3e13c016c42c06b622",
+      "size": 3403,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/86995bef54a194fb6062bc3e13c016c42c06b622"
+    },
+    {
+      "path": "opgee/processes/CO2_reinjection_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02beb1d587fd7db8b4c5193ceb4bc860ee41db8a",
+      "size": 3869,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/02beb1d587fd7db8b4c5193ceb4bc860ee41db8a"
+    },
+    {
+      "path": "opgee/processes/LNG_liquefaction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e194c241c1612948a0d07e555ede7aa0c2b99b",
+      "size": 1973,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b8e194c241c1612948a0d07e555ede7aa0c2b99b"
+    },
+    {
+      "path": "opgee/processes/LNG_regasification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebbf6afaf797a007c3686d44c5ad61cc1bc9ffdf",
+      "size": 1999,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ebbf6afaf797a007c3686d44c5ad61cc1bc9ffdf"
+    },
+    {
+      "path": "opgee/processes/LNG_transport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a44f188c542ce38c0067421156f0210dbcae51e1",
+      "size": 2313,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a44f188c542ce38c0067421156f0210dbcae51e1"
+    },
+    {
+      "path": "opgee/processes/VF_partition.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a699f9f3878d53a80f90e0a58e166a062796a8bd",
+      "size": 3162,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a699f9f3878d53a80f90e0a58e166a062796a8bd"
+    },
+    {
+      "path": "opgee/processes/VRU_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee566e2e9f7bfaad6b6f7e72ae66e8fb5531b6e",
+      "size": 2543,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3ee566e2e9f7bfaad6b6f7e72ae66e8fb5531b6e"
+    },
+    {
+      "path": "opgee/processes/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74d9036851121f1c798627d88f1572cfd4cb75f8",
+      "size": 2163,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/74d9036851121f1c798627d88f1572cfd4cb75f8"
+    },
+    {
+      "path": "opgee/processes/acid_gas_removal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c13d94e28f4fa7170a822721c314c3509112881a",
+      "size": 16429,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c13d94e28f4fa7170a822721c314c3509112881a"
+    },
+    {
+      "path": "opgee/processes/bitumen_mining.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92b9bd1d8e56b05f216c666135cbaf5978b69747",
+      "size": 6035,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/92b9bd1d8e56b05f216c666135cbaf5978b69747"
+    },
+    {
+      "path": "opgee/processes/compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02b68d575eb2ff4ff2150812522c485705e704d1",
+      "size": 5225,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/02b68d575eb2ff4ff2150812522c485705e704d1"
+    },
+    {
+      "path": "opgee/processes/crude_oil_dewatering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd40b84e7283d2ab680607e7f93057af2ea16191",
+      "size": 4994,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/dd40b84e7283d2ab680607e7f93057af2ea16191"
+    },
+    {
+      "path": "opgee/processes/crude_oil_stabilization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df40e1ef5a9a2aeeb491904f07d10d1175bd18d7",
+      "size": 6735,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/df40e1ef5a9a2aeeb491904f07d10d1175bd18d7"
+    },
+    {
+      "path": "opgee/processes/crude_oil_storage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0911e92b7872c9d5c9e927f87b055a4844f64a42",
+      "size": 5455,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0911e92b7872c9d5c9e927f87b055a4844f64a42"
+    },
+    {
+      "path": "opgee/processes/crude_oil_transport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6319216cbc108dac1698ecdbf8562e1403fb828a",
+      "size": 2932,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6319216cbc108dac1698ecdbf8562e1403fb828a"
+    },
+    {
+      "path": "opgee/processes/demethanizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba8204bb04175a338fe4f7fa9f992f186933373c",
+      "size": 11256,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ba8204bb04175a338fe4f7fa9f992f186933373c"
+    },
+    {
+      "path": "opgee/processes/downhole_pump.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5ca04ef5347318b5696d015668cc781b092e5e",
+      "size": 11686,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ed5ca04ef5347318b5696d015668cc781b092e5e"
+    },
+    {
+      "path": "opgee/processes/drilling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820f67ec05d930aa0a8ad907f3b22e5ad63d1ee9",
+      "size": 5345,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/820f67ec05d930aa0a8ad907f3b22e5ad63d1ee9"
+    },
+    {
+      "path": "opgee/processes/exploration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44779a103429457b44fbe9370e236ac605788e1f",
+      "size": 5590,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/44779a103429457b44fbe9370e236ac605788e1f"
+    },
+    {
+      "path": "opgee/processes/flaring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50780eb99ad2c0558949c7df232e897a869672cb",
+      "size": 1275,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/50780eb99ad2c0558949c7df232e897a869672cb"
+    },
+    {
+      "path": "opgee/processes/gas_dehydration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45964a4a9f24401d9733a759d4db4d9a25486738",
+      "size": 9809,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/45964a4a9f24401d9733a759d4db4d9a25486738"
+    },
+    {
+      "path": "opgee/processes/gas_distribution.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "436f86a508cf68685da8dfd31ac0e0f55f4839fc",
+      "size": 1892,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/436f86a508cf68685da8dfd31ac0e0f55f4839fc"
+    },
+    {
+      "path": "opgee/processes/gas_gathering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a0c730a193bbe3821afd149c75bc57eba495e75",
+      "size": 3532,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4a0c730a193bbe3821afd149c75bc57eba495e75"
+    },
+    {
+      "path": "opgee/processes/gas_lifting_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ad420004c6956e996ed648361c1e6b291eefe0",
+      "size": 2939,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/68ad420004c6956e996ed648361c1e6b291eefe0"
+    },
+    {
+      "path": "opgee/processes/gas_partition.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c42a486ec811f3589d966ccf77161bfc41cc9e91",
+      "size": 13994,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c42a486ec811f3589d966ccf77161bfc41cc9e91"
+    },
+    {
+      "path": "opgee/processes/gas_reinjection_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ba67129d41b812be8926bd743bde19d0b0c611",
+      "size": 3433,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/02ba67129d41b812be8926bd743bde19d0b0c611"
+    },
+    {
+      "path": "opgee/processes/gas_reinjection_well.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc4322f240d0e980319f8707be4c43412fbba47",
+      "size": 1711,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2fc4322f240d0e980319f8707be4c43412fbba47"
+    },
+    {
+      "path": "opgee/processes/heavy_oil_dilution.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "289134a1a08ba08da0e1da464791cb768a264e64",
+      "size": 5950,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/289134a1a08ba08da0e1da464791cb768a264e64"
+    },
+    {
+      "path": "opgee/processes/heavy_oil_upgrading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ca7f9ef6b811f7f714a446fe9cc3b08425dd5f3",
+      "size": 9163,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6ca7f9ef6b811f7f714a446fe9cc3b08425dd5f3"
+    },
+    {
+      "path": "opgee/processes/natural_gas_liquid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c8f39b91166eded7b415639f171b20486944610",
+      "size": 903,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4c8f39b91166eded7b415639f171b20486944610"
+    },
+    {
+      "path": "opgee/processes/petrocoke_transport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "007962e6e23e8df823496aa500cf963b7e790d78",
+      "size": 2536,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/007962e6e23e8df823496aa500cf963b7e790d78"
+    },
+    {
+      "path": "opgee/processes/post_storage_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b9d3c4a8465cb298bbbbdcad5844a04b8997bf",
+      "size": 2560,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e7b9d3c4a8465cb298bbbbdcad5844a04b8997bf"
+    },
+    {
+      "path": "opgee/processes/pre_membrane_chiller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efef8eae07996117737277b77e92c146664593b9",
+      "size": 2192,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/efef8eae07996117737277b77e92c146664593b9"
+    },
+    {
+      "path": "opgee/processes/pre_membrane_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bc25c3c4dd3ba7d6df84d5a8a556be73a994976",
+      "size": 2438,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3bc25c3c4dd3ba7d6df84d5a8a556be73a994976"
+    },
+    {
+      "path": "opgee/processes/reservoir_well_interface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b8bb122602308f811a5c42aee2f673a49b8f459",
+      "size": 5265,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5b8bb122602308f811a5c42aee2f673a49b8f459"
+    },
+    {
+      "path": "opgee/processes/ryan_holmes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70afb32b4bcbe7577cb051a20d0485caa44cc449",
+      "size": 4461,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/70afb32b4bcbe7577cb051a20d0485caa44cc449"
+    },
+    {
+      "path": "opgee/processes/separation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98e98d9379e6e0fe5fa534533356eaf522ed82aa",
+      "size": 10961,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/98e98d9379e6e0fe5fa534533356eaf522ed82aa"
+    },
+    {
+      "path": "opgee/processes/shared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "414dc8ffd388037b336654f251a901ffcabe8647",
+      "size": 5443,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/414dc8ffd388037b336654f251a901ffcabe8647"
+    },
+    {
+      "path": "opgee/processes/sour_gas_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9f9b5a03fbc2f9e7e4eac47e24805340ca77c4",
+      "size": 2589,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9e9f9b5a03fbc2f9e7e4eac47e24805340ca77c4"
+    },
+    {
+      "path": "opgee/processes/sour_gas_injection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "976b1770059e7bf3aecaa3602e3bb68cd2cbfb9f",
+      "size": 1404,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/976b1770059e7bf3aecaa3602e3bb68cd2cbfb9f"
+    },
+    {
+      "path": "opgee/processes/steam_generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67b2011139c5d2e42a16370e0ce274db2e15c80",
+      "size": 10945,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b67b2011139c5d2e42a16370e0ce274db2e15c80"
+    },
+    {
+      "path": "opgee/processes/steam_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a34f0610a8d211686b9609f44e830ab390a608e0",
+      "size": 30622,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a34f0610a8d211686b9609f44e830ab390a608e0"
+    },
+    {
+      "path": "opgee/processes/storage_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8df4b4c74841e356e08896f4948a7b2abf7b72a9",
+      "size": 2487,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8df4b4c74841e356e08896f4948a7b2abf7b72a9"
+    },
+    {
+      "path": "opgee/processes/storage_separator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "316c463bff9f75e83bc1d3a761ad23af9b71a583",
+      "size": 1563,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/316c463bff9f75e83bc1d3a761ad23af9b71a583"
+    },
+    {
+      "path": "opgee/processes/storage_well.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033b156e157313013f33fa268ba3edea9d8a2a5b",
+      "size": 1275,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/033b156e157313013f33fa268ba3edea9d8a2a5b"
+    },
+    {
+      "path": "opgee/processes/transmission_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f723a5bf6ca440e0a2fd669279ee1507c649b5a",
+      "size": 4992,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4f723a5bf6ca440e0a2fd669279ee1507c649b5a"
+    },
+    {
+      "path": "opgee/processes/transport_energy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c160d0dfdde56ef46e83ccd6912e479a67b6c8",
+      "size": 11777,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e8c160d0dfdde56ef46e83ccd6912e479a67b6c8"
+    },
+    {
+      "path": "opgee/processes/venting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31bdaf2ae83b4296ad0f6bf8f210c2e842d7160c",
+      "size": 3688,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/31bdaf2ae83b4296ad0f6bf8f210c2e842d7160c"
+    },
+    {
+      "path": "opgee/processes/water_injection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d6ca4e17fed7e21ed0736c163493d6e366997a",
+      "size": 4228,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/65d6ca4e17fed7e21ed0736c163493d6e366997a"
+    },
+    {
+      "path": "opgee/processes/water_treatment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dfdbcf94388cec3d37fd682126c34860eba099e",
+      "size": 8230,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4dfdbcf94388cec3d37fd682126c34860eba099e"
+    },
+    {
+      "path": "opgee/smart_defaults.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fdca99b90f80d3ab1203a5a8ec61007adbbbab4",
+      "size": 9070,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0fdca99b90f80d3ab1203a5a8ec61007adbbbab4"
+    },
+    {
+      "path": "opgee/stream.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b8838abafb0819f0e4216c8ca171a00d970f9f8",
+      "size": 24528,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6b8838abafb0819f0e4216c8ca171a00d970f9f8"
+    },
+    {
+      "path": "opgee/subcommand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ae6c00e6a8f85f03ff9915e88bb6227f9f68632",
+      "size": 3804,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3ae6c00e6a8f85f03ff9915e88bb6227f9f68632"
+    },
+    {
+      "path": "opgee/table_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2303fded88c487683ca3fc941c05ae106e2a480f",
+      "size": 6223,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2303fded88c487683ca3fc941c05ae106e2a480f"
+    },
+    {
+      "path": "opgee/table_update.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ffeac51cd91d501512bc4b8a56dd3af8ee06a7",
+      "size": 969,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a8ffeac51cd91d501512bc4b8a56dd3af8ee06a7"
+    },
+    {
+      "path": "opgee/tables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3185cf10107206fc03b23b7a2b86ba86e2140858",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/3185cf10107206fc03b23b7a2b86ba86e2140858"
+    },
+    {
+      "path": "opgee/tables/GWP.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f933f43261ad61131d51ef79883ce167f32693e2",
+      "size": 240,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f933f43261ad61131d51ef79883ce167f32693e2"
+    },
+    {
+      "path": "opgee/tables/acid-gas-removal.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd0a1d7e7a474700e79db88a51613dd52cc8149",
+      "size": 13912,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2bd0a1d7e7a474700e79db88a51613dd52cc8149"
+    },
+    {
+      "path": "opgee/tables/bitumen-mining-energy-intensity.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820b3cabc5f090f138cbd60fe37f140436c5740b",
+      "size": 304,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/820b3cabc5f090f138cbd60fe37f140436c5740b"
+    },
+    {
+      "path": "opgee/tables/constants.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9bc833fb063bd94bd3917f3687107c97f55f52c",
+      "size": 635,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f9bc833fb063bd94bd3917f3687107c97f55f52c"
+    },
+    {
+      "path": "opgee/tables/demethanizer.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac36341c3f52e2e41dd803c9386777fa82ef4e77",
+      "size": 3522,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ac36341c3f52e2e41dd803c9386777fa82ef4e77"
+    },
+    {
+      "path": "opgee/tables/fracture-consumption-table.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1ac2f221c183f64901fab9e89b5b1be17c0c3a",
+      "size": 252,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7e1ac2f221c183f64901fab9e89b5b1be17c0c3a"
+    },
+    {
+      "path": "opgee/tables/gas-dehydration.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "072e36ce1306a6e5f7244d2df139b9cb98c8d8e1",
+      "size": 905,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/072e36ce1306a6e5f7244d2df139b9cb98c8d8e1"
+    },
+    {
+      "path": "opgee/tables/gas-turbine-specs.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5165a099de3ec237ca5932d92ce4f7fb5181b614",
+      "size": 248,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5165a099de3ec237ca5932d92ce4f7fb5181b614"
+    },
+    {
+      "path": "opgee/tables/grid_mix_EF.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4cd8e744a42a0637b50fed14c19238f033978c9",
+      "size": 100,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b4cd8e744a42a0637b50fed14c19238f033978c9"
+    },
+    {
+      "path": "opgee/tables/grid_mix_feed.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e80ec880b3897f204e30a349f614e3eb4b2154f",
+      "size": 80,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2e80ec880b3897f204e30a349f614e3eb4b2154f"
+    },
+    {
+      "path": "opgee/tables/heavy-oil-upgrading.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f2a2fd0b9e5cc0b861d38faf9b97c70e84b462",
+      "size": 1474,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d7f2a2fd0b9e5cc0b861d38faf9b97c70e84b462"
+    },
+    {
+      "path": "opgee/tables/horizontal-drilling-energy-intensity.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d98cfa7564888bf3ef88d5ffce03f065630777b6",
+      "size": 391,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d98cfa7564888bf3ef88d5ffce03f065630777b6"
+    },
+    {
+      "path": "opgee/tables/imported-gas-comp.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b17e5dc7d2287b9fef9ab178c80e5793351fdaaa",
+      "size": 426,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b17e5dc7d2287b9fef9ab178c80e5793351fdaaa"
+    },
+    {
+      "path": "opgee/tables/land-use-EF.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4125d9111c323a09706d19709218bf460df5b450",
+      "size": 474,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4125d9111c323a09706d19709218bf460df5b450"
+    },
+    {
+      "path": "opgee/tables/loss-matrix-gas.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96536be471eb875b068547b2e611dbbaaa8f27d5",
+      "size": 7382828,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/96536be471eb875b068547b2e611dbbaaa8f27d5"
+    },
+    {
+      "path": "opgee/tables/loss-matrix-oil.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d39ef612f4dd524653658e555ec97d768807242",
+      "size": 5027046,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5d39ef612f4dd524653658e555ec97d768807242"
+    },
+    {
+      "path": "opgee/tables/process-specific-EF.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6811517871ae3fd5ebb3e354155a3e2311ae3d46",
+      "size": 3688,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6811517871ae3fd5ebb3e354155a3e2311ae3d46"
+    },
+    {
+      "path": "opgee/tables/product-combustion-coeff.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ff37f476345dea2a33c4f3581ca092eb3e5a2c",
+      "size": 562,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e2ff37f476345dea2a33c4f3581ca092eb3e5a2c"
+    },
+    {
+      "path": "opgee/tables/productivity-gas.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "055ce5f51a6081a6a308a11cf2ef6ce3f2591343",
+      "size": 778,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/055ce5f51a6081a6a308a11cf2ef6ce3f2591343"
+    },
+    {
+      "path": "opgee/tables/productivity-oil.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c528370e08924e57f385238ec8e75b1aef410f51",
+      "size": 779,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c528370e08924e57f385238ec8e75b1aef410f51"
+    },
+    {
+      "path": "opgee/tables/pubchem-cid.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb22237a3aa4a2679473b8fbdec7d1bc2c7d3eab",
+      "size": 300,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/cb22237a3aa4a2679473b8fbdec7d1bc2c7d3eab"
+    },
+    {
+      "path": "opgee/tables/reaction-combustion-coeff.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd35542231fd9845eac8fa7ace2e421642bc63e",
+      "size": 610,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8dd35542231fd9845eac8fa7ace2e421642bc63e"
+    },
+    {
+      "path": "opgee/tables/ryan-holmes-process.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993aaa0bfd4653d4323b028b1648ace794d2020c",
+      "size": 984,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/993aaa0bfd4653d4323b028b1648ace794d2020c"
+    },
+    {
+      "path": "opgee/tables/separator_capacity.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec4d9020ea2e06a79324cb3985d6c88119ddb68",
+      "size": 874,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6ec4d9020ea2e06a79324cb3985d6c88119ddb68"
+    },
+    {
+      "path": "opgee/tables/site-fugitive-processing-unit-breakdown.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9542f645d0c5d3ec8a0ed5b1a7dbbf996e867455",
+      "size": 98,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9542f645d0c5d3ec8a0ed5b1a7dbbf996e867455"
+    },
+    {
+      "path": "opgee/tables/stationary-application-EF.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f37ffab2bc440d3ed2ce160e0dab467a02b336",
+      "size": 1257,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e8f37ffab2bc440d3ed2ce160e0dab467a02b336"
+    },
+    {
+      "path": "opgee/tables/transport-by-mode.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9d0ebdf36e6793545835fef09eed0e553200b41",
+      "size": 461,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b9d0ebdf36e6793545835fef09eed0e553200b41"
+    },
+    {
+      "path": "opgee/tables/transport-parameter.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640dc3723b8bc2fca4db921cc774fd041cd02093",
+      "size": 819,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/640dc3723b8bc2fca4db921cc774fd041cd02093"
+    },
+    {
+      "path": "opgee/tables/transport-share-fuel.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3314f3788411c5ceabb1f7387b6880cf79e42aa4",
+      "size": 536,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3314f3788411c5ceabb1f7387b6880cf79e42aa4"
+    },
+    {
+      "path": "opgee/tables/transport-specific-EF.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb11d2e48162034a049770267a7cc7e28b44c046",
+      "size": 765,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/bb11d2e48162034a049770267a7cc7e28b44c046"
+    },
+    {
+      "path": "opgee/tables/upstream-CI.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf0023b91056ac08e07394e14d527b7451e7321",
+      "size": 192,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3cf0023b91056ac08e07394e14d527b7451e7321"
+    },
+    {
+      "path": "opgee/tables/vertical-drilling-energy-intensity.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8a4878db11c75a8d06032ca5d8c552f6e59634",
+      "size": 648,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ed8a4878db11c75a8d06032ca5d8c552f6e59634"
+    },
+    {
+      "path": "opgee/tables/water-treatment.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af84e7d986bf5b4748af743144320243a7d2c18",
+      "size": 1006,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3af84e7d986bf5b4748af743144320243a7d2c18"
+    },
+    {
+      "path": "opgee/tables/well-completion-and-workover-C1-rate.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0fff6d90c142776abb9f041dab1e291ed5bcb1",
+      "size": 506,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ec0fff6d90c142776abb9f041dab1e291ed5bcb1"
+    },
+    {
+      "path": "opgee/thermodynamics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1928b8b9139b7d94def0d6523c769b3dd1710cd7",
+      "size": 48834,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1928b8b9139b7d94def0d6523c769b3dd1710cd7"
+    },
+    {
+      "path": "opgee/tool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d74b263dab511c8e3f14fbdd89516afcc1485859",
+      "size": 12244,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d74b263dab511c8e3f14fbdd89516afcc1485859"
+    },
+    {
+      "path": "opgee/units.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b377def6bcb713eb6c7987d124094ce4f96a2ca",
+      "size": 2116,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6b377def6bcb713eb6c7987d124094ce4f96a2ca"
+    },
+    {
+      "path": "opgee/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbbe9ea11c3ec636fab43d149460e52e7d16e60b",
+      "size": 9351,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/cbbe9ea11c3ec636fab43d149460e52e7d16e60b"
+    },
+    {
+      "path": "opgee/version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3821b137254e971dc229147d9e6615c8109a171",
+      "size": 52,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d3821b137254e971dc229147d9e6615c8109a171"
+    },
+    {
+      "path": "opgee/version.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "20743314fb0a774657839f501c0692b1008d27bc",
+      "size": 199,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/20743314fb0a774657839f501c0692b1008d27bc"
+    },
+    {
+      "path": "opgee/xml_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1175da72a25567213be09e2a989a5aec6341dbe",
+      "size": 7712,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f1175da72a25567213be09e2a989a5aec6341dbe"
+    },
+    {
+      "path": "output.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f60bc6e444e4e9f0744d34d03c8873ff856f7df",
+      "size": 35686,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5f60bc6e444e4e9f0744d34d03c8873ff856f7df"
+    },
+    {
+      "path": "py3-opgee.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3d3c68049364801c10d71bcb04dfbc5d7763e32",
+      "size": 436,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e3d3c68049364801c10d71bcb04dfbc5d7763e32"
+    },
+    {
+      "path": "qodana.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e3e499b957f7121388a984709c7f2c2916399a",
+      "size": 992,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/84e3e499b957f7121388a984709c7f2c2916399a"
+    },
+    {
+      "path": "rebuild-opgee.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819ded3ea6d27208b724ada0373f03402d6d0ab2",
+      "size": 169,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/819ded3ea6d27208b724ada0373f03402d6d0ab2"
+    },
+    {
+      "path": "requirements.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8017d83d34c0aab0a1f0c4f7ab3cd2937da3eb",
+      "size": 292,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ef8017d83d34c0aab0a1f0c4f7ab3cd2937da3eb"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0227cb525c14a0a55620092e27f407dca160a6ea",
+      "size": 562,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0227cb525c14a0a55620092e27f407dca160a6ea"
+    },
+    {
+      "path": "setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08aedd7e61b9921f0a7844c3826bda5c611bc5e2",
+      "size": 40,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/08aedd7e61b9921f0a7844c3826bda5c611bc5e2"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f59a4d46db8c10e409845308ff51447744284a",
+      "size": 1372,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a7f59a4d46db8c10e409845308ff51447744284a"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb0949a7251a24c76137e1107059bc27c640be50",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/cb0949a7251a24c76137e1107059bc27c640be50"
+    },
+    {
+      "path": "tests/BROKEN_test_smart_defaults.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383a9832f5c918a0be9659f9104ad8c42f0c9e68",
+      "size": 1968,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/383a9832f5c918a0be9659f9104ad8c42f0c9e68"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eb9cb569d1b3cd30d847d159f20c98ad95b4e83",
+      "size": 1088,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1eb9cb569d1b3cd30d847d159f20c98ad95b4e83"
+    },
+    {
+      "path": "tests/files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0e324d02d9875e38e1f7f69c0fdc1e8986e1aac",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/c0e324d02d9875e38e1f7f69c0fdc1e8986e1aac"
+    },
+    {
+      "path": "tests/files/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/files/bad_model.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61da1f8aff2dbfe297278a014c65474245a03990",
+      "size": 675,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/61da1f8aff2dbfe297278a014c65474245a03990"
+    },
+    {
+      "path": "tests/files/broken_post_proc_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4439f58ce464248a263a5d30684fa502dd5abd",
+      "size": 87,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/eb4439f58ce464248a263a5d30684fa502dd5abd"
+    },
+    {
+      "path": "tests/files/gas_lifting_field.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ef0325c512783f38db45557ec4490ad3f9758b9",
+      "size": 3364,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0ef0325c512783f38db45557ec4490ad3f9758b9"
+    },
+    {
+      "path": "tests/files/opgee.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968bfad4b6ab6f77a599aa740beb6949b19e5ade",
+      "size": 134,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/968bfad4b6ab6f77a599aa740beb6949b19e5ade"
+    },
+    {
+      "path": "tests/files/output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/files/post-proc-plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0eed9a575686063c158c2b1644d3a740ff487c81",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/0eed9a575686063c158c2b1644d3a740ff487c81"
+    },
+    {
+      "path": "tests/files/post-proc-plugins/1_post_processor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a20869c643ba409bcf8b543b19110e621068504",
+      "size": 546,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1a20869c643ba409bcf8b543b19110e621068504"
+    },
+    {
+      "path": "tests/files/post-proc-plugins/2_post_processor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6450af25b55896777c238c0178b9d7f0dbe9b4c1",
+      "size": 546,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6450af25b55896777c238c0178b9d7f0dbe9b4c1"
+    },
+    {
+      "path": "tests/files/simple_post_processor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b95dc1dcc721c341d5dea3bb824052dec105b679",
+      "size": 686,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b95dc1dcc721c341d5dea3bb824052dec105b679"
+    },
+    {
+      "path": "tests/files/test-fields-10.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee51728c7d88fb1afc31c7b256110854adbe1c28",
+      "size": 5623,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ee51728c7d88fb1afc31c7b256110854adbe1c28"
+    },
+    {
+      "path": "tests/files/test-fields-3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6f2a0da024719f2772116bc3fecad66461358e9",
+      "size": 7620,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a6f2a0da024719f2772116bc3fecad66461358e9"
+    },
+    {
+      "path": "tests/files/test-fields-9000.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c88de6edd5f5be16e3514c06e16af98b2387cdb",
+      "size": 22709118,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/2c88de6edd5f5be16e3514c06e16af98b2387cdb"
+    },
+    {
+      "path": "tests/files/test-fields.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd099affd1a3cf9c1d8cf4abf5e2b421a4d08e17",
+      "size": 104842,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/fd099affd1a3cf9c1d8cf4abf5e2b421a4d08e17"
+    },
+    {
+      "path": "tests/files/test_attr_constraints_1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225be7ed44ddd689637b1ed687d1f76b9be24741",
+      "size": 900,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/225be7ed44ddd689637b1ed687d1f76b9be24741"
+    },
+    {
+      "path": "tests/files/test_attr_constraints_2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f610827a9649c416f3dd99b9f0530acf8a14cc5",
+      "size": 879,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/5f610827a9649c416f3dd99b9f0530acf8a14cc5"
+    },
+    {
+      "path": "tests/files/test_attr_constraints_3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1680592b05d235a3e9289db406e1f134261004c8",
+      "size": 925,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1680592b05d235a3e9289db406e1f134261004c8"
+    },
+    {
+      "path": "tests/files/test_boundary.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1b666782bf9458511cbedaad4be2e0e4e4c5d3f",
+      "size": 3150,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f1b666782bf9458511cbedaad4be2e0e4e4c5d3f"
+    },
+    {
+      "path": "tests/files/test_boundary_procs.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "639fa961eb0f27814a0bfc0628d266a4ec30bbf5",
+      "size": 1177,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/639fa961eb0f27814a0bfc0628d266a4ec30bbf5"
+    },
+    {
+      "path": "tests/files/test_fields.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244fdfef3d0a09326bf7f9d5231856858fedf501",
+      "size": 2579,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/244fdfef3d0a09326bf7f9d5231856858fedf501"
+    },
+    {
+      "path": "tests/files/test_gui.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02cb2dc914f4a54e20008a072e0c6b89d2dd5a51",
+      "size": 5685,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/02cb2dc914f4a54e20008a072e0c6b89d2dd5a51"
+    },
+    {
+      "path": "tests/files/test_impute_model_bad.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aea4df29cb8c67cd5b487fe88b74d3e9e19f682b",
+      "size": 1356,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/aea4df29cb8c67cd5b487fe88b74d3e9e19f682b"
+    },
+    {
+      "path": "tests/files/test_impute_model_good.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22222f7639266386aac6dd56f77153fd2bebd9df",
+      "size": 1518,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/22222f7639266386aac6dd56f77153fd2bebd9df"
+    },
+    {
+      "path": "tests/files/test_mcs.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f5fea6b540e8c74e9d855bbb4c71a857c3623c1",
+      "size": 744,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0f5fea6b540e8c74e9d855bbb4c71a857c3623c1"
+    },
+    {
+      "path": "tests/files/test_merge_1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d319be68b2dfc588fdf846744f46aa1f31cb051d",
+      "size": 887,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d319be68b2dfc588fdf846744f46aa1f31cb051d"
+    },
+    {
+      "path": "tests/files/test_merge_2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20277ddf04e89c02b566a76d3ba3ef846d2564a8",
+      "size": 599,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/20277ddf04e89c02b566a76d3ba3ef846d2564a8"
+    },
+    {
+      "path": "tests/files/test_merge_3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea7184c80055331733a6259ecdcc7eac98c45cc",
+      "size": 838,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7ea7184c80055331733a6259ecdcc7eac98c45cc"
+    },
+    {
+      "path": "tests/files/test_model.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "289afa851a408adb0ca2a19745ecfc47247b94b9",
+      "size": 46765,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/289afa851a408adb0ca2a19745ecfc47247b94b9"
+    },
+    {
+      "path": "tests/files/test_model2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bb5e0150d9e73c52f1f1821b58935e605df35db",
+      "size": 1678,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1bb5e0150d9e73c52f1f1821b58935e605df35db"
+    },
+    {
+      "path": "tests/files/test_process_groups.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d08c08db85d70463267e985e06e001cdf50118b",
+      "size": 19907,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6d08c08db85d70463267e985e06e001cdf50118b"
+    },
+    {
+      "path": "tests/files/test_process_loop_model.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff6abd007ac2551bbb139fe9b43367cf39662dd",
+      "size": 2472,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1ff6abd007ac2551bbb139fe9b43367cf39662dd"
+    },
+    {
+      "path": "tests/files/test_run_subcmd.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e6eb6462755b88030434a3947c34695fc43e49",
+      "size": 812,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e1e6eb6462755b88030434a3947c34695fc43e49"
+    },
+    {
+      "path": "tests/files/test_stream.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b9dd1fca3a36536eedbe312b4e9b11822eb9039",
+      "size": 2121,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8b9dd1fca3a36536eedbe312b4e9b11822eb9039"
+    },
+    {
+      "path": "tests/files/test_table.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01688c4fc096909f0e6d090c19dd88acd047a8e",
+      "size": 72,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e01688c4fc096909f0e6d090c19dd88acd047a8e"
+    },
+    {
+      "path": "tests/files/user_processes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2e1faec9494e8ec9c19218d6a4bdb46c8736601",
+      "size": 847,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/f2e1faec9494e8ec9c19218d6a4bdb46c8736601"
+    },
+    {
+      "path": "tests/processes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b023b2c48303e44ffe75add3b5082e75aa6c9ecf",
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/trees/b023b2c48303e44ffe75add3b5082e75aa6c9ecf"
+    },
+    {
+      "path": "tests/processes/test_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4aa4f3a136b5b210219d927233aef14183210fd",
+      "size": 1345,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/d4aa4f3a136b5b210219d927233aef14183210fd"
+    },
+    {
+      "path": "tests/test_attr_constraints.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d06862414f694a825be95a4180fc97bb538ab01",
+      "size": 765,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8d06862414f694a825be95a4180fc97bb538ab01"
+    },
+    {
+      "path": "tests/test_attributes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a99dd4091cbef749ec7e19ab8256251a6f844268",
+      "size": 3537,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/a99dd4091cbef749ec7e19ab8256251a6f844268"
+    },
+    {
+      "path": "tests/test_boundary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d029840e3fd8a49cf047c990864007cff0d5796",
+      "size": 528,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3d029840e3fd8a49cf047c990864007cff0d5796"
+    },
+    {
+      "path": "tests/test_boundary_procs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b759402f64ced9a47c51fa287f6291c27ac746f",
+      "size": 895,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4b759402f64ced9a47c51fa287f6291c27ac746f"
+    },
+    {
+      "path": "tests/test_coeff.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e84e4faf3c29034dd4e28a4dc3ebfb6636b28da",
+      "size": 1275,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/6e84e4faf3c29034dd4e28a4dc3ebfb6636b28da"
+    },
+    {
+      "path": "tests/test_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7eb761b3c862db475eb9998a5e22a5bf527a4c4",
+      "size": 2158,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c7eb761b3c862db475eb9998a5e22a5bf527a4c4"
+    },
+    {
+      "path": "tests/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7b1740ca87d248639362f659d18ae3fec9cfdb",
+      "size": 3923,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/be7b1740ca87d248639362f659d18ae3fec9cfdb"
+    },
+    {
+      "path": "tests/test_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8900c1b571835cfcc84980fdf3c322773c18de73",
+      "size": 1816,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/8900c1b571835cfcc84980fdf3c322773c18de73"
+    },
+    {
+      "path": "tests/test_csv2xml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b198e45ece4f6c5363eabc3f8f166951b051f1c9",
+      "size": 1070,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/b198e45ece4f6c5363eabc3f8f166951b051f1c9"
+    },
+    {
+      "path": "tests/test_distributed_mcs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b2e9f76feb127d6fd29d2f68fb02b4ff7a0eeff",
+      "size": 738,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9b2e9f76feb127d6fd29d2f68fb02b4ff7a0eeff"
+    },
+    {
+      "path": "tests/test_emissions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a712e15f58029ab2b8066f2d2202a24f8473378",
+      "size": 3187,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0a712e15f58029ab2b8066f2d2202a24f8473378"
+    },
+    {
+      "path": "tests/test_energy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc074f0d1062dd5a095876c2d3eab6fd3cd34060",
+      "size": 2059,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/dc074f0d1062dd5a095876c2d3eab6fd3cd34060"
+    },
+    {
+      "path": "tests/test_field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c64f44b343da3538d165a65cd9b214334525a1fd",
+      "size": 3342,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/c64f44b343da3538d165a65cd9b214334525a1fd"
+    },
+    {
+      "path": "tests/test_field_groups.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497a2ceee080692f6f11fc52810b3aaa8d329fed",
+      "size": 1679,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/497a2ceee080692f6f11fc52810b3aaa8d329fed"
+    },
+    {
+      "path": "tests/test_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "190fad62e47955a9456f25d9e51bd35d8a8370f9",
+      "size": 1158,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/190fad62e47955a9456f25d9e51bd35d8a8370f9"
+    },
+    {
+      "path": "tests/test_import_export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1bb032c8e9a2228fd4387af66edd84961d9f329",
+      "size": 1221,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/e1bb032c8e9a2228fd4387af66edd84961d9f329"
+    },
+    {
+      "path": "tests/test_impute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b915072d51962e18b4623e33c8a913d851fb6a0",
+      "size": 1240,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3b915072d51962e18b4623e33c8a913d851fb6a0"
+    },
+    {
+      "path": "tests/test_intermediate_boundary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1acf3fec1cf8762f2eee5a9d65c32e6516812742",
+      "size": 3549,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1acf3fec1cf8762f2eee5a9d65c32e6516812742"
+    },
+    {
+      "path": "tests/test_mcs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbe72af64a73f3c90532fa8f6170814d49b3b49",
+      "size": 5871,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/acbe72af64a73f3c90532fa8f6170814d49b3b49"
+    },
+    {
+      "path": "tests/test_merge_xml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48de2e99fecc62674755d451de884a1d1f573515",
+      "size": 4601,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/48de2e99fecc62674755d451de884a1d1f573515"
+    },
+    {
+      "path": "tests/test_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d3e0bd09d098b52f30d4f31407289bc94529475",
+      "size": 1661,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4d3e0bd09d098b52f30d4f31407289bc94529475"
+    },
+    {
+      "path": "tests/test_model_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa898a572574230fc847b5ae6199f4fa1c93cd3c",
+      "size": 2488,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/aa898a572574230fc847b5ae6199f4fa1c93cd3c"
+    },
+    {
+      "path": "tests/test_molecule_names.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "750e97d8555e44ba75cb7c8a844d1834cc1172aa",
+      "size": 748,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/750e97d8555e44ba75cb7c8a844d1834cc1172aa"
+    },
+    {
+      "path": "tests/test_opgee_xml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0062fcd5e86466807dded0773b9eb0112bfac6aa",
+      "size": 556,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/0062fcd5e86466807dded0773b9eb0112bfac6aa"
+    },
+    {
+      "path": "tests/test_packet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b803b8b82ce6c2b048c42d1a10766943f77390",
+      "size": 908,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/45b803b8b82ce6c2b048c42d1a10766943f77390"
+    },
+    {
+      "path": "tests/test_post_proc_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70c2d8d00302133f1e969c3f6833e6e5d3db911a",
+      "size": 4738,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/70c2d8d00302133f1e969c3f6833e6e5d3db911a"
+    },
+    {
+      "path": "tests/test_process_groups.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63cb929b7b10895b2466fa8ccc5a44144bf823d1",
+      "size": 1672,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/63cb929b7b10895b2466fa8ccc5a44144bf823d1"
+    },
+    {
+      "path": "tests/test_process_loop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34968c2ea5f5b1d09f37a57b458075b5596a2c16",
+      "size": 2945,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/34968c2ea5f5b1d09f37a57b458075b5596a2c16"
+    },
+    {
+      "path": "tests/test_processes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3148ed71654ef8476c34145f270b5c2b056ece7e",
+      "size": 26244,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3148ed71654ef8476c34145f270b5c2b056ece7e"
+    },
+    {
+      "path": "tests/test_run_subcmd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abb116b37264b206da19872bd28ce464a53d2ac6",
+      "size": 5532,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/abb116b37264b206da19872bd28ce464a53d2ac6"
+    },
+    {
+      "path": "tests/test_shared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9027a38210e76955ec6ff2750cb6cc9bc1ec437b",
+      "size": 82,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/9027a38210e76955ec6ff2750cb6cc9bc1ec437b"
+    },
+    {
+      "path": "tests/test_smart_defaults.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da1e5c90ad77e3e28e2eaee4a9ac8e6580a9d2af",
+      "size": 1351,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/da1e5c90ad77e3e28e2eaee4a9ac8e6580a9d2af"
+    },
+    {
+      "path": "tests/test_stream.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dd72dfe6f1d9e3cc01060893a5584889447e00c",
+      "size": 4279,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/1dd72dfe6f1d9e3cc01060893a5584889447e00c"
+    },
+    {
+      "path": "tests/test_table_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ba4b7b93d0129b1342c05b38b148820ca094e15",
+      "size": 821,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/7ba4b7b93d0129b1342c05b38b148820ca094e15"
+    },
+    {
+      "path": "tests/test_thermofunction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f76332d63fd2f6e747eb1b925749e80e6f37be",
+      "size": 16455,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/01f76332d63fd2f6e747eb1b925749e80e6f37be"
+    },
+    {
+      "path": "tests/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3875c55fd5ac16a04072522f362f9c6d847ae202",
+      "size": 2331,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/3875c55fd5ac16a04072522f362f9c6d847ae202"
+    },
+    {
+      "path": "tests/test_xml_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "196ac5f2916298794d303071bb3833056c05c5e5",
+      "size": 1166,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/196ac5f2916298794d303071bb3833056c05c5e5"
+    },
+    {
+      "path": "tests/utils_for_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef22275b8c078b3ab05501df79d9932788374e68",
+      "size": 2251,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/ef22275b8c078b3ab05501df79d9932788374e68"
+    },
+    {
+      "path": "update-reqs.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4ca436374920c907f6a23f35a8fcb4de8a3d30cd",
+      "size": 1146,
+      "url": "https://api.github.com/repos/msmasnadi/OPGEEv4/git/blobs/4ca436374920c907f6a23f35a8fcb4de8a3d30cd"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-a5c-ai__babysitter.json",
+    "filename": "github-1611-tree-a5c-ai__babysitter.json",
+    "size_bytes": 4555096,
+    "sha256": "99ad6463d79714a2fda383153d93f56bf9bdf19f6153888c33351efeeb29a0ba",
+    "reason": "Large no-model repository tree snapshot pruned from current run artifacts; summary retained in inspected/skipped JSON."
+  },
+  {
+    "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-cambridge-cares__TheWorldAvatar.json",
+    "filename": "github-1611-tree-cambridge-cares__TheWorldAvatar.json",
+    "size_bytes": 12176303,
+    "sha256": "2534cc11c9b7eecb9636f5bf3bfa23a9ed38ead5a2968d9c5932ea753ad2c03f",
+    "reason": "Large no-model repository tree snapshot pruned from current run artifacts; summary retained in inspected/skipped JSON."
+  },
+  {
+    "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-emeraldsci__SymbolicLabLanguage.json",
+    "filename": "github-1611-tree-emeraldsci__SymbolicLabLanguage.json",
+    "size_bytes": 1792312,
+    "sha256": "87c991c18f0e8377cdd2e728a6cb0b82eed4a8cc14a2aced1cb9185e05f9477c",
+    "reason": "Large no-model repository tree snapshot pruned from current run artifacts; summary retained in inspected/skipped JSON."
+  },
+  {
+    "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-equinor__neqsim.json",
+    "filename": "github-1611-tree-equinor__neqsim.json",
+    "size_bytes": 2063141,
+    "sha256": "70a9df6a8162b32eeeee78eaa9c34c3e7969587d64c082bf8ec488988dc33c5a",
+    "reason": "Large no-model repository tree snapshot pruned from current run artifacts; summary retained in inspected/skipped JSON."
+  }
+]

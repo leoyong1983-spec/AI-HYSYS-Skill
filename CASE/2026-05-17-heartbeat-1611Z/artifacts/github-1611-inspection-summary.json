@@ -1,0 +1,213 @@
+{
+  "inspected_count": 20,
+  "model_bearing_count": 2,
+  "skipped_no_model_count": 18,
+  "api_errors": [
+    {
+      "repo": "Ahmedhassan676/Python4ChemicalEngineers",
+      "stage": "tree",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "ai-se/Resume_Job_Matching",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "alphanumericslab/OSET",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "alvinlim86/Neo4J",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "alvinlim86/SIS_HYSYS",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "andr1976/HydDown",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "anggou/3Dprint",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "arbrandt/OPGEE",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "aungshu30/aungshu30.github.io",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "CalebBell/thermo",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "chihsuan/search-engine",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "cirosantilli/cirosantilli.github.io",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "cognitedata/dotnet-simulator-utils",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "CSQianDong/Awesome-arXiv-Daily-Reporter",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "daemon9999/UTP-Company",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "dnyanrajnemane13/portfolio",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "EmPajak21/multiagentllms",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "Eng-fwzan/mech-ai-platform",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "facebook/fboss",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "faridazrighani/ghaniSIM",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "forensenellanebbia/xways-forensics",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "gga122/ZHYCodingModel",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "goleisobutane-spec/DGSim",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "Gualcar/ThermoPackage",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "happyfella1/had",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "HJReachability/learning_feedback_linearization",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "JaredYe04/news-bot",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "jessicabavaresco/most-incompatible-measurements",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "kpatvt/sim21",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "LearnwithRian/Keteknikkimiaan-website",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "LizandroProjects/SLP_UTGCAB_v20",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "LizandroProjects/SLP_UTGCAB_v21",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "MMatheusB/UFBA",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "Mohammadreza-Sahabi/Sample",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "mustafaChemEng/mustafaChemEng",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "mwitman1/AwesomeCV",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "nmosk/design2015",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "nordic-cad-tools/state_space_sandbox",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "NowfSalim/Blog-Project",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "ORS-Consulting/ORS-openthermo",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "petermr/CEVOpen",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    }
+  ],
+  "classification_note": "Corrected generic XML false positives; only .hsc/.hscz/.compound or path-explicit HYSYS XML counts as model-bearing."
+}

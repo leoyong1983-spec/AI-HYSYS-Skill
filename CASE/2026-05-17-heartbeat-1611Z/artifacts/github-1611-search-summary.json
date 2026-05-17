@@ -1,0 +1,84 @@
+{
+  "code_searches": [
+    {
+      "query": "HYSYS",
+      "extra": [
+        "--extension",
+        "py"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hysys-py.json",
+      "items": 40
+    },
+    {
+      "query": "Aspen HYSYS",
+      "extra": [],
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-aspen-hysys-any.json",
+      "items": 40
+    },
+    {
+      "query": ".hsc HYSYS",
+      "extra": [],
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hsc-hysys-any.json",
+      "items": 0
+    },
+    {
+      "query": "HYSYS",
+      "extra": [
+        "--extension",
+        "m"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hysys-matlab.json",
+      "items": 40
+    },
+    {
+      "query": "win32com.client HYSYS",
+      "extra": [
+        "--extension",
+        "py"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-win32com-hysys-py.json",
+      "items": 0
+    },
+    {
+      "query": "HYSYS simulation files",
+      "extra": [],
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hysys-simulation-files.json",
+      "items": 4
+    }
+  ],
+  "code_errors": [],
+  "repo_searches": [
+    {
+      "query": "Aspen HYSYS hsc",
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-Aspen__HYSYS__hsc.json",
+      "total_count": 0,
+      "items": 0
+    },
+    {
+      "query": "HYSYS case file",
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-HYSYS__case__file.json",
+      "total_count": 3,
+      "items": 3
+    },
+    {
+      "query": "Aspen HYSYS Python COM",
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-Aspen__HYSYS__Python__COM.json",
+      "total_count": 1,
+      "items": 1
+    },
+    {
+      "query": "HYSYS optimization case",
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-HYSYS__optimization__case.json",
+      "total_count": 1,
+      "items": 1
+    },
+    {
+      "query": "HYSYS simulation Aspen license MIT",
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-HYSYS__simulation__Aspen__license__MIT.json",
+      "total_count": 0,
+      "items": 0
+    }
+  ],
+  "repo_errors": [],
+  "unique_repositories": 87
+}

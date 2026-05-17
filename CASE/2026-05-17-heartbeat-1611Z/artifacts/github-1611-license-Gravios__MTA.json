@@ -1,0 +1,25 @@
+{
+  "name": "LICENSE.txt",
+  "path": "LICENSE.txt",
+  "sha": "ca4570034e921bb81547681c76110b9d2422d487",
+  "size": 1076,
+  "url": "https://api.github.com/repos/Gravios/MTA/contents/LICENSE.txt?ref=master",
+  "html_url": "https://github.com/Gravios/MTA/blob/master/LICENSE.txt",
+  "git_url": "https://api.github.com/repos/Gravios/MTA/git/blobs/ca4570034e921bb81547681c76110b9d2422d487",
+  "download_url": "https://raw.githubusercontent.com/Gravios/MTA/master/LICENSE.txt",
+  "type": "file",
+  "content": "Q29weXJpZ2h0IDIwMTAgSnVzdGluIEdyYWJvc2tpCgpQZXJtaXNzaW9uIGlz\nIGhlcmVieSBncmFudGVkLCBmcmVlIG9mIGNoYXJnZSwgdG8gYW55IHBlcnNv\nbiBvYnRhaW5pbmcgYSBjb3B5IG9mIAp0aGlzIHNvZnR3YXJlIGFuZCBhc3Nv\nY2lhdGVkIGRvY3VtZW50YXRpb24gZmlsZXMgKHRoZSDigJxTb2Z0d2FyZeKA\nnSksIHRvIGRlYWwgaW4gCnRoZSBTb2Z0d2FyZSB3aXRob3V0IHJlc3RyaWN0\naW9uLCBpbmNsdWRpbmcgd2l0aG91dCBsaW1pdGF0aW9uIHRoZSByaWdodHMg\ndG8gdXNlLCAKY29weSwgbW9kaWZ5LCBtZXJnZSwgcHVibGlzaCwgZGlzdHJp\nYnV0ZSwgc3VibGljZW5zZSwgYW5kL29yIHNlbGwgY29waWVzIG9mIHRoZSAK\nU29mdHdhcmUsIGFuZCB0byBwZXJtaXQgcGVyc29ucyB0byB3aG9tIHRoZSBT\nb2Z0d2FyZSBpcyBmdXJuaXNoZWQgdG8gZG8gc28sIApzdWJqZWN0IHRvIHRo\nZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKClRoZSBhYm92ZSBjb3B5cmlnaHQg\nbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIHNoYWxsIGJlIGlu\nY2x1ZGVkIGluIGFsbCAKY29waWVzIG9yIHN1YnN0YW50aWFsIHBvcnRpb25z\nIG9mIHRoZSBTb2Z0d2FyZS4KClRIRSBTT0ZUV0FSRSBJUyBQUk9WSURFRCDi\ngJxBUyBJU+KAnSwgV0lUSE9VVCBXQVJSQU5UWSBPRiBBTlkgS0lORCwgCkVY\nUFJFU1MgT1IgSU1QTElFRCwgSU5DTFVESU5HIEJVVCBOT1QgTElNSVRFRCBU\nTyBUSEUgV0FSUkFOVElFUyAKT0YgTUVSQ0hBTlRBQklMSVRZLCBGSVRORVNT\nIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgCk5PTklORlJJTkdFTUVO\nVC4gSU4gTk8gRVZFTlQgU0hBTEwgVEhFIEFVVEhPUlMgT1IgQ09QWVJJR0hU\nIApIT0xERVJTIEJFIExJQUJMRSBGT1IgQU5ZIENMQUlNLCBEQU1BR0VTIE9S\nIE9USEVSIExJQUJJTElUWSwgCldIRVRIRVIgSU4gQU4gQUNUSU9OIE9GIENP\nTlRSQUNULCBUT1JUIE9SIE9USEVSV0lTRSwgQVJJU0lORyAKRlJPTSwgT1VU\nIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgU09GVFdBUkUgT1IgVEhF\nIFVTRSBPUiAKT1RIRVIgREVBTElOR1MgSU4gVEhFIFNPRlRXQVJFLgo=\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/Gravios/MTA/contents/LICENSE.txt?ref=master",
+    "git": "https://api.github.com/repos/Gravios/MTA/git/blobs/ca4570034e921bb81547681c76110b9d2422d487",
+    "html": "https://github.com/Gravios/MTA/blob/master/LICENSE.txt"
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  }
+}

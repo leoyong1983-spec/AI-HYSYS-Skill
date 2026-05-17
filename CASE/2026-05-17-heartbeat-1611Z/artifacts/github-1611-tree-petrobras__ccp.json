@@ -1,0 +1,1387 @@
+{
+  "sha": "8499ada73dfc5e31484e27b9c9360d32afdc056e",
+  "url": "https://api.github.com/repos/petrobras/ccp/git/trees/8499ada73dfc5e31484e27b9c9360d32afdc056e",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "440efc84c78ec6890286b482b76e9fbd053318fa",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/440efc84c78ec6890286b482b76e9fbd053318fa"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c25f3984807008931fd6c2564d981b235b394648",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/c25f3984807008931fd6c2564d981b235b394648"
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c290dff51b7e9a3959eeb5aac16d2871166b67d",
+      "size": 784,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/2c290dff51b7e9a3959eeb5aac16d2871166b67d"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45add9ada9dd4b101b6b9ceab77469376e49c66a",
+      "size": 1483,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/45add9ada9dd4b101b6b9ceab77469376e49c66a"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f61ed8b58e8a8a00192dcd962a268d0b22152c",
+      "size": 217,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e0f61ed8b58e8a8a00192dcd962a268d0b22152c"
+    },
+    {
+      "path": ".readthedocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69aec1190f18f2aef3eed6d54260891d19b1fa5b",
+      "size": 246,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/69aec1190f18f2aef3eed6d54260891d19b1fa5b"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08f82e5621507454976d1c37e807c03f5055896",
+      "size": 688,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a08f82e5621507454976d1c37e807c03f5055896"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d483800fa3cc519a5c5bbfcbfbbde70c663b1a4",
+      "size": 4679,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/3d483800fa3cc519a5c5bbfcbfbbde70c663b1a4"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46493f23ebd6a20a03a023fecefd5a1f01a1f90c",
+      "size": 6835,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/46493f23ebd6a20a03a023fecefd5a1f01a1f90c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fa4af0d082f36df51247cfdb4f96bf99f4cc912",
+      "size": 8005,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/5fa4af0d082f36df51247cfdb4f96bf99f4cc912"
+    },
+    {
+      "path": "CONTRIBUTOR_LICENSE_AGREEMENT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8759830e07552beedb9ec6f6facd77083828aafd",
+      "size": 736,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/8759830e07552beedb9ec6f6facd77083828aafd"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e71a11d8044fde63f8aea173e2cb7ba4a31cc1f",
+      "size": 11355,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/9e71a11d8044fde63f8aea173e2cb7ba4a31cc1f"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2730f9deba307428c3379fb8a908c465e3e849e6",
+      "size": 58,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/2730f9deba307428c3379fb8a908c465e3e849e6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e881ca15a6f00e5c791603a2a3dc4d2e520613d2",
+      "size": 2070,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e881ca15a6f00e5c791603a2a3dc4d2e520613d2"
+    },
+    {
+      "path": "build",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13a55ea6135a10c06da58f8d79109d01d8e1328c",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/13a55ea6135a10c06da58f8d79109d01d8e1328c"
+    },
+    {
+      "path": "build/ccp_app.spec",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b30fa139917c65342184669b0d5d8c204659ee",
+      "size": 6156,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/35b30fa139917c65342184669b0d5d8c204659ee"
+    },
+    {
+      "path": "build/electron",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d4727f2a4a2dc8f45488fdf1496a0bde6c169fb",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/4d4727f2a4a2dc8f45488fdf1496a0bde6c169fb"
+    },
+    {
+      "path": "build/electron/afterPack.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb935b390b052f97ad29c801f30fca208a9b6b20",
+      "size": 477,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/bb935b390b052f97ad29c801f30fca208a9b6b20"
+    },
+    {
+      "path": "build/electron/icon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "848065f6ee5272bc19473e7bfc7346a230ac5099",
+      "size": 53972,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/848065f6ee5272bc19473e7bfc7346a230ac5099"
+    },
+    {
+      "path": "build/electron/icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0a6f62370bc473a0fe1f1d4a8b1ec85ab4e59d",
+      "size": 72483,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/9f0a6f62370bc473a0fe1f1d4a8b1ec85ab4e59d"
+    },
+    {
+      "path": "build/electron/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f9505512ec3017119841b47ed6c8a0aef91d91",
+      "size": 2359,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/46f9505512ec3017119841b47ed6c8a0aef91d91"
+    },
+    {
+      "path": "build/electron/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa20bd9f722b50d08b8ae5baed4e24a723b67b67",
+      "size": 208926,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/fa20bd9f722b50d08b8ae5baed4e24a723b67b67"
+    },
+    {
+      "path": "build/electron/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f375859ae98eb3c8112bddc9c65bd6ef3c6256be",
+      "size": 1162,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/f375859ae98eb3c8112bddc9c65bd6ef3c6256be"
+    },
+    {
+      "path": "build/test_pandaspi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d551294a5e242dca90dd49b9eefccc9ee65892",
+      "size": 1220,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/60d551294a5e242dca90dd49b9eefccc9ee65892"
+    },
+    {
+      "path": "ccp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ce604a25572bbaadc78e0a014f98b245004560e",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/3ce604a25572bbaadc78e0a014f98b245004560e"
+    },
+    {
+      "path": "ccp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5ffe226f257904d2aad581d5bcc0c0c476c1b2",
+      "size": 5406,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ed5ffe226f257904d2aad581d5bcc0c0c476c1b2"
+    },
+    {
+      "path": "ccp/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf16df1bdb9480ed0974770c3aa36b15da568044",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/bf16df1bdb9480ed0974770c3aa36b15da568044"
+    },
+    {
+      "path": "ccp/app/.streamlit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8bb4ff3560bf06418d1d5640761280185b8e3253",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/8bb4ff3560bf06418d1d5640761280185b8e3253"
+    },
+    {
+      "path": "ccp/app/.streamlit/config.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "713d1a4264235019ba67c7ec0a2da75ee057b0ce",
+      "size": 9943,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/713d1a4264235019ba67c7ec0a2da75ee057b0ce"
+    },
+    {
+      "path": "ccp/app/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c23d1b87c2353a36f6af78a9ac67bd86d2e27238",
+      "size": 4364,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/c23d1b87c2353a36f6af78a9ac67bd86d2e27238"
+    },
+    {
+      "path": "ccp/app/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ccp/app/ai_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "add304faec79a59e083c442695e1491dc5a6cfcc",
+      "size": 7682,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/add304faec79a59e083c442695e1491dc5a6cfcc"
+    },
+    {
+      "path": "ccp/app/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d74700e3bb2c5e0cfc86c380eb56952ea2a8019",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/9d74700e3bb2c5e0cfc86c380eb56952ea2a8019"
+    },
+    {
+      "path": "ccp/app/assets/ccp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f09bbc02d108168c98ae9188507d6174b8b44af",
+      "size": 54302,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/4f09bbc02d108168c98ae9188507d6174b8b44af"
+    },
+    {
+      "path": "ccp/app/assets/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d7ad9599795922b79b779d42d2d594dbcca44c",
+      "size": 15406,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/96d7ad9599795922b79b779d42d2d594dbcca44c"
+    },
+    {
+      "path": "ccp/app/assets/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6d00b5292d54e81eb7a4d7910eddc4f4875fcea",
+      "size": 164,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a6d00b5292d54e81eb7a4d7910eddc4f4875fcea"
+    },
+    {
+      "path": "ccp/app/ccp_app.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b0c45378abda35e1ccb408313bb6f6d88080beb",
+      "size": 436,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/8b0c45378abda35e1ccb408313bb6f6d88080beb"
+    },
+    {
+      "path": "ccp/app/ccp_app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edbbb085b21e28c3d65e71ce5c76b6eba407e1a2",
+      "size": 1242,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/edbbb085b21e28c3d65e71ce5c76b6eba407e1a2"
+    },
+    {
+      "path": "ccp/app/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058ff453b96f467e4347d6a015793ed99df15bcd",
+      "size": 517,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/058ff453b96f467e4347d6a015793ed99df15bcd"
+    },
+    {
+      "path": "ccp/app/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b6118d18c8f2162625b2dd4f86420c4f7191f9",
+      "size": 73363,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/69b6118d18c8f2162625b2dd4f86420c4f7191f9"
+    },
+    {
+      "path": "ccp/app/curves-conversion-example.ccp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce8b0971958b1d4581141395221d9e9460298d05",
+      "size": 5542,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ce8b0971958b1d4581141395221d9e9460298d05"
+    },
+    {
+      "path": "ccp/app/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "ccp/app/data/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ccp/app/example_back_to_back.ccp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfcdb06ec0ed3c8645b22e045aeb519179d9e2d1",
+      "size": 4295940,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/cfcdb06ec0ed3c8645b22e045aeb519179d9e2d1"
+    },
+    {
+      "path": "ccp/app/example_evaluation_pi.ccp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccc85f47009924c504fc48db132f21c6d812086a",
+      "size": 3267224,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ccc85f47009924c504fc48db132f21c6d812086a"
+    },
+    {
+      "path": "ccp/app/example_online.ccp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8c3fe359f50cccd09aacb32fc677abec875c89b",
+      "size": 53138,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/f8c3fe359f50cccd09aacb32fc677abec875c89b"
+    },
+    {
+      "path": "ccp/app/example_online_pi.ccp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "085005d58498ca5cc7189394419e8e7aa7403e30",
+      "size": 54525,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/085005d58498ca5cc7189394419e8e7aa7403e30"
+    },
+    {
+      "path": "ccp/app/example_straight.ccp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685bb21334df4407afb248c388a557422521b900",
+      "size": 387110,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/685bb21334df4407afb248c388a557422521b900"
+    },
+    {
+      "path": "ccp/app/pages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9a8fbc61c29325543390664dee3d975256ad3a5",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/a9a8fbc61c29325543390664dee3d975256ad3a5"
+    },
+    {
+      "path": "ccp/app/pages/1_straight_through.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89479416095454f0d0ec2aa81778dbc81a2d2943",
+      "size": 66713,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/89479416095454f0d0ec2aa81778dbc81a2d2943"
+    },
+    {
+      "path": "ccp/app/pages/2_back_to_back.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62867efeab9177a11ae374e040f4a9fceb895434",
+      "size": 94300,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/62867efeab9177a11ae374e040f4a9fceb895434"
+    },
+    {
+      "path": "ccp/app/pages/3_curves_conversion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e9fb3fdc642e9bf223647a548f1b53a1ace798f",
+      "size": 23397,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/6e9fb3fdc642e9bf223647a548f1b53a1ace798f"
+    },
+    {
+      "path": "ccp/app/pages/4_performance_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2daa3b128ca5123d38cc92c6a2cbfed7e27ad354",
+      "size": 88283,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/2daa3b128ca5123d38cc92c6a2cbfed7e27ad354"
+    },
+    {
+      "path": "ccp/app/pages/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ccp/app/pages/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d74700e3bb2c5e0cfc86c380eb56952ea2a8019",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/9d74700e3bb2c5e0cfc86c380eb56952ea2a8019"
+    },
+    {
+      "path": "ccp/app/pages/assets/ccp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f09bbc02d108168c98ae9188507d6174b8b44af",
+      "size": 54302,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/4f09bbc02d108168c98ae9188507d6174b8b44af"
+    },
+    {
+      "path": "ccp/app/pages/assets/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d7ad9599795922b79b779d42d2d594dbcca44c",
+      "size": 15406,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/96d7ad9599795922b79b779d42d2d594dbcca44c"
+    },
+    {
+      "path": "ccp/app/pages/assets/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6d00b5292d54e81eb7a4d7910eddc4f4875fcea",
+      "size": 164,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a6d00b5292d54e81eb7a4d7910eddc4f4875fcea"
+    },
+    {
+      "path": "ccp/app/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9f78b7d49ccbfdc68f4f16fec90f59a73a4415",
+      "size": 11459,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/0a9f78b7d49ccbfdc68f4f16fec90f59a73a4415"
+    },
+    {
+      "path": "ccp/app/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46a8d9e89f4e232aca64884aabaf83e362ac4be6",
+      "size": 28,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/46a8d9e89f4e232aca64884aabaf83e362ac4be6"
+    },
+    {
+      "path": "ccp/app/run_streamlit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "109ebe79955650c8db415f27e0628f21c81710c3",
+      "size": 2297,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/109ebe79955650c8db415f27e0628f21c81710c3"
+    },
+    {
+      "path": "ccp/compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c543d0a5693f5932f1230bdd8b4c7e724acb5e9",
+      "size": 57591,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/7c543d0a5693f5932f1230bdd8b4c7e724acb5e9"
+    },
+    {
+      "path": "ccp/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e7d11c108baa78ff04f48ad57556dfd7bbd0b6a",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/7e7d11c108baa78ff04f48ad57556dfd7bbd0b6a"
+    },
+    {
+      "path": "ccp/config/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a500e8ea3e81ef76fd0853dd604cd024d1a069a0",
+      "size": 53,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a500e8ea3e81ef76fd0853dd604cd024d1a069a0"
+    },
+    {
+      "path": "ccp/config/fluids.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0ec754020b848e2112d00e8a38214c721a29a2b",
+      "size": 5143,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/f0ec754020b848e2112d00e8a38214c721a29a2b"
+    },
+    {
+      "path": "ccp/config/legacy_water_units.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ec65eab13875223485e96f63a8fddea4a06902",
+      "size": 460,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/03ec65eab13875223485e96f63a8fddea4a06902"
+    },
+    {
+      "path": "ccp/config/new_units.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "144eaaeb85b92f62b4c6ec1d7e5bc15cd5b287d7",
+      "size": 62,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/144eaaeb85b92f62b4c6ec1d7e5bc15cd5b287d7"
+    },
+    {
+      "path": "ccp/config/units.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80fea00e71f15c78f848fd6ccc7b898277114ba5",
+      "size": 7076,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/80fea00e71f15c78f848fd6ccc7b898277114ba5"
+    },
+    {
+      "path": "ccp/config/utilities.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8845c3148412c948f9623ccd89fa3695a5efca",
+      "size": 492,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/9b8845c3148412c948f9623ccd89fa3695a5efca"
+    },
+    {
+      "path": "ccp/cprofile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d9d9cb641a58879d1cc60c4595cdde670ea87e8",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/1d9d9cb641a58879d1cc60c4595cdde670ea87e8"
+    },
+    {
+      "path": "ccp/cprofile/cprofile.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f84990054ea3744c73e5d346d429a590fb6e67d",
+      "size": 2860,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/0f84990054ea3744c73e5d346d429a590fb6e67d"
+    },
+    {
+      "path": "ccp/curve.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033cb50cbe3b06cd422652956256e9030268d63e",
+      "size": 17220,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/033cb50cbe3b06cd422652956256e9030268d63e"
+    },
+    {
+      "path": "ccp/data_io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc987dea4e38b998a25504fe1cf63edb906b5b2c",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/cc987dea4e38b998a25504fe1cf63edb906b5b2c"
+    },
+    {
+      "path": "ccp/data_io/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91284e289cb307237f5e7fe7737afa403561f92",
+      "size": 200,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a91284e289cb307237f5e7fe7737afa403561f92"
+    },
+    {
+      "path": "ccp/data_io/processing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6719f3c69e61b04fbb0cf427efbcd0d4919c2f01",
+      "size": 7800,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/6719f3c69e61b04fbb0cf427efbcd0d4919c2f01"
+    },
+    {
+      "path": "ccp/data_io/read_csv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17ff990fa29c32c791d458aa86b7a06ce1c28050",
+      "size": 1426,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/17ff990fa29c32c791d458aa86b7a06ce1c28050"
+    },
+    {
+      "path": "ccp/data_io/read_xl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7abca717f4f0a2b0dfd50be4253d2b39a5f05e28",
+      "size": 55,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/7abca717f4f0a2b0dfd50be4253d2b39a5f05e28"
+    },
+    {
+      "path": "ccp/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c78fe8fabc726cc85474af21fdbf01909023d2d",
+      "size": 31427,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/3c78fe8fabc726cc85474af21fdbf01909023d2d"
+    },
+    {
+      "path": "ccp/fo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "122e1295de59157b02c58e7f369e13b94327f234",
+      "size": 4432,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/122e1295de59157b02c58e7f369e13b94327f234"
+    },
+    {
+      "path": "ccp/impeller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac63836d9283085533602b75fda2638866fb7c59",
+      "size": 54743,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ac63836d9283085533602b75fda2638866fb7c59"
+    },
+    {
+      "path": "ccp/plotly_theme.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cb2f90a86331b4378f7905fef80c5ae8dd594d",
+      "size": 12377,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/81cb2f90a86331b4378f7905fef80c5ae8dd594d"
+    },
+    {
+      "path": "ccp/point.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fccdd431f0b326433a6e3dec68d332902c419d5",
+      "size": 98096,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/7fccdd431f0b326433a6e3dec68d332902c419d5"
+    },
+    {
+      "path": "ccp/similarity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4702e8bfbeda6bb1a4673270bcc23fb378855ee",
+      "size": 1808,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a4702e8bfbeda6bb1a4673270bcc23fb378855ee"
+    },
+    {
+      "path": "ccp/state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffc3c686467473df0f7c535aeb754ba487957f76",
+      "size": 32930,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ffc3c686467473df0f7c535aeb754ba487957f76"
+    },
+    {
+      "path": "ccp/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "046c38e9ed414c613d39c3472c6017a991eb5067",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/046c38e9ed414c613d39c3472c6017a991eb5067"
+    },
+    {
+      "path": "ccp/tests/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56657522d6eb2154e9ec65da6b79741d9f60f08b",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/56657522d6eb2154e9ec65da6b79741d9f60f08b"
+    },
+    {
+      "path": "ccp/tests/data/UTGCA_1231_A_1s.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e34e0b3fe4b281f205400cd681e905563f046112",
+      "size": 288892,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e34e0b3fe4b281f205400cd681e905563f046112"
+    },
+    {
+      "path": "ccp/tests/data/UTGCA_1231_A_2019-01-01T00_00_00_2020-12-11T00_00_00_12h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6aab1427ae04ce4a301d7d7d0e44e509f570255",
+      "size": 502046,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/c6aab1427ae04ce4a301d7d7d0e44e509f570255"
+    },
+    {
+      "path": "ccp/tests/data/data.parquet",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03bf3401c41f64ecea7dcbe720cefb92aa1417a3",
+      "size": 8603,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/03bf3401c41f64ecea7dcbe720cefb92aa1417a3"
+    },
+    {
+      "path": "ccp/tests/data/data_delta_p.parquet",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bd8de1d142129bc859fa3eb8de46a61607eef3a",
+      "size": 840627,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/6bd8de1d142129bc859fa3eb8de46a61607eef3a"
+    },
+    {
+      "path": "ccp/tests/data/eval-lp-sec1-caso-a-eff.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "015ee38a33ed357a8343fbf58422b5e6b43acb22",
+      "size": 922,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/015ee38a33ed357a8343fbf58422b5e6b43acb22"
+    },
+    {
+      "path": "ccp/tests/data/eval-lp-sec1-caso-a-head.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c04303082a231be537f5e4552ddb2d754b5d63cb",
+      "size": 865,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/c04303082a231be537f5e4552ddb2d754b5d63cb"
+    },
+    {
+      "path": "ccp/tests/data/lp-sec1-caso-a-eff.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b26be300e56a983ba42f8f1771f00690384092",
+      "size": 2011,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/b8b26be300e56a983ba42f8f1771f00690384092"
+    },
+    {
+      "path": "ccp/tests/data/lp-sec1-caso-a-head.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4929f2928b5e88046a841c8ca846ad03f44f522",
+      "size": 1960,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e4929f2928b5e88046a841c8ca846ad03f44f522"
+    },
+    {
+      "path": "ccp/tests/data/normal-eff.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2e85ffca84ca0f222a0e054a6f7f2a6a57413e5",
+      "size": 1120,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/c2e85ffca84ca0f222a0e054a6f7f2a6a57413e5"
+    },
+    {
+      "path": "ccp/tests/data/normal-head.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf3a1c2bd3b734fb0bebf21d050ea323a9142d85",
+      "size": 896,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/cf3a1c2bd3b734fb0bebf21d050ea323a9142d85"
+    },
+    {
+      "path": "ccp/tests/data/p78-main-N2-head.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b213465ee6de0ed0604c6a42ee86e1420c22ff",
+      "size": 1403,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/f9b213465ee6de0ed0604c6a42ee86e1420c22ff"
+    },
+    {
+      "path": "ccp/tests/data/p78-main-N2-power_shaft.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de7fd6ca7e75e46f9649a90e1678e23e4408477",
+      "size": 934,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/2de7fd6ca7e75e46f9649a90e1678e23e4408477"
+    },
+    {
+      "path": "ccp/tests/test_app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76cd9e83bcefad8b3f0940d7726d5ce845d6e0ed",
+      "size": 12371,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/76cd9e83bcefad8b3f0940d7726d5ce845d6e0ed"
+    },
+    {
+      "path": "ccp/tests/test_compressor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d3002e49b6dab8297cb5cf970c54c9e9ed3e7a",
+      "size": 57535,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e6d3002e49b6dab8297cb5cf970c54c9e9ed3e7a"
+    },
+    {
+      "path": "ccp/tests/test_curve.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8302228c22d70abc45b5e06537223b4e04b190f",
+      "size": 2965,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/f8302228c22d70abc45b5e06537223b4e04b190f"
+    },
+    {
+      "path": "ccp/tests/test_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "755995646a8880256f8f7a129bf0a1707185b28a",
+      "size": 13394,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/755995646a8880256f8f7a129bf0a1707185b28a"
+    },
+    {
+      "path": "ccp/tests/test_fo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5bc8dcea6c411a5fde33658bb50a3e589393616",
+      "size": 1966,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e5bc8dcea6c411a5fde33658bb50a3e589393616"
+    },
+    {
+      "path": "ccp/tests/test_impeller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "709f9eb2682e8b0d81ce70441224a1592c132d7e",
+      "size": 30793,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/709f9eb2682e8b0d81ce70441224a1592c132d7e"
+    },
+    {
+      "path": "ccp/tests/test_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f5e718359f2b43c812c1efe39d57f5be96ef9fa",
+      "size": 4580,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/3f5e718359f2b43c812c1efe39d57f5be96ef9fa"
+    },
+    {
+      "path": "ccp/tests/test_load_power_shaft.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24eb4411e3fb85ac72128cda5c46047b86905fe4",
+      "size": 1790,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/24eb4411e3fb85ac72128cda5c46047b86905fe4"
+    },
+    {
+      "path": "ccp/tests/test_point.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e320259d55ce80ce86c6436977a5cff7d64a295c",
+      "size": 27015,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e320259d55ce80ce86c6436977a5cff7d64a295c"
+    },
+    {
+      "path": "ccp/tests/test_state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca16faf3dd47339e9c489fe2ab01763d4f9773b4",
+      "size": 15584,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ca16faf3dd47339e9c489fe2ab01763d4f9773b4"
+    },
+    {
+      "path": "ccp/tests/test_units.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21706c079356b7fa54b1c0322bc38431eb7cf168",
+      "size": 15178,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/21706c079356b7fa54b1c0322bc38431eb7cf168"
+    },
+    {
+      "path": "ccp/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9274913cd951421cf7da165321d4c6420442983e",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/9274913cd951421cf7da165321d4c6420442983e"
+    },
+    {
+      "path": "ccp/utils/find_composition.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91394a6194822f4a7d130ba66cfccd0c3c386a80",
+      "size": 9009,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/91394a6194822f4a7d130ba66cfccd0c3c386a80"
+    },
+    {
+      "path": "clas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fba0e6d78486d99b589aaf0f785fef104c25fbc",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/5fba0e6d78486d99b589aaf0f785fef104c25fbc"
+    },
+    {
+      "path": "clas/corporate_cla.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d180b800fbcb4ba02748137f48c6eb2aecf01b44",
+      "size": 7416,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/d180b800fbcb4ba02748137f48c6eb2aecf01b44"
+    },
+    {
+      "path": "clas/individual_cla.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf93a0da4f12489cb162f9a87d9c3fa1e0bd786",
+      "size": 6330,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/bcf93a0da4f12489cb162f9a87d9c3fa1e0bd786"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eef30cb842caf163783dba943574494330826b66",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/eef30cb842caf163783dba943574494330826b66"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde7c17b26779e61fc1bf3e886541bda30e4bc17",
+      "size": 600,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/bde7c17b26779e61fc1bf3e886541bda30e4bc17"
+    },
+    {
+      "path": "docs/_static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b56bf9dfb4ba544a4ad74d78af85b36889c385df",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/b56bf9dfb4ba544a4ad74d78af85b36889c385df"
+    },
+    {
+      "path": "docs/_static/ccp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f09bbc02d108168c98ae9188507d6174b8b44af",
+      "size": 54302,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/4f09bbc02d108168c98ae9188507d6174b8b44af"
+    },
+    {
+      "path": "docs/_static/custom.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792bf09a1df60ea4425283a1f9663be8f69434a6",
+      "size": 665,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/792bf09a1df60ea4425283a1f9663be8f69434a6"
+    },
+    {
+      "path": "docs/_static/custom.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1719a290805d48543c2718f575ec9c218a2173d",
+      "size": 99,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e1719a290805d48543c2718f575ec9c218a2173d"
+    },
+    {
+      "path": "docs/_static/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d7ad9599795922b79b779d42d2d594dbcca44c",
+      "size": 15406,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/96d7ad9599795922b79b779d42d2d594dbcca44c"
+    },
+    {
+      "path": "docs/_static/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "903b9b461e42d83ec3f7afa012d14d1ee32b723b",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/903b9b461e42d83ec3f7afa012d14d1ee32b723b"
+    },
+    {
+      "path": "docs/_static/img/api.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec03774c962fc92e66a9d939b5a90504eb47c45",
+      "size": 4267,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/dec03774c962fc92e66a9d939b5a90504eb47c45"
+    },
+    {
+      "path": "docs/_static/img/back_to_back_app.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0641fd42e3f3170f712fd3e117c5f7ebd366309",
+      "size": 50705,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a0641fd42e3f3170f712fd3e117c5f7ebd366309"
+    },
+    {
+      "path": "docs/_static/img/ccp.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f4a6e9765c0a2255d5ff5a58d70105b33a8303",
+      "size": 7134,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/f7f4a6e9765c0a2255d5ff5a58d70105b33a8303"
+    },
+    {
+      "path": "docs/_static/img/contributor.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9d1a3a7e8f5c951d6f801a6813ddfda01b495c",
+      "size": 2558,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ec9d1a3a7e8f5c951d6f801a6813ddfda01b495c"
+    },
+    {
+      "path": "docs/_static/img/getting_started.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43033d41ebff9874b0f767e184d2801286974af",
+      "size": 4039,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e43033d41ebff9874b0f767e184d2801286974af"
+    },
+    {
+      "path": "docs/_static/img/step1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7683b4328ca6d161c612a34570ac23ca1aa667d8",
+      "size": 1477681,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/7683b4328ca6d161c612a34570ac23ca1aa667d8"
+    },
+    {
+      "path": "docs/_static/img/step2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f47501e4a63be68c771441ce7caab0ee55bd05",
+      "size": 1451475,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/e0f47501e4a63be68c771441ce7caab0ee55bd05"
+    },
+    {
+      "path": "docs/_static/img/step3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c247f4f613a529f9d1a120fc91f646183f520d6e",
+      "size": 3558818,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/c247f4f613a529f9d1a120fc91f646183f520d6e"
+    },
+    {
+      "path": "docs/_static/img/step4.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16995bca03b8df660dab597fd3e99fa852105410",
+      "size": 736232,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/16995bca03b8df660dab597fd3e99fa852105410"
+    },
+    {
+      "path": "docs/_static/img/step5.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ca0f156a209ed45b15da602df0c9227b32e07e",
+      "size": 1354599,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/a4ca0f156a209ed45b15da602df0c9227b32e07e"
+    },
+    {
+      "path": "docs/_static/img/step_power_loss.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ccf7f3453b55f46048488a409a3deabdbe9d7b7",
+      "size": 122665,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/8ccf7f3453b55f46048488a409a3deabdbe9d7b7"
+    },
+    {
+      "path": "docs/_static/img/user_guide.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ed4b057149e025a50b9967e38d6f75d0a2dbbc9",
+      "size": 18451,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/8ed4b057149e025a50b9967e38d6f75d0a2dbbc9"
+    },
+    {
+      "path": "docs/_templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0a578dc3c0a12021a22c14a7008c97d99582c6f",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/e0a578dc3c0a12021a22c14a7008c97d99582c6f"
+    },
+    {
+      "path": "docs/_templates/autosummary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f228c21a2ae459ab6fd018597f5c16d76673e2c",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/5f228c21a2ae459ab6fd018597f5c16d76673e2c"
+    },
+    {
+      "path": "docs/_templates/autosummary/base.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52f7daac5aae9cecd81df0ed4e676247fddd8221",
+      "size": 167,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/52f7daac5aae9cecd81df0ed4e676247fddd8221"
+    },
+    {
+      "path": "docs/_templates/autosummary/class.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e6b817fb11c4d7b2c2e315b9f6304632c3e8ff",
+      "size": 543,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/75e6b817fb11c4d7b2c2e315b9f6304632c3e8ff"
+    },
+    {
+      "path": "docs/_templates/layout.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921f2fba4e63c0eb2d617fe2df887a10f9e03eb4",
+      "size": 222,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/921f2fba4e63c0eb2d617fe2df887a10f9e03eb4"
+    },
+    {
+      "path": "docs/app_guide",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2990f857c29d12c5fd6ce1e1b37ee0afe25f4667",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/2990f857c29d12c5fd6ce1e1b37ee0afe25f4667"
+    },
+    {
+      "path": "docs/app_guide/building_portable_exe.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1301ce93c412c0ca1fb1733a2141b2f86b4f4de5",
+      "size": 6798,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/1301ce93c412c0ca1fb1733a2141b2f86b4f4de5"
+    },
+    {
+      "path": "docs/app_guide/capture_straight_through_sections.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bd367bd7642d0ceaeb7c7d6788280793709f301",
+      "size": 4994,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/4bd367bd7642d0ceaeb7c7d6788280793709f301"
+    },
+    {
+      "path": "docs/app_guide/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "092fede630ec788eb427bd603a24206ecb4d49ad",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/092fede630ec788eb427bd603a24206ecb4d49ad"
+    },
+    {
+      "path": "docs/app_guide/images/straight_through_01_main.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d7a817f839a22c38e4f333bab563583642d10a",
+      "size": 45684,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/d1d7a817f839a22c38e4f333bab563583642d10a"
+    },
+    {
+      "path": "docs/app_guide/images/straight_through_02_gas_selection.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "855625abd1a385314e25cc5013e6f028108e87a3",
+      "size": 67834,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/855625abd1a385314e25cc5013e6f028108e87a3"
+    },
+    {
+      "path": "docs/app_guide/images/straight_through_03_data_sheet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7857cc558fb5115c986b5e9722c4b5cd9de38709",
+      "size": 79469,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/7857cc558fb5115c986b5e9722c4b5cd9de38709"
+    },
+    {
+      "path": "docs/app_guide/images/straight_through_04_curves.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f7bf1112aa4ce1334d31a19db8627ab6325d60c",
+      "size": 84152,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/5f7bf1112aa4ce1334d31a19db8627ab6325d60c"
+    },
+    {
+      "path": "docs/app_guide/images/straight_through_05_test_data.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cce550db1433086bf86e86faea7c9014cecced7",
+      "size": 84990,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/5cce550db1433086bf86e86faea7c9014cecced7"
+    },
+    {
+      "path": "docs/app_guide/images/straight_through_06_flowrate_calculation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f156aaa8f3367554e9e59a31f41a8746db9d3f95",
+      "size": 76897,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/f156aaa8f3367554e9e59a31f41a8746db9d3f95"
+    },
+    {
+      "path": "docs/app_guide/straight_through_user_guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd8bdd581586e711519512cb3442c1b4dd31438",
+      "size": 11567,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/7bd8bdd581586e711519512cb3442c1b4dd31438"
+    },
+    {
+      "path": "docs/ccp.fig.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca73b4cf8e3242fc297f46ff71ca9a46eb8530f",
+      "size": 802681,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/aca73b4cf8e3242fc297f46ff71ca9a46eb8530f"
+    },
+    {
+      "path": "docs/ccp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69cac901bd3a8410bb31e4807f6b68fc715710eb",
+      "size": 45109,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/69cac901bd3a8410bb31e4807f6b68fc715710eb"
+    },
+    {
+      "path": "docs/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab6f70ae25f950bf41e50674f6171e7a0472414",
+      "size": 7889,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/6ab6f70ae25f950bf41e50674f6171e7a0472414"
+    },
+    {
+      "path": "docs/contributing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96c6f1a269b8de3346af47d214b8d02cfee69017",
+      "size": 51,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/96c6f1a269b8de3346af47d214b8d02cfee69017"
+    },
+    {
+      "path": "docs/getting_started",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb680442e6e5faf92126b01de8d1a95fcf3ba62b",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/eb680442e6e5faf92126b01de8d1a95fcf3ba62b"
+    },
+    {
+      "path": "docs/getting_started/installation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b705c34af88ac8d312a16fb0f9748196a497006",
+      "size": 923,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/1b705c34af88ac8d312a16fb0f9748196a497006"
+    },
+    {
+      "path": "docs/getting_started/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e4dba26bb32bd2e16f48f5dce5fb73545b6dbc0",
+      "size": 1348,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/6e4dba26bb32bd2e16f48f5dce5fb73545b6dbc0"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a5e0e0d95ae83cf9e843b4a8d225310e7584d1b",
+      "size": 1900,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/1a5e0e0d95ae83cf9e843b4a8d225310e7584d1b"
+    },
+    {
+      "path": "docs/make.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb0423b8534b6f8063d1075a0fb32007cb3ecc78",
+      "size": 771,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/eb0423b8534b6f8063d1075a0fb32007cb3ecc78"
+    },
+    {
+      "path": "docs/references.bib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13bdca08f9030d3bee80c6d6e9ed8d00c8b4eadf",
+      "size": 5448,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/13bdca08f9030d3bee80c6d6e9ed8d00c8b4eadf"
+    },
+    {
+      "path": "docs/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "875626856509c4fa3c85c4ec511792ab13453560",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/875626856509c4fa3c85c4ec511792ab13453560"
+    },
+    {
+      "path": "docs/references/api.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c5d7df5f0789cb14409ea7e14cd982be94f6e2",
+      "size": 308,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/b0c5d7df5f0789cb14409ea7e14cd982be94f6e2"
+    },
+    {
+      "path": "docs/references/performance_functions.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb63673f646627feae748f61d92a4488fa0fb91b",
+      "size": 921,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/bb63673f646627feae748f61d92a4488fa0fb91b"
+    },
+    {
+      "path": "docs/references/plot_methods.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8d2714f079b8d74b143611bd3a3606f81507fb",
+      "size": 1555,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/2a8d2714f079b8d74b143611bd3a3606f81507fb"
+    },
+    {
+      "path": "docs/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b042a9a4af3fddf48d2dc7a69dca281957d50e48",
+      "size": 199,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/b042a9a4af3fddf48d2dc7a69dca281957d50e48"
+    },
+    {
+      "path": "docs/user_guide",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "178e8ba0cec36a6f8769195592cc8331731d415a",
+      "url": "https://api.github.com/repos/petrobras/ccp/git/trees/178e8ba0cec36a6f8769195592cc8331731d415a"
+    },
+    {
+      "path": "docs/user_guide/cases_all.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4471eb20710c79274a8c1681c3320b5a81e73110",
+      "size": 7067,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/4471eb20710c79274a8c1681c3320b5a81e73110"
+    },
+    {
+      "path": "docs/user_guide/engauge.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3695a142bc1a49e0b4a53f1d95fafbe41521b1e",
+      "size": 2436,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/c3695a142bc1a49e0b4a53f1d95fafbe41521b1e"
+    },
+    {
+      "path": "docs/user_guide/evaluation_tutorial.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cebddceef1c11917417d977666060c51c5fb533",
+      "size": 69026,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/3cebddceef1c11917417d977666060c51c5fb533"
+    },
+    {
+      "path": "docs/user_guide/polytropic_methods.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e5ce8fe2a69e5e6fd8bb6450dcfb2e6ca4c93a2",
+      "size": 773343,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/6e5ce8fe2a69e5e6fd8bb6450dcfb2e6ca4c93a2"
+    },
+    {
+      "path": "docs/user_guide/tutorial.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "265fdc2138addd2c7d0dacb680b99a8c14873de1",
+      "size": 279199,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/265fdc2138addd2c7d0dacb680b99a8c14873de1"
+    },
+    {
+      "path": "docs/user_guide/user_guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac6c4b22d4b291b61a36673854eb020bd17e1d0a",
+      "size": 154,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/ac6c4b22d4b291b61a36673854eb020bd17e1d0a"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d06148eff7aa2a044f32fae7b767bb5f8a6a28d",
+      "size": 2565,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/0d06148eff7aa2a044f32fae7b767bb5f8a6a28d"
+    },
+    {
+      "path": "pytest.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df3eb518d0f907b23915bad425d1af357fd452c9",
+      "size": 37,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/df3eb518d0f907b23915bad425d1af357fd452c9"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a9356b23c1985ab24496a3975a13228bf17303",
+      "size": 119,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/13a9356b23c1985ab24496a3975a13228bf17303"
+    },
+    {
+      "path": "update.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7af5d5623bf52910c19e67bc60e5b260b754884",
+      "size": 318,
+      "url": "https://api.github.com/repos/petrobras/ccp/git/blobs/b7af5d5623bf52910c19e67bc60e5b260b754884"
+    }
+  ],
+  "truncated": false
+}
