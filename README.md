@@ -328,6 +328,9 @@ Official AspenTech pages:
 - [AspenTech process simulation digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield)
 - [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new)
 - [Aspen OnLine product page](https://www.aspentech.com/en/products/engineering/aspen-online)
+- [AspenTech Industrial AI / AVA page](https://www.aspentech.com/en/insights/industrial-ai-from-aspentech)
+- [Emerson AspenTech AVA launch release](https://www.emerson.com/en/corporate/news/2026/new-emerson-industrial-ai-platform-delivers-enterprise-scale-ai)
+- [Emerson OPTIMIZE 26 AI and hybrid modeling news brief](https://www.emerson.com/en/corporate/news/2026/aspentech-optimize26-to-showcase-innovative-technologies)
 - [AspenTech EHM105 AI-Powered Digital Twins course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA)
 - [Aspen HYSYS Dynamics product page](https://www.aspentech.com/en/products/engineering/aspen-hysys-dynamics)
 - [Deploy Simulation Models Online Easily Gain Unrivaled Process Insights](https://www.aspentech.com/en/resources/on-demand-webinars/deploy-simulation-models-online-easily-gain-unrivaled-process-insights)
@@ -338,6 +341,7 @@ Official AspenTech pages:
 Community bridge example:
 
 - [edgarsmdn/Aspen_HYSYS_Python](https://github.com/edgarsmdn/Aspen_HYSYS_Python)
+- [aspen-pysys piwheels candidate metadata](https://www.piwheels.org/project/aspen-pysys/) - candidate only; no releases were available at the 2026-05-17 scan.
 
 Recent AI paper:
 

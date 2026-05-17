@@ -152,7 +152,7 @@ Do not use those sources to claim that:
 
 If a digital twin task is requested, first identify the existing HYSYS baseline, data source, KPI or soft sensor definition, control lane, and human validation responsibility.
 
-If the task mentions online digital twins, Aspen OnLine, AI Model Builder, or Hybrid Models, separate:
+If the task mentions online digital twins, Aspen OnLine, AI Model Builder, AspenTech AVA, agentic Industrial AI, or Hybrid Models, separate:
 
 1. offline HYSYS/Aspen Plus model preparation
 2. plant data import or historian binding
@@ -167,6 +167,8 @@ If the task mentions HYSYS Dynamics, online simulation, live process digital twi
 If the task mentions third-party rigorous models such as MySep, multi-unit plant digital twins, refinery process digital twins, live KPI monitoring, or unmeasured KPI inference, identify the HYSYS baseline, external model boundary, live data source, KPI schema, model version, and human acceptance owner before any automation work. Do not imply this skill can reproduce commercial live digital twin products or write recommendations directly to production systems.
 
 If the task mentions LLM agents, text-to-simulation, flowsheet synthesis, diagram-to-simulation, or autonomous case construction, treat it as research/prototyping unless an existing validated HYSYS case or approved project runner is available. Prefer step-by-step construction over single-prompt generation, preserve tool logs and convergence status, and require human review of topology, property package, parameters, units, and solver results before any engineering use.
+
+If the task mentions AVA-style or agentic operational AI recommendations, treat the AI layer as advisory workflow support unless a project-approved writeback procedure exists. Identify the validated HYSYS baseline, data source, first-principles or hybrid model boundary, recommendation target, approval owner, and audit trail before producing or applying any recommendation.
 
 If the task mentions SCADA, ScadaBR, Modbus, OPC, external supervisory interfaces, dashboards, operator training, or online monitoring, first classify the lane as simulation testbed, training system, engineering dashboard, or production control boundary. Require tag schema, read/write direction, units, refresh rate, failure behavior, rollback, and human approval before any writeback. Do not treat a SCADA bridge as permission for autonomous DCS/APC/SIS or production-loop control.
 

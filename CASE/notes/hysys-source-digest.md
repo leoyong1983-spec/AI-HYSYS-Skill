@@ -40,6 +40,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-13 自动心跳补强 online deployment 与 first-principles baseline 边界：[official/aspen-online-product-page-2026.html](../official/aspen-online-product-page-2026.html) 明确 Aspen OnLine 使用 live data matched with process simulation，并可在 Aspen Plus / Aspen HYSYS simulation environment 中生成用 plant historian 或 lab data 校验的项目文件；[research/first-principles-modeling-age-ai-tudelft-2026.html](../research/first-principles-modeling-age-ai-tudelft-2026.html) 记录 IECR 2026 综述，强调 AI 时代第一性原理建模仍有核心作用。项目结论是：AI-HYSYS-Skill 可以帮助准备 online/historian/KPI/schema/审计材料，但不能复刻 Aspen OnLine，也不能让 AI、hybrid model 或 surrogate 替代 HYSYS 机理基线和人工工程审核。
 
+2026-05-17 自动心跳补强 AspenTech AVA / Industrial AI 边界：[official/aspentech-industrial-ai-ava-2026.html](../official/aspentech-industrial-ai-ava-2026.html)、[official/emerson-aspentech-ava-launch-2026-05-snapshot.md](../official/emerson-aspentech-ava-launch-2026-05-snapshot.md) 和 [official/emerson-aspentech-optimize26-ai-hybrid-modeling-2026-05-snapshot.md](../official/emerson-aspentech-optimize26-ai-hybrid-modeling-2026-05-snapshot.md) 说明 Emerson/AspenTech 正在把 AVA、Industrial AI、first-principles context、数据平台、LLM-style assistance、process digital twins 和 hybrid modeling 放到同一运营工作流叙事中。项目结论是：AI-HYSYS-Skill 可以准备既有 HYSYS case、变量/KPI schema、验证记录和审计报告，但不能声称复刻 AVA、Aspen OnLine、AI Model Builder、DMC/APC/PIMS 或生产运营 AI 平台。`aspen-pysys` 仅保存为社区候选线索，因为扫描时没有可用 release。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

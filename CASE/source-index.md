@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-13（Asia/Shanghai）
+最近心跳测试：2026-05-17（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -31,6 +31,9 @@
 | 官方 | [official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例 PDF：保存 HPCL soft sensor 全文，补强 HYSYS + AI Model Builder + 实时质量/KPI 预测的工程证据 | [AspenTech HPCL Industrial AI PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy25/q5/at-4331_cs_hpcl_real_time_quality_control_v3.pdf) | 真 PDF |
 | 官方 | [official/aspentech-whats-new-v15-industrial-ai-2026.html](official/aspentech-whats-new-v15-industrial-ai-2026.html) | AspenTech V15 页面，补强 Industrial AI、AI Model Builder desktop、Aspen HYSYS/Plus green H2、Aspen OnLine for HYSYS and Aspen Plus 等当前产品语境 | [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new) | HTML 快照 |
 | 官方 | [official/aspen-online-product-page-2026.html](official/aspen-online-product-page-2026.html) | 官方产品页：Aspen OnLine 使用 live data matched with process simulation，支持 Aspen Plus / Aspen HYSYS 项目文件、plant historian / lab data 校验和 KPI reporting | [Aspen OnLine product page](https://www.aspentech.com/en/products/engineering/aspen-online) | HTML 快照 |
+| 官方 | [official/aspentech-industrial-ai-ava-2026.html](official/aspentech-industrial-ai-ava-2026.html) | 官方 Industrial AI / AVA 页面：补强 AspenTech 将 AI、工业数据、制造专业知识和操作工作流结合的产品语境；不等同于 HYSYS COM 控制证据 | [AspenTech Industrial AI / AVA](https://www.aspentech.com/en/insights/industrial-ai-from-aspentech) | HTML 快照 |
+| 官方 | [official/emerson-aspentech-ava-launch-2026-05-snapshot.md](official/emerson-aspentech-ava-launch-2026-05-snapshot.md) | Emerson 官方发布 AspenTech AVA：强调 domain-aware / operations-embedded AI、first-principles context、LLM-style assistance 和数据平台；用于约束 AI 推荐层边界 | [Emerson AVA launch release](https://www.emerson.com/en/corporate/news/2026/new-emerson-industrial-ai-platform-delivers-enterprise-scale-ai) | 安全摘要快照；原始动态 HTML 未入库 |
+| 官方 | [official/emerson-aspentech-optimize26-ai-hybrid-modeling-2026-05-snapshot.md](official/emerson-aspentech-optimize26-ai-hybrid-modeling-2026-05-snapshot.md) | Emerson OPTIMIZE 26 官方新闻简报：补强 AI、data management、modeling、optimization、process digital twins 和 hybrid modeling 的组合语境 | [Emerson OPTIMIZE 26 news brief](https://www.emerson.com/en/corporate/news/2026/aspentech-optimize26-to-showcase-innovative-technologies) | 安全摘要快照；不是 HYSYS 自动化直接证据 |
 | 官方 | [official/aspen-hysys-online-simulation-models-webinar-2026.html](official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 on-demand webinar 页面：用 Aspen HYSYS models 部署 online simulations，支撑 KPI monitoring、process insights、节能减排和 troubleshooting 边界 | [Deploy Simulation Models Online Easily](https://www.aspentech.com/en/resources/on-demand-webinars/deploy-simulation-models-online-easily-gain-unrivaled-process-insights) | HTML 快照 |
 | 官方 | [official/aspen-hysys-mysep-live-process-digital-twin-2026.html](official/aspen-hysys-mysep-live-process-digital-twin-2026.html) | 官方 on-demand webinar 页面：Aspen HYSYS 与 MySep Engine 严谨分离器模型集成，形成 live process digital twin，用于 brownfield operations、carryover risk、throughput、energy efficiency 和 KPI limits | [AspenTech MySep live process digital twin webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-driving-throughput-and-efficiency-with-digital-twin) | HTML 快照 |
 | 官方 | [official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) | 官方案例页面：Saudi Aramco 使用 Aspen HYSYS 建立多个装置 plant digital twins，用于炼厂改造可行性分析和产能提升方案评估 | [AspenTech Saudi Aramco plant digital twin case study](https://www.aspentech.com/en/resources/case-studies/saudi-aramco-increases-capacity-by-100000-barrels-day-and-upgrades-bottom-of-the-barrel-products) | HTML 快照 |
@@ -51,6 +54,8 @@
 | 社区 | [community/SCADABR-PYTHON-README.md](community/SCADABR-PYTHON-README.md) | 公开 Python-SCADABR/Modbus 教程，辅助理解 HYSYS/Python/ScadaBR 论文中的外部监督桥接层 | [LizandroCloud/SCADABR-PYTHON](https://github.com/LizandroCloud/SCADABR-PYTHON) | 不是 HYSYS API 文档；只作 SCADA bridge 参考 |
 | 社区 | [community/SCADABR-PYTHON-servidor.py](community/SCADABR-PYTHON-servidor.py) | 展示 Python 端 Modbus server/bridge 写法，可为培训、dashboard 或 testbed 提供接口参考 | [raw file](https://raw.githubusercontent.com/LizandroCloud/SCADABR-PYTHON/main/tutorial/servidor.py) | 代码快照 |
 | 社区 | [community/SCADABR-PYTHON-teste-scada.py](community/SCADABR-PYTHON-teste-scada.py) | 展示 Python 与 SCADA 通信测试脚本节奏 | [raw file](https://raw.githubusercontent.com/LizandroCloud/SCADABR-PYTHON/main/tutorial/teste-scada.py) | 代码快照 |
+| 社区候选 | [community/aspen-pysys-piwheels-page-2026-05-17.html](community/aspen-pysys-piwheels-page-2026-05-17.html) | piwheels 页面描述 `aspen-pysys` 为 Aspen HYSYS 的 Python interface，但扫描时没有可用 release；只能作为候选线索 | [piwheels aspen-pysys](https://www.piwheels.org/project/aspen-pysys/) | 不推荐安装；未验证源码/许可/可运行性 |
+| 社区候选 | [community/aspen-pysys-piwheels-json-2026-05-17.json](community/aspen-pysys-piwheels-json-2026-05-17.json) | 保存 `aspen-pysys` piwheels JSON 元数据，记录扫描时 releases 为空 | [piwheels JSON](https://www.piwheels.org/project/aspen-pysys/json) | 候选去重记录 |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629.pdf](research/sketch2simulation-arxiv-2603.24629.pdf) | 证明多智能体 LLM 已开始面向 Aspen HYSYS 生成可执行 Python COM 脚本 | [Sketch2Simulation PDF](https://arxiv.org/pdf/2603.24629.pdf) | 真 PDF |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629-abstract.html](research/sketch2simulation-arxiv-2603.24629-abstract.html) | 保留论文摘要页面与原始编号 | [Sketch2Simulation abstract](https://arxiv.org/abs/2603.24629) | HTML 快照 |
 | 研究 | [research/text-to-simulation-arxiv-2601.06776.pdf](research/text-to-simulation-arxiv-2601.06776.pdf) | 证明 LLM 多智能体已开始从文本过程规格生成可计算仿真配置；用于约束 greenfield 自动仿真仍属研究/原型路径 | [Text to Simulation PDF](https://arxiv.org/pdf/2601.06776) | 真 PDF；不等同于 HYSYS 生产级从零建模 |
@@ -87,6 +92,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-11.md](notes/heartbeat-scan-2026-05-11.md) | 记录 2026-05-11 自动心跳保存的 HYSYS/Python/ScadaBR、SCADABR-PYTHON 和 reasoning-agent 资料、价值判断、项目改进和边界结论 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-12.md](notes/heartbeat-scan-2026-05-12.md) | 记录 2026-05-12 自动心跳保存的 Tüpraş HYSYS column performance 官方案例和 Springer HYSYS+XGBoost/PSO 资料、价值判断、项目改进和边界结论 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-13.md](notes/heartbeat-scan-2026-05-13.md) | 记录 2026-05-13 自动心跳保存的 Aspen OnLine 官方产品页和 IECR 第一性原理建模综述资料、价值判断、项目改进和边界结论 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-17.md](notes/heartbeat-scan-2026-05-17.md) | 记录 2026-05-17 自动心跳保存的 AspenTech AVA / Industrial AI 官方资料、OPTIMIZE 26 官方新闻简报和 `aspen-pysys` 社区候选元数据 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明
