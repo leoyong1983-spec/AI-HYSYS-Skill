@@ -331,6 +331,7 @@ Official AspenTech pages:
 - [AspenTech Industrial AI / AVA page](https://www.aspentech.com/en/insights/industrial-ai-from-aspentech)
 - [Emerson AspenTech AVA launch release](https://www.emerson.com/en/corporate/news/2026/new-emerson-industrial-ai-platform-delivers-enterprise-scale-ai)
 - [Emerson OPTIMIZE 26 AI and hybrid modeling news brief](https://www.emerson.com/en/corporate/news/2026/aspentech-optimize26-to-showcase-innovative-technologies)
+- [Emerson / Aramco Aspen Hybrid Models refinery planning release](https://www.aspentech.com/en/resources/press-releases/emerson-and-aramco-deploy-ai-solution-aimed-at-higher-refinery-yield-volume-and-efficiencies)
 - [AspenTech EHM105 AI-Powered Digital Twins course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA)
 - [Aspen HYSYS Dynamics product page](https://www.aspentech.com/en/products/engineering/aspen-hysys-dynamics)
 - [Deploy Simulation Models Online Easily Gain Unrivaled Process Insights](https://www.aspentech.com/en/resources/on-demand-webinars/deploy-simulation-models-online-easily-gain-unrivaled-process-insights)

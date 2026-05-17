@@ -14,6 +14,7 @@
 | Real-Time Quality Control: How HPCL Uses Industrial AI | [CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例展示 Aspen AI Model Builder + Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测质量参数，支持实时质量控制和成本优化。 |
 | AspenTech V15 What's New | [CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html](../CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html) | 官方 V15 页面把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus、Aspen OnLine for HYSYS and Aspen Plus 放在同一产品语境中。 |
 | Aspen OnLine | [CASE/official/aspen-online-product-page-2026.html](../CASE/official/aspen-online-product-page-2026.html) | 官方产品页说明 Aspen OnLine 使用 live data matched with process simulation，并支持 Aspen Plus / Aspen HYSYS simulation environment、plant historian / lab data 校验和 KPI reporting。 |
+| Emerson and Aramco Deploy AI Solution Aimed at Higher Refinery Yield Volume and Efficiencies | [CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md](../CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md) | 官方发布说明 Aspen Hybrid Models 接入 Aramco 既有炼厂计划框架，并基于严谨第一性原理仿真案例和实际工厂数据校准；适合约束 production planning / PIMS / hybrid AI 边界。 |
 | Deploy Simulation Models Online Easily Gain Unrivaled Process Insights | [CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html](../CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 webinar 页面把 Aspen HYSYS models、online simulations、KPI monitoring、process insights、节能减排和 troubleshooting 放在同一工作流中。 |
 | Operational Resilience with a Live Process Digital Twin using Aspen HYSYS and MySep | [CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html](../CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html) | 官方 webinar 页面说明 Aspen HYSYS 可与 MySep Engine 的严谨分离器模型集成，形成 live process digital twin，用于 brownfield operations、carryover risk、throughput、energy efficiency 和 KPI limits。 |
 | Saudi Aramco Increases Refinery Capacity by 100,000 Barrels/Day Using Plant Digital Twin | [CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](../CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) | 官方案例说明 Saudi Aramco 使用 Aspen HYSYS 建立多个装置 plant digital twins，用于炼厂改造可行性分析和处理能力提升方案评估。 |
@@ -170,6 +171,7 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. surrogate 只能作为计划模型的快速评估层，不能替代 HYSYS 机理模型、PIMS 优化器或人工商业决策。
 4. 若输出将进入 PIMS/APC/DCS/online 系统，必须要求项目既有批准流程和人类验收记录。
 5. 对 SAF/HEFA 等政策敏感场景，必须显式标注数据来源、政策假设和适用区域，避免把论文案例收益直接套用到项目。
+6. 如果引用 Aspen Hybrid Models / Aramco 类型案例，必须明确其前提是既有计划框架、严谨仿真案例、实际工厂数据校准和商业套件部署；本 skill 只能准备数据包、候选场景和审计证据。
 
 ## 与控制通道矩阵的关系
 

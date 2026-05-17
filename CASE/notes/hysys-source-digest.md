@@ -42,6 +42,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-17 自动心跳补强 AspenTech AVA / Industrial AI 边界：[official/aspentech-industrial-ai-ava-2026.html](../official/aspentech-industrial-ai-ava-2026.html)、[official/emerson-aspentech-ava-launch-2026-05-snapshot.md](../official/emerson-aspentech-ava-launch-2026-05-snapshot.md) 和 [official/emerson-aspentech-optimize26-ai-hybrid-modeling-2026-05-snapshot.md](../official/emerson-aspentech-optimize26-ai-hybrid-modeling-2026-05-snapshot.md) 说明 Emerson/AspenTech 正在把 AVA、Industrial AI、first-principles context、数据平台、LLM-style assistance、process digital twins 和 hybrid modeling 放到同一运营工作流叙事中。项目结论是：AI-HYSYS-Skill 可以准备既有 HYSYS case、变量/KPI schema、验证记录和审计报告，但不能声称复刻 AVA、Aspen OnLine、AI Model Builder、DMC/APC/PIMS 或生产运营 AI 平台。`aspen-pysys` 仅保存为社区候选线索，因为扫描时没有可用 release。
 
+2026-05-18 自动心跳新增 Emerson / Aramco Aspen Hybrid Models 炼厂计划优化官方证据：[official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md](../official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md) 说明 Aspen Hybrid Models 可接入既有炼厂计划框架，并基于严谨第一性原理仿真案例和实际工厂数据校准，用于多站点、多周期炼厂计划优化。项目结论是：这强化了 AI-HYSYS-Skill 对 production planning、PIMS、hybrid AI、surrogate planning 和人类验收边界的处理方式；本 skill 仍应输出候选情景、KPI 表、验证证据和审计记录，不能替代 Aspen Hybrid Models、商业计划优化器、APC/DCS/PIMS 或生产闭环决策。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
