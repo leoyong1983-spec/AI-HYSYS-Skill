@@ -1,0 +1,58 @@
+﻿[
+    {
+        "file":  "github-repo-search-ammonia-hysys.json",
+        "query":  "ammonia-hysys",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-simulation-files.json",
+        "query":  "aspen-hysys-simulation-files",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-co2-capture-hysys.json",
+        "query":  "co2-capture-hysys",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hydrogen-hysys.json",
+        "query":  "hydrogen-hysys",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-case-file.json",
+        "query":  "hysys-case-file",
+        "exit_code":  0,
+        "item_count":  2,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-hsc.json",
+        "query":  "hysys-hsc",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-lng-hysys.json",
+        "query":  "lng-hysys",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-methanol-hysys.json",
+        "query":  "methanol-hysys",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    }
+]

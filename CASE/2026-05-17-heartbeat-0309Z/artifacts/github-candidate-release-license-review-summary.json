@@ -1,0 +1,281 @@
+﻿[
+    {
+        "repo":  "bpalotai/Flowsheet-toolbox",
+        "url":  "https://github.com/bpalotai/Flowsheet-toolbox",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  1,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "",
+        "hysys_like":  [
+                           "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+                       ],
+        "companion_count":  62,
+        "companion_sample":  [
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_114928/batch_results.xlsx",
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_115612/batch_results.xlsx",
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_120614/batch_results.xlsx",
+                                 "Cases/HX-model-V1/BatchResults/batch_20250622_120855/batch_results.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250622-212405.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250622-214517.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250623-211632.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250623-220729.xlsx",
+                                 "Cases/HX-model-V1/CalibrationResults/calibration_results_20250622-122429.xlsx",
+                                 "Cases/HX-model-V1/SamplingResults/sampling_20250622_120844.xlsx",
+                                 "Cases/HX-model-V1/SurrogateModels/ANN-HX-V1_20250622_121212/training_data.csv",
+                                 "_example_batch_file/Heat_exchanger_process_data_result-short.xlsx",
+                                 "api/__init__.py",
+                                 "api/calibration_old.py",
+                                 "api/calibrationapi_old.py",
+                                 "api/dashboard.py",
+                                 "api/database.py",
+                                 "api/routes/__init__.py",
+                                 "api/routes/analysis.py",
+                                 "api/routes/calibration.py",
+                                 "api/routes/cases.py",
+                                 "api/routes/explainability.py",
+                                 "api/routes/optimization.py",
+                                 "api/routes/parameters.py",
+                                 "api/routes/sampling.py",
+                                 "api/routes/simulations.py",
+                                 "api/routes/surrogate.py",
+                                 "api/utils/__init__.py",
+                                 "api/utils/file_handlers.py",
+                                 "app.py"
+                             ],
+        "lfs_pointer_suspects":  [
+
+                                 ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "Gallo05952/Articolo_energies",
+        "url":  "https://github.com/Gallo05952/Articolo_energies",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  1,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "",
+        "hysys_like":  [
+                           "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+                           "Articolo_energies.hsc"
+                       ],
+        "companion_count":  13,
+        "companion_sample":  [
+                                 "Analisi.xlsx",
+                                 "Funzioni/AperturaAspen.py",
+                                 "Funzioni/RunColonna.py",
+                                 "Funzioni/__init__.py",
+                                 "Funzioni/cambiopressione.py",
+                                 "Funzioni/cambiostadi.py",
+                                 "Scrittura/Energies_V1.docx",
+                                 "f.csv",
+                                 "main_conStadi.py",
+                                 "main_senzaStadi.py",
+                                 "readme.md",
+                                 "sensitivity_T_RR.csv",
+                                 "sensitivity_T_RR_NStadi.csv"
+                             ],
+        "lfs_pointer_suspects":  [
+
+                                 ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+        "url":  "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  1,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "This is my second project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor\u0027s chemical engineering program at sharif university of technology.",
+        "hysys_like":  [
+                           "SIM/compressor and cooling water.hsc",
+                           "SIM/no compressor and cooling cycle.hsc"
+                       ],
+        "companion_count":  6,
+        "companion_sample":  [
+                                 "DOCS/Plant_Design_1402_1_HW2_R01.pdf",
+                                 "DOCS/REPORT.pdf",
+                                 "MISC/case study 1.xlsx",
+                                 "MISC/q_cond vs vap frac.pdf",
+                                 "MISC/temp vs vap frac.pdf",
+                                 "README.md"
+                             ],
+        "lfs_pointer_suspects":  [
+
+                                 ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "SinaGhanbarii/HDA-Plant-Simulation",
+        "url":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  1,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+        "hysys_like":  [
+                           "HDA 2024 Aspen/1-HDA-Setup.hsc",
+                           "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+                           "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+                           "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+                           "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc"
+                       ],
+        "companion_count":  10,
+        "companion_sample":  [
+                                 "Book1.xlsx",
+                                 "DeltaT_ad.m",
+                                 "HDA Product Column.xlsx",
+                                 "HDA Report.pdf",
+                                 "Heat exchangers.xlsx",
+                                 "Kinetics.m",
+                                 "Main.m",
+                                 "MaterialBalances.m",
+                                 "README.md",
+                                 "delT_adiabatic.m"
+                             ],
+        "lfs_pointer_suspects":  [
+
+                                 ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+        "url":  "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  1,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "This is my final project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor\u0027s chemical engineering program at sharif university of technology.",
+        "hysys_like":  [
+                           "SIM/SynGas-SMR-DMR(integration).hsc",
+                           "SIM/SynGas-SMR-DMR(main).hsc"
+                       ],
+        "companion_count":  4,
+        "companion_sample":  [
+                                 "DOCS/Report.pdf",
+                                 "DOCS/Seminar.pdf",
+                                 "MISC/Reaction Conversions Sensitivity.xlsx",
+                                 "README.md"
+                             ],
+        "lfs_pointer_suspects":  [
+
+                                 ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "perrywzm/hysysopt",
+        "url":  "https://github.com/perrywzm/hysysopt",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  1,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "For optimizing HYSYS case files",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  13,
+        "companion_sample":  [
+                                 "README.md",
+                                 "costing.py",
+                                 "hysysopt/__init__.py",
+                                 "hysysopt/distcol.py",
+                                 "hysysopt/interface.py",
+                                 "hysysopt/optimizer.py",
+                                 "hysysopt/optimizers/pso.py",
+                                 "hysysopt/util.py",
+                                 "hysysopt/visualizer.py",
+                                 "main.py",
+                                 "plot_grid.py",
+                                 "test_costing.py",
+                                 "visualizer.py"
+                             ],
+        "lfs_pointer_suspects":  [
+
+                                 ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+        "hysys_like":  [
+
+                       ],
+        "companion_count":  9,
+        "companion_sample":  [
+                                 "EXtest.py",
+                                 "HYSYS_python_simulation.py",
+                                 "HYSYS_python_spreadsheets_creator.py",
+                                 "HyCOM_DIC_creator.py",
+                                 "Hysys_python_creator.py",
+                                 "Hysys_python_flowsheet.py",
+                                 "LICENSE",
+                                 "README.md",
+                                 "project_paths.py"
+                             ],
+        "lfs_pointer_suspects":  [
+
+                                 ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    }
+]

@@ -1,0 +1,77 @@
+﻿[
+    {
+        "id":  31601266,
+        "exit_code":  0,
+        "title":  "A case study: Application of energy and exergy analysis for enhancing the process efficiency of a three stage propane pre-cooling cycle of the cascade LNG process",
+        "doi":  "",
+        "license":  "All rights reserved, written permission required",
+        "file_count":  1,
+        "file_sample":  [
+                            "237694.pdf"
+                        ],
+        "hysys_files":  [
+
+                        ],
+        "error":  ""
+    },
+    {
+        "id":  31668241,
+        "exit_code":  0,
+        "title":  "LNG Plant Modeling and Optimization",
+        "doi":  "",
+        "license":  "All rights reserved, written permission required",
+        "file_count":  1,
+        "file_sample":  [
+                            "Salehi B 2018.pdf"
+                        ],
+        "hysys_files":  [
+
+                        ],
+        "error":  ""
+    },
+    {
+        "id":  31701994,
+        "exit_code":  0,
+        "title":  "Process Efficiency Optimisation of Cascade LNG Process",
+        "doi":  "",
+        "license":  "All rights reserved, written permission required",
+        "file_count":  1,
+        "file_sample":  [
+                            "Najibullah Khan N 2018.pdf"
+                        ],
+        "hysys_files":  [
+
+                        ],
+        "error":  ""
+    },
+    {
+        "id":  26107027,
+        "exit_code":  0,
+        "title":  "Utilization of\nCold Energy of LNG for Carbon Dioxide\nCapture and Liquefaction in Amine-Based SMR",
+        "doi":  "10.1021/acs.iecr.3c03024.s001",
+        "license":  "CC BY-NC 4.0",
+        "file_count":  1,
+        "file_sample":  [
+                            "ie3c03024_si_001.pdf"
+                        ],
+        "hysys_files":  [
+
+                        ],
+        "error":  ""
+    },
+    {
+        "id":  22348461,
+        "exit_code":  0,
+        "title":  "An investigation of the cooling, heating and power systems integration with carbon capture and storage for LNG carriers",
+        "doi":  "10.6084/m9.figshare.22348461.v1",
+        "license":  "CC BY 4.0",
+        "file_count":  1,
+        "file_sample":  [
+                            "tsos_a_2195245_sm9653.docx"
+                        ],
+        "hysys_files":  [
+
+                        ],
+        "error":  ""
+    }
+]
