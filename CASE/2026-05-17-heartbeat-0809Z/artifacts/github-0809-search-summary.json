@@ -1,0 +1,56 @@
+{
+  "queries": [
+    {
+      "query": "Aspen HYSYS hsc",
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-Aspen__HYSYS__hsc.json",
+      "total_count": 0,
+      "items": 0
+    },
+    {
+      "query": "Aspen HYSYS hscz",
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-Aspen__HYSYS__hscz.json",
+      "total_count": 0,
+      "items": 0
+    },
+    {
+      "query": "HYSYS simulation case",
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-HYSYS__simulation__case.json",
+      "total_count": 0,
+      "items": 0
+    },
+    {
+      "query": "HYSYS Python COM Aspen",
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-HYSYS__Python__COM__Aspen.json",
+      "total_count": 1,
+      "items": 1
+    },
+    {
+      "query": "HYSYS Excel validation",
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-HYSYS__Excel__validation.json",
+      "total_count": 1,
+      "items": 1
+    },
+    {
+      "query": "Aspen HYSYS license:mit",
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-Aspen__HYSYS__license__mit.json",
+      "total_count": 8,
+      "items": 8
+    }
+  ],
+  "errors": [],
+  "unique_repositories": 19,
+  "manual_repos": [
+    "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "naawu789/HySysID",
+    "YuniqueCore/DynPlots",
+    "DanielVazVaz/PySIS",
+    "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "snua/HYSYS-dynamic-simulation",
+    "Avest-AI/MemCal",
+    "lihaijie1228/hysys_python_GA",
+    "lihaijie1228/dynamic_hysys_python",
+    "cityfamer/HyPy",
+    "tzejit/Hysys-python-link",
+    "andr1976/dwsim-paper"
+  ]
+}

@@ -1,0 +1,217 @@
+[
+  {
+    "repo": "leoyong1983-spec/AI-HYSYS-Skill",
+    "decision": "duplicate",
+    "source_dup": false,
+    "file_dup": true,
+    "title_dup": false,
+    "license_spdx": "MIT",
+    "model_files": [
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.hsc",
+        "size": 813271,
+        "sha": "e678fab39fa101639df34d12c8fdf8bb924b3aee"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.xml",
+        "size": 5026200,
+        "sha": "29aed339329de804aa3dd032552c26bff4f74cdb"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.hsc",
+        "size": 817635,
+        "sha": "ddebced42b46113d3855df1f92ca34d56397f874"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.xml",
+        "size": 5010843,
+        "sha": "f41c5f747466fd1bc9da9cb7d2c3b7ddce75ea26"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_NG.hsc",
+        "size": 1627312,
+        "sha": "6debf5db07684de1e50c6a2c5e1643d1dc401a36"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_methanol.hsc",
+        "size": 1682163,
+        "sha": "9ccf3a0cee6b04e0914abf8dc36ad801a7dda36e"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/MeOH_Production.hsc",
+        "size": 1790289,
+        "sha": "311b1bcaef44b1de2b3e757b86aa60740b18eb36"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/7. Sistema Integrado OCC,ASU,CCS.hsc",
+        "size": 13444211,
+        "sha": "35cd0fd67bade35a2ae667c1bd903fcdda0ab644"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/project.hsc",
+        "size": 765164,
+        "sha": "9c8f506bd4e0099767abb17ce218197320ce1a39"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening.hsc",
+        "size": 1257174,
+        "sha": "13e873c93bed1351d003ca2a4addaf850223eecd"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+        "size": 262372,
+        "sha": "6bbb90eae8124d906e2746cd6e974ebe7954ef47"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0854Z/artifacts/All_control_off_DMC.hsc",
+        "size": 4390662,
+        "sha": "03cf3cbf08cd54ab87fd3d9247882fc11f16b282"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main/Aspen_HYSYS_Python-main/Test_1.hsc",
+        "size": 458576,
+        "sha": "3c1044e6d310ca784bee6f25dba59aaf41a9f04b"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/tests/Atmospheric Crude Tower.hsc",
+        "size": 990667,
+        "sha": "5dcead61810381c57cb47da707d070f5ef5717a0"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-1521Z/artifacts/1000 KG DRYER.HSC",
+        "size": 296054,
+        "sha": "065db14e084256495de7e2ada4da3267a056f920"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/Test_1.hsc",
+        "size": 469871,
+        "sha": "ae6d7d8a2b1def7b517700fbec14441a9c2ff467"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/case.hsc",
+        "size": 198617,
+        "sha": "b850c08a55eb82e9750a51747c494c613809cf77"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/final.hsc",
+        "size": 1414968,
+        "sha": "c9ed2b6af5f251540c80745cb4b5d04148f01283"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-1007Z/artifacts/Zenodo_2024_Tennessee_Eastman_Iraola/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "size": 8728140,
+        "sha": "04393bb5ef360bca82d93b642136dde1d2a62ba9"
+      },
+      {
+        "path": "CASE/community/Test_1.hsc",
+        "size": 458576,
+        "sha": "3c1044e6d310ca784bee6f25dba59aaf41a9f04b"
+      }
+    ]
+  },
+  {
+    "repo": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "decision": "duplicate",
+    "source_dup": true,
+    "file_dup": true,
+    "title_dup": true,
+    "license_spdx": "MIT",
+    "model_files": [
+      {
+        "path": "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+        "size": 262372,
+        "sha": "6bbb90eae8124d906e2746cd6e974ebe7954ef47"
+      }
+    ]
+  },
+  {
+    "repo": "shahria-sunny/Natural-Gas-Sweetening",
+    "decision": "duplicate",
+    "source_dup": true,
+    "file_dup": true,
+    "title_dup": true,
+    "license_spdx": "MIT",
+    "model_files": [
+      {
+        "path": "Gas Sweetening.hsc",
+        "size": 1257174,
+        "sha": "13e873c93bed1351d003ca2a4addaf850223eecd"
+      }
+    ]
+  },
+  {
+    "repo": "shahria-sunny/CDU-Simulation-Optimization",
+    "decision": "duplicate",
+    "source_dup": true,
+    "file_dup": true,
+    "title_dup": true,
+    "license_spdx": "MIT",
+    "model_files": [
+      {
+        "path": "project.hsc",
+        "size": 765164,
+        "sha": "9c8f506bd4e0099767abb17ce218197320ce1a39"
+      }
+    ]
+  },
+  {
+    "repo": "edgarsmdn/Aspen_HYSYS_Python",
+    "decision": "duplicate",
+    "source_dup": true,
+    "file_dup": true,
+    "title_dup": true,
+    "license_spdx": "MIT",
+    "model_files": [
+      {
+        "path": "Test_1.hsc",
+        "size": 458576,
+        "sha": "3c1044e6d310ca784bee6f25dba59aaf41a9f04b"
+      }
+    ]
+  },
+  {
+    "repo": "lihaijie1228/hysys_python_GA",
+    "decision": "duplicate",
+    "source_dup": true,
+    "file_dup": false,
+    "title_dup": true,
+    "license_spdx": "NOASSERTION",
+    "model_files": [
+      {
+        "path": "simulaton_file/Decarbonization/Decarbonization.hsc",
+        "size": 1283523,
+        "sha": "22bd7ebcf460b6e0cb32be4b2cf0bf3e9a1c0d3b"
+      }
+    ]
+  },
+  {
+    "repo": "andr1976/dwsim-paper",
+    "decision": "duplicate",
+    "source_dup": true,
+    "file_dup": true,
+    "title_dup": false,
+    "license_spdx": "MIT",
+    "model_files": [
+      {
+        "path": "simulations/Black oil EOS density.hsc",
+        "size": 813271,
+        "sha": "e678fab39fa101639df34d12c8fdf8bb924b3aee"
+      },
+      {
+        "path": "simulations/Black oil EOS density.xml",
+        "size": 5026200,
+        "sha": "29aed339329de804aa3dd032552c26bff4f74cdb"
+      },
+      {
+        "path": "simulations/Optim.hsc",
+        "size": 817635,
+        "sha": "ddebced42b46113d3855df1f92ca34d56397f874"
+      },
+      {
+        "path": "simulations/Optim.xml",
+        "size": 5010843,
+        "sha": "f41c5f747466fd1bc9da9cb7d2c3b7ddce75ea26"
+      }
+    ]
+  }
+]

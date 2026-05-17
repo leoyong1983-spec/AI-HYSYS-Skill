@@ -1,0 +1,1344 @@
+[
+  {
+    "full_name": "leoyong1983-spec/AI-HYSYS-Skill",
+    "source_page": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-leoyong1983-spec__AI-HYSYS-Skill.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-leoyong1983-spec__AI-HYSYS-Skill.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-leoyong1983-spec__AI-HYSYS-Skill.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.hsc",
+        "size": 813271,
+        "sha": "e678fab39fa101639df34d12c8fdf8bb924b3aee"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.xml",
+        "size": 5026200,
+        "sha": "29aed339329de804aa3dd032552c26bff4f74cdb"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.hsc",
+        "size": 817635,
+        "sha": "ddebced42b46113d3855df1f92ca34d56397f874"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.xml",
+        "size": 5010843,
+        "sha": "f41c5f747466fd1bc9da9cb7d2c3b7ddce75ea26"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_NG.hsc",
+        "size": 1627312,
+        "sha": "6debf5db07684de1e50c6a2c5e1643d1dc401a36"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_methanol.hsc",
+        "size": 1682163,
+        "sha": "9ccf3a0cee6b04e0914abf8dc36ad801a7dda36e"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/MeOH_Production.hsc",
+        "size": 1790289,
+        "sha": "311b1bcaef44b1de2b3e757b86aa60740b18eb36"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/7. Sistema Integrado OCC,ASU,CCS.hsc",
+        "size": 13444211,
+        "sha": "35cd0fd67bade35a2ae667c1bd903fcdda0ab644"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/project.hsc",
+        "size": 765164,
+        "sha": "9c8f506bd4e0099767abb17ce218197320ce1a39"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening.hsc",
+        "size": 1257174,
+        "sha": "13e873c93bed1351d003ca2a4addaf850223eecd"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+        "size": 262372,
+        "sha": "6bbb90eae8124d906e2746cd6e974ebe7954ef47"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0854Z/artifacts/All_control_off_DMC.hsc",
+        "size": 4390662,
+        "sha": "03cf3cbf08cd54ab87fd3d9247882fc11f16b282"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main/Aspen_HYSYS_Python-main/Test_1.hsc",
+        "size": 458576,
+        "sha": "3c1044e6d310ca784bee6f25dba59aaf41a9f04b"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/tests/Atmospheric Crude Tower.hsc",
+        "size": 990667,
+        "sha": "5dcead61810381c57cb47da707d070f5ef5717a0"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-1521Z/artifacts/1000 KG DRYER.HSC",
+        "size": 296054,
+        "sha": "065db14e084256495de7e2ada4da3267a056f920"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/Test_1.hsc",
+        "size": 469871,
+        "sha": "ae6d7d8a2b1def7b517700fbec14441a9c2ff467"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/case.hsc",
+        "size": 198617,
+        "sha": "b850c08a55eb82e9750a51747c494c613809cf77"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/final.hsc",
+        "size": 1414968,
+        "sha": "c9ed2b6af5f251540c80745cb4b5d04148f01283"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-1007Z/artifacts/Zenodo_2024_Tennessee_Eastman_Iraola/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "size": 8728140,
+        "sha": "04393bb5ef360bca82d93b642136dde1d2a62ba9"
+      },
+      {
+        "path": "CASE/community/Test_1.hsc",
+        "size": 458576,
+        "sha": "3c1044e6d310ca784bee6f25dba59aaf41a9f04b"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/README.md",
+        "size": 2436,
+        "sha": "7cfac3a553f3a1005acfb73552168e1dea2b1017"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/DWSIM_result.csv",
+        "size": 10027,
+        "sha": "2ee088066097954782a08ee900f5da092d3eb16d"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/DWSIM_results_cleaned.csv",
+        "size": 10027,
+        "sha": "d2a03f1d5254e3baee3a8b4fe34b923a25236f24"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/HYSYS_result.csv",
+        "size": 7500,
+        "sha": "9f9f53af443bbe346a7e14b00717903b97dc2231"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/raw_testplan.csv",
+        "size": 25000,
+        "sha": "37c3ee7a3ca995d1ae988b85afa58b074dd002de"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/scaled_testplan.csv",
+        "size": 25021,
+        "sha": "6f4f139e0049e8cd59894c2e2c42cfc158305cd2"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure6_corrected.png",
+        "size": 38045,
+        "sha": "6b7bbe1f0b4b68d1bfc13c826f71c677ff516b27"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_1.png",
+        "size": 348101,
+        "sha": "536a792724094924f8550f51d51665742e33540c"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_2.png",
+        "size": 20393,
+        "sha": "9bc9b10de3e8bfa332d891371e4c9c94f0e70434"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_3.png",
+        "size": 102719,
+        "sha": "5f5e4f31448922e6a923a826ce5e6b5421ef9923"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_4.png",
+        "size": 135506,
+        "sha": "587f37deea00eef68b7af867dbb7271275d1dd5f"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_5.png",
+        "size": 129139,
+        "sha": "6e04a4f0a41a18d82413a42ea94c4cbbfbfc3bf8"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_6.png",
+        "size": 38368,
+        "sha": "d943d2542c707ead4f071430352cace21ba665e7"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_7.png",
+        "size": 34463,
+        "sha": "fce03effe017f479b59fde4075265f4ccaaaf10a"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/figure_8.png",
+        "size": 30701,
+        "sha": "2fe9a2bcaaa8dc0a8c94c50187cf6e68012091d7"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/power.png",
+        "size": 34519,
+        "sha": "e5e06534a3487d30f74d94509f7dcb3bb87e9acf"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/figures/rvp_plot.png",
+        "size": 30674,
+        "sha": "9da0ce8a1d32ea283eaff8098f4f4f2ff0bcb857"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Paper_draft_v10.docx",
+        "size": 1023209,
+        "sha": "ac34c102ad3b556093b6b068076f0448436672ed"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_ANRA.docx",
+        "size": 1023486,
+        "sha": "13a1e820787b1b1e6c662149fd62fd4d03c278ad"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_ANRA.pdf",
+        "size": 615869,
+        "sha": "947227ceacbe213d21ca645cd109427c3685d281"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_Track_Changes_ANRA.docx",
+        "size": 1023185,
+        "sha": "053b3342b38bae3f9e032ea4d2b3cabd80597608"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/presentation/Simulate365 User meeting Anders Andreasen.pdf",
+        "size": 1069718,
+        "sha": "03f4eec57bcb09e308033fb3cf496d958f15ce84"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/requirements.txt",
+        "size": 69,
+        "sha": "33ef24109a155eea016dcd6590ffe66edea01f3d"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/DWSIM_automation.py",
+        "size": 6350,
+        "sha": "0a6aca78a509a21650d5831298053a58866f8967"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/HYSYS_automation.py",
+        "size": 5877,
+        "sha": "378d9d2babc752cbb3184137513e40d757451e98"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/plot_data.py",
+        "size": 2942,
+        "sha": "256f3596cc40d2914d26731b8dfc4122ddbf9d2a"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Circular-marine-fuels-2030.xlsx",
+        "size": 25428,
+        "sha": "de6aca00e4faffec025fd77810328043e2af8a12"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Circular-marine-fuels-2050.xlsx",
+        "size": 25417,
+        "sha": "d7ebfd186b887362aaeb307c6954821dd1a231f8"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Data.xlsx",
+        "size": 13276,
+        "sha": "05729a8d9330ff8940c1abf01f4d593ce4af7282"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0026Z/index.md",
+        "size": 3322,
+        "sha": "28ce38891c4f9404e6c2cfb7d6d7b1113241d3ad"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/1. Análisis Multicriterio.xlsx",
+        "size": 63475,
+        "sha": "eab126ea401eeb1fc4a31ac32725c4f17f216032"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/2. Calculo de la Potencia nominal.xlsx",
+        "size": 1147741,
+        "sha": "bc8b5b5bd99884a80ba0d2161855b85430633db2"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/3. Calculo del poder calorifico de los bloques.xlsx",
+        "size": 383154,
+        "sha": "d01a9863f53f3cc274804bb1d8cc69390e1b2566"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-19469917/Upload-data-rar-listing.txt",
+        "size": 286,
+        "sha": "d8f9242560034d9a6f7a168a0414398617baf643"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0222Z/index.md",
+        "size": 3997,
+        "sha": "2a7f0375e2e6ad45f05ef208b2d54f826321be70"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0529Z/index.md",
+        "size": 3866,
+        "sha": "ced9ea673bff5432b60448b314a05a24997c9a47"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/CDU_Report.pdf",
+        "size": 322508,
+        "sha": "831966ac8499c3b27f3668c9a4b3d418a707ec73"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/README.md",
+        "size": 7898,
+        "sha": "7f31febbb6458c2d405721f788adbc549b2f2707"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening Report.pdf",
+        "size": 509135,
+        "sha": "946e93877d5a48d0c3eee652d7d4dacfc9351c85"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/README.md",
+        "size": 5650,
+        "sha": "a10efdb1fa0dc3094c6aa9feef5a27a5810d07e7"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/aspen report.pdf",
+        "size": 143415,
+        "sha": "d46c937d5e03bf2fd90a2de0bfa8ef5c415a3d9b"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/DWSIM/dwsim report.pdf",
+        "size": 218159,
+        "sha": "17f773baa4c65d0ec98867c55624612e7280247b"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/MATLAB/Pressure_Drop_Estimation_in_Pipelines.m",
+        "size": 2872,
+        "sha": "41c928732664dfda692e9b6b8b458cd8d3ae6cac"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/MS EXCEL/Pressure Drop Estimation in Pipelines.xlsx",
+        "size": 14138,
+        "sha": "a55cacd30384308d89e3f430643dc2a6fa187cb5"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/PYTHON/Pressure Drop Estimation in Pipelines.py",
+        "size": 3026,
+        "sha": "a9326bda3cf55b79dbd70e2241bb5de1fd09c978"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/Pressure Drop Estimation in Pipelines-ppt.pdf",
+        "size": 849484,
+        "sha": "7089f98be7b05e9d10646a5cff248dc21ddd62b6"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/README.md",
+        "size": 3489,
+        "sha": "9f87a42279745ef2fdbbe191edfa1772c82cec08"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0741Z/index.md",
+        "size": 5249,
+        "sha": "f7ad76691918c209631a4df7f5d719ea566fde5e"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0854Z/artifacts/DMC_evaluation2-zip-listing.txt",
+        "size": 148342,
+        "sha": "2be09eb636315a6fff54f1b5ff708274650b0f02"
+      },
+      {
+        "path": "CASE/2026-05-11-heartbeat-0854Z/index.md",
+        "size": 4161,
+        "sha": "721faf8a6d10ec3953d7dedb0b9133baf5377231"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "lihaijie1228/dynamic_hysys_python",
+    "source_page": "https://github.com/lihaijie1228/dynamic_hysys_python",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-lihaijie1228__dynamic_hysys_python.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-lihaijie1228__dynamic_hysys_python.json",
+    "tree_json": null
+  },
+  {
+    "full_name": "tzejit/Hysys-python-link",
+    "source_page": "https://github.com/tzejit/Hysys-python-link",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-tzejit__Hysys-python-link.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-tzejit__Hysys-python-link.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-tzejit__Hysys-python-link.json",
+    "default_branch": "master",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "Costing.py",
+        "size": 6327,
+        "sha": "f9042bf3f3308e9a6056cc5098ce11e26ae393df"
+      },
+      {
+        "path": "Discol.py",
+        "size": 1796,
+        "sha": "e9e618054f235d83a09252be0293a4b870601267"
+      },
+      {
+        "path": "HX.py",
+        "size": 1464,
+        "sha": "c80c69086f8fcce3860c525fcc117c75e008cdbc"
+      },
+      {
+        "path": "Hysys.py",
+        "size": 960,
+        "sha": "ec9218453fe7e8a835b98dfb06436b21abdc68e1"
+      },
+      {
+        "path": "Pump.py",
+        "size": 300,
+        "sha": "2f4d348b0d97ce9115c7ac302d70a1c2d78fce7e"
+      },
+      {
+        "path": "Stream.py",
+        "size": 675,
+        "sha": "4b70a1d318df3f1b970ac76eda1a7128ff28126e"
+      },
+      {
+        "path": "error.py",
+        "size": 176,
+        "sha": "18a81b9c54f079fa09d3248c0a97dae327e88ab8"
+      },
+      {
+        "path": "main.py",
+        "size": 355,
+        "sha": "11a723e98f29429a3b1f67f2c9c2e42af0fb03dd"
+      },
+      {
+        "path": "optimizer.py",
+        "size": 3828,
+        "sha": "ddb6fd824df7fd090b256dd0a8111c5565189a48"
+      }
+    ],
+    "has_readme": false,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "GaboTalero/HYSYS-Python-Case-Builder",
+    "source_page": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-GaboTalero__HYSYS-Python-Case-Builder.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-GaboTalero__HYSYS-Python-Case-Builder.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-GaboTalero__HYSYS-Python-Case-Builder.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "EXtest.py",
+        "size": 4566,
+        "sha": "c13e568086e4ca60579e6d3ecfa1bf9e53e86449"
+      },
+      {
+        "path": "HYSYS_python_simulation.py",
+        "size": 5939,
+        "sha": "7f1b7d85800b7e355ad11761734adb196f971fa5"
+      },
+      {
+        "path": "HYSYS_python_spreadsheets_creator.py",
+        "size": 3925,
+        "sha": "ed537d96445e6a0642bff6584eee6693e86fae62"
+      },
+      {
+        "path": "HyCOM_DIC_creator.py",
+        "size": 1905,
+        "sha": "29f99773e8869324be7393d2ce267a8a3584d92d"
+      },
+      {
+        "path": "Hysys_python_creator.py",
+        "size": 1684,
+        "sha": "286948ff95dca8eaa306910e8706002ccadb4a9d"
+      },
+      {
+        "path": "Hysys_python_flowsheet.py",
+        "size": 7716,
+        "sha": "f7b7a9083706e0c6ea08750ef38d724dfb2cd61a"
+      },
+      {
+        "path": "README.md",
+        "size": 2268,
+        "sha": "2ec5bf686c171c59ae1d2db213dec70af0f6343c"
+      },
+      {
+        "path": "project_paths.py",
+        "size": 457,
+        "sha": "a33bea72169c7c33bcd920f4c9598e3e28c33534"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "source_page": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [
+      {
+        "path": "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+        "size": 262372,
+        "sha": "6bbb90eae8124d906e2746cd6e974ebe7954ef47"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "ASPEN HYSYS/aspen report.pdf",
+        "size": 143415,
+        "sha": "d46c937d5e03bf2fd90a2de0bfa8ef5c415a3d9b"
+      },
+      {
+        "path": "DWSIM/dwsim report.pdf",
+        "size": 218159,
+        "sha": "17f773baa4c65d0ec98867c55624612e7280247b"
+      },
+      {
+        "path": "MATLAB/Pressure_Drop_Estimation_in_Pipelines.m",
+        "size": 2980,
+        "sha": "62027174097eaf717caa0930f33bcc5f864eadd8"
+      },
+      {
+        "path": "MS EXCEL/Pressure Drop Estimation in Pipelines.xlsx",
+        "size": 14138,
+        "sha": "a55cacd30384308d89e3f430643dc2a6fa187cb5"
+      },
+      {
+        "path": "PYTHON/Pressure Drop Estimation in Pipelines.py",
+        "size": 3026,
+        "sha": "a9326bda3cf55b79dbd70e2241bb5de1fd09c978"
+      },
+      {
+        "path": "README.md",
+        "size": 3489,
+        "sha": "9f87a42279745ef2fdbbe191edfa1772c82cec08"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "Galigeigei-Z/HDA-Surrogate-Optimization",
+    "source_page": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "README.md",
+        "size": 2682,
+        "sha": "571ca700281653d8336ba84d182666500f2ce944"
+      },
+      {
+        "path": "heat_network_supertargeting/README.md",
+        "size": 960,
+        "sha": "84f443c9a83ab42e623d0f32ea362f89442e4f7f"
+      },
+      {
+        "path": "heat_network_supertargeting/data/Input Sheet of 20.xlsx",
+        "size": 7766,
+        "sha": "2a836754fafadc2094205fa1b9926e3d33714ce0"
+      },
+      {
+        "path": "heat_network_supertargeting/heat_network_demo/__init__.py",
+        "size": 440,
+        "sha": "18f873c3808728c431ab7508467ecb53929abcc7"
+      },
+      {
+        "path": "heat_network_supertargeting/heat_network_demo/session.py",
+        "size": 767,
+        "sha": "3b6d5869bfa71354d7010d948e4afaf5834e38a8"
+      },
+      {
+        "path": "heat_network_supertargeting/heat_network_demo/supertargeting.py",
+        "size": 77823,
+        "sha": "8ed4c1744f7d6fa1bda85c2e78390541249fb947"
+      },
+      {
+        "path": "heat_network_supertargeting/heat_network_demo/workbook.py",
+        "size": 5279,
+        "sha": "0e115aa15e8bfbd02b1023f2ee3d9823bdd7badd"
+      },
+      {
+        "path": "hysys_interface_demo/README.md",
+        "size": 1101,
+        "sha": "901750219dc9bd22dbb9c704b31729f42a0815bb"
+      },
+      {
+        "path": "hysys_interface_demo/hysys_demo/__init__.py",
+        "size": 578,
+        "sha": "440baf161b61b19c2f8ccb380535718f3209a987"
+      },
+      {
+        "path": "hysys_interface_demo/hysys_demo/metrics.py",
+        "size": 1616,
+        "sha": "706a5c57cfccdc7583753e6f5c00004474d68957"
+      },
+      {
+        "path": "hysys_interface_demo/hysys_demo/mock.py",
+        "size": 4485,
+        "sha": "6dca49d6117e8e52f8b02a19016d56409537531a"
+      },
+      {
+        "path": "hysys_interface_demo/hysys_demo/model.py",
+        "size": 7256,
+        "sha": "942da30abb56847815d704fa873a74b7be6fe5e7"
+      },
+      {
+        "path": "hysys_interface_demo/hysys_demo/session.py",
+        "size": 788,
+        "sha": "f307010a4ecd9b0c302485c8dd1065e02b2d065c"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "shahria-sunny/Natural-Gas-Sweetening",
+    "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-shahria-sunny__Natural-Gas-Sweetening.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [
+      {
+        "path": "Gas Sweetening.hsc",
+        "size": 1257174,
+        "sha": "13e873c93bed1351d003ca2a4addaf850223eecd"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "Gas Sweetening Report.pdf",
+        "size": 509135,
+        "sha": "946e93877d5a48d0c3eee652d7d4dacfc9351c85"
+      },
+      {
+        "path": "README.md",
+        "size": 5650,
+        "sha": "a10efdb1fa0dc3094c6aa9feef5a27a5810d07e7"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "shahria-sunny/CDU-Simulation-Optimization",
+    "source_page": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-shahria-sunny__CDU-Simulation-Optimization.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [
+      {
+        "path": "project.hsc",
+        "size": 765164,
+        "sha": "9c8f506bd4e0099767abb17ce218197320ce1a39"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "CDU_Report.pdf",
+        "size": 322508,
+        "sha": "831966ac8499c3b27f3668c9a4b3d418a707ec73"
+      },
+      {
+        "path": "README.md",
+        "size": 7898,
+        "sha": "7f31febbb6458c2d405721f788adbc549b2f2707"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "source_page": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "README.md",
+        "size": 4695,
+        "sha": "faf644dd7ceec0d52f4aa705866dc7a758bf9d11"
+      },
+      {
+        "path": "data/Apen Hysys Data.csv",
+        "size": 24617,
+        "sha": "ce8360ab9261442a748ab865028050acbd368c2c"
+      },
+      {
+        "path": "data/Thermodynamic Validation.xlsx",
+        "size": 9820,
+        "sha": "1c1269dca8790dcd124a47b16395aada2dcdc6b9"
+      },
+      {
+        "path": "data/Yield_RBF_Populated_per_blend.csv",
+        "size": 474490,
+        "sha": "f4584a3729656b1ba11c65f12f33bbef0dece491"
+      },
+      {
+        "path": "data/rbf_error_matrix.csv",
+        "size": 1441,
+        "sha": "affe733e1d35d733f04ffdd86a0356d1eb23f8f5"
+      },
+      {
+        "path": "data/rbf_error_matrix_per_blend.csv",
+        "size": 2475,
+        "sha": "b765a7d7591737dbdfb153546542d8fd64d0be32"
+      },
+      {
+        "path": "data/rbf_validation_point_errors.csv",
+        "size": 161020,
+        "sha": "5f7a55d953c1199bf6b6c7b60a3f4336191766c4"
+      },
+      {
+        "path": "docs/Thermodynamic Validation.md",
+        "size": 5259,
+        "sha": "664e4055db1ca28e92133918bc29a3b7f7aff574"
+      },
+      {
+        "path": "docs/validation.md",
+        "size": 4664,
+        "sha": "a38e28189c2ada27e444dc3de1322aba0d014df2"
+      },
+      {
+        "path": "src/Rbf Validation.py",
+        "size": 6873,
+        "sha": "e2a577a785faaa8096e97d2f969d823bb2366eae"
+      },
+      {
+        "path": "src/rbf_interpolation.py",
+        "size": 5547,
+        "sha": "69f311a9cbd9dfb69da1288d350d2262568afcf7"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "edgarsmdn/Aspen_HYSYS_Python",
+    "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-edgarsmdn__Aspen_HYSYS_Python.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-edgarsmdn__Aspen_HYSYS_Python.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-edgarsmdn__Aspen_HYSYS_Python.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [
+      {
+        "path": "Test_1.hsc",
+        "size": 458576,
+        "sha": "3c1044e6d310ca784bee6f25dba59aaf41a9f04b"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "HYSYS_python_spreadsheets.py",
+        "size": 3994,
+        "sha": "f8055dde91b2fb4ab3e4aa4be59cb64e6b00fdda"
+      },
+      {
+        "path": "README.md",
+        "size": 3629,
+        "sha": "3b259a808fc791a425f073875114611d13b3d738"
+      },
+      {
+        "path": "Test_1.py",
+        "size": 2386,
+        "sha": "74e77a2356bce9804b711842d9d0a5defd21d509"
+      },
+      {
+        "path": "figures/HYSYS_Python.PNG",
+        "size": 187385,
+        "sha": "c1f9fd95905eeec3948e5e6fecad1ed9cfec5193"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "naawu789/HySysID",
+    "source_page": "https://github.com/naawu789/HySysID",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-naawu789__HySysID.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-naawu789__HySysID.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-naawu789__HySysID.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "Map_ID_DMD/run_DMD_v3.m",
+        "size": 3404,
+        "sha": "27e05ffc051a8a7b06726d9a5d67492da1f97d3a"
+      },
+      {
+        "path": "Map_ID_GD/C_est.m",
+        "size": 207,
+        "sha": "27f3ecbb26118564a68059774ff66ddb7b297711"
+      },
+      {
+        "path": "Map_ID_GD/D_est.m",
+        "size": 220,
+        "sha": "d4c4ab90a0a9a601302e5ffad69417c427476471"
+      },
+      {
+        "path": "Map_ID_GD/f_est.m",
+        "size": 427,
+        "sha": "2de02981877d23bdad2698102504407063b556c1"
+      },
+      {
+        "path": "Map_ID_GD/g_est.m",
+        "size": 1175,
+        "sha": "07f803845e687a18e7d54c180f7a5938c4bbb755"
+      },
+      {
+        "path": "Map_ID_GD/pickexample.m",
+        "size": 2691,
+        "sha": "19d949887c4489be27b2848b4fa23babda5a9cac"
+      },
+      {
+        "path": "Map_ID_GD/run_est.m",
+        "size": 2373,
+        "sha": "9f65da84d8c102854c04209259f7fe04c3110a5b"
+      },
+      {
+        "path": "README.md",
+        "size": 242,
+        "sha": "fb916c1059c0672ef53b897547f91fbf09f4855f"
+      },
+      {
+        "path": "Sample_Data/Lite/C_ex1_2.m",
+        "size": 97,
+        "sha": "9c52e41a585d9c15eafc0bb9d6786b08f66cf149"
+      },
+      {
+        "path": "Sample_Data/Lite/D_ex1_2.m",
+        "size": 121,
+        "sha": "94880054de11c36786555b6a0049e8a0ba07fd16"
+      },
+      {
+        "path": "Sample_Data/Lite/f_ex1_2.m",
+        "size": 113,
+        "sha": "e68de8ee73b752ae9ab7762f9166f8610aab60c7"
+      },
+      {
+        "path": "Sample_Data/Lite/g_ex1_2.m",
+        "size": 99,
+        "sha": "adc76c667d9aabb44674793a6debb2d02e1ddcaa"
+      },
+      {
+        "path": "Sample_Data/Lite/run_ex1_2.m",
+        "size": 752,
+        "sha": "a5c3a667b3ddd08ed1772b61e4dd9b91748b4fa4"
+      },
+      {
+        "path": "Sample_Data/Simu/C_ex1_2a.m",
+        "size": 873,
+        "sha": "4b641ff9a7bcb7a15c5e3a280f94c3f54ba36713"
+      },
+      {
+        "path": "Sample_Data/Simu/D_ex1_2a.m",
+        "size": 896,
+        "sha": "327ddb18b38ab9bf9c5c29e580783eebcd2d3ad5"
+      },
+      {
+        "path": "Sample_Data/Simu/f_ex1_2a.m",
+        "size": 908,
+        "sha": "b6e51065968c6786789ff268cb27d39699d125d2"
+      },
+      {
+        "path": "Sample_Data/Simu/g_ex1_2a.m",
+        "size": 892,
+        "sha": "b7b95eb01b2577be4851b315ca917bcf10513351"
+      },
+      {
+        "path": "Sample_Data/Simu/initialization_ex1_2a.m",
+        "size": 2087,
+        "sha": "69f470c27763ae543628b9f310647e57e393ebf6"
+      },
+      {
+        "path": "Sample_Data/Simu/postprocessing_ex1_2a.m",
+        "size": 1250,
+        "sha": "0f2837f02610c22935ce26943df6098796302902"
+      },
+      {
+        "path": "Sample_Data/Simu/run_ex1_2a.m",
+        "size": 1658,
+        "sha": "4434fd4c08d2a26d9de29f2c8ca7e06c14434fd9"
+      },
+      {
+        "path": "Sample_Test_Cases/run_DMD_test.m",
+        "size": 963,
+        "sha": "1d6905a00bc73a9b9a819871a36f51fb283c2e5c"
+      },
+      {
+        "path": "Sample_Test_Cases/run_GD_test.m",
+        "size": 908,
+        "sha": "399370fdc9fc048a243d0f6dfa5f2c9c97d026b5"
+      },
+      {
+        "path": "Sample_Test_Cases/run_SINDY_test.m",
+        "size": 628,
+        "sha": "45212cec507dcb7805edec87b56298d2a64b1c65"
+      },
+      {
+        "path": "Sample_Test_Cases/run_SVM_test.m",
+        "size": 1591,
+        "sha": "83c286d06850e9160cf2ecb70fd0cf35301c74b6"
+      },
+      {
+        "path": "Set_ID_SVM/C_ex1.m",
+        "size": 180,
+        "sha": "ed9314effc7e276c13bf7f511202b0004a19972c"
+      },
+      {
+        "path": "Set_ID_SVM/D_ex1.m",
+        "size": 180,
+        "sha": "98275044855bca216eda31299556504808533623"
+      },
+      {
+        "path": "Set_ID_SVM/HausdorffDist.m",
+        "size": 4736,
+        "sha": "65cad9fe496c0c06cbdba795e5e3354c01d4a3fa"
+      },
+      {
+        "path": "Set_ID_SVM/f_ex1.m",
+        "size": 421,
+        "sha": "8c5738b3e523fdfc5db343feec1f22f2c9a813d8"
+      },
+      {
+        "path": "Set_ID_SVM/g_ex1.m",
+        "size": 341,
+        "sha": "f584f0ea64c1f5f99945c7c4274e8639de17850f"
+      },
+      {
+        "path": "Set_ID_SVM/noise.m",
+        "size": 123,
+        "sha": "6f71e5211f31c02f88b177fa8a92da6f759329bb"
+      },
+      {
+        "path": "Set_ID_SVM/run_SVM_v3.m",
+        "size": 3723,
+        "sha": "42800db14e39563a5578a99e4346bac3f4e178c4"
+      },
+      {
+        "path": "Set_ID_SVM/run_ex1_2.m",
+        "size": 775,
+        "sha": "4cf64e669cc601460323c4dd5f506150bdf31751"
+      },
+      {
+        "path": "Set_ID_SVM/svm_v4.m",
+        "size": 2720,
+        "sha": "f611b2c1ece2c635514384a67d1fdf376302b01e"
+      },
+      {
+        "path": "Set_ID_SVM/svm_v5.m",
+        "size": 1387,
+        "sha": "9dbea023f0d7d9dccaea5d38bdf005ead315e748"
+      },
+      {
+        "path": "readme_plot1.JPG",
+        "size": 24964,
+        "sha": "21e009a4c79be50ddfb03f3705f723795924ddab"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "YuniqueCore/DynPlots",
+    "source_page": "https://github.com/YuniqueCore/DynPlots",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-YuniqueCore__DynPlots.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-YuniqueCore__DynPlots.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-YuniqueCore__DynPlots.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "DynPlots/Backends/Common/FileHelper.py",
+        "size": 5350,
+        "sha": "5698175627aaf441cefbeb717bf53569cdcd07ed"
+      },
+      {
+        "path": "DynPlots/Backends/Common/PathHelper.py",
+        "size": 2328,
+        "sha": "5d22e96e80f86c900bcb679a96a0f1c689462d01"
+      },
+      {
+        "path": "DynPlots/Backends/Common/__init__.py",
+        "size": 30,
+        "sha": "26b4e94ace9564ae6487a3b7bcb6264e34252488"
+      },
+      {
+        "path": "DynPlots/Backends/DataHandler.py",
+        "size": 4275,
+        "sha": "2dd88e8041260e99210b6f0972027fad3f450eee"
+      },
+      {
+        "path": "DynPlots/Backends/__init__.py",
+        "size": 10,
+        "sha": "877a9892d7cc309bccf31a8414dd863388c29e3d"
+      },
+      {
+        "path": "DynPlots/Test/Backends_test.py",
+        "size": 4117,
+        "sha": "753a6f80c070676a789d4ad162e710bf94f2fb6c"
+      },
+      {
+        "path": "DynPlots/Test/__init__.py",
+        "size": 11,
+        "sha": "9c50331f4389f6f4c735341cba41d2115780a465"
+      }
+    ],
+    "has_readme": false,
+    "has_license_file": true,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "DanielVazVaz/PySIS",
+    "source_page": "https://github.com/DanielVazVaz/PySIS",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-DanielVazVaz__PySIS.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-DanielVazVaz__PySIS.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-DanielVazVaz__PySIS.json",
+    "default_branch": "master",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "README.md",
+        "size": 1596,
+        "sha": "c6ebc286e845db08a2fa92db93b3604b2bb6158a"
+      },
+      {
+        "path": "docs/conf.py",
+        "size": 1667,
+        "sha": "c26b4b1b736d40740e416f378080803fcb53b877"
+      },
+      {
+        "path": "pysis/__init__.py",
+        "size": 33,
+        "sha": "6e7610b731d59d1555fd9ce630cfb19b72c75006"
+      },
+      {
+        "path": "pysis/flowsheet.py",
+        "size": 53805,
+        "sha": "22b8087b4ef44505dfe0011ca638be1da609f4fa"
+      },
+      {
+        "path": "setup.py",
+        "size": 1083,
+        "sha": "06b9bce03ab69cb827d6bb73780ef5d9a8cefee0"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "source_page": "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+    "default_branch": "main",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "Dynamic/Matlab/Connections.m",
+        "size": 4708,
+        "sha": "16ee5daa59d1aaeef4ae95aac7d0e12abba59ec2"
+      },
+      {
+        "path": "Dynamic/Matlab/HysysValue.m",
+        "size": 1450,
+        "sha": "cfe7ab5e1b3dfc558482ae2e94f6ab34fb731aed"
+      },
+      {
+        "path": "Dynamic/Python/Connections.py",
+        "size": 6906,
+        "sha": "1df685941ec201291ed0c9e7f59755b1eb23ebe9"
+      },
+      {
+        "path": "README.md",
+        "size": 352,
+        "sha": "31c53c709085b38ca737e41231a2b06bb2fae270"
+      },
+      {
+        "path": "Steady-State/Matlab/Connections.m",
+        "size": 5489,
+        "sha": "deb19072de88cbb8dacedfe8dc87655192bc2d1d"
+      },
+      {
+        "path": "Steady-State/Matlab/HysysValue.m",
+        "size": 1450,
+        "sha": "cfe7ab5e1b3dfc558482ae2e94f6ab34fb731aed"
+      },
+      {
+        "path": "Steady-State/Python/Connections.py",
+        "size": 7178,
+        "sha": "e758c43e5e5cf9c5f57e41c2da1dcf9fb3cfb5b7"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "snua/HYSYS-dynamic-simulation",
+    "source_page": "https://github.com/snua/HYSYS-dynamic-simulation",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-snua__HYSYS-dynamic-simulation.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-snua__HYSYS-dynamic-simulation.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-snua__HYSYS-dynamic-simulation.json",
+    "default_branch": "master",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "Intro-Dynamic-Simulation-Slides.pdf",
+        "size": 782817,
+        "sha": "4b7e87168545c127bc511c1e59753492a0a80fa2"
+      },
+      {
+        "path": "Intro-Dynamic-Simulation-Worksheet.pdf",
+        "size": 1249182,
+        "sha": "efdf0248a04769358f2b7623cf83b99b258ca3f7"
+      },
+      {
+        "path": "README.md",
+        "size": 80,
+        "sha": "6c9270ddc9be9ce326a78efe2f70294fe96d7b39"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "Avest-AI/MemCal",
+    "source_page": "https://github.com/Avest-AI/MemCal",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-Avest-AI__MemCal.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-Avest-AI__MemCal.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-Avest-AI__MemCal.json",
+    "default_branch": "main",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "README.md",
+        "size": 1810,
+        "sha": "d4644be52889015e7e4a19a8c50a736150103973"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "lihaijie1228/hysys_python_GA",
+    "source_page": "https://github.com/lihaijie1228/hysys_python_GA",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-lihaijie1228__hysys_python_GA.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-lihaijie1228__hysys_python_GA.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-lihaijie1228__hysys_python_GA.json",
+    "default_branch": "main",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [
+      {
+        "path": "simulaton_file/Decarbonization/Decarbonization.hsc",
+        "size": 1283523,
+        "sha": "22bd7ebcf460b6e0cb32be4b2cf0bf3e9a1c0d3b"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "HYSYS_python_spreadsheets.py",
+        "size": 4021,
+        "sha": "62bffa5fe07ee5e8833f40dd0e7846001b2fe62c"
+      },
+      {
+        "path": "README.md",
+        "size": 1197,
+        "sha": "29ea646edced9915fe4a228312ab6566cceabb4b"
+      },
+      {
+        "path": "main.py",
+        "size": 2565,
+        "sha": "e4f193f9bbf9e237b579cadfdff3c0d7682e076f"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "cityfamer/HyPy",
+    "source_page": "https://github.com/cityfamer/HyPy",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-cityfamer__HyPy.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-cityfamer__HyPy.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-cityfamer__HyPy.json",
+    "default_branch": "main",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [],
+    "sidecar_files": [
+      {
+        "path": "HyPy/__init__.py",
+        "size": 0,
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "HyPy/simulation.py",
+        "size": 4738,
+        "sha": "decd155b01eeb4f77ba9a2cbd3a0e5f123c3bea4"
+      },
+      {
+        "path": "README.md",
+        "size": 50,
+        "sha": "e857b7a05fe11155037db2d90ede54b59f875e1c"
+      },
+      {
+        "path": "setup.py",
+        "size": 902,
+        "sha": "d18827f80524e1647e1885c7e15e41c413e43358"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "andr1976/dwsim-paper",
+    "source_page": "https://github.com/andr1976/dwsim-paper",
+    "repo_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-andr1976__dwsim-paper.json",
+    "license_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-andr1976__dwsim-paper.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-andr1976__dwsim-paper.json",
+    "default_branch": "main",
+    "license_spdx": "MIT",
+    "license_ok_for_archive": true,
+    "model_files": [
+      {
+        "path": "simulations/Black oil EOS density.hsc",
+        "size": 813271,
+        "sha": "e678fab39fa101639df34d12c8fdf8bb924b3aee"
+      },
+      {
+        "path": "simulations/Black oil EOS density.xml",
+        "size": 5026200,
+        "sha": "29aed339329de804aa3dd032552c26bff4f74cdb"
+      },
+      {
+        "path": "simulations/Optim.hsc",
+        "size": 817635,
+        "sha": "ddebced42b46113d3855df1f92ca34d56397f874"
+      },
+      {
+        "path": "simulations/Optim.xml",
+        "size": 5010843,
+        "sha": "f41c5f747466fd1bc9da9cb7d2c3b7ddce75ea26"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "README.md",
+        "size": 2436,
+        "sha": "7cfac3a553f3a1005acfb73552168e1dea2b1017"
+      },
+      {
+        "path": "data/DWSIM_result.csv",
+        "size": 10027,
+        "sha": "2ee088066097954782a08ee900f5da092d3eb16d"
+      },
+      {
+        "path": "data/DWSIM_results_cleaned.csv",
+        "size": 10027,
+        "sha": "d2a03f1d5254e3baee3a8b4fe34b923a25236f24"
+      },
+      {
+        "path": "data/HYSYS_result.csv",
+        "size": 7500,
+        "sha": "9f9f53af443bbe346a7e14b00717903b97dc2231"
+      },
+      {
+        "path": "data/raw_testplan.csv",
+        "size": 25000,
+        "sha": "37c3ee7a3ca995d1ae988b85afa58b074dd002de"
+      },
+      {
+        "path": "data/scaled_testplan.csv",
+        "size": 25021,
+        "sha": "6f4f139e0049e8cd59894c2e2c42cfc158305cd2"
+      },
+      {
+        "path": "scripts/DWSIM_automation.py",
+        "size": 6350,
+        "sha": "0a6aca78a509a21650d5831298053a58866f8967"
+      },
+      {
+        "path": "scripts/HYSYS_automation.py",
+        "size": 5877,
+        "sha": "378d9d2babc752cbb3184137513e40d757451e98"
+      },
+      {
+        "path": "scripts/plot_data.py",
+        "size": 2942,
+        "sha": "256f3596cc40d2914d26731b8dfc4122ddbf9d2a"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  }
+]

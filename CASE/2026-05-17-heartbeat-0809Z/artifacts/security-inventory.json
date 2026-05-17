@@ -1,0 +1,549 @@
+{
+  "total_files": 77,
+  "dangerous_or_executable_count": 0,
+  "archive_count": 0,
+  "total_size_bytes": 1215671,
+  "dangerous_or_executable": [],
+  "archives": [],
+  "files": [
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/dedupe-keys-snapshot.json",
+      "filename": "dedupe-keys-snapshot.json",
+      "extension": ".json",
+      "size_bytes": 137803,
+      "sha256": "3770fc15fc720db25298dc4755216b5f0740f10ffdfa1996efd621641cace009"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/dedupe-summary.json",
+      "filename": "dedupe-summary.json",
+      "extension": ".json",
+      "size_bytes": 288,
+      "sha256": "3bab4522b9362526707200fd02b915772982b02a8504c2e7b21ea8a1da9b27a9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/external-0809-bitbucket-search.err.txt",
+      "filename": "external-0809-bitbucket-search.err.txt",
+      "extension": ".txt",
+      "size_bytes": 20,
+      "sha256": "5cf18864037ee5fdac2aeef382c752c8e8cbb06aacf42a0257cae8bb3bfcc31e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/external-0809-gitlab-project-search.json",
+      "filename": "external-0809-gitlab-project-search.json",
+      "extension": ".json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/external-0809-search-summary.json",
+      "filename": "external-0809-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 1203,
+      "sha256": "337fd2c5c114c0a25cac5519f5657d2be23296686c142edb4d5a07e4a2efe201"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/external-0809-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "filename": "external-0809-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/external-0809-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "filename": "external-0809-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/external-0809-zenodo-HYSYS__simulation__.hsc.err.txt",
+      "filename": "external-0809-zenodo-HYSYS__simulation__.hsc.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-dedupe-assessment.json",
+      "filename": "github-0809-dedupe-assessment.json",
+      "extension": ".json",
+      "size_bytes": 7336,
+      "sha256": "329defa4f292b1d8b1e6d1935868d645417efae4681f1e876f13993f5203c1fa"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-inspected-repositories.json",
+      "filename": "github-0809-inspected-repositories.json",
+      "extension": ".json",
+      "size_bytes": 49929,
+      "sha256": "f2c887e5ea63593fb57c2fc1fb788766c4fe8b16be0cfac23f44eb79f4676682"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-inspection-summary.json",
+      "filename": "github-0809-inspection-summary.json",
+      "extension": ".json",
+      "size_bytes": 249,
+      "sha256": "386863ee0f8da75566023cea4b9103ccab82e83e501ce9d6ff43f7b0d13a70ac"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-inspection-targets.json",
+      "filename": "github-0809-inspection-targets.json",
+      "extension": ".json",
+      "size_bytes": 729,
+      "sha256": "40744e86477d6b1008d3c76a6585b03c24db3b0a62f5e2b17e500dcc1168897d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-andr1976__dwsim-paper.json",
+      "filename": "github-0809-license-andr1976__dwsim-paper.json",
+      "extension": ".json",
+      "size_bytes": 2513,
+      "sha256": "1ad9420f65b2a693ad8cb2bf55b855ec5b655080d6db020b5076f975eeeb2975"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-Avest-AI__MemCal.json",
+      "filename": "github-0809-license-Avest-AI__MemCal.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-cityfamer__HyPy.json",
+      "filename": "github-0809-license-cityfamer__HyPy.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-DanielVazVaz__PySIS.json",
+      "filename": "github-0809-license-DanielVazVaz__PySIS.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-edgarsmdn__Aspen_HYSYS_Python.json",
+      "filename": "github-0809-license-edgarsmdn__Aspen_HYSYS_Python.json",
+      "extension": ".json",
+      "size_bytes": 2565,
+      "sha256": "920439304cde8e48acc6e755b832cde23a32dada6ef3fb1455e02809b87d5888"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "filename": "github-0809-license-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "extension": ".json",
+      "size_bytes": 2621,
+      "sha256": "d23753c712fb4baabf430ba087f12f9584a5f79f45815aaa165bd34effa165ec"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+      "filename": "github-0809-license-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+      "extension": ".json",
+      "size_bytes": 2642,
+      "sha256": "6d57019ecf75b55fd4091075c99210d76dfb89792b33439ac0a8145ae9b3965a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "filename": "github-0809-license-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "extension": ".json",
+      "size_bytes": 2754,
+      "sha256": "b1fd0beb2df241af05685276d1a02ab94e7e6cae5b15d127bb5b2cfe72d69a80"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+      "filename": "github-0809-license-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+      "extension": ".json",
+      "size_bytes": 2794,
+      "sha256": "8387b0f685ccdbdcb00d5a4415d6b428f8eac9b4b5ac63dc0826492dd54f2e21"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-leoyong1983-spec__AI-HYSYS-Skill.json",
+      "filename": "github-0809-license-leoyong1983-spec__AI-HYSYS-Skill.json",
+      "extension": ".json",
+      "size_bytes": 2612,
+      "sha256": "56213be76d2ca2aab4e8798111048a06ae06b17e4a96a49fcd92bbe1b8aaedd1"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-lihaijie1228__dynamic_hysys_python.json",
+      "filename": "github-0809-license-lihaijie1228__dynamic_hysys_python.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-lihaijie1228__hysys_python_GA.json",
+      "filename": "github-0809-license-lihaijie1228__hysys_python_GA.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-naawu789__HySysID.json",
+      "filename": "github-0809-license-naawu789__HySysID.json",
+      "extension": ".json",
+      "size_bytes": 2473,
+      "sha256": "a4526f061c139d6ea10df2d65aeb9995ca04ef15e57ffa09ad1725648978ffef"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "filename": "github-0809-license-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-shahria-sunny__CDU-Simulation-Optimization.json",
+      "filename": "github-0809-license-shahria-sunny__CDU-Simulation-Optimization.json",
+      "extension": ".json",
+      "size_bytes": 2668,
+      "sha256": "177f16e6fc1981cdc0eedfb58afe4b6a3be4bac914797ee121b77a1656789d0c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-shahria-sunny__Natural-Gas-Sweetening.json",
+      "filename": "github-0809-license-shahria-sunny__Natural-Gas-Sweetening.json",
+      "extension": ".json",
+      "size_bytes": 2633,
+      "sha256": "ae4e358afe9655628b754d9129115fb9ccd8642156ccfe560375cbd53a9cbe36"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-snua__HYSYS-dynamic-simulation.json",
+      "filename": "github-0809-license-snua__HYSYS-dynamic-simulation.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-tzejit__Hysys-python-link.json",
+      "filename": "github-0809-license-tzejit__Hysys-python-link.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-license-YuniqueCore__DynPlots.json",
+      "filename": "github-0809-license-YuniqueCore__DynPlots.json",
+      "extension": ".json",
+      "size_bytes": 2505,
+      "sha256": "9c6cca37f7c7c2979bf0a613a52bbdbc706a437e96a618a854acfdc636414dec"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-model-bearing-repositories.json",
+      "filename": "github-0809-model-bearing-repositories.json",
+      "extension": ".json",
+      "size_bytes": 26403,
+      "sha256": "8a2ed3256fc01e8b26e6e95e297d5396e5ec83f95a13699cc5fb1d44d8e63737"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-andr1976__dwsim-paper.json",
+      "filename": "github-0809-repo-andr1976__dwsim-paper.json",
+      "extension": ".json",
+      "size_bytes": 5971,
+      "sha256": "a52d7f7db4fe3384301aabc2f0820f14a1bfad22ba61810e6fcb243fb8e74634"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-Avest-AI__MemCal.json",
+      "filename": "github-0809-repo-Avest-AI__MemCal.json",
+      "extension": ".json",
+      "size_bytes": 5523,
+      "sha256": "0dc364980ea20e9ce8207f81c1b75e04500a6f2b0d8aaf29e0520fc0a22f39ff"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-cityfamer__HyPy.json",
+      "filename": "github-0809-repo-cityfamer__HyPy.json",
+      "extension": ".json",
+      "size_bytes": 5443,
+      "sha256": "94e1bff143d0250d37f2a3f7d60de6f6e2b2f3d4647b61f39e9617349eb980e4"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-DanielVazVaz__PySIS.json",
+      "filename": "github-0809-repo-DanielVazVaz__PySIS.json",
+      "extension": ".json",
+      "size_bytes": 5661,
+      "sha256": "2fb18e56277ab22f7cf1084878a8a62bbd7b8774322307119a993bc5e939e602"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-edgarsmdn__Aspen_HYSYS_Python.json",
+      "filename": "github-0809-repo-edgarsmdn__Aspen_HYSYS_Python.json",
+      "extension": ".json",
+      "size_bytes": 6235,
+      "sha256": "83f123270109c50574137c6db0f1bf475b3a9d63d9a19626f803a418d4ed0207"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "filename": "github-0809-repo-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "extension": ".json",
+      "size_bytes": 6638,
+      "sha256": "24fa01135b3858fa3e6883f4001300c828306e6e2dfe8b1965e5360e72459858"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+      "filename": "github-0809-repo-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+      "extension": ".json",
+      "size_bytes": 6957,
+      "sha256": "5bebe7c2f60c5b910c68a198681cd6447960ebc1c1eb357918d0c62221e12652"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "filename": "github-0809-repo-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "extension": ".json",
+      "size_bytes": 7590,
+      "sha256": "f9ef69b8824a6ecfabf31818609b43426506dd04925029ac8910893fa6c8090f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+      "filename": "github-0809-repo-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+      "extension": ".json",
+      "size_bytes": 7842,
+      "sha256": "52a84a947fdd3363493765a99ba040b6a1214f698f29733567d97af2c43c6cd0"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-leoyong1983-spec__AI-HYSYS-Skill.json",
+      "filename": "github-0809-repo-leoyong1983-spec__AI-HYSYS-Skill.json",
+      "extension": ".json",
+      "size_bytes": 6481,
+      "sha256": "57fb510189bcd6face296b0a39f6496b09eab4f62b9f1dfeb1103767c8c0d44a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-lihaijie1228__dynamic_hysys_python.json",
+      "filename": "github-0809-repo-lihaijie1228__dynamic_hysys_python.json",
+      "extension": ".json",
+      "size_bytes": 6400,
+      "sha256": "3d628c8e3096ecadb5e4a61160c8de899be10fc7771ec5c08ea7d569bff1a622"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-lihaijie1228__hysys_python_GA.json",
+      "filename": "github-0809-repo-lihaijie1228__hysys_python_GA.json",
+      "extension": ".json",
+      "size_bytes": 6118,
+      "sha256": "9e65124d9996a0e51849cdd5b9c492ed557ad4132e5d0dcdf63e5cd2519569c6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-naawu789__HySysID.json",
+      "filename": "github-0809-repo-naawu789__HySysID.json",
+      "extension": ".json",
+      "size_bytes": 5638,
+      "sha256": "bf8eb90e3c5dfb0d5f339dce598ac8359e63c2c0279399ce3e2f0c9a3994ce9f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "filename": "github-0809-repo-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "extension": ".json",
+      "size_bytes": 7122,
+      "sha256": "d7c8dd89d0573cd586d5a3fa845402e1dfff5c7c0cb86b8113b1768bf05deb01"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+      "filename": "github-0809-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+      "extension": ".json",
+      "size_bytes": 7236,
+      "sha256": "1351bb0f6f1b9a7bcd8dd99f92fec13869b183040078dd4c67b1b47b609d3ffa"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+      "filename": "github-0809-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+      "extension": ".json",
+      "size_bytes": 6927,
+      "sha256": "feb4e7b6f379d2da5f4ba24c60bfa7b8052547413dc8a5b22052b57c153ef6e1"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-snua__HYSYS-dynamic-simulation.json",
+      "filename": "github-0809-repo-snua__HYSYS-dynamic-simulation.json",
+      "extension": ".json",
+      "size_bytes": 6083,
+      "sha256": "9eb03b30d2084546843c2d57e9a9db115794d32106b48d68a5cf6dff50048a8e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-tzejit__Hysys-python-link.json",
+      "filename": "github-0809-repo-tzejit__Hysys-python-link.json",
+      "extension": ".json",
+      "size_bytes": 5815,
+      "sha256": "4fc53c94b8f47ea3cdde78cbc40ce46c3439ee5683feeaf209d0f69282fe8e02"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-YuniqueCore__DynPlots.json",
+      "filename": "github-0809-repo-YuniqueCore__DynPlots.json",
+      "extension": ".json",
+      "size_bytes": 7064,
+      "sha256": "3e55a29c6544e58f7353972eb2e26ee686171a0c52f10529d0979aaac49688c9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-Aspen__HYSYS__hsc.json",
+      "filename": "github-0809-search-Aspen__HYSYS__hsc.json",
+      "extension": ".json",
+      "size_bytes": 72,
+      "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-Aspen__HYSYS__hscz.json",
+      "filename": "github-0809-search-Aspen__HYSYS__hscz.json",
+      "extension": ".json",
+      "size_bytes": 72,
+      "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-Aspen__HYSYS__license__mit.json",
+      "filename": "github-0809-search-Aspen__HYSYS__license__mit.json",
+      "extension": ".json",
+      "size_bytes": 59112,
+      "sha256": "130261c5a6c94b3aea5a432d7e0531bb40cc3f86ad3c4f4dd6cd247c1815c6dd"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-HYSYS__Excel__validation.json",
+      "filename": "github-0809-search-HYSYS__Excel__validation.json",
+      "extension": ".json",
+      "size_bytes": 8298,
+      "sha256": "73d8208a8a34919c2e4e2faa6b1eff2bb02301a7d452038d1a75cea6111c9186"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-HYSYS__Python__COM__Aspen.json",
+      "filename": "github-0809-search-HYSYS__Python__COM__Aspen.json",
+      "extension": ".json",
+      "size_bytes": 7094,
+      "sha256": "070bc30455300cf4ca57db06cbd1c5df7582dca7af676976ff6ef2eecc1f5b0e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-HYSYS__simulation__case.json",
+      "filename": "github-0809-search-HYSYS__simulation__case.json",
+      "extension": ".json",
+      "size_bytes": 72,
+      "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-search-summary.json",
+      "filename": "github-0809-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 1762,
+      "sha256": "681d46e17a11cea9a994105a5fe1dff5f09b9845ae68f745afdf4de2307e99bb"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-skipped-no-model.json",
+      "filename": "github-0809-skipped-no-model.json",
+      "extension": ".json",
+      "size_bytes": 2830,
+      "sha256": "901389146dabc40ec5fd91ef2270ed6d9fa5d1e86700f9d1e3b5873f99f1bf17"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-andr1976__dwsim-paper.json",
+      "filename": "github-0809-tree-andr1976__dwsim-paper.json",
+      "extension": ".json",
+      "size_bytes": 12784,
+      "sha256": "5a533c4201db38512a1e61fad0cbab6e43ec7e8a211d63d33572da5ef59b0ecf"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-Avest-AI__MemCal.json",
+      "filename": "github-0809-tree-Avest-AI__MemCal.json",
+      "extension": ".json",
+      "size_bytes": 1059,
+      "sha256": "c0c9e48cf790fd225851f854288c4c2f64da26874f44df8b14aed19fb3c49c6b"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-cityfamer__HyPy.json",
+      "filename": "github-0809-tree-cityfamer__HyPy.json",
+      "extension": ".json",
+      "size_bytes": 1594,
+      "sha256": "28997f8b1c0c3614f1a5e0ec29c2eed672f1f5558790e73e865e6f8654a64c82"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-DanielVazVaz__PySIS.json",
+      "filename": "github-0809-tree-DanielVazVaz__PySIS.json",
+      "extension": ".json",
+      "size_bytes": 5046,
+      "sha256": "b54534c0f8d14512bcce963ab8e30f9e6d612679f74f781a9e899c0eef35cfb6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-edgarsmdn__Aspen_HYSYS_Python.json",
+      "filename": "github-0809-tree-edgarsmdn__Aspen_HYSYS_Python.json",
+      "extension": ".json",
+      "size_bytes": 3509,
+      "sha256": "ef141b21794bdefc2a5c12d9ba96ac3b119f8b2a28f196a4e5360444cc5596c5"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "filename": "github-0809-tree-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "extension": ".json",
+      "size_bytes": 3044,
+      "sha256": "222ee8e23494e034cdc0da0684a096d124430104d25b6e71a21a3e051c691bb6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+      "filename": "github-0809-tree-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+      "extension": ".json",
+      "size_bytes": 9605,
+      "sha256": "a8a4ad03ff6380ca056c43fa1ac2738e3a3758174bffa8db29e7b2d8b2fd1c47"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "filename": "github-0809-tree-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "extension": ".json",
+      "size_bytes": 5857,
+      "sha256": "51d013a29f52f596e908ddcbb280ace9f16b05709c0d13f3fc388a2fa56695bd"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+      "filename": "github-0809-tree-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+      "extension": ".json",
+      "size_bytes": 5666,
+      "sha256": "e02ffc9b6cba17f6af93693ad96a75eb09498411cf7964071b689c02a490f646"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-leoyong1983-spec__AI-HYSYS-Skill.json",
+      "filename": "github-0809-tree-leoyong1983-spec__AI-HYSYS-Skill.json",
+      "extension": ".json",
+      "size_bytes": 659698,
+      "sha256": "03758d3131f0f5d60ed198a1f4ea94eb117ce53976f42331a4729b8da1a3f366"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-lihaijie1228__hysys_python_GA.json",
+      "filename": "github-0809-tree-lihaijie1228__hysys_python_GA.json",
+      "extension": ".json",
+      "size_bytes": 4530,
+      "sha256": "07e41ed9a8650dfc50bcaa913eeb76f1bf505eca66c99603f41891ddff1188bd"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-naawu789__HySysID.json",
+      "filename": "github-0809-tree-naawu789__HySysID.json",
+      "extension": ".json",
+      "size_bytes": 27470,
+      "sha256": "712c94793b077ab9718f0877fdc57d236076d70fe498630405e7f532cb45f9fa"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "filename": "github-0809-tree-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "extension": ".json",
+      "size_bytes": 8268,
+      "sha256": "8aacc26863ffac86d61c997085e5a1de4d518362571d0d7212296d0cef38fdfe"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+      "filename": "github-0809-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+      "extension": ".json",
+      "size_bytes": 1474,
+      "sha256": "87be0889a745f94e74eeb380a9926ac40cb36edcddb62f3cb498fc6413601911"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+      "filename": "github-0809-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+      "extension": ".json",
+      "size_bytes": 1468,
+      "sha256": "6bff2f7f715071a38c26c8f864bd8d027520e0cc051f15e56892e85c6977a60e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-snua__HYSYS-dynamic-simulation.json",
+      "filename": "github-0809-tree-snua__HYSYS-dynamic-simulation.json",
+      "extension": ".json",
+      "size_bytes": 1471,
+      "sha256": "45b03ffaea7271ac2e8e51e942f3b0be37c980dd027162369d96f9bdb14e0fe8"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-tzejit__Hysys-python-link.json",
+      "filename": "github-0809-tree-tzejit__Hysys-python-link.json",
+      "extension": ".json",
+      "size_bytes": 3114,
+      "sha256": "ac3e86ce2c880f36590684b8584a456dfa87007d9c2ce0ed3a5ded7003b97d8c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-YuniqueCore__DynPlots.json",
+      "filename": "github-0809-tree-YuniqueCore__DynPlots.json",
+      "extension": ".json",
+      "size_bytes": 4614,
+      "sha256": "0985d2bcc9b33c3f11cc879c6c8aa3f123409ffe75f64f6415fb9710c3c55735"
+    }
+  ]
+}
