@@ -1,0 +1,78 @@
+﻿[
+    {
+        "repo":  "shahria-sunny/Natural-Gas-Sweetening",
+        "url":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Steady-state simulation of a natural gas sweetening unit using DEA solvent in Aspen HYSYS V14. Models full absorption-regeneration loop. \u003e99.9% H₂S removal. Complete stream tables, column profiles, and energy analysis included.",
+        "hysys_like":  [
+                           "Gas Sweetening.hsc"
+                       ],
+        "companion_count":  3,
+        "companion_sample":  [
+                                 "Gas Sweetening Report.pdf",
+                                 "LICENSE",
+                                 "README.md"
+                             ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "shahria-sunny/CDU-Simulation-Optimization",
+        "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  0,
+        "license":  null,
+        "license_files":  [
+                              "LICENSE"
+                          ],
+        "description":  "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+        "hysys_like":  [
+                           "project.hsc"
+                       ],
+        "companion_count":  3,
+        "companion_sample":  [
+                                 "CDU_Report.pdf",
+                                 "LICENSE",
+                                 "README.md"
+                             ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    },
+    {
+        "repo":  "Paryazdan/Aspen-HYSYS-Projects",
+        "url":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+        "repo_exit_code":  0,
+        "tree_exit_code":  0,
+        "release_exit_code":  0,
+        "license_exit_code":  1,
+        "license":  null,
+        "license_files":  [
+
+                          ],
+        "description":  "",
+        "hysys_like":  [
+                           "YazdanihaPHw3aSim.hsc"
+                       ],
+        "companion_count":  1,
+        "companion_sample":  [
+                                 "YazdanihaPHw3aFlowsheet.pdf"
+                             ],
+        "release_asset_count":  0,
+        "release_assets":  [
+
+                           ]
+    }
+]

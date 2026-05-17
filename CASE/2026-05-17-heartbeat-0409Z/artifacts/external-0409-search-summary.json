@@ -1,0 +1,51 @@
+﻿[
+    {
+        "file":  "zenodo-0409-hysys-v14-results.json",
+        "url":  "https://zenodo.org/api/records?q=%22Aspen%20HYSYS%22%20V14\u0026size=20",
+        "exit_code":  0,
+        "item_count":  20,
+        "error":  ""
+    },
+    {
+        "file":  "zenodo-0409-hysys-project-results.json",
+        "url":  "https://zenodo.org/api/records?q=%22Aspen%20HYSYS%22%20project\u0026size=20",
+        "exit_code":  0,
+        "item_count":  20,
+        "error":  ""
+    },
+    {
+        "file":  "figshare-0409-hysys-v14-results.json",
+        "url":  "https://api.figshare.com/v2/articles/search",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "figshare-0409-hysys-project-results.json",
+        "url":  "https://api.figshare.com/v2/articles/search",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "harvard-dataverse-0409-hysys-project-results.json",
+        "url":  "https://dataverse.harvard.edu/api/search?q=%22Aspen%20HYSYS%22%20project\u0026per_page=20",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "datacite-0409-hysys-v14-results.json",
+        "url":  "https://api.datacite.org/dois?query=%22Aspen%20HYSYS%22%20V14\u0026page%5Bsize%5D=20",
+        "exit_code":  0,
+        "item_count":  4,
+        "error":  ""
+    },
+    {
+        "file":  "gitlab-0409-hysys-project-results.json",
+        "url":  "https://gitlab.com/api/v4/projects?search=Aspen%20HYSYS%20project\u0026simple=true\u0026per_page=20",
+        "exit_code":  0,
+        "item_count":  0,
+        "error":  ""
+    }
+]

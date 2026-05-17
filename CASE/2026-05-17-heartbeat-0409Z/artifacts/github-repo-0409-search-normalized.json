@@ -1,0 +1,35 @@
+﻿[
+    {
+        "repo":  "shahria-sunny/Natural-Gas-Sweetening",
+        "url":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "description":  "Steady-state simulation of a natural gas sweetening unit using DEA solvent in Aspen HYSYS V14. Models full absorption-regeneration loop. \u003e99.9% H₂S removal. Complete stream tables, column profiles, and energy analysis included.",
+        "license":  "mit",
+        "updatedAt":  "2026-05-03T16:19:16Z",
+        "isFork":  false,
+        "queries":  [
+                        "Aspen HYSYS V14"
+                    ]
+    },
+    {
+        "repo":  "Paryazdan/Aspen-HYSYS-Projects",
+        "url":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+        "description":  "",
+        "license":  "",
+        "updatedAt":  "2020-09-21T09:04:09Z",
+        "isFork":  false,
+        "queries":  [
+                        "Aspen HYSYS project"
+                    ]
+    },
+    {
+        "repo":  "shahria-sunny/CDU-Simulation-Optimization",
+        "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "description":  "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+        "license":  "mit",
+        "updatedAt":  "2026-04-29T18:07:37Z",
+        "isFork":  false,
+        "queries":  [
+                        "Aspen HYSYS V14"
+                    ]
+    }
+]

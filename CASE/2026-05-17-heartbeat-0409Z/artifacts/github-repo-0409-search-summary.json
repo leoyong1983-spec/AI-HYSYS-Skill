@@ -1,0 +1,58 @@
+﻿[
+    {
+        "file":  "github-repo-search-hysys-hscz.json",
+        "query":  "HYSYS hscz",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-xml-cases.json",
+        "query":  "HYSYS XML Cases",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-v14.json",
+        "query":  "Aspen HYSYS V14",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-project.json",
+        "query":  "Aspen HYSYS project",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-supplementary.json",
+        "query":  "Aspen HYSYS supplementary",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-simulation-file.json",
+        "query":  "HYSYS simulation file",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-flowsheet.json",
+        "query":  "HYSYS flowsheet",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    },
+    {
+        "file":  "github-repo-search-hysys-matlab-validation.json",
+        "query":  "HYSYS MATLAB validation",
+        "exit_code":  0,
+        "item_count":  1,
+        "error":  ""
+    }
+]
