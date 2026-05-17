@@ -1,0 +1,213 @@
+{
+  "inspected_count": 20,
+  "model_bearing_count": 1,
+  "skipped_no_model_count": 19,
+  "api_errors": [
+    {
+      "repo": "HJReachability/learning_feedback_linearization",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "jessicabavaresco/most-incompatible-measurements",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "kpatvt/sim21",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "LizandroProjects/SLP_UTGCAB_v21",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "MMatheusB/UFBA",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "Mohammadreza-Sahabi/Sample",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "msmasnadi/OPGEEv4",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "nmosk/design2015",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "nordic-cad-tools/state_space_sandbox",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "ORS-Consulting/ORS-openthermo",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "puttak/Modeling-Simulation-Project",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "reoneo97/reactor-sim",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "robertcdavison/Sustainable_Hydrogen_Production_Plant",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "smyng91/LiquidAirPlant",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "VH-Lab/NDI-matlab",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "wesleyZero/capstone_II",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "wigig-tools/isac-plm",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "yellowFarLu/SearchHim",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "idaholab/FORCE",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "cambridge-cares/TheWorldAvatar",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "equinor/neqsim",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "perrywzm/hysysopt",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "DanielVazVaz/PySIS",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "OptiMaL-PSE-Lab/Sketch2Simulation",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "GaboTalero/HYSYS-Python-Case-Builder",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "oscarcontrerasnavas/hysys-to-excel-intro",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "andr1976/dwsim-paper",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "bpalotai/Flowsheet-toolbox",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "CAChemE/stochastic-optimization",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "edgarsmdn/Aspen_HYSYS_Python",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "may3rd/COSMO",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "SuradechKKPB/AutomatedHYSYS",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "tinchofiuba/pythonHysys",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "vminasid/Hysys-Unisis2Matlab",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "afabrild/HYSYS-MATLAB-LINK",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "Anikesh31/simulator_codingplatform_integration",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "marcellobozzini/Python-Driving-License",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repo": "SinaGhanbarii/HDA-Plant-Simulation",
+      "stage": "repo",
+      "error": "HTTP Error 403: rate limit exceeded"
+    }
+  ],
+  "classification_rule": "Only .hsc/.hscz/.compound or XML path containing hysys counts as model-bearing."
+}

@@ -1,0 +1,528 @@
+{
+  "total_files": 74,
+  "dangerous_or_executable_count": 0,
+  "archive_count": 0,
+  "total_size_bytes": 345384,
+  "dangerous_or_executable": [],
+  "archives": [],
+  "files": [
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/dedupe-sample.json",
+      "filename": "dedupe-sample.json",
+      "extension": ".json",
+      "size_bytes": 36272,
+      "sha256": "bfc5a2fcca0db1137f58ea10858c8b274b8138f2c5f657ff032ee21c2ec147f5"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/dedupe-summary.json",
+      "filename": "dedupe-summary.json",
+      "extension": ".json",
+      "size_bytes": 288,
+      "sha256": "017c8010a0c3950aed155eeae1e3ba888b1c2787f06c3ffc92ac7bb8ef8ed18a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/download-summary.json",
+      "filename": "download-summary.json",
+      "extension": ".json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/external-1811-bitbucket-search.err.txt",
+      "filename": "external-1811-bitbucket-search.err.txt",
+      "extension": ".txt",
+      "size_bytes": 20,
+      "sha256": "5cf18864037ee5fdac2aeef382c752c8e8cbb06aacf42a0257cae8bb3bfcc31e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/external-1811-gitlab-project-search.json",
+      "filename": "external-1811-gitlab-project-search.json",
+      "extension": ".json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/external-1811-search-summary.json",
+      "filename": "external-1811-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 1202,
+      "sha256": "4163c827cc12f9ed5f1b67de6311af1aad032597d6030432ebcd67c4bf85238f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/external-1811-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "filename": "external-1811-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/external-1811-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "filename": "external-1811-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/external-1811-zenodo-HYSYS__XML__Cases__.xml.err.txt",
+      "filename": "external-1811-zenodo-HYSYS__XML__Cases__.xml.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-aspen-hysys-readme.json",
+      "filename": "github-1811-code-aspen-hysys-readme.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hsc-hysys.json",
+      "filename": "github-1811-code-hsc-hysys.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hscz-hysys.json",
+      "filename": "github-1811-code-hscz-hysys.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-com-py.json",
+      "filename": "github-1811-code-hysys-com-py.json",
+      "extension": ".json",
+      "size_bytes": 2890,
+      "sha256": "8f3c55aaace81526a70c8533b31b189b1e4e4c861fd73b41b938db98e326bf67"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-matlab.json",
+      "filename": "github-1811-code-hysys-matlab.json",
+      "extension": ".json",
+      "size_bytes": 14705,
+      "sha256": "2d6a05047e2ecc012908f60903f692063e06a8410d9f604c5b12f4c576dd49f5"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-opencase-py.json",
+      "filename": "github-1811-code-hysys-opencase-py.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-py.json",
+      "filename": "github-1811-code-hysys-py.json",
+      "extension": ".json",
+      "size_bytes": 13230,
+      "sha256": "750ac75061aafada329bbf2dbc5b8380e6834df4503244fa512ce075188a86dd"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-spreadsheet-py.json",
+      "filename": "github-1811-code-hysys-spreadsheet-py.json",
+      "extension": ".json",
+      "size_bytes": 339,
+      "sha256": "bcb9f336b761266a332f1430cfc096f34ccc5a5c60751e91c900d5d8de53a7b1"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-dedupe-assessment.json",
+      "filename": "github-1811-dedupe-assessment.json",
+      "extension": ".json",
+      "size_bytes": 437,
+      "sha256": "532973e7c318bda6947d490a3534b6a5ca02a5269f57ab5ec8b8d5b24a671691"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-inspected-repositories.json",
+      "filename": "github-1811-inspected-repositories.json",
+      "extension": ".json",
+      "size_bytes": 199365,
+      "sha256": "42d464250524d807292e9c8f565e772ede1434a1734127119fde2c82e8dd06a0"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-inspection-summary.json",
+      "filename": "github-1811-inspection-summary.json",
+      "extension": ".json",
+      "size_bytes": 5998,
+      "sha256": "a4df0848fdcf8b21b04317891eecefb5aabb1811f786520a7f12de4dfc3b5b9a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-inspection-targets.json",
+      "filename": "github-1811-inspection-targets.json",
+      "extension": ".json",
+      "size_bytes": 1995,
+      "sha256": "984336794989f6f9aa902541a688274596e8309442dfc6fbbbca49c5d08ffef9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-act-elegancy__consumet.json",
+      "filename": "github-1811-license-act-elegancy__consumet.json",
+      "extension": ".json",
+      "size_bytes": 281,
+      "sha256": "f0dbc8c06f53e3a26ccf906c9f78511de9f692e1739e76462669d4ecef074a37"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-alphanumericslab__OSET.json",
+      "filename": "github-1811-license-alphanumericslab__OSET.json",
+      "extension": ".json",
+      "size_bytes": 337,
+      "sha256": "256e57fe4a8211b04aa3167d44a80110cfea90c01aeeeef2df0f8134611c9b22"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-alvinlim86__Neo4J.json",
+      "filename": "github-1811-license-alvinlim86__Neo4J.json",
+      "extension": ".json",
+      "size_bytes": 271,
+      "sha256": "83db9abe2e1fe8e9ec5e1a3293b353c21f8809631bf7c5c526469778d1b79cb0"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-alvinlim86__SIS_HYSYS.json",
+      "filename": "github-1811-license-alvinlim86__SIS_HYSYS.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-CalebBell__thermo.json",
+      "filename": "github-1811-license-CalebBell__thermo.json",
+      "extension": ".json",
+      "size_bytes": 277,
+      "sha256": "66479de74af85e12b52aba5b5911f78312ec7dcf11128ec037367859fbe215d7"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-chensunwang__HYCivicCenter.json",
+      "filename": "github-1811-license-chensunwang__HYCivicCenter.json",
+      "extension": ".json",
+      "size_bytes": 282,
+      "sha256": "a3fb66c13599a0f942931dd6778ea237be5ee30243b8f5b209cafae48e1d6707"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-emeraldsci__SymbolicLabLanguage.json",
+      "filename": "github-1811-license-emeraldsci__SymbolicLabLanguage.json",
+      "extension": ".json",
+      "size_bytes": 317,
+      "sha256": "ac23fd7ded0e9a547fc2592d3b5c9bde06f7c90ca1b1590ea76bf7c09eee39d5"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-EmPajak21__multiagentllms.json",
+      "filename": "github-1811-license-EmPajak21__multiagentllms.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-Eng-fwzan__mech-ai-platform.json",
+      "filename": "github-1811-license-Eng-fwzan__mech-ai-platform.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-facebook__fboss.json",
+      "filename": "github-1811-license-facebook__fboss.json",
+      "extension": ".json",
+      "size_bytes": 240,
+      "sha256": "93364d069575a75450d8c640c1808781f28e82bb66b50abef3207d859e0e5926"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-gga122__ZHYCodingModel.json",
+      "filename": "github-1811-license-gga122__ZHYCodingModel.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-goleisobutane-spec__DGSim.json",
+      "filename": "github-1811-license-goleisobutane-spec__DGSim.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-Gravios__MTA.json",
+      "filename": "github-1811-license-Gravios__MTA.json",
+      "extension": ".json",
+      "size_bytes": 272,
+      "sha256": "ba105b12541a41654d62f0bb9362f5bc1af3b2008714d384976783ee439dc238"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-Gualcar__ThermoPackage.json",
+      "filename": "github-1811-license-Gualcar__ThermoPackage.json",
+      "extension": ".json",
+      "size_bytes": 276,
+      "sha256": "6614e812e2670b2ac1e405159a5a50cf1c54d1c9e89530fded9e06c5de042cb3"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-HelloYeah__Floral_OC.json",
+      "filename": "github-1811-license-HelloYeah__Floral_OC.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-huayancreate__konka.json",
+      "filename": "github-1811-license-huayancreate__konka.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-kwellis__woffl.json",
+      "filename": "github-1811-license-kwellis__woffl.json",
+      "extension": ".json",
+      "size_bytes": 310,
+      "sha256": "02a6caabaf1e613cf92f5128d8ad2944c12e6a133265f370193fa8393c46d2e4"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-mapleccs__MAPO.json",
+      "filename": "github-1811-license-mapleccs__MAPO.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-metcalex__CHBE-403.json",
+      "filename": "github-1811-license-metcalex__CHBE-403.json",
+      "extension": ".json",
+      "size_bytes": 85,
+      "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-petrobras__ccp.json",
+      "filename": "github-1811-license-petrobras__ccp.json",
+      "extension": ".json",
+      "size_bytes": 296,
+      "sha256": "4147f568225829fbaf2f9f8422b49fe177fc6587ac88bbc54907532fd92659cb"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-model-bearing-repositories.json",
+      "filename": "github-1811-model-bearing-repositories.json",
+      "extension": ".json",
+      "size_bytes": 3301,
+      "sha256": "8649b8a3c83fc20abe61ed3bb6b03a97fd6ef26aac7fe187eacf7faaf64fc34c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-act-elegancy__consumet.json",
+      "filename": "github-1811-repo-act-elegancy__consumet.json",
+      "extension": ".json",
+      "size_bytes": 690,
+      "sha256": "e85114d18ac82442e053714ec5a95050c28e6fcc690567cfdbe394195af215ef"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-alphanumericslab__OSET.json",
+      "filename": "github-1811-repo-alphanumericslab__OSET.json",
+      "extension": ".json",
+      "size_bytes": 555,
+      "sha256": "23ac0b1dd953849bc1c1617ef143c294258a4df0badc137f50f201a2840c5980"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-alvinlim86__Neo4J.json",
+      "filename": "github-1811-repo-alvinlim86__Neo4J.json",
+      "extension": ".json",
+      "size_bytes": 465,
+      "sha256": "b63dca15f0a31b598fa4b472d222079b12a6c446d4d95afbf15863968927548a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-alvinlim86__SIS_HYSYS.json",
+      "filename": "github-1811-repo-alvinlim86__SIS_HYSYS.json",
+      "extension": ".json",
+      "size_bytes": 299,
+      "sha256": "2299fad35f2808f2ae59b3d51507a84596e3f366fdef67425cf695ee68e5cc8c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-CalebBell__thermo.json",
+      "filename": "github-1811-repo-CalebBell__thermo.json",
+      "extension": ".json",
+      "size_bytes": 933,
+      "sha256": "1ab3dcbcc33252db8c892362d4d23830c3dbd0a408911a936f1742c106444529"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-chensunwang__HYCivicCenter.json",
+      "filename": "github-1811-repo-chensunwang__HYCivicCenter.json",
+      "extension": ".json",
+      "size_bytes": 442,
+      "sha256": "1ec753395f16fee3df036736db614d327c9c2253eef5ee5d1871c3368bfb1754"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-emeraldsci__SymbolicLabLanguage.json",
+      "filename": "github-1811-repo-emeraldsci__SymbolicLabLanguage.json",
+      "extension": ".json",
+      "size_bytes": 558,
+      "sha256": "326f870f27c94670f894dec3a42c38c2c2d7babd18a8cd2fab27b7aae3078539"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-EmPajak21__multiagentllms.json",
+      "filename": "github-1811-repo-EmPajak21__multiagentllms.json",
+      "extension": ".json",
+      "size_bytes": 280,
+      "sha256": "691ed7044a283a576c8d7740b3c55caffcfa89c4ad58c4470bc9cfd824547bba"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-Eng-fwzan__mech-ai-platform.json",
+      "filename": "github-1811-repo-Eng-fwzan__mech-ai-platform.json",
+      "extension": ".json",
+      "size_bytes": 284,
+      "sha256": "fc8aa589291e4f0b0843c8118a1e7a0a71bfc3e7d3ad0c077860093de25b2180"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-facebook__fboss.json",
+      "filename": "github-1811-repo-facebook__fboss.json",
+      "extension": ".json",
+      "size_bytes": 463,
+      "sha256": "dbeea07f34aea7a240455c9a35aff2dc8b74fe1c2ae4d30a733e89725428398f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-gga122__ZHYCodingModel.json",
+      "filename": "github-1811-repo-gga122__ZHYCodingModel.json",
+      "extension": ".json",
+      "size_bytes": 313,
+      "sha256": "1370c0a53c20596e54d3ec8a3231827d47bff2236ee3df4697eeba7d0c9884d0"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-goleisobutane-spec__DGSim.json",
+      "filename": "github-1811-repo-goleisobutane-spec__DGSim.json",
+      "extension": ".json",
+      "size_bytes": 282,
+      "sha256": "3974d327c88a4540e4e791a2427b50ad49e014b8f88c76708a2bb9ff3478a297"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-Gravios__MTA.json",
+      "filename": "github-1811-repo-Gravios__MTA.json",
+      "extension": ".json",
+      "size_bytes": 498,
+      "sha256": "d484ddaf7072e83e21a9d78fa8d0ac37c914bae25b21619a55a31740461b4803"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-Gualcar__ThermoPackage.json",
+      "filename": "github-1811-repo-Gualcar__ThermoPackage.json",
+      "extension": ".json",
+      "size_bytes": 495,
+      "sha256": "cf3f8de25909e313f9f91c9850bd56cc8a74b01201dcf078152a16bed262416c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-HelloYeah__Floral_OC.json",
+      "filename": "github-1811-repo-HelloYeah__Floral_OC.json",
+      "extension": ".json",
+      "size_bytes": 287,
+      "sha256": "d7eec4a956f084247bc0f2ce8ad534f813dd81ebeb3d8a939bd7fe7b51f54d84"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-huayancreate__konka.json",
+      "filename": "github-1811-repo-huayancreate__konka.json",
+      "extension": ".json",
+      "size_bytes": 277,
+      "sha256": "4411f231d15bf0e91a8761ea2709a4468392438634976d08e7cab9fc2955d1b3"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-kwellis__woffl.json",
+      "filename": "github-1811-repo-kwellis__woffl.json",
+      "extension": ".json",
+      "size_bytes": 513,
+      "sha256": "9bbd10fb76bcff915820163a3c83fe23cadf205224bf53829f537d27e1532a43"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-mapleccs__MAPO.json",
+      "filename": "github-1811-repo-mapleccs__MAPO.json",
+      "extension": ".json",
+      "size_bytes": 258,
+      "sha256": "df57603b4576839c010b1630d2fe4627676346a64454ec8cb177e8bbba543e1e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-metcalex__CHBE-403.json",
+      "filename": "github-1811-repo-metcalex__CHBE-403.json",
+      "extension": ".json",
+      "size_bytes": 268,
+      "sha256": "59fe3f1984405b647a735380c547c062a80daf05d80a1006f6a11dfeadead5bf"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-petrobras__ccp.json",
+      "filename": "github-1811-repo-petrobras__ccp.json",
+      "extension": ".json",
+      "size_bytes": 529,
+      "sha256": "4badd77ab9de848049b3d6a3ddddae9065795a5fc96f0ad54b82b88046b5f6b5"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__hsc.json",
+      "filename": "github-1811-repo-search-Aspen__HYSYS__hsc.json",
+      "extension": ".json",
+      "size_bytes": 40,
+      "sha256": "4ad7b976518cac1d30cae33c277920809b45898a567c18592269f4b7ec8afe93"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__hscz.json",
+      "filename": "github-1811-repo-search-Aspen__HYSYS__hscz.json",
+      "extension": ".json",
+      "size_bytes": 40,
+      "sha256": "4ad7b976518cac1d30cae33c277920809b45898a567c18592269f4b7ec8afe93"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__optimization__case.json",
+      "filename": "github-1811-repo-search-Aspen__HYSYS__optimization__case.json",
+      "extension": ".json",
+      "size_bytes": 40,
+      "sha256": "4ad7b976518cac1d30cae33c277920809b45898a567c18592269f4b7ec8afe93"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__simulation__files.json",
+      "filename": "github-1811-repo-search-Aspen__HYSYS__simulation__files.json",
+      "extension": ".json",
+      "size_bytes": 1011,
+      "sha256": "e674ba557e05a39228eb71e9e81be1c90e9661d28c9805d0c52f94f3ea8ec195"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__case__file.json",
+      "filename": "github-1811-repo-search-HYSYS__case__file.json",
+      "extension": ".json",
+      "size_bytes": 1579,
+      "sha256": "be6bf50199f8b3e4b4408a1895a2b51e4f427fb9d73d0ff1f205cb46eb6fd564"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__Excel__validation.json",
+      "filename": "github-1811-repo-search-HYSYS__Excel__validation.json",
+      "extension": ".json",
+      "size_bytes": 765,
+      "sha256": "ba76d0746f4a9b6d08d83dc028e989f6eb9f0474bd092caf93aa6988801ee0cb"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__MATLAB__Aspen.json",
+      "filename": "github-1811-repo-search-HYSYS__MATLAB__Aspen.json",
+      "extension": ".json",
+      "size_bytes": 2641,
+      "sha256": "5e78a4485dce29ebf501254ad8126870f926f8eaf842c6383c826abbd98ba199"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__Python__COM.json",
+      "filename": "github-1811-repo-search-HYSYS__Python__COM.json",
+      "extension": ".json",
+      "size_bytes": 650,
+      "sha256": "2f7b985e9d1744bd83fbdc73ca73f7e5da56ddb0fcf52a53723e714f371c9d5e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-search-summary.json",
+      "filename": "github-1811-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 3794,
+      "sha256": "369d40776460c3106a87bba9fba3d1da66f679905780b6815cdcb4836c3c0a51"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-skipped-no-model.json",
+      "filename": "github-1811-skipped-no-model.json",
+      "extension": ".json",
+      "size_bytes": 7238,
+      "sha256": "0861885ba85be820cd66e4c7c85d3087764a34fa3280e196c8df88c7df00a176"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-tree-EmPajak21__multiagentllms.json",
+      "filename": "github-1811-tree-EmPajak21__multiagentllms.json",
+      "extension": ".json",
+      "size_bytes": 11168,
+      "sha256": "1b4350b8b4031b9356fafb6eb47d47f70b87264516b44a1e1a77cab2c5f3a62d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/security-inventory.json",
+      "filename": "security-inventory.json",
+      "extension": ".json",
+      "size_bytes": 23653,
+      "sha256": "3dde8fd5b3c2d4d3fd33c5a18e2e4f25aca725c3651a824b1cc6350ce521b2f6"
+    }
+  ]
+}

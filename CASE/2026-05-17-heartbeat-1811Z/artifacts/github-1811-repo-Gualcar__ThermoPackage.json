@@ -1,0 +1,16 @@
+{
+  "full_name": "Gualcar/ThermoPackage",
+  "description": "Calculate thermodynamic properties and execute flash calculations",
+  "updated_at": "2022-05-02T13:04:39Z",
+  "pushed_at": "2024-10-31T03:05:13Z",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/Gualcar/ThermoPackage",
+  "topics": []
+}

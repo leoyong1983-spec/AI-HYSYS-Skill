@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Candidate only: EmPajak21/multiagentllms",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/EmPajak21/multiagentllms",
+    "download_url": "https://codeload.github.com/EmPajak21/multiagentllms/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-EmPajak21__multiagentllms.json",
+        "filename": "github-1811-repo-EmPajak21__multiagentllms.json",
+        "file_type": "json",
+        "size_bytes": 280,
+        "sha256": "691ed7044a283a576c8d7740b3c55caffcfa89c4ad58c4470bc9cfd824547bba"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-tree-EmPajak21__multiagentllms.json",
+        "filename": "github-1811-tree-EmPajak21__multiagentllms.json",
+        "file_type": "json",
+        "size_bytes": 11168,
+        "sha256": "1b4350b8b4031b9356fafb6eb47d47f70b87264516b44a1e1a77cab2c5f3a62d"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-EmPajak21__multiagentllms.json",
+        "filename": "github-1811-license-EmPajak21__multiagentllms.json",
+        "file_type": "json",
+        "size_bytes": 85,
+        "sha256": "5bb75e60bcc6af1f2dc51aff844ee86662de5d64fb91763d6cefb335cc1e0461"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata NOASSERTION. Not downloaded because explicit archival/redistribution license was not detected.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request maintainer license clarification before download.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/EmPajak21/multiagentllms",
+      "download_url": "https://codeload.github.com/EmPajak21/multiagentllms/zip/refs/heads/main",
+      "title": "EmPajak21/multiagentllms",
+      "filenames": [
+        "GOSP A_EP.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License/redistribution permission requires human review.",
+      "No local Aspen HYSYS runtime validation performed."
+    ]
+  }
+]

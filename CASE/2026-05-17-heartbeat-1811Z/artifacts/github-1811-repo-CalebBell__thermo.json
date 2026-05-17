@@ -1,0 +1,35 @@
+{
+  "full_name": "CalebBell/thermo",
+  "description": "Thermodynamics and Phase Equilibrium component of Chemical Engineering Design Library (ChEDL)",
+  "updated_at": "2026-05-12T07:33:30Z",
+  "pushed_at": "2025-12-07T17:02:43Z",
+  "default_branch": "master",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/CalebBell/thermo",
+  "topics": [
+    "chemical-engineering",
+    "cheminformatics",
+    "chemistry",
+    "combustion",
+    "density",
+    "environmental-engineering",
+    "equation-of-state",
+    "heat-capacity",
+    "mechanical-engineering",
+    "molecule",
+    "physics",
+    "process-simulation",
+    "solubility",
+    "surface-tension",
+    "thermal-conductivity",
+    "thermodynamics",
+    "vapor-pressure",
+    "viscosity"
+  ]
+}

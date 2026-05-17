@@ -1,0 +1,26 @@
+{
+  "full_name": "act-elegancy/consumet",
+  "description": "Open-source constructor of surrogates and metamodels",
+  "updated_at": "2023-09-18T08:17:23Z",
+  "pushed_at": "2021-10-07T13:44:35Z",
+  "default_branch": "master",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/act-elegancy/consumet",
+  "topics": [
+    "adaptive-sampling",
+    "design-of-experiments",
+    "meta-model",
+    "optimization",
+    "reduced-order-models",
+    "regression",
+    "sintef",
+    "surrogate-models",
+    "surrogates"
+  ]
+}

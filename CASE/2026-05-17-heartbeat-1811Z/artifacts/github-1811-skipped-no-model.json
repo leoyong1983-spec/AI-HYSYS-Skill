@@ -1,0 +1,205 @@
+[
+  {
+    "full_name": "emeraldsci/SymbolicLabLanguage",
+    "source_page": "https://github.com/emeraldsci/SymbolicLabLanguage",
+    "license_spdx": "GPL-3.0",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "Objects/sources/Part/Object.Part.FlowCell.m",
+      "Objects/sources/Part/Model.Part.ReferenceElectrode.m",
+      "Objects/sources/Part/Model.Part.EluentGenerator.m",
+      "Objects/sources/Part/Model.Part.Suppressor.m",
+      "Objects/sources/Item/Object.Item.Cap.m"
+    ],
+    "tree_file_count": 4549
+  },
+  {
+    "full_name": "HelloYeah/Floral_OC",
+    "source_page": "https://github.com/HelloYeah/Floral_OC",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "Floral/Classes/Subject/Subject/Model/HYSysCategoryServletModel.m",
+      "Floral/Classes/Subject/Subject/View/HYCollectionTopView.m",
+      "Floral/Classes/Subject/Subject/Controller/HYSubjectViewController.m"
+    ],
+    "tree_file_count": 677
+  },
+  {
+    "full_name": "chensunwang/HYCivicCenter",
+    "source_page": "https://github.com/chensunwang/HYCivicCenter",
+    "license_spdx": "MIT",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "HYCivicCenter/Classes/Tools/HYSystemInfo.m",
+      "HYCivicCenter/Classes/Tools/MainApi.m"
+    ],
+    "tree_file_count": 1333
+  },
+  {
+    "full_name": "Gravios/MTA",
+    "source_page": "https://github.com/Gravios/MTA",
+    "license_spdx": "MIT",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "utilities/oephys/rs_script.m",
+      "@MTASession/MTASession.m"
+    ],
+    "tree_file_count": 1849
+  },
+  {
+    "full_name": "huayancreate/konka",
+    "source_page": "https://github.com/huayancreate/konka",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "KONKA_MARKET/KONKA_MARKET/ViewController/SystemConfigView/HYSystemConfigViewController.m",
+      "KONKA_MARKET/KONKA_MARKET/ViewController/HomeView/HYHomeViewController.m"
+    ],
+    "tree_file_count": 1094
+  },
+  {
+    "full_name": "kwellis/woffl",
+    "source_page": "https://github.com/kwellis/woffl",
+    "license_spdx": "AGPL-3.0",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "examples/flow_multiphase.py",
+      "examples/flow_singlephase.py"
+    ],
+    "tree_file_count": 58
+  },
+  {
+    "full_name": "mapleccs/MAPO",
+    "source_page": "https://github.com/mapleccs/MAPO",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "framework/simulator/SimulatorConfig.m",
+      "framework/simulator/SimulatorFactory.m"
+    ],
+    "tree_file_count": 172
+  },
+  {
+    "full_name": "metcalex/CHBE-403",
+    "source_page": "https://github.com/metcalex/CHBE-403",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "hysyslib/hyset.m",
+      "hysyslib/hyspread.m"
+    ],
+    "tree_file_count": 19
+  },
+  {
+    "full_name": "petrobras/ccp",
+    "source_page": "https://github.com/petrobras/ccp",
+    "license_spdx": "Apache-2.0",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "ccp/curve.py",
+      "ccp/impeller.py"
+    ],
+    "tree_file_count": 148
+  },
+  {
+    "full_name": "act-elegancy/consumet",
+    "source_page": "https://github.com/act-elegancy/consumet",
+    "license_spdx": "MIT",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "bin/error_max.py"
+    ],
+    "tree_file_count": 31
+  },
+  {
+    "full_name": "alphanumericslab/OSET",
+    "source_page": "https://github.com/alphanumericslab/OSET",
+    "license_spdx": "BSD-3-Clause",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "under-development/fetal-monitoring-parameters/UterineContractions.m"
+    ],
+    "tree_file_count": 1320
+  },
+  {
+    "full_name": "alvinlim86/Neo4J",
+    "source_page": "https://github.com/alvinlim86/Neo4J",
+    "license_spdx": "MIT",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "HYSYS_driver.py"
+    ],
+    "tree_file_count": 14
+  },
+  {
+    "full_name": "alvinlim86/SIS_HYSYS",
+    "source_page": "https://github.com/alvinlim86/SIS_HYSYS",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "HYSYS_to_Neo4J.py"
+    ],
+    "tree_file_count": 6
+  },
+  {
+    "full_name": "CalebBell/thermo",
+    "source_page": "https://github.com/CalebBell/thermo",
+    "license_spdx": "MIT",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "thermo/chemical.py"
+    ],
+    "tree_file_count": 338
+  },
+  {
+    "full_name": "Eng-fwzan/mech-ai-platform",
+    "source_page": "https://github.com/Eng-fwzan/mech-ai-platform",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "scripts/validate_hysys_case_gate.py"
+    ],
+    "tree_file_count": 98
+  },
+  {
+    "full_name": "facebook/fboss",
+    "source_page": "https://github.com/facebook/fboss",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "fboss/lib/platform_mapping_v2/helpers.py"
+    ],
+    "tree_file_count": 6570
+  },
+  {
+    "full_name": "gga122/ZHYCodingModel",
+    "source_page": "https://github.com/gga122/ZHYCodingModel",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "ZHYSystemStructTestClass.m"
+    ],
+    "tree_file_count": 50
+  },
+  {
+    "full_name": "goleisobutane-spec/DGSim",
+    "source_page": "https://github.com/goleisobutane-spec/DGSim",
+    "license_spdx": "NOASSERTION",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "gui/hysys_flowsheet_editor.py"
+    ],
+    "tree_file_count": 92
+  },
+  {
+    "full_name": "Gualcar/ThermoPackage",
+    "source_page": "https://github.com/Gualcar/ThermoPackage",
+    "license_spdx": "MIT",
+    "reason": "No true HYSYS .hsc/.hscz/.compound or path-explicit HYSYS XML model in tree",
+    "code_hit_paths": [
+      "eos/eos.py"
+    ],
+    "tree_file_count": 40
+  }
+]
