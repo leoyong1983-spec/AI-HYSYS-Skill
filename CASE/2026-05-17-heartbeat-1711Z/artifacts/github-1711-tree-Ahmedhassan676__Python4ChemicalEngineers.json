@@ -1,0 +1,205 @@
+{
+  "sha": "7bed741569ac7e866aa01b6b2bbffc18a18aa309",
+  "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/trees/7bed741569ac7e866aa01b6b2bbffc18a18aa309",
+  "tree": [
+    {
+      "path": "EDR_Cases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34d6cadfa45558805268ca9aef18403de30c8e91",
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/trees/34d6cadfa45558805268ca9aef18403de30c8e91"
+    },
+    {
+      "path": "EDR_Cases/cokers.EDR",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7953ebdd252b9b19f4b3029f35f5c1ef82cd2ca",
+      "size": 269561,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/f7953ebdd252b9b19f4b3029f35f5c1ef82cd2ca"
+    },
+    {
+      "path": "EDR_Cases/empty.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "EDR_Cases/water case.EDR",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bf352e9de9b77b0f5812dd6f42c19d8c171a7e",
+      "size": 346251,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/26bf352e9de9b77b0f5812dd6f42c19d8c171a7e"
+    },
+    {
+      "path": "HYSYS_python_spreadsheets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8055dde91b2fb4ab3e4aa4be59cb64e6b00fdda",
+      "size": 3994,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/f8055dde91b2fb4ab3e4aa4be59cb64e6b00fdda"
+    },
+    {
+      "path": "Illustrations.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f5cf923fdab6202f1a113c81b15f066913ac74",
+      "size": 270385,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/88f5cf923fdab6202f1a113c81b15f066913ac74"
+    },
+    {
+      "path": "Illustrations_debutanizer.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d83d647d1135c97a1a271f3842fa939d0a7d627",
+      "size": 3051750,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/5d83d647d1135c97a1a271f3842fa939d0a7d627"
+    },
+    {
+      "path": "debutanizer_data.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5ccdf6fb4c31aaa9468cebefc2f678b815e4c2",
+      "size": 311377,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/eb5ccdf6fb4c31aaa9468cebefc2f678b815e4c2"
+    },
+    {
+      "path": "imgs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bef30b5a863ceb7bd1fdbd4069b35ad2d34135c1",
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/trees/bef30b5a863ceb7bd1fdbd4069b35ad2d34135c1"
+    },
+    {
+      "path": "imgs/C4column.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2e72dd047dee5a2f8a12899df022cc354c284f9",
+      "size": 153450,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/f2e72dd047dee5a2f8a12899df022cc354c284f9"
+    },
+    {
+      "path": "imgs/C4plant.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a05bd73b8c76085e34f2d0431ebd4e897438f106",
+      "size": 174192,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/a05bd73b8c76085e34f2d0431ebd4e897438f106"
+    },
+    {
+      "path": "imgs/heat_train1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bf86a64f6fb3556509675acbe613944bc14068a",
+      "size": 52919,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/5bf86a64f6fb3556509675acbe613944bc14068a"
+    },
+    {
+      "path": "imgs/heat_train1_table.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c933eb24f4cbcdd98707fa252d6af854c076db4e",
+      "size": 298100,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/c933eb24f4cbcdd98707fa252d6af854c076db4e"
+    },
+    {
+      "path": "imgs/heat_train2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0ef04fdd2324d40497c0c7c46801c9735e7ac92",
+      "size": 62670,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/b0ef04fdd2324d40497c0c7c46801c9735e7ac92"
+    },
+    {
+      "path": "imgs/heat_train2_table.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97e8e71dde6fba035a1f58712a8d10f89aeeb74c",
+      "size": 250630,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/97e8e71dde6fba035a1f58712a8d10f89aeeb74c"
+    },
+    {
+      "path": "imgs/kernSizing.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26f1c0e8c5cbefc7356f964285298adba66d811",
+      "size": 40286,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/b26f1c0e8c5cbefc7356f964285298adba66d811"
+    },
+    {
+      "path": "imgs/n.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "imgs/power_plant.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4a818ac3574c95fcd4e4acc35885713bd5d096f",
+      "size": 78154,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/e4a818ac3574c95fcd4e4acc35885713bd5d096f"
+    },
+    {
+      "path": "imgs/pumping_system.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6318c06fbf8f722f2efeac4b4aeb63bccd8d23d",
+      "size": 65441,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/f6318c06fbf8f722f2efeac4b4aeb63bccd8d23d"
+    },
+    {
+      "path": "kern.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f53e3519ca7b31b6c311a506333c9c2bee53d747",
+      "size": 121632,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/f53e3519ca7b31b6c311a506333c9c2bee53d747"
+    },
+    {
+      "path": "optimization.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14333f30828532a606845e4ed8566dc57f8f0c75",
+      "size": 55419,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/14333f30828532a606845e4ed8566dc57f8f0c75"
+    },
+    {
+      "path": "optimum_inletheatertemp.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "926938c9e0c56a302f9eccc5e294c7e33084de33",
+      "size": 69851,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/926938c9e0c56a302f9eccc5e294c7e33084de33"
+    },
+    {
+      "path": "readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "simple_Illustrations.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ba66ac2f74ac85bc8b426fba292c67ab47021f7",
+      "size": 42282,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/4ba66ac2f74ac85bc8b426fba292c67ab47021f7"
+    },
+    {
+      "path": "water&gas.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eabeefc9827d09d393ca44e132aab14977d36d3a",
+      "size": 290425,
+      "url": "https://api.github.com/repos/Ahmedhassan676/Python4ChemicalEngineers/git/blobs/eabeefc9827d09d393ca44e132aab14977d36d3a"
+    }
+  ],
+  "truncated": false
+}

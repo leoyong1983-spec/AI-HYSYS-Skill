@@ -1,0 +1,78 @@
+[
+  {
+    "full_name": "Ahmedhassan676/Python4ChemicalEngineers",
+    "source_page": "https://github.com/Ahmedhassan676/Python4ChemicalEngineers",
+    "code_hits": [
+      {
+        "path": "simple_Illustrations.ipynb",
+        "repository": {
+          "id": "R_kgDOMV-YlQ",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "Ahmedhassan676/Python4ChemicalEngineers",
+          "url": "https://github.com/Ahmedhassan676/Python4ChemicalEngineers"
+        },
+        "sha": "4ba66ac2f74ac85bc8b426fba292c67ab47021f7",
+        "url": "https://github.com/Ahmedhassan676/Python4ChemicalEngineers/blob/7bed741569ac7e866aa01b6b2bbffc18a18aa309/simple_Illustrations.ipynb"
+      }
+    ],
+    "repo_summary": {
+      "full_name": "Ahmedhassan676/Python4ChemicalEngineers",
+      "description": "Notebooks to demonstrate some uses of Python in Chemical Engineering",
+      "updated_at": "2025-11-12T11:32:35Z",
+      "pushed_at": "2024-09-02T09:50:29Z",
+      "default_branch": "main",
+      "license": null,
+      "html_url": "https://github.com/Ahmedhassan676/Python4ChemicalEngineers"
+    },
+    "repo_json": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-Ahmedhassan676__Python4ChemicalEngineers.json",
+    "license_json": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-Ahmedhassan676__Python4ChemicalEngineers.json",
+    "default_branch": "main",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [
+      {
+        "path": "water&gas.hsc",
+        "size": 290425,
+        "sha": "eabeefc9827d09d393ca44e132aab14977d36d3a"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "EDR_Cases/empty.py",
+        "size": 1,
+        "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+      },
+      {
+        "path": "HYSYS_python_spreadsheets.py",
+        "size": 3994,
+        "sha": "f8055dde91b2fb4ab3e4aa4be59cb64e6b00fdda"
+      },
+      {
+        "path": "debutanizer_data.txt",
+        "size": 311377,
+        "sha": "eb5ccdf6fb4c31aaa9468cebefc2f678b815e4c2"
+      },
+      {
+        "path": "imgs/C4column.png",
+        "size": 153450,
+        "sha": "f2e72dd047dee5a2f8a12899df022cc354c284f9"
+      },
+      {
+        "path": "imgs/n.py",
+        "size": 1,
+        "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+      },
+      {
+        "path": "readme.md",
+        "size": 1,
+        "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false,
+    "tree_file_count": 23,
+    "tree_json": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-tree-Ahmedhassan676__Python4ChemicalEngineers.json"
+  }
+]

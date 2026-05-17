@@ -1,0 +1,15 @@
+{
+  "full_name": "a5c-ai/babysitter",
+  "description": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
+  "updated_at": "2026-05-16T08:25:24Z",
+  "pushed_at": "2026-05-17T17:02:01Z",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/a5c-ai/babysitter"
+}

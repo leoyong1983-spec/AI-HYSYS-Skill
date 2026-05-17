@@ -1,0 +1,15 @@
+{
+  "full_name": "cambridge-cares/TheWorldAvatar",
+  "description": "A knowledge-graph-based digital twin of the world.",
+  "updated_at": "2026-04-30T09:26:25Z",
+  "pushed_at": "2026-04-21T09:25:49Z",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/cambridge-cares/TheWorldAvatar"
+}

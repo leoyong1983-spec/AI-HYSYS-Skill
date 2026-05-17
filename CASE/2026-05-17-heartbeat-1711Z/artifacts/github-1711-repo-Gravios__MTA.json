@@ -1,0 +1,15 @@
+{
+  "full_name": "Gravios/MTA",
+  "description": "Management and analysis package primarily for combined Vicon and Neuralynx recordings.",
+  "updated_at": "2025-09-02T08:14:34Z",
+  "pushed_at": "2025-09-02T08:14:31Z",
+  "default_branch": "master",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/Gravios/MTA"
+}

@@ -1,0 +1,15 @@
+{
+  "full_name": "idaholab/FORCE",
+  "description": "The Framework for Optimization of Resources, Controls, and Economics is a collection of software tools, models, and datasets acquired and developed under the Integrated Energy Systems (IES) program to enable analysis of technical and economic viability of myriad IES configurations. FORCE is the consolidating repository for IES tools.",
+  "updated_at": "2026-05-11T16:17:25Z",
+  "pushed_at": "2025-01-02T15:54:45Z",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/idaholab/FORCE"
+}

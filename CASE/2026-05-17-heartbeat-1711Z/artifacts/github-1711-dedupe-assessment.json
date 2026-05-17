@@ -1,0 +1,18 @@
+[
+  {
+    "repo": "Ahmedhassan676/Python4ChemicalEngineers",
+    "decision": "candidate_only_no_explicit_license",
+    "source_dup": false,
+    "download_url_dup": false,
+    "title_dup": false,
+    "file_dup": false,
+    "license_spdx": "NOASSERTION",
+    "model_files": [
+      {
+        "path": "water&gas.hsc",
+        "size": 290425,
+        "sha": "eabeefc9827d09d393ca44e132aab14977d36d3a"
+      }
+    ]
+  }
+]

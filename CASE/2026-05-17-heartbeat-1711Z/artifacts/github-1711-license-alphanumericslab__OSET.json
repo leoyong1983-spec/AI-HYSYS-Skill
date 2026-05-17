@@ -1,0 +1,25 @@
+{
+  "name": "LICENSE",
+  "path": "LICENSE",
+  "sha": "d0e57bcd5731db17560b4358ca49c06210509f7b",
+  "size": 1519,
+  "url": "https://api.github.com/repos/alphanumericslab/OSET/contents/LICENSE?ref=master",
+  "html_url": "https://github.com/alphanumericslab/OSET/blob/master/LICENSE",
+  "git_url": "https://api.github.com/repos/alphanumericslab/OSET/git/blobs/d0e57bcd5731db17560b4358ca49c06210509f7b",
+  "download_url": "https://raw.githubusercontent.com/alphanumericslab/OSET/master/LICENSE",
+  "type": "file",
+  "content": "QlNEIDMtQ2xhdXNlIExpY2Vuc2UKCkNvcHlyaWdodCAoYykgMjAyMSwgUmV6\nYSBTYW1lbmkKQWxsIHJpZ2h0cyByZXNlcnZlZC4KClJlZGlzdHJpYnV0aW9u\nIGFuZCB1c2UgaW4gc291cmNlIGFuZCBiaW5hcnkgZm9ybXMsIHdpdGggb3Ig\nd2l0aG91dAptb2RpZmljYXRpb24sIGFyZSBwZXJtaXR0ZWQgcHJvdmlkZWQg\ndGhhdCB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnMgYXJlIG1ldDoKCjEuIFJl\nZGlzdHJpYnV0aW9ucyBvZiBzb3VyY2UgY29kZSBtdXN0IHJldGFpbiB0aGUg\nYWJvdmUgY29weXJpZ2h0IG5vdGljZSwgdGhpcwogICBsaXN0IG9mIGNvbmRp\ndGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lci4KCjIuIFJlZGlz\ndHJpYnV0aW9ucyBpbiBiaW5hcnkgZm9ybSBtdXN0IHJlcHJvZHVjZSB0aGUg\nYWJvdmUgY29weXJpZ2h0IG5vdGljZSwKICAgdGhpcyBsaXN0IG9mIGNvbmRp\ndGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lciBpbiB0aGUgZG9j\ndW1lbnRhdGlvbgogICBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVk\nIHdpdGggdGhlIGRpc3RyaWJ1dGlvbi4KCjMuIE5laXRoZXIgdGhlIG5hbWUg\nb2YgdGhlIGNvcHlyaWdodCBob2xkZXIgbm9yIHRoZSBuYW1lcyBvZiBpdHMK\nICAgY29udHJpYnV0b3JzIG1heSBiZSB1c2VkIHRvIGVuZG9yc2Ugb3IgcHJv\nbW90ZSBwcm9kdWN0cyBkZXJpdmVkIGZyb20KICAgdGhpcyBzb2Z0d2FyZSB3\naXRob3V0IHNwZWNpZmljIHByaW9yIHdyaXR0ZW4gcGVybWlzc2lvbi4KClRI\nSVMgU09GVFdBUkUgSVMgUFJPVklERUQgQlkgVEhFIENPUFlSSUdIVCBIT0xE\nRVJTIEFORCBDT05UUklCVVRPUlMgIkFTIElTIgpBTkQgQU5ZIEVYUFJFU1Mg\nT1IgSU1QTElFRCBXQVJSQU5USUVTLCBJTkNMVURJTkcsIEJVVCBOT1QgTElN\nSVRFRCBUTywgVEhFCklNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFC\nSUxJVFkgQU5EIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFS\nRQpESVNDTEFJTUVELiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUgQ09QWVJJR0hU\nIEhPTERFUiBPUiBDT05UUklCVVRPUlMgQkUgTElBQkxFCkZPUiBBTlkgRElS\nRUNULCBJTkRJUkVDVCwgSU5DSURFTlRBTCwgU1BFQ0lBTCwgRVhFTVBMQVJZ\nLCBPUiBDT05TRVFVRU5USUFMCkRBTUFHRVMgKElOQ0xVRElORywgQlVUIE5P\nVCBMSU1JVEVEIFRPLCBQUk9DVVJFTUVOVCBPRiBTVUJTVElUVVRFIEdPT0RT\nIE9SClNFUlZJQ0VTOyBMT1NTIE9GIFVTRSwgREFUQSwgT1IgUFJPRklUUzsg\nT1IgQlVTSU5FU1MgSU5URVJSVVBUSU9OKSBIT1dFVkVSCkNBVVNFRCBBTkQg\nT04gQU5ZIFRIRU9SWSBPRiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQ09OVFJB\nQ1QsIFNUUklDVCBMSUFCSUxJVFksCk9SIFRPUlQgKElOQ0xVRElORyBORUdM\nSUdFTkNFIE9SIE9USEVSV0lTRSkgQVJJU0lORyBJTiBBTlkgV0FZIE9VVCBP\nRiBUSEUgVVNFCk9GIFRISVMgU09GVFdBUkUsIEVWRU4gSUYgQURWSVNFRCBP\nRiBUSEUgUE9TU0lCSUxJVFkgT0YgU1VDSCBEQU1BR0UuCg==\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/alphanumericslab/OSET/contents/LICENSE?ref=master",
+    "git": "https://api.github.com/repos/alphanumericslab/OSET/git/blobs/d0e57bcd5731db17560b4358ca49c06210509f7b",
+    "html": "https://github.com/alphanumericslab/OSET/blob/master/LICENSE"
+  },
+  "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+  }
+}
