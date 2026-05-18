@@ -14,6 +14,7 @@
 | Real-Time Quality Control: How HPCL Uses Industrial AI | [CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例展示 Aspen AI Model Builder + Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测质量参数，支持实时质量控制和成本优化。 |
 | AspenTech V15 What's New | [CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html](../CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html) | 官方 V15 页面把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus、Aspen OnLine for HYSYS and Aspen Plus 放在同一产品语境中。 |
 | Aspen OnLine | [CASE/official/aspen-online-product-page-2026.html](../CASE/official/aspen-online-product-page-2026.html) | 官方产品页说明 Aspen OnLine 使用 live data matched with process simulation，并支持 Aspen Plus / Aspen HYSYS simulation environment、plant historian / lab data 校验和 KPI reporting。 |
+| AspenTech AI / AVA portfolio | [CASE/official/aspentech-ai-ava-portfolio-2026-05-snapshot.md](../CASE/official/aspentech-ai-ava-portfolio-2026-05-snapshot.md) | 官方 AVA 体验页把 AVA、Industrial AI、HYSYS/HYSYS Dynamics、Hybrid Models、Aspen OnLine、Unified PIMS、DMC3、GDOT 和 sustainability planning 放在同一企业级决策语境中。 |
 | Emerson and Aramco Deploy AI Solution Aimed at Higher Refinery Yield Volume and Efficiencies | [CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md](../CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md) | 官方发布说明 Aspen Hybrid Models 接入 Aramco 既有炼厂计划框架，并基于严谨第一性原理仿真案例和实际工厂数据校准；适合约束 production planning / PIMS / hybrid AI 边界。 |
 | Deploy Simulation Models Online Easily Gain Unrivaled Process Insights | [CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html](../CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 webinar 页面把 Aspen HYSYS models、online simulations、KPI monitoring、process insights、节能减排和 troubleshooting 放在同一工作流中。 |
 | Operational Resilience with a Live Process Digital Twin using Aspen HYSYS and MySep | [CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html](../CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html) | 官方 webinar 页面说明 Aspen HYSYS 可与 MySep Engine 的严谨分离器模型集成，形成 live process digital twin，用于 brownfield operations、carryover risk、throughput、energy efficiency 和 KPI limits。 |
@@ -141,6 +142,7 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. 多装置 digital twin 要按 unit-level model、site-level scenario、cross-unit material/energy balance、数据时间戳和场景假设分别记录。
 4. 不可实时测量 KPI 只能作为推断或软测量输出，默认需要现场数据校准和人工复核，不允许直接闭环写回。
 5. 本 skill 可以生成接入清单、KPI 表、异常解释和审计报告，但不默认复刻 AspenTech / MySep / Aspen OnLine 等商业 live digital twin 产品能力。
+6. 如果任务使用 AVA-style 语言，应额外拆分 AVA 或企业 AI 平台、HYSYS baseline、Hybrid Models、planning/control 系统、审批责任和审计记录；不要把一个聊天式入口等同于已批准的生产写回能力。
 
 ## SCADA / Modbus Supervisory 任务默认边界
 

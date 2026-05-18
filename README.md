@@ -329,6 +329,7 @@ Official AspenTech pages:
 - [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new)
 - [Aspen OnLine product page](https://www.aspentech.com/en/products/engineering/aspen-online)
 - [AspenTech Industrial AI / AVA page](https://www.aspentech.com/en/insights/industrial-ai-from-aspentech)
+- [AspenTech AI / AVA portfolio page](https://aspentech.ai/)
 - [Emerson AspenTech AVA launch release](https://www.emerson.com/en/corporate/news/2026/new-emerson-industrial-ai-platform-delivers-enterprise-scale-ai)
 - [Emerson OPTIMIZE 26 AI and hybrid modeling news brief](https://www.emerson.com/en/corporate/news/2026/aspentech-optimize26-to-showcase-innovative-technologies)
 - [Emerson / Aramco Aspen Hybrid Models refinery planning release](https://www.aspentech.com/en/resources/press-releases/emerson-and-aramco-deploy-ai-solution-aimed-at-higher-refinery-yield-volume-and-efficiencies)
