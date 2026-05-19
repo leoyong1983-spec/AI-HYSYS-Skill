@@ -87,7 +87,26 @@
 2. Excel/workbook 类工作流在 Aspen 培训体系里本来就是正式主题
 3. AI-HYSYS-Skill 的定位可以理直气壮地放在 “工程工作流接管”，而不是只放在 “小脚本玩具”
 
-### 5. 同行评议的 HYSYS interconnection 与 Python-HYSYS automation
+### 5. AspenTech 平台支持与版本前提
+
+来源：
+
+- [AspenTech Platform Support](https://www.aspentech.com/en/platform-support)
+- [V15 Engineering Platform Specifications PDF](https://www.aspentech.com/-/media/aspentech/home/platform-support/v15/v15engspecs.pdf)
+- 本地快照：
+  - [CASE/official/aspentech-platform-support-2026-05.html](../CASE/official/aspentech-platform-support-2026-05.html)
+  - [CASE/official/aspentech-v15-engineering-platform-specifications-2026.pdf](../CASE/official/aspentech-v15-engineering-platform-specifications-2026.pdf)
+
+这条来源用于 readiness 和版本迁移，不用于宣称自动化能力。
+
+它要求本 skill 把以下问题分开：
+
+1. HYSYS 或 Aspen Engineering Suite 是否安装、授权并可启动。
+2. 当前 Windows、Office、Python、pywin32 和 COM 注册是否满足项目需要。
+3. Aspen OnLine、AI Model Builder、Hybrid Models、PIMS、APC/GDOT 等是否是当前项目实际可用资产，还是外部商业产品边界。
+4. 如果平台前提不满足，先报告环境 blocker，不要把它包装成 AI prompt 或脚本调参问题。
+
+### 6. 同行评议的 HYSYS interconnection 与 Python-HYSYS automation
 
 来源：
 

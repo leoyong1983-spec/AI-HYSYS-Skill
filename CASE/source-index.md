@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-17（Asia/Shanghai）
+最近心跳测试：2026-05-20（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -30,6 +30,8 @@
 | 官方 | [official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.html](official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.html) | 官方案例页面：HPCL 使用 Aspen AI Model Builder 和 Aspen HYSYS 部署 AI soft sensors 做实时质量控制 | [AspenTech HPCL Industrial AI case study](https://www.aspentech.com/en/resources/case-studies/real-time-quality-control-how-hpcl-uses-industrial-ai-to-improve-refining-processes) | HTML 快照 |
 | 官方 | [official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例 PDF：保存 HPCL soft sensor 全文，补强 HYSYS + AI Model Builder + 实时质量/KPI 预测的工程证据 | [AspenTech HPCL Industrial AI PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy25/q5/at-4331_cs_hpcl_real_time_quality_control_v3.pdf) | 真 PDF |
 | 官方 | [official/aspentech-whats-new-v15-industrial-ai-2026.html](official/aspentech-whats-new-v15-industrial-ai-2026.html) | AspenTech V15 页面，补强 Industrial AI、AI Model Builder desktop、Aspen HYSYS/Plus green H2、Aspen OnLine for HYSYS and Aspen Plus 等当前产品语境 | [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new) | HTML 快照 |
+| 官方 | [official/aspentech-platform-support-2026-05.html](official/aspentech-platform-support-2026-05.html) | AspenTech 官方平台支持页，列出 V15 Engineering、Manufacturing & Supply Chain、APM、SSE、GDOT 等规格入口；用于区分安装/平台前提与 skill 逻辑问题 | [AspenTech Platform Support](https://www.aspentech.com/en/platform-support) | HTML 快照 |
+| 官方 | [official/aspentech-v15-engineering-platform-specifications-2026.pdf](official/aspentech-v15-engineering-platform-specifications-2026.pdf) | V15 Engineering 平台规格 PDF，用于 HYSYS/HYSYS Dynamics/Workbook/OnLine/AI Model Builder 等工程套件相关任务的版本、平台、运行环境和前提检查 | [V15 Engineering Platform Specifications PDF](https://www.aspentech.com/-/media/aspentech/home/platform-support/v15/v15engspecs.pdf) | 真 PDF；SHA256 `4d65db675f1b597aa5921101dd066e694c202bc2ab457c4726269ecdb79912ac` |
 | 官方 | [official/aspen-online-product-page-2026.html](official/aspen-online-product-page-2026.html) | 官方产品页：Aspen OnLine 使用 live data matched with process simulation，支持 Aspen Plus / Aspen HYSYS 项目文件、plant historian / lab data 校验和 KPI reporting | [Aspen OnLine product page](https://www.aspentech.com/en/products/engineering/aspen-online) | HTML 快照 |
 | 官方 | [official/aspentech-industrial-ai-ava-2026.html](official/aspentech-industrial-ai-ava-2026.html) | 官方 Industrial AI / AVA 页面：补强 AspenTech 将 AI、工业数据、制造专业知识和操作工作流结合的产品语境；不等同于 HYSYS COM 控制证据 | [AspenTech Industrial AI / AVA](https://www.aspentech.com/en/insights/industrial-ai-from-aspentech) | HTML 快照 |
 | 官方 | [official/emerson-aspentech-ava-launch-2026-05-snapshot.md](official/emerson-aspentech-ava-launch-2026-05-snapshot.md) | Emerson 官方发布 AspenTech AVA：强调 domain-aware / operations-embedded AI、first-principles context、LLM-style assistance 和数据平台；用于约束 AI 推荐层边界 | [Emerson AVA launch release](https://www.emerson.com/en/corporate/news/2026/new-emerson-industrial-ai-platform-delivers-enterprise-scale-ai) | 安全摘要快照；原始动态 HTML 未入库 |
@@ -97,6 +99,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-17.md](notes/heartbeat-scan-2026-05-17.md) | 记录 2026-05-17 自动心跳保存的 AspenTech AVA / Industrial AI 官方资料、OPTIMIZE 26 官方新闻简报和 `aspen-pysys` 社区候选元数据 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-18.md](notes/heartbeat-scan-2026-05-18.md) | 记录 2026-05-18 自动心跳保存的 Emerson / Aramco Aspen Hybrid Models 炼厂计划优化官方证据、价值判断和项目边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-19.md](notes/heartbeat-scan-2026-05-19.md) | 记录 2026-05-19 自动心跳保存的 AspenTech AI / AVA portfolio 资料、价值判断和 operational AI 边界更新 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-20.md](notes/heartbeat-scan-2026-05-20.md) | 记录 2026-05-20 自动心跳保存的 AspenTech Platform Support 和 V15 Engineering Platform Specifications 资料、价值判断和 readiness 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

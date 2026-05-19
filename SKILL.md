@@ -69,6 +69,8 @@ Do not begin tuning or package compilation before confirming which control lane 
 
 Use `scripts/hysys_readiness_check.py` when available. It must classify Python/pywin32 failures, COM registry failures, launch failures, case open/create failures, object-binding failures, and solver failures separately.
 
+For installation, readiness, or version-migration tasks, compare observed HYSYS version, Windows/Office/Python facts, pywin32 state, COM registration, and Aspen product availability against the official platform-support sources in `CASE/official/aspentech-platform-support-2026-05.html` and `CASE/official/aspentech-v15-engineering-platform-specifications-2026.pdf`. Report unsupported or missing platform prerequisites as environment blockers, not as prompt or skill failures.
+
 If multiple lanes work, prefer the one already proven in the current workspace.
 
 ### 3. Choose the case with strict priority

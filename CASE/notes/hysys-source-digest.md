@@ -46,6 +46,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-19 自动心跳新增 AspenTech AI / AVA portfolio 证据：[official/aspentech-ai-ava-portfolio-2026-05-snapshot.md](../official/aspentech-ai-ava-portfolio-2026-05-snapshot.md) 说明 AspenTech 正在把 AVA、Industrial AI、HYSYS/HYSYS Dynamics、Hybrid Models、Aspen OnLine、Unified PIMS、DMC3、GDOT、Mtell 和 sustainability planning 放进同一企业级工业决策叙事。项目结论是：AI-HYSYS-Skill 可以承接 AVA-style 任务的前置整理、变量/KPI schema、候选情景、验证记录和审计输出，但必须把 AVA、PIMS、APC/DMC、GDOT、online deployment 和生产闭环控制视为外部商业系统边界。
 
+2026-05-20 自动心跳新增 AspenTech 官方平台支持证据：[official/aspentech-platform-support-2026-05.html](../official/aspentech-platform-support-2026-05.html) 和 [official/aspentech-v15-engineering-platform-specifications-2026.pdf](../official/aspentech-v15-engineering-platform-specifications-2026.pdf) 说明 HYSYS 自动化任务必须先区分 Aspen 运行环境、Windows/Office/Python 前提、COM 注册、产品版本和外部商业套件边界。项目结论是：readiness/version migration 任务不能只看 Python 脚本是否能跑，还要把平台不兼容、未安装组件、无授权组件和本 skill 的逻辑错误分开报告。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
