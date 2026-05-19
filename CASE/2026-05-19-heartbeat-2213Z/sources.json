@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Alnawakhtha/Computer-aided-CDU-Revamp",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Alnawakhtha/Computer-aided-CDU-Revamp",
+    "download_url": "https://codeload.github.com/Alnawakhtha/Computer-aided-CDU-Revamp/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected; no model payload archived.",
+    "recommended_use": "No benchmark use now; possible README-only planning reference if permission and model assets are later published.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Alnawakhtha/Computer-aided-CDU-Revamp",
+      "download_url": "https://codeload.github.com/Alnawakhtha/Computer-aided-CDU-Revamp/zip/refs/heads/main",
+      "title": "Alnawakhtha/Computer-aided-CDU-Revamp",
+      "filenames": [
+        "README.md"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No HYSYS case payload exposed during tree inspection.",
+      "No explicit license detected.",
+      "README describes HYSYS work but does not provide enough material for a reproducible benchmark."
+    ]
+  },
+  {
+    "title": "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+    "download_url": "https://codeload.github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected; no model payload archived.",
+    "recommended_use": "Manual source review only; no automation benchmark use without model file and license.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+      "download_url": "https://codeload.github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS/zip/refs/heads/main",
+      "title": "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+      "filenames": [
+        "README.md",
+        "Poster Presentation (1) (1) (1) (1).pdf"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No HYSYS case payload exposed during tree inspection.",
+      "No explicit license detected.",
+      "Poster-only supporting material is not sufficient for benchmark archival."
+    ]
+  },
+  {
+    "title": "Mo-Somji/HYSYS-ME-Balance-Formatting",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Mo-Somji/HYSYS-ME-Balance-Formatting",
+    "download_url": "https://codeload.github.com/Mo-Somji/HYSYS-ME-Balance-Formatting/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected; no model payload archived.",
+    "recommended_use": "Possible future HYSYS report post-processing reference after license review; not a case benchmark.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Mo-Somji/HYSYS-ME-Balance-Formatting",
+      "download_url": "https://codeload.github.com/Mo-Somji/HYSYS-ME-Balance-Formatting/zip/refs/heads/main",
+      "title": "Mo-Somji/HYSYS-ME-Balance-Formatting",
+      "filenames": [
+        "README.md",
+        "Data/Raw_Data_Input.xlsx",
+        "Outputs/Results.xlsx"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No HYSYS model payload exposed.",
+      "No explicit license detected.",
+      "HYSYS-derived data provenance unclear."
+    ]
+  }
+]
