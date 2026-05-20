@@ -1,0 +1,124 @@
+[
+  {
+    "title": "GitHub licensed duplicate/data-only sweep",
+    "type": "duplicate_search_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS&type=repositories",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Licensed/public GitHub hits were already archived or had no qualifying HYSYS model payload in the inspected tree. No files downloaded.",
+    "recommended_use": "Duplicate avoidance and search-filter tuning; use existing archived licensed copies where available.",
+    "dedupe_keys": {
+      "source_pages_seen": [
+        "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+        "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+        "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "https://github.com/shahria-sunny/CDU-Simulation-Optimization"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-11-heartbeat-1057Z",
+        "CASE/2026-05-11-heartbeat-1648Z",
+        "CASE/2026-05-16-heartbeat-2008Z",
+        "CASE/2026-05-19-heartbeat-2213Z"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "mixed/unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "No new model payload added; some licensed automation repositories are useful references but not benchmark cases."
+  },
+  {
+    "title": "GitHub no-license .hsc duplicate/manual-review sweep",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS+.hsc&type=repositories",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access, but no explicit license detected for the visible HYSYS model payloads. Not downloaded.",
+    "recommended_use": "Manual permission-review queue only; do not archive until maintainers add a license or provide explicit permission.",
+    "dedupe_keys": {
+      "source_pages_seen": [
+        "https://github.com/Rus-tam/hysys_observer",
+        "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+        "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+        "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+        "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+        "https://github.com/marcellobozzini/Python-Driving-License"
+      ],
+      "visible_model_filenames": [
+        "example.hsc",
+        "GROUP_17.hsc.hsc",
+        "NODECFINAL.hsc",
+        "Separazione_reattori.hsc"
+      ],
+      "dedupe_status": "duplicate_or_prior_candidate"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Cannot archive or redistribute without explicit license or author permission."
+  },
+  {
+    "title": "GitHub automation/no-model sweep",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=HYSYS+automation&type=repositories",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access. Most repositories have no explicit license and/or no HYSYS model file; Avest-AI/MemCal exposes binary DLL/EDF files and was not downloaded.",
+    "recommended_use": "Search-filter tuning only. Keep automation-only repositories separate from benchmark CASE assets.",
+    "dedupe_keys": {
+      "source_pages_seen": [
+        "https://github.com/DanielVazVaz/PySIS",
+        "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "https://github.com/sajjad-ah/ASPEN-HYSYS",
+        "https://github.com/Avest-AI/MemCal",
+        "https://github.com/GerasimovRM/AspenHysysReader",
+        "https://github.com/SuradechKKPB/AutomatedHYSYS"
+      ],
+      "dedupe_status": "duplicate_or_no_model_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Automation code and binary extensions are not model benchmarks; unknown binaries must not be executed."
+  }
+]
