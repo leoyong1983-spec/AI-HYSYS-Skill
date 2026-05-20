@@ -1,0 +1,221 @@
+[
+  {
+    "title": "Duplicate strong hit: edgarsmdn/Aspen_HYSYS_Python",
+    "type": "duplicate_record",
+    "quality": "D",
+    "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+    "download_url": "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository with MIT license, README, Test_1.hsc, and Python automation scripts. Not downloaded because the same source was already archived in CASE/2026-05-11-heartbeat-1057Z.",
+    "recommended_use": "Use the existing archived copy for HYSYS-Python spreadsheet bridge and COM smoke tests.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+      "download_url": "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+      "filenames": [
+        "Test_1.hsc",
+        "README.md",
+        "LICENSE",
+        "Test_1.py",
+        "HYSYS_python_spreadsheets.py"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-11-heartbeat-1057Z",
+        "CASE/2026-05-14-heartbeat-1707Z",
+        "CASE/2026-05-17-heartbeat-0809Z"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Duplicate only; no new download or model validation was performed."
+  },
+  {
+    "title": "Duplicate no-license HSC leads: Zinatullin76/Python-Hysys and Facul-101/PY-HYSYS",
+    "type": "duplicate_record",
+    "quality": "D",
+    "source_page": "https://github.com/Zinatullin76/Python-Hysys; https://github.com/Facul-101/PY-HYSYS",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repositories with HYSYS case files, but no explicit license detected in prior CASE evidence. Not downloaded.",
+    "recommended_use": "Manual license-review candidates only. If maintainers add licenses, reevaluate for Python-HYSYS bridge testing.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Zinatullin76/Python-Hysys; https://github.com/Facul-101/PY-HYSYS",
+      "filenames": [
+        "NTC.hsc",
+        "First-PY_HYSYS/Simulacao_detalhada_V04.hsc"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-17-heartbeat-0709Z"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "No explicit license; already recorded as no-download candidates."
+  },
+  {
+    "title": "atlanticbhandari07/CCS_code",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/atlanticbhandari07/CCS_code",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access, but no explicit license detected. Repository tree exposes README and Python scripts only.",
+    "recommended_use": "Future CCUS automation lead only if a HYSYS model and license are later published.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/atlanticbhandari07/CCS_code",
+      "visible_tree_files": [
+        "README.md",
+        "Area and Cost Overall.py",
+        "Stages code without fan from 18.py",
+        "gas velocity optimization.py",
+        "stages code with fan from 18.py"
+      ],
+      "dedupe_status": "new_source_page_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "No HYSYS model file and no license; not suitable for archival."
+  },
+  {
+    "title": "hairizuanbinnoorazman/HYSYS-to-Excel",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/hairizuanbinnoorazman/HYSYS-to-Excel",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access, but no explicit license detected. Repository contains README and VBA samples only.",
+    "recommended_use": "Historical HYSYS 7.2 Excel automation reference only after license clarification; do not execute VBA automatically.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/hairizuanbinnoorazman/HYSYS-to-Excel",
+      "visible_tree_files": [
+        "README.md",
+        "sample_hysys_to_excel_code.vb",
+        "sample_hysys_to_excel_code_2.vb"
+      ],
+      "dedupe_status": "new_source_page_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "7.2",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "No HYSYS model file and no license; VBA/macros must not be run automatically."
+  },
+  {
+    "title": "italosichi/HYSYS_data_import",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/italosichi/HYSYS_data_import",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access, but no explicit license detected. Repository contains README and a notebook for HYSYS report post-processing.",
+    "recommended_use": "Potential report-postprocessing reference after license review; not a HYSYS model benchmark.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/italosichi/HYSYS_data_import",
+      "visible_tree_files": [
+        "README.md",
+        "hysys data-github.ipynb"
+      ],
+      "dedupe_status": "new_source_page_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "No HYSYS model file, no license, and no validation dataset."
+  },
+  {
+    "title": "fellipe-carvalho-de-oliveira/matlab_to_hysys",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/fellipe-carvalho-de-oliveira/matlab_to_hysys",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access, but no explicit license detected. Repository tree includes binaries and VB project files but no `.hsc` model.",
+    "recommended_use": "Do not use without manual security and license review.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/fellipe-carvalho-de-oliveira/matlab_to_hysys",
+      "visible_tree_files": [
+        "ATOMS.dll",
+        "ATOMS_Saturation.exe",
+        "README.md",
+        "arquivos visual basic/Saturation.cls",
+        "arquivos visual basic/teste.bk0"
+      ],
+      "dedupe_status": "new_source_page_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Contains executable/binary files, has no explicit license, and does not expose a HYSYS model file; skipped by safety rules."
+  }
+]
