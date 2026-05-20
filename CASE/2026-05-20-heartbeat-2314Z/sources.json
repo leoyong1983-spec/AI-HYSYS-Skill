@@ -1,0 +1,157 @@
+[
+  {
+    "title": "GitHub code search for HYSYS case extensions",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=extension%3Ahsc+HYSYS&type=code",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub code search only. No qualifying .hsc, .hscz, .compound, or confirmed HYSYS XML case payload was found; no files downloaded.",
+    "recommended_use": "Search-filter tuning and evidence tracking for sparse GitHub code-search results on HYSYS binary formats.",
+    "dedupe_keys": {
+      "search_queries": [
+        "extension:hsc HYSYS",
+        "extension:hscz HYSYS",
+        "extension:compound HYSYS",
+        "Aspen HYSYS extension:xml"
+      ],
+      "not_hysys_xml_examples": [
+        "https://github.com/prasang-gupta/prasang-gupta.github.io/blob/ec37366a256f132da62846cdac400132ddcc7d31/tag/aspen-hysys/index.xml",
+        "https://github.com/petermr/CEVOpen/blob/737b3a39cd64faa8bed5e12862e8472b5e8fd647/searches/oil1000/PMC6477716/sections/2_back/2_ref-list/29_ref.xml",
+        "https://github.com/JavierBerenguer/Trabajo-Final-de-Grado/blob/3f72d9cfc7edd3942cc7d716220fdae7b74cdc3f/ComponentDataBase.xml"
+      ],
+      "dedupe_status": "no_qualifying_case_payload"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "GitHub code search may omit some binary or large case files; repository tree searches remain necessary."
+  },
+  {
+    "title": "leoyong1983-spec/AI-HYSYS-Skill self-hit",
+    "type": "duplicate_search_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "MIT repository, but it is the target archive repository itself and not an external HYSYS case source.",
+    "recommended_use": "Exclude from discovery targets; use only for origin/main state checks.",
+    "dedupe_keys": {
+      "search_queries": [
+        "Aspen HYSYS pushed:>=2026-05-20",
+        "HYSYS pushed:>=2026-05-20"
+      ],
+      "source_page": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+      "dedupe_status": "self_repository_duplicate"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "not_applicable",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Recent-date searches can become self-hit dominated and miss older external repositories."
+  },
+  {
+    "title": "perrywzm/hysysopt",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/perrywzm/hysysopt",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository with no explicit license. Inspected tree contains Python/Jupyter optimization code and screenshots, but no HYSYS model payload; not downloaded.",
+    "recommended_use": "Manual automation-code watchlist only; exclude from CASE benchmark assets.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/perrywzm/hysysopt",
+      "title": "perrywzm/hysysopt",
+      "visible_filenames": [
+        "Example.ipynb",
+        "hysysopt/interface.py",
+        "hysysopt/optimizer.py",
+        "images/hysyscase.PNG"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-11-heartbeat-2316Z",
+        "CASE/2026-05-16-heartbeat-2208Z",
+        "CASE/2026-05-17-heartbeat-0309Z"
+      ],
+      "dedupe_status": "duplicate_no_model_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "The repository may depend on a private/local HYSYS model not present in the public tree."
+  },
+  {
+    "title": "GaboTalero/HYSYS-Python-Case-Builder",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public MIT repository. It contains HYSYS COM/Python automation scripts and a license, but no .hsc, .hscz, HYSYS XML, or .compound model file; not downloaded again.",
+    "recommended_use": "Reference automation-code candidate only; keep separate from model benchmark corpus.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+      "title": "GaboTalero/HYSYS-Python-Case-Builder",
+      "visible_filenames": [
+        "HYSYS_python_simulation.py",
+        "HYSYS_python_spreadsheets_creator.py",
+        "Hysys_python_flowsheet.py",
+        "LICENSE",
+        "README.md"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-11-heartbeat-1648Z",
+        "CASE/2026-05-14-heartbeat-2207Z",
+        "CASE/2026-05-17-heartbeat-0309Z"
+      ],
+      "dedupe_status": "duplicate_automation_only_no_model"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Useful automation reference, but not a simulation case benchmark without a model payload."
+  }
+]
