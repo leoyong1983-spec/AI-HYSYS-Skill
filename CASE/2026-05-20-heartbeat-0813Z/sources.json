@@ -1,0 +1,198 @@
+[
+  {
+    "title": "GitHub recent HYSYS repository sweep",
+    "type": "duplicate_search_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=HYSYS+pushed%3A%3E%3D2026-05-01&type=repositories",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub search only. No candidate met both model-file and archival-rights requirements; no files downloaded.",
+    "recommended_use": "Search-filter tuning, duplicate suppression, and manual-review backlog maintenance.",
+    "dedupe_keys": {
+      "search_queries": [
+        "HYSYS pushed:>=2026-05-01",
+        "Aspen HYSYS pushed:>=2026-05-01",
+        "HYSYS created:>=2026-05-01",
+        "hsc HYSYS"
+      ],
+      "source_pages_seen": [
+        "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "https://github.com/JiataiLV/HYSYS_AI_Agent",
+        "https://github.com/Silentx7x/HySystem",
+        "https://github.com/jjgomera/pychemqt",
+        "https://github.com/sajjad-ah/ASPEN-HYSYS",
+        "https://github.com/atlanticbhandari07/CCS_code"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-13-heartbeat-2059Z",
+        "CASE/2026-05-17-heartbeat-0709Z",
+        "CASE/2026-05-20-heartbeat-0213Z",
+        "CASE/2026-05-20-heartbeat-0613Z"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "mixed/unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "The sweep was duplicate-heavy. No new licensed HYSYS benchmark case was found."
+  },
+  {
+    "title": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no repository license detected by GitHub. Contains GTU Simulation.hsc, README.md, and a PDF report; model and report were not downloaded.",
+    "recommended_use": "Manual permission-review queue for acid-gas or DEA sour-gas sweetening benchmark cases.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+      "title": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+      "visible_model_filenames": [
+        "GTU Simulation.hsc"
+      ],
+      "visible_supporting_files": [
+        "README.md",
+        "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-11-heartbeat-0854Z",
+        "CASE/2026-05-13-heartbeat-2059Z",
+        "CASE/2026-05-17-heartbeat-0709Z"
+      ],
+      "dedupe_status": "duplicate_source_page_and_filename"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "No explicit license or author permission. Cannot archive or redistribute until rights are clarified."
+  },
+  {
+    "title": "JiataiLV/HYSYS_AI_Agent",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/JiataiLV/HYSYS_AI_Agent",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected and no HYSYS model file was present in the inspected tree.",
+    "recommended_use": "Automation-code watchlist only; exclude from CASE benchmark corpus unless a licensed HYSYS model is added later.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/JiataiLV/HYSYS_AI_Agent",
+      "title": "JiataiLV/HYSYS_AI_Agent",
+      "visible_filenames": [
+        "ai_agent.cpp"
+      ],
+      "dedupe_status": "new_no_model_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Repository may later add model files or a license, but current state is not a HYSYS benchmark case."
+  },
+  {
+    "title": "Silentx7x/HySystem",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/Silentx7x/HySystem",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository with no explicit license. False positive: employee-management Java project, not Aspen HYSYS.",
+    "recommended_use": "Negative-search example for crawler filtering; do not revisit as CASE material unless repository scope changes.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Silentx7x/HySystem",
+      "title": "Silentx7x/HySystem",
+      "visible_stack": [
+        "Java",
+        "Spring",
+        "employee management"
+      ],
+      "dedupe_status": "false_positive_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Name collision can keep polluting HYSYS search results."
+  },
+  {
+    "title": "jjgomera/pychemqt",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/jjgomera/pychemqt",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GPL-3.0 process-simulation software repository, but not an Aspen HYSYS case repository and no HYSYS model payload was found.",
+    "recommended_use": "External simulator reference only; exclude from Aspen HYSYS benchmark CASE assets.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/jjgomera/pychemqt",
+      "title": "jjgomera/pychemqt",
+      "prior_case_records": [
+        "CASE/2026-05-15-heartbeat-0907Z",
+        "CASE/2026-05-15-heartbeat-1107Z",
+        "CASE/2026-05-17-heartbeat-0709Z"
+      ],
+      "dedupe_status": "duplicate_no_hysys_model"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "not_applicable",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "Useful software reference, but not a HYSYS benchmark case; do not archive as CASE material."
+  }
+]
