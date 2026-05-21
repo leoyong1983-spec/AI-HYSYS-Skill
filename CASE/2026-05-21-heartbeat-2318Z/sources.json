@@ -1,0 +1,154 @@
+[
+  {
+    "title": "bpalotai/Flowsheet-toolbox",
+    "type": "candidate_no_license_duplicate",
+    "quality": "D",
+    "source_page": "https://github.com/bpalotai/Flowsheet-toolbox",
+    "download_url": "https://codeload.github.com/bpalotai/Flowsheet-toolbox/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license was observed. Download was skipped because redistribution/research archival rights are unclear.",
+    "recommended_use": "Manual review candidate for heat-exchanger HYSYS surrogate/calibration workflow only if license or author permission is clarified.",
+    "dedupe_keys": [
+      "source_page:https://github.com/bpalotai/Flowsheet-toolbox",
+      "download_url:https://codeload.github.com/bpalotai/Flowsheet-toolbox/zip/refs/heads/main",
+      "title:bpalotai/Flowsheet-toolbox",
+      "filename:SampleModel_V2.hsc",
+      "prior_case:CASE/2026-05-11-heartbeat-1411Z"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "heat exchanger modelling and surrogate calibration",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [
+        "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+      ],
+      "supporting_artifacts_observed": [
+        "README",
+        "Excel workbooks",
+        "CSV training data",
+        "Python automation/surrogate scripts"
+      ]
+    },
+    "residual_risks": [
+      "No explicit license observed.",
+      "Already represented in prior CASE candidate records.",
+      "HYSYS version and solve status were not verified."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Gallo05952/Articolo_energies",
+    "type": "candidate_no_license_duplicate",
+    "quality": "D",
+    "source_page": "https://github.com/Gallo05952/Articolo_energies",
+    "download_url": "https://codeload.github.com/Gallo05952/Articolo_energies/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license was observed. Download was skipped because redistribution/research archival rights are unclear.",
+    "recommended_use": "Manual literature/source review candidate if license or author permission is clarified; not recommended for automated ingestion yet.",
+    "dedupe_keys": [
+      "source_page:https://github.com/Gallo05952/Articolo_energies",
+      "download_url:https://codeload.github.com/Gallo05952/Articolo_energies/zip/refs/heads/main",
+      "title:Gallo05952/Articolo_energies",
+      "filename:50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+      "filename:Articolo_energies.hsc",
+      "prior_case:CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-model-bearing-repositories.json"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "energy-system HYSYS study with sensitivity data",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [
+        "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+        "Articolo_energies.hsc"
+      ],
+      "supporting_artifacts_observed": [
+        "README",
+        "Excel workbook",
+        "CSV sensitivity data",
+        "Python scripts"
+      ]
+    },
+    "residual_risks": [
+      "No explicit license observed.",
+      "Already represented in prior CASE evidence.",
+      "Process metadata, HYSYS version, and solve status were not verified."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "dpatel322853/Lumped-dynamic-model-for-PST-calculation",
+    "type": "candidate_no_hysys_main_file_no_license",
+    "quality": "D",
+    "source_page": "https://github.com/dpatel322853/Lumped-dynamic-model-for-PST-calculation",
+    "download_url": "https://codeload.github.com/dpatel322853/Lumped-dynamic-model-for-PST-calculation/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license and no qualifying HYSYS main simulation file were observed.",
+    "recommended_use": "Do not archive as a HYSYS case. Keep only as a possible future automation-method reference if a licensed model source appears.",
+    "dedupe_keys": [
+      "source_page:https://github.com/dpatel322853/Lumped-dynamic-model-for-PST-calculation",
+      "download_url:https://codeload.github.com/dpatel322853/Lumped-dynamic-model-for-PST-calculation/zip/refs/heads/main",
+      "title:dpatel322853/Lumped-dynamic-model-for-PST-calculation",
+      "no_qualifying_hysys_model_file_observed"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "ethylene-system PST/TALL-trip dynamic-model workflow",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "README",
+        "Python app/script"
+      ]
+    },
+    "residual_risks": [
+      "No HYSYS main simulation file was found.",
+      "No explicit license observed.",
+      "May depend on private or local HYSYS files outside the repository."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "atlanticbhandari07/CCS_Git_test_01",
+    "type": "candidate_no_hysys_main_file_no_license",
+    "quality": "D",
+    "source_page": "https://github.com/atlanticbhandari07/CCS_Git_test_01",
+    "download_url": "https://codeload.github.com/atlanticbhandari07/CCS_Git_test_01/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license and no qualifying HYSYS main simulation file were observed.",
+    "recommended_use": "Do not archive as a HYSYS case. Possible future reference for CCS optimization or Python-COM workflow patterns only if a licensed case source appears.",
+    "dedupe_keys": [
+      "source_page:https://github.com/atlanticbhandari07/CCS_Git_test_01",
+      "download_url:https://codeload.github.com/atlanticbhandari07/CCS_Git_test_01/zip/refs/heads/main",
+      "title:atlanticbhandari07/CCS_Git_test_01",
+      "no_qualifying_hysys_model_file_observed"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "CCS simulation and optimization scripts",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "README",
+        "Python automation scripts"
+      ]
+    },
+    "residual_risks": [
+      "No HYSYS main simulation file was found.",
+      "No explicit license observed.",
+      "Automation code may require private local case files."
+    ],
+    "model_run_status": "not_run"
+  }
+]
