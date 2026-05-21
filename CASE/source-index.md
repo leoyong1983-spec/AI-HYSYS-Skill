@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-20（Asia/Shanghai）
+最近心跳测试：2026-05-22（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -60,6 +60,8 @@
 | 社区 | [community/SCADABR-PYTHON-teste-scada.py](community/SCADABR-PYTHON-teste-scada.py) | 展示 Python 与 SCADA 通信测试脚本节奏 | [raw file](https://raw.githubusercontent.com/LizandroCloud/SCADABR-PYTHON/main/tutorial/teste-scada.py) | 代码快照 |
 | 社区候选 | [community/aspen-pysys-piwheels-page-2026-05-17.html](community/aspen-pysys-piwheels-page-2026-05-17.html) | piwheels 页面描述 `aspen-pysys` 为 Aspen HYSYS 的 Python interface，但扫描时没有可用 release；只能作为候选线索 | [piwheels aspen-pysys](https://www.piwheels.org/project/aspen-pysys/) | 不推荐安装；未验证源码/许可/可运行性 |
 | 社区候选 | [community/aspen-pysys-piwheels-json-2026-05-17.json](community/aspen-pysys-piwheels-json-2026-05-17.json) | 保存 `aspen-pysys` piwheels JSON 元数据，记录扫描时 releases 为空 | [piwheels JSON](https://www.piwheels.org/project/aspen-pysys/json) | 候选去重记录 |
+| 社区候选 | [community/aspen-pysys-pypi-json-2026-05-22.json](community/aspen-pysys-pypi-json-2026-05-22.json) | PyPI JSON 元数据：`aspen_pysys` 现在已有 `0.1.0a0` alpha release，描述为 Aspen HYSYS Python API，要求 Python `>=3.12.12` 和 `pywin32>=311`，许可为 `GPL-3.0-or-later` | [PyPI aspen-pysys JSON](https://pypi.org/pypi/aspen-pysys/json) | 候选依赖；未本地 HYSYS runtime 验证；不默认安装 |
+| 社区候选 | [community/aspen-pysys-codeberg-page-2026-05-22.html](community/aspen-pysys-codeberg-page-2026-05-22.html) | Codeberg 仓库页面快照：确认 `CacklingTanuki/aspen-pysys` 仓库、`v0.1.0-alpha` 分支、README、tutorial 和 HYSYS open/init 使用说明 | [Codeberg aspen-pysys](https://codeberg.org/CacklingTanuki/aspen-pysys) | 候选源码位置；GPL 许可与 alpha 状态需单独评估 |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629.pdf](research/sketch2simulation-arxiv-2603.24629.pdf) | 证明多智能体 LLM 已开始面向 Aspen HYSYS 生成可执行 Python COM 脚本 | [Sketch2Simulation PDF](https://arxiv.org/pdf/2603.24629.pdf) | 真 PDF |
 | 研究 | [research/sketch2simulation-arxiv-2603.24629-abstract.html](research/sketch2simulation-arxiv-2603.24629-abstract.html) | 保留论文摘要页面与原始编号 | [Sketch2Simulation abstract](https://arxiv.org/abs/2603.24629) | HTML 快照 |
 | 研究 | [research/text-to-simulation-arxiv-2601.06776.pdf](research/text-to-simulation-arxiv-2601.06776.pdf) | 证明 LLM 多智能体已开始从文本过程规格生成可计算仿真配置；用于约束 greenfield 自动仿真仍属研究/原型路径 | [Text to Simulation PDF](https://arxiv.org/pdf/2601.06776) | 真 PDF；不等同于 HYSYS 生产级从零建模 |
@@ -100,6 +102,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-18.md](notes/heartbeat-scan-2026-05-18.md) | 记录 2026-05-18 自动心跳保存的 Emerson / Aramco Aspen Hybrid Models 炼厂计划优化官方证据、价值判断和项目边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-19.md](notes/heartbeat-scan-2026-05-19.md) | 记录 2026-05-19 自动心跳保存的 AspenTech AI / AVA portfolio 资料、价值判断和 operational AI 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-20.md](notes/heartbeat-scan-2026-05-20.md) | 记录 2026-05-20 自动心跳保存的 AspenTech Platform Support 和 V15 Engineering Platform Specifications 资料、价值判断和 readiness 边界更新 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-22.md](notes/heartbeat-scan-2026-05-22.md) | 记录 2026-05-22 自动心跳保存的 `aspen_pysys` PyPI / Codeberg 候选资料、价值判断和第三方 wrapper 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

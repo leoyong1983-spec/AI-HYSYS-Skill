@@ -221,6 +221,8 @@ Use external knowledge in this order:
 4. Recent AI-for-HYSYS or process-simulation agent research when the user asks for agentic, diagram-to-simulation, text-to-simulation, surrogate-model, LNG optimization, production-planning, or digital-twin workflows
 5. Secondary community material only as fallback
 
+Do not adopt third-party HYSYS Python wrappers as default dependencies just because a package exists on PyPI. For candidates such as `aspen_pysys`, first check license compatibility, alpha/stability status, Python and pywin32 requirements, whether an existing HYSYS case and COM runtime are available, and whether the wrapper has been smoke-tested in the current workspace. If any of those checks fail, keep using the repository's direct COM starter and spreadsheet/workbook bridge guidance.
+
 ## Output expectations
 
 When this skill is used well, the result should be a chain of artifacts, not just advice:

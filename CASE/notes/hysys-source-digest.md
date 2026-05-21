@@ -48,6 +48,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-20 自动心跳新增 AspenTech 官方平台支持证据：[official/aspentech-platform-support-2026-05.html](../official/aspentech-platform-support-2026-05.html) 和 [official/aspentech-v15-engineering-platform-specifications-2026.pdf](../official/aspentech-v15-engineering-platform-specifications-2026.pdf) 说明 HYSYS 自动化任务必须先区分 Aspen 运行环境、Windows/Office/Python 前提、COM 注册、产品版本和外部商业套件边界。项目结论是：readiness/version migration 任务不能只看 Python 脚本是否能跑，还要把平台不兼容、未安装组件、无授权组件和本 skill 的逻辑错误分开报告。
 
+2026-05-22 自动心跳更新 `aspen_pysys` 社区候选状态：[community/aspen-pysys-pypi-json-2026-05-22.json](../community/aspen-pysys-pypi-json-2026-05-22.json) 和 [community/aspen-pysys-codeberg-page-2026-05-22.html](../community/aspen-pysys-codeberg-page-2026-05-22.html) 说明该包已经有 `0.1.0a0` alpha release、Codeberg 仓库、`pywin32>=311` 依赖和 `GPL-3.0-or-later` 许可。项目结论是：它值得作为第三方 wrapper 候选跟踪，但不能默认纳入 MIT skill，也不能替代本仓库内置 direct COM / spreadsheet bridge 工作流；使用前必须检查许可、Python 版本、HYSYS runtime、现有 case 和实际 API 行为。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

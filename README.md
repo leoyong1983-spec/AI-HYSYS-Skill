@@ -345,7 +345,7 @@ Official AspenTech pages:
 Community bridge example:
 
 - [edgarsmdn/Aspen_HYSYS_Python](https://github.com/edgarsmdn/Aspen_HYSYS_Python)
-- [aspen-pysys piwheels candidate metadata](https://www.piwheels.org/project/aspen-pysys/) - candidate only; no releases were available at the 2026-05-17 scan.
+- [aspen_pysys PyPI candidate](https://pypi.org/project/aspen-pysys/) and [Codeberg repository](https://codeberg.org/CacklingTanuki/aspen-pysys) - candidate only; alpha `0.1.0a0`, `GPL-3.0-or-later`, Python `>=3.12.12`, `pywin32>=311`, and not adopted as a default dependency.
 
 Recent AI paper:
 

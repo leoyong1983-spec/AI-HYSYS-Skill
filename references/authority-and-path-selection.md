@@ -143,7 +143,26 @@
 - direct COM 适合 authoritative control
 - spreadsheet bridge 适合稳定批量 IO 和低摩擦参数注入
 
-### 2. 仓库内 direct COM 包装层
+### 2. 第三方 HYSYS Python wrapper 候选
+
+来源：
+
+- [aspen_pysys PyPI JSON](../CASE/community/aspen-pysys-pypi-json-2026-05-22.json)
+- [CacklingTanuki/aspen-pysys Codeberg page](../CASE/community/aspen-pysys-codeberg-page-2026-05-22.html)
+
+这条来源说明社区开始出现更直接的 HYSYS Python wrapper，但当前只能作为候选，不应直接升级为默认依赖。
+
+原因：
+
+1. 2026-05-22 扫描时版本为 `0.1.0a0`，属于 alpha。
+2. PyPI 元数据要求 Python `>=3.12.12` 和 `pywin32>=311`，与项目现场常见 Python 环境未必一致。
+3. 许可为 `GPL-3.0-or-later`，不能不经评估就并入本 MIT 仓库的默认运行依赖。
+4. README 仍以已有或可打开的 HYSYS simulation case 为前提，不证明从零建模或生产级自动化可靠。
+5. 未在当前本地 Aspen HYSYS runtime 上做 smoke test 前，只能作为参考实现或候选线索。
+
+因此默认策略仍是：先用本仓库 direct COM starter 和 spreadsheet/workbook bridge 证明控制通道，再按项目许可和运行环境决定是否单独试用第三方 wrapper。
+
+### 3. 仓库内 direct COM 包装层
 
 来源：
 
