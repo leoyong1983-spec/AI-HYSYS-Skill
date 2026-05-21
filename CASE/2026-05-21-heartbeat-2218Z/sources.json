@@ -1,0 +1,180 @@
+[
+  {
+    "title": "Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+    "type": "duplicate_record",
+    "quality": "A",
+    "source_page": "https://zenodo.org/records/14882867",
+    "download_url": "https://zenodo.org/api/records/14882867/files",
+    "local_artifacts": [],
+    "license_public_access_note": "Open Zenodo record with DOI 10.5281/zenodo.14882867 and CC-BY-4.0 license. Not downloaded because the record and HYSYS files are already archived.",
+    "recommended_use": "Use the existing archived copy for onboard carbon capture, methanol production, LNG support data, spreadsheet validation, and DOI-backed benchmark metadata.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/records/14882867",
+      "download_url": "https://zenodo.org/api/records/14882867/files",
+      "doi": "10.5281/zenodo.14882867",
+      "title": "Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+      "known_filenames": [
+        "Capture_onboard_methanol.hsc",
+        "Capture_onboard_NG.hsc",
+        "MeOH_Production.hsc",
+        "LNG_Production.apw",
+        "Data.xlsx",
+        "env_calc.ipynb",
+        "Plotting.ipynb"
+      ],
+      "existing_case_references": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "suspected_hysys_version": "unknown",
+      "process_theme": "onboard carbon capture, methanol production, natural gas shipping, CO2-to-methanol",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate only; no new binary-level inspection was performed.",
+      "HYSYS version is unknown because no model was opened."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+    "type": "duplicate_record",
+    "quality": "A",
+    "source_page": "https://zenodo.org/records/18806107",
+    "download_url": "https://zenodo.org/api/records/18806107/files",
+    "local_artifacts": [],
+    "license_public_access_note": "Open Zenodo record with DOI 10.5281/zenodo.18806107 and CC-BY-4.0 license. Not downloaded because the HYSYS v12.1 model and support files are already archived.",
+    "recommended_use": "Use the existing archived copy for associated petroleum gas valorization, modular oxy-combustion, ASU/CCS comparison, and energy/exergy workflow tests.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/records/18806107",
+      "download_url": "https://zenodo.org/api/records/18806107/files",
+      "doi": "10.5281/zenodo.18806107",
+      "title": "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+      "known_filenames": [
+        "7. Sistema Integrado OCC,ASU,CCS.hsc",
+        "1. Analisis Multicriterio.xlsx",
+        "2. Calculo de la Potencia nominal.xlsx",
+        "4. Balance estequiometrico para el proceso combustion.EES"
+      ],
+      "existing_case_references": [
+        "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "suspected_hysys_version": "V12.1",
+      "process_theme": "associated petroleum gas valorization, oxy-combustion, ASU, carbon capture",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate only; no new download was performed.",
+      "HYSYS v12.1 is metadata-derived and was not verified by opening the model."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+    "type": "rejected_candidate_no_hysys_main_file",
+    "quality": "D",
+    "source_page": "https://zenodo.org/records/19469917",
+    "download_url": "https://zenodo.org/api/records/19469917/files/Upload%20data.rar/content",
+    "local_artifacts": [],
+    "license_public_access_note": "Open Zenodo record with DOI 10.5281/zenodo.19469917 and CC-BY-4.0 license. Prior safe archive listing showed only PNG and XLSX files; no HYSYS main file was confirmed.",
+    "recommended_use": "Keep as a no-model exclusion record unless authors publish a qualifying .hsc, .hscz, HYSYS XML, or .compound file.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/records/19469917",
+      "download_url": "https://zenodo.org/api/records/19469917/files/Upload%20data.rar/content",
+      "doi": "10.5281/zenodo.19469917",
+      "title": "Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+      "known_filenames": [
+        "Upload data.rar"
+      ],
+      "existing_case_references": [
+        "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-19469917-archive-listing.txt",
+        "CASE/2026-05-16-heartbeat-0608Z/artifacts/zenodo-19469917-record.json"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "suspected_hysys_version": "unknown",
+      "process_theme": "hydrogen co-firing, gas turbines, dispatch optimization",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "RAR package was not re-downloaded or re-listed in this run.",
+      "The title is HYSYS-relevant, but no qualifying HYSYS model payload is known."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Role of biogenic CO2 in refinery decarbonization. A case study of Colombian refineries",
+    "type": "candidate_no_hysys_main_file",
+    "quality": "D",
+    "source_page": "https://zenodo.org/records/15476366",
+    "download_url": "https://zenodo.org/api/records/15476366/files",
+    "local_artifacts": [],
+    "license_public_access_note": "Open Zenodo record with DOI 10.5281/zenodo.15476366 and CC-BY-4.0 license. Files are .lnr and DOCX supplementary material, not HYSYS case files.",
+    "recommended_use": "Metadata-only follow-up for refinery decarbonization literature; do not include in the HYSYS case corpus until a real HYSYS main file is published.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/records/15476366",
+      "download_url": "https://zenodo.org/api/records/15476366/files",
+      "doi": "10.5281/zenodo.15476366",
+      "title": "Role of biogenic CO2 in refinery decarbonization. A case study of Colombian refineries",
+      "known_filenames": [
+        "MC refinery MADS.lnr",
+        "HC refinery MADS.lnr",
+        "HC refinery LADS.lnr",
+        "MC refinery LADS.lnr",
+        "supplementary material.docx"
+      ],
+      "existing_case_references": [
+        "CASE/2026-05-14-heartbeat-1107Z/sources.json"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "suspected_hysys_version": "V14",
+      "process_theme": "refinery decarbonization, biogenic CO2, Colombian refineries",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "HYSYS V14 reference is metadata-derived and not backed by a HYSYS main file in the public payload.",
+      "No .hsc, .hscz, HYSYS XML, or .compound file was confirmed."
+    ],
+    "model_run_status": "not_run"
+  }
+]
