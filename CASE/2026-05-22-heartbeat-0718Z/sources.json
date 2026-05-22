@@ -1,0 +1,211 @@
+[
+  {
+    "title": "Mendeley Data duplicate: LNG BOG recondensation HYSYS files",
+    "type": "duplicate_candidate",
+    "quality": "D",
+    "source_page": "https://data.mendeley.com/datasets/8r8ztbkfjj/1",
+    "download_url": "https://data.mendeley.com/public-files/datasets/8r8ztbkfjj/files/939edba8-4b16-441d-b0bc-7609c2688f18/file_downloaded",
+    "local_artifacts": [],
+    "license_public_access_note": "Public Mendeley Data record with DOI 10.17632/8r8ztbkfjj.1 and metadata-declared CC BY 4.0. Not downloaded because the source page, title, and HYSYS filenames are already recorded in prior CASE metadata.",
+    "recommended_use": "Use the existing CASE record as the LNG/BOG recondensation duplicate-control entry; do not re-download in this run.",
+    "dedupe_keys": {
+      "source_page": "https://data.mendeley.com/datasets/8r8ztbkfjj/1",
+      "download_url": "https://data.mendeley.com/public-files/datasets/8r8ztbkfjj/files/939edba8-4b16-441d-b0bc-7609c2688f18/file_downloaded",
+      "title": "Data for: Optimization model and application for the recondensation process of boil-off gas in a liquefied natural gas receiving terminal",
+      "filenames": [
+        "Research data/HYSYS files/April to October.hsc",
+        "Research data/HYSYS files/November to March.hsc"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-11-heartbeat-1411Z/sources.json",
+        "CASE/2026-05-11-heartbeat-1411Z/index.md"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc",
+      "suspected_hysys_version": "unknown",
+      "process_area": "LNG receiving terminal BOG recondensation",
+      "model_file_names": [
+        "April to October.hsc",
+        "November to March.hsc"
+      ]
+    },
+    "residual_risks": [
+      "This run did not download or inspect the payload.",
+      "No Aspen HYSYS run was performed.",
+      "Archive status is based on existing CASE metadata and source-page dedupe."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Mendeley Data duplicate: cryogenic air separation GOX/LOX HYSYS simulations",
+    "type": "duplicate_candidate",
+    "quality": "D",
+    "source_page": "https://data.mendeley.com/datasets/r3875vhrjs/1",
+    "download_url": "https://data.mendeley.com/public-files/datasets/r3875vhrjs/files/b26e403f-de22-4b01-8924-f9575858f968/file_downloaded ; https://data.mendeley.com/public-files/datasets/r3875vhrjs/files/bf511dc5-75a5-4720-9753-627668f42047/file_downloaded",
+    "local_artifacts": [],
+    "license_public_access_note": "Public Mendeley Data record with DOI 10.17632/r3875vhrjs.1 and CC BY-NC 3.0 license. Not downloaded because both .hsc files were archived in CASE/2026-05-22-heartbeat-0618Z.",
+    "recommended_use": "Use the existing 0618Z archive for cryogenic ASU automation, sensitivity, and regression tests.",
+    "dedupe_keys": {
+      "source_page": "https://data.mendeley.com/datasets/r3875vhrjs/1",
+      "doi": "10.17632/r3875vhrjs.1",
+      "filenames": [
+        "HYSYS simulation of 40 bara GOX 95 purity.hsc",
+        "HYSYS simulation of 40 bara LOX 95 purity.hsc"
+      ],
+      "sha256": [
+        "7d8c91e7ba89327ef65d17504b33aea260b268e0ce584d0bb195371d04356428",
+        "bb743de844307e822d5f9ad92121e8a1991be968508e4829d5343130669340ee"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-22-heartbeat-0618Z/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc",
+      "suspected_hysys_version": "unknown",
+      "process_area": "cryogenic air separation",
+      "model_file_names": [
+        "HYSYS simulation of 40 bara GOX 95 purity.hsc",
+        "HYSYS simulation of 40 bara LOX 95 purity.hsc"
+      ]
+    },
+    "residual_risks": [
+      "License is non-commercial, so downstream redistribution and commercial use require caution.",
+      "No Aspen HYSYS run was performed in this 0718Z run."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "GitHub HYSYS repository sweep: licensed duplicates and no-license candidates",
+    "type": "repository_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening ; https://github.com/shahria-sunny/CDU-Simulation-Optimization ; https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys ; https://github.com/Anikesh31/simulator_codingplatform_integration ; https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "download_url": "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main ; https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Natural-Gas-Sweetening and CDU-Simulation-Optimization are public MIT repositories but already archived. Mahdi-Arashian/sour-gas-sweetening-hysys, Anikesh31/simulator_codingplatform_integration, and Corey-McInrue/Node-C-ASPEN-HYSYS are public but have no explicit repository license, so model files were not downloaded.",
+    "recommended_use": "Use existing archived MIT copies for gas sweetening and CDU tests; keep no-license repositories in the manual permission-review queue.",
+    "dedupe_keys": {
+      "source_pages": [
+        "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "https://github.com/Anikesh31/simulator_codingplatform_integration",
+        "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS"
+      ],
+      "filenames": [
+        "Gas Sweetening.hsc",
+        "project.hsc",
+        "GTU Simulation.hsc",
+        "Test_file_hysys_python.hsc",
+        "NODECFINAL.hsc"
+      ],
+      "git_blob_sha": [
+        "13e873c93bed1351d003ca2a4addaf850223eecd",
+        "9c8f506bd4e0099767abb17ce218197320ce1a39",
+        "d0ea686ea5e94902296d666ee1940e68229f6396"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-11-heartbeat-0741Z/",
+        "CASE/2026-05-13-heartbeat-2059Z/",
+        "CASE/2026-05-13-heartbeat-2201Z/",
+        "CASE/2026-05-14-heartbeat-1707Z/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc",
+      "suspected_hysys_version": "V14 for shahria-sunny repositories by repository description; unknown for no-license repositories",
+      "process_area": "natural gas sweetening, crude distillation, tutorial automation, student node simulation",
+      "model_file_names": [
+        "Gas Sweetening.hsc",
+        "project.hsc",
+        "GTU Simulation.hsc",
+        "Test_file_hysys_python.hsc",
+        "NODECFINAL.hsc"
+      ]
+    },
+    "residual_risks": [
+      "No-license repositories cannot be safely archived or redistributed without author permission.",
+      "GitHub binary/code search may miss release assets.",
+      "No Aspen HYSYS run was performed."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Zenodo Aspen HYSYS sweep: duplicate models and non-case records",
+    "type": "open_data_sweep",
+    "quality": "D",
+    "source_page": "https://zenodo.org/records/10966344 ; https://zenodo.org/records/18806107 ; https://zenodo.org/records/7787405 ; https://zenodo.org/records/15476366 ; https://zenodo.org/records/6621128",
+    "download_url": "https://zenodo.org/api/records/?q=%22Aspen%20HYSYS%22%20hsc&size=10",
+    "local_artifacts": [],
+    "license_public_access_note": "Zenodo search returned public records with varying licenses. Record 10966344 is CC BY-NC-ND 4.0 and already archived; record 18806107 is CC BY 4.0 and already archived. Other inspected records exposed PDF, spreadsheet, document, or non-HYSYS-model payloads.",
+    "recommended_use": "Use existing Zenodo archives for Tennessee Eastman and OCC/ASU/CCS tests; use the remaining records only as no-model search-filter examples.",
+    "dedupe_keys": {
+      "record_ids": [
+        "10966344",
+        "18806107"
+      ],
+      "dois": [
+        "10.5281/zenodo.10966344",
+        "10.5281/zenodo.18806107"
+      ],
+      "filenames": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-14-heartbeat-1007Z/",
+        "CASE/2026-05-11-heartbeat-0222Z/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc",
+      "suspected_hysys_version": "V12.1 for Zenodo 18806107 by metadata; unknown for Zenodo 10966344",
+      "process_area": "Tennessee Eastman process, oxy-combustion, ASU, CCS",
+      "model_file_names": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc"
+      ]
+    },
+    "residual_risks": [
+      "Zenodo 10966344 has no-derivatives and non-commercial restrictions.",
+      "Non-case Zenodo records may mention Aspen HYSYS in papers but do not expose a HYSYS model payload.",
+      "No Aspen HYSYS run was performed."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Figshare, Harvard Dataverse, GitLab, and open-web HYSYS sweep",
+    "type": "open_web_sweep",
+    "quality": "D",
+    "source_page": "https://figshare.com/search?q=Aspen%20HYSYS ; https://dataverse.harvard.edu/dataverse/harvard?q=Aspen%20HYSYS ; https://gitlab.com/search?search=Aspen%20HYSYS",
+    "download_url": "not_used",
+    "local_artifacts": [],
+    "license_public_access_note": "Only public search pages were considered. No no-login, clearly licensed Aspen HYSYS .hsc, .hscz, HYSYS XML, .compound, or model-bearing archive was confirmed in this run.",
+    "recommended_use": "Use as a negative sweep record for search coverage and false-positive filtering.",
+    "dedupe_keys": {
+      "searched_terms": [
+        "Aspen HYSYS .hsc figshare",
+        "Aspen HYSYS hsc Dataverse",
+        "Aspen HYSYS GitLab hsc"
+      ],
+      "matched_downloads": []
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": false,
+      "hysys_file_priority": "none confirmed",
+      "suspected_hysys_version": "unknown",
+      "process_area": "not_applicable",
+      "model_file_names": []
+    },
+    "residual_risks": [
+      "Search interfaces may omit newly uploaded files or login-gated supplemental materials.",
+      "This run did not use any restricted, paywalled, or login-required resource."
+    ],
+    "model_run_status": "not_run"
+  }
+]
