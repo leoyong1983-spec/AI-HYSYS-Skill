@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Data for: Comparisons of thermodynamic and economic performances of cryogenic air separation plants designed for external and internal compression of oxygen",
+    "type": "Mendeley Data dataset with Aspen HYSYS .hsc files",
+    "quality": "A",
+    "source_page": "https://data.mendeley.com/datasets/r3875vhrjs/1",
+    "download_url": "https://data.mendeley.com/public-files/datasets/r3875vhrjs/files/b26e403f-de22-4b01-8924-f9575858f968/file_downloaded ; https://data.mendeley.com/public-files/datasets/r3875vhrjs/files/bf511dc5-75a5-4720-9753-627668f42047/file_downloaded",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-22-heartbeat-0618Z/artifacts/MendeleyData_2019_CryogenicAirSeparation_SinglaChowdhury/HYSYS simulation of 40 bara GOX 95 purity.hsc",
+        "bytes": 1409549,
+        "sha256": "7d8c91e7ba89327ef65d17504b33aea260b268e0ce584d0bb195371d04356428"
+      },
+      {
+        "path": "CASE/2026-05-22-heartbeat-0618Z/artifacts/MendeleyData_2019_CryogenicAirSeparation_SinglaChowdhury/HYSYS simulation of 40 bara LOX 95 purity.hsc",
+        "bytes": 1481350,
+        "sha256": "bb743de844307e822d5f9ad92121e8a1991be968508e4829d5343130669340ee"
+      }
+    ],
+    "license_public_access_note": "Public Mendeley Data record, DOI 10.17632/r3875vhrjs.1, available after the 2019-05-28 embargo. License is CC BY-NC 3.0, allowing attribution-preserved non-commercial copying and redistribution; commercial reuse is restricted.",
+    "recommended_use": "Cryogenic air separation HYSYS benchmark for external GOX compression versus LOX pumping comparison, metadata extraction, stream/equipment readback, sensitivity analysis, optimization, and surrogate-model feature extraction after HYSYS version confirmation.",
+    "dedupe_keys": {
+      "source_page": "https://data.mendeley.com/datasets/r3875vhrjs/1",
+      "doi": "10.17632/r3875vhrjs.1",
+      "related_article_doi": "10.1016/j.applthermaleng.2019.114025",
+      "filenames": [
+        "HYSYS simulation of 40 bara GOX 95 purity.hsc",
+        "HYSYS simulation of 40 bara LOX 95 purity.hsc"
+      ],
+      "sha256": [
+        "7d8c91e7ba89327ef65d17504b33aea260b268e0ce584d0bb195371d04356428",
+        "bb743de844307e822d5f9ad92121e8a1991be968508e4829d5343130669340ee"
+      ],
+      "existing_case_match": "none found by source_page, DOI, title, filename, or SHA256"
+    },
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "main_model_files": [
+        "HYSYS simulation of 40 bara GOX 95 purity.hsc",
+        "HYSYS simulation of 40 bara LOX 95 purity.hsc"
+      ],
+      "process_area": "cryogenic air separation",
+      "case_theme": "40 bara oxygen production, external gaseous oxygen compression and internal liquid oxygen pumping",
+      "oxygen_purity_from_filename": "95 percent",
+      "model_run_status": "not_run",
+      "source_hash_verification": "downloaded file SHA256 values matched Mendeley public API content_details"
+    },
+    "residual_risks": [
+      "HYSYS version is unknown.",
+      "Models were not opened, solved, or validated in Aspen HYSYS.",
+      "CC BY-NC 3.0 restricts commercial use.",
+      "Dataset file list does not include a separate README; context is from metadata, filenames, and related article DOI."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Duplicate Zenodo HYSYS datasets: Tennessee Eastman and Modular Oxy-Combustion/APG Valorization",
+    "type": "candidate_duplicate_not_downloaded",
+    "quality": "D",
+    "source_page": "https://zenodo.org/records/10966344 ; https://zenodo.org/records/18806107",
+    "download_url": "https://zenodo.org/api/records/10966344/files/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC/content ; https://zenodo.org/api/records/18806107/files/7.%20Sistema%20Integrado%20OCC,ASU,CCS.hsc/content",
+    "local_artifacts": [],
+    "license_public_access_note": "Zenodo 10966344 is CC BY-NC-ND 4.0 and Zenodo 18806107 is CC BY-4.0; both are public records with DOI metadata, but both are already represented in existing CASE records.",
+    "recommended_use": "Use existing archived copies for Tennessee Eastman fault-detection/control testing and OCC/ASU/CCS/APG valorization benchmarks.",
+    "dedupe_keys": {
+      "source_page": [
+        "https://zenodo.org/records/10966344",
+        "https://zenodo.org/records/18806107"
+      ],
+      "doi": [
+        "10.5281/zenodo.10966344",
+        "10.5281/zenodo.18806107"
+      ],
+      "filenames": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc"
+      ],
+      "existing_case_match": "existing records under prior CASE heartbeat directories"
+    },
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown or metadata-derived only",
+      "main_model_files": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc"
+      ],
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate only; no new local artifact in this run.",
+      "Tennessee Eastman license has non-commercial and no-derivatives restrictions.",
+      "No HYSYS runtime validation was performed in this run."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "GitHub duplicate and no-license HYSYS model sweep",
+    "type": "candidate_duplicate_or_no_license_not_downloaded",
+    "quality": "D",
+    "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening ; https://github.com/shahria-sunny/CDU-Simulation-Optimization ; https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys ; https://github.com/marcellobozzini/Python-Driving-License ; https://github.com/iraola/tennessee-eastman-hysys",
+    "download_url": "not_downloaded",
+    "local_artifacts": [],
+    "license_public_access_note": "shahria-sunny repositories are public MIT but already archived. Mahdi-Arashian and marcellobozzini repositories expose `.hsc` files but have no explicit repository license. iraola is CC BY-NC-ND 4.0 and already represented by the Zenodo Tennessee Eastman archive.",
+    "recommended_use": "Use existing archived MIT/Zenodo copies where available. Keep no-license `.hsc` repositories in a manual permission-review queue only.",
+    "dedupe_keys": {
+      "source_pages": [
+        "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "https://github.com/marcellobozzini/Python-Driving-License",
+        "https://github.com/iraola/tennessee-eastman-hysys"
+      ],
+      "filenames": [
+        "Gas Sweetening.hsc",
+        "project.hsc",
+        "GTU Simulation.hsc",
+        "Separazione_reattori.hsc",
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+      ],
+      "existing_case_match": "source page and filename matches in prior CASE records"
+    },
+    "hysys_specific_metadata": {
+      "hysys_version": "mixed; V14 inferred for shahria-sunny repositories, unknown for no-license GitHub candidates",
+      "main_model_files": [
+        "Gas Sweetening.hsc",
+        "project.hsc",
+        "GTU Simulation.hsc",
+        "Separazione_reattori.hsc",
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+      ],
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No-license GitHub models cannot be archived safely without permission.",
+      "Duplicate cases were not downloaded again.",
+      "Repository contents can change after this heartbeat."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "GitHub HSCZ, compound, and HYSYS XML sweep",
+    "type": "candidate_negative_or_noncase_not_downloaded",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS+hscz&type=code ; https://github.com/search?q=HYSYS+compound&type=code ; https://github.com/JavierBerenguer/Trabajo-Final-de-Grado",
+    "download_url": "not_downloaded",
+    "local_artifacts": [],
+    "license_public_access_note": "Searches were public GitHub metadata/code inspections. JavierBerenguer/Trabajo-Final-de-Grado is MIT, but its `ComponentDataBase.xml` is not a confirmed HYSYS XML case and no `.hsc/.hscz/.compound` model was found in the inspected tree.",
+    "recommended_use": "Search-filter tuning only; do not treat XML/component database or automation-only hits as HYSYS benchmark cases.",
+    "dedupe_keys": {
+      "source_pages": [
+        "https://github.com/JavierBerenguer/Trabajo-Final-de-Grado"
+      ],
+      "filenames": [
+        "ComponentDataBase.xml"
+      ],
+      "search_results": [
+        "GitHub HYSYS .hscz search returned no qualifying HYSYS model payload",
+        "GitHub HYSYS .compound search returned no qualifying HYSYS model payload"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "main_model_files": [],
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub code search is noisy and may miss binary files not indexed.",
+      "Some repositories may add qualifying files in future updates."
+    ],
+    "model_run_status": "not_run"
+  }
+]
