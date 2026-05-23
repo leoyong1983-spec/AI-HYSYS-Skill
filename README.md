@@ -363,6 +363,7 @@ Recent AI paper:
 HYSYS automation and interconnection papers:
 
 - [Hydrogen liquefaction study using Aspen HYSYS V12 with Python COM automation](https://www.sciencedirect.com/science/article/abs/pii/S0360319925061464)
+- [CCS-EOR techno-economic sensitivity using Aspen HYSYS V14 automated with Python](https://doi.org/10.31315/eksergi.v23i2.16590)
 - [Integrating coding platforms with process simulators for custom applications](https://www.sciencedirect.com/science/article/pii/S0098135425002510)
 - [A comparative study on Aspen HYSYS interconnection methodologies](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf)
 - [Supervisory Monitoring and Control Using Chemical Process Simulators and SCADA Systems](https://doi.org/10.3390/methane5010008)

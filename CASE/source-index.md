@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-22（Asia/Shanghai）
+最近心跳测试：2026-05-24（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -69,6 +69,7 @@
 | 研究 | [research/llm-agent-process-simulation-arxiv-2601.11650.pdf](research/llm-agent-process-simulation-arxiv-2601.11650.pdf) | 记录 LLM agent 通过 MCP server 和 Python 与严谨流程模拟器交互的跨模拟器证据；用于补强工具边界、step-by-step 模式和专家监督要求 | [LLM agent process simulation PDF](https://arxiv.org/pdf/2601.11650) | 真 PDF；AVEVA APS 案例，不是 HYSYS 直接证据 |
 | 研究 | [research/llm-agent-process-simulation-arxiv-2601.11650-abstract.html](research/llm-agent-process-simulation-arxiv-2601.11650-abstract.html) | 保留 LLM agent process simulation 论文摘要页面与原始编号 | [LLM agent process simulation abstract](https://arxiv.org/abs/2601.11650) | HTML 快照 |
 | 研究 | [research/hysys-coding-platforms-jglobal-2025.html](research/hysys-coding-platforms-jglobal-2025.html) | 记录 2025 Computers & Chemical Engineering 论文书目信息：Python-HYSYS 对象层级、特殊对象、backdoor variables 和仿真优化/技术经济工具 | [J-GLOBAL article metadata](https://jglobal.jst.go.jp/en/public/202502285695228497) | HTML 元数据；原文 DOI `10.1016/j.compchemeng.2025.109247` |
+| 研究 | [research/hysys-ccs-eor-python-automation-eksergi-2026.pdf](research/hysys-ccs-eor-python-automation-eksergi-2026.pdf) | 2026 Eksergi 论文：Aspen HYSYS V14 自动化结合 Python，用 full-factorial 参数组合生成 162 个 CCS-EOR 技经敏感性场景，补强批量场景、KPI、经济指标和 solver 记录边界 | [Eksergi DOI](https://doi.org/10.31315/eksergi.v23i2.16590) | 真 PDF；HTML 快照见 [research/hysys-ccs-eor-python-automation-eksergi-2026.html](research/hysys-ccs-eor-python-automation-eksergi-2026.html)；SHA256 `70873484f354e9fa60a5e648ad60b530e46eed9919564d3cefae27956e9c709b` |
 | 研究 | [research/hysys-interconnection-methodologies-sim2-2022.pdf](research/hysys-interconnection-methodologies-sim2-2022.pdf) | 对比 HYSYS direct communication、indirect communication、internal spreadsheets、data tables 四类连接方式，为控制通道选择提供同行评议依据 | [SIM2 public PDF](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf) | 真 PDF；ScienceDirect DOI `10.1016/j.compchemeng.2022.107785` |
 | 研究 | [research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) | 2026 Methane 论文，描述 Aspen HYSYS/Python 与 ScadaBR 通过 Modbus 连接，用于实时监控、监督和动态模型验证 | [MDPI DOI](https://doi.org/10.3390/methane5010008) | 真 PDF；高价值直接 HYSYS/Python/SCADA 证据 |
 | 研究 | [research/hysys-scadabr-python-supervisory-control-mdpi-2026-crossref.json](research/hysys-scadabr-python-supervisory-control-mdpi-2026-crossref.json) | 保存 HYSYS/Python/ScadaBR 论文的 Crossref 元数据、摘要、发布日期和开放许可 | [Crossref metadata](https://api.crossref.org/works/10.3390/methane5010008) | JSON 元数据 |
@@ -103,6 +104,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-19.md](notes/heartbeat-scan-2026-05-19.md) | 记录 2026-05-19 自动心跳保存的 AspenTech AI / AVA portfolio 资料、价值判断和 operational AI 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-20.md](notes/heartbeat-scan-2026-05-20.md) | 记录 2026-05-20 自动心跳保存的 AspenTech Platform Support 和 V15 Engineering Platform Specifications 资料、价值判断和 readiness 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-22.md](notes/heartbeat-scan-2026-05-22.md) | 记录 2026-05-22 自动心跳保存的 `aspen_pysys` PyPI / Codeberg 候选资料、价值判断和第三方 wrapper 边界更新 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-24.md](notes/heartbeat-scan-2026-05-24.md) | 记录 2026-05-24 自动心跳保存的 Eksergi HYSYS V14 + Python 自动化 CCS-EOR 技经敏感性论文、价值判断和批量场景边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

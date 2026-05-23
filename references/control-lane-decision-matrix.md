@@ -16,6 +16,7 @@
 6. [scripts/hysys_automation.py](../scripts/hysys_automation.py) 是本仓库内置 direct COM starter wrapper，用于把主通道固化成可审计代码。
 7. [hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](../CASE/research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) 说明 HYSYS/Python 可与 ScadaBR/Modbus 类监督系统结合，但这应作为 external supervisory/testbed lane，而不是默认生产闭环控制。
 8. [reasoning-agent-distillation-nature-2026.pdf](../CASE/research/reasoning-agent-distillation-nature-2026.pdf) 补强 LLM reasoning agent 的仿真、优化、碳核算和节能方案分步工作流；它是 Aspen Plus 相邻证据，不改变 HYSYS 生产默认边界。
+9. [hysys-ccs-eor-python-automation-eksergi-2026.pdf](../CASE/research/hysys-ccs-eor-python-automation-eksergi-2026.pdf) 展示 Aspen HYSYS V14 与 Python 自动化用于 162 个 full-factorial CCS-EOR 技经敏感性场景，补强批量场景必须先定义变量 schema、KPI、失败样本和经济指标导出。
 
 ## 通道定义
 
@@ -49,6 +50,7 @@
 3. 求解策略：是否暂停 solver、如何恢复、如何等待收敛、如何记录失败样本。
 4. 批量策略：先跑单点 smoke test，再跑小批量，再进入全量敏感性或优化。
 5. 写回策略：默认只写 HYSYS workcopy，不直接写生产操作参数；优化建议必须进入人工复核。
+6. 场景策略：full-factorial、DOE、PSO、Bayesian optimization 或人工候选集都必须记录设计矩阵、样本编号、输入边界、输出 KPI、失败分类和重跑规则。
 
 ## LLM Agent 任务的附加规则
 

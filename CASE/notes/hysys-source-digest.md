@@ -50,6 +50,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-22 自动心跳更新 `aspen_pysys` 社区候选状态：[community/aspen-pysys-pypi-json-2026-05-22.json](../community/aspen-pysys-pypi-json-2026-05-22.json) 和 [community/aspen-pysys-codeberg-page-2026-05-22.html](../community/aspen-pysys-codeberg-page-2026-05-22.html) 说明该包已经有 `0.1.0a0` alpha release、Codeberg 仓库、`pywin32>=311` 依赖和 `GPL-3.0-or-later` 许可。项目结论是：它值得作为第三方 wrapper 候选跟踪，但不能默认纳入 MIT skill，也不能替代本仓库内置 direct COM / spreadsheet bridge 工作流；使用前必须检查许可、Python 版本、HYSYS runtime、现有 case 和实际 API 行为。
 
+2026-05-24 自动心跳新增 Eksergi CCS-EOR 技经敏感性论文：[research/hysys-ccs-eor-python-automation-eksergi-2026.pdf](../research/hysys-ccs-eor-python-automation-eksergi-2026.pdf) 和 [research/hysys-ccs-eor-python-automation-eksergi-2026.html](../research/hysys-ccs-eor-python-automation-eksergi-2026.html) 记录 Aspen HYSYS V14 自动化结合 Python，用 full-factorial 参数组合生成 162 个 CCS-EOR 场景。项目结论是：HYSYS + Python 自动化适合已有模型的批量场景、敏感性、技经 KPI 和报告导出；但必须先冻结变量 schema、样本编号、solver 策略、失败分类和人工复核，不能把批量优化直接等同于生产闭环写回。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

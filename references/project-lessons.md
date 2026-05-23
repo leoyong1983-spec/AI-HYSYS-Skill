@@ -63,10 +63,13 @@
 当前 [`scripts/hysys_automation.py`](../scripts/hysys_automation.py) 已把这条经验落成 helper：
 
 - `SpreadsheetCellBinding` 用于记录 spreadsheet、行列、标签和单位
+- `read_spreadsheet_cells(...)` 用于按 binding label 批量读回机器可消费的 KPI 字典
 - `batch_write_spreadsheet_cells(...)` 用于暂停 solver、批量写入、恢复 solver、等待求解结束
 - `wait_for_solver_idle(...)` 用于避免读到中间状态
 
 这不是替代工程判断，而是把社区示例和论文中的 solver 节奏固化成默认安全动作。
+
+第三方 wrapper 候选 `aspen_pysys` 的可借鉴点是“把 COM 边界显式包装”，不是把 alpha / GPL 包变成默认依赖。因此当前仓库只吸收两类安全设计：会话内对象缓存，以及 spreadsheet readback 后的 COM 值标准化。不要跨进程共享 HYSYS COM 句柄；多工况并发应使用独立 workcopy、独立进程和明确的启动/关闭边界。
 
 ## 6. workcopy 要优先于母版
 

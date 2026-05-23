@@ -162,6 +162,14 @@
 
 因此默认策略仍是：先用本仓库 direct COM starter 和 spreadsheet/workbook bridge 证明控制通道，再按项目许可和运行环境决定是否单独试用第三方 wrapper。
 
+2026-05-22 源码核查补充：`aspen_pysys` 的当前公开快照值得学习的是 typed wrapper / object factory / primitive adapter 这类分层思想，而不是直接并入代码。核查时未发现单独 `.pyi` 类型存根文件，也未确认存在可直接复用的跨进程路径哈希缓存树；不应把它描述成已验证的生产级高性能执行层。
+
+本仓库吸收的低风险工程点是：
+
+1. 在 `scripts/hysys_automation.py` 中保持会话内 operation / spreadsheet 对象缓存，减少同一 case 内的重复 COM 对象查找。
+2. 在 spreadsheet readback 后先执行 COM 返回值标准化，把常见 tuple/list/array-like 值转成普通 Python 容器，再交给后续 JSON、Pydantic 或报告层处理。
+3. 明确 HYSYS empty-value sentinel `-32767` 的处理位置，但不把第三方 GPL 代码复制进 MIT 仓库。
+
 ### 3. 仓库内 direct COM 包装层
 
 来源：

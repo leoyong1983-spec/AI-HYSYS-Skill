@@ -223,6 +223,8 @@ Use external knowledge in this order:
 
 Do not adopt third-party HYSYS Python wrappers as default dependencies just because a package exists on PyPI. For candidates such as `aspen_pysys`, first check license compatibility, alpha/stability status, Python and pywin32 requirements, whether an existing HYSYS case and COM runtime are available, and whether the wrapper has been smoke-tested in the current workspace. If any of those checks fail, keep using the repository's direct COM starter and spreadsheet/workbook bridge guidance.
 
+When extending the direct COM layer, keep wrapper ideas but not wrapper code: use per-session object caches only, normalize COM tuple/list/array-like readbacks before validation or reporting, and do not share live HYSYS COM handles across processes.
+
 ## Output expectations
 
 When this skill is used well, the result should be a chain of artifacts, not just advice:
