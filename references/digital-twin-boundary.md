@@ -18,6 +18,7 @@
 | Emerson and Aramco Deploy AI Solution Aimed at Higher Refinery Yield Volume and Efficiencies | [CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md](../CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md) | 官方发布说明 Aspen Hybrid Models 接入 Aramco 既有炼厂计划框架，并基于严谨第一性原理仿真案例和实际工厂数据校准；适合约束 production planning / PIMS / hybrid AI 边界。 |
 | Deploy Simulation Models Online Easily Gain Unrivaled Process Insights | [CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html](../CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 webinar 页面把 Aspen HYSYS models、online simulations、KPI monitoring、process insights、节能减排和 troubleshooting 放在同一工作流中。 |
 | Operational Resilience with a Live Process Digital Twin using Aspen HYSYS and MySep | [CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html](../CASE/official/aspen-hysys-mysep-live-process-digital-twin-2026.html) | 官方 webinar 页面说明 Aspen HYSYS 可与 MySep Engine 的严谨分离器模型集成，形成 live process digital twin，用于 brownfield operations、carryover risk、throughput、energy efficiency 和 KPI limits。 |
+| Optimizing CDU Operations with Equation-Based Digital Twins in Aspen HYSYS | [CASE/official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html](../CASE/official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html) | 官方 webinar 页面说明 Viva Energy / Anukoolan 使用 Aspen HYSYS 中 first-principles Equation Oriented models 和 Reduced Order Hybrid Models 建立 CDU、Prefractionation、Hydrotreater 数字孪生优化场景。 |
 | Saudi Aramco Increases Refinery Capacity by 100,000 Barrels/Day Using Plant Digital Twin | [CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](../CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) | 官方案例说明 Saudi Aramco 使用 Aspen HYSYS 建立多个装置 plant digital twins，用于炼厂改造可行性分析和处理能力提升方案评估。 |
 | Indian Oil Corporation Barauni Refinery Process Digital Twins | [CASE/official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html](../CASE/official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html) | 官方 webinar 页面说明 Barauni Refinery 部署 Aspen HYSYS-based process digital twins，适合约束不可实时测量 KPI 和炼厂运行优化场景。 |
 | Aspen HYSYS Dynamics | [CASE/official/aspen-hysys-dynamics-product-page-2026.html](../CASE/official/aspen-hysys-dynamics-product-page-2026.html) | 官方产品页说明 HYSYS Dynamics 支持动态仿真、瞬态条件分析和控制方案验证；用于约束动态任务的基线、转换和审核边界。 |
@@ -52,6 +53,7 @@
 10. 如果目标是 XGBoost、PSO 或其他 surrogate / optimizer，应先定义 HYSYS 采样空间、训练/验证误差、外推禁区和回到 HYSYS runtime 的复核路径。
 11. 如果目标是 Aspen OnLine 或 online model deployment，应先拆分 HYSYS/Aspen Plus 模型、plant historian 或 lab data、KPI/reporting schema、商业发布层、模型校验和人工验收责任。
 12. 如果目标是 AI/hybrid/surrogate 升级，应把 first-principles HYSYS baseline 作为基线证据，任何数据驱动层都必须说明训练数据范围、验证指标、外推禁区和回归到 HYSYS runtime 的复核路径。
+13. 如果目标是 CDU、Prefractionation、Hydrotreater 或炼厂装置级 equation-based digital twin / reduced-order hybrid model 优化，应先固定装置边界、HYSYS EO 模型来源、reduced-order 模型训练范围、KPI 目标、操作约束、候选工况和人工批准路径。
 
 ## 不应该如何使用
 

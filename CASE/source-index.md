@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-24（Asia/Shanghai）
+最近心跳测试：2026-05-26（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -40,6 +40,7 @@
 | 官方 | [official/aspentech-ai-ava-portfolio-2026-05-snapshot.md](official/aspentech-ai-ava-portfolio-2026-05-snapshot.md) | AspenTech AI / AVA 体验页：补强 AVA 作为企业级工业决策层与 HYSYS、HYSYS Dynamics、Hybrid Models、Aspen OnLine、Unified PIMS、DMC3、GDOT 等组合语境；用于约束 AVA-style operational AI 边界 | [AspenTech AI / AVA](https://aspentech.ai/) | 安全摘要快照；原始动态 HTML 未入库 |
 | 官方 | [official/aspen-hysys-online-simulation-models-webinar-2026.html](official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 on-demand webinar 页面：用 Aspen HYSYS models 部署 online simulations，支撑 KPI monitoring、process insights、节能减排和 troubleshooting 边界 | [Deploy Simulation Models Online Easily](https://www.aspentech.com/en/resources/on-demand-webinars/deploy-simulation-models-online-easily-gain-unrivaled-process-insights) | HTML 快照 |
 | 官方 | [official/aspen-hysys-mysep-live-process-digital-twin-2026.html](official/aspen-hysys-mysep-live-process-digital-twin-2026.html) | 官方 on-demand webinar 页面：Aspen HYSYS 与 MySep Engine 严谨分离器模型集成，形成 live process digital twin，用于 brownfield operations、carryover risk、throughput、energy efficiency 和 KPI limits | [AspenTech MySep live process digital twin webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-driving-throughput-and-efficiency-with-digital-twin) | HTML 快照 |
+| 官方 | [official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html](official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html) | 官方 on-demand webinar 页面：Viva Energy / Anukoolan 使用 Aspen HYSYS 中 first-principles Equation Oriented models 和 Reduced Order Hybrid Models 建立 CDU、Prefractionation、Hydrotreater 数字孪生优化场景 | [AspenTech Viva Energy CDU digital twin webinar](https://www.aspentech.com/en/resources/on-demand-webinars/webinar-with-viva-energy-australia-and-anukoolan-solutions-optimize-cdu-operations-with-aspen-hysys) | HTML 快照；SHA256 `0adfbd957ef8a3afaf29ea20e3b4c1b123047377b413024c6a7761bd38d58d97` |
 | 官方 | [official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) | 官方案例页面：Saudi Aramco 使用 Aspen HYSYS 建立多个装置 plant digital twins，用于炼厂改造可行性分析和产能提升方案评估 | [AspenTech Saudi Aramco plant digital twin case study](https://www.aspentech.com/en/resources/case-studies/saudi-aramco-increases-capacity-by-100000-barrels-day-and-upgrades-bottom-of-the-barrel-products) | HTML 快照 |
 | 官方 | [official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html](official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html) | 官方 webinar 页面：Indian Oil Barauni Refinery 部署 Aspen HYSYS-based process digital twins，用于炼厂运行优化和不可实时测量 KPI 场景 | [AspenTech Indian Oil Barauni process digital twins webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-learn-how-a-major-indian-refinery-gained-substantial-benefits) | HTML 快照 |
 | 官方 | [official/aspentech-university-hysys-hybrid-ai-online-course-2026.html](official/aspentech-university-hysys-hybrid-ai-online-course-2026.html) | 官方培训页，说明 HYSYS/Aspen Plus 离线模型可结合 plant data、Hybrid Models 和 online digital twins 做监控、优化、洞察和故障支持 | [AspenTech University EHM105 course](https://esupport.aspentech.com/UniversityCourse?id=a3pUn0000028hg9IAA) | HTML 快照 |
@@ -105,6 +106,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-20.md](notes/heartbeat-scan-2026-05-20.md) | 记录 2026-05-20 自动心跳保存的 AspenTech Platform Support 和 V15 Engineering Platform Specifications 资料、价值判断和 readiness 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-22.md](notes/heartbeat-scan-2026-05-22.md) | 记录 2026-05-22 自动心跳保存的 `aspen_pysys` PyPI / Codeberg 候选资料、价值判断和第三方 wrapper 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-24.md](notes/heartbeat-scan-2026-05-24.md) | 记录 2026-05-24 自动心跳保存的 Eksergi HYSYS V14 + Python 自动化 CCS-EOR 技经敏感性论文、价值判断和批量场景边界更新 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-26.md](notes/heartbeat-scan-2026-05-26.md) | 记录 2026-05-26 自动心跳保存的 Viva Energy / Anukoolan Aspen HYSYS EO + Reduced Order Hybrid Models CDU 数字孪生官方资料、价值判断和边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

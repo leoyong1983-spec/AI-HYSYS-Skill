@@ -52,6 +52,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-24 自动心跳新增 Eksergi CCS-EOR 技经敏感性论文：[research/hysys-ccs-eor-python-automation-eksergi-2026.pdf](../research/hysys-ccs-eor-python-automation-eksergi-2026.pdf) 和 [research/hysys-ccs-eor-python-automation-eksergi-2026.html](../research/hysys-ccs-eor-python-automation-eksergi-2026.html) 记录 Aspen HYSYS V14 自动化结合 Python，用 full-factorial 参数组合生成 162 个 CCS-EOR 场景。项目结论是：HYSYS + Python 自动化适合已有模型的批量场景、敏感性、技经 KPI 和报告导出；但必须先冻结变量 schema、样本编号、solver 策略、失败分类和人工复核，不能把批量优化直接等同于生产闭环写回。
 
+2026-05-26 自动心跳新增 Viva Energy / Anukoolan 官方 webinar：[official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html](../official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html) 说明 Aspen HYSYS 可用 first-principles Equation Oriented models 和 Reduced Order Hybrid Models 建立 CDU、Prefractionation、Hydrotreater 数字孪生优化场景。项目结论是：这补强炼厂装置级 operational optimization / hybrid digital twin 证据，但本 skill 仍应限定为整理已有 HYSYS case、变量/KPI schema、候选工况、校验记录和审计报告，不能宣称自动复刻商业 hybrid digital twin 或生产闭环控制。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例
