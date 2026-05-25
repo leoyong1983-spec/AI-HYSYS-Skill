@@ -22,6 +22,7 @@ REQUIRED_FILES = [
     "references/basic-package-deliverables.md",
     "references/control-lane-decision-matrix.md",
     "references/digital-twin-boundary.md",
+    "references/literature-patterns.md",
     "references/project-lessons.md",
     "CASE/source-index.md",
     "CASE/notes/heartbeat-scan-2026-04-25.md",

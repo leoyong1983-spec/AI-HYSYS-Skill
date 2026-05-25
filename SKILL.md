@@ -24,6 +24,8 @@ Read [references/authority-and-path-selection.md](references/authority-and-path-
 
 Read [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md) before writing parameters, running sensitivity, freezing a baseline, or choosing between direct COM, spreadsheet/workbook, data tables, and indirect communication.
 
+Read [references/literature-patterns.md](references/literature-patterns.md) when a task cites AI/HYSYS papers, asks whether the method is publishable, requests an experiment design, or mixes LLM agents with HYSYS execution.
+
 Read [references/digital-twin-boundary.md](references/digital-twin-boundary.md) when the user asks for HYSYS digital twin, hybrid AI, soft sensor, historian, monitoring, yield optimization, or emissions optimization support.
 
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
@@ -112,6 +114,14 @@ For bounded tuning:
 4. Prefer the minimum change that clears the target.
 5. Stop if the task has moved into review or release support mode.
 6. For spreadsheet/workbook writes, pause solver, batch-write inputs, resume solver, wait until `IsSolving` is false, then read KPIs.
+
+For paper-informed AI/HYSYS tasks, classify the task before executing:
+
+1. Existing-case takeover: production-preferred. Require case provenance, variable schema, smoke test, solver policy, KPI export, and audit log.
+2. Batch scenario / sensitivity / techno-economic workflow: require scenario matrix, sample IDs, input bounds, output KPIs, failure classes, and rerun rules before full execution.
+3. LLM agent / text-to-simulation / diagram-to-simulation: research or prototype unless a validated case and approved runner exist. Preserve prompts, generated scripts, tool logs, convergence states, and expert review notes.
+4. Surrogate / ML / hybrid model / digital twin: HYSYS remains the first-principles baseline. Require design space, training/validation/test split, extrapolation limits, and HYSYS or human review of recommendations.
+5. Operational AI / setpoint recommendation: advisory only unless the project provides an approved writeback procedure. Validate candidates on a workcopy, not a production case.
 
 ### 5. Export machine-readable outputs first
 
@@ -220,6 +230,8 @@ Use external knowledge in this order:
 3. Community spreadsheet-bridge examples and reusable HYSYS automation snippets
 4. Recent AI-for-HYSYS or process-simulation agent research when the user asks for agentic, diagram-to-simulation, text-to-simulation, surrogate-model, LNG optimization, production-planning, or digital-twin workflows
 5. Secondary community material only as fallback
+
+Treat paper evidence as precedent, not permission. A paper showing HYSYS/Python automation, LLM flowsheet generation, surrogate optimization, or digital-twin validation changes the task classification and required evidence; it does not remove runtime readiness, case provenance, solver validation, or human review requirements.
 
 Do not adopt third-party HYSYS Python wrappers as default dependencies just because a package exists on PyPI. For candidates such as `aspen_pysys`, first check license compatibility, alpha/stability status, Python and pywin32 requirements, whether an existing HYSYS case and COM runtime are available, and whether the wrapper has been smoke-tested in the current workspace. If any of those checks fail, keep using the repository's direct COM starter and spreadsheet/workbook bridge guidance.
 
