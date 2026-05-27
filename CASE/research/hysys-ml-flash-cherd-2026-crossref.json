@@ -1,0 +1,735 @@
+﻿{
+    "status":  "ok",
+    "message-type":  "work",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "indexed":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2026,
+                                                           5,
+                                                           23
+                                                       ]
+                                                   ],
+                                    "date-time":  "2026-05-23T07:05:56Z",
+                                    "timestamp":  1779519956358,
+                                    "version":  "3.53.1"
+                                },
+                    "reference-count":  49,
+                    "publisher":  "Elsevier BV",
+                    "license":  [
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             5,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-05-01T00:00:00Z",
+                                                      "timestamp":  1777593600000
+                                                  },
+                                        "content-version":  "tdm",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://www.elsevier.com/tdm/userlicense/1.0/"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             5,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-05-01T00:00:00Z",
+                                                      "timestamp":  1777593600000
+                                                  },
+                                        "content-version":  "tdm",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://www.elsevier.com/legal/tdmrep-license"
+                                    }
+                                ],
+                    "content-domain":  {
+                                           "domain":  [
+                                                          "elsevier.com",
+                                                          "sciencedirect.com"
+                                                      ],
+                                           "crossmark-restriction":  true
+                                       },
+                    "short-container-title":  [
+                                                  "Chemical Engineering Research and Design"
+                                              ],
+                    "published-print":  {
+                                            "date-parts":  [
+                                                               [
+                                                                   2026,
+                                                                   5
+                                                               ]
+                                                           ]
+                                        },
+                    "DOI":  "10.1016/j.cherd.2026.05.041",
+                    "type":  "journal-article",
+                    "created":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2026,
+                                                           5,
+                                                           23
+                                                       ]
+                                                   ],
+                                    "date-time":  "2026-05-23T06:48:29Z",
+                                    "timestamp":  1779518909000
+                                },
+                    "update-policy":  "https://doi.org/10.1016/elsevier_cm_policy",
+                    "source":  "Crossref",
+                    "is-referenced-by-count":  0,
+                    "title":  [
+                                  "A Framework for Computationally Efficient Process Simulation with Machine Learning Aided Flash Calculations"
+                              ],
+                    "prefix":  "10.1016",
+                    "author":  [
+                                   {
+                                       "ORCID":  "https://orcid.org/0009-0008-8839-3393",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Debasis",
+                                       "family":  "Maity",
+                                       "sequence":  "first",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "ORCID":  "https://orcid.org/0000-0003-3166-2712",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Hariprasad",
+                                       "family":  "Kodamana",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "ORCID":  "https://orcid.org/0000-0002-3837-8952",
+                                       "authenticated-orcid":  false,
+                                       "given":  "Manojkumar",
+                                       "family":  "Ramteke",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   }
+                               ],
+                    "member":  "78",
+                    "reference":  [
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib1",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "663",
+                                          "DOI":  "10.1002/cjce.5450500518",
+                                          "article-title":  "An improved algorithm for solving the mass balance equations in multistage separation processes",
+                                          "volume":  "50",
+                                          "author":  "Boston",
+                                          "year":  "1972",
+                                          "journal-title":  "The Canadian Journal of Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib2",
+                                          "series-title":  "Inside-out algorithms for multicomponent separation process calculations",
+                                          "author":  "Boston",
+                                          "year":  "1980"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib3",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "109",
+                                          "DOI":  "10.1016/0098-1354(78)80015-5",
+                                          "article-title":  "A radically different formulation and solution of the single-stage flash problem",
+                                          "volume":  "2",
+                                          "author":  "Boston",
+                                          "year":  "1978",
+                                          "journal-title":  "Computers \u0026 Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib4",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.compchemeng.2022.107898",
+                                          "article-title":  "Perspectives on the integration between first-principles and data-driven modeling",
+                                          "volume":  "166",
+                                          "author":  "Bradley",
+                                          "year":  "2022",
+                                          "journal-title":  "Computers \u0026 Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib5",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.fluid.2022.113423",
+                                          "article-title":  "A generalized machine learning-assisted phase-equilibrium calculation model for shale reservoirs",
+                                          "volume":  "558",
+                                          "author":  "Chen",
+                                          "year":  "2022",
+                                          "journal-title":  "Fluid Phase Equilibria"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib6",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.compchemeng.2023.108523",
+                                          "article-title":  "Machine learning in process systems engineering: Challenges and opportunities",
+                                          "volume":  "181",
+                                          "author":  "Daoutidis",
+                                          "year":  "2024",
+                                          "journal-title":  "Computers \u0026 Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib7",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "30",
+                                          "DOI":  "10.2516/stet/2023023",
+                                          "article-title":  "Carnot: a thermodynamic library for energy industries",
+                                          "volume":  "78",
+                                          "author":  "De Hemptinne",
+                                          "year":  "2023",
+                                          "journal-title":  "Sci. Tech. Energ. Transition"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib8",
+                                          "series-title":  "Presented at the 74th EAGE Conference and Exhibition incorporating EUROPEC 2012",
+                                          "article-title":  "Machine Learning Methods to Speed up Compositional Reservoir Simulation (SPE 154505)",
+                                          "author":  "Gaganis",
+                                          "year":  "2012"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib9",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.coche.2024.101012",
+                                          "article-title":  "Deep reinforcement learning for process design: Review and perspective",
+                                          "volume":  "44",
+                                          "author":  "Gao",
+                                          "year":  "2024",
+                                          "journal-title":  "Current Opinion in Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib10",
+                                          "series-title":  "in: Computer Aided Chemical Engineering",
+                                          "first-page":  "2005",
+                                          "article-title":  "Transfer learning for process design with reinforcement learning",
+                                          "author":  "Gao",
+                                          "year":  "2023"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib11",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "1644",
+                                          "DOI":  "10.1021/ie50587a034",
+                                          "article-title":  "Multicomponent Distillation Calculation on IBM 704",
+                                          "volume":  "50",
+                                          "author":  "Greenstadt",
+                                          "year":  "1958",
+                                          "journal-title":  "Ind. Eng. Chem"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib12",
+                                          "volume":  "27",
+                                          "author":  "Holland",
+                                          "year":  "1963"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib13",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "359",
+                                          "DOI":  "10.1016/0893-6080(89)90020-8",
+                                          "article-title":  "Multilayer feedforward networks are universal approximators",
+                                          "volume":  "2",
+                                          "author":  "Hornik",
+                                          "year":  "1989",
+                                          "journal-title":  "Neural Networks"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib14",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "3802",
+                                          "DOI":  "10.3390/molecules27123802",
+                                          "article-title":  "Enhancing the Performance of Evolutionary Algorithm by Differential Evolution for Optimizing Distillation Sequence",
+                                          "volume":  "27",
+                                          "author":  "Hu",
+                                          "year":  "2022",
+                                          "journal-title":  "Molecules"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib15",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "212",
+                                          "DOI":  "10.1016/j.cherd.2018.03.006",
+                                          "article-title":  "Optimization-based design of crude oil distillation units using surrogate column models and a support vector machine",
+                                          "volume":  "134",
+                                          "author":  "Ibrahim",
+                                          "year":  "2018",
+                                          "journal-title":  "Chemical Engineering Research and Design"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib16",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "73",
+                                          "DOI":  "10.1016/j.fluid.2018.02.004",
+                                          "article-title":  "A fast algorithm for calculating isothermal phase behavior using machine learning",
+                                          "volume":  "465",
+                                          "author":  "Kashinath",
+                                          "year":  "2018",
+                                          "journal-title":  "Fluid Phase Equilibria"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib17",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "4919",
+                                          "DOI":  "10.1021/acs.iecr.0c05715",
+                                          "article-title":  "Application of Surrogate Models as an Alternative to Process Simulation for Implementation of the Self-Optimizing Control Procedure on Large-Scale Process Plants—A Natural Gas-to-Liquids (GTL) Case Study",
+                                          "volume":  "60",
+                                          "author":  "Khezri",
+                                          "year":  "2021",
+                                          "journal-title":  "Ind. Eng. Chem. Res."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib18",
+                                          "series-title":  "First edition. ed, McGraw-Hill’s AccessEngineering",
+                                          "article-title":  "Distillation design",
+                                          "author":  "Kister",
+                                          "year":  "1992"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib19",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "494",
+                                          "DOI":  "10.1021/ie50269a005",
+                                          "article-title":  "Studies in Distillation",
+                                          "volume":  "24",
+                                          "author":  "Lewis",
+                                          "year":  "1932",
+                                          "journal-title":  "Ind. Eng. Chem"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib20",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "10729",
+                                          "DOI":  "10.1021/acs.iecr.3c00706",
+                                          "article-title":  "Recent Advances in CFD Simulations of Multiphase Flow Processes with Phase Change",
+                                          "volume":  "62",
+                                          "author":  "Li",
+                                          "year":  "2023",
+                                          "journal-title":  "Ind. Eng. Chem. Res."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib21",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "1",
+                                          "DOI":  "10.1016/0378-3812(82)85001-2",
+                                          "article-title":  "The isothermal flash problem. Part I. Stability",
+                                          "volume":  "9",
+                                          "author":  "Michelsen",
+                                          "year":  "1982",
+                                          "journal-title":  "Fluid Phase Equilibria"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib22",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "21",
+                                          "DOI":  "10.1016/0378-3812(82)85002-4",
+                                          "article-title":  "The isothermal flash problem. Part II. Phase-split calculation",
+                                          "volume":  "9",
+                                          "author":  "Michelsen",
+                                          "year":  "1982",
+                                          "journal-title":  "Fluid Phase Equilibria"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib23",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "1",
+                                          "DOI":  "10.1016/0378-3812(82)85001-2",
+                                          "article-title":  "The isothermal flash problem. Part I. Stability",
+                                          "volume":  "9",
+                                          "author":  "Michelsen",
+                                          "year":  "1982",
+                                          "journal-title":  "Fluid Phase Equilibria"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib24",
+                                          "volume":  "2",
+                                          "author":  "Michelsen",
+                                          "year":  "2007"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib25",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "148",
+                                          "DOI":  "10.1002/aic.690170130",
+                                          "article-title":  "Multicomponent Separation Calculations by Linearization",
+                                          "volume":  "17",
+                                          "author":  "Naphtali",
+                                          "year":  "1971",
+                                          "journal-title":  "AIChE Journal"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib26",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "66",
+                                          "DOI":  "10.1016/j.cherd.2024.09.034",
+                                          "article-title":  "Machine learning models for vapor-liquid equilibrium of binary mixtures: State of the art and future opportunities",
+                                          "volume":  "211",
+                                          "author":  "Ottaiano",
+                                          "year":  "2024",
+                                          "journal-title":  "Chemical Engineering Research and Design"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib27",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.cep.2025.110349",
+                                          "article-title":  "A Bayesian optimization approach for stochastic data-driven Petlyuk distillation columns design",
+                                          "volume":  "215",
+                                          "author":  "Panales-Pérez",
+                                          "year":  "2025",
+                                          "journal-title":  "Chemical Engineering and Processing - Process Intensification"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib28",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "59",
+                                          "DOI":  "10.1021/i160057a011",
+                                          "article-title":  "A new two-constant equation of state",
+                                          "volume":  "15",
+                                          "author":  "Peng",
+                                          "year":  "1976",
+                                          "journal-title":  "Industrial \u0026 Engineering Chemistry Fundamentals"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib29",
+                                          "series-title":  "Fifth edition. ed, McGraw-Hill’s AccessEngineering",
+                                          "article-title":  "Properties of Gases and Liquids, Fifth Edition",
+                                          "author":  "Poling",
+                                          "year":  "2020"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib30",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "39",
+                                          "DOI":  "10.1016/j.fluid.2019.02.023",
+                                          "article-title":  "Solving vapor-liquid flash problems using artificial neural networks",
+                                          "volume":  "490",
+                                          "author":  "Poort",
+                                          "year":  "2019",
+                                          "journal-title":  "Fluid Phase Equilibria"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib31",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.fuel.2022.125603",
+                                          "article-title":  "PTFlash: A vectorized and parallel deep learning framework for two-phase flash calculation",
+                                          "volume":  "331",
+                                          "author":  "Qu",
+                                          "year":  "2023",
+                                          "journal-title":  "Fuel"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib32",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "19",
+                                          "DOI":  "10.2118/952327-G",
+                                          "article-title":  "Procedure for use of electronic digital computers in calculating flash vaporization hydrocarbon equilibrium",
+                                          "volume":  "4",
+                                          "author":  "Rachford",
+                                          "year":  "1952",
+                                          "journal-title":  "Journal of Petroleum Technology"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib33",
+                                          "first-page":  "53",
+                                          "article-title":  "A flexible and reliable method solves single-tower and crude-distillation-column problems",
+                                          "volume":  "90",
+                                          "author":  "Russel",
+                                          "year":  "1983",
+                                          "journal-title":  "Chem. Eng."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib34",
+                                          "series-title":  "Separation Process Principles",
+                                          "author":  "Seader",
+                                          "year":  "2010"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib35",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.seppur.2025.136280",
+                                          "article-title":  "A hybrid evolutionary and Bayesian framework for automated process synthesis of energy-efficient multicomponent azeotropic separation networks",
+                                          "volume":  "384",
+                                          "author":  "Shin",
+                                          "year":  "2026",
+                                          "journal-title":  "Separation and Purification Technology"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib36",
+                                          "first-page":  "125",
+                                          "article-title":  "Novel Spreadsheets To Enhance Learning Of Rigorous Equilibrium-Based Methods For Multicomponent Separations",
+                                          "volume":  "56",
+                                          "author":  "Siurana",
+                                          "year":  "2022",
+                                          "journal-title":  "Chemical Engineering Education"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib37",
+                                          "series-title":  "Introduction to chemical engineering thermodynamics",
+                                          "author":  "Smith",
+                                          "year":  "2018"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib38",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.ces.2023.119358",
+                                          "article-title":  "Vapor-liquid phase equilibria behavior prediction of binary mixtures using machine learning",
+                                          "volume":  "282",
+                                          "author":  "Sun",
+                                          "year":  "2023",
+                                          "journal-title":  "Chemical Engineering Science"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib39",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "289",
+                                          "DOI":  "10.1021/ie50279a011",
+                                          "article-title":  "Computation of Distillation Apparatus for Hydrocarbon Mixtures",
+                                          "volume":  "25",
+                                          "author":  "Thiele",
+                                          "year":  "1933",
+                                          "journal-title":  "Ind. Eng. Chem"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib40",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "86",
+                                          "DOI":  "10.1016/j.compchemeng.2013.08.008",
+                                          "article-title":  "Hybrid semi-parametric modeling in process systems engineering: Past, present and future",
+                                          "volume":  "60",
+                                          "author":  "Von Stosch",
+                                          "year":  "2014",
+                                          "journal-title":  "Computers \u0026 Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib41",
+                                          "first-page":  "155",
+                                          "article-title":  "Tridiagonal matrix for distillation",
+                                          "volume":  "45",
+                                          "author":  "Wang",
+                                          "year":  "1966",
+                                          "journal-title":  "Hydrocarbon Processing"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib42",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "59",
+                                          "DOI":  "10.1016/j.fluid.2019.01.002",
+                                          "article-title":  "Artificial neural network assisted two-phase flash calculations in isothermal and thermal compositional simulations",
+                                          "volume":  "486",
+                                          "author":  "Wang",
+                                          "year":  "2019",
+                                          "journal-title":  "Fluid Phase Equilibria"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib43",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "341",
+                                          "DOI":  "10.1016/j.cherd.2025.12.017",
+                                          "article-title":  "Multi-objective optimization design for complex distillation processes",
+                                          "volume":  "225",
+                                          "author":  "Wang",
+                                          "year":  "2026",
+                                          "journal-title":  "Chemical Engineering Research and Design"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib44",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "960",
+                                          "DOI":  "10.1021/acs.iecr.6b03956",
+                                          "article-title":  "Reliable Flash Calculations: Part 1. Nonsmooth Inside-Out Algorithms",
+                                          "volume":  "56",
+                                          "author":  "Watson",
+                                          "year":  "2017",
+                                          "journal-title":  "Ind. Eng. Chem. Res."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib45",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Wu, Y.(吴远卿), Sun, S.(孙树瑜), 2023. Removing the performance bottleneck of pressure–temperature flash calculations during both the online and offline stages by using physics-informed neural networks. Physics of Fluids 35, 043326. https://doi.org/10.1063/5.0150341",
+                                          "DOI":  "10.1063/5.0150341"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib46",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.compchemeng.2022.107823",
+                                          "article-title":  "Case-study of a flowsheet simulation using deep-learning process models for multi-objective optimization of petrochemical production plants",
+                                          "volume":  "162",
+                                          "author":  "Zapf",
+                                          "year":  "2022",
+                                          "journal-title":  "Computers \u0026 Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib47",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.compchemeng.2021.107510",
+                                          "article-title":  "Gray-box surrogate models for flash, distillation and compression units of chemical processes",
+                                          "volume":  "155",
+                                          "author":  "Zapf",
+                                          "year":  "2021",
+                                          "journal-title":  "Computers \u0026 Chemical Engineering"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib48",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.3389/feart.2022.1041589",
+                                          "article-title":  "DL-KF modeling for acceleration of flash calculations in phase equilibrium using deep learning methods",
+                                          "volume":  "10",
+                                          "author":  "Zheng",
+                                          "year":  "2023",
+                                          "journal-title":  "Front. Earth Sci."
+                                      },
+                                      {
+                                          "key":  "10.1016/j.cherd.2026.05.041_bib49",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "945",
+                                          "DOI":  "10.1016/j.cherd.2026.02.031",
+                                          "article-title":  "Intelligent design of distillation columns integrating detailed tray geometry using data-driven model",
+                                          "volume":  "227",
+                                          "author":  "Zhu",
+                                          "year":  "2026",
+                                          "journal-title":  "Chemical Engineering Research and Design"
+                                      }
+                                  ],
+                    "container-title":  [
+                                            "Chemical Engineering Research and Design"
+                                        ],
+                    "original-title":  [
+
+                                       ],
+                    "language":  "en",
+                    "link":  [
+                                 {
+                                     "URL":  "https://api.elsevier.com/content/article/PII:S0263876226003400?httpAccept=text/xml",
+                                     "content-type":  "text/xml",
+                                     "content-version":  "vor",
+                                     "intended-application":  "text-mining"
+                                 },
+                                 {
+                                     "URL":  "https://api.elsevier.com/content/article/PII:S0263876226003400?httpAccept=text/plain",
+                                     "content-type":  "text/plain",
+                                     "content-version":  "vor",
+                                     "intended-application":  "text-mining"
+                                 }
+                             ],
+                    "deposited":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2026,
+                                                             5,
+                                                             23
+                                                         ]
+                                                     ],
+                                      "date-time":  "2026-05-23T06:48:35Z",
+                                      "timestamp":  1779518915000
+                                  },
+                    "score":  1,
+                    "resource":  {
+                                     "primary":  {
+                                                     "URL":  "https://linkinghub.elsevier.com/retrieve/pii/S0263876226003400"
+                                                 }
+                                 },
+                    "subtitle":  [
+
+                                 ],
+                    "short-title":  [
+
+                                    ],
+                    "issued":  {
+                                   "date-parts":  [
+                                                      [
+                                                          2026,
+                                                          5
+                                                      ]
+                                                  ]
+                               },
+                    "references-count":  49,
+                    "alternative-id":  [
+                                           "S0263876226003400"
+                                       ],
+                    "URL":  "https://doi.org/10.1016/j.cherd.2026.05.041",
+                    "relation":  {
+
+                                 },
+                    "ISSN":  [
+                                 "0263-8762"
+                             ],
+                    "issn-type":  [
+                                      {
+                                          "value":  "0263-8762",
+                                          "type":  "print"
+                                      }
+                                  ],
+                    "subject":  [
+
+                                ],
+                    "published":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2026,
+                                                             5
+                                                         ]
+                                                     ]
+                                  },
+                    "assertion":  [
+                                      {
+                                          "value":  "Elsevier",
+                                          "name":  "publisher",
+                                          "label":  "This article is maintained by"
+                                      },
+                                      {
+                                          "value":  "A Framework for Computationally Efficient Process Simulation with Machine Learning Aided Flash Calculations",
+                                          "name":  "articletitle",
+                                          "label":  "Article Title"
+                                      },
+                                      {
+                                          "value":  "Chemical Engineering Research and Design",
+                                          "name":  "journaltitle",
+                                          "label":  "Journal Title"
+                                      },
+                                      {
+                                          "value":  "https://doi.org/10.1016/j.cherd.2026.05.041",
+                                          "name":  "articlelink",
+                                          "label":  "CrossRef DOI link to publisher maintained version"
+                                      },
+                                      {
+                                          "value":  "article",
+                                          "name":  "content_type",
+                                          "label":  "Content Type"
+                                      },
+                                      {
+                                          "value":  "© 2026 Published by Elsevier Ltd on behalf of Institution of Chemical Engineers.",
+                                          "name":  "copyright",
+                                          "label":  "Copyright"
+                                      }
+                                  ]
+                }
+}

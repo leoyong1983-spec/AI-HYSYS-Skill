@@ -357,6 +357,7 @@ Recent AI paper:
 - [Perspectives on the Essential Role of First-Principles Modeling in the Age of AI](https://doi.org/10.1021/acs.iecr.5c04156)
 - [Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models](https://doi.org/10.1002/cjce.70297)
 - [AI-driven surrogate modeling for LNG process optimization](https://doi.org/10.1016/j.jclepro.2026.148110)
+- [ML-aided flash surrogate validated against Aspen HYSYS](https://doi.org/10.1016/j.cherd.2026.05.041)
 - [Optimizing Pressure Swing Distillation Using Aspen HYSYS and Machine Learning Algorithms](https://doi.org/10.1007/s11814-026-00646-x)
 - [HEFA/SAF production planning surrogate model paper](https://www.sciencedirect.com/science/article/pii/S009813542600102X)
 - [Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation](https://doi.org/10.1038/s44172-025-00583-3)

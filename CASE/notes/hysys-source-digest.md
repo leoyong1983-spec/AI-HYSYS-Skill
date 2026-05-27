@@ -54,6 +54,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-26 自动心跳新增 Viva Energy / Anukoolan 官方 webinar：[official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html](../official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html) 说明 Aspen HYSYS 可用 first-principles Equation Oriented models 和 Reduced Order Hybrid Models 建立 CDU、Prefractionation、Hydrotreater 数字孪生优化场景。项目结论是：这补强炼厂装置级 operational optimization / hybrid digital twin 证据，但本 skill 仍应限定为整理已有 HYSYS case、变量/KPI schema、候选工况、校验记录和审计报告，不能宣称自动复刻商业 hybrid digital twin 或生产闭环控制。
 
+2026-05-28 自动心跳新增 CHERD 2026 ML-aided flash surrogate 论文元数据：[research/hysys-ml-flash-cherd-2026-metadata.md](../research/hysys-ml-flash-cherd-2026-metadata.md) 记录 Aspen HYSYS 作为参考仿真器、Python 端物理约束 flash surrogate 作为大批量热力学/流程计算加速层的证据。项目结论是：这补强“simulation acceleration”边界，AI-HYSYS-Skill 可以准备 HYSYS 采样方案、训练/验证误差表、外推禁区和复核清单，但不能把 flash surrogate 直接当成 HYSYS runtime 或人工工程审核的替代品。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-26（Asia/Shanghai）
+最近心跳测试：2026-05-28（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -79,6 +79,7 @@
 | 研究 | [research/pinn-digital-twin-arxiv-2603.24644-abstract.html](research/pinn-digital-twin-arxiv-2603.24644-abstract.html) | 保留 PINN 数字孪生论文摘要页面与原始编号 | [PINN digital twin abstract](https://arxiv.org/abs/2603.24644) | HTML 快照 |
 | 研究 | [notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE HYSYS 原油蒸馏 + 机器学习代理模型论文的元数据、访问限制、价值判断和边界结论 | [ResearchGate metadata](https://www.researchgate.net/publication/400895104_Data-driven_simulation_of_crude_distillation_using_Aspen_HYSYS_and_comparative_machine_learning_models), [DOI](https://doi.org/10.1002/cjce.70297) | Wiley/ResearchGate 匿名抓取受访问控制阻断；仅保存 CASE 笔记，不保存伪 PDF |
 | 研究 | [research/hysys-lng-surrogate-jcp-2026-metadata.html](research/hysys-lng-surrogate-jcp-2026-metadata.html) | 记录 2026 Journal of Cleaner Production LNG surrogate 论文元数据，补强“仿真数据 -> ML surrogate -> LNG 优化/低数字碳足迹”的研究证据 | [SQU metadata](https://squ.elsevierpure.com/en/publications/artificial-intelligence-driven-surrogate-modeling-for-computation/), [DOI](https://doi.org/10.1016/j.jclepro.2026.148110) | HTML 元数据；ScienceDirect 摘要页显示使用 Aspen HYSYS V14，不保存全文 |
+| 研究 | [research/hysys-ml-flash-cherd-2026-metadata.md](research/hysys-ml-flash-cherd-2026-metadata.md) | 2026 Chemical Engineering Research and Design 论文元数据：Aspen HYSYS 作为参考仿真器，Python 端物理约束 ML flash surrogate 用于大批量热力学/流程计算加速；补强“代理模型只能加速候选评估，最终仍需 HYSYS/人工复核”的边界 | [DOI](https://doi.org/10.1016/j.cherd.2026.05.041) | 本地 Crossref JSON 见 [research/hysys-ml-flash-cherd-2026-crossref.json](research/hysys-ml-flash-cherd-2026-crossref.json)；不保存 ScienceDirect 全文 |
 | 研究 | [research/hysys-psd-xgboost-pso-springer-2026.html](research/hysys-psd-xgboost-pso-springer-2026.html) | 2026 Korean Journal of Chemical Engineering 论文页面：Aspen HYSYS 压力摆动精馏模型结合 XGBoost 与 PSO 做热负荷预测和工况优化 | [Springer article](https://link.springer.com/article/10.1007/s11814-026-00646-x) | HTML 快照 |
 | 研究 | [research/hysys-psd-xgboost-pso-springer-2026.pdf](research/hysys-psd-xgboost-pso-springer-2026.pdf) | 论文 PDF：补强“HYSYS baseline -> ML surrogate -> optimizer -> HYSYS/人工复核”的边界证据 | [Springer PDF](https://link.springer.com/content/pdf/10.1007/s11814-026-00646-x.pdf) | 真 PDF；不等同于 surrogate 替代 HYSYS baseline |
 | 研究 | [notes/heartbeat-scan-2026-04-30.md](notes/heartbeat-scan-2026-04-30.md) | 记录 HEFA / SAF production planning surrogate 论文线索、访问限制和项目边界；补强 surrogate 与 PIMS/计划优化系统之间的边界 | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S009813542600102X), [SSRN DOI](https://doi.org/10.2139/ssrn.5373950) | ScienceDirect/AIChE/SSRN 匿名访问受限；仅保存 CASE 笔记，不保存伪快照 |
@@ -107,6 +108,7 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-22.md](notes/heartbeat-scan-2026-05-22.md) | 记录 2026-05-22 自动心跳保存的 `aspen_pysys` PyPI / Codeberg 候选资料、价值判断和第三方 wrapper 边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-24.md](notes/heartbeat-scan-2026-05-24.md) | 记录 2026-05-24 自动心跳保存的 Eksergi HYSYS V14 + Python 自动化 CCS-EOR 技经敏感性论文、价值判断和批量场景边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-26.md](notes/heartbeat-scan-2026-05-26.md) | 记录 2026-05-26 自动心跳保存的 Viva Energy / Anukoolan Aspen HYSYS EO + Reduced Order Hybrid Models CDU 数字孪生官方资料、价值判断和边界更新 | 本仓库 | 每日自动化闭环样例 |
+| 心跳记录 | [notes/heartbeat-scan-2026-05-28.md](notes/heartbeat-scan-2026-05-28.md) | 记录 2026-05-28 自动心跳保存的 CHERD 2026 HYSYS 参考仿真器 + Python ML flash surrogate 资料、价值判断和热力学代理模型边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
 
 ## 访问说明

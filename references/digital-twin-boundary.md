@@ -31,6 +31,7 @@
 |---|---|---|
 | Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models | [CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md](../CASE/notes/heartbeat-test-2026-04-27-cjce-hysys-ml.md) | 记录 2026 CJCE 论文元数据，补强“HYSYS 仿真数据 -> ML surrogate / soft sensor / 快速估算层”的研究证据，同时保留访问限制和不替代 HYSYS baseline 的边界。 |
 | Artificial intelligence-driven surrogate modeling for computationally efficient and digitally decarbonized LNG process optimization under varying feed composition | [CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html](../CASE/research/hysys-lng-surrogate-jcp-2026-metadata.html) | 记录 2026 JCP LNG surrogate 论文元数据，补强“仿真数据 -> Random Forest surrogate -> LNG 优化/计算时间与数字碳足迹降低”的证据。 |
+| A Framework for Computationally Efficient Process Simulation with Machine Learning Aided Flash Calculations | [CASE/research/hysys-ml-flash-cherd-2026-metadata.md](../CASE/research/hysys-ml-flash-cherd-2026-metadata.md) | 记录 2026 CHERD 论文元数据，补强 Aspen HYSYS 作为参考仿真器、Python 端物理约束 flash surrogate 作为大批量计算加速层的边界证据。 |
 | Optimizing Pressure Swing Distillation for Di-n-Propyl Ether and n-Propyl Alcohol Separation Using Aspen HYSYS and Machine Learning Algorithms | [CASE/research/hysys-psd-xgboost-pso-springer-2026.pdf](../CASE/research/hysys-psd-xgboost-pso-springer-2026.pdf) | 2026 Korean Journal of Chemical Engineering 论文展示 Aspen HYSYS 模型结合 XGBoost 和 PSO 做热负荷预测与工况优化；用于补强 surrogate / optimizer 边界。 |
 | On the use of Surrogate Models for the Production Planning of biofuels via Hydro-processed Esters and Fatty Acids (HEFA) process | [CASE/notes/heartbeat-scan-2026-04-30.md](../CASE/notes/heartbeat-scan-2026-04-30.md) | 记录 HEFA / SAF production planning surrogate 线索和 ScienceDirect/AIChE/SSRN 访问限制；用于提醒 surrogate 可连接生产计划系统，但本 skill 不替代 Aspen PIMS-AO、AI Model Builder 或商业计划优化器。 |
 | Supervisory Monitoring and Control Using Chemical Process Simulators and SCADA Systems | [CASE/research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](../CASE/research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) | 2026 Methane 论文展示 Aspen HYSYS/Python 与 ScadaBR 通过 Modbus 做实时监控、监督和动态模型验证；用于补强 external supervisory interface 边界。 |
@@ -54,6 +55,7 @@
 11. 如果目标是 Aspen OnLine 或 online model deployment，应先拆分 HYSYS/Aspen Plus 模型、plant historian 或 lab data、KPI/reporting schema、商业发布层、模型校验和人工验收责任。
 12. 如果目标是 AI/hybrid/surrogate 升级，应把 first-principles HYSYS baseline 作为基线证据，任何数据驱动层都必须说明训练数据范围、验证指标、外推禁区和回归到 HYSYS runtime 的复核路径。
 13. 如果目标是 CDU、Prefractionation、Hydrotreater 或炼厂装置级 equation-based digital twin / reduced-order hybrid model 优化，应先固定装置边界、HYSYS EO 模型来源、reduced-order 模型训练范围、KPI 目标、操作约束、候选工况和人工批准路径。
+14. 如果目标是 ML-aided flash、热力学代理模型或 Python 端流程计算加速，应先固定组分表、EOS/物性包、P-T-z 采样空间、HYSYS 参考数据、误差指标、外推禁区和最终 HYSYS 复核路径。
 
 ## 不应该如何使用
 
@@ -114,6 +116,7 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 4. 只把 surrogate 用作快速筛选、报告辅助或候选操作建议，不默认作为生产闭环控制器。
 5. 任何超出训练范围的建议，都必须回到 HYSYS runtime 或人工工程审核重新验证。
 6. 若 surrogate 结合 PSO、GA、Bayesian optimization 或其他优化器，先输出候选工况清单，不直接写回 HYSYS baseline；每个候选点必须记录输入、预测 KPI、预测误差风险和 HYSYS 复算状态。
+7. 若 surrogate 位于 flash calculation / thermodynamic property 底层，必须额外记录组分清单、EOS/物性包、相态覆盖范围、热/物料平衡约束、异常点处理和与 HYSYS 的逐点对照误差。
 
 ## Column Performance / 塔诊断任务默认边界
 
