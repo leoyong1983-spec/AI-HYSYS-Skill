@@ -56,6 +56,8 @@ AI-HYSYS-Skill 最有说服力的定位，不是“AI 会点 HYSYS”，而是�
 
 2026-05-28 自动心跳新增 CHERD 2026 ML-aided flash surrogate 论文元数据：[research/hysys-ml-flash-cherd-2026-metadata.md](../research/hysys-ml-flash-cherd-2026-metadata.md) 记录 Aspen HYSYS 作为参考仿真器、Python 端物理约束 flash surrogate 作为大批量热力学/流程计算加速层的证据。项目结论是：这补强“simulation acceleration”边界，AI-HYSYS-Skill 可以准备 HYSYS 采样方案、训练/验证误差表、外推禁区和复核清单，但不能把 flash surrogate 直接当成 HYSYS runtime 或人工工程审核的替代品。
 
+2026-05-30 自动心跳更新 `aspen-pysys` 社区候选状态：[community/aspen-pysys-pypi-json-2026-05-30.json](../community/aspen-pysys-pypi-json-2026-05-30.json) 和 [community/aspen-pysys-piwheels-json-2026-05-30.json](../community/aspen-pysys-piwheels-json-2026-05-30.json) 显示该包已更新到 `0.1.0a2` alpha release，仍要求 Python `>=3.12.12` 和 `pywin32>=311`。Codeberg 分支仍含 GPL-3.0 许可证文本且 `pyproject.toml` 声明 `GPL-3.0-or-later`。项目结论不变：只作为第三方 wrapper 候选跟踪，不作为 MIT 仓库默认依赖，也不替代本仓库 direct COM / spreadsheet bridge 的默认路径。
+
 ## 三条可发布的主线
 
 ### 1. 官方主线：HYSYS 本来就不是只做静态算例

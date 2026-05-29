@@ -1,0 +1,32 @@
+﻿{
+    "package":  "aspen-pysys",
+    "summary":  "Python API for Aspen HYSYS",
+    "pypi_url":  "https://pypi.org/project/aspen-pysys",
+    "piwheels_url":  "https://www.piwheels.org/project/aspen-pysys",
+    "releases":  {
+                     "0.1.0a2":  {
+                                     "released":  "2026-05-26 06:33:18",
+                                     "prerelease":  true,
+                                     "yanked":  false,
+                                     "skip_reason":  "",
+                                     "files":  {
+                                                   "aspen_pysys-0.1.0a2-py3-none-any.whl":  {
+                                                                                                "file_url":  "/simple/aspen-pysys/aspen_pysys-0.1.0a2-py3-none-any.whl",
+                                                                                                "filehash":  "ac9f5331753fc08fb32e1aa762019d13cc8d6312e02db6b4da5897d0b491ce46",
+                                                                                                "filesize":  64221,
+                                                                                                "builder_abi":  "cp313",
+                                                                                                "file_abi_tag":  "none",
+                                                                                                "platform":  "any",
+                                                                                                "requires_python":  "\u003e=3.12.12",
+                                                                                                "apt_dependencies":  [
+
+                                                                                                                     ],
+                                                                                                "pip_dependencies":  [
+                                                                                                                         "pdoc",
+                                                                                                                         "pywin32"
+                                                                                                                     ]
+                                                                                            }
+                                               }
+                                 }
+                 }
+}

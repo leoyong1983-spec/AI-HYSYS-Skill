@@ -1,0 +1,153 @@
+﻿{
+    "info":  {
+                 "author":  null,
+                 "author_email":  "Hariidaran Tamilmaran \u003chariidaran@proton.me\u003e",
+                 "bugtrack_url":  null,
+                 "classifiers":  [
+                                     "Operating System :: Microsoft :: Windows :: Windows 11",
+                                     "Programming Language :: Python :: 3",
+                                     "Topic :: Scientific/Engineering"
+                                 ],
+                 "description":  "# aspen-pysys\n\nPython API for Aspen HYSYS\n\n## Requirements\n\n- [Python 3.12.3](https://www.python.org/downloads/release/python-31213/)\n- [pywin32 Build 311](https://pypi.org/project/pywin32/311/)\n\n## Installation\n\nInstall via `pip install aspen-pysys` ([PyPI link](https://pypi.org/project/aspen-pysys/)).\n\n## API reference\n\n[https://cacklingtanuki.codeberg.page/aspen-pysys](https://cacklingtanuki.codeberg.page/aspen-pysys)\n\n## Quickstart\n\n1. Before you can use HYSYS, ensure that the simulation case you wish to work on is already open.\n2. Once your simulation file is open, enter the following lines of code to set the package up.\n3. An indicator that you have successfully connected with your simulation file is the printing of \u0027Aspen HYSYS\u0027 in the shell (or in a notebook cell if you are using a Jupyter cell or something similar).\n\n```python\nfrom aspen_pysys.app import HysysApp\n\nhysys_app = HysysApp.dispatch()\n```\n\nTo open a Aspen HYSYS simulation file (.hsc), use the `hysys_app.open(sim_filepath)`, where `sim_filepath` is the filepath to your simulation file.\n\n```python\nfrom pathlib import Path\nimport os\n\ncurrent_filepath = Path(os.getcwd())\nsim_filepath = current_filepath / \"test_sim.hsc\"\n\nsimcase = hysys_app.open(sim_filepath)\nprint(simcase)\n```\n\n4. You can now use the aspen-pysys package in your code! Please refer to the [tutorial folder](https://codeberg.org/CacklingTanuki/aspen-pysys/src/tutorial) for an interactive example.",
+                 "description_content_type":  "text/markdown",
+                 "docs_url":  null,
+                 "download_url":  null,
+                 "downloads":  {
+                                   "last_day":  -1,
+                                   "last_month":  -1,
+                                   "last_week":  -1
+                               },
+                 "dynamic":  null,
+                 "home_page":  null,
+                 "keywords":  null,
+                 "license":  null,
+                 "license_expression":  "GPL-3.0-or-later",
+                 "license_files":  [
+                                       "LICENSE"
+                                   ],
+                 "maintainer":  null,
+                 "maintainer_email":  null,
+                 "name":  "aspen-pysys",
+                 "package_url":  "https://pypi.org/project/aspen-pysys/",
+                 "platform":  null,
+                 "project_url":  "https://pypi.org/project/aspen-pysys/",
+                 "project_urls":  {
+                                      "Homepage":  "https://codeberg.org/CacklingTanuki/aspen-pysys",
+                                      "Issues":  "https://codeberg.org/CacklingTanuki/aspen-pysys/issues"
+                                  },
+                 "provides_extra":  null,
+                 "release_url":  "https://pypi.org/project/aspen-pysys/0.1.0a2/",
+                 "requires_dist":  [
+                                       "pdoc\u003e=16.0.0",
+                                       "pywin32\u003e=311"
+                                   ],
+                 "requires_python":  "\u003e=3.12.12",
+                 "summary":  "Python API for Aspen HYSYS",
+                 "version":  "0.1.0a2",
+                 "yanked":  false,
+                 "yanked_reason":  null
+             },
+    "last_serial":  37413460,
+    "ownership":  {
+                      "organization":  null,
+                      "roles":  [
+                                    {
+                                        "role":  "Owner",
+                                        "user":  "CacklingTanuki"
+                                    }
+                                ]
+                  },
+    "releases":  {
+                     "0.1.0a2":  [
+                                     {
+                                         "comment_text":  null,
+                                         "digests":  {
+                                                         "blake2b_256":  "249c1bb7a6666b292100840dab04625c590a9b8f67d1ffd7d2c1b93e5b948118",
+                                                         "md5":  "91e5fcf68ebb8df0adba9e9a82f51ec9",
+                                                         "sha256":  "9bfd104db1560dc20d2a8e9a2fe705404e8d18f60f93b21364bd1f410d458e04"
+                                                     },
+                                         "downloads":  -1,
+                                         "filename":  "aspen_pysys-0.1.0a2-py3-none-any.whl",
+                                         "has_sig":  false,
+                                         "md5_digest":  "91e5fcf68ebb8df0adba9e9a82f51ec9",
+                                         "packagetype":  "bdist_wheel",
+                                         "python_version":  "py3",
+                                         "requires_python":  "\u003e=3.12.12",
+                                         "size":  64221,
+                                         "upload_time":  "2026-05-26T06:33:20",
+                                         "upload_time_iso_8601":  "2026-05-26T06:33:20.255469Z",
+                                         "url":  "https://files.pythonhosted.org/packages/24/9c/1bb7a6666b292100840dab04625c590a9b8f67d1ffd7d2c1b93e5b948118/aspen_pysys-0.1.0a2-py3-none-any.whl",
+                                         "yanked":  false,
+                                         "yanked_reason":  null
+                                     },
+                                     {
+                                         "comment_text":  null,
+                                         "digests":  {
+                                                         "blake2b_256":  "baf1ac1a6042ddeabd0993b948aed286ea404ba591c5ec7c3427d8ff8ba7504f",
+                                                         "md5":  "b5ac0c14e084a6527a2fed05f4424b7d",
+                                                         "sha256":  "84006fda053f801ffd3de1305f9319c2422bd1ed6b68a52845a641bcc62305bc"
+                                                     },
+                                         "downloads":  -1,
+                                         "filename":  "aspen_pysys-0.1.0a2.tar.gz",
+                                         "has_sig":  false,
+                                         "md5_digest":  "b5ac0c14e084a6527a2fed05f4424b7d",
+                                         "packagetype":  "sdist",
+                                         "python_version":  "source",
+                                         "requires_python":  "\u003e=3.12.12",
+                                         "size":  379776,
+                                         "upload_time":  "2026-05-26T06:33:18",
+                                         "upload_time_iso_8601":  "2026-05-26T06:33:18.390197Z",
+                                         "url":  "https://files.pythonhosted.org/packages/ba/f1/ac1a6042ddeabd0993b948aed286ea404ba591c5ec7c3427d8ff8ba7504f/aspen_pysys-0.1.0a2.tar.gz",
+                                         "yanked":  false,
+                                         "yanked_reason":  null
+                                     }
+                                 ]
+                 },
+    "urls":  [
+                 {
+                     "comment_text":  null,
+                     "digests":  {
+                                     "blake2b_256":  "249c1bb7a6666b292100840dab04625c590a9b8f67d1ffd7d2c1b93e5b948118",
+                                     "md5":  "91e5fcf68ebb8df0adba9e9a82f51ec9",
+                                     "sha256":  "9bfd104db1560dc20d2a8e9a2fe705404e8d18f60f93b21364bd1f410d458e04"
+                                 },
+                     "downloads":  -1,
+                     "filename":  "aspen_pysys-0.1.0a2-py3-none-any.whl",
+                     "has_sig":  false,
+                     "md5_digest":  "91e5fcf68ebb8df0adba9e9a82f51ec9",
+                     "packagetype":  "bdist_wheel",
+                     "python_version":  "py3",
+                     "requires_python":  "\u003e=3.12.12",
+                     "size":  64221,
+                     "upload_time":  "2026-05-26T06:33:20",
+                     "upload_time_iso_8601":  "2026-05-26T06:33:20.255469Z",
+                     "url":  "https://files.pythonhosted.org/packages/24/9c/1bb7a6666b292100840dab04625c590a9b8f67d1ffd7d2c1b93e5b948118/aspen_pysys-0.1.0a2-py3-none-any.whl",
+                     "yanked":  false,
+                     "yanked_reason":  null
+                 },
+                 {
+                     "comment_text":  null,
+                     "digests":  {
+                                     "blake2b_256":  "baf1ac1a6042ddeabd0993b948aed286ea404ba591c5ec7c3427d8ff8ba7504f",
+                                     "md5":  "b5ac0c14e084a6527a2fed05f4424b7d",
+                                     "sha256":  "84006fda053f801ffd3de1305f9319c2422bd1ed6b68a52845a641bcc62305bc"
+                                 },
+                     "downloads":  -1,
+                     "filename":  "aspen_pysys-0.1.0a2.tar.gz",
+                     "has_sig":  false,
+                     "md5_digest":  "b5ac0c14e084a6527a2fed05f4424b7d",
+                     "packagetype":  "sdist",
+                     "python_version":  "source",
+                     "requires_python":  "\u003e=3.12.12",
+                     "size":  379776,
+                     "upload_time":  "2026-05-26T06:33:18",
+                     "upload_time_iso_8601":  "2026-05-26T06:33:18.390197Z",
+                     "url":  "https://files.pythonhosted.org/packages/ba/f1/ac1a6042ddeabd0993b948aed286ea404ba591c5ec7c3427d8ff8ba7504f/aspen_pysys-0.1.0a2.tar.gz",
+                     "yanked":  false,
+                     "yanked_reason":  null
+                 }
+             ],
+    "vulnerabilities":  [
+
+                        ]
+}
