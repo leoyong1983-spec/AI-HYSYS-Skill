@@ -120,8 +120,9 @@ For paper-informed AI/HYSYS tasks, classify the task before executing:
 1. Existing-case takeover: production-preferred. Require case provenance, variable schema, smoke test, solver policy, KPI export, and audit log.
 2. Batch scenario / sensitivity / techno-economic workflow: require scenario matrix, sample IDs, input bounds, output KPIs, failure classes, and rerun rules before full execution.
 3. LLM agent / text-to-simulation / diagram-to-simulation: research or prototype unless a validated case and approved runner exist. Preserve prompts, generated scripts, tool logs, convergence states, and expert review notes.
-4. Surrogate / ML / hybrid model / digital twin: HYSYS remains the first-principles baseline. Require design space, training/validation/test split, extrapolation limits, and HYSYS or human review of recommendations.
-5. Operational AI / setpoint recommendation: advisory only unless the project provides an approved writeback procedure. Validate candidates on a workcopy, not a production case.
+4. Text-to-flowsheet / Graph-IR / black-box convergence repair: research or bounded-assistance only. Keep topology and parameter intent in an auditable intermediate representation before simulator writes; allow numerical optimization only on whitelisted variables with explicit bounds, objective, residuals, iterations, and rollback.
+5. Surrogate / ML / hybrid model / digital twin: HYSYS remains the first-principles baseline. Require design space, training/validation/test split, extrapolation limits, and HYSYS or human review of recommendations.
+6. Operational AI / setpoint recommendation: advisory only unless the project provides an approved writeback procedure. Validate candidates on a workcopy, not a production case.
 
 ### 5. Export machine-readable outputs first
 
@@ -181,6 +182,10 @@ If the task mentions HYSYS Dynamics, online simulation, live process digital twi
 If the task mentions third-party rigorous models such as MySep, multi-unit plant digital twins, refinery process digital twins, live KPI monitoring, or unmeasured KPI inference, identify the HYSYS baseline, external model boundary, live data source, KPI schema, model version, and human acceptance owner before any automation work. Do not imply this skill can reproduce commercial live digital twin products or write recommendations directly to production systems.
 
 If the task mentions LLM agents, text-to-simulation, flowsheet synthesis, diagram-to-simulation, or autonomous case construction, treat it as research/prototyping unless an existing validated HYSYS case or approved project runner is available. Prefer step-by-step construction over single-prompt generation, preserve tool logs and convergence status, and require human review of topology, property package, parameters, units, and solver results before any engineering use.
+
+If the task mentions text-to-flowsheet, Graph-IR, black-box optimization, convergence repair, or optimizer-assisted simulation, separate the AI intent layer from the HYSYS execution layer. The AI may propose topology or candidate parameters, but HYSYS writes must still use an approved workcopy and a chosen control lane. A numerical optimizer may only adjust pre-approved variables within documented engineering bounds; it must not silently change property packages, unit-operation topology, equipment naming, frozen baselines, or reporting boundaries. Log the objective function, input bounds, initial point, iterations, residual or penalty value, solver status, failed samples, final KPI export, and human acceptance note.
+
+If the task mentions MCP, MCP server, tool server, remote simulator node, or protocol-based simulation control, treat MCP as an orchestration boundary above the existing lanes, not as a simulator authority by itself. The MCP tool contract must expose explicit read/write operations, units, schemas, authentication assumptions, single-workcopy lock policy, dry-run mode, audit logs, and rollback behavior before any write operation. Do not imply distributed or production writeback capability unless the project has a configured runtime, approval owner, and tested recovery path.
 
 If the task mentions AVA-style or agentic operational AI recommendations, treat the AI layer as advisory workflow support unless a project-approved writeback procedure exists. Identify the validated HYSYS baseline, data source, first-principles or hybrid model boundary, recommendation target, approval owner, and audit trail before producing or applying any recommendation.
 

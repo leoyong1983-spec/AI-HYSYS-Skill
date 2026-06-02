@@ -119,3 +119,10 @@
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。
 - 课程目录和 arXiv 论文是可稳定落盘的真 PDF，因此直接作为 CASE 正式资料保留。
 - 社区代码与样例 case 仅作为公开桥接示例，不等同于官方 HYSYS API 文档。
+
+## 2026-06-02 Source Additions
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Research metadata | [research/text-to-flowsheet-rsc-2026-metadata.md](research/text-to-flowsheet-rsc-2026-metadata.md) | Records the 2026 RSC Text-to-Flowsheet paper and its code/data repository; used to strengthen Graph-IR, validation, and bounded black-box optimization rules | [RSC article](https://pubs.rsc.org/en/content/articlehtml/2026/dd/d6dd00060f), [Text2Flowsheet GitHub](https://github.com/LLM4ChemEng/Text2Flowsheet) | Adjacent Aspen Plus evidence, not direct HYSYS production validation |
+| Heartbeat note | [notes/technology-upgrade-2026-06-02.md](notes/technology-upgrade-2026-06-02.md) | Summarizes the value judgment and repository changes for Text-to-Flowsheet, MCP, and Graph-IR boundary handling | This repository | Explains why no SciPy dependency or MCP server was added yet |

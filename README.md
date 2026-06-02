@@ -69,6 +69,7 @@ This recommendation is now captured as an actionable decision matrix in [referen
 - peer-reviewed HYSYS interconnection and Python-HYSYS automation papers
 - SCADA / Modbus supervisory bridge examples for training, monitoring, and testbed boundaries
 - recent AI-for-HYSYS research on multi-agent flowsheet generation, digital twins, LNG optimization, production planning, and ML surrogate models
+- adjacent 2026 text-to-flowsheet and MCP-agent research, used only to strengthen Graph-IR, optimizer-boundary, and tool-contract rules
 
 ## Repository Structure
 
@@ -312,6 +313,7 @@ It does not assume:
 - human decision items may be closed automatically by AI
 - GUI clicking is the primary automation strategy
 - AI can reliably build a production-ready HYSYS case from zero without a validated baseline
+- text-to-flowsheet, black-box optimization, or MCP tooling removes the need for an existing workcopy, HYSYS readback, solver logs, and human engineering review
 
 ## References
 
@@ -361,6 +363,7 @@ Recent AI paper:
 - [Optimizing Pressure Swing Distillation Using Aspen HYSYS and Machine Learning Algorithms](https://doi.org/10.1007/s11814-026-00646-x)
 - [HEFA/SAF production planning surrogate model paper](https://www.sciencedirect.com/science/article/pii/S009813542600102X)
 - [Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation](https://doi.org/10.1038/s44172-025-00583-3)
+- [Text-to-Flowsheet: autonomous flowsheet generation from natural language process descriptions](https://doi.org/10.1039/D6DD00060F) and [Text2Flowsheet code/data](https://github.com/LLM4ChemEng/Text2Flowsheet)
 
 HYSYS automation and interconnection papers:
 

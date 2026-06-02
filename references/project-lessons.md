@@ -163,3 +163,13 @@
 
 - [control-lane-decision-matrix.md](control-lane-decision-matrix.md)
 - [`scripts/hysys_automation.py`](../scripts/hysys_automation.py)
+
+## 2026-06-02 Text-To-Flowsheet And MCP Lessons
+
+Recent text-to-flowsheet and process-simulation-agent papers add useful engineering patterns, but they do not change this repository's default execution boundary.
+
+1. Use Graph-IR before simulator writes. For text-to-flowsheet, diagram-to-simulation, or sketch-to-simulation tasks, keep a normalized intermediate representation of topology, variables, units, and uncertain parameters before any HYSYS write. This makes AI intent reviewable before COM or workbook execution.
+2. Treat black-box optimization as local convergence assistance. Optimizers may help tune uncertain parameters, but only on approved workcopies, approved variables, documented bounds, logged residual objectives, and final HYSYS readback.
+3. Treat MCP as a tool-contract layer. MCP can make tools cleaner for agents, but it still has to wrap direct COM, spreadsheet/workbook, data table, or proven runner lanes with locks, schemas, audit logs, and rollback.
+
+Do not add SciPy, an MCP server, or a third-party HYSYS wrapper as a default dependency until a real project runner proves runtime value, license compatibility, and recovery behavior.

@@ -93,3 +93,17 @@ Rollback: restore saved workcopy if binding or solver failure occurs.
 3. `data tables` 和 `indirect communication` 要写进 fallback 体系，但不能压过 direct COM 与 workbook bridge。
 4. SCADA / Modbus / OPC-style bridge 是外部监督和测试台通道，不是默认生产控制通道。
 5. AI 从零创建复杂 HYSYS flowsheet 仍只适合研究或 smoke test，不适合默认工程交付。
+
+## 2026-06-02 MCP And Optimizer Boundary Addendum
+
+MCP is a protocol and orchestration boundary, not a new simulator truth source. If a HYSYS task is exposed through an MCP server, the server still has to choose one of the existing execution lanes: proven project runner, direct COM, spreadsheet/workbook bridge, data table, or approved indirect bridge.
+
+Before any MCP-backed write operation, record:
+
+1. tool name, schema, units, and read/write direction
+2. authentication and local-machine/runtime assumptions
+3. workcopy path and single-writer lock policy
+4. dry-run behavior and rollback plan
+5. audit log location and human approval owner
+
+Black-box optimization is also not a separate control lane. It is only a bounded helper above a validated lane. It may adjust whitelisted variables within documented engineering bounds, but it must not silently change topology, property package, equipment names, frozen baselines, or reporting scope.

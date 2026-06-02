@@ -14,6 +14,7 @@ The repository position is narrow by design: production-facing work should start
 | HYSYS interconnection methodology comparisons | Direct communication, indirect communication, internal spreadsheets, and data tables are distinct lanes | Choose lane before writing; prefer direct COM for lifecycle control and spreadsheet/workbook for stable tagged IO |
 | HYSYS + Python full-factorial sensitivity or techno-economic studies | Existing cases can be automated across many parameter combinations | Require scenario matrix, sample IDs, input bounds, KPI schema, failure classification, and rerun policy before full batch execution |
 | LLM / multi-agent flowsheet generation for Aspen HYSYS | Agents can generate HYSYS scripts in research settings | Treat greenfield model generation as research/prototype unless a validated case and approved runner exist; preserve prompts, generated code, logs, convergence state, and expert review |
+| Text-to-flowsheet with Graph-IR and black-box optimization | Natural-language process descriptions can be translated into an intermediate flowsheet graph and then into a rigorous simulator with validation and optimizer-assisted convergence in research settings | Use Graph-IR as an auditable intent layer, not as proof of HYSYS correctness; allow optimizer-assisted convergence only on whitelisted variables with bounds, residual objective, iteration logs, and final HYSYS/human review |
 | LLM agent process-simulation workflows in adjacent simulators | Agentic simulation can be split into task understanding, configuration, evaluation, optimization, and reporting | Use stepwise workflows; do not allow a single prompt to jump directly to engineering conclusions |
 | HYSYS-generated data for ML, surrogate, PINN, or digital twin workflows | HYSYS can serve as a first-principles data source or validation baseline | Require design space, training/validation/test split, error metrics, extrapolation limits, and HYSYS/human review of recommendations |
 | ML-aided flash or thermodynamic surrogate calculations validated against HYSYS | Python-side surrogates can accelerate large batches of thermodynamic or flowsheet evaluations | Treat as acceleration and screening only; require component slate, EOS/property package, P-T-z bounds, pointwise HYSYS comparison, extrapolation limits, and final HYSYS/human review |
@@ -36,9 +37,11 @@ Before describing a result as paper-grade, produce:
 2. Lane decision: chosen lane, rejected lanes, and why.
 3. Variable schema: object path or spreadsheet/workbook tag, unit, valid range, baseline value, new value, and rollback value.
 4. Scenario design: sample ID, variable set, bounds, DOE/full-factorial/optimizer method, and stop rule.
-5. Runtime evidence: launch/open/binding/solver/export status, timestamps, errors, and rerun decisions.
-6. KPI exports: machine-readable CSV/JSON plus concise human-readable summary.
-7. Human review: topology, property method, units, convergence, optimization recommendation, and reporting boundary.
+5. Graph or intent representation when text/diagram-to-simulation is involved: source prompt, normalized flowsheet graph, simulator translation, rejected edges/nodes, and human topology review.
+6. Optimizer evidence when black-box repair is used: objective function, variable bounds, initial point, iteration count, residual or penalty, failed samples, and stop reason.
+7. Runtime evidence: launch/open/binding/solver/export status, timestamps, errors, and rerun decisions.
+8. KPI exports: machine-readable CSV/JSON plus concise human-readable summary.
+9. Human review: topology, property method, units, convergence, optimization recommendation, and reporting boundary.
 
 ## Claims To Avoid
 
@@ -47,3 +50,5 @@ Before describing a result as paper-grade, produce:
 - Do not claim SCADA, Modbus, Aspen OnLine, AVA, PIMS, APC, DCS, or SIS production writeback unless a project-approved procedure exists.
 - Do not present wrapper availability, PyPI packages, or code-generation success as runtime validation.
 - Do not treat a solved single sample as proof that a full sensitivity matrix is safe.
+- Do not present black-box optimization convergence as engineering correctness without HYSYS readback, KPI export, and human review.
+- Do not treat MCP availability as simulator validation, authorization, or production writeback approval.
