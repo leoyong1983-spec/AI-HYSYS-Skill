@@ -126,3 +126,10 @@
 |---|---|---|---|---|
 | Research metadata | [research/text-to-flowsheet-rsc-2026-metadata.md](research/text-to-flowsheet-rsc-2026-metadata.md) | Records the 2026 RSC Text-to-Flowsheet paper and its code/data repository; used to strengthen Graph-IR, validation, and bounded black-box optimization rules | [RSC article](https://pubs.rsc.org/en/content/articlehtml/2026/dd/d6dd00060f), [Text2Flowsheet GitHub](https://github.com/LLM4ChemEng/Text2Flowsheet) | Adjacent Aspen Plus evidence, not direct HYSYS production validation |
 | Heartbeat note | [notes/technology-upgrade-2026-06-02.md](notes/technology-upgrade-2026-06-02.md) | Summarizes the value judgment and repository changes for Text-to-Flowsheet, MCP, and Graph-IR boundary handling | This repository | Explains why no SciPy dependency or MCP server was added yet |
+
+## 2026-06-04 Source Additions
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Official | [official/aspen-hysys-refinery-dmc3-digital-twin-2026.md](official/aspen-hysys-refinery-dmc3-digital-twin-2026.md) | Records AspenTech official material connecting an Aspen HYSYS-built real-time digital twin with refinery energy/OPEX optimization and Aspen DMC3 APC | [AspenTech webinar](https://www.aspentech.com/en/resources/on-demand-webinars/major-refinery-in-asia-achieves-significant-energy-opex-savings-with-real-time-digital-twin) | Official boundary evidence; does not imply this skill can replace DMC3/APC/DCS or close production loops |
+| Heartbeat note | [notes/heartbeat-scan-2026-06-04.md](notes/heartbeat-scan-2026-06-04.md) | Records the June 4 value judgment, changed files, and project boundary update | This repository | Small routine documentation/source-pack update |

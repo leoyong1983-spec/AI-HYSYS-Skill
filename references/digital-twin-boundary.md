@@ -183,3 +183,14 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 ## 与控制通道矩阵的关系
 
 [control-lane-decision-matrix.md](control-lane-decision-matrix.md) 回答“用什么通道控制 HYSYS”；本文件回答“digital twin / hybrid AI 证据能支持什么项目主张”。两者要一起用，不能互相替代。
+
+## 2026-06-04 Real-Time Digital Twin And DMC3 APC Addendum
+
+AspenTech official material on a major Asian refinery describes a real-time digital twin built in Aspen HYSYS and used with Aspen DMC3 advanced process control for refinery energy and OPEX optimization.
+
+Project rule:
+
+1. Treat this as official evidence that HYSYS digital twins can support real-time optimization and APC-adjacent workflows.
+2. Treat Aspen DMC3, APC, DCS, historian, and online deployment as external plant or commercial-system boundaries.
+3. AI-HYSYS-Skill may prepare variable schemas, KPI definitions, validation evidence, audit notes, and human-review packages.
+4. AI-HYSYS-Skill must not claim that it can publish the online model, replace DMC3/APC/DCS, or autonomously write to production controls.
