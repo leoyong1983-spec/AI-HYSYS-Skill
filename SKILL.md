@@ -106,6 +106,8 @@ For simple property-table requests, such as pure hydrogen density from 1 MPa to 
 2. `MPa(g)` means the table pressure is converted before writing to HYSYS, normally `P_abs = P_gauge + 0.101325 MPa`.
 3. Read the HYSYS property directly, for example `MassDensity.GetValue('kg/m3')`, and do not relabel external EOS or fitted values as HYSYS-native results.
 
+For LNG or cryogenic plantwide tasks, first identify the existing HYSYS case, plantwide boundary, multi-stream cryogenic heat exchanger objects, refrigeration or utility KPIs, product quality specs, bottleneck or troubleshooting target, and human review owner. Do not treat an official LNG plantwide simulation source as permission for AI greenfield LNG model generation; use it to structure takeover, bounded tuning, validation, and reporting on an approved workcopy.
+
 For bounded tuning:
 
 1. Freeze property method, unit-operation topology, key equipment naming, spreadsheet schema, and already-proven convergence structure unless the user explicitly reopens them.

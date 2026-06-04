@@ -345,6 +345,7 @@ Official AspenTech pages:
 - [Saudi Aramco plant digital twin case study](https://www.aspentech.com/en/resources/case-studies/saudi-aramco-increases-capacity-by-100000-barrels-day-and-upgrades-bottom-of-the-barrel-products)
 - [Indian Oil Barauni process digital twins webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-learn-how-a-major-indian-refinery-gained-substantial-benefits)
 - [Major refinery real-time digital twin and Aspen DMC3 APC webinar](https://www.aspentech.com/en/resources/on-demand-webinars/major-refinery-in-asia-achieves-significant-energy-opex-savings-with-real-time-digital-twin)
+- [Aspen HYSYS LNG plantwide simulation webinar](https://www.aspentech.com/en/resources/live-events-and-webinars/apac-webinar-improve-lng-plant-design-operations-with-insights-from-plantwide-process-simulations)
 
 Community bridge example:
 

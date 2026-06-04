@@ -133,3 +133,10 @@
 |---|---|---|---|---|
 | Official | [official/aspen-hysys-refinery-dmc3-digital-twin-2026.md](official/aspen-hysys-refinery-dmc3-digital-twin-2026.md) | Records AspenTech official material connecting an Aspen HYSYS-built real-time digital twin with refinery energy/OPEX optimization and Aspen DMC3 APC | [AspenTech webinar](https://www.aspentech.com/en/resources/on-demand-webinars/major-refinery-in-asia-achieves-significant-energy-opex-savings-with-real-time-digital-twin) | Official boundary evidence; does not imply this skill can replace DMC3/APC/DCS or close production loops |
 | Heartbeat note | [notes/heartbeat-scan-2026-06-04.md](notes/heartbeat-scan-2026-06-04.md) | Records the June 4 value judgment, changed files, and project boundary update | This repository | Small routine documentation/source-pack update |
+
+## 2026-06-05 Source Additions
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Official | [official/aspen-hysys-lng-plantwide-simulation-webinar-2026-06-18.md](official/aspen-hysys-lng-plantwide-simulation-webinar-2026-06-18.md) | Records AspenTech official evidence for LNG plantwide HYSYS simulation, multi-stream cryogenic heat exchanger modeling, energy reduction, debottlenecking, troubleshooting, and product quality | [AspenTech webinar](https://www.aspentech.com/en/resources/live-events-and-webinars/apac-webinar-improve-lng-plant-design-operations-with-insights-from-plantwide-process-simulations) | Official LNG/HYSYS workflow evidence; not proof of reliable AI greenfield LNG model generation |
+| Heartbeat note | [notes/heartbeat-scan-2026-06-05.md](notes/heartbeat-scan-2026-06-05.md) | Records the June 5 value judgment and LNG task-boundary update | This repository | Small routine documentation/source-pack update |
