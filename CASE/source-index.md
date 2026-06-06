@@ -140,3 +140,10 @@
 |---|---|---|---|---|
 | Official | [official/aspen-hysys-lng-plantwide-simulation-webinar-2026-06-18.md](official/aspen-hysys-lng-plantwide-simulation-webinar-2026-06-18.md) | Records AspenTech official evidence for LNG plantwide HYSYS simulation, multi-stream cryogenic heat exchanger modeling, energy reduction, debottlenecking, troubleshooting, and product quality | [AspenTech webinar](https://www.aspentech.com/en/resources/live-events-and-webinars/apac-webinar-improve-lng-plant-design-operations-with-insights-from-plantwide-process-simulations) | Official LNG/HYSYS workflow evidence; not proof of reliable AI greenfield LNG model generation |
 | Heartbeat note | [notes/heartbeat-scan-2026-06-05.md](notes/heartbeat-scan-2026-06-05.md) | Records the June 5 value judgment and LNG task-boundary update | This repository | Small routine documentation/source-pack update |
+
+## 2026-06-07 Source Additions
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Research metadata | [research/pse-specialized-multi-agent-llm-ceja-2026-metadata.md](research/pse-specialized-multi-agent-llm-ceja-2026-metadata.md) | Records Chemical Engineering Journal Advances 2026 evidence for specialized multi-agent LLMs in soft sensing, dynamic modeling, validation, and NMPC-style PSE workflows | [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2666821126001109), [DOI](https://doi.org/10.1016/j.ceja.2026.101141) | Adjacent PSE evidence, not HYSYS runtime validation |
+| Heartbeat note | [notes/heartbeat-scan-2026-06-07.md](notes/heartbeat-scan-2026-06-07.md) | Records the June 7 value judgment and multi-agent validation-gate update | This repository | Small routine documentation/source-pack update |
