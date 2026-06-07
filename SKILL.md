@@ -108,6 +108,8 @@ For simple property-table requests, such as pure hydrogen density from 1 MPa to 
 
 For LNG or cryogenic plantwide tasks, first identify the existing HYSYS case, plantwide boundary, multi-stream cryogenic heat exchanger objects, refrigeration or utility KPIs, product quality specs, bottleneck or troubleshooting target, and human review owner. Do not treat an official LNG plantwide simulation source as permission for AI greenfield LNG model generation; use it to structure takeover, bounded tuning, validation, and reporting on an approved workcopy.
 
+For heat-integration, heat exchanger network, pinch-analysis, `Delta Tmin`, supertargeting, or sustainability-surrogate tasks, first identify the source HYSYS case or workbook, thermal-stream schema, stream and unit-operation name map, utility assumptions, objective metrics, surrogate or optimizer role, and human review owner. Treat mock-mode notebooks, Excel-only calculations, surrogate models, and Bayesian optimization outputs as advisory candidates until HYSYS workcopy readback, unit checks, and KPI exports pass.
+
 For bounded tuning:
 
 1. Freeze property method, unit-operation topology, key equipment naming, spreadsheet schema, and already-proven convergence structure unless the user explicitly reopens them.
@@ -177,6 +179,8 @@ If the task mentions online digital twins, Aspen OnLine, AI Model Builder, Aspen
 
 If the task mentions data-driven simulation, surrogate models, machine learning models, or ML-based soft sensors, treat HYSYS as the validated data source and baseline. Require an explicit design space, variable map, train/validation/test split, error metrics, model validity range, extrapolation limits, and human review path. Do not let a surrogate replace HYSYS runtime validation unless the user provides an approved project procedure.
 
+If the task mentions HEN supertargeting, pinch analysis, `Delta Tmin`, Bayesian optimization, LCSI, sustainability assessment, or HDA-style surrogate optimization, separate the spreadsheet/notebook layer, surrogate/optimizer layer, and HYSYS runtime layer. Require thermal-stream units, hot/cold stream classification, utility assumptions, minimum approach-temperature basis, HYSYS object mapping, and final workcopy validation before accepting recommendations.
+
 If the task mentions ML-aided flash calculations, thermodynamic surrogates, accelerated flash evaluation, or Python-side property surrogate models, classify it as a simulation-acceleration layer. Require component slate, EOS/property package, pressure-temperature-composition bounds, HYSYS reference-data provenance, error metrics, extrapolation limits, and final HYSYS or human engineering review before accepting any result.
 
 If the task mentions HYSYS Dynamics, online simulation, live process digital twin, Aspen OnLine, production planning, PIMS, Aspen DMC3, APC, distributed control systems, or DCS, split the work into offline model preparation, dynamic/online conversion prerequisites, external commercial-system boundaries, validation evidence, and human acceptance. Do not imply this skill can publish online models, replace PIMS/DMC3/APC/DCS, or close a production loop by itself.
@@ -222,6 +226,26 @@ If the project requires Chinese submission:
 3. Add Chinese annotations for reader-visible English terms that remain.
 4. Do not mistake console mojibake for real file corruption; verify with UTF-8 reads or formal extraction tools before editing.
 
+### 9. Keep agent state and model compatibility explicit
+
+For long-running HYSYS tasks, create or update a machine-readable checkpoint before and after each major stage:
+
+1. lane decision
+2. readiness check
+3. case selection or workcopy creation
+4. planned write set
+5. solver run
+6. KPI export
+7. release or handoff summary
+
+At minimum, the checkpoint should record run mode, source case, workcopy path, HYSYS version if known, property package if known, frozen topology boundary, variable schema, valid ranges, rollback values, solver policy, output paths, open human decisions, and last successful stage.
+
+If the agent host, model, provider, prompt template, or JSON schema changes, run a small schema smoke test before any HYSYS write. Treat invalid JSON, missing units, missing rollback values, unknown object paths, or changed enum names as blockers, not as minor formatting issues.
+
+If multiple agents or models are used, keep one writer lane per workcopy. A supervisor agent may audit checkpoints, compare planned versus actual writes, and request rollback, but it must not share live HYSYS COM handles, issue parallel writes, or close human decisions by itself.
+
+Voice calls, meetings, browser automation, and web dashboards are presentation or lookup layers. They may summarize results, retrieve documentation, or support human review, but they are not HYSYS execution authority and must not replace COM/workbook evidence, solver logs, KPI exports, or human acceptance.
+
 ## Guardrails
 
 - Do not claim a case solved if it did not.
@@ -231,6 +255,8 @@ If the project requires Chinese submission:
 - Do not reopen free tuning after the project enters package review unless the user explicitly authorizes it.
 - Do not close human decisions without explicit human direction.
 - Do not assume AI can build a production-ready HYSYS flowsheet from zero just because COM object creation works.
+- Do not bind the skill to a specific agent runtime or default model unless the user explicitly configures that runtime and the schema smoke test passes.
+- Do not treat voice, meeting, browser, or dashboard integration as permission to write to HYSYS.
 
 ## Source hierarchy
 

@@ -147,3 +147,16 @@
 |---|---|---|---|---|
 | Research metadata | [research/pse-specialized-multi-agent-llm-ceja-2026-metadata.md](research/pse-specialized-multi-agent-llm-ceja-2026-metadata.md) | Records Chemical Engineering Journal Advances 2026 evidence for specialized multi-agent LLMs in soft sensing, dynamic modeling, validation, and NMPC-style PSE workflows | [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2666821126001109), [DOI](https://doi.org/10.1016/j.ceja.2026.101141) | Adjacent PSE evidence, not HYSYS runtime validation |
 | Heartbeat note | [notes/heartbeat-scan-2026-06-07.md](notes/heartbeat-scan-2026-06-07.md) | Records the June 7 value judgment and multi-agent validation-gate update | This repository | Small routine documentation/source-pack update |
+
+## 2026-06-08 Report Triage
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Maintenance note | [notes/report-triage-2026-06-08.md](notes/report-triage-2026-06-08.md) | Records which OpenClaw, Sketch2Simulation, context-persistence, schema-compatibility, supervisor, browser, and voice-meeting recommendations were adopted or rejected | [OpenClaw v2026.4.24](https://openclaw-hub.com/releases/v2026.4.24/), [Sketch2Simulation](https://arxiv.org/abs/2603.24629) | Adopted model-agnostic reliability rules; rejected runtime/model lock-in |
+
+## 2026-06-08 Heartbeat Source Additions
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Research/community metadata | [research/hda-surrogate-optimization-github-2026-06-08.md](research/hda-surrogate-optimization-github-2026-06-08.md) | Records a public MIT repository and 2026 CES paper pairing Aspen HYSYS COM automation demos with heat-network supertargeting, surrogate modeling, Bayesian optimization, and sustainability metrics | [GitHub repository](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization), [DOI](https://doi.org/10.1016/j.ces.2026.124158) | B+ public HYSYS automation evidence; not adopted as dependency |
+| Heartbeat note | [notes/heartbeat-scan-2026-06-08.md](notes/heartbeat-scan-2026-06-08.md) | Records the June 8 value judgment and HEN/surrogate boundary update | This repository | Small routine documentation/source-pack update |

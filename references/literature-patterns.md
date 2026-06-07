@@ -18,6 +18,7 @@ The repository position is narrow by design: production-facing work should start
 | LLM agent process-simulation workflows in adjacent simulators | Agentic simulation can be split into task understanding, configuration, evaluation, optimization, and reporting | Use stepwise workflows; do not allow a single prompt to jump directly to engineering conclusions |
 | Specialized multi-agent LLMs for process systems engineering | Role-specialized agents can support soft sensing, mechanistic modeling, validation, and NMPC-style control formulation in PSE research | Use role-separated planning/modeling/execution/validation/reporting; require physical consistency, validation metrics, feasibility checks, HYSYS workcopy readback, and human acceptance before recommendations are treated as accepted |
 | HYSYS-generated data for ML, surrogate, PINN, or digital twin workflows | HYSYS can serve as a first-principles data source or validation baseline | Require design space, training/validation/test split, error metrics, extrapolation limits, and HYSYS/human review of recommendations |
+| HYSYS COM demos with heat-network supertargeting, surrogate modeling, and Bayesian optimization | Public examples show how existing HYSYS cases can be connected to Python for stream/unit-operation mapping, structured parameter changes, HEN screening, and sustainability optimization | Treat mock notebooks and surrogate/BO outputs as advisory; require thermal-stream schema, Delta Tmin basis, utility assumptions, HYSYS workcopy readback, and human review |
 | ML-aided flash or thermodynamic surrogate calculations validated against HYSYS | Python-side surrogates can accelerate large batches of thermodynamic or flowsheet evaluations | Treat as acceleration and screening only; require component slate, EOS/property package, P-T-z bounds, pointwise HYSYS comparison, extrapolation limits, and final HYSYS/human review |
 | HYSYS/Python/SCADA or digital-twin supervisory studies | HYSYS can connect to external monitoring or supervisory testbeds | Classify as simulation testbed, dashboard, training, or production boundary; default to read-only or human-approved writeback |
 | Operational AI / multi-agent setpoint recommendation studies | Agents can propose candidate operating points and use HYSYS-like models for validation | Treat recommendations as advisory; validate candidates on a workcopy and keep production writeback outside the default skill |
@@ -43,6 +44,7 @@ Before describing a result as paper-grade, produce:
 7. Runtime evidence: launch/open/binding/solver/export status, timestamps, errors, and rerun decisions.
 8. KPI exports: machine-readable CSV/JSON plus concise human-readable summary.
 9. Human review: topology, property method, units, convergence, optimization recommendation, and reporting boundary.
+10. For HEN or sustainability-surrogate tasks: thermal-stream schema, utility assumptions, `Delta Tmin` basis, stream/unit-operation map, surrogate validity range, and HYSYS workcopy readback.
 
 ## Claims To Avoid
 
@@ -53,3 +55,4 @@ Before describing a result as paper-grade, produce:
 - Do not treat a solved single sample as proof that a full sensitivity matrix is safe.
 - Do not present black-box optimization convergence as engineering correctness without HYSYS readback, KPI export, and human review.
 - Do not treat MCP availability as simulator validation, authorization, or production writeback approval.
+- Do not treat an agent-platform release, default-model change, browser recovery feature, or voice/meeting integration as HYSYS runtime validation.
