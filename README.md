@@ -368,6 +368,7 @@ Recent AI paper:
 - [Text-to-Flowsheet: autonomous flowsheet generation from natural language process descriptions](https://doi.org/10.1039/D6DD00060F) and [Text2Flowsheet code/data](https://github.com/LLM4ChemEng/Text2Flowsheet)
 - [Improving process systems engineering with specialized multi-agent large language models](https://doi.org/10.1016/j.ceja.2026.101141)
 - [HDA-Surrogate-Optimization HYSYS interface demo and Chemical Engineering Science 2026 paper](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization)
+- [Can large language models automate the HAZOP process without human intervention?](https://doi.org/10.1016/j.ssci.2025.107039)
 
 HYSYS automation and interconnection papers:
 

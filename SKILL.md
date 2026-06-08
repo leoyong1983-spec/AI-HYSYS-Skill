@@ -201,6 +201,8 @@ If the task mentions SCADA, ScadaBR, Modbus, OPC, external supervisory interface
 
 If the task mentions carbon accounting, decarbonization, energy-saving optimization, or reasoning-agent process simulation, separate simulator outputs, optimization variables, energy scenarios, carbon factors, reporting boundary, uncertainty, and human engineering review. Treat Aspen Plus agent papers as adjacent workflow evidence, not as proof that HYSYS greenfield model construction is reliable.
 
+If the task mentions HAZOP, process hazard analysis, safeguard review, alarm review, interlocks, SIS, deviation worksheets, or operating envelope review, classify the task as safety-support only. Start from a validated HYSYS case, exported operating envelope, PFD/P&ID inputs, and explicit node/deviation definitions. LLM-generated causes, consequences, safeguards, alarms, interlocks, or SIS suggestions are advisory drafts; require qualified human HAZOP-team review before any safety item is treated as accepted or closed.
+
 ### 7. Keep the package at the right depth
 
 This skill is for review-stage basic process package work, not detailed design by default.
@@ -257,6 +259,7 @@ Voice calls, meetings, browser automation, and web dashboards are presentation o
 - Do not assume AI can build a production-ready HYSYS flowsheet from zero just because COM object creation works.
 - Do not bind the skill to a specific agent runtime or default model unless the user explicitly configures that runtime and the schema smoke test passes.
 - Do not treat voice, meeting, browser, or dashboard integration as permission to write to HYSYS.
+- Do not let AI-generated HAZOP, safeguard, alarm, interlock, or SIS recommendations close process-safety decisions without qualified human review.
 
 ## Source hierarchy
 

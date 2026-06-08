@@ -160,3 +160,10 @@
 |---|---|---|---|---|
 | Research/community metadata | [research/hda-surrogate-optimization-github-2026-06-08.md](research/hda-surrogate-optimization-github-2026-06-08.md) | Records a public MIT repository and 2026 CES paper pairing Aspen HYSYS COM automation demos with heat-network supertargeting, surrogate modeling, Bayesian optimization, and sustainability metrics | [GitHub repository](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization), [DOI](https://doi.org/10.1016/j.ces.2026.124158) | B+ public HYSYS automation evidence; not adopted as dependency |
 | Heartbeat note | [notes/heartbeat-scan-2026-06-08.md](notes/heartbeat-scan-2026-06-08.md) | Records the June 8 value judgment and HEN/surrogate boundary update | This repository | Small routine documentation/source-pack update |
+
+## 2026-06-09 Source Additions
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Research metadata | [research/llm-hazop-safety-science-2026-metadata.md](research/llm-hazop-safety-science-2026-metadata.md) | Records Safety Science 2026 evidence on LLM-generated HAZOP worksheets and process-safety automation limits | [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S0925753525002644), [DOI](https://doi.org/10.1016/j.ssci.2025.107039) | Adjacent process-safety evidence, not HYSYS runtime validation or safety approval |
+| Heartbeat note | [notes/heartbeat-scan-2026-06-09.md](notes/heartbeat-scan-2026-06-09.md) | Records the June 9 value judgment and HAZOP safety-boundary update | This repository | Small routine documentation/source-pack update |

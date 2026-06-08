@@ -22,6 +22,7 @@ The repository position is narrow by design: production-facing work should start
 | ML-aided flash or thermodynamic surrogate calculations validated against HYSYS | Python-side surrogates can accelerate large batches of thermodynamic or flowsheet evaluations | Treat as acceleration and screening only; require component slate, EOS/property package, P-T-z bounds, pointwise HYSYS comparison, extrapolation limits, and final HYSYS/human review |
 | HYSYS/Python/SCADA or digital-twin supervisory studies | HYSYS can connect to external monitoring or supervisory testbeds | Classify as simulation testbed, dashboard, training, or production boundary; default to read-only or human-approved writeback |
 | Operational AI / multi-agent setpoint recommendation studies | Agents can propose candidate operating points and use HYSYS-like models for validation | Treat recommendations as advisory; validate candidates on a workcopy and keep production writeback outside the default skill |
+| LLM-generated HAZOP or process-safety worksheets | LLMs can draft deviations, causes, consequences, safeguards, and safety-analysis worksheets in research settings | Treat as safety-support drafting only; require validated HYSYS operating-envelope data, PFD/P&ID inputs, explicit nodes/deviations, and qualified human HAZOP-team acceptance |
 
 ## Publishable Gap For This Repository
 
@@ -56,3 +57,4 @@ Before describing a result as paper-grade, produce:
 - Do not present black-box optimization convergence as engineering correctness without HYSYS readback, KPI export, and human review.
 - Do not treat MCP availability as simulator validation, authorization, or production writeback approval.
 - Do not treat an agent-platform release, default-model change, browser recovery feature, or voice/meeting integration as HYSYS runtime validation.
+- Do not treat LLM-generated HAZOP similarity scores, safeguard lists, or safety worksheets as process-safety approval.
