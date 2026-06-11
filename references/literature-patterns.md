@@ -15,6 +15,7 @@ The repository position is narrow by design: production-facing work should start
 | HYSYS + Python full-factorial sensitivity or techno-economic studies | Existing cases can be automated across many parameter combinations | Require scenario matrix, sample IDs, input bounds, KPI schema, failure classification, and rerun policy before full batch execution |
 | LLM / multi-agent flowsheet generation for Aspen HYSYS | Agents can generate HYSYS scripts in research settings | Treat greenfield model generation as research/prototype unless a validated case and approved runner exist; preserve prompts, generated code, logs, convergence state, and expert review |
 | Text-to-flowsheet with Graph-IR and black-box optimization | Natural-language process descriptions can be translated into an intermediate flowsheet graph and then into a rigorous simulator with validation and optimizer-assisted convergence in research settings | Use Graph-IR as an auditable intent layer, not as proof of HYSYS correctness; allow optimizer-assisted convergence only on whitelisted variables with bounds, residual objective, iteration logs, and final HYSYS/human review |
+| SFILES or transformer-based flowsheet autocompletion | Public Aspen Plus or DWSIM flowsheet data can support topology suggestions and interactive completion | Treat autocomplete output as a candidate topology only; convert it into an explicit object/stream map, reject unsupported nodes/edges, and require HYSYS workcopy validation before engineering use |
 | LLM agent process-simulation workflows in adjacent simulators | Agentic simulation can be split into task understanding, configuration, evaluation, optimization, and reporting | Use stepwise workflows; do not allow a single prompt to jump directly to engineering conclusions |
 | Specialized multi-agent LLMs for process systems engineering | Role-specialized agents can support soft sensing, mechanistic modeling, validation, and NMPC-style control formulation in PSE research | Use role-separated planning/modeling/execution/validation/reporting; require physical consistency, validation metrics, feasibility checks, HYSYS workcopy readback, and human acceptance before recommendations are treated as accepted |
 | HYSYS-generated data for ML, surrogate, PINN, or digital twin workflows | HYSYS can serve as a first-principles data source or validation baseline | Require design space, training/validation/test split, error metrics, extrapolation limits, and HYSYS/human review of recommendations |
@@ -40,7 +41,7 @@ Before describing a result as paper-grade, produce:
 2. Lane decision: chosen lane, rejected lanes, and why.
 3. Variable schema: object path or spreadsheet/workbook tag, unit, valid range, baseline value, new value, and rollback value.
 4. Scenario design: sample ID, variable set, bounds, DOE/full-factorial/optimizer method, and stop rule.
-5. Graph or intent representation when text/diagram-to-simulation is involved: source prompt, normalized flowsheet graph, simulator translation, rejected edges/nodes, and human topology review.
+5. Graph or intent representation when text/diagram/autocomplete-to-simulation is involved: source prompt, normalized flowsheet graph or SFILES-like representation, simulator translation, rejected edges/nodes, and human topology review.
 6. Optimizer evidence when black-box repair is used: objective function, variable bounds, initial point, iteration count, residual or penalty, failed samples, and stop reason.
 7. Runtime evidence: launch/open/binding/solver/export status, timestamps, errors, and rerun decisions.
 8. KPI exports: machine-readable CSV/JSON plus concise human-readable summary.
@@ -50,6 +51,7 @@ Before describing a result as paper-grade, produce:
 ## Claims To Avoid
 
 - Do not claim reliable production-grade greenfield HYSYS model generation from text, diagrams, or sketches.
+- Do not treat flowsheet autocompletion or SFILES graph completion as proof of a runnable HYSYS case.
 - Do not claim a surrogate, PINN, or hybrid model replaces the validated HYSYS baseline.
 - Do not claim SCADA, Modbus, Aspen OnLine, AVA, PIMS, APC, DCS, or SIS production writeback unless a project-approved procedure exists.
 - Do not present wrapper availability, PyPI packages, or code-generation success as runtime validation.
