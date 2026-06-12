@@ -367,6 +367,7 @@ Recent AI paper:
 - [Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation](https://doi.org/10.1038/s44172-025-00583-3)
 - [Text-to-Flowsheet: autonomous flowsheet generation from natural language process descriptions](https://doi.org/10.1039/D6DD00060F) and [Text2Flowsheet code/data](https://github.com/LLM4ChemEng/Text2Flowsheet)
 - [Learning from flowsheets: transformer autocompletion with SFILES](https://arxiv.org/abs/2208.00859)
+- [Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges](https://arxiv.org/html/2606.11589v1)
 - [Improving process systems engineering with specialized multi-agent large language models](https://doi.org/10.1016/j.ceja.2026.101141)
 - [HDA-Surrogate-Optimization HYSYS interface demo and Chemical Engineering Science 2026 paper](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization)
 - [Can large language models automate the HAZOP process without human intervention?](https://doi.org/10.1016/j.ssci.2025.107039)
