@@ -1,6 +1,6 @@
 ---
 name: ai-hysys-basic-package
-description: "Control Aspen HYSYS with auditable, script-first workflows to take over, update, tune, freeze, and export an existing process case. Use when Codex must take over Aspen HYSYS through direct COM automation, spreadsheet/workbook bridges, or proven project runners to: (1) verify the environment, (2) load an existing validated case, (3) run calculations, (4) perform bounded sensitivity or tuning, (5) export machine-readable results, or (6) compile review-stage basic process package deliverables without changing frozen calculation boundaries."
+description: "Control Aspen HYSYS with auditable, script-first workflows for existing-case takeover, validation, and reporting. 中文：通过 direct COM、spreadsheet/workbook bridge 或已验证项目脚本接管已有可运行 HYSYS case，完成环境检查、有限调参、验证、导出和审查阶段基础工艺包交付；不默认支持从零建模或生产写回。"
 ---
 
 # AI HYSYS Basic Package
@@ -10,6 +10,8 @@ description: "Control Aspen HYSYS with auditable, script-first workflows to take
 Use this skill when the task is not theoretical process discussion but actual Aspen HYSYS execution with reproducible artifacts.
 
 Default assumption: the safest production path is takeover of a human-built, already-runnable HYSYS case. Do not treat AI greenfield case construction as the normal path.
+
+中文说明：本技能用于让 AI 以可审计、脚本优先的方式接管已有 Aspen HYSYS 模型，重点是环境验证、控制通道选择、有限参数修改、求解状态检查、结果导出和基础工艺包交付。默认边界是“已有可运行 case 的受控接管”，不是“AI 从零可靠创建生产级 HYSYS 模型”，也不是“无人批准的生产系统写回”。
 
 Prefer scriptable, reviewable, repeatable control lanes:
 

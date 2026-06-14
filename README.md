@@ -21,6 +21,12 @@ It is designed for real execution, not just documentation. The workflow covers:
 - review-stage basic process package generation
 - release gate and blocker control
 
+## Bilingual Overview / 中英双语说明
+
+**English**: AI-HYSYS-Skill is an AI-ready Aspen HYSYS skill for controlled takeover of existing runnable HYSYS cases. It helps an agent verify the Windows/HYSYS environment, choose a safe control lane such as direct COM or spreadsheet/workbook bridge, perform bounded parameter updates, run validation, export machine-readable evidence, and prepare review-stage basic process package deliverables. It does not claim reliable from-scratch HYSYS model generation or autonomous production writeback.
+
+**中文**：AI-HYSYS-Skill 是面向 Aspen HYSYS 的 AI 技能库，核心目标是接管人工已建、已经能运行的 HYSYS case，而不是让 AI 从零盲目建模。它帮助智能体检查 Windows/HYSYS 环境，选择 direct COM、spreadsheet/workbook 等安全控制通道，执行有边界的参数修改、计算验证、机器可读结果导出，并辅助形成审查阶段基础工艺包成果。本项目不宣称 AI 可以可靠地从零生成生产级 HYSYS 模型，也不默认支持无人批准的生产写回。
+
 ## What This Is
 
 This repository is built around a simple idea:
@@ -132,6 +138,8 @@ py -c "import pythoncom, win32com.client; print('pywin32 ok')"
 ```
 
 ## Quick Start
+
+中文快速理解：先在目标 Windows 电脑上确认 Aspen HYSYS、COM 注册和 `pywin32` 可用，再把本仓库作为 Codex skill 安装；实际任务应从已有可运行 HYSYS case 的 workcopy 开始，先验证控制通道，再进行有限参数修改、计算、导出和人工复核。
 
 ### 1. Clone the repository
 

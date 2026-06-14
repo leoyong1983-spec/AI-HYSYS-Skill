@@ -1,4 +1,4 @@
 interface:
   display_name: "AI HYSYS 基础工艺包"
-  short_description: "用 COM、Spreadsheet/Workbook、Data Tables 和 Python 接管已有 Aspen HYSYS case，完成调参、验证、导出与基础工艺包交付。"
-  default_prompt: "接管已有 Aspen HYSYS case，先用控制通道矩阵判断 direct COM、spreadsheet/workbook、data tables 或既有桥接层哪条更稳，再完成可审计的计算、调参、导出和基础工艺包交付。"
+  short_description: "中文：用 COM、Spreadsheet/Workbook、Data Tables 和 Python 接管已有 Aspen HYSYS case，完成调参、验证、导出与基础工艺包交付。 English: Existing-case HYSYS takeover, validation, export, and basic process package support."
+  default_prompt: "中文：接管已有 Aspen HYSYS case，先用控制通道矩阵判断 direct COM、spreadsheet/workbook、data tables 或既有桥接层哪条更稳，再完成可审计的计算、调参、导出和基础工艺包交付。 English: Take over an existing runnable Aspen HYSYS case, choose the safest control lane, run bounded updates, validate, export evidence, and prepare review-stage package outputs."
