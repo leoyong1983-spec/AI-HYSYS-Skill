@@ -379,6 +379,7 @@ Recent AI paper:
 - [MCP Design Strategies for AI Agents in the Chemical Engineering Industry](https://www.researchgate.net/publication/404500792_MCP_Design_Strategies_for_AI_Agents_in_the_Chemical_Engineering_Industry)
 - [ddtlxc001/aspen-mcp: Aspen Plus MCP server via COM automation](https://github.com/ddtlxc001/aspen-mcp)
 - [CeProAgents: hierarchical agents for automated chemical process development](https://arxiv.org/abs/2603.01654)
+- [LLM-guided Chemical Process Optimization with a Multi-Agent Approach](https://arxiv.org/abs/2506.20921)
 - [Improving process systems engineering with specialized multi-agent large language models](https://doi.org/10.1016/j.ceja.2026.101141)
 - [HDA-Surrogate-Optimization HYSYS interface demo and Chemical Engineering Science 2026 paper](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization)
 - [Can large language models automate the HAZOP process without human intervention?](https://doi.org/10.1016/j.ssci.2025.107039)
