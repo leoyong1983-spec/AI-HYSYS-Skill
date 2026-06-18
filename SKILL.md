@@ -34,7 +34,7 @@ Read [references/project-lessons.md](references/project-lessons.md) when resumin
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
 
-If the user wants provenance, precedent, or launch material, read [CASE/source-index.md](CASE/source-index.md) and [CASE/notes/hysys-source-digest.md](CASE/notes/hysys-source-digest.md) selectively instead of loading the whole `CASE/` tree.
+If the user wants provenance, precedent, launch material, heartbeat source triage, or cross-skill maintenance rules, read [CASE/SOURCE_EVALUATION_RULES.md](CASE/SOURCE_EVALUATION_RULES.md), [CASE/source-index.md](CASE/source-index.md), and [CASE/notes/hysys-source-digest.md](CASE/notes/hysys-source-digest.md) selectively instead of loading the whole `CASE/` tree.
 
 ## Workflow
 

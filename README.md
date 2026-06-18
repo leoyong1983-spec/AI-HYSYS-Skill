@@ -103,6 +103,7 @@ AI-HYSYS-Skill/
 |   |-- validate_repo.ps1
 |   `-- validate_repo.py
 |-- CASE/
+|   |-- SOURCE_EVALUATION_RULES.md
 |   |-- source-index.md
 |   |-- community/
 |   |-- official/

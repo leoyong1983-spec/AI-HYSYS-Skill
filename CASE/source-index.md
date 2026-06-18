@@ -1,9 +1,9 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-30（Asia/Shanghai）
+最近心跳测试：2026-06-19（Asia/Shanghai）
 
-这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
+这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [SOURCE_EVALUATION_RULES.md](SOURCE_EVALUATION_RULES.md) 和 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
 ## 使用原则
 
@@ -12,6 +12,7 @@
 3. `research/` 里的论文用于证明 AI + HYSYS 的公开研究路径，包括生成可执行建模脚本、用 HYSYS 仿真数据训练代理模型/数字孪生，但不能自动等同于生产闭环。
 4. `notes/` 里的中文文件用于把这些来源压缩成可发布、可讲述、可复用的话术和方法论。
 5. SCADA / Modbus / OPC-style 资料只用于外部监督、培训、dashboard 或 digital twin testbed 边界，不等同于生产闭环控制授权。
+6. 新资料进入 CASE、README、SKILL 或 references 前，先按 [SOURCE_EVALUATION_RULES.md](SOURCE_EVALUATION_RULES.md) 评级；相邻证据不能被写成 HYSYS runtime 验证。
 
 ## 索引表
 
@@ -102,6 +103,7 @@
 | 研究 | [research/first-principles-modeling-age-ai-tudelft-2026.html](research/first-principles-modeling-age-ai-tudelft-2026.html) | TU Delft 研究门户页面，核对题名、作者、期刊、DOI、页码和 peer-review 类型 | [TU Delft Research Portal](https://research.tudelft.nl/en/publications/perspectives-on-the-essential-role-of-first-principles-modeling-i/) | HTML 快照 |
 | 本地沉淀 | [notes/local-lng-hysys-study.md](notes/local-lng-hysys-study.md) | 你自己已有的 HYSYS LNG 学习与模板提炼沉淀 | 本地文件复制 | 不是公网来源，但很适合并入技能经验层 |
 | 本地沉淀 | [notes/local-lng-route-template.md](notes/local-lng-route-template.md) | 你自己已有的液化路线选择模板 | 本地文件复制 | 用于后续场景化扩展 |
+| 维护规则 | [SOURCE_EVALUATION_RULES.md](SOURCE_EVALUATION_RULES.md) | 中英双语 A/B/C/D 资料评级规则，用于心跳维护和其他工程 skill 复用 | 本仓库 | 防止重复下载、弱证据抬高项目边界、DWSIM/HYSYS 资料混淆 |
 | 中文总结 | [notes/hysys-source-digest.md](notes/hysys-source-digest.md) | 把官方、社区、研究三类资料压缩成技能设计结论 | 本仓库 | 推荐先读 |
 | 心跳记录 | [notes/heartbeat-scan-2026-04-25.md](notes/heartbeat-scan-2026-04-25.md) | 记录 2026-04-25 手动心跳测试保存的新资料、价值判断和边界结论 | 本仓库 | 后续每日扫描可沿用此格式 |
 | 心跳记录 | [notes/heartbeat-scan-2026-04-26.md](notes/heartbeat-scan-2026-04-26.md) | 记录 2026-04-26 自动心跳保存的新资料、价值判断、项目改进和推送状态 | 本仓库 | 每日自动化闭环样例 |
@@ -225,3 +227,10 @@
 | Research PDF | [research/llm-guided-chemical-process-optimization-arxiv-2506.20921.pdf](research/llm-guided-chemical-process-optimization-arxiv-2506.20921.pdf) | Records a multi-agent LLM optimization framework that autonomously infers operating constraints from minimal process descriptions | [arXiv PDF](https://arxiv.org/pdf/2506.20921) | B adjacent optimization-boundary evidence; not HYSYS runtime validation |
 | Research abstract | [research/llm-guided-chemical-process-optimization-arxiv-2506.20921-abstract.html](research/llm-guided-chemical-process-optimization-arxiv-2506.20921-abstract.html) | Preserves abstract and metadata for the LLM-guided chemical process optimization paper | [arXiv abstract](https://arxiv.org/abs/2506.20921) | Local snapshot |
 | Heartbeat note | [notes/heartbeat-scan-2026-06-18.md](notes/heartbeat-scan-2026-06-18.md) | Records the June 18 value judgment and AI-inferred-boundary update | This repository | Small routine documentation/source-pack update |
+
+## 2026-06-19 Maintenance Additions
+
+| Category | Local file | Role | Original link | Note |
+|---|---|---|---|---|
+| Maintenance rule | [SOURCE_EVALUATION_RULES.md](SOURCE_EVALUATION_RULES.md) | Records the bilingual A/B/C/D source-evaluation template used by AI-HYSYS-Skill heartbeat maintenance and reusable by sibling skills | This repository | Governance update; no new runtime claim |
+| Heartbeat note | [notes/heartbeat-scan-2026-06-19.md](notes/heartbeat-scan-2026-06-19.md) | Records the June 19 search, duplicate/value judgment, and source-grading governance update | This repository | No new A or B+ source adopted |
