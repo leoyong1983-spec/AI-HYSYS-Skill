@@ -341,6 +341,7 @@ Official AspenTech pages:
 - [AspenTech process simulation digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield)
 - [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new)
 - [Aspen OnLine product page](https://www.aspentech.com/en/products/engineering/aspen-online)
+- [Aspen HYSYS Digital Twins course](https://esupport.aspentech.com/T_course?id=a3pUn000002QjRlIAK)
 - [AspenTech Industrial AI / AVA page](https://www.aspentech.com/en/insights/industrial-ai-from-aspentech)
 - [AspenTech AI / AVA portfolio page](https://aspentech.ai/)
 - [Emerson AspenTech AVA launch release](https://www.emerson.com/en/corporate/news/2026/new-emerson-industrial-ai-platform-delivers-enterprise-scale-ai)
@@ -354,12 +355,14 @@ Official AspenTech pages:
 - [Saudi Aramco plant digital twin case study](https://www.aspentech.com/en/resources/case-studies/saudi-aramco-increases-capacity-by-100000-barrels-day-and-upgrades-bottom-of-the-barrel-products)
 - [Indian Oil Barauni process digital twins webinar](https://www.aspentech.com/en/resources/on-demand-webinars/apac-webinar-en-learn-how-a-major-indian-refinery-gained-substantial-benefits)
 - [Major refinery real-time digital twin and Aspen DMC3 APC webinar](https://www.aspentech.com/en/resources/on-demand-webinars/major-refinery-in-asia-achieves-significant-energy-opex-savings-with-real-time-digital-twin)
+- [BPCL Aspen HYSYS-based ARU real-time digital twin case](https://solutions.aspentech.com/en/resources/case-studies/indian-refinery-reduces-energy-consumption-using-real-time-digital-twin)
 - [Aspen HYSYS LNG plantwide simulation webinar](https://www.aspentech.com/en/resources/live-events-and-webinars/apac-webinar-improve-lng-plant-design-operations-with-insights-from-plantwide-process-simulations)
 
 Community bridge example:
 
 - [edgarsmdn/Aspen_HYSYS_Python](https://github.com/edgarsmdn/Aspen_HYSYS_Python)
 - [aspen_pysys PyPI candidate](https://pypi.org/project/aspen-pysys/) and [Codeberg repository](https://codeberg.org/CacklingTanuki/aspen-pysys) - candidate only; current observed alpha `0.1.0a2`, `GPL-3.0-or-later`, Python `>=3.12.12`, `pywin32>=311`, and not adopted as a default dependency.
+- [DanielVazVaz/PySIS](https://github.com/DanielVazVaz/PySIS) - candidate only; direct HYSYS COM wrapper evidence, but not adopted as a default dependency without local HYSYS runtime validation.
 
 Recent AI paper:
 

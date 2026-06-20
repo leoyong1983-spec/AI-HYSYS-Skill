@@ -14,6 +14,7 @@
 | Real-Time Quality Control: How HPCL Uses Industrial AI | [CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf](../CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf) | 官方案例展示 Aspen AI Model Builder + Aspen HYSYS 可用于部署 AI soft sensors，按分钟级预测质量参数，支持实时质量控制和成本优化。 |
 | AspenTech V15 What's New | [CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html](../CASE/official/aspentech-whats-new-v15-industrial-ai-2026.html) | 官方 V15 页面把 Industrial AI、AI Model Builder、Aspen HYSYS/Plus、Aspen OnLine for HYSYS and Aspen Plus 放在同一产品语境中。 |
 | Aspen OnLine | [CASE/official/aspen-online-product-page-2026.html](../CASE/official/aspen-online-product-page-2026.html) | 官方产品页说明 Aspen OnLine 使用 live data matched with process simulation，并支持 Aspen Plus / Aspen HYSYS simulation environment、plant historian / lab data 校验和 KPI reporting。 |
+| Design, Optimize and Monitor Your Process using Aspen HYSYS Digital Twins | [CASE/official/aspen-hysys-digital-twins-course-eao026-2026.html](../CASE/official/aspen-hysys-digital-twins-course-eao026-2026.html) | 官方培训页明确把 existing Aspen HYSYS process simulation models 与 real-time plant data 集成，建立 dynamic online digital twin，并覆盖 Aspen OnLine tags、schedule/run 和 case history replay。 |
 | AspenTech AI / AVA portfolio | [CASE/official/aspentech-ai-ava-portfolio-2026-05-snapshot.md](../CASE/official/aspentech-ai-ava-portfolio-2026-05-snapshot.md) | 官方 AVA 体验页把 AVA、Industrial AI、HYSYS/HYSYS Dynamics、Hybrid Models、Aspen OnLine、Unified PIMS、DMC3、GDOT 和 sustainability planning 放在同一企业级决策语境中。 |
 | Emerson and Aramco Deploy AI Solution Aimed at Higher Refinery Yield Volume and Efficiencies | [CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md](../CASE/official/emerson-aramco-aspen-hybrid-models-refinery-planning-2026-04-snapshot.md) | 官方发布说明 Aspen Hybrid Models 接入 Aramco 既有炼厂计划框架，并基于严谨第一性原理仿真案例和实际工厂数据校准；适合约束 production planning / PIMS / hybrid AI 边界。 |
 | Deploy Simulation Models Online Easily Gain Unrivaled Process Insights | [CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html](../CASE/official/aspen-hysys-online-simulation-models-webinar-2026.html) | 官方 webinar 页面把 Aspen HYSYS models、online simulations、KPI monitoring、process insights、节能减排和 troubleshooting 放在同一工作流中。 |
@@ -21,6 +22,7 @@
 | Optimizing CDU Operations with Equation-Based Digital Twins in Aspen HYSYS | [CASE/official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html](../CASE/official/aspen-hysys-viva-energy-cdu-eo-hybrid-digital-twin-2026.html) | 官方 webinar 页面说明 Viva Energy / Anukoolan 使用 Aspen HYSYS 中 first-principles Equation Oriented models 和 Reduced Order Hybrid Models 建立 CDU、Prefractionation、Hydrotreater 数字孪生优化场景。 |
 | Saudi Aramco Increases Refinery Capacity by 100,000 Barrels/Day Using Plant Digital Twin | [CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html](../CASE/official/aspen-hysys-saudi-aramco-plant-digital-twin-2026.html) | 官方案例说明 Saudi Aramco 使用 Aspen HYSYS 建立多个装置 plant digital twins，用于炼厂改造可行性分析和处理能力提升方案评估。 |
 | Indian Oil Corporation Barauni Refinery Process Digital Twins | [CASE/official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html](../CASE/official/aspen-hysys-indian-oil-barauni-process-digital-twins-2026.html) | 官方 webinar 页面说明 Barauni Refinery 部署 Aspen HYSYS-based process digital twins，适合约束不可实时测量 KPI 和炼厂运行优化场景。 |
+| Indian Refinery Reduces Energy Consumption Using Real-Time Digital Twin | [CASE/official/aspen-hysys-bpcl-aru-real-time-digital-twin-2023.pdf](../CASE/official/aspen-hysys-bpcl-aru-real-time-digital-twin-2023.pdf) | 官方案例说明 BPCL 在 amine regeneration unit 部署 Aspen HYSYS-based online digital twin，支撑 Aspen DMC3 APC 系统和节能 KPI；适合约束 online twin 与 APC/DCS 外部边界。 |
 | Aspen HYSYS Dynamics | [CASE/official/aspen-hysys-dynamics-product-page-2026.html](../CASE/official/aspen-hysys-dynamics-product-page-2026.html) | 官方产品页说明 HYSYS Dynamics 支持动态仿真、瞬态条件分析和控制方案验证；用于约束动态任务的基线、转换和审核边界。 |
 | EHM105 - Unlock Operational Excellence with AI-Powered Digital Twins | [CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf](../CASE/official/aspentech-ehm105-ai-powered-digital-twin-agenda.pdf) | 官方培训议程明确覆盖 HYSYS Workbook、Microsoft Excel and Aspen HYSYS、Plant Data、AI Model Builder、Hybrid Models、Aspen OnLine 发布。 |
 | Aspen Hybrid Models Customer FAQ | [CASE/official/aspen-hybrid-models-customer-faq.pdf](../CASE/official/aspen-hybrid-models-customer-faq.pdf) | FAQ 强调 Hybrid Models 是 AI、first principles、simulation/plant data 和领域知识的组合，适合约束 hybrid AI 的工程边界。 |
@@ -52,7 +54,7 @@
 8. 如果目标是 reasoning-agent 碳核算或节能优化，AI-HYSYS-Skill 应把仿真器结果、优化建议、能源情景、碳因子和人工工程复核分开。
 9. 如果目标是 column performance、tray rating、column hydraulics 或塔瓶颈诊断，应先固定已有 HYSYS case、塔对象、物性包、流量/组成边界、规格约束和报告口径。
 10. 如果目标是 XGBoost、PSO 或其他 surrogate / optimizer，应先定义 HYSYS 采样空间、训练/验证误差、外推禁区和回到 HYSYS runtime 的复核路径。
-11. 如果目标是 Aspen OnLine 或 online model deployment，应先拆分 HYSYS/Aspen Plus 模型、plant historian 或 lab data、KPI/reporting schema、商业发布层、模型校验和人工验收责任。
+11. 如果目标是 Aspen OnLine 或 online model deployment，应先拆分 HYSYS/Aspen Plus 模型、plant historian 或 lab data、input/output tag schema、schedule/run plan、case history、KPI/reporting schema、商业发布层、模型校验和人工验收责任。
 12. 如果目标是 AI/hybrid/surrogate 升级，应把 first-principles HYSYS baseline 作为基线证据，任何数据驱动层都必须说明训练数据范围、验证指标、外推禁区和回归到 HYSYS runtime 的复核路径。
 13. 如果目标是 CDU、Prefractionation、Hydrotreater 或炼厂装置级 equation-based digital twin / reduced-order hybrid model 优化，应先固定装置边界、HYSYS EO 模型来源、reduced-order 模型训练范围、KPI 目标、操作约束、候选工况和人工批准路径。
 14. 如果目标是 ML-aided flash、热力学代理模型或 Python 端流程计算加速，应先固定组分表、EOS/物性包、P-T-z 采样空间、HYSYS 参考数据、误差指标、外推禁区和最终 HYSYS 复核路径。
@@ -137,6 +139,7 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 3. 若涉及 online deployment，先识别 Aspen OnLine、dashboard、historian、DCS/APC、PIMS 或其他外部商业系统是否已存在，并把它们作为外部边界。
 4. 本 skill 可以整理变量映射、KPI 定义、运行记录、异常解释和报告，但不默认发布在线模型或闭环接管生产控制。
 5. 任何动态响应、在线预测或计划优化结果，都必须保留数据时间戳、模型版本、有效范围和人工验收记录。
+6. 如果使用 Aspen OnLine 类工作流，必须记录 input/output tag、模型执行计划、case history 或回放目录、失败处理策略和人工验收记录。
 
 ## Live / Multi-Unit Digital Twin 任务默认边界
 
@@ -194,3 +197,14 @@ Project rule:
 2. Treat Aspen DMC3, APC, DCS, historian, and online deployment as external plant or commercial-system boundaries.
 3. AI-HYSYS-Skill may prepare variable schemas, KPI definitions, validation evidence, audit notes, and human-review packages.
 4. AI-HYSYS-Skill must not claim that it can publish the online model, replace DMC3/APC/DCS, or autonomously write to production controls.
+
+## 2026-06-20 Aspen OnLine Tag And BPCL ARU Addendum
+
+AspenTech official training and BPCL case material make the online-digital-twin boundary more concrete: HYSYS online twins are built from existing HYSYS models, real-time plant data, Aspen OnLine projects, input/output tags, scheduled execution, case history, and external APC/DCS layers.
+
+Project rule:
+
+1. Treat official Aspen HYSYS digital twin training as evidence for an engineering workflow, not as proof that AI can independently publish online twins.
+2. For any Aspen OnLine task, require tag schema, schedule/run configuration, case history or replay path, KPI schema, data provenance, and human acceptance.
+3. Treat BPCL ARU / DMC3 material as official evidence that HYSYS online twins can support APC-adjacent energy optimization.
+4. Keep Aspen DMC3, APC, DCS, historian, and production writeback outside this open-source skill unless the project has explicit approved procedures and human authorization.
