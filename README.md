@@ -363,6 +363,7 @@ Community bridge example:
 - [edgarsmdn/Aspen_HYSYS_Python](https://github.com/edgarsmdn/Aspen_HYSYS_Python)
 - [aspen_pysys PyPI candidate](https://pypi.org/project/aspen-pysys/) and [Codeberg repository](https://codeberg.org/CacklingTanuki/aspen-pysys) - candidate only; current observed alpha `0.1.0a2`, `GPL-3.0-or-later`, Python `>=3.12.12`, `pywin32>=311`, and not adopted as a default dependency.
 - [DanielVazVaz/PySIS](https://github.com/DanielVazVaz/PySIS) - candidate only; direct HYSYS COM wrapper evidence, but not adopted as a default dependency without local HYSYS runtime validation.
+- [yuuyo-arobet/AspenHYSYS-MCP-Server](https://github.com/yuuyo-arobet/AspenHYSYS-MCP-Server) - direct HYSYS MCP/COM implementation candidate; MIT, read-only/default/enhanced mode separation, and claimed HYSYS V14 real-machine verification, but not adopted as a default dependency or runtime channel without local validation.
 
 Recent AI paper:
 
@@ -382,6 +383,7 @@ Recent AI paper:
 - [Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges](https://arxiv.org/html/2606.11589v1)
 - [MCP Design Strategies for AI Agents in the Chemical Engineering Industry](https://www.researchgate.net/publication/404500792_MCP_Design_Strategies_for_AI_Agents_in_the_Chemical_Engineering_Industry)
 - [ddtlxc001/aspen-mcp: Aspen Plus MCP server via COM automation](https://github.com/ddtlxc001/aspen-mcp)
+- [yuuyo-arobet/AspenHYSYS-MCP-Server: HYSYS MCP server via COM automation](https://github.com/yuuyo-arobet/AspenHYSYS-MCP-Server)
 - [CeProAgents: hierarchical agents for automated chemical process development](https://arxiv.org/abs/2603.01654)
 - [LLM-guided Chemical Process Optimization with a Multi-Agent Approach](https://arxiv.org/abs/2506.20921)
 - [Improving process systems engineering with specialized multi-agent large language models](https://doi.org/10.1016/j.ceja.2026.101141)
