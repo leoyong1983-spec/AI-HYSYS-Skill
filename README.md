@@ -34,6 +34,7 @@ The skill is optimized for projects such as:
 - gas processing
 - LNG and cryogenic studies
 - refining unit studies
+- heat exchanger, HEN, Aspen EDR, and LNG cold-box advisory optimization
 - dehydration / AGR / sulfur systems
 - other process packages that need a repeatable HYSYS-to-package workflow
 
@@ -228,6 +229,7 @@ If you do not use Codex skills directly, you can still reuse:
 - `references/authority-and-path-selection.md` to choose the correct control lane
 - `references/control-lane-decision-matrix.md` to turn COM, spreadsheet/workbook, data tables, indirect bridges, and GUI fallback into a concrete decision
 - `references/digital-twin-boundary.md` to use official HYSYS digital twin / hybrid AI evidence without overclaiming direct control
+- `references/heat-exchanger-ai-patterns.md` to structure exchanger, HEN, `Delta Tmin`, Aspen EDR, and cryogenic-exchanger AI tasks as advisory candidates validated by HYSYS/EDR readback
 - `references/project-lessons.md` to avoid known failure modes
 - `references/basic-package-deliverables.md` to structure exports and review-stage package outputs
 - `CASE/` as a public source pack and launch-positioning library
@@ -324,6 +326,7 @@ Official AspenTech pages:
 - [Aspen HYSYS V7.3 Customization Guide article](https://esupport.aspentech.com/s_Article?key=131879)
 - [Aspen HYSYS 2025 brochure PDF](https://www.aspentech.com/-/media/aspentech/home/resources/brochure/pdfs/fy25/q4/at-4162_bro_aspen-hysys_final_0525.pdf)
 - [AspenTech performance engineering digital twin case study](https://www.aspentech.com/en/resources/case-studies/energy-company-saves-%246m-usd-with-a-performance-engineering-digital-twin)
+- [Aspen Exchanger Design and Rating product page](https://www.aspentech.com/en/products/engineering/aspen-exchanger-design-and-rating)
 - [Control Column Performance Using Aspen HYSYS](https://www.aspentech.com/en/resources/case-studies/control-column-performance-using-aspen-hysys)
 - [AspenTech process simulation digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield)
 - [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new)
@@ -337,16 +340,20 @@ Official AspenTech pages:
 Community bridge example:
 
 - [edgarsmdn/Aspen_HYSYS_Python](https://github.com/edgarsmdn/Aspen_HYSYS_Python)
+- [aspen-pysys PyPI package](https://pypi.org/project/aspen-pysys/) - tracked as an alpha wrapper candidate, not a default dependency
 
 Recent AI paper:
 
 - [Sketch2Simulation (arXiv:2603.24629)](https://arxiv.org/abs/2603.24629)
 - [From Text to Simulation (arXiv:2601.06776)](https://arxiv.org/abs/2601.06776)
+- [Text-to-flowsheet (RSC Digital Discovery)](https://pubs.rsc.org/en/content/articlelanding/2026/dd/d6dd00060f)
 - [Large Language Model Agent for User-friendly Chemical Process Simulations (arXiv:2601.11650)](https://arxiv.org/abs/2601.11650)
 - [PINN Digital Twin for Aspen HYSYS generated dynamic data (arXiv:2603.24644)](https://arxiv.org/abs/2603.24644)
 - [Data-driven simulation of crude distillation using Aspen HYSYS and comparative machine learning models](https://doi.org/10.1002/cjce.70297)
 - [AI-driven surrogate modeling for LNG process optimization](https://doi.org/10.1016/j.jclepro.2026.148110)
 - [Optimizing Pressure Swing Distillation Using Aspen HYSYS and Machine Learning Algorithms](https://doi.org/10.1007/s11814-026-00646-x)
+- [Artificial intelligence assisted prediction of optimum operating conditions of shell and tube heat exchangers](https://doi.org/10.1049/cit2.12393)
+- [Enhancing LNG supply chain robustness through digital twin-driven machine learning models: cryogenic heat exchanger case](https://doi.org/10.1016/j.jgsce.2025.205714)
 - [HEFA/SAF production planning surrogate model paper](https://www.sciencedirect.com/science/article/pii/S009813542600102X)
 - [Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation](https://doi.org/10.1038/s44172-025-00583-3)
 
@@ -356,6 +363,14 @@ HYSYS automation and interconnection papers:
 - [Integrating coding platforms with process simulators for custom applications](https://www.sciencedirect.com/science/article/pii/S0098135425002510)
 - [A comparative study on Aspen HYSYS interconnection methodologies](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf)
 - [Supervisory Monitoring and Control Using Chemical Process Simulators and SCADA Systems](https://doi.org/10.3390/methane5010008)
+
+Heat exchanger / HEN program precedent:
+
+- [Galigeigei-Z/HDA-Surrogate-Optimization](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization)
+
+MCP architecture precedent:
+
+- [gsi-lab/APS-Agent](https://github.com/gsi-lab/APS-Agent) - AVEVA Process Simulation MCP example; adjacent architecture reference only
 
 ## Publishing Note
 

@@ -152,3 +152,11 @@ AI-HYSYS-Skill 也必须延续这条思路。
 2. `SKILL.md` 是否真的可触发并指导 Codex 做事
 3. `CASE/source-index.md` 是否能让访客快速看到官方证据
 4. 是否准备了 2 到 3 个真实演示任务或截图
+
+## 2026-07-01 换热器 AI/HYSYS 结论
+
+新增 [heat-exchanger-ai-control-patterns-2026-07-01.md](heat-exchanger-ai-control-patterns-2026-07-01.md) 和 [references/heat-exchanger-ai-patterns.md](../../references/heat-exchanger-ai-patterns.md)。本轮结论是：换热器、HEN、Aspen EDR、`Delta Tmin`、LNG 冷箱和低温换热器任务可以纳入 AI-HYSYS-Skill，但必须表述为“已有 HYSYS/EDR case 的候选优化、回算验证和报告支持”。ML、灰箱、GA、BO、PSO 等算法只负责提出候选条件，最终接受必须依赖 HYSYS/EDR workcopy 回算、KPI 导出、失败样本记录和人工验收。不得宣称 AI 已能可靠从零生成 HYSYS 换热器模型，也不得把外部预测或 Excel-only 计算说成 HYSYS-native 结果。
+
+## 2026-07-03 MCP / wrapper / text-to-flowsheet 结论
+
+新增 [heartbeat-scan-2026-07-03.md](heartbeat-scan-2026-07-03.md)。本轮检索没有改变项目主边界，但补强三类证据：`aspen-pysys` 0.1.0a3 是 HYSYS Python wrapper 候选，因 alpha、GPL-3.0-or-later、Python/pywin32 要求高且未本地验证，不能作为默认依赖；`gsi-lab/APS-Agent` 是 AVEVA Process Simulation 的 MCP 相邻实现，只能用于学习 tool schema、read-only-first、single-workcopy lock、audit log 和 rollback 设计，不能当成 HYSYS API；RSC/Zenodo `Text-to-flowsheet` 是 Graph-IR 和黑箱优化相邻证据，只能支持“候选意图 -> 显式中间表示 -> simulator 回算 -> 人工验收”的规则，不支持宣称 HYSYS 从零建模已可靠。

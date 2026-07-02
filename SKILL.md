@@ -26,6 +26,8 @@ Read [references/control-lane-decision-matrix.md](references/control-lane-decisi
 
 Read [references/digital-twin-boundary.md](references/digital-twin-boundary.md) when the user asks for HYSYS digital twin, hybrid AI, soft sensor, historian, monitoring, yield optimization, or emissions optimization support.
 
+Read [references/heat-exchanger-ai-patterns.md](references/heat-exchanger-ai-patterns.md) when the user asks for heat exchanger, Aspen EDR, HEN, pinch, `Delta Tmin`, heat duty, LNG cold-box, cryogenic heat-exchanger, or exchanger AI optimization support.
+
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
@@ -161,6 +163,12 @@ If the task mentions online digital twins, Aspen OnLine, AI Model Builder, or Hy
 5. audit and human acceptance
 
 If the task mentions data-driven simulation, surrogate models, machine learning models, or ML-based soft sensors, treat HYSYS as the validated data source and baseline. Require an explicit design space, variable map, train/validation/test split, error metrics, model validity range, extrapolation limits, and human review path. Do not let a surrogate replace HYSYS runtime validation unless the user provides an approved project procedure.
+
+If the task mentions heat exchangers, Aspen EDR, HEN, pinch analysis, `Delta Tmin`, exchanger duty prediction, cryogenic heat exchangers, LNG cold boxes, or exchanger AI optimization, classify AI/ML/optimizer output as an advisory candidate layer. Require the source HYSYS or HYSYS/EDR case, exchanger and stream name map, hot/cold stream schema, manipulated variables and bounds, heat-duty/outlet-temperature/approach-temperature/pressure-drop KPIs, failed-sample logging, HYSYS or EDR workcopy readback, and human acceptance before reporting any recommendation as accepted.
+
+If the task mentions third-party HYSYS Python wrappers such as `aspen-pysys` or `aspen_pysys`, do not adopt them as default dependencies. First check license compatibility, alpha/stability status, Python and `pywin32` requirements, whether an existing HYSYS case and COM runtime are available, and whether the wrapper has been smoke-tested in the current workspace. If any check fails, keep using the repository's direct COM starter and spreadsheet/workbook bridge guidance.
+
+If the task mentions MCP, MCP server, tool server, remote simulator node, or protocol-based simulation control, treat MCP as an orchestration boundary above the existing lanes, not as simulator authority by itself. Require explicit read/write operations, units, schemas, access-control assumptions, single-workcopy lock policy, dry-run mode, audit logs, failure behavior, rollback behavior, and human acceptance before any write-capable HYSYS tool is enabled. AVEVA APS MCP examples are architecture references only, not portable HYSYS APIs.
 
 If the task mentions HYSYS Dynamics, online simulation, live process digital twin, Aspen OnLine, production planning, PIMS, distributed control systems, or APC, split the work into offline model preparation, dynamic/online conversion prerequisites, external commercial-system boundaries, validation evidence, and human acceptance. Do not imply this skill can publish online models, replace PIMS/APC/DCS, or close a production loop by itself.
 
