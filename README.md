@@ -370,6 +370,7 @@ Heat exchanger / HEN program precedent:
 
 MCP architecture precedent:
 
+- [yuuyo-arobet/AspenHYSYS-MCP-Server](https://github.com/yuuyo-arobet/AspenHYSYS-MCP-Server) - HYSYS-specific MCP + COM community candidate; useful for read-only-first, mode-gated tool design, not a default dependency
 - [gsi-lab/APS-Agent](https://github.com/gsi-lab/APS-Agent) - AVEVA Process Simulation MCP example; adjacent architecture reference only
 
 ## Publishing Note

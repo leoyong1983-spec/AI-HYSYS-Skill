@@ -160,3 +160,7 @@ AI-HYSYS-Skill 也必须延续这条思路。
 ## 2026-07-03 MCP / wrapper / text-to-flowsheet 结论
 
 新增 [heartbeat-scan-2026-07-03.md](heartbeat-scan-2026-07-03.md)。本轮检索没有改变项目主边界，但补强三类证据：`aspen-pysys` 0.1.0a3 是 HYSYS Python wrapper 候选，因 alpha、GPL-3.0-or-later、Python/pywin32 要求高且未本地验证，不能作为默认依赖；`gsi-lab/APS-Agent` 是 AVEVA Process Simulation 的 MCP 相邻实现，只能用于学习 tool schema、read-only-first、single-workcopy lock、audit log 和 rollback 设计，不能当成 HYSYS API；RSC/Zenodo `Text-to-flowsheet` 是 Graph-IR 和黑箱优化相邻证据，只能支持“候选意图 -> 显式中间表示 -> simulator 回算 -> 人工验收”的规则，不支持宣称 HYSYS 从零建模已可靠。
+
+## 2026-07-04 HYSYS-specific MCP server 结论
+
+新增 [heartbeat-scan-2026-07-04.md](heartbeat-scan-2026-07-04.md)。`yuuyo-arobet/AspenHYSYS-MCP-Server` 是当前 CASE 中更直接的 HYSYS MCP 社区证据：它明确以 Windows Python、pywin32 和 HYSYS COM 为执行层，README 声称提供 51 个工具、`HYSYS_MCP_MODE` 安全模式门、默认不公开写入工具，并有 HYSYS V14 实机验证记录。项目应吸收它的架构经验：MCP 适合作为 COM / spreadsheet / workbook lane 上方的工具编排层，必须坚持 read-only-first、mode gate、dry-run、single-workcopy lock、audit log、失败回滚和人工验收。它不能成为默认依赖，因为这是第三方社区仓库、公开采用信号很低，且本仓库没有对它做本地 HYSYS runtime smoke test。

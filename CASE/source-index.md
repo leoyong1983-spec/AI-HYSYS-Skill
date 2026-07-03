@@ -98,6 +98,17 @@
 | 研究/相邻 | [research/text-to-flowsheet-zenodo-19910216-2026-07-03.json](research/text-to-flowsheet-zenodo-19910216-2026-07-03.json) | Text-to-flowsheet RSC/Zenodo 元数据快照；LLM-assisted flowsheet digitization、Graph-IR、black-box optimization 相邻证据 | [RSC article](https://pubs.rsc.org/en/content/articlelanding/2026/dd/d6dd00060f), [Zenodo record](https://zenodo.org/records/19910216) | B 相邻；不证明 HYSYS greenfield 可靠 |
 | 心跳记录 | [notes/heartbeat-scan-2026-07-03.md](notes/heartbeat-scan-2026-07-03.md) | 2026-07-03 心跳记录：aspen-pysys 0.1.0a3、APS-Agent、Text-to-flowsheet 的价值判断和项目边界更新 | 本仓库 | 本轮维护摘要 |
 
+## 2026-07-04 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 社区/直接 | [community/aspen-hysys-mcp-server-readme-2026-07-04.md](community/aspen-hysys-mcp-server-readme-2026-07-04.md) | `yuuyo-arobet/AspenHYSYS-MCP-Server` README 快照；HYSYS-specific MCP + pywin32/COM 控制候选，包含 51 tools、只读/会话/写入模式门和 HYSYS V14 实机验证声明 | [yuuyo-arobet/AspenHYSYS-MCP-Server](https://github.com/yuuyo-arobet/AspenHYSYS-MCP-Server) | B+ 直接社区证据；不作为默认依赖 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-metadata-2026-07-04.json](community/aspen-hysys-mcp-server-metadata-2026-07-04.json) | GitHub 元数据快照，记录描述、许可证、更新时间和仓库状态 | [GitHub API](https://api.github.com/repos/yuuyo-arobet/AspenHYSYS-MCP-Server) | MIT；低公开采用信号，需本地复核 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-tree-2026-07-04.json](community/aspen-hysys-mcp-server-tree-2026-07-04.json) | 仓库 tree 快照；用于确认 `src/hysys_mcp`、tool 分层、registry、tests 和 docs 结构 | [GitHub tree](https://api.github.com/repos/yuuyo-arobet/AspenHYSYS-MCP-Server/git/trees/main?recursive=1) | 只记录结构，不下载整仓库 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-architecture-2026-07-04.md](community/aspen-hysys-mcp-server-architecture-2026-07-04.md) | 架构说明快照；用于学习 MCP server、COM client、tool registry、mode gate 和测试分层 | [architecture doc](https://raw.githubusercontent.com/yuuyo-arobet/AspenHYSYS-MCP-Server/main/docs/ARCHITECTURE.md) | 设计参考，不等同于本仓库 runtime 验证 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-license-2026-07-04.txt](community/aspen-hysys-mcp-server-license-2026-07-04.txt) | MIT license 快照 | [raw license](https://raw.githubusercontent.com/yuuyo-arobet/AspenHYSYS-MCP-Server/main/LICENSE) | 许可证证据 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-04.md](notes/heartbeat-scan-2026-07-04.md) | 2026-07-04 心跳记录：HYSYS-specific MCP server 价值判断、未采纳默认依赖原因和项目边界更新 | 本仓库 | 本轮维护摘要 |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。
