@@ -109,6 +109,18 @@
 | 社区/直接 | [community/aspen-hysys-mcp-server-license-2026-07-04.txt](community/aspen-hysys-mcp-server-license-2026-07-04.txt) | MIT license 快照 | [raw license](https://raw.githubusercontent.com/yuuyo-arobet/AspenHYSYS-MCP-Server/main/LICENSE) | 许可证证据 |
 | 心跳记录 | [notes/heartbeat-scan-2026-07-04.md](notes/heartbeat-scan-2026-07-04.md) | 2026-07-04 心跳记录：HYSYS-specific MCP server 价值判断、未采纳默认依赖原因和项目边界更新 | 本仓库 | 本轮维护摘要 |
 
+## 2026-07-05 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 社区/直接 | [community/simulator-codingplatform-integration-readme-2026-07-05.md](community/simulator-codingplatform-integration-readme-2026-07-05.md) | `Anikesh31/simulator_codingplatform_integration` README 快照；补强 HYSYS + Python/MATLAB 连接、对象/属性读取、backdoor variables、方法参数检查和 TEA 示例证据 | [Anikesh31/simulator_codingplatform_integration](https://github.com/Anikesh31/simulator_codingplatform_integration) | B+；与 DOI `10.1016/j.compchemeng.2025.109247` 对应，许可证未识别 |
+| 社区/直接 | [community/simulator-codingplatform-integration-metadata-2026-07-05.json](community/simulator-codingplatform-integration-metadata-2026-07-05.json) | GitHub 元数据快照，记录公开状态、更新时间、星标和 license 字段 | [GitHub API](https://api.github.com/repos/Anikesh31/simulator_codingplatform_integration) | 只作证据，不作为默认依赖 |
+| 社区/直接 | [community/simulator-codingplatform-integration-tree-2026-07-05.json](community/simulator-codingplatform-integration-tree-2026-07-05.json) | 仓库 tree 快照；用于确认教程代码结构 | [GitHub tree](https://api.github.com/repos/Anikesh31/simulator_codingplatform_integration/git/trees/main?recursive=1) | 不下载整仓库 |
+| 社区/直接 | [community/pysis-readme-2026-07-05.md](community/pysis-readme-2026-07-05.md) | `DanielVazVaz/PySIS` README 快照；HYSYS COM 抽象层候选，README 声称支持 HYSYS V11/V12/V14 | [DanielVazVaz/PySIS](https://github.com/DanielVazVaz/PySIS) | B；许可证未识别，未做本地 runtime 验证 |
+| 社区/直接 | [community/pysis-metadata-2026-07-05.json](community/pysis-metadata-2026-07-05.json) | GitHub 元数据快照，记录公开状态、更新时间、星标、fork 和 license 字段 | [GitHub API](https://api.github.com/repos/DanielVazVaz/PySIS) | Wrapper watchlist，不作为默认依赖 |
+| 社区/直接 | [community/pysis-tree-2026-07-05.json](community/pysis-tree-2026-07-05.json) | 仓库 tree 快照；用于确认包结构和文档入口 | [GitHub tree](https://api.github.com/repos/DanielVazVaz/PySIS/git/trees/master?recursive=1) | 不下载整仓库 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-05.md](notes/heartbeat-scan-2026-07-05.md) | 2026-07-05 心跳记录：HYSYS coding-platform companion repo、PySIS wrapper 的价值判断和未采纳默认依赖原因 | 本仓库 | 本轮维护摘要 |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。

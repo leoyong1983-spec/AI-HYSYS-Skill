@@ -164,3 +164,7 @@ AI-HYSYS-Skill 也必须延续这条思路。
 ## 2026-07-04 HYSYS-specific MCP server 结论
 
 新增 [heartbeat-scan-2026-07-04.md](heartbeat-scan-2026-07-04.md)。`yuuyo-arobet/AspenHYSYS-MCP-Server` 是当前 CASE 中更直接的 HYSYS MCP 社区证据：它明确以 Windows Python、pywin32 和 HYSYS COM 为执行层，README 声称提供 51 个工具、`HYSYS_MCP_MODE` 安全模式门、默认不公开写入工具，并有 HYSYS V14 实机验证记录。项目应吸收它的架构经验：MCP 适合作为 COM / spreadsheet / workbook lane 上方的工具编排层，必须坚持 read-only-first、mode gate、dry-run、single-workcopy lock、audit log、失败回滚和人工验收。它不能成为默认依赖，因为这是第三方社区仓库、公开采用信号很低，且本仓库没有对它做本地 HYSYS runtime smoke test。
+
+## 2026-07-05 HYSYS coding-platform / wrapper 结论
+
+新增 [heartbeat-scan-2026-07-05.md](heartbeat-scan-2026-07-05.md)。`Anikesh31/simulator_codingplatform_integration` 补强了已入库 2025 Computers & Chemical Engineering 论文的公开代码侧证据，适合学习 HYSYS 对象读取、backdoor variables、方法参数检查、Python/MATLAB 连接和 TEA 示例；`DanielVazVaz/PySIS` 补强了 HYSYS COM 抽象层的社区 wrapper 证据，README 声称覆盖 HYSYS V11/V12/V14。两者都不作为默认依赖：GitHub API 未识别许可证，本仓库未做本地 HYSYS runtime smoke test，且外部 wrapper 不能替代 direct COM / spreadsheet / workbook lane 的可审计控制规则。
