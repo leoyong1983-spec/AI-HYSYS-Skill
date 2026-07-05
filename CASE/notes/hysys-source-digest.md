@@ -168,3 +168,7 @@ AI-HYSYS-Skill 也必须延续这条思路。
 ## 2026-07-05 HYSYS coding-platform / wrapper 结论
 
 新增 [heartbeat-scan-2026-07-05.md](heartbeat-scan-2026-07-05.md)。`Anikesh31/simulator_codingplatform_integration` 补强了已入库 2025 Computers & Chemical Engineering 论文的公开代码侧证据，适合学习 HYSYS 对象读取、backdoor variables、方法参数检查、Python/MATLAB 连接和 TEA 示例；`DanielVazVaz/PySIS` 补强了 HYSYS COM 抽象层的社区 wrapper 证据，README 声称覆盖 HYSYS V11/V12/V14。两者都不作为默认依赖：GitHub API 未识别许可证，本仓库未做本地 HYSYS runtime smoke test，且外部 wrapper 不能替代 direct COM / spreadsheet / workbook lane 的可审计控制规则。
+
+## 2026-07-06 `ap-python` wrapper 结论
+
+新增 [heartbeat-scan-2026-07-06.md](heartbeat-scan-2026-07-06.md)。`bsha0/ap-python` 是 MIT 许可的 Aspen Plus / Aspen HYSYS Python automation package，README 展示了 HYSYS moniker、`find_node`、`get_units`、`get_value`、`set_value`、`save` 和 `saveas` 包装模式。它补强了“变量 moniker + 单位感知 get/set wrapper”是公开存在的 HYSYS 自动化模式，但仓库较老、采用信号有限且本仓库未做 runtime smoke test，因此只进入 wrapper watchlist，不作为默认依赖。本轮还核对了 2026 LNG cold energy GA 论文；因原文未包含明确 Aspen/HYSYS 证据，未作为 HYSYS source pack 资料入库。

@@ -343,6 +343,7 @@ Community bridge example:
 - [aspen-pysys PyPI package](https://pypi.org/project/aspen-pysys/) - tracked as an alpha wrapper candidate, not a default dependency
 - [Anikesh31/simulator_codingplatform_integration](https://github.com/Anikesh31/simulator_codingplatform_integration) - companion-style HYSYS Python/MATLAB tutorial for object inspection and backdoor variables, not a default dependency
 - [DanielVazVaz/PySIS](https://github.com/DanielVazVaz/PySIS) - HYSYS COM abstraction-layer candidate, tracked for API ergonomics, not a default dependency
+- [bsha0/ap-python](https://github.com/bsha0/ap-python) - MIT Aspen Plus/HYSYS Python automation wrapper with HYSYS moniker get/set examples, not a default dependency
 
 Recent AI paper:
 

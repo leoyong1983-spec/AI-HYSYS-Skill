@@ -121,6 +121,16 @@
 | 社区/直接 | [community/pysis-tree-2026-07-05.json](community/pysis-tree-2026-07-05.json) | 仓库 tree 快照；用于确认包结构和文档入口 | [GitHub tree](https://api.github.com/repos/DanielVazVaz/PySIS/git/trees/master?recursive=1) | 不下载整仓库 |
 | 心跳记录 | [notes/heartbeat-scan-2026-07-05.md](notes/heartbeat-scan-2026-07-05.md) | 2026-07-05 心跳记录：HYSYS coding-platform companion repo、PySIS wrapper 的价值判断和未采纳默认依赖原因 | 本仓库 | 本轮维护摘要 |
 
+## 2026-07-06 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 社区/直接 | [community/ap-python-readme-2026-07-06.md](community/ap-python-readme-2026-07-06.md) | `bsha0/ap-python` README 快照；Aspen Plus/HYSYS Python automation package，展示 HYSYS moniker、`get_units`、`get_value`、`set_value`、`save` 和 `saveas` 包装模式 | [bsha0/ap-python](https://github.com/bsha0/ap-python) | B；MIT，老仓库，未做本地 runtime 验证 |
+| 社区/直接 | [community/ap-python-metadata-2026-07-06.json](community/ap-python-metadata-2026-07-06.json) | GitHub 元数据快照，记录公开状态、更新时间、星标、fork 和 license 字段 | [GitHub API](https://api.github.com/repos/bsha0/ap-python) | Wrapper watchlist，不作为默认依赖 |
+| 社区/直接 | [community/ap-python-tree-2026-07-06.json](community/ap-python-tree-2026-07-06.json) | 仓库 tree 快照；用于确认包结构、测试和 HYSYS/Plus 子模块入口 | [GitHub tree](https://api.github.com/repos/bsha0/ap-python/git/trees/master?recursive=1) | 不下载整仓库 |
+| 社区/直接 | [community/ap-python-license-2026-07-06.txt](community/ap-python-license-2026-07-06.txt) | MIT license 快照 | [raw license](https://raw.githubusercontent.com/bsha0/ap-python/master/LICENSE) | 许可证证据 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-06.md](notes/heartbeat-scan-2026-07-06.md) | 2026-07-06 心跳记录：`ap-python` 价值判断、LNG 冷能 GA 论文未采纳原因和 wrapper watchlist 更新 | 本仓库 | 本轮维护摘要 |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。
