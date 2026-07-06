@@ -1,0 +1,161 @@
+{
+  "DOI": "10.1016/j.dche.2026.100312",
+  "title": [
+    "Large language model agent for user-friendly chemical process simulations"
+  ],
+  "container-title": [
+    "Digital Chemical Engineering"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        14
+      ]
+    ],
+    "date-time": "2026-05-14T14:11:10Z",
+    "timestamp": 1778767870000
+  },
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        4
+      ]
+    ],
+    "date-time": "2026-07-04T00:44:50Z",
+    "timestamp": 1783125890000
+  },
+  "type": "journal-article",
+  "publisher": "Elsevier BV",
+  "URL": "https://doi.org/10.1016/j.dche.2026.100312",
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2772508126000256"
+    }
+  },
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2026-06-01T00:00:00Z",
+        "timestamp": 1780272000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2026-06-01T00:00:00Z",
+        "timestamp": 1780272000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            5
+          ]
+        ],
+        "date-time": "2026-05-05T00:00:00Z",
+        "timestamp": 1777939200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-0815-3135",
+      "authenticated-orcid": false,
+      "given": "Jingkang",
+      "family": "Liang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0493-2270",
+      "authenticated-orcid": false,
+      "given": "Niklas",
+      "family": "Groll",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0513-4502",
+      "authenticated-orcid": false,
+      "given": "Gürkan",
+      "family": "Sin",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "ISSN": [
+    "2772-5081"
+  ],
+  "alternative-id": [
+    "S2772508126000256"
+  ],
+  "is-referenced-by-count": 2,
+  "short-container-title": [
+    "Digital Chemical Engineering"
+  ],
+  "source_url": "https://api.crossref.org/works?query.title=Large%20Language%20Model%20Agent%20for%20User-friendly%20Chemical%20Process%20Simulations&rows=3",
+  "captured_date": "2026-07-07"
+}

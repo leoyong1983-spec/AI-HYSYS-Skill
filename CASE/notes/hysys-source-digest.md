@@ -172,3 +172,9 @@ AI-HYSYS-Skill 也必须延续这条思路。
 ## 2026-07-06 `ap-python` wrapper 结论
 
 新增 [heartbeat-scan-2026-07-06.md](heartbeat-scan-2026-07-06.md)。`bsha0/ap-python` 是 MIT 许可的 Aspen Plus / Aspen HYSYS Python automation package，README 展示了 HYSYS moniker、`find_node`、`get_units`、`get_value`、`set_value`、`save` 和 `saveas` 包装模式。它补强了“变量 moniker + 单位感知 get/set wrapper”是公开存在的 HYSYS 自动化模式，但仓库较老、采用信号有限且本仓库未做 runtime smoke test，因此只进入 wrapper watchlist，不作为默认依赖。本轮还核对了 2026 LNG cold energy GA 论文；因原文未包含明确 Aspen/HYSYS 证据，未作为 HYSYS source pack 资料入库。
+
+## 2026-07-07 HYSYS automation / LLM-agent 期刊元数据结论
+
+新增 [heartbeat-scan-2026-07-07.md](heartbeat-scan-2026-07-07.md)。`Automation in the simulation of processes with Aspen HYSYS: An academic approach` 的 Crossref 元数据确认，HYSYS 自动化本身已经是可发表、可教学、可结构化的工程教育主题；这补强了本项目把 Excel/VBA/spreadsheet bridge 视为合法稳定 IO 层的依据。项目规则不变：direct COM 或 proven project runner 仍是 case 生命周期主通道，Excel/VBA/spreadsheet 更适合作为变量面板和批量 IO 桥，所有写入都必须落在 workcopy、solver policy、schema、日志和人工验收框架内。
+
+`Large language model agent for user-friendly chemical process simulations` 的 Crossref 元数据确认了 Digital Chemical Engineering 期刊版 DOI `10.1016/j.dche.2026.100312`。它继续支持 MCP / tool server / step-by-step simulator-agent 架构，但仍属于相邻流程模拟证据，不是 HYSYS 专属 API，也不支持把 AI 从零建模写成生产默认能力。

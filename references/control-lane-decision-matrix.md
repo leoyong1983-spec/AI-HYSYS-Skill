@@ -91,3 +91,12 @@ Rollback: restore saved workcopy if binding or solver failure occurs.
 3. `data tables` 和 `indirect communication` 要写进 fallback 体系，但不能压过 direct COM 与 workbook bridge。
 4. SCADA / Modbus / OPC-style bridge 是外部监督和测试台通道，不是默认生产控制通道。
 5. AI 从零创建复杂 HYSYS flowsheet 仍只适合研究或 smoke test，不适合默认工程交付。
+
+## 2026-07-07 evidence update
+
+The Crossref metadata for `Automation in the simulation of processes with Aspen HYSYS: An academic approach` (DOI `10.1002/cae.22589`) reinforces the matrix position that HYSYS automation is an established engineering workflow, not a one-off scripting trick. For this repository, the practical rule is:
+
+1. Use direct COM or a proven project runner for case lifecycle actions: launch, open, save, save-as, close, freeze, and export.
+2. Use Excel/VBA/spreadsheet/workbook bridges as legitimate tagged IO lanes when the case already exposes stable variables through them.
+3. Do not let a convenient spreadsheet bridge hide missing units, solver policy, object names, or human acceptance.
+4. Do not treat an external automation article as local runtime validation; every project still needs a readiness check and one-point smoke test before batch writes.

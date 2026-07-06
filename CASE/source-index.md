@@ -131,6 +131,14 @@
 | 社区/直接 | [community/ap-python-license-2026-07-06.txt](community/ap-python-license-2026-07-06.txt) | MIT license 快照 | [raw license](https://raw.githubusercontent.com/bsha0/ap-python/master/LICENSE) | 许可证证据 |
 | 心跳记录 | [notes/heartbeat-scan-2026-07-06.md](notes/heartbeat-scan-2026-07-06.md) | 2026-07-06 心跳记录：`ap-python` 价值判断、LNG 冷能 GA 论文未采纳原因和 wrapper watchlist 更新 | 本仓库 | 本轮维护摘要 |
 
+## 2026-07-07 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 研究/直接 | [research/hysys-automation-aspen-excel-vba-cae-2023-crossref.json](research/hysys-automation-aspen-excel-vba-cae-2023-crossref.json) | Crossref 元数据：`Automation in the simulation of processes with Aspen HYSYS: An academic approach`，补强 HYSYS 自动化、Excel/VBA/外部脚本控制通道证据 | [DOI 10.1002/cae.22589](https://doi.org/10.1002/cae.22589) | B+；元数据可访问，PDF 下载返回非 PDF，未保存伪文件 |
+| 研究/相邻 | [research/llm-agent-process-simulation-crossref-2026-07-07.json](research/llm-agent-process-simulation-crossref-2026-07-07.json) | Crossref 元数据：`Large language model agent for user-friendly chemical process simulations`，确认 Digital Chemical Engineering 期刊版 DOI、发布日期和许可信息 | [DOI 10.1016/j.dche.2026.100312](https://doi.org/10.1016/j.dche.2026.100312) | B；相邻 APS/MCP agent 证据，不是 HYSYS 专属 API |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-07.md](notes/heartbeat-scan-2026-07-07.md) | 2026-07-07 心跳记录：HYSYS 自动化 CAE 论文、LLM-agent 期刊元数据、未采纳官方课程/LinkedIn/泛 MCP 资料原因 | 本仓库 | 本轮维护摘要 |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。
