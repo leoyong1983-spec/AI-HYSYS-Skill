@@ -178,3 +178,7 @@ AI-HYSYS-Skill 也必须延续这条思路。
 新增 [heartbeat-scan-2026-07-07.md](heartbeat-scan-2026-07-07.md)。`Automation in the simulation of processes with Aspen HYSYS: An academic approach` 的 Crossref 元数据确认，HYSYS 自动化本身已经是可发表、可教学、可结构化的工程教育主题；这补强了本项目把 Excel/VBA/spreadsheet bridge 视为合法稳定 IO 层的依据。项目规则不变：direct COM 或 proven project runner 仍是 case 生命周期主通道，Excel/VBA/spreadsheet 更适合作为变量面板和批量 IO 桥，所有写入都必须落在 workcopy、solver policy、schema、日志和人工验收框架内。
 
 `Large language model agent for user-friendly chemical process simulations` 的 Crossref 元数据确认了 Digital Chemical Engineering 期刊版 DOI `10.1016/j.dche.2026.100312`。它继续支持 MCP / tool server / step-by-step simulator-agent 架构，但仍属于相邻流程模拟证据，不是 HYSYS 专属 API，也不支持把 AI 从零建模写成生产默认能力。
+
+## 2026-07-10 PSE/LLM 综述结论
+
+新增 [heartbeat-scan-2026-07-10.md](heartbeat-scan-2026-07-10.md)。`Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges` 是一篇 2026-06-10 提交的 PSE/LLM 综述，覆盖 process modeling and simulation、optimization and scheduling、process control、fault detection and diagnosis 等方向。它对本项目最有用的不是扩大能力边界，而是强化边界：LLM 对文档查询、非结构化知识综合、人机交互和报告解释有明确价值；但实时执行、约束满足和形式化安全保证仍然困难。因此 AI-HYSYS-Skill 继续保持“已有 HYSYS case 接管 + 脚本化验证 + 人工验收”的定位，不把广义 PSE 综述解读为 HYSYS 生产级从零建模已经可靠。

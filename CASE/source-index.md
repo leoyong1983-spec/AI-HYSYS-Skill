@@ -139,6 +139,14 @@
 | 研究/相邻 | [research/llm-agent-process-simulation-crossref-2026-07-07.json](research/llm-agent-process-simulation-crossref-2026-07-07.json) | Crossref 元数据：`Large language model agent for user-friendly chemical process simulations`，确认 Digital Chemical Engineering 期刊版 DOI、发布日期和许可信息 | [DOI 10.1016/j.dche.2026.100312](https://doi.org/10.1016/j.dche.2026.100312) | B；相邻 APS/MCP agent 证据，不是 HYSYS 专属 API |
 | 心跳记录 | [notes/heartbeat-scan-2026-07-07.md](notes/heartbeat-scan-2026-07-07.md) | 2026-07-07 心跳记录：HYSYS 自动化 CAE 论文、LLM-agent 期刊元数据、未采纳官方课程/LinkedIn/泛 MCP 资料原因 | 本仓库 | 本轮维护摘要 |
 
+## 2026-07-10 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 研究/相邻 | [research/llm-pse-survey-arxiv-2606.11589-abstract-2026-07-10.html](research/llm-pse-survey-arxiv-2606.11589-abstract-2026-07-10.html) | arXiv 摘要页：`Large Language Models in Process Systems Engineering`，确认 2026-06-10 提交、作者、摘要和 DOI | [arXiv 2606.11589](https://arxiv.org/abs/2606.11589) | B；PSE/LLM 相邻综述，不是 HYSYS 专属证据 |
+| 研究/相邻 | [research/llm-pse-survey-arxiv-2606.11589.pdf](research/llm-pse-survey-arxiv-2606.11589.pdf) | 论文 PDF；用于沉淀 LLM 在 PSE 的机会、架构、工业部署挑战，以及“能力展示 vs 愿景主张”的边界 | [PDF](https://arxiv.org/pdf/2606.11589) | 真 PDF；用于边界规则，不用于声明 HYSYS 从零建模可靠 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-10.md](notes/heartbeat-scan-2026-07-10.md) | 2026-07-10 心跳记录：PSE/LLM 综述的价值判断、未采纳重复资料原因和项目边界影响 | 本仓库 | 本轮维护摘要 |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。

@@ -168,3 +168,12 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 ## 与控制通道矩阵的关系
 
 [control-lane-decision-matrix.md](control-lane-decision-matrix.md) 回答“用什么通道控制 HYSYS”；本文件回答“digital twin / hybrid AI 证据能支持什么项目主张”。两者要一起用，不能互相替代。
+
+## 2026-07-10 LLM/PSE Survey Evidence Update
+
+The arXiv survey `Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges` (arXiv `2606.11589`) supports a conservative boundary for AI-HYSYS-Skill:
+
+1. LLMs are most defensible for natural-language documentation search, unstructured knowledge synthesis, workflow planning, report explanation, and human-machine interaction.
+2. Real-time execution, hard constraint satisfaction, process control, and formal safety guarantees remain high-risk areas that require explicit project procedures, simulator readback, and human acceptance.
+3. Broad PSE evidence must not be converted into a claim that AI can reliably build or operate production HYSYS models from zero.
+4. For HYSYS digital twin or hybrid-AI tasks, continue to separate offline case preparation, plant data, surrogate/hybrid model scope, online layer, audit trail, and human acceptance.
