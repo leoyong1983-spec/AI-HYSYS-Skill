@@ -182,3 +182,9 @@ AI-HYSYS-Skill 也必须延续这条思路。
 ## 2026-07-10 PSE/LLM 综述结论
 
 新增 [heartbeat-scan-2026-07-10.md](heartbeat-scan-2026-07-10.md)。`Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges` 是一篇 2026-06-10 提交的 PSE/LLM 综述，覆盖 process modeling and simulation、optimization and scheduling、process control、fault detection and diagnosis 等方向。它对本项目最有用的不是扩大能力边界，而是强化边界：LLM 对文档查询、非结构化知识综合、人机交互和报告解释有明确价值；但实时执行、约束满足和形式化安全保证仍然困难。因此 AI-HYSYS-Skill 继续保持“已有 HYSYS case 接管 + 脚本化验证 + 人工验收”的定位，不把广义 PSE 综述解读为 HYSYS 生产级从零建模已经可靠。
+
+## 2026-07-12 OTS / HYSYS Dynamics fertilizer evidence conclusion
+
+New note: [heartbeat-scan-2026-07-12.md](heartbeat-scan-2026-07-12.md). The useful new signal is not a new AI-control paper; it is industry evidence that Aspen HYSYS Dynamics and HYSYS-based OTS are being used in OPTIMIZE 26 operating contexts, including ammonia/urea facilities and first-principles urea-plant operator training.
+
+Project conclusion: this strengthens AI-HYSYS-Skill for existing HYSYS Dynamics case takeover, OTS scenario documentation, DCS/SIS loop mapping review, KPI export, and training/reporting support. It does not change the core boundary: embedded DCS/SIS logic inside a simulator is training and validation evidence, not authorization for production writeback or autonomous AI control. For ammonia/urea or `NH3-CO2-H2O` dynamic tasks, the skill should require the property-package basis, dynamic case provenance, scenario list, failure behavior, and human acceptance before any engineering conclusion.

@@ -177,3 +177,19 @@ The arXiv survey `Large Language Models in Process Systems Engineering: Opportun
 2. Real-time execution, hard constraint satisfaction, process control, and formal safety guarantees remain high-risk areas that require explicit project procedures, simulator readback, and human acceptance.
 3. Broad PSE evidence must not be converted into a claim that AI can reliably build or operate production HYSYS models from zero.
 4. For HYSYS digital twin or hybrid-AI tasks, continue to separate offline case preparation, plant data, surrogate/hybrid model scope, online layer, audit trail, and human acceptance.
+
+## 2026-07-12 OTS / Fertilizer Dynamic-Simulation Evidence Update
+
+The OPTIMIZE 26 industry sources saved under `CASE/community/` add direct operating-context evidence for Aspen HYSYS Dynamics and HYSYS-based operator-training systems:
+
+1. `inprocess-optimize26-technical-contributions-2026-07-12.html` lists Aspen HYSYS-based OTS, Aspen HYSYS Dynamics-based OTS, real-time dynamic simulation, and digital twin technical contributions.
+2. `inprocess-urea-plant-ots-hysys-dynamics-2026-07-12.html` describes a urea-plant OTS for ammonia and urea facilities built on Aspen HYSYS Dynamics with Aspen Properties and ElecNRTL for `NH3-CO2-H2O` chemistry.
+3. `inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf` reinforces the HYSYS Dynamics OTS pattern through a downloadable OPTIMIZE 26 poster.
+
+Project boundary:
+
+1. Treat OTS, HYSYS Dynamics, and operator-training work as dynamic-simulation / training-system support, not production-loop control.
+2. Require an existing dynamic case or validated conversion plan before any OTS-style task.
+3. Require property-package basis, dynamic holdup and pressure-flow assumptions, DCS/SIS loop mapping, scenario list, trainer acceptance criteria, and rollback/failure behavior.
+4. DCS loops and SIS interlocks embedded in a simulator are training and validation artifacts unless the project has a separate qualified safety review and production-system approval.
+5. Do not imply that AI-HYSYS-Skill can replace commercial OTS platforms, HYSYS Dynamics model-build expertise, DCS/SIS engineering, or operator-training governance.

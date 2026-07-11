@@ -147,6 +147,16 @@
 | 研究/相邻 | [research/llm-pse-survey-arxiv-2606.11589.pdf](research/llm-pse-survey-arxiv-2606.11589.pdf) | 论文 PDF；用于沉淀 LLM 在 PSE 的机会、架构、工业部署挑战，以及“能力展示 vs 愿景主张”的边界 | [PDF](https://arxiv.org/pdf/2606.11589) | 真 PDF；用于边界规则，不用于声明 HYSYS 从零建模可靠 |
 | 心跳记录 | [notes/heartbeat-scan-2026-07-10.md](notes/heartbeat-scan-2026-07-10.md) | 2026-07-10 心跳记录：PSE/LLM 综述的价值判断、未采纳重复资料原因和项目边界影响 | 本仓库 | 本轮维护摘要 |
 
+## 2026-07-12 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Official | [official/aspentech-optimize26-performance-engineering-operations-2026-07-12.html](official/aspentech-optimize26-performance-engineering-operations-2026-07-12.html) | AspenTech OPTIMIZE 26 performance-engineering page; useful for official framing around dynamic process simulation, real-time calibration, digital twin, urea process, and AI in operations. | [AspenTech OPTIMIZE 26 performance engineering](https://solutions.aspentech.com/en/resources/video/performance-engineering-for-operations-at-optimize-26) | B- framing evidence; limited technical detail. |
+| Industry/community | [community/inprocess-optimize26-technical-contributions-2026-07-12.html](community/inprocess-optimize26-technical-contributions-2026-07-12.html) | Industry page listing OPTIMIZE 26 technical contributions, including Aspen HYSYS-based OTS, Aspen HYSYS Dynamics OTS, real-time dynamic simulation, and digital twin methods. | [Inprocess OPTIMIZE 26 contributions](https://inprocessgroup.com/inprocess-achieves-strong-visibility-at-aspentech-optimize-2026-through-multiple-technical-contributions/) | B evidence for HYSYS Dynamics / OTS boundary; not AI autonomous control evidence. |
+| Industry/community | [community/inprocess-urea-plant-ots-hysys-dynamics-2026-07-12.html](community/inprocess-urea-plant-ots-hysys-dynamics-2026-07-12.html) | Urea-plant OTS article stating the OTS is built on Aspen HYSYS Dynamics with Aspen Properties (ElecNRTL) for non-ideal `NH3-CO2-H2O` chemistry and embeds DCS loops and SIS interlocks in simulation. | [Inprocess urea plant OTS](https://inprocessgroup.com/when-a-single-incident-pays-for-a-decade-of-training-a-first-principles-operator-training-system-for-a-urea-plant-and-the-business-case-for-building-one/) | B+ fertilizer / OTS dynamic-simulation evidence; requires human review and does not permit production writeback. |
+| Industry/community | [community/inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf](community/inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf) | Downloadable OPTIMIZE 26 poster reinforcing the Aspen HYSYS Dynamics-based OTS pattern in another plant context. | [Inprocess OPTIMIZE 26 IPA poster PDF](https://inprocessgroup.com/wp-content/uploads/2026/06/OPTIMIZE-26-Poster-IPA_final.pdf) | B evidence; PDF header verified. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-12.md](notes/heartbeat-scan-2026-07-12.md) | 2026-07-12 heartbeat summary, value judgment, adopted boundary changes, and rejected/deferred items. | This repository | Maintenance summary. |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。
