@@ -193,3 +193,19 @@ Project boundary:
 3. Require property-package basis, dynamic holdup and pressure-flow assumptions, DCS/SIS loop mapping, scenario list, trainer acceptance criteria, and rollback/failure behavior.
 4. DCS loops and SIS interlocks embedded in a simulator are training and validation artifacts unless the project has a separate qualified safety review and production-system approval.
 5. Do not imply that AI-HYSYS-Skill can replace commercial OTS platforms, HYSYS Dynamics model-build expertise, DCS/SIS engineering, or operator-training governance.
+
+## 2026-07-13 Official Operator Training Evidence Update
+
+The official AspenTech `Aspen Operator Training` product page saved under `CASE/official/` adds stronger product-level evidence for the same boundary:
+
+1. Aspen Operator Training is positioned as a DCS-agnostic OTS solution using dynamic simulation.
+2. The page explicitly references Inprocess Technology and Consulting Group OTS software.
+3. The page explicitly references the Aspen HYSYS Dynamic Lifecycle.
+4. The linked official OTS FAQ PDF should be treated as supporting operator-training scope and governance evidence.
+
+Project boundary:
+
+1. Treat this as official OTS / HYSYS Dynamics evidence, not autonomous AI production-control evidence.
+2. OTS-style tasks require an existing dynamic case or validated steady-state-to-dynamic conversion plan.
+3. Require property-package basis, dynamic assumptions, DCS/SIS tag and loop mapping, instructor-station or scenario scope, trainee acceptance criteria, replay logs, and human sign-off.
+4. Do not claim this repository can replace Aspen Operator Training, Inprocess OTS, HYSYS Dynamics model-build expertise, DCS/SIS engineering, or operator-training governance.

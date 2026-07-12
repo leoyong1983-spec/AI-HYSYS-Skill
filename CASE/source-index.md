@@ -157,6 +157,14 @@
 | Industry/community | [community/inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf](community/inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf) | Downloadable OPTIMIZE 26 poster reinforcing the Aspen HYSYS Dynamics-based OTS pattern in another plant context. | [Inprocess OPTIMIZE 26 IPA poster PDF](https://inprocessgroup.com/wp-content/uploads/2026/06/OPTIMIZE-26-Poster-IPA_final.pdf) | B evidence; PDF header verified. |
 | Heartbeat note | [notes/heartbeat-scan-2026-07-12.md](notes/heartbeat-scan-2026-07-12.md) | 2026-07-12 heartbeat summary, value judgment, adopted boundary changes, and rejected/deferred items. | This repository | Maintenance summary. |
 
+## 2026-07-13 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Official | [official/aspen-operator-training-product-page-2026-07-13.html](official/aspen-operator-training-product-page-2026-07-13.html) | AspenTech official Aspen Operator Training product page; supports DCS-agnostic OTS, dynamic simulation, Inprocess OTS software, and Aspen HYSYS Dynamic Lifecycle boundary language. | [Aspen Operator Training](https://www.aspentech.com/en/products/engineering/aspen-operator-training) | B+ official OTS / HYSYS Dynamics evidence; not AI autonomous control evidence. |
+| Official | [official/aspen-operator-training-faq-ots-2017.pdf](official/aspen-operator-training-faq-ots-2017.pdf) | Official FAQ PDF linked from the Aspen Operator Training product page; supports OTS scope, training-system positioning, and governance boundaries. | [Top 10 Questions About Aspen Operator Training](https://www.aspentech.com/-/media/aspentech/home/resources/faq-documents/pdfs/fy18/q2/at-03625-faq-ots.pdf?sc_lang=en) | B+ official OTS reference; PDF header verified. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-13.md](notes/heartbeat-scan-2026-07-13.md) | 2026-07-13 heartbeat summary, value judgment, adopted boundary changes, and rejected/deferred items. | This repository | Maintenance summary. |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。

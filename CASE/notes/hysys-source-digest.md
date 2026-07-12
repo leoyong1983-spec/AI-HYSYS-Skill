@@ -188,3 +188,9 @@ AI-HYSYS-Skill 也必须延续这条思路。
 New note: [heartbeat-scan-2026-07-12.md](heartbeat-scan-2026-07-12.md). The useful new signal is not a new AI-control paper; it is industry evidence that Aspen HYSYS Dynamics and HYSYS-based OTS are being used in OPTIMIZE 26 operating contexts, including ammonia/urea facilities and first-principles urea-plant operator training.
 
 Project conclusion: this strengthens AI-HYSYS-Skill for existing HYSYS Dynamics case takeover, OTS scenario documentation, DCS/SIS loop mapping review, KPI export, and training/reporting support. It does not change the core boundary: embedded DCS/SIS logic inside a simulator is training and validation evidence, not authorization for production writeback or autonomous AI control. For ammonia/urea or `NH3-CO2-H2O` dynamic tasks, the skill should require the property-package basis, dynamic case provenance, scenario list, failure behavior, and human acceptance before any engineering conclusion.
+
+## 2026-07-13 Aspen Operator Training official evidence conclusion
+
+New note: [heartbeat-scan-2026-07-13.md](heartbeat-scan-2026-07-13.md). The useful new source is AspenTech's official Aspen Operator Training product page and its linked OTS FAQ PDF. This upgrades the 2026-07-12 Inprocess / OPTIMIZE 26 evidence with official AspenTech product-level support for DCS-agnostic OTS, dynamic simulation, Inprocess OTS software, and Aspen HYSYS Dynamic Lifecycle.
+
+Project conclusion: AI-HYSYS-Skill can support OTS-adjacent engineering work by organizing existing HYSYS Dynamics cases, scenario lists, tag/KPI schemas, DCS/SIS loop mapping evidence, replay/audit logs, and operator-training reports. It must not claim to replace commercial OTS platforms, HYSYS Dynamics model-build expertise, DCS/SIS engineering, production writeback approval, or from-scratch HYSYS model generation.
