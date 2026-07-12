@@ -18,6 +18,7 @@ It is designed for real execution, not just documentation. The workflow covers:
 - bounded tuning and sensitivity runs
 - baseline freezing
 - machine-readable exports
+- native PFD visual cleanup on a verified workcopy
 - review-stage basic process package generation
 - release gate and blocker control
 
@@ -89,11 +90,13 @@ AI-HYSYS-Skill/
 |   |-- basic-package-deliverables.md
 |   |-- control-lane-decision-matrix.md
 |   |-- digital-twin-boundary.md
+|   |-- pfd-layout-workflow.md
 |   `-- project-lessons.md
 |-- scripts/
 |   |-- hysys_automation.py
 |   |-- hysys_readiness_check.py
 |   |-- hysys_h2_density_table.py
+|   |-- hysys_pfd_layout.py
 |   |-- validate_repo.ps1
 |   `-- validate_repo.py
 |-- CASE/
@@ -183,6 +186,24 @@ Use ai-hysys-basic-package to open the latest valid HYSYS case, run a bounded up
 Use ai-hysys-basic-package to freeze the accepted HYSYS case as a review-stage baseline and prepare machine-readable package outputs.
 ```
 
+```text
+Use ai-hysys-basic-package to reorganize the native HYSYS PFD on a workcopy for human handoff, then reopen it and prove that calculation fingerprints and topology are unchanged.
+```
+
+### Native HYSYS PFD layout example
+
+Provide an explicit equipment-coordinate JSON and create a separate workcopy:
+
+```powershell
+py .\scripts\hysys_pfd_layout.py `
+  --case .\model\baseline.hsc `
+  --output-case .\model\baseline_visual_workcopy.hsc `
+  --layout .\model\pfd_layout.json `
+  --report .\model\pfd_layout_validation.json
+```
+
+See [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) for the V15 COM sequence, layout rules, and validation gate.
+
 ### Native HYSYS hydrogen density example
 
 For a quick pure-hydrogen property-table smoke test, run HYSYS directly and export CSV/JSON:
@@ -260,6 +281,7 @@ This repository includes lightweight open-source maintenance scaffolding:
 - `scripts/validate_repo.py` for the underlying repository smoke checks without requiring Aspen HYSYS
 - `scripts/hysys_readiness_check.py` for real Windows/HYSYS runtime verification
 - `scripts/hysys_h2_density_table.py` for a minimal native HYSYS property-table smoke calculation
+- `scripts/hysys_pfd_layout.py` for workcopy-only native PFD cleanup with reopen and calculation-fingerprint verification
 
 Run the local validation entry point after repository-facing changes:
 

@@ -1,6 +1,6 @@
 ---
 name: ai-hysys-basic-package
-description: "Control Aspen HYSYS with auditable, script-first workflows to take over, update, tune, freeze, and export an existing process case. Use when Codex must take over Aspen HYSYS through direct COM automation, spreadsheet/workbook bridges, or proven project runners to: (1) verify the environment, (2) load an existing validated case, (3) run calculations, (4) perform bounded sensitivity or tuning, (5) export machine-readable results, or (6) compile review-stage basic process package deliverables without changing frozen calculation boundaries."
+description: "Control Aspen HYSYS with auditable, script-first workflows to take over, update, tune, freeze, export, and visually organize an existing process case. Use when Codex must use direct COM automation, spreadsheet/workbook bridges, or proven project runners to verify the environment, load a validated case, run calculations, perform bounded tuning, export results, compile review-stage basic process package deliverables, or rearrange a native PFD on a workcopy without changing calculation boundaries."
 ---
 
 # AI HYSYS Basic Package
@@ -29,6 +29,8 @@ Read [references/digital-twin-boundary.md](references/digital-twin-boundary.md) 
 Read [references/heat-exchanger-ai-patterns.md](references/heat-exchanger-ai-patterns.md) when the user asks for heat exchanger, Aspen EDR, HEN, pinch, `Delta Tmin`, heat duty, LNG cold-box, cryogenic heat-exchanger, or exchanger AI optimization support.
 
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
+
+Read [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) before reorganizing a native HYSYS PFD, moving equipment or labels, preparing a human-handoff layout, or using `scripts/hysys_pfd_layout.py`.
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
 
@@ -97,6 +99,9 @@ Use explicit run modes:
 3. `bounded-tuning` for small, auditable parameter changes
 4. `freeze-and-export` for baseline locking and package generation
 5. `review-support` for comment closure, consistency checking, and supplemental outputs
+6. `layout-review` for native PFD cleanup on a workcopy with calculation-fingerprint verification
+
+For `layout-review`, never overwrite the accepted case. Use `scripts/hysys_pfd_layout.py` with an explicit equipment-coordinate JSON, keep streams topology-driven, then close and reopen the workcopy and prove that material, energy, recycle, object inventory, and solver fingerprints are unchanged.
 
 For simple property-table requests, such as pure hydrogen density from 1 MPa to 90 MPa, prefer a minimal native HYSYS material-stream case after readiness passes. Record the table pressure basis explicitly:
 

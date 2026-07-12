@@ -160,3 +160,16 @@
 
 - [control-lane-decision-matrix.md](control-lane-decision-matrix.md)
 - [`scripts/hysys_automation.py`](../scripts/hysys_automation.py)
+
+## 13. 原生 PFD 整理必须设备优先并做计算指纹回归
+
+真实 V15 case 的布局整理表明，PFD 不是普通二维画布：流股、能量流、标签和设备之间存在吸附及反向牵引。稳定做法是：
+
+1. 从验证基线复制 layout workcopy，冻结 solver 后再写 PFD。
+2. 按正式 PFD 的工艺阅读顺序先定位全部非流股对象；并联机组分泳道，回流在上、液相回罐在下，检查表移出主线。
+3. 流股只执行 `AutoPosition()`，不要给所有流股逐一写绝对坐标。
+4. 设备使用 `PFD.MoveBy((item,), dx, dy)`，并在流股、标签处理后再次正向/反向定位；短连接对用显式优先顺序收口。
+5. `PFD.Centre()` 不等于 GUI `ZoomToFit`；最终人工打开后用 `Home` 做 Fit to Window。
+6. 保存后关闭重开，比较对象清单、物料流、能量流、recycle、solver 和目标坐标；任何计算指纹变化都视为布局失败。
+
+详细 COM 行为、配置格式和验收条件见 [pfd-layout-workflow.md](pfd-layout-workflow.md)，可执行入口见 [`scripts/hysys_pfd_layout.py`](../scripts/hysys_pfd_layout.py)。
