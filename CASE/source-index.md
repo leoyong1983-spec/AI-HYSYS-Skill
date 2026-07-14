@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-05-12（Asia/Shanghai）
+最近心跳测试：2026-07-14（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -164,6 +164,13 @@
 | Official | [official/aspen-operator-training-product-page-2026-07-13.html](official/aspen-operator-training-product-page-2026-07-13.html) | AspenTech official Aspen Operator Training product page; supports DCS-agnostic OTS, dynamic simulation, Inprocess OTS software, and Aspen HYSYS Dynamic Lifecycle boundary language. | [Aspen Operator Training](https://www.aspentech.com/en/products/engineering/aspen-operator-training) | B+ official OTS / HYSYS Dynamics evidence; not AI autonomous control evidence. |
 | Official | [official/aspen-operator-training-faq-ots-2017.pdf](official/aspen-operator-training-faq-ots-2017.pdf) | Official FAQ PDF linked from the Aspen Operator Training product page; supports OTS scope, training-system positioning, and governance boundaries. | [Top 10 Questions About Aspen Operator Training](https://www.aspentech.com/-/media/aspentech/home/resources/faq-documents/pdfs/fy18/q2/at-03625-faq-ots.pdf?sc_lang=en) | B+ official OTS reference; PDF header verified. |
 | Heartbeat note | [notes/heartbeat-scan-2026-07-13.md](notes/heartbeat-scan-2026-07-13.md) | 2026-07-13 heartbeat summary, value judgment, adopted boundary changes, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-14 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-distillation-mass-transfer-ann-jeasd-2026.pdf](research/hysys-distillation-mass-transfer-ann-jeasd-2026.pdf) | Peer-reviewed Aspen HYSYS + ANN example for predicting a gas-side volumetric mass-transfer coefficient from reflux ratio, feed flow, and feed composition in a benzene-toluene column. | [DOI 10.31272/jeasd.2686](https://doi.org/10.31272/jeasd.2686) | B-; CC BY 4.0. Narrow binary case; no clear independent test split, reusable code/data, uncertainty, or extrapolation evidence. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-14.md](notes/heartbeat-scan-2026-07-14.md) | 2026-07-14 heartbeat summary, value judgment, project impact, limitations, and rejected/deferred items. | This repository | Maintenance summary. |
 
 ## 访问说明
 

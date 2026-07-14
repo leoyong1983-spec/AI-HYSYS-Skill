@@ -194,3 +194,9 @@ Project conclusion: this strengthens AI-HYSYS-Skill for existing HYSYS Dynamics 
 New note: [heartbeat-scan-2026-07-13.md](heartbeat-scan-2026-07-13.md). The useful new source is AspenTech's official Aspen Operator Training product page and its linked OTS FAQ PDF. This upgrades the 2026-07-12 Inprocess / OPTIMIZE 26 evidence with official AspenTech product-level support for DCS-agnostic OTS, dynamic simulation, Inprocess OTS software, and Aspen HYSYS Dynamic Lifecycle.
 
 Project conclusion: AI-HYSYS-Skill can support OTS-adjacent engineering work by organizing existing HYSYS Dynamics cases, scenario lists, tag/KPI schemas, DCS/SIS loop mapping evidence, replay/audit logs, and operator-training reports. It must not claim to replace commercial OTS platforms, HYSYS Dynamics model-build expertise, DCS/SIS engineering, production writeback approval, or from-scratch HYSYS model generation.
+
+## 2026-07-14 HYSYS distillation ANN surrogate conclusion
+
+New note: [heartbeat-scan-2026-07-14.md](heartbeat-scan-2026-07-14.md). The new B- source is a July 2026 peer-reviewed paper that uses Aspen HYSYS data to train a 3:4:1 ANN for a benzene-toluene distillation mass-transfer coefficient. It provides a concrete, narrow example of the `HYSYS baseline -> bounded dataset -> surrogate` pattern, but reports only training performance and does not provide a clear independent test split, reusable code/data, uncertainty bounds, or extrapolation evidence.
+
+Project conclusion: surrogate and soft-sensor work must preserve HYSYS case provenance, property-package basis, variable units, design-space bounds, sample IDs, train/validation/test separation, unseen-sample metrics, failed-sample logs, extrapolation limits, HYSYS readback, and human acceptance. This source does not justify production control, replacement of the HYSYS baseline, or transfer of the model to unrelated columns.
