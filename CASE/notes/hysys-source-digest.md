@@ -200,3 +200,9 @@ Project conclusion: AI-HYSYS-Skill can support OTS-adjacent engineering work by 
 New note: [heartbeat-scan-2026-07-14.md](heartbeat-scan-2026-07-14.md). The new B- source is a July 2026 peer-reviewed paper that uses Aspen HYSYS data to train a 3:4:1 ANN for a benzene-toluene distillation mass-transfer coefficient. It provides a concrete, narrow example of the `HYSYS baseline -> bounded dataset -> surrogate` pattern, but reports only training performance and does not provide a clear independent test split, reusable code/data, uncertainty bounds, or extrapolation evidence.
 
 Project conclusion: surrogate and soft-sensor work must preserve HYSYS case provenance, property-package basis, variable units, design-space bounds, sample IDs, train/validation/test separation, unseen-sample metrics, failed-sample logs, extrapolation limits, HYSYS readback, and human acceptance. This source does not justify production control, replacement of the HYSYS baseline, or transfer of the model to unrelated columns.
+
+## 2026-07-16 AspenTech EHY2311 automation conclusion
+
+New note: [heartbeat-scan-2026-07-16.md](heartbeat-scan-2026-07-16.md). AspenTech's official EHY2311 course page directly confirms an automation workflow built around the HYSYS Type Library, Excel Object Browser, Visual Basic/VBA, User Variables, User Operations, debugging, and links between simulations.
+
+Project conclusion: this is B+ official evidence for the repository's direct-COM and Excel/spreadsheet/workbook lane taxonomy. It strengthens the authority basis but does not replace local runtime readiness, one-point binding tests, unit and solver checks, rollback, audit output, or human acceptance. It is not evidence for autonomous production writeback or reliable AI greenfield model generation.

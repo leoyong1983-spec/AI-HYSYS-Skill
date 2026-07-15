@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-07-14（Asia/Shanghai）
+最近心跳测试：2026-07-16（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -171,6 +171,13 @@
 |---|---|---|---|---|
 | Research/direct | [research/hysys-distillation-mass-transfer-ann-jeasd-2026.pdf](research/hysys-distillation-mass-transfer-ann-jeasd-2026.pdf) | Peer-reviewed Aspen HYSYS + ANN example for predicting a gas-side volumetric mass-transfer coefficient from reflux ratio, feed flow, and feed composition in a benzene-toluene column. | [DOI 10.31272/jeasd.2686](https://doi.org/10.31272/jeasd.2686) | B-; CC BY 4.0. Narrow binary case; no clear independent test split, reusable code/data, uncertainty, or extrapolation evidence. |
 | Heartbeat note | [notes/heartbeat-scan-2026-07-14.md](notes/heartbeat-scan-2026-07-14.md) | 2026-07-14 heartbeat summary, value judgment, project impact, limitations, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-16 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Official/direct | [official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html](official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html) | Official EHY2311 course page confirming HYSYS automation through the Type Library, Excel Object Browser, Visual Basic/VBA, User Variables, User Operations, debugging, and links between simulations. | [Developing Automation Solutions for Aspen HYSYS](https://esupport.aspentech.com/UniversityCourse?id=a3p0B0000004Yn6QAE) | B+ official automation evidence; not local runtime validation or production-writeback authorization. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-16.md](notes/heartbeat-scan-2026-07-16.md) | 2026-07-16 heartbeat summary, value judgment, boundary impact, and rejected/deferred items. | This repository | Maintenance summary. |
 
 ## 访问说明
 
