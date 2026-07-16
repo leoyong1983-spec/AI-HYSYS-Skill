@@ -206,3 +206,9 @@ Project conclusion: surrogate and soft-sensor work must preserve HYSYS case prov
 New note: [heartbeat-scan-2026-07-16.md](heartbeat-scan-2026-07-16.md). AspenTech's official EHY2311 course page directly confirms an automation workflow built around the HYSYS Type Library, Excel Object Browser, Visual Basic/VBA, User Variables, User Operations, debugging, and links between simulations.
 
 Project conclusion: this is B+ official evidence for the repository's direct-COM and Excel/spreadsheet/workbook lane taxonomy. It strengthens the authority basis but does not replace local runtime readiness, one-point binding tests, unit and solver checks, rollback, audit output, or human acceptance. It is not evidence for autonomous production writeback or reliable AI greenfield model generation.
+
+## 2026-07-17 HYSYS/Python LNG cold-energy GA conclusion
+
+New note: [heartbeat-scan-2026-07-17.md](heartbeat-scan-2026-07-17.md). The publisher's full-text page for DOI `10.48130/een-0026-0007` now explicitly states that a genetic algorithm was implemented in Python through an automated Aspen HYSYS interface, with bounded variables, published GA settings, net-power objective, Peng-Robinson basis, and Excel result export. This new evidence supersedes the 2026-07-06 rejection, which was based on a source view that did not expose explicit Aspen/HYSYS text.
+
+Project conclusion: the paper is B+ direct research evidence for `existing HYSYS case -> bounded Python optimizer -> HYSYS evaluations -> KPI export`. Similar tasks must log optimizer configuration and stopping criteria in addition to case provenance, units, bounds, constraints, failed samples, solver status, HYSYS readback, and human acceptance. The paper does not provide code, a case, or a public dataset and does not justify production writeback or reliable greenfield model generation.

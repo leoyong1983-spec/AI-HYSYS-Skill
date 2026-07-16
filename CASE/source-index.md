@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-07-16（Asia/Shanghai）
+最近心跳测试：2026-07-17（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -178,6 +178,13 @@
 |---|---|---|---|---|
 | Official/direct | [official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html](official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html) | Official EHY2311 course page confirming HYSYS automation through the Type Library, Excel Object Browser, Visual Basic/VBA, User Variables, User Operations, debugging, and links between simulations. | [Developing Automation Solutions for Aspen HYSYS](https://esupport.aspentech.com/UniversityCourse?id=a3p0B0000004Yn6QAE) | B+ official automation evidence; not local runtime validation or production-writeback authorization. |
 | Heartbeat note | [notes/heartbeat-scan-2026-07-16.md](notes/heartbeat-scan-2026-07-16.md) | 2026-07-16 heartbeat summary, value judgment, boundary impact, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-17 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-lng-cold-energy-ga-2026-07-17.html](research/hysys-lng-cold-energy-ga-2026-07-17.html) | Publisher full-text HTML confirming a Python genetic-algorithm interface to Aspen HYSYS for bounded LNG cold-energy cycle optimization, with explicit variable ranges, GA settings, objective, assumptions, and Excel export. | [DOI 10.48130/een-0026-0007](https://doi.org/10.48130/een-0026-0007) | B+; re-evaluated from the 2026-07-06 rejection after explicit HYSYS/Python methods became accessible. No public code, case, or dataset. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-17.md](notes/heartbeat-scan-2026-07-17.md) | 2026-07-17 heartbeat summary, source re-evaluation, value judgment, boundary impact, and rejected/deferred items. | This repository | Maintenance summary. |
 
 ## 访问说明
 

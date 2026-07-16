@@ -27,6 +27,7 @@ Use these sources as precedent, not as direct runtime authority:
 - The shell-and-tube exchanger grey-box / GA paper is research precedent for using Aspen EDR / HYSYS-style exchanger simulations to train an optimizer, then validating recommendations.
 - The HYSYS + XGBoost + PSO pressure-swing distillation paper is adjacent evidence for the broader pattern: HYSYS baseline, ML surrogate, optimizer candidate, HYSYS/human review.
 - LNG cryogenic heat-exchanger digital-twin papers are evidence for monitoring and early-warning workflows, not proof of autonomous closed-loop HYSYS control.
+- The 2026 LNG cold-energy GA paper (DOI `10.48130/een-0026-0007`) is direct precedent for a bounded Python optimizer calling Aspen HYSYS, publishing variable ranges and GA settings, and exporting results to Excel. It is offline design-optimization evidence, not production-control authority.
 
 ## Required Task Setup
 
@@ -42,6 +43,7 @@ Before running or designing a heat-exchanger AI workflow, capture:
 8. Solver pause/resume policy and convergence wait rule.
 9. Design-space limits and extrapolation warning.
 10. Human review owner and acceptance criterion.
+11. Optimizer configuration and stopping criteria, including objective, constraints, population, generations or iterations, mutation/crossover settings, random seed when available, and the reason a run is accepted as complete.
 
 ## KPI Schema
 
