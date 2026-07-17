@@ -186,6 +186,13 @@
 | Research/direct | [research/hysys-lng-cold-energy-ga-2026-07-17.html](research/hysys-lng-cold-energy-ga-2026-07-17.html) | Publisher full-text HTML confirming a Python genetic-algorithm interface to Aspen HYSYS for bounded LNG cold-energy cycle optimization, with explicit variable ranges, GA settings, objective, assumptions, and Excel export. | [DOI 10.48130/een-0026-0007](https://doi.org/10.48130/een-0026-0007) | B+; re-evaluated from the 2026-07-06 rejection after explicit HYSYS/Python methods became accessible. No public code, case, or dataset. |
 | Heartbeat note | [notes/heartbeat-scan-2026-07-17.md](notes/heartbeat-scan-2026-07-17.md) | 2026-07-17 heartbeat summary, source re-evaluation, value judgment, boundary impact, and rejected/deferred items. | This repository | Maintenance summary. |
 
+## 2026-07-18 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Community/direct | [community/aspen-pysys-pypi-release-2026-07-18.json](community/aspen-pysys-pypi-release-2026-07-18.json) | PyPI release metadata for `aspen-pysys` 0.1.0a4/a5 and archive-review conclusion; supports a main-flowsheet versus column-subflowsheet feed-identity preflight before tray-location writes. | [aspen-pysys PyPI](https://pypi.org/project/aspen-pysys/) | B- alpha wrapper candidate; GPL-3.0-or-later, Python >=3.12.12, pywin32>=311, not locally runtime-validated and not a default dependency. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-18.md](notes/heartbeat-scan-2026-07-18.md) | 2026-07-18 heartbeat summary, release-diff review, adopted column-feed identity guard, and rejected/deferred items. | This repository | Maintenance summary. |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。
