@@ -193,6 +193,13 @@
 | Community/direct | [community/aspen-pysys-pypi-release-2026-07-18.json](community/aspen-pysys-pypi-release-2026-07-18.json) | PyPI release metadata for `aspen-pysys` 0.1.0a4/a5 and archive-review conclusion; supports a main-flowsheet versus column-subflowsheet feed-identity preflight before tray-location writes. | [aspen-pysys PyPI](https://pypi.org/project/aspen-pysys/) | B- alpha wrapper candidate; GPL-3.0-or-later, Python >=3.12.12, pywin32>=311, not locally runtime-validated and not a default dependency. |
 | Heartbeat note | [notes/heartbeat-scan-2026-07-18.md](notes/heartbeat-scan-2026-07-18.md) | 2026-07-18 heartbeat summary, release-diff review, adopted column-feed identity guard, and rejected/deferred items. | This repository | Maintenance summary. |
 
+## 2026-07-20 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-hydrogen-liquefaction-optimizer-comparison-2026-07-20.html](research/hysys-hydrogen-liquefaction-optimizer-comparison-2026-07-20.html) | University research-portal snapshot for a peer-reviewed comparison of Aspen HYSYS BOX, GA, PSO, and knowledge-based optimization in an existing hydrogen-liquefaction model; sensitivity analysis is used to set bounds and initialization/local-optimum limitations are reported. | [DOI 10.1016/j.susoc.2026.03.001](https://doi.org/10.1016/j.susoc.2026.03.001) | B+ direct research evidence; open-access metadata/abstract snapshot, no reusable case or code identified. Algorithm rankings are case-specific. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-20.md](notes/heartbeat-scan-2026-07-20.md) | 2026-07-20 local-watch delta, public-source judgment, adopted optimizer robustness rules, and rejected/deferred items. | This repository | Maintenance summary. |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。
