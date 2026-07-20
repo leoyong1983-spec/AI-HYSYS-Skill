@@ -119,6 +119,7 @@ For bounded tuning:
 6. For spreadsheet/workbook writes, pause solver, batch-write inputs, resume solver, wait until `IsSolving` is false, then read KPIs.
 7. For a case containing recycle operations, do not accept a single `RecycleConvergence` value as sufficient proof. Record the recycle's `IsIgnored` state, feed/product bindings, solver-idle state, and project-approved tear-stream residuals for mass, temperature, pressure, enthalpy, and composition when available; then save, close, reopen, and repeat the readback before acceptance.
 8. If a run reaches a valid staged snapshot but later fails a policy, export, or finalization check, preserve the original error and traceback. Do not relabel the run as successful until a separate finalization step revalidates the reopened staged case, confirms the source-case hash is unchanged, records the previous error, and promotes only the verified artifact.
+9. For every pressure write, declare whether the external requirement is gauge or absolute, record the atmospheric-pressure basis used for conversion, write the corresponding absolute pressure to HYSYS, and read the HYSYS pressure back in an explicit absolute unit. Report both the original basis and the converted/readback value; never infer the basis from a bare number or equipment label.
 
 ### 5. Export machine-readable outputs first
 
