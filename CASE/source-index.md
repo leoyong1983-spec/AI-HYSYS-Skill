@@ -200,6 +200,13 @@
 | Research/direct | [research/hysys-hydrogen-liquefaction-optimizer-comparison-2026-07-20.html](research/hysys-hydrogen-liquefaction-optimizer-comparison-2026-07-20.html) | University research-portal snapshot for a peer-reviewed comparison of Aspen HYSYS BOX, GA, PSO, and knowledge-based optimization in an existing hydrogen-liquefaction model; sensitivity analysis is used to set bounds and initialization/local-optimum limitations are reported. | [DOI 10.1016/j.susoc.2026.03.001](https://doi.org/10.1016/j.susoc.2026.03.001) | B+ direct research evidence; open-access metadata/abstract snapshot, no reusable case or code identified. Algorithm rankings are case-specific. |
 | Heartbeat note | [notes/heartbeat-scan-2026-07-20.md](notes/heartbeat-scan-2026-07-20.md) | 2026-07-20 local-watch delta, public-source judgment, adopted optimizer robustness rules, and rejected/deferred items. | This repository | Maintenance summary. |
 
+## 2026-07-22 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-active-learning-cotc-pcc-crossref-2026-07-22.json](research/hysys-active-learning-cotc-pcc-crossref-2026-07-22.json) | Crossref metadata for a peer-reviewed Aspen HYSYS mechanistic-model and uncertainty-driven active-learning optimization study; the public publisher abstract describes bidirectional COM exchange and adaptive selection of informative HYSYS samples. | [DOI 10.1016/j.compchemeng.2026.109707](https://doi.org/10.1016/j.compchemeng.2026.109707) | B+ direct research evidence for sampling governance; no public code, case, dataset, or downloadable full text identified. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-22.md](notes/heartbeat-scan-2026-07-22.md) | Public-source value judgment, adopted active-learning safeguards, limitations, and rejected/deferred items. | This repository | Contains public-source analysis only; no private local-project evidence. |
+
 ## 访问说明
 
 - AspenTech 支持站的文章页可以匿名抓到，但附件直链在匿名访问时会返回门户 HTML。因此仓库里保留文章页和附件编号，不保留伪 PDF。

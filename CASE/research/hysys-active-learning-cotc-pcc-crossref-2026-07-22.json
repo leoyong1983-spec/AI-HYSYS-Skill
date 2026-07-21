@@ -1,0 +1,974 @@
+{
+    "status":  "ok",
+    "message-type":  "work",
+    "message-version":  "1.0.0",
+    "message":  {
+                    "indexed":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2026,
+                                                           7,
+                                                           3
+                                                       ]
+                                                   ],
+                                    "date-time":  "2026-07-03T01:22:20Z",
+                                    "timestamp":  1783041740039,
+                                    "version":  "3.54.6"
+                                },
+                    "reference-count":  44,
+                    "publisher":  "Elsevier BV",
+                    "license":  [
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             9,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-09-01T00:00:00Z",
+                                                      "timestamp":  1788220800000
+                                                  },
+                                        "content-version":  "tdm",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://www.elsevier.com/tdm/userlicense/1.0/"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             9,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-09-01T00:00:00Z",
+                                                      "timestamp":  1788220800000
+                                                  },
+                                        "content-version":  "tdm",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://www.elsevier.com/legal/tdmrep-license"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             9,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-09-01T00:00:00Z",
+                                                      "timestamp":  1788220800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-017"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             9,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-09-01T00:00:00Z",
+                                                      "timestamp":  1788220800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-037"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             9,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-09-01T00:00:00Z",
+                                                      "timestamp":  1788220800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-012"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             9,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-09-01T00:00:00Z",
+                                                      "timestamp":  1788220800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-029"
+                                    },
+                                    {
+                                        "start":  {
+                                                      "date-parts":  [
+                                                                         [
+                                                                             2026,
+                                                                             9,
+                                                                             1
+                                                                         ]
+                                                                     ],
+                                                      "date-time":  "2026-09-01T00:00:00Z",
+                                                      "timestamp":  1788220800000
+                                                  },
+                                        "content-version":  "stm-asf",
+                                        "delay-in-days":  0,
+                                        "URL":  "https://doi.org/10.15223/policy-004"
+                                    }
+                                ],
+                    "funder":  [
+                                   {
+                                       "DOI":  "10.13039/501100011175",
+                                       "name":  "China University of Petroleum Beijing State Key Laboratory of Heavy Oil Processing",
+                                       "doi-asserted-by":  "publisher",
+                                       "award":  [
+                                                     "SKLHOP202403003"
+                                                 ],
+                                       "award-info":  [
+                                                          {
+                                                              "award-number":  [
+                                                                                   "SKLHOP202403003"
+                                                                               ]
+                                                          }
+                                                      ],
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/501100011175",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   },
+                                   {
+                                       "DOI":  "10.13039/100014103",
+                                       "name":  "Key Technology Research and Development Program of Shandong Province",
+                                       "doi-asserted-by":  "publisher",
+                                       "award":  [
+                                                     "2025CXPT021"
+                                                 ],
+                                       "award-info":  [
+                                                          {
+                                                              "award-number":  [
+                                                                                   "2025CXPT021"
+                                                                               ]
+                                                          }
+                                                      ],
+                                       "id":  [
+                                                  {
+                                                      "id":  "10.13039/100014103",
+                                                      "id-type":  "DOI",
+                                                      "asserted-by":  "publisher"
+                                                  }
+                                              ]
+                                   }
+                               ],
+                    "content-domain":  {
+                                           "domain":  [
+                                                          "elsevier.com",
+                                                          "sciencedirect.com"
+                                                      ],
+                                           "crossmark-restriction":  true
+                                       },
+                    "short-container-title":  [
+                                                  "Computers \u0026amp; Chemical Engineering"
+                                              ],
+                    "published-print":  {
+                                            "date-parts":  [
+                                                               [
+                                                                   2026,
+                                                                   9
+                                                               ]
+                                                           ]
+                                        },
+                    "DOI":  "10.1016/j.compchemeng.2026.109707",
+                    "type":  "journal-article",
+                    "created":  {
+                                    "date-parts":  [
+                                                       [
+                                                           2026,
+                                                           5,
+                                                           19
+                                                       ]
+                                                   ],
+                                    "date-time":  "2026-05-19T15:47:39Z",
+                                    "timestamp":  1779205659000
+                                },
+                    "page":  "109707",
+                    "update-policy":  "https://doi.org/10.1016/elsevier_cm_policy",
+                    "source":  "Crossref",
+                    "is-referenced-by-count":  0,
+                    "special_numbering":  "C",
+                    "title":  [
+                                  "Active learning-driven process modeling and optimization of crude oil to chemicals coupled with carbon capture"
+                              ],
+                    "prefix":  "10.1016",
+                    "volume":  "212",
+                    "author":  [
+                                   {
+                                       "given":  "Zhibo",
+                                       "family":  "Zhang",
+                                       "sequence":  "first",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Yani",
+                                       "family":  "Wang",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Mengzhen",
+                                       "family":  "Zhu",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Ze",
+                                       "family":  "Li",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Jiarong",
+                                       "family":  "Lu",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Yaqian",
+                                       "family":  "Li",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Yibin",
+                                       "family":  "Liu",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Xin",
+                                       "family":  "Zhou",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Hongchang",
+                                       "family":  "Duan",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Hao",
+                                       "family":  "Yan",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Xiaobo",
+                                       "family":  "Chen",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Hui",
+                                       "family":  "Zhao",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   },
+                                   {
+                                       "given":  "Chaohe",
+                                       "family":  "Yang",
+                                       "sequence":  "additional",
+                                       "affiliation":  [
+
+                                                       ],
+                                       "role":  [
+                                                    {
+                                                        "vocabulary":  "crossref",
+                                                        "role":  "author"
+                                                    }
+                                                ]
+                                   }
+                               ],
+                    "member":  "78",
+                    "reference":  [
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0001",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.cej.2024.154981",
+                                          "article-title":  "Reaction network and kinetic modeling for the direct catalytic cracking of Arabian light crude oil to chemicals",
+                                          "volume":  "498",
+                                          "author":  "Al Aslani",
+                                          "year":  "2024",
+                                          "journal-title":  "Chem. Eng. J"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0002",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "8131",
+                                          "DOI":  "10.1021/acscatal.0c02209",
+                                          "article-title":  "A viewpoint on the refinery of the future: catalyst and process challenges",
+                                          "volume":  "10",
+                                          "author":  "Alabdullah",
+                                          "year":  "2020",
+                                          "journal-title":  "ACS Catal"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0003",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "9381",
+                                          "DOI":  "10.1021/acs.energyfuels.4c00166",
+                                          "article-title":  "Efficient xylene isomer separation: accelerated screening with Active learning and molecular simulation",
+                                          "volume":  "38",
+                                          "author":  "Aqib",
+                                          "year":  "2024",
+                                          "journal-title":  "Energy Fuel"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0004",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.rser.2024.114578",
+                                          "article-title":  "Technology readiness level assessment of carbon capture and storage technologies",
+                                          "volume":  "200",
+                                          "author":  "Bukar",
+                                          "year":  "2024",
+                                          "journal-title":  "Renew. Sustain. Energy Rev"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0005",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "946",
+                                          "DOI":  "10.1016/j.scib.2023.03.049",
+                                          "article-title":  "Southern Ocean warming and its climatic impacts",
+                                          "volume":  "68",
+                                          "author":  "Cai",
+                                          "year":  "2023",
+                                          "journal-title":  "Sci. Bull (Beijing)"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0006",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "876",
+                                          "DOI":  "10.1002/aic.690440413",
+                                          "article-title":  "Product and process development using artificial neural-network model and information analysis",
+                                          "volume":  "44",
+                                          "author":  "Chen",
+                                          "year":  "1998",
+                                          "journal-title":  "AIChE J"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0007",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "2211",
+                                          "DOI":  "10.1002/aic.14418",
+                                          "article-title":  "Learning surrogate models for simulation-based optimization",
+                                          "volume":  "60",
+                                          "author":  "Cozad",
+                                          "year":  "2014",
+                                          "journal-title":  "AIChE J"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0008",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "117",
+                                          "DOI":  "10.1016/j.egypro.2009.01.018",
+                                          "article-title":  "A technical and economical evaluation of CO2 capture from FCC units",
+                                          "volume":  "1",
+                                          "author":  "de Mello",
+                                          "year":  "2009",
+                                          "journal-title":  "Energy Procedia"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0009",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.engappai.2025.112630",
+                                          "article-title":  "Design and implementation of deep learning-based framework for multi-class fault diagnosis in complex chemical process systems",
+                                          "volume":  "162",
+                                          "author":  "Ewuzie",
+                                          "year":  "2025",
+                                          "journal-title":  "Eng. Appl. Artif. Intell"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0010",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "2020",
+                                          "DOI":  "10.3389/fenrg.2020.00062",
+                                          "article-title":  "Progress in the CO2 capture technologies for fluid catalytic cracking (FCC) units—a review",
+                                          "volume":  "8",
+                                          "author":  "Güleç",
+                                          "year":  "2020",
+                                          "journal-title":  "Front Energy Res"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0011",
+                                          "article-title":  "Techno-economic feasibility of fluid catalytic cracking unit integrated chemical looping combustion – a novel approach for CO2 capture",
+                                          "volume":  "284",
+                                          "author":  "Güleç",
+                                          "year":  "2023",
+                                          "journal-title":  "Energy (Oxf.)"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0012",
+                                          "article-title":  "Deep learning prediction of yields of fluid catalytic cracking via differential evolutionary dual-stage attention-based LSTM",
+                                          "volume":  "370",
+                                          "author":  "He",
+                                          "year":  "2024",
+                                          "journal-title":  "Fuel (L.)"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0013",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.jcou.2025.103091",
+                                          "article-title":  "Boosting CO2 capture efficiency of the exhausted RFCC flue gas by using intercooler exchangers: leveraging ANN in MDEA-based approach",
+                                          "volume":  "95",
+                                          "author":  "Hosseini",
+                                          "year":  "2025",
+                                          "journal-title":  "J. CO2 Util"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0044",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "256",
+                                          "DOI":  "10.1016/j.apnum.2023.12.016",
+                                          "article-title":  "On the efficacy of conditioned and progressive Latin hypercube sampling in supervised machine learning",
+                                          "volume":  "208",
+                                          "author":  "Iordanis",
+                                          "year":  "2025",
+                                          "journal-title":  "Appl. Numer Math"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0014",
+                                          "doi-asserted-by":  "crossref",
+                                          "unstructured":  "Islam, M.H., Patlolla, S.R., 2025. A review on the State-of-the-art and commercial status of carbon capture technologies.",
+                                          "DOI":  "10.3390/en18153937"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0015",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "657",
+                                          "DOI":  "10.1016/j.fuel.2017.05.092",
+                                          "article-title":  "Optimal design and operation of an industrial fluidized catalytic cracking reactor",
+                                          "volume":  "206",
+                                          "author":  "Jarullah",
+                                          "year":  "2017",
+                                          "journal-title":  "Fuel (L.)"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0016",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "5139",
+                                          "DOI":  "10.1021/acs.chemrev.2c00828",
+                                          "article-title":  "Combustion, chemistry, and carbon neutrality",
+                                          "volume":  "123",
+                                          "author":  "Kohse-Höinghaus",
+                                          "year":  "2023",
+                                          "journal-title":  "Chem. Rev"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0017",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "230",
+                                          "DOI":  "10.1038/s43588-023-00406-5",
+                                          "article-title":  "Uncertainty-driven dynamics for active learning of interatomic potentials",
+                                          "volume":  "3",
+                                          "author":  "Kulichenko",
+                                          "year":  "2023",
+                                          "journal-title":  "Nat. Comput. Sci"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0018",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "15217",
+                                          "DOI":  "10.1007/s10462-023-10526-z",
+                                          "article-title":  "A comprehensive survey on NSGA-II for multi-objective optimization and applications",
+                                          "volume":  "56",
+                                          "author":  "Ma",
+                                          "year":  "2023",
+                                          "journal-title":  "Artif. Intell. Rev"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0019",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "433",
+                                          "DOI":  "10.1016/j.cherd.2022.07.050",
+                                          "article-title":  "A machine learning approach for the surrogate modeling of uncertain distributed process engineering models",
+                                          "volume":  "186",
+                                          "author":  "Mora-Mariano",
+                                          "year":  "2022",
+                                          "journal-title":  "Chem. Eng. Res. Des"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0020",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.jclepro.2023.137447",
+                                          "article-title":  "Thermodynamic analysis and techno-economic assessment of fluid catalytic cracking unit in the oil refining process",
+                                          "volume":  "413",
+                                          "author":  "Nahvi",
+                                          "year":  "2023",
+                                          "journal-title":  "J. Clean Prod"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0021",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "5298",
+                                          "DOI":  "10.1021/ef200750x",
+                                          "article-title":  "Predictive modeling of large-scale integrated refinery reaction and fractionation systems from plant data. Part 2: fluid catalytic cracking (FCC) process",
+                                          "volume":  "25",
+                                          "author":  "Pashikanti",
+                                          "year":  "2011",
+                                          "journal-title":  "Energy Fuel"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0022",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.ces.2024.120066",
+                                          "article-title":  "Application of a property prediction model based on the structure oriented lumping method in the fluid catalytic cracking process",
+                                          "volume":  "293",
+                                          "author":  "Qin",
+                                          "year":  "2024",
+                                          "journal-title":  "Chem. Eng. Sci"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0043",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "109",
+                                          "DOI":  "10.1016/j.envsoft.2017.03.010",
+                                          "article-title":  "Progressive Latin Hypercube sampling: an efficient approach for robust sampling-based analysis of environmental models",
+                                          "volume":  "93",
+                                          "author":  "Sheikholeslami",
+                                          "year":  "2017",
+                                          "journal-title":  "Env. Model Softw"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0023",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "782",
+                                          "DOI":  "10.1126/science.abe4479",
+                                          "article-title":  "Adapting to the challenges of warming",
+                                          "volume":  "370",
+                                          "author":  "Sherwood",
+                                          "year":  "2020",
+                                          "journal-title":  "Science"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0024",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.fuproc.2023.107855",
+                                          "article-title":  "Process simulation and techno-economic analysis on novel CO2 capture technologies for fluid catalytic cracking units",
+                                          "volume":  "249",
+                                          "author":  "Tang",
+                                          "year":  "2023",
+                                          "journal-title":  "Fuel Proc. Technol"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0025",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "5152",
+                                          "DOI":  "10.1021/acs.energyfuels.2c00567",
+                                          "article-title":  "Catalytic cracking of crude oil: mini review of catalyst formulations for enhanced selectivity to light olefins",
+                                          "volume":  "36",
+                                          "author":  "Tanimu",
+                                          "year":  "2022",
+                                          "journal-title":  "Energy Fuel"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0026",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "20963",
+                                          "DOI":  "10.1021/acs.iecr.4c02817",
+                                          "article-title":  "Advanced designs and optimization for efficiently enhancing shipboard CO2 capture",
+                                          "volume":  "63",
+                                          "author":  "Vo",
+                                          "year":  "2024",
+                                          "journal-title":  "Ind. Eng. Chem. Res"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0027",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "12845",
+                                          "DOI":  "10.1021/acs.iecr.3c02203",
+                                          "article-title":  "Structure-oriented lumping method: an effective tool for molecular refining",
+                                          "volume":  "62",
+                                          "author":  "Wang",
+                                          "year":  "2023",
+                                          "journal-title":  "Ind. Eng. Chem. Res"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0028",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "522",
+                                          "DOI":  "10.1016/j.cherd.2025.06.023",
+                                          "article-title":  "Process simulation and multi-objective optimization for novel TMP-OCC integrated fluidized catalytic cracking and olefin catalytic cracking technologies",
+                                          "volume":  "219",
+                                          "author":  "Wang",
+                                          "year":  "2025",
+                                          "journal-title":  "Chem. Eng. Res. Des"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0029",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "13650",
+                                          "DOI":  "10.1021/acs.iecr.2c02313",
+                                          "article-title":  "Efficient bayesian optimization of industrial-scale pressure-vacuum swing adsorption processes for CO2 capture",
+                                          "volume":  "61",
+                                          "author":  "Ward",
+                                          "year":  "2022",
+                                          "journal-title":  "Ind. Eng. Chem. Res"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0030",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "364",
+                                          "DOI":  "10.1016/j.fuel.2018.01.066",
+                                          "article-title":  "Study on the integration of fluid catalytic cracking unit in refinery with solvent-based carbon capture through process simulation",
+                                          "volume":  "219",
+                                          "author":  "Wei",
+                                          "year":  "2018",
+                                          "journal-title":  "Fuel (L.)"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0031",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.chemolab.2023.104821",
+                                          "article-title":  "Fusing information entropy and similarity: a novel active learning strategy for chemical process fault classifications",
+                                          "volume":  "237",
+                                          "author":  "Wu",
+                                          "year":  "2023",
+                                          "journal-title":  "Chemom. Intell. Lab Syst"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0032",
+                                          "article-title":  "Crude oil hierarchical catalytic cracking for maximizing chemicals production: pilot-scale test, process optimization strategy, techno-economic-society-environment assessment",
+                                          "author":  "Xin",
+                                          "year":  "2021",
+                                          "journal-title":  "Energy Convers Manag"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0033",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.jclepro.2024.141412",
+                                          "article-title":  "Transparent AI-assisted chemical engineering process: machine learning modeling and multi-objective optimization for integrating process data and molecular-level reaction mechanisms",
+                                          "volume":  "448",
+                                          "author":  "Xu",
+                                          "year":  "2024",
+                                          "journal-title":  "J. Clean Prod"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0036",
+                                          "article-title":  "Fischer-Tropsch wax catalytic cracking for the production of low olefin and high octane number gasoline: experiment and molecular level kinetic modeling study",
+                                          "volume":  "303",
+                                          "author":  "Yang",
+                                          "year":  "2021",
+                                          "journal-title":  "Fuel (L.)"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0035",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.ces.2023.119553",
+                                          "article-title":  "An efficient and invertible machine learning-driven multi-objective optimization architecture for light olefins separation system",
+                                          "volume":  "285",
+                                          "author":  "Yang",
+                                          "year":  "2024",
+                                          "journal-title":  "Chem. Eng. Sci"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0034",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "714",
+                                          "DOI":  "10.1038/s41467-025-55987-8",
+                                          "article-title":  "Active learning-assisted directed evolution",
+                                          "volume":  "16",
+                                          "author":  "Yang",
+                                          "year":  "2025",
+                                          "journal-title":  "Nat. Commun"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0037",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "6628",
+                                          "DOI":  "10.1021/acs.est.3c10922",
+                                          "article-title":  "Active learning-based guided synthesis of engineered biochar for CO2 capture",
+                                          "volume":  "58",
+                                          "author":  "Yuan",
+                                          "year":  "2024",
+                                          "journal-title":  "Env. Sci. Technol"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0038",
+                                          "doi-asserted-by":  "crossref",
+                                          "first-page":  "17228",
+                                          "DOI":  "10.1021/acs.iecr.2c04575",
+                                          "article-title":  "Study on greenhouse gas emission characteristics of fluidized catalytic cracking flue gas",
+                                          "volume":  "62",
+                                          "author":  "Zhao",
+                                          "year":  "2023",
+                                          "journal-title":  "Ind. Eng. Chem. Res"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0039",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.powtec.2024.119386",
+                                          "article-title":  "Simulation analysis of CO2 in-situ enrichment technology of fluidized catalytic cracking regenerator",
+                                          "volume":  "434",
+                                          "author":  "Zhao",
+                                          "year":  "2024",
+                                          "journal-title":  "Powder Technol"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0041",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.jclepro.2021.127283",
+                                          "article-title":  "Produce petrochemicals directly from crude oil catalytic cracking, a techno-economic analysis and life cycle society-environment assessment",
+                                          "volume":  "308",
+                                          "author":  "Zhou",
+                                          "year":  "2021",
+                                          "journal-title":  "J. Clean Prod"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0040",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.xpro.2023.102685",
+                                          "article-title":  "Protocol for the design and accelerated optimization of a waste-to-energy system using AI tools",
+                                          "volume":  "4",
+                                          "author":  "Zhou",
+                                          "year":  "2023",
+                                          "journal-title":  "STAR Protoc"
+                                      },
+                                      {
+                                          "key":  "10.1016/j.compchemeng.2026.109707_bib0042",
+                                          "doi-asserted-by":  "crossref",
+                                          "DOI":  "10.1016/j.cej.2025.160389",
+                                          "article-title":  "A many-objective surrogate optimization model driven by hybrid pilot-test data, molecular reconstruction, and crude oil direct cracking reaction mechanism",
+                                          "volume":  "507",
+                                          "author":  "Zhou",
+                                          "year":  "2025",
+                                          "journal-title":  "Chem. Eng. J"
+                                      }
+                                  ],
+                    "container-title":  [
+                                            "Computers \u0026amp; Chemical Engineering"
+                                        ],
+                    "original-title":  [
+
+                                       ],
+                    "language":  "en",
+                    "link":  [
+                                 {
+                                     "URL":  "https://api.elsevier.com/content/article/PII:S0098135426001602?httpAccept=text/xml",
+                                     "content-type":  "text/xml",
+                                     "content-version":  "vor",
+                                     "intended-application":  "text-mining"
+                                 },
+                                 {
+                                     "URL":  "https://api.elsevier.com/content/article/PII:S0098135426001602?httpAccept=text/plain",
+                                     "content-type":  "text/plain",
+                                     "content-version":  "vor",
+                                     "intended-application":  "text-mining"
+                                 }
+                             ],
+                    "deposited":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2026,
+                                                             7,
+                                                             3
+                                                         ]
+                                                     ],
+                                      "date-time":  "2026-07-03T01:08:55Z",
+                                      "timestamp":  1783040935000
+                                  },
+                    "score":  1,
+                    "resource":  {
+                                     "primary":  {
+                                                     "URL":  "https://linkinghub.elsevier.com/retrieve/pii/S0098135426001602"
+                                                 }
+                                 },
+                    "subtitle":  [
+
+                                 ],
+                    "short-title":  [
+
+                                    ],
+                    "issued":  {
+                                   "date-parts":  [
+                                                      [
+                                                          2026,
+                                                          9
+                                                      ]
+                                                  ]
+                               },
+                    "references-count":  44,
+                    "alternative-id":  [
+                                           "S0098135426001602"
+                                       ],
+                    "URL":  "https://doi.org/10.1016/j.compchemeng.2026.109707",
+                    "relation":  {
+
+                                 },
+                    "ISSN":  [
+                                 "0098-1354"
+                             ],
+                    "issn-type":  [
+                                      {
+                                          "value":  "0098-1354",
+                                          "type":  "print"
+                                      }
+                                  ],
+                    "subject":  [
+
+                                ],
+                    "published":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2026,
+                                                             9
+                                                         ]
+                                                     ]
+                                  },
+                    "assertion":  [
+                                      {
+                                          "value":  "Elsevier",
+                                          "name":  "publisher",
+                                          "label":  "This article is maintained by"
+                                      },
+                                      {
+                                          "value":  "Active learning-driven process modeling and optimization of crude oil to chemicals coupled with carbon capture",
+                                          "name":  "articletitle",
+                                          "label":  "Article Title"
+                                      },
+                                      {
+                                          "value":  "Computers \u0026 Chemical Engineering",
+                                          "name":  "journaltitle",
+                                          "label":  "Journal Title"
+                                      },
+                                      {
+                                          "value":  "https://doi.org/10.1016/j.compchemeng.2026.109707",
+                                          "name":  "articlelink",
+                                          "label":  "CrossRef DOI link to publisher maintained version"
+                                      },
+                                      {
+                                          "value":  "article",
+                                          "name":  "content_type",
+                                          "label":  "Content Type"
+                                      },
+                                      {
+                                          "value":  "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+                                          "name":  "copyright",
+                                          "label":  "Copyright"
+                                      }
+                                  ],
+                    "article-number":  "109707"
+                }
+}
