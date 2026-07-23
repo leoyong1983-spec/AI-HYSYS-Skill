@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-07-18",
+  "source": "https://pypi.org/pypi/aspen-pysys/json",
+  "package": "aspen-pysys",
+  "current_version": "0.1.0a5",
+  "summary": "Python API for Aspen HYSYS",
+  "license_expression": "GPL-3.0-or-later",
+  "requires_python": ">=3.12.12",
+  "requires_dist": [
+    "pywin32>=311"
+  ],
+  "project_urls": {
+    "homepage": "https://cacklingtanuki.codeberg.page/aspen-pysys/",
+    "repository": "https://codeberg.org/CacklingTanuki/aspen-pysys.git",
+    "issues": "https://codeberg.org/CacklingTanuki/aspen-pysys/issues"
+  },
+  "releases": {
+    "0.1.0a4": [
+      {
+        "filename": "aspen_pysys-0.1.0a4-py3-none-any.whl",
+        "packagetype": "bdist_wheel",
+        "size": 64180,
+        "sha256": "bcfb67c4464a49cb8440cc38328f2c3d83afe52ca9c114e094d9e50f35c0a3ae",
+        "uploaded": "2026-07-17T08:13:25.686818Z"
+      },
+      {
+        "filename": "aspen_pysys-0.1.0a4.tar.gz",
+        "packagetype": "sdist",
+        "size": 5401660,
+        "sha256": "02069d1894c96e55b0084c26c43b7e417df011cb334b42eb19c06471b7dcaebf",
+        "uploaded": "2026-07-17T08:13:33.216148Z"
+      }
+    ],
+    "0.1.0a5": [
+      {
+        "filename": "aspen_pysys-0.1.0a5-py3-none-any.whl",
+        "packagetype": "bdist_wheel",
+        "size": 64176,
+        "sha256": "6a08d0fccbd0bf4fc49c373ff7132f29528e7ef5898cc449a5db91c5b8185e39",
+        "uploaded": "2026-07-17T08:18:41.760252Z"
+      },
+      {
+        "filename": "aspen_pysys-0.1.0a5.tar.gz",
+        "packagetype": "sdist",
+        "size": 5401594,
+        "sha256": "6c1ef0f33efea61899cd267e6831e4014d6d8951cc824ccb6e6ba8527b2e0110",
+        "uploaded": "2026-07-17T08:18:45.970220Z"
+      }
+    ]
+  },
+  "review_note": "Package archives were inspected without installing or executing them. The a4 source changes distinguish main-flowsheet attached feeds from column-subflowsheet feeds and compare their name sets before feed-tray operations. The a5 source differs from a4 only by version metadata and a corrected documentation homepage. This remains an alpha community candidate, not a default dependency or locally validated HYSYS control lane."
+}

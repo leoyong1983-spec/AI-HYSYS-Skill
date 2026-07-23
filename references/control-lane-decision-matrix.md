@@ -51,6 +51,9 @@
 4. 批量策略：先跑单点 smoke test，再跑小批量，再进入全量敏感性或优化。
 5. 写回策略：默认只写 HYSYS workcopy，不直接写生产操作参数；优化建议必须进入人工复核。
 6. 场景策略：full-factorial、DOE、PSO、Bayesian optimization 或人工候选集都必须记录设计矩阵、样本编号、输入边界、输出 KPI、失败分类和重跑规则。
+7. 边界来源：优先用工程限制和记录在案的敏感性分析确定上下限，不使用任意搜索范围。
+8. 稳健性检查：对依赖初值或随机性的算法，记录初值/随机种子，并在可行时比较多个初值或种子；单次最优不得直接视为工程全局最优。
+9. 最终复核：把入选候选重新写入原 HYSYS workcopy，独立等待求解并回读约束与 KPI，再进入人工验收。
 
 ## LLM Agent 任务的附加规则
 
@@ -93,6 +96,15 @@ Rollback: restore saved workcopy if binding or solver failure occurs.
 3. `data tables` 和 `indirect communication` 要写进 fallback 体系，但不能压过 direct COM 与 workbook bridge。
 4. SCADA / Modbus / OPC-style bridge 是外部监督和测试台通道，不是默认生产控制通道。
 5. AI 从零创建复杂 HYSYS flowsheet 仍只适合研究或 smoke test，不适合默认工程交付。
+
+## 2026-07-07 evidence update
+
+The Crossref metadata for `Automation in the simulation of processes with Aspen HYSYS: An academic approach` (DOI `10.1002/cae.22589`) reinforces the matrix position that HYSYS automation is an established engineering workflow, not a one-off scripting trick. For this repository, the practical rule is:
+
+1. Use direct COM or a proven project runner for case lifecycle actions: launch, open, save, save-as, close, freeze, and export.
+2. Use Excel/VBA/spreadsheet/workbook bridges as legitimate tagged IO lanes when the case already exposes stable variables through them.
+3. Do not let a convenient spreadsheet bridge hide missing units, solver policy, object names, or human acceptance.
+4. Do not treat an external automation article as local runtime validation; every project still needs a readiness check and one-point smoke test before batch writes.
 
 ## 2026-06-02 MCP And Optimizer Boundary Addendum
 

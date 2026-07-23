@@ -80,12 +80,16 @@
 
 - [AspenTech course catalog PDF](https://www.aspentech.com/-/media/aspentech/home/customer-help/aspentech-course-catalog.pdf?hash=35328F62068FD84D73AB9A55D8197071&sc_lang=en)
 - 本地快照：[CASE/official/aspentech-course-catalog.pdf](../CASE/official/aspentech-course-catalog.pdf)
+- [EHY2311: Developing Automation Solutions for Aspen HYSYS](https://esupport.aspentech.com/UniversityCourse?id=a3p0B0000004Yn6QAE)
+- 本地快照：[CASE/official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html](../CASE/official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html)
 
 这份目录至少说明：
 
 1. HYSYS 官方培训覆盖 optimization、dynamic analysis、LNG modeling、process safety 等场景
 2. Excel/workbook 类工作流在 Aspen 培训体系里本来就是正式主题
 3. AI-HYSYS-Skill 的定位可以理直气壮地放在 “工程工作流接管”，而不是只放在 “小脚本玩具”
+4. EHY2311 进一步明确覆盖 HYSYS Type Library、Excel Object Browser、VBA、User Variables、User Operations、调试和跨 simulation 信息连接
+5. 这些官方主题支持本仓库的通道分类，但不能替代项目本地 runtime smoke test、单位/求解器检查和人工验收
 
 ### 5. AspenTech 平台支持与版本前提
 

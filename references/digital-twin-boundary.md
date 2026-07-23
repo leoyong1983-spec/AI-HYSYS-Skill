@@ -187,6 +187,47 @@ HPCL 案例说明 HYSYS + AI Model Builder 可以支撑实时质量预测，但�
 
 [control-lane-decision-matrix.md](control-lane-decision-matrix.md) 回答“用什么通道控制 HYSYS”；本文件回答“digital twin / hybrid AI 证据能支持什么项目主张”。两者要一起用，不能互相替代。
 
+## 2026-07-10 LLM/PSE Survey Evidence Update
+
+The arXiv survey `Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges` (arXiv `2606.11589`) supports a conservative boundary for AI-HYSYS-Skill:
+
+1. LLMs are most defensible for natural-language documentation search, unstructured knowledge synthesis, workflow planning, report explanation, and human-machine interaction.
+2. Real-time execution, hard constraint satisfaction, process control, and formal safety guarantees remain high-risk areas that require explicit project procedures, simulator readback, and human acceptance.
+3. Broad PSE evidence must not be converted into a claim that AI can reliably build or operate production HYSYS models from zero.
+4. For HYSYS digital twin or hybrid-AI tasks, continue to separate offline case preparation, plant data, surrogate/hybrid model scope, online layer, audit trail, and human acceptance.
+
+## 2026-07-12 OTS / Fertilizer Dynamic-Simulation Evidence Update
+
+The OPTIMIZE 26 industry sources saved under `CASE/community/` add direct operating-context evidence for Aspen HYSYS Dynamics and HYSYS-based operator-training systems:
+
+1. `inprocess-optimize26-technical-contributions-2026-07-12.html` lists Aspen HYSYS-based OTS, Aspen HYSYS Dynamics-based OTS, real-time dynamic simulation, and digital twin technical contributions.
+2. `inprocess-urea-plant-ots-hysys-dynamics-2026-07-12.html` describes a urea-plant OTS for ammonia and urea facilities built on Aspen HYSYS Dynamics with Aspen Properties and ElecNRTL for `NH3-CO2-H2O` chemistry.
+3. `inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf` reinforces the HYSYS Dynamics OTS pattern through a downloadable OPTIMIZE 26 poster.
+
+Project boundary:
+
+1. Treat OTS, HYSYS Dynamics, and operator-training work as dynamic-simulation / training-system support, not production-loop control.
+2. Require an existing dynamic case or validated conversion plan before any OTS-style task.
+3. Require property-package basis, dynamic holdup and pressure-flow assumptions, DCS/SIS loop mapping, scenario list, trainer acceptance criteria, and rollback/failure behavior.
+4. DCS loops and SIS interlocks embedded in a simulator are training and validation artifacts unless the project has a separate qualified safety review and production-system approval.
+5. Do not imply that AI-HYSYS-Skill can replace commercial OTS platforms, HYSYS Dynamics model-build expertise, DCS/SIS engineering, or operator-training governance.
+
+## 2026-07-13 Official Operator Training Evidence Update
+
+The official AspenTech `Aspen Operator Training` product page saved under `CASE/official/` adds stronger product-level evidence for the same boundary:
+
+1. Aspen Operator Training is positioned as a DCS-agnostic OTS solution using dynamic simulation.
+2. The page explicitly references Inprocess Technology and Consulting Group OTS software.
+3. The page explicitly references the Aspen HYSYS Dynamic Lifecycle.
+4. The linked official OTS FAQ PDF should be treated as supporting operator-training scope and governance evidence.
+
+Project boundary:
+
+1. Treat this as official OTS / HYSYS Dynamics evidence, not autonomous AI production-control evidence.
+2. OTS-style tasks require an existing dynamic case or validated steady-state-to-dynamic conversion plan.
+3. Require property-package basis, dynamic assumptions, DCS/SIS tag and loop mapping, instructor-station or scenario scope, trainee acceptance criteria, replay logs, and human sign-off.
+4. Do not claim this repository can replace Aspen Operator Training, Inprocess OTS, HYSYS Dynamics model-build expertise, DCS/SIS engineering, or operator-training governance.
+
 ## 2026-06-04 Real-Time Digital Twin And DMC3 APC Addendum
 
 AspenTech official material on a major Asian refinery describes a real-time digital twin built in Aspen HYSYS and used with Aspen DMC3 advanced process control for refinery energy and OPEX optimization.

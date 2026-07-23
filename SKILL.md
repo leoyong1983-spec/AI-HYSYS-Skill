@@ -1,6 +1,6 @@
 ---
 name: ai-hysys-basic-package
-description: "Control Aspen HYSYS with auditable, script-first workflows for existing-case takeover, validation, and reporting. 中文：通过 direct COM、spreadsheet/workbook bridge 或已验证项目脚本接管已有可运行 HYSYS case，完成环境检查、有限调参、验证、导出和审查阶段基础工艺包交付；不默认支持从零建模或生产写回。"
+description: "Control Aspen HYSYS with auditable, script-first workflows for existing-case takeover, bounded updates, validation, reporting, and native PFD cleanup. 中文：通过 direct COM、spreadsheet/workbook bridge 或已验证项目脚本接管已有可运行 HYSYS case，完成环境检查、有限调参、验证、导出、原生 PFD 整理和审查阶段基础工艺包交付；不默认支持从零建模或生产写回。"
 ---
 
 # AI HYSYS Basic Package
@@ -30,7 +30,11 @@ Read [references/literature-patterns.md](references/literature-patterns.md) when
 
 Read [references/digital-twin-boundary.md](references/digital-twin-boundary.md) when the user asks for HYSYS digital twin, hybrid AI, soft sensor, historian, monitoring, yield optimization, or emissions optimization support.
 
+Read [references/heat-exchanger-ai-patterns.md](references/heat-exchanger-ai-patterns.md) when the user asks for heat exchanger, Aspen EDR, HEN, pinch, `Delta Tmin`, heat duty, LNG cold-box, cryogenic heat-exchanger, or exchanger AI optimization support.
+
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
+
+Read [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) before reorganizing a native HYSYS PFD, moving equipment or labels, preparing a human-handoff layout, or using `scripts/hysys_pfd_layout.py`.
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
 
@@ -101,6 +105,15 @@ Use explicit run modes:
 3. `bounded-tuning` for small, auditable parameter changes
 4. `freeze-and-export` for baseline locking and package generation
 5. `review-support` for comment closure, consistency checking, and supplemental outputs
+6. `layout-review` for native PFD cleanup on a workcopy with calculation-fingerprint verification
+
+For `layout-review`, never overwrite the accepted case. Use `scripts/hysys_pfd_layout.py` with an explicit equipment-coordinate JSON, keep streams topology-driven, then close and reopen the workcopy and prove that material, energy, recycle, object inventory, and solver fingerprints are unchanged.
+
+For simple property-table requests, such as pure hydrogen density from 1 MPa to 90 MPa, prefer a minimal native HYSYS material-stream case after readiness passes. Record the table pressure basis explicitly:
+
+1. `MPa(a)` means the table pressure is written directly as absolute pressure.
+2. `MPa(g)` means the table pressure is converted before writing to HYSYS, normally `P_abs = P_gauge + 0.101325 MPa`.
+3. Read the HYSYS property directly, for example `MassDensity.GetValue('kg/m3')`, and do not relabel external EOS or fitted values as HYSYS-native results.
 
 For simple property-table requests, such as pure hydrogen density from 1 MPa to 90 MPa, prefer a minimal native HYSYS material-stream case after readiness passes. Record the table pressure basis explicitly:
 
@@ -120,6 +133,9 @@ For bounded tuning:
 4. Prefer the minimum change that clears the target.
 5. Stop if the task has moved into review or release support mode.
 6. For spreadsheet/workbook writes, pause solver, batch-write inputs, resume solver, wait until `IsSolving` is false, then read KPIs.
+7. For a case containing recycle operations, do not accept a single `RecycleConvergence` value as sufficient proof. Record the recycle's `IsIgnored` state, feed/product bindings, solver-idle state, and project-approved tear-stream residuals for mass, temperature, pressure, enthalpy, and composition when available; then save, close, reopen, and repeat the readback before acceptance.
+8. If a run reaches a valid staged snapshot but later fails a policy, export, or finalization check, preserve the original error and traceback. Do not relabel the run as successful until a separate finalization step revalidates the reopened staged case, confirms the source-case hash is unchanged, records the previous error, and promotes only the verified artifact.
+9. For every pressure write, declare whether the external requirement is gauge or absolute, record the atmospheric-pressure basis used for conversion, write the corresponding absolute pressure to HYSYS, and read the HYSYS pressure back in an explicit absolute unit. Report both the original basis and the converted/readback value; never infer the basis from a bare number or equipment label.
 
 For paper-informed AI/HYSYS tasks, classify the task before executing:
 
@@ -181,6 +197,20 @@ If the task mentions online digital twins, Aspen OnLine, AI Model Builder, Aspen
 
 If the task mentions data-driven simulation, surrogate models, machine learning models, or ML-based soft sensors, treat HYSYS as the validated data source and baseline. Require an explicit design space, variable map, train/validation/test split, error metrics, model validity range, extrapolation limits, and human review path. Do not let a surrogate replace HYSYS runtime validation unless the user provides an approved project procedure.
 
+If the task uses active learning, adaptive sampling, uncertainty sampling, or sequential design to reduce HYSYS evaluations, require an approved initial design, acquisition or uncertainty metric, batch size, stopping rule, sample IDs, failed-run handling, and an untouched validation set. Count a sample as HYSYS evidence only after the approved workcopy solves and its outputs are read back; never relabel surrogate predictions or optimizer candidates as HYSYS-generated samples. Revalidate final candidates in HYSYS and keep the active-learning layer advisory until human acceptance.
+
+If the task mentions heat exchangers, Aspen EDR, HEN, pinch analysis, `Delta Tmin`, exchanger duty prediction, cryogenic heat exchangers, LNG cold boxes, or exchanger AI optimization, classify AI/ML/optimizer output as an advisory candidate layer. Require the source HYSYS or HYSYS/EDR case, exchanger and stream name map, hot/cold stream schema, manipulated variables and bounds, heat-duty/outlet-temperature/approach-temperature/pressure-drop KPIs, failed-sample logging, HYSYS or EDR workcopy readback, and human acceptance before reporting any recommendation as accepted.
+
+If the task uses a HYSYS optimizer, genetic algorithm, particle swarm, Bayesian optimization, or another black-box search method, derive the search bounds from engineering limits and a documented sensitivity screen rather than arbitrary ranges. Record the optimizer, objective, constraints, initial point or random seed, stopping rule, failed evaluations, and solver status. For initialization-dependent or stochastic methods, compare multiple approved initial points or seeds when practical, then rerun the selected candidate in the original HYSYS workcopy and confirm the KPI readback before human acceptance. Do not generalize one paper's winning algorithm to a different flowsheet without a case-specific benchmark.
+
+If the task mentions third-party HYSYS Python wrappers or tutorial repositories such as `aspen-pysys`, `aspen_pysys`, `PySIS`, `ap-python`, or `simulator_codingplatform_integration`, do not adopt them as default dependencies. First check license compatibility, alpha/stability status, Python and `pywin32` requirements, whether an existing HYSYS case and COM runtime are available, and whether the wrapper or tutorial code has been smoke-tested in the current workspace. If any check fails, keep using the repository's direct COM starter and spreadsheet/workbook bridge guidance.
+
+If the task changes a distillation-column feed tray or feed location, do not trust one visible stream name or one COM object path by itself. On the approved workcopy, resolve both the feed attached in the main flowsheet and its representation inside the column subflowsheet, normalize and compare the complete feed-name sets, and reject the write when an identity is missing, duplicated, or mismatched. Log the resolved names, original tray, requested tray, solver state, and post-write readback before accepting the change.
+
+If the task replaces or rebuilds an approved subsystem inside an existing case, first hash the source case and capture a calculation fingerprint for the unaffected side. Where thermodynamic pressure levels are needed, prefer explicit HYSYS property or saturation probes with documented composition, temperature, vapor fraction, and units over unlabeled constants. Make topology changes only on a temporary workcopy, keep the approved change boundary narrow, then save, close, reopen, and confirm that the source hash and unaffected-side material, energy, object-inventory, and solver fingerprints have not drifted before accepting the result.
+
+If the task mentions MCP, MCP server, tool server, remote simulator node, or protocol-based simulation control, treat MCP as an orchestration boundary above the existing lanes, not as simulator authority by itself. Require explicit read/write operations, units, schemas, access-control assumptions, single-workcopy lock policy, dry-run mode, audit logs, failure behavior, rollback behavior, and human acceptance before any write-capable HYSYS tool is enabled. HYSYS-specific MCP repositories are community candidate control wrappers that still require license checks, local HYSYS runtime smoke tests, and workcopy-only write discipline before use; AVEVA APS MCP examples remain architecture references only, not portable HYSYS APIs.
+
 If the task mentions HEN supertargeting, pinch analysis, `Delta Tmin`, Bayesian optimization, LCSI, sustainability assessment, or HDA-style surrogate optimization, separate the spreadsheet/notebook layer, surrogate/optimizer layer, and HYSYS runtime layer. Require thermal-stream units, hot/cold stream classification, utility assumptions, minimum approach-temperature basis, HYSYS object mapping, and final workcopy validation before accepting recommendations.
 
 If the task mentions ML-aided flash calculations, thermodynamic surrogates, accelerated flash evaluation, or Python-side property surrogate models, classify it as a simulation-acceleration layer. Require component slate, EOS/property package, pressure-temperature-composition bounds, HYSYS reference-data provenance, error metrics, extrapolation limits, and final HYSYS or human engineering review before accepting any result.
@@ -188,6 +218,8 @@ If the task mentions ML-aided flash calculations, thermodynamic surrogates, acce
 If the task mentions HYSYS Dynamics, online simulation, live process digital twin, Aspen OnLine, production planning, PIMS, Aspen DMC3, APC, distributed control systems, or DCS, split the work into offline model preparation, dynamic/online conversion prerequisites, external commercial-system boundaries, validation evidence, and human acceptance. Do not imply this skill can publish online models, replace PIMS/DMC3/APC/DCS, or close a production loop by itself.
 
 If the task mentions Aspen OnLine or online HYSYS digital twins, require explicit input/output tag schema, plant-data source, schedule/run policy, case-history or replay path, KPI/reporting schema, failure handling, external APC/DCS boundary, and human acceptance record before any execution or recommendation.
+
+If the task mentions ammonia, urea, fertilizer, `NH3-CO2-H2O`, ElecNRTL, first-principles OTS, or HYSYS Dynamics operator-training scenarios, require an existing dynamic case or validated conversion plan, property-package basis, dynamic holdup and pressure-flow assumptions, DCS/SIS loop map, training-scenario list, trainee acceptance criteria, failure behavior, and human sign-off. Treat embedded DCS/SIS logic as simulation/training evidence only unless the project provides a separate qualified safety and production approval path.
 
 If the task mentions third-party rigorous models such as MySep, multi-unit plant digital twins, refinery process digital twins, live KPI monitoring, or unmeasured KPI inference, identify the HYSYS baseline, external model boundary, live data source, KPI schema, model version, and human acceptance owner before any automation work. Do not imply this skill can reproduce commercial live digital twin products or write recommendations directly to production systems.
 

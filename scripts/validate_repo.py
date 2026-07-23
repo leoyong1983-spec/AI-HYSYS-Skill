@@ -22,6 +22,7 @@ REQUIRED_FILES = [
     "references/basic-package-deliverables.md",
     "references/control-lane-decision-matrix.md",
     "references/digital-twin-boundary.md",
+    "references/pfd-layout-workflow.md",
     "references/literature-patterns.md",
     "references/project-lessons.md",
     "CASE/source-index.md",
@@ -37,6 +38,7 @@ REQUIRED_FILES = [
     "scripts/hysys_automation.py",
     "scripts/hysys_readiness_check.py",
     "scripts/hysys_h2_density_table.py",
+    "scripts/hysys_pfd_layout.py",
     "scripts/validate_repo.ps1",
     "scripts/validate_repo.py",
 ]
@@ -137,6 +139,10 @@ def check_readme_content(readme_text: str, errors: list[str]) -> None:
         errors.append("README.md should mention the real HYSYS readiness check.")
     if "hysys_h2_density_table.py" not in readme_text:
         errors.append("README.md should mention the native HYSYS hydrogen density example.")
+    if "hysys_pfd_layout.py" not in readme_text:
+        errors.append("README.md should mention the native HYSYS PFD layout workflow.")
+    if "pfd-layout-workflow.md" not in readme_text:
+        errors.append("README.md should point readers to the PFD layout workflow.")
     if "control-lane-decision-matrix.md" not in readme_text:
         errors.append("README.md should point readers to the control lane decision matrix.")
 

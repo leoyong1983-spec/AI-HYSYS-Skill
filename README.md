@@ -18,6 +18,7 @@ It is designed for real execution, not just documentation. The workflow covers:
 - bounded tuning and sensitivity runs
 - baseline freezing
 - machine-readable exports
+- native PFD visual cleanup on a verified workcopy
 - review-stage basic process package generation
 - release gate and blocker control
 
@@ -40,6 +41,7 @@ The skill is optimized for projects such as:
 - gas processing
 - LNG and cryogenic studies
 - refining unit studies
+- heat exchanger, HEN, Aspen EDR, and LNG cold-box advisory optimization
 - dehydration / AGR / sulfur systems
 - other process packages that need a repeatable HYSYS-to-package workflow
 
@@ -95,11 +97,13 @@ AI-HYSYS-Skill/
 |   |-- basic-package-deliverables.md
 |   |-- control-lane-decision-matrix.md
 |   |-- digital-twin-boundary.md
+|   |-- pfd-layout-workflow.md
 |   `-- project-lessons.md
 |-- scripts/
 |   |-- hysys_automation.py
 |   |-- hysys_readiness_check.py
 |   |-- hysys_h2_density_table.py
+|   |-- hysys_pfd_layout.py
 |   |-- validate_repo.ps1
 |   `-- validate_repo.py
 |-- CASE/
@@ -192,6 +196,24 @@ Use ai-hysys-basic-package to open the latest valid HYSYS case, run a bounded up
 Use ai-hysys-basic-package to freeze the accepted HYSYS case as a review-stage baseline and prepare machine-readable package outputs.
 ```
 
+```text
+Use ai-hysys-basic-package to reorganize the native HYSYS PFD on a workcopy for human handoff, then reopen it and prove that calculation fingerprints and topology are unchanged.
+```
+
+### Native HYSYS PFD layout example
+
+Provide an explicit equipment-coordinate JSON and create a separate workcopy:
+
+```powershell
+py .\scripts\hysys_pfd_layout.py `
+  --case .\model\baseline.hsc `
+  --output-case .\model\baseline_visual_workcopy.hsc `
+  --layout .\model\pfd_layout.json `
+  --report .\model\pfd_layout_validation.json
+```
+
+See [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) for the V15 COM sequence, layout rules, and validation gate.
+
 ### Native HYSYS hydrogen density example
 
 For a quick pure-hydrogen property-table smoke test, run HYSYS directly and export CSV/JSON:
@@ -238,6 +260,7 @@ If you do not use Codex skills directly, you can still reuse:
 - `references/authority-and-path-selection.md` to choose the correct control lane
 - `references/control-lane-decision-matrix.md` to turn COM, spreadsheet/workbook, data tables, indirect bridges, and GUI fallback into a concrete decision
 - `references/digital-twin-boundary.md` to use official HYSYS digital twin / hybrid AI evidence without overclaiming direct control
+- `references/heat-exchanger-ai-patterns.md` to structure exchanger, HEN, `Delta Tmin`, Aspen EDR, and cryogenic-exchanger AI tasks as advisory candidates validated by HYSYS/EDR readback
 - `references/project-lessons.md` to avoid known failure modes
 - `references/basic-package-deliverables.md` to structure exports and review-stage package outputs
 - `CASE/` as a public source pack and launch-positioning library
@@ -268,6 +291,7 @@ This repository includes lightweight open-source maintenance scaffolding:
 - `scripts/validate_repo.py` for the underlying repository smoke checks without requiring Aspen HYSYS
 - `scripts/hysys_readiness_check.py` for real Windows/HYSYS runtime verification
 - `scripts/hysys_h2_density_table.py` for a minimal native HYSYS property-table smoke calculation
+- `scripts/hysys_pfd_layout.py` for workcopy-only native PFD cleanup with reopen and calculation-fingerprint verification
 
 Run the local validation entry point after repository-facing changes:
 
@@ -337,6 +361,7 @@ Official AspenTech pages:
 - [AspenTech Platform Support](https://www.aspentech.com/en/platform-support)
 - [AspenTech V15 Engineering Platform Specifications PDF](https://www.aspentech.com/-/media/aspentech/home/platform-support/v15/v15engspecs.pdf)
 - [AspenTech performance engineering digital twin case study](https://www.aspentech.com/en/resources/case-studies/energy-company-saves-%246m-usd-with-a-performance-engineering-digital-twin)
+- [Aspen Exchanger Design and Rating product page](https://www.aspentech.com/en/products/engineering/aspen-exchanger-design-and-rating)
 - [Control Column Performance Using Aspen HYSYS](https://www.aspentech.com/en/resources/case-studies/control-column-performance-using-aspen-hysys)
 - [AspenTech process simulation digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield)
 - [AspenTech V15 What's New](https://solutions.aspentech.com/en/whats-new)
@@ -361,14 +386,17 @@ Official AspenTech pages:
 Community bridge example:
 
 - [edgarsmdn/Aspen_HYSYS_Python](https://github.com/edgarsmdn/Aspen_HYSYS_Python)
-- [aspen_pysys PyPI candidate](https://pypi.org/project/aspen-pysys/) and [Codeberg repository](https://codeberg.org/CacklingTanuki/aspen-pysys) - candidate only; current observed alpha `0.1.0a2`, `GPL-3.0-or-later`, Python `>=3.12.12`, `pywin32>=311`, and not adopted as a default dependency.
-- [DanielVazVaz/PySIS](https://github.com/DanielVazVaz/PySIS) - candidate only; direct HYSYS COM wrapper evidence, but not adopted as a default dependency without local HYSYS runtime validation.
+- [aspen-pysys PyPI package](https://pypi.org/project/aspen-pysys/) and [Codeberg repository](https://codeberg.org/CacklingTanuki/aspen-pysys) - tracked as an alpha wrapper candidate, not a default dependency
+- [Anikesh31/simulator_codingplatform_integration](https://github.com/Anikesh31/simulator_codingplatform_integration) - companion-style HYSYS Python/MATLAB tutorial for object inspection and backdoor variables, not a default dependency
+- [DanielVazVaz/PySIS](https://github.com/DanielVazVaz/PySIS) - HYSYS COM abstraction-layer candidate, tracked for API ergonomics, not a default dependency
+- [bsha0/ap-python](https://github.com/bsha0/ap-python) - MIT Aspen Plus/HYSYS Python automation wrapper with HYSYS moniker get/set examples, not a default dependency
 - [yuuyo-arobet/AspenHYSYS-MCP-Server](https://github.com/yuuyo-arobet/AspenHYSYS-MCP-Server) - direct HYSYS MCP/COM implementation candidate; MIT, read-only/default/enhanced mode separation, and claimed HYSYS V14 real-machine verification, but not adopted as a default dependency or runtime channel without local validation.
 
 Recent AI paper:
 
 - [Sketch2Simulation (arXiv:2603.24629)](https://arxiv.org/abs/2603.24629)
 - [From Text to Simulation (arXiv:2601.06776)](https://arxiv.org/abs/2601.06776)
+- [Text-to-flowsheet (RSC Digital Discovery)](https://pubs.rsc.org/en/content/articlelanding/2026/dd/d6dd00060f)
 - [Large Language Model Agent for User-friendly Chemical Process Simulations (arXiv:2601.11650)](https://arxiv.org/abs/2601.11650)
 - [PINN Digital Twin for Aspen HYSYS generated dynamic data (arXiv:2603.24644)](https://arxiv.org/abs/2603.24644)
 - [Perspectives on the Essential Role of First-Principles Modeling in the Age of AI](https://doi.org/10.1021/acs.iecr.5c04156)
@@ -376,6 +404,8 @@ Recent AI paper:
 - [AI-driven surrogate modeling for LNG process optimization](https://doi.org/10.1016/j.jclepro.2026.148110)
 - [ML-aided flash surrogate validated against Aspen HYSYS](https://doi.org/10.1016/j.cherd.2026.05.041)
 - [Optimizing Pressure Swing Distillation Using Aspen HYSYS and Machine Learning Algorithms](https://doi.org/10.1007/s11814-026-00646-x)
+- [Artificial intelligence assisted prediction of optimum operating conditions of shell and tube heat exchangers](https://doi.org/10.1049/cit2.12393)
+- [Enhancing LNG supply chain robustness through digital twin-driven machine learning models: cryogenic heat exchanger case](https://doi.org/10.1016/j.jgsce.2025.205714)
 - [HEFA/SAF production planning surrogate model paper](https://www.sciencedirect.com/science/article/pii/S009813542600102X)
 - [Reasoning-agent-driven process simulation, optimization, carbon accounting and decarbonization of distillation](https://doi.org/10.1038/s44172-025-00583-3)
 - [Text-to-Flowsheet: autonomous flowsheet generation from natural language process descriptions](https://doi.org/10.1039/D6DD00060F) and [Text2Flowsheet code/data](https://github.com/LLM4ChemEng/Text2Flowsheet)
@@ -397,6 +427,15 @@ HYSYS automation and interconnection papers:
 - [Integrating coding platforms with process simulators for custom applications](https://www.sciencedirect.com/science/article/pii/S0098135425002510)
 - [A comparative study on Aspen HYSYS interconnection methodologies](https://papers.sim2.be/assets/uploads/files/1c6ba-communicationarticle.pdf)
 - [Supervisory Monitoring and Control Using Chemical Process Simulators and SCADA Systems](https://doi.org/10.3390/methane5010008)
+
+Heat exchanger / HEN program precedent:
+
+- [Galigeigei-Z/HDA-Surrogate-Optimization](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization)
+
+MCP architecture precedent:
+
+- [yuuyo-arobet/AspenHYSYS-MCP-Server](https://github.com/yuuyo-arobet/AspenHYSYS-MCP-Server) - HYSYS-specific MCP + COM community candidate; useful for read-only-first, mode-gated tool design, not a default dependency
+- [gsi-lab/APS-Agent](https://github.com/gsi-lab/APS-Agent) - AVEVA Process Simulation MCP example; adjacent architecture reference only
 
 ## Publishing Note
 

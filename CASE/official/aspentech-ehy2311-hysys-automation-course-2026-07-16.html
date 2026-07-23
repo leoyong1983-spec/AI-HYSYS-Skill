@@ -1,0 +1,943 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+    <head><script src="/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/static/111213/js/functions.js" type="text/javascript"></script><script src="/jslibrary/1780557668262/sfdc/main.js" type="text/javascript"></script><script src="/jslibrary/jslabels/1783965814000/en_US.js" type="text/javascript"></script><script src="/static/111213/desktop/desktopAjax.js" type="text/javascript"></script><script src="/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/jslibrary/1746634855262/sfdc/IframeThirdPartyContextLogging.js" type="text/javascript"></script><script src="https://esupport.aspentech.com/lightning/lightning.out.js?v=2" type="text/javascript"></script><script src="/resource/1658432592000/UniversitySiteJS" type="text/javascript"></script><script src="/resource/1484259264000/jquerymin" type="text/javascript"></script><script src="/resource/1509723046000/bootstrap336js" type="text/javascript"></script><script src="/jslibrary/1686615502262/sfdc/VFState.js" type="text/javascript"></script><link class="user" href="/slds/css/WIIWuiUUbjpt_am0etmQYQ/min/scoped/one:oneNamespace,force:sldsTokens,force:base,force:formFactorLarge/slds.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1658435746000/UniversitySiteCSS" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1536789823000/custom_bootstrap" rel="stylesheet" type="text/css" /><script src="/jslibrary/1647410351262/sfdc/NetworkTracking.js" type="text/javascript"></script><script>try{ NetworkTracking.init('/_ui/networks/tracking/NetworkTrackingServlet', 'network', '0664P000003SGmJ'); }catch(x){}try{ NetworkTracking.logPageView();}catch(x){}</script><script>(function(UITheme) {
+    UITheme.getUITheme = function() { 
+        return UserContext.uiTheme;
+    };
+}(window.UITheme = window.UITheme || {}));</script></head><style>
+        th {
+            cursor: pointer;
+            user-select: none;
+        }
+        .sort-arrow {
+            margin-left: 6px;
+            font-size: 10px;
+        }
+        .sort-asc::after {
+            content: "▲";
+        }
+        .sort-desc::after {
+            content: "▼";
+        }
+        th[data-col] {
+            cursor: pointer;
+        }
+    </style><html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <head>
+<meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" /><span id="j_id0:j_id2:j_id4"></span>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;family=Manrope:wght@200&amp;display=swap" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" rel="stylesheet" />
+        
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    </head>
+
+    <body class="slds-scope u-body">
+        
+            <div id="headerContainer"></div>
+        <div class="u-body-content">
+
+            
+            <section class="u-header-offset-small u-course-section u-container">
+                <div class="u-sub-conatiner u-course-basic-info">
+                    <img src="/resource/1778782792000/Certification_Icons/Certification_Icons/HYSYS-HYSYS-256.png" />
+                    <div>
+                        <h1>Developing Automation Solutions for Aspen HYSYS</h1><script> if(!window.sfdcPage) { window.sfdcPage = new ApexDetailPage(); }UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"salesforceURL":"https://esupport.aspentech.com?refURL=http%3A%2F%2Fesupport.aspentech.com%2FUniversityCourse","dateFormat":"M/d/yyyy","dayPeriods":[],"language":"en_US","locale":"en_US","enableLoggingInAuraAlohaFrameNavigator":true,"dateTimeFormat":"M/d/yyyy h:mm a","labelLastModified":"1783965814000","today":"7/15/2026 7:04 PM","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":true},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false},{"index":373,"name":"PreviewLightning","value":false},{"index":281,"name":"HideMSPPopup","value":false}],"networkId":"0DB0B000000Call","uiTheme":"Theme3","uiSkin":"Theme3","userName":"aspentech_support_training@aspentech.force.com","userId":"0050B000006dpXa","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"aspentech--(?:[^.]+).vf.force.com","auraDomain":"aspentech.lightning.force.com","useNativeAlertConfirmPrompt":false,"orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"isDefaultNetwork":false,"timeFormat":"h:mm a"});
+</script><span id="j_id0:j_id2:j_id19"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id19j_id0:j_id2:j_id19_00N0B000005UYdw_div">Recognize the benefits of using automation in conjunction with Aspen HYSYS. Reinforce programming concepts that support automation in Aspen HYSYS. Use Visual Basic and Excel to create automation solutions for Aspen HYSYS simulation models.</div></td></tr>
+</table><script>j_id0__j_id2__j_id19 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id19!= null) j_id0__j_id2__j_id19();};</script></span>
+                         
+                         
+                        <h2>Audience:</h2><span id="j_id0:j_id2:j_id21"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id21j_id0:j_id2:j_id21_00N0B000005UYdn_div">Engineers who want to develop automation solutions for Aspen HYSYS simulations.</div></td></tr>
+</table><script>j_id0__j_id2__j_id21 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id21!= null) j_id0__j_id2__j_id21();};</script></span>
+                    </div>
+                </div>
+            </section>
+                <section class="u-course-section u-container">
+                    <div class="u-sub-conatiner u-exam-details">
+                        <h2>Training Details</h2>
+                        <ul>
+                            <li>
+                                <h4>Course Id:</h4>
+                                <p>EHY2311</p>
+                            </li>
+                            <li>
+                                <h4>Duration:</h4>
+                                <p>2
+                                    day(s)
+                                </p>
+                            </li>
+                            <li>
+                                <h4>CEUs Awarded:</h4>
+                                <p>1.4</p>
+                            </li>
+                            <li>
+                                <h4>Level:</h4>
+                                <p>Intermediate</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="u-course-section u-container">
+                    <div class="u-sub-conatiner u-exam-preparation">
+                        <h2>Benefits</h2><span id="j_id0:j_id2:j_id44:j_id46"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id44:j_id46j_id0:j_id2:j_id44:j_id46_00N0B000005UYdo_div"><ul><li>Learn to automate, customize and enhance the capabilities of Aspen HYSYS models to address specific process simulation needs</li><li>Automate repetitive error prone tasks</li><li>Build applications that target specific tasks</li><li>Create solutions that leverage the key strengths of one or more applications</li></ul></div></td></tr>
+</table><script>j_id0__j_id2__j_id44__j_id46 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id44__j_id46!= null) j_id0__j_id2__j_id44__j_id46();};</script></span>
+                    </div>
+                </section>
+                <section class="u-course-section u-container">
+                    <div class="u-sub-conatiner u-exam-preparation">
+                        <h2>Approach</h2><span id="j_id0:j_id2:j_id48:j_id50"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id48:j_id50j_id0:j_id2:j_id48:j_id50_00N0B000005UYdm_div"><ul><li>Course notes containing lecture materials, examples and workshops are distributed</li><li>Lecture topics are reinforced with workshops throughout the day</li><li>Questions relating the course material to real life problems are encouraged</li></ul></div></td></tr>
+</table><script>j_id0__j_id2__j_id48__j_id50 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id48__j_id50!= null) j_id0__j_id2__j_id48__j_id50();};</script></span>
+                    </div>
+                </section>
+                <section class="u-course-section u-container">
+                    <div class="u-sub-conatiner u-exam-preparation">
+                        <h2>Pre-requisites</h2><span id="j_id0:j_id2:j_id56:j_id58"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id56:j_id58j_id0:j_id2:j_id56:j_id58_00N0B000005UYe6_div">Attend training course EHY101 Aspen HYSYS Process Modeling or extended experience in using Aspen HYSYS for process modeling.</div></td></tr>
+</table><script>j_id0__j_id2__j_id56__j_id58 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id56__j_id58!= null) j_id0__j_id2__j_id56__j_id58();};</script></span>
+                    </div>
+                </section>
+                <section class="u-course-section u-container">
+                    <div class="u-sub-conatiner u-exam-preparation">
+                        <h2>Subsequent Courses</h2><span id="j_id0:j_id2:j_id60:j_id62"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id60:j_id62j_id0:j_id2:j_id60:j_id62_00N0B000005UYeC_div"><ul><li>EHY202 Aspen HYSYS: Advanced Process Modeling Topics</li><li>EHY2102 Aspen HYSYS Petroleum Refining: Refinery Process Modeling and Optimization for Refinery Unit Operations</li><li>EHY221 Aspen HYSYS Dynamics: Dynamic Modeling</li></ul></div></td></tr>
+</table><script>j_id0__j_id2__j_id60__j_id62 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id60__j_id62!= null) j_id0__j_id2__j_id60__j_id62();};</script></span>
+                    </div>
+                </section>
+                <section class="u-course-section u-container">
+                    <div class="u-sub-conatiner u-exam-preparation">
+                        <h2>Agenda</h2><span id="j_id0:j_id2:j_id64:j_id66"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="j_id0:j_id2:j_id64:j_id66j_id0:j_id2:j_id64:j_id66_00N0B000005UYdl_div"><b>Introduction to Automation</b>
+<ul><li>Identify benefits of using HYSYS automation</li><li>Understand how customization can enhance the capabilities of Aspen HYSYS</li></ul>
+<br><b>VB Syntax</b>
+
+<ul><li>Reinforce programming concepts</li><li>Develop a programming style</li><li>Learn important VB syntax</li><li>Workshop: Create a Prime Number Search macro using VBA so as to become familiar with important syntax and develop a better understanding of object oriented programming</li></ul>
+<br><b>The HYSYS Type Library</b>
+
+<ul><li>Navigate simulation objects using the HYSYS Type Library</li><li>Use the Object Browser within Excel</li><li>Workshop: Use the Object Browser within Excel to access the HYSYS Type Library</li></ul>
+<br><b>Linking HYSYS and Excel</b>
+
+<ul><li>Understand the implications of using early and late binding</li><li>Learn how to programmatically set objects and properties</li><li>Workshop: Connect Excel and Aspen HYSYS using the GetObject and CreateObject methods</li></ul>
+<br><b>Automation Objects</b>
+
+<ul><li>Become familiar with common Aspen HYSYS and Excel objects</li><li>Learn how to write functional VBA modules</li><li>Workshop: Use VBA to interact with common objects within Aspen HYSYS such as streams, heat exchangers and column subflowsheets</li></ul>
+<br><b>The VB Debugger</b>
+
+<ul><li>Become familiar with the debugging tools available within the Visual Basic Editor</li><li>Apply appropriate debugging techniques</li><li>Workshop: Use the features of the VB Debugger to eliminate errors in existing code</li></ul>
+<br><b>The Macro Language Editor</b>
+
+<ul><li>Create and run Macro Language Editor (MLE) code</li><li>Add dialog boxes to an MLE macro</li><li>Practice debugging an MLE macro</li><li>Workshop: Use the Macro Language Editor to create functional macros within Aspen HYSYS</li></ul>
+<br><b>User Variables</b>
+
+<ul><li>Learn the steps required to create a User Variable</li><li>Introduce recommended debugging techniques for User Variable code</li><li>Workshop: Create and debug User Variables for different object types within Aspen HYSYS</li></ul>
+<br><b>Applications</b>
+
+<ul><li>Test and develop your automation skills</li><li>Workshop: Use automation to link process information in different simulations</li></ul>
+<br><b>User Operations</b>
+
+<ul><li>Highlight the general features of a User Unit Operation</li><li>Workshop: Demonstration of the capabilities of a User Unit Operation</li></ul></div></td></tr>
+</table><script>j_id0__j_id2__j_id64__j_id66 = window.onload; window.onload=function() { if (j_id0__j_id2__j_id64__j_id66!= null) j_id0__j_id2__j_id64__j_id66();};</script></span>
+                    </div>
+                </section>
+
+            
+            <section class="u-container">
+<form id="j_id0:j_id2:j_id69" name="j_id0:j_id2:j_id69" method="post" action="/UniversityCourse?id=a3p0B0000004Yn6QAE" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2:j_id69" value="j_id0:j_id2:j_id69" />
+
+                    <div class="u-sub-conatiner u-class-list"><span id="j_id0:j_id2:j_id69:j_id71"></span>
+                            <h2>Register for a Class</h2>
+                        
+
+                        <table id="courseTable">
+                            <thead>
+                                    <tr>
+                                        <th data-col="0" onclick="sortTbl(0,'date')">Date <span class="sort-arrow"></span> </th>
+                                        <th data-col="1" onclick="sortTbl(1,'str')">Class Type <span class="sort-arrow"></span></th>
+                                        <th data-col="2" onclick="sortTbl(2,'loc')">Location <span class="sort-arrow"></span></th>
+                                        <th data-col="3" onclick="sortTbl(3,'num')">Price <span class="sort-arrow"></span></th>
+                                        <th data-col="4" onclick="sortTbl(4,'str')">Language <span class="sort-arrow"></span></th>
+                                        <th></th>
+                                    </tr>
+                            </thead>
+                            <tbody>
+                                        <tr>
+                                            <td data-sort="2026-08-03" data-sort2="2026-08-04">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 08/3/2026
+                                                <span> - </span> 08/4/2026
+                                            </td>
+                                            <td data-sort="Public Virtual">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Virtual
+                                            </td>
+                                            <td data-city="Virtual-EMEA" data-country="United Kingdom" data-name="Virtual-EMEA" data-state="" data-street="" data-type="Public Virtual" data-zip="">
+                                                    <span class="u-class-list-mobile-text">Location: </span>Virtual-EMEA 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td>
+<script type="text/javascript" language="Javascript">function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {adp[i].parentNode.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var ps = pvp.split(',');for (var i = 0,ii = 0;i < ps.length;i++,ii++) {var p = document.createElement("input");p.type = "hidden";p.name = ps[i];p.value = ps[i + 1];f.appendChild(p);adp[ii] = p;i += 1;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>
+<a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:0:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:0:j_id108:j_id123,classId,a3LUn00000SATceMAH','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2026-11-02" data-sort2="2026-11-03">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 11/2/2026
+                                                <span> - </span> 11/3/2026
+                                            </td>
+                                            <td data-sort="Public Virtual">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Virtual
+                                            </td>
+                                            <td data-city="Virtual-EMEA" data-country="United Kingdom" data-name="Virtual-EMEA" data-state="" data-street="" data-type="Public Virtual" data-zip="">
+                                                    <span class="u-class-list-mobile-text">Location: </span>Virtual-EMEA 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:1:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:1:j_id108:j_id123,classId,a3LUn00000TlDTVMA3','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2026-08-11" data-sort2="2026-08-12">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 08/11/2026
+                                                <span> - </span> 08/12/2026
+                                            </td>
+                                            <td data-sort="Public Virtual">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Virtual
+                                            </td>
+                                            <td data-city="Virtual-Americas" data-country="USA" data-name="Virtual-Americas" data-state="" data-street="" data-type="Public Virtual" data-zip="">
+                                                    <span class="u-class-list-mobile-text">Location: </span>Virtual-Americas 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:2:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:2:j_id108:j_id123,classId,a3LUn00000UNf4mMAD','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2026-11-17" data-sort2="2026-11-18">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 11/17/2026
+                                                <span> - </span> 11/18/2026
+                                            </td>
+                                            <td data-sort="Public Virtual">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Virtual
+                                            </td>
+                                            <td data-city="Virtual-Americas" data-country="USA" data-name="Virtual-Americas" data-state="" data-street="" data-type="Public Virtual" data-zip="">
+                                                    <span class="u-class-list-mobile-text">Location: </span>Virtual-Americas 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:3:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:3:j_id108:j_id123,classId,a3LUn00000UNf5PMAT','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2026-08-11" data-sort2="2026-08-12">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 08/11/2026
+                                                <span> - </span> 08/12/2026
+                                            </td>
+                                            <td data-sort="Public Classroom">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Classroom
+                                            </td>
+                                            <td data-city="Houston" data-country="USA" data-name="Houston, TX" data-state="Texas" data-street="2500 Citywest Blvd, Suite 1600" data-type="Public Classroom" data-zip="77042">
+                                                    <span class="u-class-list-mobile-text">Location: </span>
+                                                    2500 Citywest Blvd, Suite 1600<br />
+                                                    Houston
+                                                    <span>, </span>Texas<span> </span>
+                                                    USA<span> </span>
+                                                    77042 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:4:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:4:j_id108:j_id123,classId,a3LUn00000UNf62MAD','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2026-11-17" data-sort2="2026-11-18">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 11/17/2026
+                                                <span> - </span> 11/18/2026
+                                            </td>
+                                            <td data-sort="Public Classroom">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Classroom
+                                            </td>
+                                            <td data-city="Houston" data-country="USA" data-name="Houston, TX" data-state="Texas" data-street="2500 Citywest Blvd, Suite 1600" data-type="Public Classroom" data-zip="77042">
+                                                    <span class="u-class-list-mobile-text">Location: </span>
+                                                    2500 Citywest Blvd, Suite 1600<br />
+                                                    Houston
+                                                    <span>, </span>Texas<span> </span>
+                                                    USA<span> </span>
+                                                    77042 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:5:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:5:j_id108:j_id123,classId,a3LUn00000UNf6fMAD','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2027-02-09" data-sort2="2027-02-10">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 02/9/2027
+                                                <span> - </span> 02/10/2027
+                                            </td>
+                                            <td data-sort="Public Virtual">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Virtual
+                                            </td>
+                                            <td data-city="Virtual-Americas" data-country="USA" data-name="Virtual-Americas" data-state="" data-street="" data-type="Public Virtual" data-zip="">
+                                                    <span class="u-class-list-mobile-text">Location: </span>Virtual-Americas 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:6:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:6:j_id108:j_id123,classId,a3LUn00000WUEeaMAH','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2027-05-18" data-sort2="2027-05-19">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 05/18/2027
+                                                <span> - </span> 05/19/2027
+                                            </td>
+                                            <td data-sort="Public Virtual">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Virtual
+                                            </td>
+                                            <td data-city="Virtual-Americas" data-country="USA" data-name="Virtual-Americas" data-state="" data-street="" data-type="Public Virtual" data-zip="">
+                                                    <span class="u-class-list-mobile-text">Location: </span>Virtual-Americas 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:7:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:7:j_id108:j_id123,classId,a3LUn00000WUEfDMAX','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2027-02-09" data-sort2="2027-02-10">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 02/9/2027
+                                                <span> - </span> 02/10/2027
+                                            </td>
+                                            <td data-sort="Public Classroom">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Classroom
+                                            </td>
+                                            <td data-city="Houston" data-country="USA" data-name="Houston, TX" data-state="Texas" data-street="2500 Citywest Blvd, Suite 1600" data-type="Public Classroom" data-zip="77042">
+                                                    <span class="u-class-list-mobile-text">Location: </span>
+                                                    2500 Citywest Blvd, Suite 1600<br />
+                                                    Houston
+                                                    <span>, </span>Texas<span> </span>
+                                                    USA<span> </span>
+                                                    77042 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:8:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:8:j_id108:j_id123,classId,a3LUn00000WUEfqMAH','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sort="2027-05-18" data-sort2="2027-05-19">
+                                                <span class="u-class-list-mobile-text">Date(s): </span> 05/18/2027
+                                                <span> - </span> 05/19/2027
+                                            </td>
+                                            <td data-sort="Public Classroom">
+                                                <span class="u-class-list-mobile-text">Type: </span>Public Classroom
+                                            </td>
+                                            <td data-city="Houston" data-country="USA" data-name="Houston, TX" data-state="Texas" data-street="2500 Citywest Blvd, Suite 1600" data-type="Public Classroom" data-zip="77042">
+                                                    <span class="u-class-list-mobile-text">Location: </span>
+                                                    2500 Citywest Blvd, Suite 1600<br />
+                                                    Houston
+                                                    <span>, </span>Texas<span> </span>
+                                                    USA<span> </span>
+                                                    77042 
+                                            </td>
+                                            <td data-num="2200.00">
+                                                <span class="u-class-list-mobile-text">Price: </span>(USD) 2200.00
+                                            </td>
+                                            <td data-sort="English">
+                                                <span class="u-class-list-mobile-text">Language: </span>English
+                                            </td>
+                                            <td><a href="#" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('j_id0:j_id2:j_id69'),'j_id0:j_id2:j_id69:j_id107:9:j_id108:j_id123,j_id0:j_id2:j_id69:j_id107:9:j_id108:j_id123,classId,a3LUn00000WUEgTMAX','');}return false">Register</a>
+                                            </td>
+                                        </tr>
+                            </tbody>
+                        </table>
+
+                    </div><div id="j_id0:j_id2:j_id69:j_id162"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="202607101946140000" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNklqTjVaSGx5TjBsM2Ezb3pTblJ6VEd0dGVGWlJlbUk0Wm5CdFdsSlBiVVozTms1T2VVdFJNRXBsUlVWY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkZVd01EQXdNREF3VEZock1Wd2lMRndpZGx3aU9sd2lNREpITUVJd01EQXdNREJNV25BNFhDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05UQkNNREF3TURBMlpIQllZVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVGM0TkRFME1qSTBNVFl5TlN3aVpYaHdJam93ZlE9PS4uWWx2UFdyWmN4OEIzSjd6WW9ZTDdneWRLZDF3dGVTSE81S09zd2VwN0c2Zz0=" /></span></span>
+            </section>
+
+            
+            <section class="u-course-section u-container">
+                <div class="u-sub-conatiner u-exam-preparation">
+                    <p>Aspen Technology, Inc. awards Continuing Education Units (CEUs) for training classes conducted by our organization. One CEU is granted for every 10 hours of class participation.</p>
+                </div>
+            </section>
+        </div>
+        
+            <div id="footerContainer"></div>
+    </body>
+            <script>
+        
+        $Lightning.use("embeddedService:sidebarApp", function() {
+            
+            try{
+                var linkNode = document.getElementsByClassName("auraCss")[0];
+                console.log('linkNode css'+linkNode);
+                //linkNode.parentNode.removeChild(linkNode);
+            }catch(err){
+                console.log('removing css'+err);
+            }
+            $Lightning.createComponent("c:esupportHeader", {location: "University"},
+                                       
+                                       "headerContainer",
+                                       
+                                       function (cmp) {
+                                           
+                                           console.log('Component created');
+                                           
+                                       });
+            
+            $Lightning.createComponent("c:esupportFooter", {location: "University"},
+                                       
+                                       "footerContainer",
+                                       
+                                       function (cmp) {
+                                           
+                                           console.log('Component created');
+                                           
+                                       });
+            
+        });
+        
+        </script><span id="j_id0:j_id2:j_id153">
+    <style type="text/css">
+        .embeddedServiceHelpButton .helpButton .uiButton {
+            background-color: #005290;
+            font-family: "Salesforce Sans", sans-serif;
+        }
+
+        .embeddedServiceHelpButton .helpButton .uiButton:focus {
+            outline: 1px solid #005290;
+        }
+
+        @font-face {
+            font-family: 'Salesforce Sans';
+            src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'),
+            url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
+        }
+
+        .embeddedServiceLiveAgentStateChatHeader:not(.alert) .message {
+            display: none !important;
+        }
+
+        .embeddedServiceLiveAgentStateChatAvatar.isLightningOutContext .agentIconColor0 {
+            display: none;
+        }
+
+        .embeddedServiceLiveAgentStateChatMenuMessage .rich-menu-itemOptionIsClicked {
+            width: auto !important;
+        }
+
+        .embeddedServiceLiveAgentStateChatMenuMessage .rich-menu-item {
+            width: auto !important;
+            text-align: left !important;
+        }
+
+        .embeddedServiceLiveAgentStateChatItem.chatMessage {
+            text-align: left !important;
+        }
+
+        .chat-content[CLWCP-lwcchatpack_lwcchatpack] {
+            margin-left: 0px !important;
+        }
+
+        .embeddedServiceSidebar.modalContainer {
+            z-index: 99999999999999999999999999999999 !important;
+        }
+
+        .embeddedServiceHelpButton .embeddedServiceIcon {
+            width: 22px;
+            height: 24px;
+            background-repeat: no-repeat;
+            background-image: url('https://aspentech--c.na132.visual.force.com/resource/1597954922000/chatboticon22');
+        }
+
+        .embeddedServiceHelpButton .embeddedServiceIcon::before {
+            display: none !important;
+        }
+
+        .embeddedServiceLiveAgentStateChatButtonItem .label {
+            font-size: 90% !important;
+        }
+
+        /*.embeddedServiceLiveAgentStateChatItem.chatMessage button {
+                font-weight:bold;
+            }*/
+
+        .embeddedServiceLiveAgentStateChatMenuMessage .rich-menu {
+            margin: 0px !important;
+        }
+
+        /*.embeddedServiceHelpButton .embeddedServiceIcon::before{
+                font-family:embeddedserviceiconfont1 !important;
+                font-size:1.25em;       
+                content:attr(data-icon);speak:none;text-rendering:auto;font-weight:400;font-variant:normal;text-transform:none;
+                -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale
+            }
+            /*@font-face{
+            font-family:embeddedserviceiconfont1;
+            src:url(data:application/octet-stream;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAYCAYAAAD+vg1LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGISURBVEhLtZTLLgRBFIa7ZTAj4zYLk5AIL2BlyVY8hYmXsPYARGLjAVh4A2JnwUJsEC9gQWxEmERcMuU/p/6q6cn0VY8v+ec/py6naqqrO/gvQnoqxpgKbMdmwVcYhluMy4HCq1CUEXYNBqnIMJMheiaomevYHKmFUWwReuZOO2xzXEleGEzctvMzWeaUbDC4ZefkZpJTPbHnJiMZ5qWNKzjOWOk5Y9RrQvtMP6F5qJqiJvQE1TFvFt4POj4goUOfYVcqGDdsh5tTevehIrm3beaS7o8C4ZttMaNskjaFqctf6ULFHUWdfkuP8iA/OEM5GscP1LahJ/oAF/QXK9zYhcw5XVjSToA48b6jr6ajjfmmC6G/FUheYNM2U+SF2ITuNItHdnYEjUFn0Bp0iH+3Ae8FCxzrmsVZYQllUPf4HbucYKwknd0ePS8Nuifxi1Vg13PY7SNjT+rXLYNdFBT6iiaCza7LjmM4gdydLw4mH2iZLhfsKgeLCfKK19hcHhS7hqaY/oEg+AVPHM2tBQ8g2AAAAABJRU5ErkJggg==) format("truetype")
+            }*/
+
+        .embeddedServiceLiveAgentStateChatButtonItem .label {
+            text-align: left !important;
+        }
+
+        c-lwcchatpack_html .slds-rich-text-editor__output span {
+            float: left;
+            background: #f2f2f3;
+            border-radius: 10px 10px 10px 0;
+            padding: 10px;
+        }
+
+        .chat-content[CLWCP-lwcchatpack_lwcchatpack] {
+            font-size: 100%;
+            color: #333;
+        }
+    </style>
+    
+    <script type="text/javascript">
+        /*
+        var initESW = function (gslbBaseURL) {
+            console.log('*****initESW');
+            embedded_svc.settings.displayHelpButton = true; //Or false
+            embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
+
+            embedded_svc.settings.defaultMinimizedText = 'Let\'\s Chat'; //(Defaults to Chat with an Expert)
+
+            embedded_svc.settings.extraPrechatInfo = [{ "entityFieldMaps": [{ "doCreate": false, "doFind": true, "fieldName": "LastName", "isExactMatch": true, "label": "Last Name" }, { "doCreate": false, "doFind": true, "fieldName": "FirstName", "isExactMatch": true, "label": "First Name" }, { "doCreate": false, "doFind": true, "fieldName": "Email", "isExactMatch": true, "label": "Email" }], "entityName": "Contact", "saveToTranscript": "Contact", "showOnCreate": true }];
+            embedded_svc.settings.extraPrechatFormDetails = [{ "label": "First Name", "transcriptFields": ["First_Name__c"] }, { "label": "Last Name", "transcriptFields": ["Last_Name__c"] }, { "label": "Email", "transcriptFields": ["Email__c"] }, { "label": "Product", "transcriptFields": ["Product__c"] }, { "label": "Product Family", "transcriptFields": ["Product_Family__c"] }, { "label": "Enter your Case Number", "transcriptFields": ["Enter_your_Case_Number__c"] }, { "label": "Snapin Chat Category", "transcriptFields": ["Snapin_Chat_Category__c"] }];
+
+            embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+            embedded_svc.settings.entryFeature = 'LiveAgent';
+            //embedded_svc.settings.chatbotAvatarImgURL = "https://aspentech--c.na132.visual.force.com/resource/1596720918000/chatboticon";
+            //embedded_svc.snippetSettingsFile.headerBackgroundURL = "https://aspentech--c.na132.visual.force.com/resource/1596720918000/chatboticon";
+            embedded_svc.settings.smallCompanyLogoImgURL = "https://aspentech--c.na132.visual.force.com/resource/1597954922000/chatboticon22";
+            console.log('*****before embedded_svc.init');
+
+            embedded_svc.init(
+                "https://aspentech.my.salesforce.com",
+                "https://esupport.aspentech.com",
+                gslbBaseURL,
+                "00DU0000000LXk1",
+                'Chat_Deployment',
+                {
+                    baseLiveAgentContentURL: "https://c.la3-c1-ph2.salesforceliveagent.com/content",
+                    deploymentId: "5720B0000004GlH",
+                    buttonId: '5734P000000DITs',
+                    baseLiveAgentURL: "https://d.la3-c1-ph2.salesforceliveagent.com/chat",
+                    eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I4P000000TQYRUA4_16ce3527870',
+                    isOfflineSupportEnabled: false
+                }
+            );
+
+        };
+
+        if (!window.embedded_svc) {
+            var s = document.createElement('script');
+            //s.setAttribute('src', 'https://aspentech--uat.cs52.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+            //s.setAttribute('src', 'https://aspentech.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+            s.setAttribute('src', "https://aspentech.my.salesforce.com/embeddedservice/5.0/esw.min.js");
+            s.onload = function () {
+                initESW(null);
+            };
+            document.body.appendChild(s);
+        } else {
+            initESW('https://service.force.com');
+        }
+        */
+        console.log('inside embedded script tag..');
+        console.log('0050B000006dpXaQAI');
+        // Server-side injected labels for environment mapping (VF resolves these at render time)
+        var ASSET_PATHS = {
+          "BHANU2": "ESWMessagingDeployment1764103636979",
+          "INT":    "ESWMessagingDeployment1778681799825",
+          "UAT":    "ESWMessagingDeployment1778681799825",
+          "PROD":   "ESWMessagingDeployment1778681799825"
+        };
+  // Default to 'Messaging_Deployment' if not provided
+        var DEPLOYMENT_NAME = "Messaging_Deployment";
+        // Vanity domain to environment key mapping (no Apex)
+        var VANITY_TO_ENV = {
+          "esupport-enhanced.aspentech.com": "BHANU2",
+          "esupport-int.aspentech.com": "INT",
+          "esupport-uat.aspentech.com": "UAT",
+          "esupport.aspentech.com": "PROD"
+        };
+        // Replaced hardcoded Embedded Messaging URLs with environment-agnostic, label-driven logic
+        // Labels expected (create in Setup -> Custom Labels):
+        // - Messaging_Deployment_Asset_Path_BHANU2 = ESWMessagingDeployment1764103636979
+        // - Messaging_Deployment_Asset_Path_INT    = <INT asset path>
+        // - Messaging_Deployment_Asset_Path_PROD   = <PROD asset path>
+        // Optional:
+        // - Messaging_Deployment_Name              = Messaging_Deployment
+        
+        (function() {
+          function getEnvKeyFromVanity(host) {
+            return (VANITY_TO_ENV[host] || "PROD");
+          }
+          function buildCanonical(envKey) {
+            var envLower = (envKey || '').toLowerCase();
+            if (envKey === "PROD") {
+              return {
+                siteBase: "https://aspentech.my.site.com",
+                scrtBase: "https://aspentech.my.salesforce-scrt.com"
+              };
+            }
+            return {
+              siteBase: "https://aspentech--" + envLower + ".sandbox.my.site.com",
+              scrtBase: "https://aspentech--" + envLower + ".sandbox.my.salesforce-scrt.com"
+            };
+          }
+          function loadScript(url, onload) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.src = url;
+            s.onload = onload;
+            document.body.appendChild(s);
+          }
+          // Preserve prechat hidden fields hook
+          window.addEventListener("onEmbeddedMessagingReady", function () {
+            try {
+              embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
+                "UserId":  '0050B000006dpXaQAI'                    
+              });
+            } catch (e) {
+              console.error('Error setting hidden pre-chat fields: ', e);
+            }
+          });
+          function startMessaging() {
+            try {
+              var envKey = getEnvKeyFromVanity(window.location.hostname);
+              var assetPath = ASSET_PATHS[envKey];
+              if (!assetPath) {
+                console.error('No Messaging asset path label configured for env:', envKey);
+                return;
+              }
+              var hosts = buildCanonical(envKey);
+              var bootstrapUrl = hosts.siteBase + '/' + assetPath + '/assets/js/bootstrap.min.js';
+              loadScript(bootstrapUrl, function() {
+                try {
+                  embeddedservice_bootstrap.settings.language = 'en_US';
+                  embeddedservice_bootstrap.init(
+                    "00DU0000000LXk1",
+                    'Messaging_Deployment',
+                    hosts.siteBase + '/' + assetPath,
+                    { scrt2URL: hosts.scrtBase }
+                  );
+                } catch (err) {
+                  console.error('Error loading Embedded Messaging: ', err);
+                }
+              });
+            } catch (e) {
+              console.error('Failed to start messaging:', e);
+            }
+          }
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', startMessaging);
+          } else {
+            startMessaging();
+          }
+        })();
+    </script>   
+    
+    <script type="text/javascript">
+        (function () {            
+var g = function (e, h, f, g) {
+                this.get = function (a) { for (var a = a + "=", c = document.cookie.split(";"), b = 0, e = c.length; b < e; b++) { for (var d = c[b]; " " == d.charAt(0);)d = d.substring(1, d.length); if (0 == d.indexOf(a)) return d.substring(a.length, d.length) } return null };
+                this.set = function (a, c) { var b = "", b = new Date; b.setTime(b.getTime() + 6048E5); b = "; expires=" + b.toGMTString(); document.cookie = a + "=" + c + b + "; path=/; " };
+                this.check = function () { var a = this.get(f); if (a) a = a.split(":"); else if (100 != e) "v" == h && (e = Math.random() >= e / 100 ? 0 : 100), a = [h, e, 0], this.set(f, a.join(":")); else return !0; var c = a[1]; if (100 == c) return !0; switch (a[0]) { case "v": return !1; case "r": return c = a[2] % Math.floor(100 / c), a[2]++, this.set(f, a.join(":")), !c }return !0 };
+                this.go = function () { if (this.check()) { var a = document.createElement("script"); a.type = "text/javascript"; a.src = g; document.body && document.body.appendChild(a) } };
+                this.start = function () { var t = this; "complete" !== document.readyState ? window.addEventListener ? window.addEventListener("load", function () { t.go() }, !1) : window.attachEvent && window.attachEvent("onload", function () { t.go() }) : t.go() };            
+};
+            try { (new g(100, "r", "QSI_S_SI_8hNOb93IJBwzAEt", "https://zn7qxxe9gd42ydlqf-aspentech.siteintercept.qualtrics.com/SIE/?Q_ZID=SI_8hNOb93IJBwzAEt")).start() } catch (i) { }        
+})();
+    </script>
+    <div id="SI_8hNOb93IJBwzAEt">
+        
+    </div></span><span id="j_id0:j_id2:j_id156">
+    <script type="text/javascript">
+        (function(){var g=function(e,h,f,g){
+        this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+        this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+        this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+        this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+        this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+        try{(new g(100,"r","QSI_S_SI_8hNOb93IJBwzAEt","https://zn7qxxe9gd42ydlqf-aspentech.siteintercept.qualtrics.com/SIE/?Q_ZID=SI_8hNOb93IJBwzAEt")).start()}catch(i){}})();
+        </script><div id="SI_8hNOb93IJBwzAEt"></div></span>
+    </html>
+        
+        <script type="text/javascript">
+        
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-271737-10', 'auto');
+        ga('send', 'pageview');
+        
+        </script>
+        
+        
+        
+        <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-2D7Z03JZE8"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2D7Z03JZE8');
+        </script>
+    
+    
+    <script>
+    (function () {
+
+        const state = { col: -1, dir: 1 }; // 1 = ASC, -1 = DESC
+
+        function clearArrows() {
+            document
+                .querySelectorAll('#courseTable th .sort-arrow')
+                .forEach(span => span.className = 'sort-arrow');
+        }
+
+        function setArrow(colIndex, dir) {
+            clearArrows();
+            const arrow = document.querySelector(
+                '#courseTable th[data-col="' + colIndex + '"] .sort-arrow'
+            );
+            if (!arrow) return;
+            arrow.classList.add(dir === 1 ? 'sort-asc' : 'sort-desc');
+        }
+
+        function getStringKey(cell) {
+            let raw = (cell.dataset.sort ?? cell.textContent).trim();
+            const i = raw.indexOf(':');
+            if (i !== -1 && i < 20) raw = raw.slice(i + 1).trim();
+            return raw.toLowerCase();
+        }
+
+        function getLocKey(c) {
+            const isPC = ((c.dataset.type || '').trim() === 'Public Classroom');
+            const pick = (...vals) => {
+                for (let v of vals) {
+                    if (v && String(v).trim() !== '') {
+                        return String(v).trim().toLowerCase();
+                    }
+                }
+                return '';
+            };
+
+            return isPC
+                ? pick(c.dataset.street, c.dataset.city, c.dataset.state,
+                    c.dataset.country, c.dataset.zip, c.dataset.name, c.textContent)
+                : pick(c.dataset.name, c.dataset.street, c.dataset.city,
+                    c.dataset.state, c.dataset.country, c.dataset.zip, c.textContent);
+        }
+
+        window.sortTbl = function (colIndex, type, forceDir) {
+            const tbl = document.getElementById('courseTable');
+            const tbody = tbl && tbl.tBodies && tbl.tBodies[0];
+            if (!tbody) return;
+
+            const rows = Array.from(tbody.rows).map((tr, idx) => ({ tr, idx }));
+
+            if (typeof forceDir === 'number') {
+                state.dir = forceDir;
+            } else {
+                state.dir = (state.col === colIndex) ? -state.dir : 1;
+            }
+            state.col = colIndex;
+
+            rows.sort((r1, r2) => {
+                const c1 = r1.tr.cells[colIndex];
+                const c2 = r2.tr.cells[colIndex];
+                if (!c1 || !c2) return 0;
+
+                if (type === 'num') {
+                    const a = parseFloat(c1.dataset.num || 0);
+                    const b = parseFloat(c2.dataset.num || 0);
+                    if (a !== b) return (a > b ? 1 : -1) * state.dir;
+
+                } else if (type === 'date') {
+                    const a = Date.parse(c1.dataset.sort || '') || 0;
+                    const b = Date.parse(c2.dataset.sort || '') || 0;
+                    if (a !== b) return (a > b ? 1 : -1) * state.dir;
+
+                    const a2 = Date.parse(c1.dataset.sort2 || '') || 0;
+                    const b2 = Date.parse(c2.dataset.sort2 || '') || 0;
+                    if (a2 !== b2) return (a2 > b2 ? 1 : -1) * state.dir;
+
+                } else if (type === 'loc') {
+                    const cmp = getLocKey(c1).localeCompare(getLocKey(c2));
+                    if (cmp !== 0) return cmp * state.dir;
+
+                } else {
+                    const cmp = getStringKey(c1).localeCompare(getStringKey(c2));
+                    if (cmp !== 0) return cmp * state.dir;
+                }
+
+                return r1.idx - r2.idx; // stable
+            });
+
+            rows.forEach(r => tbody.appendChild(r.tr));
+
+            setArrow(colIndex, state.dir);
+        };
+
+        // Default sort on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            // Run ONLY if Training headers exist
+            if (document.querySelector('th[onclick^="sortTbl("]')) {
+                sortTbl(0, 'date', 1);
+            }
+        });
+    })();
+    </script>
+
+    <script>
+    (function () {
+
+        const certState = { col: -1, dir: 1 }; // 1 = ASC, -1 = DESC
+
+        function clearCertArrows() {
+            document
+                .querySelectorAll('#courseTable th .sort-arrow')
+                .forEach(span => span.className = 'sort-arrow');
+        }
+
+        function setCertArrow(colIndex, dir) {
+            clearCertArrows();
+            const arrow = document.querySelector(
+                '#courseTable th[data-col="' + colIndex + '"] .sort-arrow'
+            );
+            if (!arrow) return;
+            arrow.classList.add(dir === 1 ? 'sort-asc' : 'sort-desc');
+        }
+
+        /* ---------- Value extractors ---------- */
+
+        function getStringKey(cell) {
+            return (cell.dataset.sort || cell.textContent || '')
+                .trim()
+                .toLowerCase();
+        }
+
+        function getNumberKey(cell) {
+            return parseFloat(cell.dataset.num || 0) || 0;
+        }
+
+        function getDateKey(cell) {
+            return Date.parse(cell.dataset.sort || '') || 0;
+        }
+
+        function getLocationKey(cell) {
+            return (
+                cell.dataset.name ||
+                cell.dataset.city ||
+                cell.dataset.street ||
+                cell.dataset.state ||
+                cell.dataset.country ||
+                cell.dataset.zip ||
+                ''
+            ).trim().toLowerCase();
+        }
+        
+        /* ---------- MAIN SORT FUNCTION ---------- */
+        window.sortCertTbl = function (colIndex, type, forceDir) {
+
+            const table = document.getElementById('courseTable');
+            const tbody = table && table.tBodies && table.tBodies[0];
+            if (!tbody) return;
+
+            // Keep original index for stable sorting
+            const rows = Array.from(tbody.rows).map((tr, idx) => ({ tr, idx }));
+
+            // Direction handling
+            if (typeof forceDir === 'number') {
+                certState.dir = forceDir;
+            } else {
+                certState.dir = (certState.col === colIndex)
+                    ? -certState.dir
+                    : 1;
+            }
+            certState.col = colIndex;
+
+            rows.sort((a, b) => {
+                const c1 = a.tr.cells[colIndex];
+                const c2 = b.tr.cells[colIndex];
+                if (!c1 || !c2) return 0;
+
+                let cmp = 0;
+
+                if (type === 'date') {
+                    cmp = getDateKey(c1) - getDateKey(c2);
+
+                } else if (type === 'num') {
+                    cmp = getNumberKey(c1) - getNumberKey(c2);
+
+                } else if (type === 'loc') {
+                    cmp = getLocationKey(c1).localeCompare(getLocationKey(c2));
+
+                } else { // 'str'
+                    cmp = getStringKey(c1).localeCompare(getStringKey(c2));
+                }
+
+                // Stable sort fallback
+                return cmp !== 0 ? cmp * certState.dir : a.idx - b.idx;
+            });
+
+            // Re-attach rows (VF-safe)
+            rows.forEach(r => tbody.appendChild(r.tr));
+
+            // Update arrow
+            setCertArrow(colIndex, certState.dir);
+        };
+
+        /* ---------- DEFAULT SORT (Certification) ---------- */
+        // Column index 5 = Date column
+        document.addEventListener('DOMContentLoaded', function () {
+            // Run ONLY if Certification headers exist
+            if (document.querySelector('th[onclick^="sortCertTbl("]')) {
+                sortCertTbl(5, 'date', 1);
+            }
+        });
+
+    })();
+    </script><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id2:j_id69"]);
+
+});</script></html>

@@ -24,6 +24,13 @@
 - `dashboard_inputs.csv`
 - `dashboard_outputs.csv`
 
+如果交付包含 HYSYS 原生 PFD 视觉整理，还应附：
+
+- layout workcopy `.hsc`
+- PFD 坐标配置 JSON
+- 整理前后 PFD 对象清单
+- 重开后的计算指纹与坐标验证 JSON
+
 这层是正式 `Word / Excel / PowerPoint` 的数据源层。
 
 ### 2. 正式 Office 层
@@ -57,6 +64,7 @@
 - 不再继续自由调优
 - 不再改 frozen baseline
 - layout 副本只允许视觉微调
+- layout 副本必须通过重开和计算指纹回归，不得把视觉整理变成隐含工艺修改
 - 可以补做 reader-friendly workbook / dashboard，但不能伪装成新的计算真源
 
 ## 发布门禁

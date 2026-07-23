@@ -172,3 +172,81 @@ AI-HYSYS-Skill 也必须延续这条思路。
 2. `SKILL.md` 是否真的可触发并指导 Codex 做事
 3. `CASE/source-index.md` 是否能让访客快速看到官方证据
 4. 是否准备了 2 到 3 个真实演示任务或截图
+
+## 2026-07-01 换热器 AI/HYSYS 结论
+
+新增 [heat-exchanger-ai-control-patterns-2026-07-01.md](heat-exchanger-ai-control-patterns-2026-07-01.md) 和 [references/heat-exchanger-ai-patterns.md](../../references/heat-exchanger-ai-patterns.md)。本轮结论是：换热器、HEN、Aspen EDR、`Delta Tmin`、LNG 冷箱和低温换热器任务可以纳入 AI-HYSYS-Skill，但必须表述为“已有 HYSYS/EDR case 的候选优化、回算验证和报告支持”。ML、灰箱、GA、BO、PSO 等算法只负责提出候选条件，最终接受必须依赖 HYSYS/EDR workcopy 回算、KPI 导出、失败样本记录和人工验收。不得宣称 AI 已能可靠从零生成 HYSYS 换热器模型，也不得把外部预测或 Excel-only 计算说成 HYSYS-native 结果。
+
+## 2026-07-03 MCP / wrapper / text-to-flowsheet 结论
+
+新增 [heartbeat-scan-2026-07-03.md](heartbeat-scan-2026-07-03.md)。本轮检索没有改变项目主边界，但补强三类证据：`aspen-pysys` 0.1.0a3 是 HYSYS Python wrapper 候选，因 alpha、GPL-3.0-or-later、Python/pywin32 要求高且未本地验证，不能作为默认依赖；`gsi-lab/APS-Agent` 是 AVEVA Process Simulation 的 MCP 相邻实现，只能用于学习 tool schema、read-only-first、single-workcopy lock、audit log 和 rollback 设计，不能当成 HYSYS API；RSC/Zenodo `Text-to-flowsheet` 是 Graph-IR 和黑箱优化相邻证据，只能支持“候选意图 -> 显式中间表示 -> simulator 回算 -> 人工验收”的规则，不支持宣称 HYSYS 从零建模已可靠。
+
+## 2026-07-04 HYSYS-specific MCP server 结论
+
+新增 [heartbeat-scan-2026-07-04.md](heartbeat-scan-2026-07-04.md)。`yuuyo-arobet/AspenHYSYS-MCP-Server` 是当前 CASE 中更直接的 HYSYS MCP 社区证据：它明确以 Windows Python、pywin32 和 HYSYS COM 为执行层，README 声称提供 51 个工具、`HYSYS_MCP_MODE` 安全模式门、默认不公开写入工具，并有 HYSYS V14 实机验证记录。项目应吸收它的架构经验：MCP 适合作为 COM / spreadsheet / workbook lane 上方的工具编排层，必须坚持 read-only-first、mode gate、dry-run、single-workcopy lock、audit log、失败回滚和人工验收。它不能成为默认依赖，因为这是第三方社区仓库、公开采用信号很低，且本仓库没有对它做本地 HYSYS runtime smoke test。
+
+## 2026-07-05 HYSYS coding-platform / wrapper 结论
+
+新增 [heartbeat-scan-2026-07-05.md](heartbeat-scan-2026-07-05.md)。`Anikesh31/simulator_codingplatform_integration` 补强了已入库 2025 Computers & Chemical Engineering 论文的公开代码侧证据，适合学习 HYSYS 对象读取、backdoor variables、方法参数检查、Python/MATLAB 连接和 TEA 示例；`DanielVazVaz/PySIS` 补强了 HYSYS COM 抽象层的社区 wrapper 证据，README 声称覆盖 HYSYS V11/V12/V14。两者都不作为默认依赖：GitHub API 未识别许可证，本仓库未做本地 HYSYS runtime smoke test，且外部 wrapper 不能替代 direct COM / spreadsheet / workbook lane 的可审计控制规则。
+
+## 2026-07-06 `ap-python` wrapper 结论
+
+新增 [heartbeat-scan-2026-07-06.md](heartbeat-scan-2026-07-06.md)。`bsha0/ap-python` 是 MIT 许可的 Aspen Plus / Aspen HYSYS Python automation package，README 展示了 HYSYS moniker、`find_node`、`get_units`、`get_value`、`set_value`、`save` 和 `saveas` 包装模式。它补强了“变量 moniker + 单位感知 get/set wrapper”是公开存在的 HYSYS 自动化模式，但仓库较老、采用信号有限且本仓库未做 runtime smoke test，因此只进入 wrapper watchlist，不作为默认依赖。本轮还核对了 2026 LNG cold energy GA 论文；因原文未包含明确 Aspen/HYSYS 证据，未作为 HYSYS source pack 资料入库。
+
+## 2026-07-07 HYSYS automation / LLM-agent 期刊元数据结论
+
+新增 [heartbeat-scan-2026-07-07.md](heartbeat-scan-2026-07-07.md)。`Automation in the simulation of processes with Aspen HYSYS: An academic approach` 的 Crossref 元数据确认，HYSYS 自动化本身已经是可发表、可教学、可结构化的工程教育主题；这补强了本项目把 Excel/VBA/spreadsheet bridge 视为合法稳定 IO 层的依据。项目规则不变：direct COM 或 proven project runner 仍是 case 生命周期主通道，Excel/VBA/spreadsheet 更适合作为变量面板和批量 IO 桥，所有写入都必须落在 workcopy、solver policy、schema、日志和人工验收框架内。
+
+`Large language model agent for user-friendly chemical process simulations` 的 Crossref 元数据确认了 Digital Chemical Engineering 期刊版 DOI `10.1016/j.dche.2026.100312`。它继续支持 MCP / tool server / step-by-step simulator-agent 架构，但仍属于相邻流程模拟证据，不是 HYSYS 专属 API，也不支持把 AI 从零建模写成生产默认能力。
+
+## 2026-07-10 PSE/LLM 综述结论
+
+新增 [heartbeat-scan-2026-07-10.md](heartbeat-scan-2026-07-10.md)。`Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges` 是一篇 2026-06-10 提交的 PSE/LLM 综述，覆盖 process modeling and simulation、optimization and scheduling、process control、fault detection and diagnosis 等方向。它对本项目最有用的不是扩大能力边界，而是强化边界：LLM 对文档查询、非结构化知识综合、人机交互和报告解释有明确价值；但实时执行、约束满足和形式化安全保证仍然困难。因此 AI-HYSYS-Skill 继续保持“已有 HYSYS case 接管 + 脚本化验证 + 人工验收”的定位，不把广义 PSE 综述解读为 HYSYS 生产级从零建模已经可靠。
+
+## 2026-07-12 OTS / HYSYS Dynamics fertilizer evidence conclusion
+
+New note: [heartbeat-scan-2026-07-12.md](heartbeat-scan-2026-07-12.md). The useful new signal is not a new AI-control paper; it is industry evidence that Aspen HYSYS Dynamics and HYSYS-based OTS are being used in OPTIMIZE 26 operating contexts, including ammonia/urea facilities and first-principles urea-plant operator training.
+
+Project conclusion: this strengthens AI-HYSYS-Skill for existing HYSYS Dynamics case takeover, OTS scenario documentation, DCS/SIS loop mapping review, KPI export, and training/reporting support. It does not change the core boundary: embedded DCS/SIS logic inside a simulator is training and validation evidence, not authorization for production writeback or autonomous AI control. For ammonia/urea or `NH3-CO2-H2O` dynamic tasks, the skill should require the property-package basis, dynamic case provenance, scenario list, failure behavior, and human acceptance before any engineering conclusion.
+
+## 2026-07-13 Aspen Operator Training official evidence conclusion
+
+New note: [heartbeat-scan-2026-07-13.md](heartbeat-scan-2026-07-13.md). The useful new source is AspenTech's official Aspen Operator Training product page and its linked OTS FAQ PDF. This upgrades the 2026-07-12 Inprocess / OPTIMIZE 26 evidence with official AspenTech product-level support for DCS-agnostic OTS, dynamic simulation, Inprocess OTS software, and Aspen HYSYS Dynamic Lifecycle.
+
+Project conclusion: AI-HYSYS-Skill can support OTS-adjacent engineering work by organizing existing HYSYS Dynamics cases, scenario lists, tag/KPI schemas, DCS/SIS loop mapping evidence, replay/audit logs, and operator-training reports. It must not claim to replace commercial OTS platforms, HYSYS Dynamics model-build expertise, DCS/SIS engineering, production writeback approval, or from-scratch HYSYS model generation.
+
+## 2026-07-14 HYSYS distillation ANN surrogate conclusion
+
+New note: [heartbeat-scan-2026-07-14.md](heartbeat-scan-2026-07-14.md). The new B- source is a July 2026 peer-reviewed paper that uses Aspen HYSYS data to train a 3:4:1 ANN for a benzene-toluene distillation mass-transfer coefficient. It provides a concrete, narrow example of the `HYSYS baseline -> bounded dataset -> surrogate` pattern, but reports only training performance and does not provide a clear independent test split, reusable code/data, uncertainty bounds, or extrapolation evidence.
+
+Project conclusion: surrogate and soft-sensor work must preserve HYSYS case provenance, property-package basis, variable units, design-space bounds, sample IDs, train/validation/test separation, unseen-sample metrics, failed-sample logs, extrapolation limits, HYSYS readback, and human acceptance. This source does not justify production control, replacement of the HYSYS baseline, or transfer of the model to unrelated columns.
+
+## 2026-07-16 AspenTech EHY2311 automation conclusion
+
+New note: [heartbeat-scan-2026-07-16.md](heartbeat-scan-2026-07-16.md). AspenTech's official EHY2311 course page directly confirms an automation workflow built around the HYSYS Type Library, Excel Object Browser, Visual Basic/VBA, User Variables, User Operations, debugging, and links between simulations.
+
+Project conclusion: this is B+ official evidence for the repository's direct-COM and Excel/spreadsheet/workbook lane taxonomy. It strengthens the authority basis but does not replace local runtime readiness, one-point binding tests, unit and solver checks, rollback, audit output, or human acceptance. It is not evidence for autonomous production writeback or reliable AI greenfield model generation.
+
+## 2026-07-17 HYSYS/Python LNG cold-energy GA conclusion
+
+New note: [heartbeat-scan-2026-07-17.md](heartbeat-scan-2026-07-17.md). The publisher's full-text page for DOI `10.48130/een-0026-0007` now explicitly states that a genetic algorithm was implemented in Python through an automated Aspen HYSYS interface, with bounded variables, published GA settings, net-power objective, Peng-Robinson basis, and Excel result export. This new evidence supersedes the 2026-07-06 rejection, which was based on a source view that did not expose explicit Aspen/HYSYS text.
+
+Project conclusion: the paper is B+ direct research evidence for `existing HYSYS case -> bounded Python optimizer -> HYSYS evaluations -> KPI export`. Similar tasks must log optimizer configuration and stopping criteria in addition to case provenance, units, bounds, constraints, failed samples, solver status, HYSYS readback, and human acceptance. The paper does not provide code, a case, or a public dataset and does not justify production writeback or reliable greenfield model generation.
+
+## 2026-07-18 aspen-pysys release-diff conclusion
+
+New note: [heartbeat-scan-2026-07-18.md](heartbeat-scan-2026-07-18.md). PyPI now exposes `aspen-pysys` `0.1.0a5`, replacing the indexed `0.1.0a3`. Archive inspection found that the meaningful a4 change for this project is safer distillation-column feed handling: it distinguishes main-flowsheet attachments from column-subflowsheet feed objects and checks that their name sets agree before feed-tray operations. The a5 change itself only corrects the documentation homepage.
+
+Project conclusion: adopt the object-identity preflight, not the dependency. Before changing a column feed tray or location, resolve both object layers, normalize and compare the complete feed-name sets, abort on missing, duplicate, or mismatched identities, and preserve before/after readback on an approved workcopy. The package remains B- because it is alpha, GPL-3.0-or-later, requires Python `>=3.12.12` and `pywin32>=311`, and has not been locally exercised against HYSYS. No wrapper source was copied and no runtime, caching, concurrency, or production-readiness claim was inferred.
+
+## 2026-07-20 HYSYS hydrogen-liquefaction optimizer comparison
+
+New note: [heartbeat-scan-2026-07-20.md](heartbeat-scan-2026-07-20.md). A peer-reviewed 2026 study directly compares Aspen HYSYS built-in BOX, genetic algorithm, particle swarm, and knowledge-based optimization on one hydrogen-liquefaction flowsheet. Its transferable value is methodological: sensitivity and engineering knowledge should define search bounds, initialization-dependent or stochastic results need robustness checks, and a selected candidate must be rerun and read back in HYSYS.
+
+Project conclusion: this is B+ direct research evidence for improving optimization governance, not evidence that one optimizer is universally superior. AI-HYSYS-Skill now requires initial-point or random-seed logging, multiple-start comparison when practical, failed-evaluation and solver-status capture, and final HYSYS workcopy readback before human acceptance. No optimizer dependency was added, and no greenfield or production-writeback claim was made.
+
+## 2026-07-22 HYSYS active-learning sampling conclusion
+
+New note: [heartbeat-scan-2026-07-22.md](heartbeat-scan-2026-07-22.md). DOI `10.1016/j.compchemeng.2026.109707` is B+ direct research evidence for an Aspen HYSYS mechanistic model connected through COM to an uncertainty-driven active-learning and multi-objective optimization workflow. Its useful contribution is not a transferable process result, but a way to reduce expensive HYSYS sampling while keeping the simulator in the evidence loop.
+
+Project conclusion: active learning may select the next HYSYS evaluation, but the skill must preserve the initial design, acquisition metric, uncertainty estimate, batch size, stopping rule, sample IDs, failed runs, untouched validation set, HYSYS readback, and human acceptance. Surrogate predictions and optimizer candidates are not HYSYS evidence until the approved workcopy actually solves and is read back. No dependency was added, and the source does not support greenfield model generation or production writeback.

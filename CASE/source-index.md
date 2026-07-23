@@ -1,7 +1,7 @@
 # CASE Source Index
 
 准备日期：2026-04-21（Asia/Shanghai）
-最近心跳测试：2026-06-20（Asia/Shanghai）
+最近心跳测试：2026-07-22（Asia/Shanghai）
 
 这个目录不是“随手存链接”，而是 AI-HYSYS-Skill 的公开素材底座。建议先读 [SOURCE_EVALUATION_RULES.md](SOURCE_EVALUATION_RULES.md) 和 [notes/hysys-source-digest.md](notes/hysys-source-digest.md)，再按需要下钻到具体文件。
 
@@ -24,6 +24,7 @@
 | 官方 | [official/aspen-hysys-brochure-2025-05.pdf](official/aspen-hysys-brochure-2025-05.pdf) | 保存 2025-05 官方 HYSYS brochure PDF，补强 Industrial AI、model-backed intelligence、经济、能耗、安全、排放等产品叙事 | [Aspen HYSYS brochure PDF](https://www.aspentech.com/-/media/aspentech/home/resources/brochure/pdfs/fy25/q4/at-4162_bro_aspen-hysys_final_0525.pdf) | 真 PDF |
 | 官方 | [official/aspen-hysys-performance-digital-twin-case-study.html](official/aspen-hysys-performance-digital-twin-case-study.html) | 官方案例页面：Aspen HYSYS 用于性能工程数字孪生，识别热虹吸系统液压不稳定并支撑经济收益叙事 | [AspenTech performance engineering digital twin case study](https://www.aspentech.com/en/resources/case-studies/energy-company-saves-%246m-usd-with-a-performance-engineering-digital-twin) | HTML 快照 |
 | 官方 | [official/aspen-hysys-performance-digital-twin-case-study.pdf](official/aspen-hysys-performance-digital-twin-case-study.pdf) | 官方案例 PDF：保存 HYSYS + Aspen EDR 数字孪生案例全文，支持“现有模型接管 + 诊断/报告/优化”的工程价值定位 | [AspenTech performance engineering digital twin PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy21/q2/at-06386--cs-english-v9.pdf?sc_lang=en) | 真 PDF |
+| 官方/研究 | [notes/heat-exchanger-ai-control-patterns-2026-07-01.md](notes/heat-exchanger-ai-control-patterns-2026-07-01.md) | 换热器 AI/HYSYS 知识沉淀：已有 HYSYS/EDR case、变量 schema、surrogate/optimizer 候选、HYSYS/EDR 回算与人工验收 | [Aspen EDR](https://www.aspentech.com/en/products/engineering/aspen-exchanger-design-and-rating), [HDA surrogate program](https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization), [STHE AI paper](https://doi.org/10.1049/cit2.12393) | CASE 笔记；用于技能规则，不等同于 runtime 验证 |
 | 官方 | [official/aspen-hysys-tupras-column-performance-2026.html](official/aspen-hysys-tupras-column-performance-2026.html) | 官方案例页面：Tüpraş 使用 Aspen HYSYS column analysis 与 Aspen Exchanger Design & Rating 集成提升塔能力并满足产品规格 | [Control Column Performance Using Aspen HYSYS](https://www.aspentech.com/en/resources/case-studies/control-column-performance-using-aspen-hysys) | HTML 快照 |
 | 官方 | [official/aspen-hysys-tupras-column-performance-2019.pdf](official/aspen-hysys-tupras-column-performance-2019.pdf) | 官方案例 PDF：保留 column hydraulics、tray rating、column performance 和 plant digital twin 场景的英文全文 | [AspenTech Tüpraş PDF](https://www.aspentech.com/-/media/aspentech/home/resources/case-study/pdfs/fy19/q3/at-05656-tupras-case-study.pdf?sc_lang=en) | 真 PDF |
 | 官方 | [official/aspen-hybrid-model-condensate-digital-twin-article.html](official/aspen-hybrid-model-condensate-digital-twin-article.html) | 官方文章页面：ADNOC 使用 hybrid model 和 process simulation digital twin 优化凝析油收益 | [AspenTech condensate digital twin article](https://www.aspentech.com/en/resources/articles/utilize-a-process-simulation-digital-twin-to-optimize-condensate-yield) | HTML 快照 |
@@ -129,6 +130,127 @@
 | 心跳记录 | [notes/heartbeat-scan-2026-05-28.md](notes/heartbeat-scan-2026-05-28.md) | 记录 2026-05-28 自动心跳保存的 CHERD 2026 HYSYS 参考仿真器 + Python ML flash surrogate 资料、价值判断和热力学代理模型边界更新 | 本仓库 | 每日自动化闭环样例 |
 | 心跳记录 | [notes/heartbeat-scan-2026-05-30.md](notes/heartbeat-scan-2026-05-30.md) | 记录 2026-05-30 自动心跳保存的 `aspen-pysys` PyPI/piwheels `0.1.0a2` 候选资料、价值判断和第三方 wrapper 边界确认 | 本仓库 | 每日自动化闭环样例 |
 | 发布打法 | [notes/release-playbook.md](notes/release-playbook.md) | 借鉴 AI-DWSIM-Skill 的成功路径，为 AI-HYSYS-Skill 准备发布策略 | 本仓库 | 推荐发布前再读一遍 |
+
+## 2026-07-03 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 社区 | [community/aspen-pysys-pypi-json-2026-07-03.json](community/aspen-pysys-pypi-json-2026-07-03.json) | `aspen-pysys` PyPI 0.1.0a3 元数据；HYSYS Python wrapper 候选，GPL-3.0-or-later、Python >=3.12.12、pywin32>=311，未做本地 HYSYS runtime 验证 | [aspen-pysys PyPI](https://pypi.org/project/aspen-pysys/) | B- 候选；不作为默认依赖 |
+| 社区/相邻 | [community/aps-agent-gsi-lab-readme-2026-07-03.md](community/aps-agent-gsi-lab-readme-2026-07-03.md) | `gsi-lab/APS-Agent` README 快照；AVEVA Process Simulation MCP agent，相邻证明 MCP server 可包装严谨流程模拟器工具 | [gsi-lab/APS-Agent](https://github.com/gsi-lab/APS-Agent) | B 相邻架构证据；不是 HYSYS API |
+| 社区/相邻 | [community/aps-agent-gsi-lab-metadata-2026-07-03.json](community/aps-agent-gsi-lab-metadata-2026-07-03.json) | `gsi-lab/APS-Agent` GitHub 元数据快照，MIT 许可证、Python、2026-06-11 更新 | [GitHub API](https://api.github.com/repos/gsi-lab/APS-Agent) | 配合 README/tree/license 快照使用 |
+| 社区/相邻 | [community/aps-agent-gsi-lab-tree-2026-07-03.json](community/aps-agent-gsi-lab-tree-2026-07-03.json) | `gsi-lab/APS-Agent` tree 快照；用于确认 MCP server、tool 包、compiled modules 和 requirements 结构 | [GitHub tree](https://api.github.com/repos/gsi-lab/APS-Agent/git/trees/main?recursive=1) | 不下载或运行二进制 `.pyd` |
+| 社区/相邻 | [community/aps-agent-gsi-lab-license-2026-07-03.txt](community/aps-agent-gsi-lab-license-2026-07-03.txt) | `gsi-lab/APS-Agent` MIT license 快照 | [raw license](https://raw.githubusercontent.com/gsi-lab/APS-Agent/main/LICENSE) | 许可证证据 |
+| 研究/相邻 | [research/text-to-flowsheet-zenodo-19910216-2026-07-03.json](research/text-to-flowsheet-zenodo-19910216-2026-07-03.json) | Text-to-flowsheet RSC/Zenodo 元数据快照；LLM-assisted flowsheet digitization、Graph-IR、black-box optimization 相邻证据 | [RSC article](https://pubs.rsc.org/en/content/articlelanding/2026/dd/d6dd00060f), [Zenodo record](https://zenodo.org/records/19910216) | B 相邻；不证明 HYSYS greenfield 可靠 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-03.md](notes/heartbeat-scan-2026-07-03.md) | 2026-07-03 心跳记录：aspen-pysys 0.1.0a3、APS-Agent、Text-to-flowsheet 的价值判断和项目边界更新 | 本仓库 | 本轮维护摘要 |
+
+## 2026-07-04 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 社区/直接 | [community/aspen-hysys-mcp-server-readme-2026-07-04.md](community/aspen-hysys-mcp-server-readme-2026-07-04.md) | `yuuyo-arobet/AspenHYSYS-MCP-Server` README 快照；HYSYS-specific MCP + pywin32/COM 控制候选，包含 51 tools、只读/会话/写入模式门和 HYSYS V14 实机验证声明 | [yuuyo-arobet/AspenHYSYS-MCP-Server](https://github.com/yuuyo-arobet/AspenHYSYS-MCP-Server) | B+ 直接社区证据；不作为默认依赖 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-metadata-2026-07-04.json](community/aspen-hysys-mcp-server-metadata-2026-07-04.json) | GitHub 元数据快照，记录描述、许可证、更新时间和仓库状态 | [GitHub API](https://api.github.com/repos/yuuyo-arobet/AspenHYSYS-MCP-Server) | MIT；低公开采用信号，需本地复核 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-tree-2026-07-04.json](community/aspen-hysys-mcp-server-tree-2026-07-04.json) | 仓库 tree 快照；用于确认 `src/hysys_mcp`、tool 分层、registry、tests 和 docs 结构 | [GitHub tree](https://api.github.com/repos/yuuyo-arobet/AspenHYSYS-MCP-Server/git/trees/main?recursive=1) | 只记录结构，不下载整仓库 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-architecture-2026-07-04.md](community/aspen-hysys-mcp-server-architecture-2026-07-04.md) | 架构说明快照；用于学习 MCP server、COM client、tool registry、mode gate 和测试分层 | [architecture doc](https://raw.githubusercontent.com/yuuyo-arobet/AspenHYSYS-MCP-Server/main/docs/ARCHITECTURE.md) | 设计参考，不等同于本仓库 runtime 验证 |
+| 社区/直接 | [community/aspen-hysys-mcp-server-license-2026-07-04.txt](community/aspen-hysys-mcp-server-license-2026-07-04.txt) | MIT license 快照 | [raw license](https://raw.githubusercontent.com/yuuyo-arobet/AspenHYSYS-MCP-Server/main/LICENSE) | 许可证证据 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-04.md](notes/heartbeat-scan-2026-07-04.md) | 2026-07-04 心跳记录：HYSYS-specific MCP server 价值判断、未采纳默认依赖原因和项目边界更新 | 本仓库 | 本轮维护摘要 |
+
+## 2026-07-05 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 社区/直接 | [community/simulator-codingplatform-integration-readme-2026-07-05.md](community/simulator-codingplatform-integration-readme-2026-07-05.md) | `Anikesh31/simulator_codingplatform_integration` README 快照；补强 HYSYS + Python/MATLAB 连接、对象/属性读取、backdoor variables、方法参数检查和 TEA 示例证据 | [Anikesh31/simulator_codingplatform_integration](https://github.com/Anikesh31/simulator_codingplatform_integration) | B+；与 DOI `10.1016/j.compchemeng.2025.109247` 对应，许可证未识别 |
+| 社区/直接 | [community/simulator-codingplatform-integration-metadata-2026-07-05.json](community/simulator-codingplatform-integration-metadata-2026-07-05.json) | GitHub 元数据快照，记录公开状态、更新时间、星标和 license 字段 | [GitHub API](https://api.github.com/repos/Anikesh31/simulator_codingplatform_integration) | 只作证据，不作为默认依赖 |
+| 社区/直接 | [community/simulator-codingplatform-integration-tree-2026-07-05.json](community/simulator-codingplatform-integration-tree-2026-07-05.json) | 仓库 tree 快照；用于确认教程代码结构 | [GitHub tree](https://api.github.com/repos/Anikesh31/simulator_codingplatform_integration/git/trees/main?recursive=1) | 不下载整仓库 |
+| 社区/直接 | [community/pysis-readme-2026-07-05.md](community/pysis-readme-2026-07-05.md) | `DanielVazVaz/PySIS` README 快照；HYSYS COM 抽象层候选，README 声称支持 HYSYS V11/V12/V14 | [DanielVazVaz/PySIS](https://github.com/DanielVazVaz/PySIS) | B；许可证未识别，未做本地 runtime 验证 |
+| 社区/直接 | [community/pysis-metadata-2026-07-05.json](community/pysis-metadata-2026-07-05.json) | GitHub 元数据快照，记录公开状态、更新时间、星标、fork 和 license 字段 | [GitHub API](https://api.github.com/repos/DanielVazVaz/PySIS) | Wrapper watchlist，不作为默认依赖 |
+| 社区/直接 | [community/pysis-tree-2026-07-05.json](community/pysis-tree-2026-07-05.json) | 仓库 tree 快照；用于确认包结构和文档入口 | [GitHub tree](https://api.github.com/repos/DanielVazVaz/PySIS/git/trees/master?recursive=1) | 不下载整仓库 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-05.md](notes/heartbeat-scan-2026-07-05.md) | 2026-07-05 心跳记录：HYSYS coding-platform companion repo、PySIS wrapper 的价值判断和未采纳默认依赖原因 | 本仓库 | 本轮维护摘要 |
+
+## 2026-07-06 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 社区/直接 | [community/ap-python-readme-2026-07-06.md](community/ap-python-readme-2026-07-06.md) | `bsha0/ap-python` README 快照；Aspen Plus/HYSYS Python automation package，展示 HYSYS moniker、`get_units`、`get_value`、`set_value`、`save` 和 `saveas` 包装模式 | [bsha0/ap-python](https://github.com/bsha0/ap-python) | B；MIT，老仓库，未做本地 runtime 验证 |
+| 社区/直接 | [community/ap-python-metadata-2026-07-06.json](community/ap-python-metadata-2026-07-06.json) | GitHub 元数据快照，记录公开状态、更新时间、星标、fork 和 license 字段 | [GitHub API](https://api.github.com/repos/bsha0/ap-python) | Wrapper watchlist，不作为默认依赖 |
+| 社区/直接 | [community/ap-python-tree-2026-07-06.json](community/ap-python-tree-2026-07-06.json) | 仓库 tree 快照；用于确认包结构、测试和 HYSYS/Plus 子模块入口 | [GitHub tree](https://api.github.com/repos/bsha0/ap-python/git/trees/master?recursive=1) | 不下载整仓库 |
+| 社区/直接 | [community/ap-python-license-2026-07-06.txt](community/ap-python-license-2026-07-06.txt) | MIT license 快照 | [raw license](https://raw.githubusercontent.com/bsha0/ap-python/master/LICENSE) | 许可证证据 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-06.md](notes/heartbeat-scan-2026-07-06.md) | 2026-07-06 心跳记录：`ap-python` 价值判断、LNG 冷能 GA 论文未采纳原因和 wrapper watchlist 更新 | 本仓库 | 本轮维护摘要 |
+
+## 2026-07-07 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 研究/直接 | [research/hysys-automation-aspen-excel-vba-cae-2023-crossref.json](research/hysys-automation-aspen-excel-vba-cae-2023-crossref.json) | Crossref 元数据：`Automation in the simulation of processes with Aspen HYSYS: An academic approach`，补强 HYSYS 自动化、Excel/VBA/外部脚本控制通道证据 | [DOI 10.1002/cae.22589](https://doi.org/10.1002/cae.22589) | B+；元数据可访问，PDF 下载返回非 PDF，未保存伪文件 |
+| 研究/相邻 | [research/llm-agent-process-simulation-crossref-2026-07-07.json](research/llm-agent-process-simulation-crossref-2026-07-07.json) | Crossref 元数据：`Large language model agent for user-friendly chemical process simulations`，确认 Digital Chemical Engineering 期刊版 DOI、发布日期和许可信息 | [DOI 10.1016/j.dche.2026.100312](https://doi.org/10.1016/j.dche.2026.100312) | B；相邻 APS/MCP agent 证据，不是 HYSYS 专属 API |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-07.md](notes/heartbeat-scan-2026-07-07.md) | 2026-07-07 心跳记录：HYSYS 自动化 CAE 论文、LLM-agent 期刊元数据、未采纳官方课程/LinkedIn/泛 MCP 资料原因 | 本仓库 | 本轮维护摘要 |
+
+## 2026-07-10 新增索引
+
+| 类别 | 本地文件 | 作用 | 原始链接 | 备注 |
+|---|---|---|---|---|
+| 研究/相邻 | [research/llm-pse-survey-arxiv-2606.11589-abstract-2026-07-10.html](research/llm-pse-survey-arxiv-2606.11589-abstract-2026-07-10.html) | arXiv 摘要页：`Large Language Models in Process Systems Engineering`，确认 2026-06-10 提交、作者、摘要和 DOI | [arXiv 2606.11589](https://arxiv.org/abs/2606.11589) | B；PSE/LLM 相邻综述，不是 HYSYS 专属证据 |
+| 研究/相邻 | [research/llm-pse-survey-arxiv-2606.11589.pdf](research/llm-pse-survey-arxiv-2606.11589.pdf) | 论文 PDF；用于沉淀 LLM 在 PSE 的机会、架构、工业部署挑战，以及“能力展示 vs 愿景主张”的边界 | [PDF](https://arxiv.org/pdf/2606.11589) | 真 PDF；用于边界规则，不用于声明 HYSYS 从零建模可靠 |
+| 心跳记录 | [notes/heartbeat-scan-2026-07-10.md](notes/heartbeat-scan-2026-07-10.md) | 2026-07-10 心跳记录：PSE/LLM 综述的价值判断、未采纳重复资料原因和项目边界影响 | 本仓库 | 本轮维护摘要 |
+
+## 2026-07-12 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Official | [official/aspentech-optimize26-performance-engineering-operations-2026-07-12.html](official/aspentech-optimize26-performance-engineering-operations-2026-07-12.html) | AspenTech OPTIMIZE 26 performance-engineering page; useful for official framing around dynamic process simulation, real-time calibration, digital twin, urea process, and AI in operations. | [AspenTech OPTIMIZE 26 performance engineering](https://solutions.aspentech.com/en/resources/video/performance-engineering-for-operations-at-optimize-26) | B- framing evidence; limited technical detail. |
+| Industry/community | [community/inprocess-optimize26-technical-contributions-2026-07-12.html](community/inprocess-optimize26-technical-contributions-2026-07-12.html) | Industry page listing OPTIMIZE 26 technical contributions, including Aspen HYSYS-based OTS, Aspen HYSYS Dynamics OTS, real-time dynamic simulation, and digital twin methods. | [Inprocess OPTIMIZE 26 contributions](https://inprocessgroup.com/inprocess-achieves-strong-visibility-at-aspentech-optimize-2026-through-multiple-technical-contributions/) | B evidence for HYSYS Dynamics / OTS boundary; not AI autonomous control evidence. |
+| Industry/community | [community/inprocess-urea-plant-ots-hysys-dynamics-2026-07-12.html](community/inprocess-urea-plant-ots-hysys-dynamics-2026-07-12.html) | Urea-plant OTS article stating the OTS is built on Aspen HYSYS Dynamics with Aspen Properties (ElecNRTL) for non-ideal `NH3-CO2-H2O` chemistry and embeds DCS loops and SIS interlocks in simulation. | [Inprocess urea plant OTS](https://inprocessgroup.com/when-a-single-incident-pays-for-a-decade-of-training-a-first-principles-operator-training-system-for-a-urea-plant-and-the-business-case-for-building-one/) | B+ fertilizer / OTS dynamic-simulation evidence; requires human review and does not permit production writeback. |
+| Industry/community | [community/inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf](community/inprocess-optimize26-ipa-hysys-dynamics-ots-poster-2026-07-12.pdf) | Downloadable OPTIMIZE 26 poster reinforcing the Aspen HYSYS Dynamics-based OTS pattern in another plant context. | [Inprocess OPTIMIZE 26 IPA poster PDF](https://inprocessgroup.com/wp-content/uploads/2026/06/OPTIMIZE-26-Poster-IPA_final.pdf) | B evidence; PDF header verified. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-12.md](notes/heartbeat-scan-2026-07-12.md) | 2026-07-12 heartbeat summary, value judgment, adopted boundary changes, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-13 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Official | [official/aspen-operator-training-product-page-2026-07-13.html](official/aspen-operator-training-product-page-2026-07-13.html) | AspenTech official Aspen Operator Training product page; supports DCS-agnostic OTS, dynamic simulation, Inprocess OTS software, and Aspen HYSYS Dynamic Lifecycle boundary language. | [Aspen Operator Training](https://www.aspentech.com/en/products/engineering/aspen-operator-training) | B+ official OTS / HYSYS Dynamics evidence; not AI autonomous control evidence. |
+| Official | [official/aspen-operator-training-faq-ots-2017.pdf](official/aspen-operator-training-faq-ots-2017.pdf) | Official FAQ PDF linked from the Aspen Operator Training product page; supports OTS scope, training-system positioning, and governance boundaries. | [Top 10 Questions About Aspen Operator Training](https://www.aspentech.com/-/media/aspentech/home/resources/faq-documents/pdfs/fy18/q2/at-03625-faq-ots.pdf?sc_lang=en) | B+ official OTS reference; PDF header verified. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-13.md](notes/heartbeat-scan-2026-07-13.md) | 2026-07-13 heartbeat summary, value judgment, adopted boundary changes, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-14 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-distillation-mass-transfer-ann-jeasd-2026.pdf](research/hysys-distillation-mass-transfer-ann-jeasd-2026.pdf) | Peer-reviewed Aspen HYSYS + ANN example for predicting a gas-side volumetric mass-transfer coefficient from reflux ratio, feed flow, and feed composition in a benzene-toluene column. | [DOI 10.31272/jeasd.2686](https://doi.org/10.31272/jeasd.2686) | B-; CC BY 4.0. Narrow binary case; no clear independent test split, reusable code/data, uncertainty, or extrapolation evidence. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-14.md](notes/heartbeat-scan-2026-07-14.md) | 2026-07-14 heartbeat summary, value judgment, project impact, limitations, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-16 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Official/direct | [official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html](official/aspentech-ehy2311-hysys-automation-course-2026-07-16.html) | Official EHY2311 course page confirming HYSYS automation through the Type Library, Excel Object Browser, Visual Basic/VBA, User Variables, User Operations, debugging, and links between simulations. | [Developing Automation Solutions for Aspen HYSYS](https://esupport.aspentech.com/UniversityCourse?id=a3p0B0000004Yn6QAE) | B+ official automation evidence; not local runtime validation or production-writeback authorization. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-16.md](notes/heartbeat-scan-2026-07-16.md) | 2026-07-16 heartbeat summary, value judgment, boundary impact, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-17 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-lng-cold-energy-ga-2026-07-17.html](research/hysys-lng-cold-energy-ga-2026-07-17.html) | Publisher full-text HTML confirming a Python genetic-algorithm interface to Aspen HYSYS for bounded LNG cold-energy cycle optimization, with explicit variable ranges, GA settings, objective, assumptions, and Excel export. | [DOI 10.48130/een-0026-0007](https://doi.org/10.48130/een-0026-0007) | B+; re-evaluated from the 2026-07-06 rejection after explicit HYSYS/Python methods became accessible. No public code, case, or dataset. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-17.md](notes/heartbeat-scan-2026-07-17.md) | 2026-07-17 heartbeat summary, source re-evaluation, value judgment, boundary impact, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-18 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Community/direct | [community/aspen-pysys-pypi-release-2026-07-18.json](community/aspen-pysys-pypi-release-2026-07-18.json) | PyPI release metadata for `aspen-pysys` 0.1.0a4/a5 and archive-review conclusion; supports a main-flowsheet versus column-subflowsheet feed-identity preflight before tray-location writes. | [aspen-pysys PyPI](https://pypi.org/project/aspen-pysys/) | B- alpha wrapper candidate; GPL-3.0-or-later, Python >=3.12.12, pywin32>=311, not locally runtime-validated and not a default dependency. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-18.md](notes/heartbeat-scan-2026-07-18.md) | 2026-07-18 heartbeat summary, release-diff review, adopted column-feed identity guard, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-20 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-hydrogen-liquefaction-optimizer-comparison-2026-07-20.html](research/hysys-hydrogen-liquefaction-optimizer-comparison-2026-07-20.html) | University research-portal snapshot for a peer-reviewed comparison of Aspen HYSYS BOX, GA, PSO, and knowledge-based optimization in an existing hydrogen-liquefaction model; sensitivity analysis is used to set bounds and initialization/local-optimum limitations are reported. | [DOI 10.1016/j.susoc.2026.03.001](https://doi.org/10.1016/j.susoc.2026.03.001) | B+ direct research evidence; open-access metadata/abstract snapshot, no reusable case or code identified. Algorithm rankings are case-specific. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-20.md](notes/heartbeat-scan-2026-07-20.md) | 2026-07-20 local-watch delta, public-source judgment, adopted optimizer robustness rules, and rejected/deferred items. | This repository | Maintenance summary. |
+
+## 2026-07-22 New Index
+
+| Category | Local file | Use | Original link | Note |
+|---|---|---|---|---|
+| Research/direct | [research/hysys-active-learning-cotc-pcc-crossref-2026-07-22.json](research/hysys-active-learning-cotc-pcc-crossref-2026-07-22.json) | Crossref metadata for a peer-reviewed Aspen HYSYS mechanistic-model and uncertainty-driven active-learning optimization study; the public publisher abstract describes bidirectional COM exchange and adaptive selection of informative HYSYS samples. | [DOI 10.1016/j.compchemeng.2026.109707](https://doi.org/10.1016/j.compchemeng.2026.109707) | B+ direct research evidence for sampling governance; no public code, case, dataset, or downloadable full text identified. |
+| Heartbeat note | [notes/heartbeat-scan-2026-07-22.md](notes/heartbeat-scan-2026-07-22.md) | Public-source value judgment, adopted active-learning safeguards, limitations, and rejected/deferred items. | This repository | Contains public-source analysis only; no private local-project evidence. |
 
 ## 访问说明
 
