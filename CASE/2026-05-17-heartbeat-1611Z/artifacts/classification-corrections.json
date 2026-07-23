@@ -1,0 +1,11 @@
+{
+  "note": "Removed generic XML false positives from model-bearing classification and deleted their current-run downloaded artifacts.",
+  "removed_false_positive_repositories": [
+    "cambridge-cares/TheWorldAvatar",
+    "idaholab/FORCE"
+  ],
+  "true_model_repositories": [
+    "Gallo05952/Articolo_energies",
+    "CAChemE/stochastic-optimization"
+  ]
+}

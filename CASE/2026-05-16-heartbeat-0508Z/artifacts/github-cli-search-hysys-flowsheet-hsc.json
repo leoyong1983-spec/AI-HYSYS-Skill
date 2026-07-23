@@ -1,0 +1,105 @@
+{
+  "query": "HYSYS flowsheet hsc in:readme",
+  "items": [
+    {
+      "description": "Aspen HYSYS - Python connection",
+      "fullName": "edgarsmdn/Aspen_HYSYS_Python",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjQ3NzQ1ODcw",
+        "is_bot": false,
+        "login": "edgarsmdn",
+        "type": "User",
+        "url": "https://github.com/edgarsmdn"
+      },
+      "updatedAt": "2026-05-14T13:37:40Z",
+      "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python"
+    },
+    {
+      "description": "Supplementary material and information ",
+      "fullName": "andr1976/dwsim-paper",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU4NDc1NTM1",
+        "is_bot": false,
+        "login": "andr1976",
+        "type": "User",
+        "url": "https://github.com/andr1976"
+      },
+      "updatedAt": "2025-10-22T16:40:55Z",
+      "url": "https://github.com/andr1976/dwsim-paper"
+    },
+    {
+      "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+      "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOClAUYg",
+        "is_bot": false,
+        "login": "GaboTalero",
+        "type": "User",
+        "url": "https://github.com/GaboTalero"
+      },
+      "updatedAt": "2026-04-25T19:57:04Z",
+      "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+    },
+    {
+      "description": "",
+      "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjcyNTUyNjc2",
+        "is_bot": false,
+        "login": "M-Hamdy-M",
+        "type": "User",
+        "url": "https://github.com/M-Hamdy-M"
+      },
+      "updatedAt": "2025-06-21T08:46:00Z",
+      "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+    },
+    {
+      "description": "Excel and Hysys intaraction",
+      "fullName": "ArturTask/HysysExcel",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjYyNzUxNTc0",
+        "is_bot": false,
+        "login": "ArturTask",
+        "type": "User",
+        "url": "https://github.com/ArturTask"
+      },
+      "updatedAt": "2026-02-03T18:05:21Z",
+      "url": "https://github.com/ArturTask/HysysExcel"
+    }
+  ]
+}

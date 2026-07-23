@@ -1,0 +1,131 @@
+﻿{
+    "created":  "2024-03-06T07:24:06.017342+00:00",
+    "modified":  "2024-07-06T23:43:56.828041+00:00",
+    "id":  10782839,
+    "conceptrecid":  "10782838",
+    "doi":  "10.5281/zenodo.10782839",
+    "conceptdoi":  "10.5281/zenodo.10782838",
+    "doi_url":  "https://doi.org/10.5281/zenodo.10782839",
+    "metadata":  {
+                     "title":  "ColdSpark project Deliverable D5.1: Basic Aspen/HYSYS models for lab and large-scale  prototypes based on results from WP1 and WP2, WP4",
+                     "doi":  "10.5281/zenodo.10782839",
+                     "publication_date":  "2024-03-05",
+                     "description":  "\u003cp\u003eAspen/HYSYS models for lab and large-scale prototype are established for the ColdSpark\u0026reg; pilot testing and to support techno-economic / LCA analysis. The models are based on results from WP1, WP2 and WP4\u003c/p\u003e",
+                     "access_right":  "open",
+                     "creators":  [
+                                      {
+                                          "name":  "NORCE",
+                                          "affiliation":  null
+                                      }
+                                  ],
+                     "dates":  [
+                                   {
+                                       "type":  "accepted"
+                                   }
+                               ],
+                     "language":  "enc",
+                     "resource_type":  {
+                                           "title":  "Project deliverable",
+                                           "type":  "publication",
+                                           "subtype":  "deliverable"
+                                       },
+                     "license":  {
+                                     "id":  "cc-by-4.0"
+                                 },
+                     "communities":  [
+                                         {
+                                             "id":  "001122334455"
+                                         }
+                                     ],
+                     "relations":  {
+                                       "version":  [
+                                                       {
+                                                           "index":  0,
+                                                           "is_last":  true,
+                                                           "parent":  {
+                                                                          "pid_type":  "recid",
+                                                                          "pid_value":  "10782838"
+                                                                      }
+                                                       }
+                                                   ]
+                                   }
+                 },
+    "title":  "ColdSpark project Deliverable D5.1: Basic Aspen/HYSYS models for lab and large-scale  prototypes based on results from WP1 and WP2, WP4",
+    "links":  {
+                  "self":  "https://zenodo.org/api/records/10782839",
+                  "self_html":  "https://zenodo.org/records/10782839",
+                  "preview_html":  "https://zenodo.org/records/10782839?preview=1",
+                  "doi":  "https://doi.org/10.5281/zenodo.10782839",
+                  "self_doi":  "https://doi.org/10.5281/zenodo.10782839",
+                  "self_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.10782839",
+                  "reserve_doi":  "https://zenodo.org/api/records/10782839/draft/pids/doi",
+                  "parent":  "https://zenodo.org/api/records/10782838",
+                  "parent_html":  "https://zenodo.org/records/10782838",
+                  "parent_doi":  "https://doi.org/10.5281/zenodo.10782838",
+                  "parent_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.10782838",
+                  "self_iiif_manifest":  "https://zenodo.org/api/iiif/record:10782839/manifest",
+                  "self_iiif_sequence":  "https://zenodo.org/api/iiif/record:10782839/sequence/default",
+                  "files":  "https://zenodo.org/api/records/10782839/files",
+                  "media_files":  "https://zenodo.org/api/records/10782839/media-files",
+                  "thumbnails":  {
+                                     "10":  "https://zenodo.org/api/iiif/record:10782839:D5.1%20Aspen%20HYSYS%20models.pdf/full/%5E10,/0/default.jpg",
+                                     "50":  "https://zenodo.org/api/iiif/record:10782839:D5.1%20Aspen%20HYSYS%20models.pdf/full/%5E50,/0/default.jpg",
+                                     "100":  "https://zenodo.org/api/iiif/record:10782839:D5.1%20Aspen%20HYSYS%20models.pdf/full/%5E100,/0/default.jpg",
+                                     "250":  "https://zenodo.org/api/iiif/record:10782839:D5.1%20Aspen%20HYSYS%20models.pdf/full/%5E250,/0/default.jpg",
+                                     "750":  "https://zenodo.org/api/iiif/record:10782839:D5.1%20Aspen%20HYSYS%20models.pdf/full/%5E750,/0/default.jpg",
+                                     "1200":  "https://zenodo.org/api/iiif/record:10782839:D5.1%20Aspen%20HYSYS%20models.pdf/full/%5E1200,/0/default.jpg"
+                                 },
+                  "archive":  "https://zenodo.org/api/records/10782839/files-archive",
+                  "archive_media":  "https://zenodo.org/api/records/10782839/media-files-archive",
+                  "latest":  "https://zenodo.org/api/records/10782839/versions/latest",
+                  "latest_html":  "https://zenodo.org/records/10782839/latest",
+                  "versions":  "https://zenodo.org/api/records/10782839/versions",
+                  "draft":  "https://zenodo.org/api/records/10782839/draft",
+                  "access_links":  "https://zenodo.org/api/records/10782839/access/links",
+                  "access_grants":  "https://zenodo.org/api/records/10782839/access/grants",
+                  "access_users":  "https://zenodo.org/api/records/10782839/access/users",
+                  "access_request":  "https://zenodo.org/api/records/10782839/access/request",
+                  "access":  "https://zenodo.org/api/records/10782839/access",
+                  "communities":  "https://zenodo.org/api/records/10782839/communities",
+                  "communities-suggestions":  "https://zenodo.org/api/records/10782839/communities-suggestions",
+                  "request_deletion":  "https://zenodo.org/api/records/10782839/request-deletion",
+                  "file_modification":  "https://zenodo.org/api/records/10782839/file-modification",
+                  "quota_increase":  "https://zenodo.org/api/records/10782839/quota-increase",
+                  "requests":  "https://zenodo.org/api/records/10782839/requests"
+              },
+    "updated":  "2024-07-06T23:43:56.828041+00:00",
+    "recid":  "10782839",
+    "revision":  6,
+    "files":  [
+                  {
+                      "id":  "1db5783a-e430-480e-8c7f-67ff7e173200",
+                      "key":  "D5.1 Aspen HYSYS models.pdf",
+                      "size":  686809,
+                      "checksum":  "md5:4a9c568b35c8c09eb4800d69bd610c95",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/10782839/files/D5.1%20Aspen%20HYSYS%20models.pdf/content"
+                                }
+                  }
+              ],
+    "swh":  {
+
+            },
+    "owners":  [
+                   {
+                       "id":  "519077"
+                   }
+               ],
+    "status":  "published",
+    "stats":  {
+                  "downloads":  68,
+                  "unique_downloads":  53,
+                  "views":  68,
+                  "unique_views":  65,
+                  "version_downloads":  68,
+                  "version_unique_downloads":  53,
+                  "version_unique_views":  65,
+                  "version_views":  68
+              },
+    "state":  "done",
+    "submitted":  true
+}

@@ -1,0 +1,17 @@
+﻿{
+    "dataset_id":  "f28wdd3g8m",
+    "source_page":  "https://data.mendeley.com/datasets/f28wdd3g8m/2",
+    "doi":  "10.17632/f28wdd3g8m.2",
+    "license":  "CC BY 4.0",
+    "file":  "Research Data.zip",
+    "file_download_url":  "https://data.mendeley.com/public-files/datasets/f28wdd3g8m/files/b250afda-4c6b-4db9-80ac-a677f66c46fb/file_downloaded",
+    "declared_description":  "contains excel files and AspenPlus simulations",
+    "zip_sha256":  "204ece03f64eb122f57050a9733989fd08f439309825dc8b981b94c4ddce4955",
+    "zip_entries_with_sim_extensions":  [
+                                            "Research Data/Simulations (Latest_ AspenPlus v14)/0. Planta Simplificada - Plan Experimental.apwz",
+                                            "Research Data/Simulations (Latest_ AspenPlus v14)/1. Producao Direta DME (PFR).apwz",
+                                            "Research Data/Simulations (Latest_ AspenPlus v14)/2. Producao Direta DME (RGibbs).apwz"
+                                        ],
+    "contains_hsc":  false,
+    "decision":  "Not downloaded into CASE baseline set as no HYSYS .hsc/.xml case was evidenced (Aspen Plus .apwz only)."
+}

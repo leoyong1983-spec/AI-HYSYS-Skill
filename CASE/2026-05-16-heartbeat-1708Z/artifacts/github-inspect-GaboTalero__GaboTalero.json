@@ -1,0 +1,32 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "GaboTalero/GaboTalero",
+                 "url":  "https://github.com/GaboTalero/GaboTalero",
+                 "description":  "GitHub profile README",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-04-25T22:22:41Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  1,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  744,
+                                       "sha":  "6a2bbf507c3aca52cdf45f9d4726f21134765948"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-python-com.json"
+                ],
+    "error":  null
+}

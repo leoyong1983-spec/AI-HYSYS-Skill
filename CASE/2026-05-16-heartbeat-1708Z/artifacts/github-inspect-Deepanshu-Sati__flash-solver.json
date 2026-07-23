@@ -1,0 +1,112 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Deepanshu-Sati/flash-solver",
+                 "url":  "https://github.com/Deepanshu-Sati/flash-solver",
+                 "description":  "Interactive vapor-liquid equilibrium flash calculation tool for chemical engineering",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-04-30T06:22:42Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  24,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1071,
+                                       "sha":  "ce2f2a68273c8c93d7017579456026df69806ef6"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  5128,
+                                       "sha":  "c1674efcf3de4761e522e5bc4e35f5b8a831f7cf"
+                                   },
+                                   {
+                                       "path":  "data/component_database.csv",
+                                       "size":  634,
+                                       "sha":  "5e67791b203f23a52a4b20785b8d48575ba61efc"
+                                   },
+                                   {
+                                       "path":  "examples/methane_ethane_flash.py",
+                                       "size":  1721,
+                                       "sha":  "4d43ff23d282af4e80329b664196b3c61a3454a7"
+                                   },
+                                   {
+                                       "path":  "examples/natural_gas_flash.py",
+                                       "size":  1459,
+                                       "sha":  "5e5947a02a94a92a13e53ca5056ec9b1ff33d47d"
+                                   },
+                                   {
+                                       "path":  "flash/__init__.py",
+                                       "size":  0,
+                                       "sha":  "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+                                   },
+                                   {
+                                       "path":  "flash/flash_calculation.py",
+                                       "size":  6487,
+                                       "sha":  "b53a66894e05d53e1940007321988741ad3f6753"
+                                   },
+                                   {
+                                       "path":  "flash/rachford_rice.py",
+                                       "size":  3604,
+                                       "sha":  "8e3b1ea6d42f7bb73092173c2c93d7870dd764f6"
+                                   },
+                                   {
+                                       "path":  "main.py",
+                                       "size":  3768,
+                                       "sha":  "c314518a41e42c30a0bba8f7dc374582e65ba2d5"
+                                   },
+                                   {
+                                       "path":  "streamlit_app.py",
+                                       "size":  6194,
+                                       "sha":  "ff0b4d7ad63d75a17a2d23e00852593628059590"
+                                   },
+                                   {
+                                       "path":  "thermodynamics/__init__.py",
+                                       "size":  0,
+                                       "sha":  "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+                                   },
+                                   {
+                                       "path":  "thermodynamics/antoine.py",
+                                       "size":  1417,
+                                       "sha":  "5e9f7e5adc52ecda5f13719b05b3883cd206ca47"
+                                   },
+                                   {
+                                       "path":  "thermodynamics/fugacity.py",
+                                       "size":  3879,
+                                       "sha":  "3f25208f8bb3cdc9569afc5d7aa8e75d05f1480a"
+                                   },
+                                   {
+                                       "path":  "thermodynamics/peng_robinson.py",
+                                       "size":  4344,
+                                       "sha":  "f1a47feeff92b341dae1fac39f51ba3d7485e7ee"
+                                   },
+                                   {
+                                       "path":  "thermodynamics/raoults_law.py",
+                                       "size":  901,
+                                       "sha":  "b398fecd59580043270168bcc57f505f4912d9da"
+                                   },
+                                   {
+                                       "path":  "visualization/__init__.py",
+                                       "size":  0,
+                                       "sha":  "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+                                   },
+                                   {
+                                       "path":  "visualization/phase_diagrams.py",
+                                       "size":  6554,
+                                       "sha":  "0b0a84da7eecab83230933f53325579d45b81216"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-python-com.json"
+                ],
+    "error":  null
+}

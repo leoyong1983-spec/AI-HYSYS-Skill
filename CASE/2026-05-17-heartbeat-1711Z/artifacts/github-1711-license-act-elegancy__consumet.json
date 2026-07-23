@@ -1,0 +1,25 @@
+{
+  "name": "LICENSE.md",
+  "path": "LICENSE.md",
+  "sha": "2acadaa3a2368dba6a06fdbaa754450227817c0a",
+  "size": 1085,
+  "url": "https://api.github.com/repos/act-elegancy/consumet/contents/LICENSE.md?ref=master",
+  "html_url": "https://github.com/act-elegancy/consumet/blob/master/LICENSE.md",
+  "git_url": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/2acadaa3a2368dba6a06fdbaa754450227817c0a",
+  "download_url": "https://raw.githubusercontent.com/act-elegancy/consumet/master/LICENSE.md",
+  "type": "file",
+  "content": "TUlUIExpY2Vuc2UKPT09PT09PT09PT0KCkNvcHlyaWdodCAoYykgMjAxOSBT\nSU5URUYgRW5lcmdpIEFTCgpQZXJtaXNzaW9uIGlzIGhlcmVieSBncmFudGVk\nLCBmcmVlIG9mIGNoYXJnZSwgdG8gYW55IHBlcnNvbiBvYnRhaW5pbmcgYSBj\nb3B5Cm9mIHRoaXMgc29mdHdhcmUgYW5kIGFzc29jaWF0ZWQgZG9jdW1lbnRh\ndGlvbiBmaWxlcyAodGhlICJTb2Z0d2FyZSIpLCB0byBkZWFsCmluIHRoZSBT\nb2Z0d2FyZSB3aXRob3V0IHJlc3RyaWN0aW9uLCBpbmNsdWRpbmcgd2l0aG91\ndCBsaW1pdGF0aW9uIHRoZSByaWdodHMKdG8gdXNlLCBjb3B5LCBtb2RpZnks\nIG1lcmdlLCBwdWJsaXNoLCBkaXN0cmlidXRlLCBzdWJsaWNlbnNlLCBhbmQv\nb3Igc2VsbApjb3BpZXMgb2YgdGhlIFNvZnR3YXJlLCBhbmQgdG8gcGVybWl0\nIHBlcnNvbnMgdG8gd2hvbSB0aGUgU29mdHdhcmUgaXMKZnVybmlzaGVkIHRv\nIGRvIHNvLCBzdWJqZWN0IHRvIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoK\nClRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Np\nb24gbm90aWNlIHNoYWxsIGJlIGluY2x1ZGVkIGluIGFsbApjb3BpZXMgb3Ig\nc3Vic3RhbnRpYWwgcG9ydGlvbnMgb2YgdGhlIFNvZnR3YXJlLgoKVEhFIFNP\nRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIsIFdJVEhPVVQgV0FSUkFOVFkg\nT0YgQU5ZIEtJTkQsIEVYUFJFU1MgT1IKSU1QTElFRCwgSU5DTFVESU5HIEJV\nVCBOT1QgTElNSVRFRCBUTyBUSEUgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFC\nSUxJVFksCkZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFORCBO\nT05JTkZSSU5HRU1FTlQuIElOIE5PIEVWRU5UIFNIQUxMIFRIRQpBVVRIT1JT\nIE9SIENPUFlSSUdIVCBIT0xERVJTIEJFIExJQUJMRSBGT1IgQU5ZIENMQUlN\nLCBEQU1BR0VTIE9SIE9USEVSIExJQUJJTElUWSwKV0hFVEhFUiBJTiBBTiBB\nQ1RJT04gT0YgQ09OVFJBQ1QsIFRPUlQgT1IgT1RIRVJXSVNFLCBBUklTSU5H\nIEZST00sIE9VVCBPRiBPUgpJTiBDT05ORUNUSU9OIFdJVEggVEhFIFNPRlRX\nQVJFIE9SIFRIRSBVU0UgT1IgT1RIRVIgREVBTElOR1MgSU4gVEhFIFNPRlRX\nQVJFLgo=\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/act-elegancy/consumet/contents/LICENSE.md?ref=master",
+    "git": "https://api.github.com/repos/act-elegancy/consumet/git/blobs/2acadaa3a2368dba6a06fdbaa754450227817c0a",
+    "html": "https://github.com/act-elegancy/consumet/blob/master/LICENSE.md"
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  }
+}

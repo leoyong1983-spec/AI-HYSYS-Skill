@@ -1,0 +1,122 @@
+[
+  {
+    "title": "GitHub duplicate sweep: known HYSYS .hsc and automation repositories",
+    "type": "duplicate_search_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS+case&type=repositories",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "GitHub-first sweep resurfaced known repositories already recorded in CASE. Mixed licensing: MIT for some automation/data-only repositories and no explicit license for several repositories exposing .hsc files.",
+    "recommended_use": "Use as duplicate-avoidance evidence and search-filter tuning; do not download again.",
+    "dedupe_keys": {
+      "source_pages_seen": [
+        "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "https://github.com/marcellobozzini/Python-Driving-License",
+        "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+        "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+        "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "https://github.com/ArturTask/HysysExcel",
+        "https://github.com/cityfamer/HyPy",
+        "https://github.com/robfox92/matlab-fitness-hysys"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-11-heartbeat-1648Z",
+        "CASE/2026-05-13-heartbeat-2201Z",
+        "CASE/2026-05-14-heartbeat-1007Z",
+        "CASE/2026-05-14-heartbeat-1107Z",
+        "CASE/2026-05-14-heartbeat-1907Z",
+        "CASE/2026-05-16-heartbeat-0608Z"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "mixed/unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "No new licensed HYSYS model payload was found; no files were downloaded."
+  },
+  {
+    "title": "UPCommons: Simulation and design study of an ethyl benzene chemical process",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://upcommons.upc.edu/entities/publication/35e0b9f9-59ec-472f-8b4d-4d9dd5ae143d",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public UPCommons page exposes a report PDF and HYSYS .hsc attachment name, but the rights/license presentation indicates all rights reserved or no reusable license. Not downloaded.",
+    "recommended_use": "Manual permission-review candidate for ethylbenzene process simulation and design benchmarking.",
+    "dedupe_keys": {
+      "source_page": "https://upcommons.upc.edu/entities/publication/35e0b9f9-59ec-472f-8b4d-4d9dd5ae143d",
+      "title": "Simulation and design study of an ethyl benzene chemical process",
+      "visible_filenames": [
+        "Report_fitxer de consulta.pdf",
+        "Muhammad Arieff Bin Idros - Simulation of EthylBenzene Process 2019.hsc",
+        "ARIEFF BIN IDROS - Simulation and Design Study of Ethyl Benzene Chemical Process.pdf"
+      ],
+      "dedupe_status": "new_source_page_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "All-rights-reserved/no reusable license status blocks automated archival; needs permission before download."
+  },
+  {
+    "title": "UPCommons: Estudi de la viabilitat economica, energetica i mediambiental d'una planta d'absorcio de CO2",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://upcommons.upc.edu/entities/publication/a5a9b824-75d8-4611-8f08-f8a82f294e06",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public UPCommons page exposes a TFM PDF and HYSYS .hsc attachment name, but the rights/license presentation indicates all rights reserved or no reusable license. Not downloaded.",
+    "recommended_use": "Manual permission-review candidate for CO2 absorption process economics, energy, and environmental assessment.",
+    "dedupe_keys": {
+      "source_page": "https://upcommons.upc.edu/entities/publication/a5a9b824-75d8-4611-8f08-f8a82f294e06",
+      "title": "Estudi de la viabilitat economica, energetica i mediambiental d'una planta d'absorcio de CO2",
+      "visible_filenames": [
+        "TFM.pdf",
+        "Simulacio proces d'absorcio de CO2.hsc"
+      ],
+      "dedupe_status": "new_source_page_no_download"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": "All-rights-reserved/no reusable license status blocks automated archival; needs permission before download."
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "repo": "M-Hamdy-M/lng-niching-metaheuristics",
+    "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS \"natural gas\" hsc in:readme",
+      "\"Aspen HYSYS\" \"simulation file\" in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 37,
+      ".ipynb": 4
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "hysys_optimization/problems/dsmr/smr_opt_problem.py",
+        "optimization/__init__.py",
+        "optimization/algorithms/common/selection.py",
+        "optimization/algorithms/core/__init__.py",
+        "optimization/algorithms/core/callback.py",
+        "optimization/algorithms/core/initializers.py",
+        "optimization/algorithms/core/optimization_algorithm.py",
+        "optimization/algorithms/core/optimization_step.py",
+        "optimization/algorithms/core/population.py",
+        "optimization/algorithms/de/variants/__init__.py"
+      ],
+      ".ipynb": [
+        "demos/Custom Problem Demo.ipynb",
+        "hysys_optimization/problems/dsmr/Analysis.ipynb",
+        "hysys_optimization/problems/dsmr/Solving SMR.ipynb",
+        "hysys_optimization/problems/dsmr/Tuning SMR.ipynb"
+      ]
+    }
+  },
+  {
+    "repo": "rubel-miah-che/rubel-portfolio",
+    "url": "https://github.com/rubel-miah-che/rubel-portfolio",
+    "description": "My personal portfolio repo containing projects, code, papers, and more.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS ammonia hsc in:readme",
+      "HYSYS hydrogen hsc in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 5,
+      ".md": 1,
+      ".py": 4
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "cv/Rubel_Miah_Academic_CV.pdf",
+        "papers/119_ICChE2023_Manuscript_Ridika.pdf",
+        "papers/538.pdf",
+        "papers/FullPaper_47.pdf",
+        "papers/PIIS2405844024167539.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "Learning_2.py",
+        "learning.py",
+        "notebooks/Learning_2.py",
+        "notebooks/learning.py"
+      ]
+    }
+  },
+  {
+    "repo": "JoshuaKiplimo/ResParse",
+    "url": "https://github.com/JoshuaKiplimo/ResParse",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen hsc in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 1,
+      ".pdf": 2,
+      ".txt": 3,
+      ".py": 10
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "readme.txt"
+    ],
+    "companion": {
+      ".csv": [
+        "TechnologySkills.csv"
+      ],
+      ".pdf": [
+        "resume/JOSHUA KIPRONO.pdf",
+        "resume/entry-level-computer-science-resume-example.pdf"
+      ],
+      ".txt": [
+        "readme.txt",
+        "requirements.txt",
+        "resume/test.txt"
+      ],
+      ".py": [
+        ".streamlit/Voice.py",
+        "ResumeMatch.py",
+        "actionVerbs.py",
+        "get_jobs.py",
+        "majors.py",
+        "packages/common.py",
+        "packages/listing.py",
+        "packages/page.py",
+        "pdfGenerator.py",
+        "textFormat.py"
+      ]
+    }
+  },
+  {
+    "repo": "Jimohmuktar/CrBlend-ML",
+    "url": "https://github.com/Jimohmuktar/CrBlend-ML",
+    "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "\"Aspen HYSYS\" \"case file\" in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 5
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "assay_library.py",
+        "blending_physics.py",
+        "config.py",
+        "data_generator.py",
+        "hysys_connector.py"
+      ]
+    }
+  },
+  {
+    "repo": "Ambercozy/HYSYS-GOSP-Design",
+    "url": "https://github.com/Ambercozy/HYSYS-GOSP-Design",
+    "description": "",
+    "license": "",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS GOSP in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  }
+]

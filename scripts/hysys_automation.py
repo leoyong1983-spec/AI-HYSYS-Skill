@@ -43,6 +43,42 @@ class SpreadsheetCellBinding:
     unit: str = ""
 
 
+HYSYS_EMPTY_VALUE = -32767
+
+
+def is_hysys_empty_value(value: object) -> bool:
+    """Return whether a scalar matches HYSYS' common empty-value sentinel."""
+    return value == HYSYS_EMPTY_VALUE
+
+
+def normalize_com_value(value):
+    """Convert common COM scalar/array outputs to plain Python values.
+
+    COM dispatch objects are intentionally returned unchanged so callers can
+    still navigate object paths when a HYSYS API returns a live object.
+    """
+    if value is None or isinstance(value, (str, bytes, int, float, bool)):
+        return value
+    if isinstance(value, tuple):
+        return [normalize_com_value(item) for item in value]
+    if isinstance(value, list):
+        return [normalize_com_value(item) for item in value]
+
+    with contextlib.suppress(Exception):
+        tolist = getattr(value, "tolist", None)
+        if callable(tolist):
+            listed = tolist()
+            if listed is not value:
+                return normalize_com_value(listed)
+
+    return value
+
+
+def spreadsheet_binding_key(binding: SpreadsheetCellBinding) -> str:
+    """Return a stable key for machine-readable spreadsheet readbacks."""
+    return binding.label or f"{binding.spreadsheet}!R{binding.row}C{binding.column}"
+
+
 def _ensure_parent(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -79,6 +115,8 @@ class HysysCaseSession:
         self._case_path: Path | None = None
         self._com_initialized = False
         self._launched_process: subprocess.Popen | None = None
+        self._operation_cache: dict[str, object] = {}
+        self._spreadsheet_cache: dict[str, object] = {}
 
     def __enter__(self) -> "HysysCaseSession":
         self._initialize_com()
@@ -166,6 +204,7 @@ class HysysCaseSession:
         _ensure_parent(temp_case_path)
         if temp_case_path.exists():
             temp_case_path.unlink()
+        self._clear_object_cache()
         self.case = self.app.SimulationCases.Add(str(temp_case_path))
         self._case_path = temp_case_path
         self.case.Name = case_name
@@ -178,6 +217,7 @@ class HysysCaseSession:
         open_path = case_path
         if case_path.suffix.lower() == ".hsc" and _needs_ascii_staging(case_path):
             open_path = stage_case_for_open(case_path, staged_name=case_path.name.encode("ascii", "ignore").decode("ascii") or "staged_case.hsc")
+        self._clear_object_cache()
         self.case = self.app.SimulationCases.Open(str(open_path))
         self._case_path = open_path
         return self.case
@@ -205,20 +245,35 @@ class HysysCaseSession:
         return self._flowsheet().EnergyStreams.Add(name)
 
     def add_operation(self, name: str, op_type: str):
-        return self._operations().Add(name, op_type)
+        operation = self._operations().Add(name, op_type)
+        self._operation_cache[name] = operation
+        return operation
 
     def get_operation(self, name: str):
-        return self._operations().Item(name)
+        if name not in self._operation_cache:
+            self._operation_cache[name] = self._operations().Item(name)
+        return self._operation_cache[name]
 
     def get_spreadsheet(self, name: str):
-        return self.get_operation(name)
+        if name not in self._spreadsheet_cache:
+            self._spreadsheet_cache[name] = self.get_operation(name)
+        return self._spreadsheet_cache[name]
 
     def get_spreadsheet_cell(self, binding: SpreadsheetCellBinding):
         spreadsheet = self.get_spreadsheet(binding.spreadsheet)
         return spreadsheet.Cell(binding.column, binding.row)
 
     def read_spreadsheet_cell(self, binding: SpreadsheetCellBinding):
-        return self.get_spreadsheet_cell(binding).CellValue
+        return normalize_com_value(self.get_spreadsheet_cell(binding).CellValue)
+
+    def read_spreadsheet_cells(
+        self,
+        bindings: Sequence[SpreadsheetCellBinding],
+    ) -> dict[str, object]:
+        return {
+            spreadsheet_binding_key(binding): self.read_spreadsheet_cell(binding)
+            for binding in bindings
+        }
 
     def write_spreadsheet_cell(self, binding: SpreadsheetCellBinding, value) -> None:
         self.get_spreadsheet_cell(binding).CellValue = value
@@ -283,6 +338,7 @@ class HysysCaseSession:
                 self.case.Close()
             self.case = None
             self._case_path = None
+        self._clear_object_cache()
 
     def close_app(self) -> None:
         if self.app is not None:
@@ -290,6 +346,7 @@ class HysysCaseSession:
                 self.app.Quit()
             self.app = None
         self._launched_process = None
+        self._clear_object_cache()
 
     def _flowsheet(self):
         if self.case is None:
@@ -302,6 +359,10 @@ class HysysCaseSession:
         if operations is None:
             raise HysysAutomationError("Flowsheet does not expose Operations.")
         return operations
+
+    def _clear_object_cache(self) -> None:
+        self._operation_cache.clear()
+        self._spreadsheet_cache.clear()
 
 
 def make_temp_case_path(prefix: str = "hysys_case") -> Path:
@@ -379,7 +440,7 @@ def safe_float_attr(obj, attr: str) -> float | None:
         value = getattr(obj, attr)
     except Exception:
         return None
-    if value is None:
+    if value is None or is_hysys_empty_value(value):
         return None
     try:
         return float(value)

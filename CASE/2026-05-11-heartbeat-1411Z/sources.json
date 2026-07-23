@@ -1,0 +1,209 @@
+﻿[
+    {
+        "title":  "Data for: Optimization model and application for the recondensation process of boil-off gas in a liquefied natural gas receiving terminal",
+        "type":  "dataset_package",
+        "quality":  "A",
+        "source_page":  "https://data.mendeley.com/datasets/8r8ztbkfjj/1",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/8r8ztbkfjj/files/939edba8-4b16-441d-b0bc-7609c2688f18/file_downloaded",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1411Z/artifacts/mendeley-8r8ztbkfjj-metadata.json",
+                                    "filename":  "mendeley-8r8ztbkfjj-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  4899,
+                                    "sha256":  "b0b13f9d52fdf7a7fedaf53f9d6bfe01c5121b2495e09bbec38e9bfb9258a08c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1411Z/artifacts/Research data.zip",
+                                    "filename":  "Research data.zip",
+                                    "file_type":  "zip",
+                                    "size_bytes":  205388181,
+                                    "sha256":  "417f3c0c8bcf381fd5bae591cf55ab18e75a03943d72c00d8b44a6a1c99068bf"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1411Z/artifacts/Research-data-zip-listing.txt",
+                                    "filename":  "Research-data-zip-listing.txt",
+                                    "file_type":  "text",
+                                    "size_bytes":  88833,
+                                    "sha256":  "9f4c2fe5172edecabc30dd3f688206f6b8ea97b7855c15a505409160cc56b7b7"
+                                }
+                            ],
+        "license_public_access_note":  "Mendeley Data public dataset, CC BY 4.0 (metadata-declared), DOI 10.17632/8r8ztbkfjj.1.",
+        "recommended_use":  "LNG/BOG recondensation benchmark: script-based parameter takeover, monthly scenario replay, sensitivity analysis, surrogate-model dataset extraction.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/8r8ztbkfjj/1",
+                            "download_url":  "https://data.mendeley.com/public-files/datasets/8r8ztbkfjj/files/939edba8-4b16-441d-b0bc-7609c2688f18/file_downloaded",
+                            "title":  "Data for: Optimization model and application for the recondensation process of boil-off gas in a liquefied natural gas receiving terminal",
+                            "filenames":  [
+                                              "Research data.zip",
+                                              "Research data/HYSYS files/April to October.hsc",
+                                              "Research data/HYSYS files/November to March.hsc"
+                                          ],
+                            "sha256":  [
+                                           "b0b13f9d52fdf7a7fedaf53f9d6bfe01c5121b2495e09bbec38e9bfb9258a08c",
+                                           "417f3c0c8bcf381fd5bae591cf55ab18e75a03943d72c00d8b44a6a1c99068bf",
+                                           "9f4c2fe5172edecabc30dd3f688206f6b8ea97b7855c15a505409160cc56b7b7"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown (paper period 2018; exact version not stated)",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Archive is large (205 MB) and contains many spreadsheets; downstream parsing should be selective.",
+                               "No local HYSYS execution performed; convergence and compatibility unverified on this host."
+                           ]
+    },
+    {
+        "title":  "Flowsheet-toolbox repository candidate (contains SampleModel_V2.hsc, license unclear)",
+        "type":  "github_repo_candidate",
+        "quality":  "D",
+        "source_page":  "https://github.com/bpalotai/Flowsheet-toolbox",
+        "download_url":  "https://codeload.github.com/bpalotai/Flowsheet-toolbox/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1411Z/artifacts/candidate-bpalotai-Flowsheet-toolbox.json",
+                                    "filename":  "candidate-bpalotai-Flowsheet-toolbox.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  487,
+                                    "sha256":  "e7dab554caa1e07ffd2d42ebd99a32baad6962272c85f61763b8caa348b90e1e"
+                                }
+                            ],
+        "license_public_access_note":  "Repository appears public, but SPDX/license file was not confirmed; redistribution/archive permission unclear.",
+        "recommended_use":  "Manual maintainer contact to confirm license before adding as heat-exchanger/HX-model benchmark.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/bpalotai/Flowsheet-toolbox",
+                            "download_url":  "https://codeload.github.com/bpalotai/Flowsheet-toolbox/zip/refs/heads/main",
+                            "title":  "Flowsheet-toolbox repository candidate (contains SampleModel_V2.hsc, license unclear)",
+                            "filenames":  [
+                                              "candidate-bpalotai-Flowsheet-toolbox.json",
+                                              "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+                                          ],
+                            "sha256":  [
+                                           "e7dab554caa1e07ffd2d42ebd99a32baad6962272c85f61763b8caa348b90e1e"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "License terms unclear; skipped download per archive policy.",
+                               "GitHub API rate limiting prevented refreshed license probe in this run; rely on earlier tree observation only."
+                           ]
+    },
+    {
+        "title":  "Cerro Prieto geothermal Aspen Hysys dataset candidate (no case file exposed)",
+        "type":  "dataset_candidate",
+        "quality":  "D",
+        "source_page":  "https://data.mendeley.com/datasets/9384yj4xg3/5",
+        "download_url":  "https://data.mendeley.com/public-api/datasets/9384yj4xg3",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1411Z/artifacts/candidate-mendeley-9384yj4xg3-metadata.json",
+                                    "filename":  "candidate-mendeley-9384yj4xg3-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  14440,
+                                    "sha256":  "db55f74a97d5ac89868da9f186dfe77a239623be50698033ea23cc71605458d1"
+                                }
+                            ],
+        "license_public_access_note":  "Public dataset metadata indicates CC BY 4.0, but file list exposes tables/figures/docx only.",
+        "recommended_use":  "Potential validation-data supplement only; pair with an openly licensed HYSYS case before onboarding.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/9384yj4xg3/5",
+                            "download_url":  "https://data.mendeley.com/public-api/datasets/9384yj4xg3",
+                            "title":  "Cerro Prieto geothermal Aspen Hysys dataset candidate (no case file exposed)",
+                            "filenames":  [
+                                              "candidate-mendeley-9384yj4xg3-metadata.json"
+                                          ],
+                            "sha256":  [
+                                           "db55f74a97d5ac89868da9f186dfe77a239623be50698033ea23cc71605458d1"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No .hsc/.xml model package in exposed files, so reproducible HYSYS benchmark cannot be built directly.",
+                               "Dataset appears simulation-derived; model reconstruction would require manual reverse-engineering."
+                           ]
+    },
+    {
+        "title":  "Cryogenic air-separation HYSYS dataset candidate (record unavailable)",
+        "type":  "dataset_candidate",
+        "quality":  "D",
+        "source_page":  "https://data.mendeley.com/datasets/mg3rgk9xkm/1",
+        "download_url":  "https://data.mendeley.com/public-api/datasets/mg3rgk9xkm",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-1411Z/artifacts/candidate-mendeley-mg3rgk9xkm-metadata.json",
+                                    "filename":  "candidate-mendeley-mg3rgk9xkm-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  62,
+                                    "sha256":  "74753a52e2bc49bf0a0e7bb1a409e8196895ccdf733c936be2bbc1653bf3cac1"
+                                }
+                            ],
+        "license_public_access_note":  "Dataset page appears in search snippets, but public API returned 404 dataset-not-found in this run.",
+        "recommended_use":  "Retry with alternate version URL or author page; treat as unavailable until record resolves publicly.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/mg3rgk9xkm/1",
+                            "download_url":  "https://data.mendeley.com/public-api/datasets/mg3rgk9xkm",
+                            "title":  "Cryogenic air-separation HYSYS dataset candidate (record unavailable)",
+                            "filenames":  [
+                                              "candidate-mendeley-mg3rgk9xkm-metadata.json"
+                                          ],
+                            "sha256":  [
+                                           "74753a52e2bc49bf0a0e7bb1a409e8196895ccdf733c936be2bbc1653bf3cac1"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "Unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Source currently unavailable (404), so provenance and licensing cannot be validated.",
+                               "No downloadable package available to inspect for malware-safe archive inventory."
+                           ]
+    }
+]

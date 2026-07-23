@@ -1,0 +1,75 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2024-03-07T13:44:23Z",
+                 "defaultBranchRef":  {
+                                          "name":  "main"
+                                      },
+                 "description":  "This repository includes some useful codes for ASPEN-HYSYS automation",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  null,
+                 "nameWithOwner":  "sajjad-ah/ASPEN-HYSYS",
+                 "pushedAt":  "2026-05-13T06:03:31Z",
+                 "url":  "https://github.com/sajjad-ah/ASPEN-HYSYS"
+             },
+    "tree":  {
+                 "tree_sha":  "eae4c58715ce4c7e905a1c72a51fc2f7979f1cb3",
+                 "truncated":  false,
+                 "file_count":  27,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "SAFETY INSTRUMENTED SYSTEMS.pdf",
+                                       "size":  9860787,
+                                       "sha":  "d49441b1d557a2616e6d247107c24e38a0ea2716"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/H_F_to_Pout_Flow.ipynb",
+                                       "size":  111903,
+                                       "sha":  "d4eae97fcd3e8597af9faa4d2662d950177d27f4"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/H_F_to_Pout_KgFlow.ipynb",
+                                       "size":  100197,
+                                       "sha":  "65f919382b570ad0621cd671608e5b72f770bc82"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/H_F_to_Pout_Sm3.ipynb",
+                                       "size":  215087,
+                                       "sha":  "ed54950651efe60992031df55f6fa7a848ef6cbe"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/PR_results.ipynb",
+                                       "size":  16843,
+                                       "sha":  "9b1de08fef41b92f0023d8415f9aa53a9a5dc22c"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/UniSimCompressorData.py",
+                                       "size":  4850,
+                                       "sha":  "f9e7582b030582c0742f1f7d287812acc5a791f2"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/draft_readcurve_unisim.ipynb",
+                                       "size":  136041,
+                                       "sha":  "3861945b12b49f1101ca08d06428dfd9ba4ed2f8"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/p_r_consequence.py",
+                                       "size":  4928,
+                                       "sha":  "0689ab5818275d1ebe391dd24f2abf55df4f6ee7"
+                                   },
+                                   {
+                                       "path":  "python/Compressor-Curves-Codes/testcompressordata.py",
+                                       "size":  5015,
+                                       "sha":  "291182c978a4e7327c626fa808277e487e61be98"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null
+}

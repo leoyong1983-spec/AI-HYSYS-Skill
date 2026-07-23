@@ -1,0 +1,477 @@
+﻿{
+    "generated_at_utc":  "2026-05-16T17:08:29.396Z",
+    "run_dir":  "CASE/2026-05-16-heartbeat-1708Z",
+    "policy":  "No downloaded HYSYS model payloads, archives, executables, macros, or scripts were run. Candidate payloads that were duplicate or lacked clear license were not retained.",
+    "file_count":  52,
+    "risky_payloads_retained":  0,
+    "files":  [
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/bitbucket-1708-repository-search-results.err.txt",
+                      "filename":  "bitbucket-1708-repository-search-results.err.txt",
+                      "extension":  ".txt",
+                      "size_bytes":  55,
+                      "sha256":  "a3e9f5e47cfbe7d1a77940b576397ff60c2b42373f23eb2bc1ed1e203587ab46",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/bitbucket-1708-repository-search-results.json",
+                      "filename":  "bitbucket-1708-repository-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  31,
+                      "sha256":  "102a4a417a7e9a03ec85bb20a2ece3f9a3570ede409e6e0d95df975eaff760e1",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/dedupe-summary.json",
+                      "filename":  "dedupe-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  301,
+                      "sha256":  "a1615d1eea70ee180adf159cd4bcb89b4e39ea05f4b28f1e4fb98bdda1239d18",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/external-search-summary.json",
+                      "filename":  "external-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1596,
+                      "sha256":  "e2d595a0a7f420d33a177c7c44472b4a45210bc7fb2250120b0ea5dd761771fb",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/figshare-1708-targeted-search-results.json",
+                      "filename":  "figshare-1708-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  31,
+                      "sha256":  "102a4a417a7e9a03ec85bb20a2ece3f9a3570ede409e6e0d95df975eaff760e1",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-code-aspen-hysys-ext-hsc.json",
+                      "filename":  "github-code-aspen-hysys-ext-hsc.json",
+                      "extension":  ".json",
+                      "size_bytes":  60,
+                      "sha256":  "d0eebdb0ce9748ed3ef97bea53c3d799001c3b6ac8ac95af28d8be5ed405bebe",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-code-aspen-hysys-ext-xml.json",
+                      "filename":  "github-code-aspen-hysys-ext-xml.json",
+                      "extension":  ".json",
+                      "size_bytes":  147942,
+                      "sha256":  "f398188c6423671a32c93fc4ed032da3c1ecc1dd4c0c0f1f546a0dbaf29b3624",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-code-hysys-ext-compound.json",
+                      "filename":  "github-code-hysys-ext-compound.json",
+                      "extension":  ".json",
+                      "size_bytes":  60,
+                      "sha256":  "d0eebdb0ce9748ed3ef97bea53c3d799001c3b6ac8ac95af28d8be5ed405bebe",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-code-hysys-ext-hsc.json",
+                      "filename":  "github-code-hysys-ext-hsc.json",
+                      "extension":  ".json",
+                      "size_bytes":  60,
+                      "sha256":  "d0eebdb0ce9748ed3ef97bea53c3d799001c3b6ac8ac95af28d8be5ed405bebe",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-code-hysys-ext-hscz.json",
+                      "filename":  "github-code-hysys-ext-hscz.json",
+                      "extension":  ".json",
+                      "size_bytes":  60,
+                      "sha256":  "d0eebdb0ce9748ed3ef97bea53c3d799001c3b6ac8ac95af28d8be5ed405bebe",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-code-hysys-xml-cases-ext-xml.json",
+                      "filename":  "github-code-hysys-xml-cases-ext-xml.json",
+                      "extension":  ".json",
+                      "size_bytes":  150240,
+                      "sha256":  "89d5c3dc6bd40eac46846ac8fbb24db472d7cf3463c78bb16bb1d0e20e959b94",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-code-search-summary.json",
+                      "filename":  "github-code-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1170,
+                      "sha256":  "1c6a88cdaba180824f5fc8c380853849b2f742bfffcc87253020ee8b420cda19",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection.json",
+                      "filename":  "github-inspect-abdulhafiz891__Cryogenic-Distillation-for-N2-Rejection.json",
+                      "extension":  ".json",
+                      "size_bytes":  1275,
+                      "sha256":  "f441d28caee19a3c56a705496d4c3b4d8509b479ddf77966478c3e9992b49792",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-AbhiA0821__Resume-Matcher.json",
+                      "filename":  "github-inspect-AbhiA0821__Resume-Matcher.json",
+                      "extension":  ".json",
+                      "size_bytes":  13440,
+                      "sha256":  "a84850ad08f9a54cb218564a14e59f7cd6978e7cd6993713c0b7ace8ae2b4bbd",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-alimardani76__pyexergy.json",
+                      "filename":  "github-inspect-alimardani76__pyexergy.json",
+                      "extension":  ".json",
+                      "size_bytes":  1485,
+                      "sha256":  "9fa941912f59423e41a1adf21591177c70aa71c617c381be1b15acd3b3e8b738",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-AngeloRules__Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries.json",
+                      "filename":  "github-inspect-AngeloRules__Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries.json",
+                      "extension":  ".json",
+                      "size_bytes":  2255,
+                      "sha256":  "38d2c73d13de451408124f69194faa1ae49cd6d9fb85ab22e1cbc71f59382a09",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-aqiqiqiu__ai-hysys-autobuilder.json",
+                      "filename":  "github-inspect-aqiqiqiu__ai-hysys-autobuilder.json",
+                      "extension":  ".json",
+                      "size_bytes":  6172,
+                      "sha256":  "dfae57f8ba18a58bf2f590f2fbfe71423520a064fe545ac03055a28a96a90b96",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-Asgari-research__h2-gasification-mof-zeolite-screening.json",
+                      "filename":  "github-inspect-Asgari-research__h2-gasification-mof-zeolite-screening.json",
+                      "extension":  ".json",
+                      "size_bytes":  2846,
+                      "sha256":  "64db0f111ac00ac72f3f52029a59f1012c540b002d157ac4e52dafeaa8539ee7",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+                      "filename":  "github-inspect-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+                      "extension":  ".json",
+                      "size_bytes":  5372,
+                      "sha256":  "ce437fc37298e1c214c28291699927e85f5559407f0cfbe8b0e6cd0dcf9acafa",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-avaldeslopez93__avaldeslopez93.json",
+                      "filename":  "github-inspect-avaldeslopez93__avaldeslopez93.json",
+                      "extension":  ".json",
+                      "size_bytes":  1162,
+                      "sha256":  "21dd058e2ddf42790dcb1fb403916a23e1080cfa1580b12e8094f749b44c3293",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-Brianhuynh97__Brianhuynh97.json",
+                      "filename":  "github-inspect-Brianhuynh97__Brianhuynh97.json",
+                      "extension":  ".json",
+                      "size_bytes":  1568,
+                      "sha256":  "d0e7255c3979c88cbc9c084ce4f841d6fb61b7e4c965e3ad6e7e03f033a6bdcd",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-Deepanshu-Sati__flash-solver.json",
+                      "filename":  "github-inspect-Deepanshu-Sati__flash-solver.json",
+                      "extension":  ".json",
+                      "size_bytes":  6012,
+                      "sha256":  "23781e9d053c8945372444570b71025685b83021a10fa5cda5c87ccf37e141da",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspected-repo-summary.json",
+                      "filename":  "github-inspected-repo-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  11257,
+                      "sha256":  "0e6b4c3be39116945eb67b8b085a0eb333a2070ddde3ad50fd01d04a1bb8aef9",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-FlameEnjoyer__academic-portfolio.json",
+                      "filename":  "github-inspect-FlameEnjoyer__academic-portfolio.json",
+                      "extension":  ".json",
+                      "size_bytes":  1452,
+                      "sha256":  "f01ddeb6ffe6d116301ec7f92a0118a4afb9416e7225a476c901231334bf1c1b",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-GaboTalero__GaboTalero.json",
+                      "filename":  "github-inspect-GaboTalero__GaboTalero.json",
+                      "extension":  ".json",
+                      "size_bytes":  1153,
+                      "sha256":  "3e759c750bbe817af83ad03eb5fbea8f94794f3f6e6f7cfc33dd44af47c3e41d",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-Gopal564__Chemical-Engineering-Revision.json",
+                      "filename":  "github-inspect-Gopal564__Chemical-Engineering-Revision.json",
+                      "extension":  ".json",
+                      "size_bytes":  1255,
+                      "sha256":  "ebec41d094e2df9d4c7fe0ac526b34f7a1781570bc5de0ba74a1fabcbd30c824",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-JavierBerenguer__Trabajo-Final-de-Grado.json",
+                      "filename":  "github-inspect-JavierBerenguer__Trabajo-Final-de-Grado.json",
+                      "extension":  ".json",
+                      "size_bytes":  12963,
+                      "sha256":  "43b2619432028fc15eb384d8304bb082543d920bdf7ef15342865dd841963070",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-jjgomera__pychemqt.json",
+                      "filename":  "github-inspect-jjgomera__pychemqt.json",
+                      "extension":  ".json",
+                      "size_bytes":  12819,
+                      "sha256":  "2fda15bf1eb15e1e3fb31d6ca0a6a9505988ee50560b321989d893e50d1c133c",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-JoshuaKiplimo__ResParse.json",
+                      "filename":  "github-inspect-JoshuaKiplimo__ResParse.json",
+                      "extension":  ".json",
+                      "size_bytes":  4985,
+                      "sha256":  "9005ec20154518b8ca9b3eaf2a6d035e3f5836a82c2562ec5e5a48967e0a01d8",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-Obinna-Okolie__Obinna_Okolie.json",
+                      "filename":  "github-inspect-Obinna-Okolie__Obinna_Okolie.json",
+                      "extension":  ".json",
+                      "size_bytes":  1220,
+                      "sha256":  "bdc321a2bf28766e06f3b547f83b875b74e499ffb3eff9100e9a4a83aee2e75c",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-OntoLedgy__ol_dwsim_interop_services.json",
+                      "filename":  "github-inspect-OntoLedgy__ol_dwsim_interop_services.json",
+                      "extension":  ".json",
+                      "size_bytes":  15297,
+                      "sha256":  "b0b083c076ca706631c36b136598b363f928520d0fee8a2fde7a3b9c090aa130",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-sai-ashwin-2001__ml-proj-bitsf464.json",
+                      "filename":  "github-inspect-sai-ashwin-2001__ml-proj-bitsf464.json",
+                      "extension":  ".json",
+                      "size_bytes":  2204,
+                      "sha256":  "2db217b4e27eef74663c532f9eb2445c3c5bd33282f7405bb5bd4b37982c4d86",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-suryonaufal__suryonaufal.json",
+                      "filename":  "github-inspect-suryonaufal__suryonaufal.json",
+                      "extension":  ".json",
+                      "size_bytes":  1179,
+                      "sha256":  "f1904d9ea200bc9e563cc9da9e2f7bc6a4022514f70d887ac2698197c8dd4997",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-inspect-wisemansg__wisemansg.json",
+                      "filename":  "github-inspect-wisemansg__wisemansg.json",
+                      "extension":  ".json",
+                      "size_bytes":  1132,
+                      "sha256":  "f26d94754d337895269d2c0b1c80232ccd24266df6a7a38db864b9dcfe0d55ac",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-aspen-file.json",
+                      "filename":  "github-repo-aspen-file.json",
+                      "extension":  ".json",
+                      "size_bytes":  85331,
+                      "sha256":  "27f944d736c28e82b972cacbcd9e0895a7042ccc33cf7b30357f86c4e91c51e0",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-aspen-hysys-recent.json",
+                      "filename":  "github-repo-aspen-hysys-recent.json",
+                      "extension":  ".json",
+                      "size_bytes":  84716,
+                      "sha256":  "3b0c37df618a39dca5b101d20aed7b95b7319939d03672e89737f3e5e672f407",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-case-file.json",
+                      "filename":  "github-repo-hysys-case-file.json",
+                      "extension":  ".json",
+                      "size_bytes":  95214,
+                      "sha256":  "fe78021abd5ddea5515732a32aacbfe4314c70b520ec326f8e2f50cafd3af3a8",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-co2-capture.json",
+                      "filename":  "github-repo-hysys-co2-capture.json",
+                      "extension":  ".json",
+                      "size_bytes":  33409,
+                      "sha256":  "0e467c9e89b32ac67e6269dc19f7cd4da8db2cd94deb7c0629662af8d1e0ffb9",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-excel-validation.json",
+                      "filename":  "github-repo-hysys-excel-validation.json",
+                      "extension":  ".json",
+                      "size_bytes":  65943,
+                      "sha256":  "728073bf5f1ecd7ca099375479c600968ab248b14f1dc2d1e9c23819c961b565",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-lng.json",
+                      "filename":  "github-repo-hysys-lng.json",
+                      "extension":  ".json",
+                      "size_bytes":  35252,
+                      "sha256":  "365732692272a555d4b038d47fd21136a4c9bab1f6d565bd0e1536ecf7e9c2cc",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-matlab.json",
+                      "filename":  "github-repo-hysys-matlab.json",
+                      "extension":  ".json",
+                      "size_bytes":  84560,
+                      "sha256":  "f1df9095f1d7e427f837496bf6352aef08d99c1a69b746dc7a7f029557200f8d",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-python-com.json",
+                      "filename":  "github-repo-hysys-python-com.json",
+                      "extension":  ".json",
+                      "size_bytes":  86273,
+                      "sha256":  "fa49e40c0aba2d9dd8c05166901d906f11e50537e02b80b854df55c15e8c7386",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-recent.json",
+                      "filename":  "github-repo-hysys-recent.json",
+                      "extension":  ".json",
+                      "size_bytes":  83363,
+                      "sha256":  "70cb2162d9af22d2fb72821e22a7d0d4112e8801938fb498a72a73db2a7dd524",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-simulation-files.json",
+                      "filename":  "github-repo-hysys-simulation-files.json",
+                      "extension":  ".json",
+                      "size_bytes":  86624,
+                      "sha256":  "e7ce1648d324a68260eb5dc1e087aed4980b91aa032b7f8a2279c9beeceb8e07",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-hysys-supersonic.json",
+                      "filename":  "github-repo-hysys-supersonic.json",
+                      "extension":  ".json",
+                      "size_bytes":  12678,
+                      "sha256":  "4bf4a4bcca11936eb7d2caeab7922f9eaff07fd41d23fa6de4c9ed78407faee9",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-merged-results.json",
+                      "filename":  "github-repo-merged-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  41358,
+                      "sha256":  "16ac04ba422780dc3e8cff1f9ad94ff557e3603ad18a9bfa2557443787362d83",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/github-repo-search-summary.json",
+                      "filename":  "github-repo-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  2265,
+                      "sha256":  "30f410a287293793ea997cf7c8b559fefc2b86bb487c603f02af79bccb3d9d45",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/gitlab-1708-project-search-results.json",
+                      "filename":  "gitlab-1708-project-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  2,
+                      "sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/harvard-dataverse-1708-targeted-search-results.json",
+                      "filename":  "harvard-dataverse-1708-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  67558,
+                      "sha256":  "e377e22659d7f4fa4ab862b630a8fe1ffedfbad289a51c7a8f1aceda3ca352b3",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/mendeley-datacite-1708-targeted-search-results.json",
+                      "filename":  "mendeley-datacite-1708-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  231173,
+                      "sha256":  "96da43b765af4f1342b0305b1f8a5cea38e4138cf53aa2eed65969a5a3316b9a",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/web-search-supplement.json",
+                      "filename":  "web-search-supplement.json",
+                      "extension":  ".json",
+                      "size_bytes":  1628,
+                      "sha256":  "e1cfe37279eef46ab6acf70237a7cde62455a0419d82a6d16d011a6c74601471",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1708Z/artifacts/zenodo-1708-targeted-search-results.json",
+                      "filename":  "zenodo-1708-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  129852,
+                      "sha256":  "0928d2601c443f9a98aec34cce487db1ff21e8dc0fe4a43b796b3902d70f3fdc",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no external HYSYS model, archive, executable, macro, or script payload retained."
+                  }
+              ]
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "repo": "Gallo05952/Articolo_energies",
+    "decision": "duplicate_record_only",
+    "source_dup": true,
+    "download_url_dup": false,
+    "title_dup": false,
+    "file_dup": true,
+    "license_spdx": "NOASSERTION",
+    "model_files": [
+      {
+        "path": "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+        "size": 1221180,
+        "sha": "75e2c222dceb2a80448b5f9f46842b254c30a9c5"
+      },
+      {
+        "path": "Articolo_energies.hsc",
+        "size": 549474,
+        "sha": "085bbf51c76b2e6b9b280012a6513fb397704ebd"
+      }
+    ]
+  },
+  {
+    "repo": "CAChemE/stochastic-optimization",
+    "decision": "download",
+    "source_dup": false,
+    "download_url_dup": false,
+    "title_dup": false,
+    "file_dup": false,
+    "license_spdx": "BSD-3-Clause",
+    "model_files": [
+      {
+        "path": "ConventionalDistillationColumn/Test_Column.hsc",
+        "size": 719693,
+        "sha": "6bc20fee3f89e2959385704de384fb0194f709c6"
+      }
+    ]
+  }
+]

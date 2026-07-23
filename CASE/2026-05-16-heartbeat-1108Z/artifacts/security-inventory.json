@@ -1,0 +1,288 @@
+﻿{
+    "generated_at_utc":  "2026-05-16T11:08:17.262Z",
+    "run_dir":  "CASE/2026-05-16-heartbeat-1108Z",
+    "policy":  "No downloaded HYSYS model payloads, archives, executables, macros, or scripts were run. Candidate payloads without clear license were not retained.",
+    "file_count":  31,
+    "risky_payloads_retained":  0,
+    "files":  [
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/bitbucket-1108-repository-search-results.json",
+                      "filename":  "bitbucket-1108-repository-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  1750,
+                      "sha256":  "6441489f49a74db06ae9c8a128fdc14440e7fc23922ee62ea9cfbbe087efcfaf",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/dedupe-summary.json",
+                      "filename":  "dedupe-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  301,
+                      "sha256":  "ff8340051e140972beacca1affa5c4e31a561080febf1c14ddb5b445bd091d0e",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/figshare-1108-targeted-search-results.json",
+                      "filename":  "figshare-1108-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  70768,
+                      "sha256":  "3fb41334595025369a16b29decab2d16b887ee73ccd73460eea59d42a8ccd20a",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-aspen-hysys-ext-hsc.json",
+                      "filename":  "github-code-aspen-hysys-ext-hsc.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-aspen-hysys-ext-xml.json",
+                      "filename":  "github-code-aspen-hysys-ext-xml.json",
+                      "extension":  ".json",
+                      "size_bytes":  11833,
+                      "sha256":  "f4d30ac771ea7c78cb02de99b223a34f20eb440b70245488647aaf885e28a24f",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-hysys-ext-compound.json",
+                      "filename":  "github-code-hysys-ext-compound.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-hysys-ext-hsc.json",
+                      "filename":  "github-code-hysys-ext-hsc.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-hysys-ext-hscz.json",
+                      "filename":  "github-code-hysys-ext-hscz.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-hysys-xml-cases-ext-xml.json",
+                      "filename":  "github-code-hysys-xml-cases-ext-xml.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-code-search-summary.json",
+                      "filename":  "github-code-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1001,
+                      "sha256":  "419a09cf2580f4965a58e4ca03d598d9ba3e54c5cb6a34e691f4e5b56dd7eb3b",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-afabrild__HYSYS-MATLAB-LINK.json",
+                      "filename":  "github-inspect-afabrild__HYSYS-MATLAB-LINK.json",
+                      "extension":  ".json",
+                      "size_bytes":  2083,
+                      "sha256":  "f25682aa219b66e1a1daad4fa4ba8635f4e2a8534c80cd134880a261eb31a6df",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+                      "filename":  "github-inspect-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+                      "extension":  ".json",
+                      "size_bytes":  5940,
+                      "sha256":  "a2109f19c598592a9fabc332f2f3d185a2185d236c78a3191edcc8fbe54df666",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspected-repo-summary.json",
+                      "filename":  "github-inspected-repo-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  2281,
+                      "sha256":  "4568ee16263d94b9d37b7cbb099292eb9f386eb31da88c48c56c83ad02a30558",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-GaboTalero__HYSYS-Python-Case-Builder.json",
+                      "filename":  "github-inspect-GaboTalero__HYSYS-Python-Case-Builder.json",
+                      "extension":  ".json",
+                      "size_bytes":  4108,
+                      "sha256":  "48f9d178a93c6504117d8a6d6809958181890f52a9a301e36de30d86e6dbabb2",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-marcellobozzini__Python-Driving-License.json",
+                      "filename":  "github-inspect-marcellobozzini__Python-Driving-License.json",
+                      "extension":  ".json",
+                      "size_bytes":  1847,
+                      "sha256":  "101cde34af546d522423951765e4b179c340b93030403241315828769413bd22",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-oscarcontrerasnavas__hysys-to-excel-intro.json",
+                      "filename":  "github-inspect-oscarcontrerasnavas__hysys-to-excel-intro.json",
+                      "extension":  ".json",
+                      "size_bytes":  2026,
+                      "sha256":  "c40c672c2abf895779d6d2b01b465659c2c8837bd436295e5fd7a13be131d850",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-inspect-perrywzm__hysysopt.json",
+                      "filename":  "github-inspect-perrywzm__hysysopt.json",
+                      "extension":  ".json",
+                      "size_bytes":  5233,
+                      "sha256":  "6110e711c9ef198d2a948816ac636d9afcb33870dd5faa548f7a724b3b54ca83",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-aspen-file.json",
+                      "filename":  "github-repo-aspen-file.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-aspen-hysys-recent.json",
+                      "filename":  "github-repo-aspen-hysys-recent.json",
+                      "extension":  ".json",
+                      "size_bytes":  446,
+                      "sha256":  "0109c716b216befcd2b89d0c358f854841043d9daa234553305911ad02765119",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-hysys-case-file.json",
+                      "filename":  "github-repo-hysys-case-file.json",
+                      "extension":  ".json",
+                      "size_bytes":  1221,
+                      "sha256":  "7249b4ad6e08886ef7a0ee49d590b223951421569f3c18b5b34a97b44604dbc1",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-hysys-excel-validation.json",
+                      "filename":  "github-repo-hysys-excel-validation.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-hysys-matlab.json",
+                      "filename":  "github-repo-hysys-matlab.json",
+                      "extension":  ".json",
+                      "size_bytes":  706,
+                      "sha256":  "6d03e572399a34581470fb8c1ef7ecfba5cc0bb2e6d4616734631d85ea837b11",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-hysys-python-com.json",
+                      "filename":  "github-repo-hysys-python-com.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-hysys-recent.json",
+                      "filename":  "github-repo-hysys-recent.json",
+                      "extension":  ".json",
+                      "size_bytes":  446,
+                      "sha256":  "0109c716b216befcd2b89d0c358f854841043d9daa234553305911ad02765119",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-hysys-simulation-files.json",
+                      "filename":  "github-repo-hysys-simulation-files.json",
+                      "extension":  ".json",
+                      "size_bytes":  390,
+                      "sha256":  "3a286dd32023776b2e26efd190b240c3a1d5ca9359fb8932a5c989c45664bb64",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-merged-results.json",
+                      "filename":  "github-repo-merged-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  5354,
+                      "sha256":  "f6cc3770a04a2962e1701bda226ebf71dbddc28ed347e1cf47b47cc1347f7b1e",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/github-repo-search-summary.json",
+                      "filename":  "github-repo-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1361,
+                      "sha256":  "6a364663b872784efc69de869201eee8d9ac98bbd491d94052f0f39467bd3d74",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/gitlab-1108-project-search-results.json",
+                      "filename":  "gitlab-1108-project-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  1702,
+                      "sha256":  "65bec0c428be613230699ce7db38f92298e5b072e32566fc65e1b552efefc5b9",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/harvard-dataverse-1108-targeted-search-results.json",
+                      "filename":  "harvard-dataverse-1108-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  139257,
+                      "sha256":  "17338fb25b96589b549906f45920cb3b60da194ab5280c3f5df7af68e169c7dc",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/mendeley-datacite-1108-targeted-search-results.json",
+                      "filename":  "mendeley-datacite-1108-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  3496,
+                      "sha256":  "ea1a339c3fc69a547c0d10d0af48149138cd84e7334c2630ea0098bc56a3f7de",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-1108Z/artifacts/zenodo-1108-targeted-search-results.json",
+                      "filename":  "zenodo-1108-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  274260,
+                      "sha256":  "43ecaefd6bcc6e0e567d1d1b507b70c5c3a45849cdd8ac46d29026d3bf1a54f2",
+                      "retained_payload":  false,
+                      "safety_note":  "Search/inspection metadata only; no HYSYS case payload or executable was retained."
+                  }
+              ]
+}

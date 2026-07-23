@@ -1,0 +1,205 @@
+{
+  "query": "HYSYS compound in:readme",
+  "items": [
+    {
+      "description": "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+      "fullName": "jjgomera/pychemqt",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjE3MTA1NDc=",
+        "is_bot": false,
+        "login": "jjgomera",
+        "type": "User",
+        "url": "https://github.com/jjgomera"
+      },
+      "updatedAt": "2026-05-10T21:37:14Z",
+      "url": "https://github.com/jjgomera/pychemqt"
+    },
+    {
+      "description": "A curated list of awesome resources on Thermodynamics",
+      "fullName": "iurisegtovich/AwesomeThermodynamics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjEwOTMwNTE3",
+        "is_bot": false,
+        "login": "iurisegtovich",
+        "type": "User",
+        "url": "https://github.com/iurisegtovich"
+      },
+      "updatedAt": "2026-05-11T07:31:56Z",
+      "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+    },
+    {
+      "description": "Research on catalytic wet air oxidation for industrial wastewater treatment using Fe/Al₂O₃.",
+      "fullName": "huzaifashahid7/Catalytic-wet-oxidation",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODJJN0A",
+        "is_bot": false,
+        "login": "huzaifashahid7",
+        "type": "User",
+        "url": "https://github.com/huzaifashahid7"
+      },
+      "updatedAt": "2025-07-18T03:32:27Z",
+      "url": "https://github.com/huzaifashahid7/Catalytic-wet-oxidation"
+    },
+    {
+      "description": "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+      "fullName": "shahria-sunny/CDU-Simulation-Optimization",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDODcA7yw",
+        "is_bot": false,
+        "login": "shahria-sunny",
+        "type": "User",
+        "url": "https://github.com/shahria-sunny"
+      },
+      "updatedAt": "2026-04-29T18:07:37Z",
+      "url": "https://github.com/shahria-sunny/CDU-Simulation-Optimization"
+    },
+    {
+      "description": "",
+      "fullName": "joseabraham-mena/EOSPy",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjMwMzI4Mjg2",
+        "is_bot": false,
+        "login": "joseabraham-mena",
+        "type": "User",
+        "url": "https://github.com/joseabraham-mena"
+      },
+      "updatedAt": "2018-09-16T18:25:04Z",
+      "url": "https://github.com/joseabraham-mena/EOSPy"
+    },
+    {
+      "description": "",
+      "fullName": "AdityaSharma911/ML-for-DME-Optimization-",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU1MjcwOTgy",
+        "is_bot": false,
+        "login": "AdityaSharma911",
+        "type": "User",
+        "url": "https://github.com/AdityaSharma911"
+      },
+      "updatedAt": "2023-07-31T15:38:40Z",
+      "url": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-"
+    },
+    {
+      "description": "",
+      "fullName": "AhmadAlsaadi/CheProcess",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjEzMTQ0MjQ1",
+        "is_bot": false,
+        "login": "AhmadAlsaadi",
+        "type": "User",
+        "url": "https://github.com/AhmadAlsaadi"
+      },
+      "updatedAt": "2019-05-27T14:21:14Z",
+      "url": "https://github.com/AhmadAlsaadi/CheProcess"
+    },
+    {
+      "description": "A Model Context Protocol (MCP) server that exposes DWSIM's chemical process simulation engine to Large Language Model (LLM) agents through safe, composable tools and resources.",
+      "fullName": "OntoLedgy/ol_dwsim_interop_services",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0"
+      },
+      "owner": {
+        "id": "O_kgDOBcQrjw",
+        "is_bot": false,
+        "login": "OntoLedgy",
+        "type": "Organization",
+        "url": "https://github.com/OntoLedgy"
+      },
+      "updatedAt": "2026-05-07T17:09:56Z",
+      "url": "https://github.com/OntoLedgy/ol_dwsim_interop_services"
+    },
+    {
+      "description": "Revision of all topics",
+      "fullName": "Gopal564/Chemical-Engineering-Revision",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjg3OTc1MTQ0",
+        "is_bot": false,
+        "login": "Gopal564",
+        "type": "User",
+        "url": "https://github.com/Gopal564"
+      },
+      "updatedAt": "2025-03-15T04:44:37Z",
+      "url": "https://github.com/Gopal564/Chemical-Engineering-Revision"
+    },
+    {
+      "description": "",
+      "fullName": "JoshuaKiplimo/ResParse",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU0MTUyMzIx",
+        "is_bot": false,
+        "login": "JoshuaKiplimo",
+        "type": "User",
+        "url": "https://github.com/JoshuaKiplimo"
+      },
+      "updatedAt": "2022-12-12T14:45:36Z",
+      "url": "https://github.com/JoshuaKiplimo/ResParse"
+    }
+  ]
+}

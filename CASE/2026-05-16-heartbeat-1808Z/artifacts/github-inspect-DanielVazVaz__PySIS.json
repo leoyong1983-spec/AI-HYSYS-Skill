@@ -1,0 +1,48 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "DanielVazVaz/PySIS",
+                 "url":  "https://github.com/DanielVazVaz/PySIS",
+                 "description":  "Abstract layer over Aspen HYSYS using Python",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "master",
+                 "pushed_at":  "2026-02-11T10:52:45Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  14,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1596,
+                                       "sha":  "c6ebc286e845db08a2fa92db93b3604b2bb6158a"
+                                   },
+                                   {
+                                       "path":  "docs/conf.py",
+                                       "size":  1667,
+                                       "sha":  "c26b4b1b736d40740e416f378080803fcb53b877"
+                                   },
+                                   {
+                                       "path":  "pysis/__init__.py",
+                                       "size":  33,
+                                       "sha":  "6e7610b731d59d1555fd9ce630cfb19b72c75006"
+                                   },
+                                   {
+                                       "path":  "pysis/flowsheet.py",
+                                       "size":  53805,
+                                       "sha":  "22b8087b4ef44505dfe0011ca638be1da609f4fa"
+                                   },
+                                   {
+                                       "path":  "setup.py",
+                                       "size":  1083,
+                                       "sha":  "06b9bce03ab69cb827d6bb73780ef5d9a8cefee0"
+                                   }
+                               ]
+             },
+    "error":  null
+}

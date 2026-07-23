@@ -1,0 +1,50 @@
+﻿[
+    {
+        "file":  "github-repo-hysys-recent.json",
+        "query":  "HYSYS pushed:\u003e=2026-05-16",
+        "count":  null,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-aspen-hysys-recent.json",
+        "query":  "\"Aspen HYSYS\" pushed:\u003e=2026-05-16",
+        "count":  null,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-case-file.json",
+        "query":  "\"HYSYS\" \"case file\"",
+        "count":  3,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-simulation-files.json",
+        "query":  "\"HYSYS\" \"simulation files\"",
+        "count":  null,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-aspen-file.json",
+        "query":  "\"Aspen\" \"HYSYS\" \"file\"",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-python-com.json",
+        "query":  "\"HYSYS\" \"Python\" \"COM\"",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-matlab.json",
+        "query":  "\"HYSYS\" \"MATLAB\"",
+        "count":  2,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-excel-validation.json",
+        "query":  "\"HYSYS\" \"Excel\" \"validation\"",
+        "count":  0,
+        "error":  null
+    }
+]

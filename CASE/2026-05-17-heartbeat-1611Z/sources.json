@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Duplicate: Gallo05952/Articolo_energies",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Gallo05952/Articolo_energies",
+    "download_url": "https://codeload.github.com/Gallo05952/Articolo_energies/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-Gallo05952__Articolo_energies.json",
+        "filename": "github-1611-repo-Gallo05952__Articolo_energies.json",
+        "file_type": "json",
+        "size_bytes": 6040,
+        "sha256": "02c87a3b3084334e182e352134ff3d06d126ac0f5ac23f581036729cde07a5ac"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-Gallo05952__Articolo_energies.json",
+        "filename": "github-1611-tree-Gallo05952__Articolo_energies.json",
+        "file_type": "json",
+        "size_bytes": 13139,
+        "sha256": "86fa2b9cbac498b1cf4b1a26fc6e2ca882737b5eeb41571c18cc31853b7ba152"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-Gallo05952__Articolo_energies.json",
+        "filename": "github-1611-license-Gallo05952__Articolo_energies.json",
+        "file_type": "json",
+        "size_bytes": 64,
+        "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata NOASSERTION. Not downloaded because it matches existing CASE dedupe keys.",
+    "recommended_use": "Use existing archived copy if needed; do not redownload duplicate no-license case.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Gallo05952/Articolo_energies",
+      "download_url": "https://codeload.github.com/Gallo05952/Articolo_energies/zip/refs/heads/main",
+      "title": "Gallo05952/Articolo_energies",
+      "filenames": [
+        "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+        "Articolo_energies.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source/title/filename already exists in CASE.",
+      "No local Aspen HYSYS runtime validation performed."
+    ]
+  },
+  {
+    "title": "CAChemE/stochastic-optimization",
+    "type": "repository",
+    "quality": "B",
+    "source_page": "https://github.com/CAChemE/stochastic-optimization",
+    "download_url": "https://codeload.github.com/CAChemE/stochastic-optimization/zip/refs/heads/master",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/PSO_Algorithm.py",
+        "filename": "PSO_Algorithm.py",
+        "file_type": "py",
+        "size_bytes": 11026,
+        "sha256": "836bbbeaf29aee33983bdfc7a3a1005e5a7dcfaf5650ff1f40380a99d9db4e9a"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/Test_Column.hsc",
+        "filename": "Test_Column.hsc",
+        "file_type": "hsc",
+        "size_bytes": 719693,
+        "sha256": "2f818d792fee86d3b499dfce667b72b37b9de4a5544600c1c3489dd89a61b43d"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/Test_Column_ObjFnc.py",
+        "filename": "Test_Column_ObjFnc.py",
+        "file_type": "py",
+        "size_bytes": 8282,
+        "sha256": "25cb5d2e7e170ce52c8f61c417e025fb5a831242eaf51f70a70b0b4d3a597588"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/column_algorithm.py",
+        "filename": "column_algorithm.py",
+        "file_type": "py",
+        "size_bytes": 2956,
+        "sha256": "10b81e649fb261ce987f4667aa089b68c1f2e182519ddbca6bf07ed139de6c18"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/hyInterface.py",
+        "filename": "hyInterface.py",
+        "file_type": "py",
+        "size_bytes": 4985,
+        "sha256": "175535820b3c1639829c3ac0d2b5a55dde81597c2e13b035dd4e009de323fc0e"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/main_Column.py",
+        "filename": "main_Column.py",
+        "file_type": "py",
+        "size_bytes": 5957,
+        "sha256": "9238232295d079258b10392ecfb478ba57bb67763b4655bfc6c0142e44187996"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/print_pso.py",
+        "filename": "print_pso.py",
+        "file_type": "py",
+        "size_bytes": 1930,
+        "sha256": "bcba241730b5e6dbcd6877c7175e5e3d7f3853e280a67374cafcf3455d101988"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/pso_column.py",
+        "filename": "pso_column.py",
+        "file_type": "py",
+        "size_bytes": 1350,
+        "sha256": "bda00a2b02fd0aa66f45a7d9f0266a8e09c0100978b8b329b18ef10771ea463b"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/LICENSE",
+        "filename": "LICENSE",
+        "file_type": "license",
+        "size_bytes": 1516,
+        "sha256": "d655bfaaa56b795bd2bc7ae9efb10220305e7856ec6b699655f25199de53b4d1"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/README.md",
+        "filename": "README.md",
+        "file_type": "md",
+        "size_bytes": 1152,
+        "sha256": "ab4f289bc6926eb40d1a31acac2e6917f6b16da6cec63af56576c55d467806bf"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; repository license metadata reports BSD-3-Clause. Scoped files archived; HYSYS model not opened or run.",
+    "recommended_use": "Distillation-column HYSYS/PSO automation benchmark candidate for COM interface smoke tests, optimization-loop regression, and column variable access checks after human review.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/CAChemE/stochastic-optimization",
+      "download_url": "https://codeload.github.com/CAChemE/stochastic-optimization/zip/refs/heads/master",
+      "title": "CAChemE/stochastic-optimization",
+      "filenames": [
+        "PSO_Algorithm.py",
+        "Test_Column.hsc",
+        "Test_Column_ObjFnc.py",
+        "column_algorithm.py",
+        "hyInterface.py",
+        "main_Column.py",
+        "print_pso.py",
+        "pso_column.py",
+        "LICENSE",
+        "README.md"
+      ],
+      "sha256": [
+        "836bbbeaf29aee33983bdfc7a3a1005e5a7dcfaf5650ff1f40380a99d9db4e9a",
+        "2f818d792fee86d3b499dfce667b72b37b9de4a5544600c1c3489dd89a61b43d",
+        "25cb5d2e7e170ce52c8f61c417e025fb5a831242eaf51f70a70b0b4d3a597588",
+        "10b81e649fb261ce987f4667aa089b68c1f2e182519ddbca6bf07ed139de6c18",
+        "175535820b3c1639829c3ac0d2b5a55dde81597c2e13b035dd4e009de323fc0e",
+        "9238232295d079258b10392ecfb478ba57bb67763b4655bfc6c0142e44187996",
+        "bcba241730b5e6dbcd6877c7175e5e3d7f3853e280a67374cafcf3455d101988",
+        "bda00a2b02fd0aa66f45a7d9f0266a8e09c0100978b8b329b18ef10771ea463b",
+        "d655bfaaa56b795bd2bc7ae9efb10220305e7856ec6b699655f25199de53b4d1",
+        "ab4f289bc6926eb40d1a31acac2e6917f6b16da6cec63af56576c55d467806bf"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Repository-level BSD-3-Clause license should be reviewed before redistributing binary HYSYS model files beyond research archival.",
+      "No local Aspen HYSYS runtime validation performed."
+    ]
+  }
+]

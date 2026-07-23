@@ -1,0 +1,65 @@
+{
+  "query": "HYSYS report hsc in:readme",
+  "items": [
+    {
+      "description": "",
+      "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjcyNTUyNjc2",
+        "is_bot": false,
+        "login": "M-Hamdy-M",
+        "type": "User",
+        "url": "https://github.com/M-Hamdy-M"
+      },
+      "updatedAt": "2025-06-21T08:46:00Z",
+      "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+    },
+    {
+      "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+      "fullName": "sanjay-saran/dme-production-methanol",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBz9xbQ",
+        "is_bot": false,
+        "login": "sanjay-saran",
+        "type": "User",
+        "url": "https://github.com/sanjay-saran"
+      },
+      "updatedAt": "2025-04-23T13:35:19Z",
+      "url": "https://github.com/sanjay-saran/dme-production-methanol"
+    },
+    {
+      "description": "",
+      "fullName": "JoshuaKiplimo/ResParse",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU0MTUyMzIx",
+        "is_bot": false,
+        "login": "JoshuaKiplimo",
+        "type": "User",
+        "url": "https://github.com/JoshuaKiplimo"
+      },
+      "updatedAt": "2022-12-12T14:45:36Z",
+      "url": "https://github.com/JoshuaKiplimo/ResParse"
+    }
+  ]
+}

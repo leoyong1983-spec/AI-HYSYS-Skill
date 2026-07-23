@@ -1,0 +1,60 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2022-07-21T15:04:44Z",
+                 "defaultBranchRef":  {
+                                          "name":  "master"
+                                      },
+                 "description":  "Abstract layer over Aspen HYSYS using Python",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  null,
+                 "nameWithOwner":  "DanielVazVaz/PySIS",
+                 "pushedAt":  "2026-02-11T10:52:45Z",
+                 "url":  "https://github.com/DanielVazVaz/PySIS"
+             },
+    "tree":  {
+                 "tree_sha":  "578b0561f411ce72a6c97a47bb81f4b1d77ea3af",
+                 "truncated":  false,
+                 "file_count":  14,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1596,
+                                       "sha":  "c6ebc286e845db08a2fa92db93b3604b2bb6158a"
+                                   },
+                                   {
+                                       "path":  "docs/conf.py",
+                                       "size":  1667,
+                                       "sha":  "c26b4b1b736d40740e416f378080803fcb53b877"
+                                   },
+                                   {
+                                       "path":  "how_to/basic_how_to.md",
+                                       "size":  4128,
+                                       "sha":  "bb7f92481aca3d939624ac12265a02d1676d6158"
+                                   },
+                                   {
+                                       "path":  "pysis/__init__.py",
+                                       "size":  33,
+                                       "sha":  "6e7610b731d59d1555fd9ce630cfb19b72c75006"
+                                   },
+                                   {
+                                       "path":  "pysis/flowsheet.py",
+                                       "size":  53805,
+                                       "sha":  "22b8087b4ef44505dfe0011ca638be1da609f4fa"
+                                   },
+                                   {
+                                       "path":  "setup.py",
+                                       "size":  1083,
+                                       "sha":  "06b9bce03ab69cb827d6bb73780ef5d9a8cefee0"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null
+}

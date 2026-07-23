@@ -91,7 +91,26 @@
 4. EHY2311 进一步明确覆盖 HYSYS Type Library、Excel Object Browser、VBA、User Variables、User Operations、调试和跨 simulation 信息连接
 5. 这些官方主题支持本仓库的通道分类，但不能替代项目本地 runtime smoke test、单位/求解器检查和人工验收
 
-### 5. 同行评议的 HYSYS interconnection 与 Python-HYSYS automation
+### 5. AspenTech 平台支持与版本前提
+
+来源：
+
+- [AspenTech Platform Support](https://www.aspentech.com/en/platform-support)
+- [V15 Engineering Platform Specifications PDF](https://www.aspentech.com/-/media/aspentech/home/platform-support/v15/v15engspecs.pdf)
+- 本地快照：
+  - [CASE/official/aspentech-platform-support-2026-05.html](../CASE/official/aspentech-platform-support-2026-05.html)
+  - [CASE/official/aspentech-v15-engineering-platform-specifications-2026.pdf](../CASE/official/aspentech-v15-engineering-platform-specifications-2026.pdf)
+
+这条来源用于 readiness 和版本迁移，不用于宣称自动化能力。
+
+它要求本 skill 把以下问题分开：
+
+1. HYSYS 或 Aspen Engineering Suite 是否安装、授权并可启动。
+2. 当前 Windows、Office、Python、pywin32 和 COM 注册是否满足项目需要。
+3. Aspen OnLine、AI Model Builder、Hybrid Models、PIMS、APC/GDOT 等是否是当前项目实际可用资产，还是外部商业产品边界。
+4. 如果平台前提不满足，先报告环境 blocker，不要把它包装成 AI prompt 或脚本调参问题。
+
+### 6. 同行评议的 HYSYS interconnection 与 Python-HYSYS automation
 
 来源：
 
@@ -128,7 +147,34 @@
 - direct COM 适合 authoritative control
 - spreadsheet bridge 适合稳定批量 IO 和低摩擦参数注入
 
-### 2. 仓库内 direct COM 包装层
+### 2. 第三方 HYSYS Python wrapper 候选
+
+来源：
+
+- [aspen_pysys PyPI JSON](../CASE/community/aspen-pysys-pypi-json-2026-05-22.json)
+- [CacklingTanuki/aspen-pysys Codeberg page](../CASE/community/aspen-pysys-codeberg-page-2026-05-22.html)
+
+这条来源说明社区开始出现更直接的 HYSYS Python wrapper，但当前只能作为候选，不应直接升级为默认依赖。
+
+原因：
+
+1. 2026-05-22 扫描时版本为 `0.1.0a0`，属于 alpha。
+2. PyPI 元数据要求 Python `>=3.12.12` 和 `pywin32>=311`，与项目现场常见 Python 环境未必一致。
+3. 许可为 `GPL-3.0-or-later`，不能不经评估就并入本 MIT 仓库的默认运行依赖。
+4. README 仍以已有或可打开的 HYSYS simulation case 为前提，不证明从零建模或生产级自动化可靠。
+5. 未在当前本地 Aspen HYSYS runtime 上做 smoke test 前，只能作为参考实现或候选线索。
+
+因此默认策略仍是：先用本仓库 direct COM starter 和 spreadsheet/workbook bridge 证明控制通道，再按项目许可和运行环境决定是否单独试用第三方 wrapper。
+
+2026-05-22 源码核查补充：`aspen_pysys` 的当前公开快照值得学习的是 typed wrapper / object factory / primitive adapter 这类分层思想，而不是直接并入代码。核查时未发现单独 `.pyi` 类型存根文件，也未确认存在可直接复用的跨进程路径哈希缓存树；不应把它描述成已验证的生产级高性能执行层。
+
+本仓库吸收的低风险工程点是：
+
+1. 在 `scripts/hysys_automation.py` 中保持会话内 operation / spreadsheet 对象缓存，减少同一 case 内的重复 COM 对象查找。
+2. 在 spreadsheet readback 后先执行 COM 返回值标准化，把常见 tuple/list/array-like 值转成普通 Python 容器，再交给后续 JSON、Pydantic 或报告层处理。
+3. 明确 HYSYS empty-value sentinel `-32767` 的处理位置，但不把第三方 GPL 代码复制进 MIT 仓库。
+
+### 3. 仓库内 direct COM 包装层
 
 来源：
 

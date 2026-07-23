@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Candidate only: Ahmedhassan676/Python4ChemicalEngineers",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Ahmedhassan676/Python4ChemicalEngineers",
+    "download_url": "https://codeload.github.com/Ahmedhassan676/Python4ChemicalEngineers/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-Ahmedhassan676__Python4ChemicalEngineers.json",
+        "filename": "github-1711-repo-Ahmedhassan676__Python4ChemicalEngineers.json",
+        "file_type": "json",
+        "size_bytes": 359,
+        "sha256": "7d6f4e943aca0ac913ff03497adfd3a3d5f7564139f0ff2404e20c24bc3cf764"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-tree-Ahmedhassan676__Python4ChemicalEngineers.json",
+        "filename": "github-1711-tree-Ahmedhassan676__Python4ChemicalEngineers.json",
+        "file_type": "json",
+        "size_bytes": 8110,
+        "sha256": "81cda6bfdd78d06c6818c7891faeb36332029774fffc676c1bb6e2ba91953828"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-Ahmedhassan676__Python4ChemicalEngineers.json",
+        "filename": "github-1711-license-Ahmedhassan676__Python4ChemicalEngineers.json",
+        "file_type": "json",
+        "size_bytes": 64,
+        "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata NOASSERTION. Not downloaded because explicit archival/redistribution license was not detected.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request maintainer license clarification before download.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Ahmedhassan676/Python4ChemicalEngineers",
+      "download_url": "https://codeload.github.com/Ahmedhassan676/Python4ChemicalEngineers/zip/refs/heads/main",
+      "title": "Ahmedhassan676/Python4ChemicalEngineers",
+      "filenames": [
+        "water&gas.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License/redistribution permission requires human review.",
+      "No local Aspen HYSYS runtime validation performed."
+    ]
+  }
+]

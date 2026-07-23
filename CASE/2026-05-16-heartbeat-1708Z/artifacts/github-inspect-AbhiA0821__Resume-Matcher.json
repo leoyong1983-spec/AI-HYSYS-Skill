@@ -1,0 +1,227 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "AbhiA0821/Resume-Matcher",
+                 "url":  "https://github.com/AbhiA0821/Resume-Matcher",
+                 "description":  "AI-Powered Resume \u0026 Job Matcher using KNN + Random Forest",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-03-11T17:17:59Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  2496,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  6698,
+                                       "sha":  "7fe1f61e61f1e2d1094045d877eaaba1e5764200"
+                                   },
+                                   {
+                                       "path":  "app.py",
+                                       "size":  35451,
+                                       "sha":  "36db9908dd505e972626501df62778dc1bdf2d60"
+                                   },
+                                   {
+                                       "path":  "data/Resume/Resume.csv",
+                                       "size":  56270750,
+                                       "sha":  "d9f3ebd188707b26e7c2e1cd47a08ac41278ede4"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/10554236.pdf",
+                                       "size":  48278,
+                                       "sha":  "059cf981cb8dc19730c32653062115708a9887a9"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/10674770.pdf",
+                                       "size":  25155,
+                                       "sha":  "9bc28b0e9dbe9222bf2992ae466f218546036e66"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/11163645.pdf",
+                                       "size":  22333,
+                                       "sha":  "39482a030c4e93fbe2c8e9c237b7a86bcc56ad98"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/11759079.pdf",
+                                       "size":  22768,
+                                       "sha":  "6e96cdbf3f7aa190fa7e482663d8cedb63e1af68"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/12065211.pdf",
+                                       "size":  24314,
+                                       "sha":  "19f8577e21ad34bbbb9200eeeb53392ea2247c21"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/12202337.pdf",
+                                       "size":  22785,
+                                       "sha":  "869d3e11ffe40d31311130ed322760250ecba8b9"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/12338274.pdf",
+                                       "size":  30397,
+                                       "sha":  "1bed7f6d5c2da71d1f013b7556cc5714a6bebe37"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/12442909.pdf",
+                                       "size":  45049,
+                                       "sha":  "c011f4452a73b75bec6cab289511bf17e601b781"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/12780508.pdf",
+                                       "size":  25458,
+                                       "sha":  "5f90a79eef23c09425e6c234531a7dc70ca3f672"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/12802330.pdf",
+                                       "size":  23710,
+                                       "sha":  "74edd4e0799bee321ae02da85e7db5658a97eff4"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/13072019.pdf",
+                                       "size":  24418,
+                                       "sha":  "5929df4b68e643c4e0f752eed77ebdea6c321998"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/13130984.pdf",
+                                       "size":  19432,
+                                       "sha":  "8e1738807bd1f6b7f4745cd6cfbe22a360f277f4"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/13294301.pdf",
+                                       "size":  22846,
+                                       "sha":  "d636098aa080098e13a5b6195270eb17c7fcecb8"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/13491889.pdf",
+                                       "size":  24250,
+                                       "sha":  "d74180ab631ad18874a128f223d80fafa75a3e16"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/13701259.pdf",
+                                       "size":  25201,
+                                       "sha":  "d1da842ac248caf71e47d46a3668c90f343859a5"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/14055988.pdf",
+                                       "size":  20666,
+                                       "sha":  "80309ebaadeb572fcee018070f2864132c27b439"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/14126433.pdf",
+                                       "size":  24522,
+                                       "sha":  "2214d5b0521ae39480b9d4af5d2fed50586569aa"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/14224370.pdf",
+                                       "size":  19460,
+                                       "sha":  "550269d47180619cdc4d2abf615b99eab0133920"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/14449423.pdf",
+                                       "size":  32632,
+                                       "sha":  "fe659e6a7c4d21467b39046baead70c3eccffd85"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/14470533.pdf",
+                                       "size":  20241,
+                                       "sha":  "2e3e1de4e5067a5142f588135e2e8f5681af7b3f"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/14491649.pdf",
+                                       "size":  23586,
+                                       "sha":  "862285e92ef81332a3631c0b137f51a011ff5fee"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/14496667.pdf",
+                                       "size":  21258,
+                                       "sha":  "9f70d7d1e1b3e6ff0205e06366c02e33e582882d"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/15289348.pdf",
+                                       "size":  28510,
+                                       "sha":  "79a84bc6701cf54eef1ede1671ef48b1f99c061f"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/15363277.pdf",
+                                       "size":  21983,
+                                       "sha":  "a6e142ca1cdc623e8144da894acdc7601459ad62"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/15592167.pdf",
+                                       "size":  23172,
+                                       "sha":  "8c3ca9481229d392e1bf5551b886212746d264a4"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/15821633.pdf",
+                                       "size":  24566,
+                                       "sha":  "f96ad25458f0f6606f5559e5331e170982aa01b0"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/15906625.pdf",
+                                       "size":  25119,
+                                       "sha":  "b714de339a9a2cc2184b1af3c4dcdb8ea2320b69"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/16237710.pdf",
+                                       "size":  23154,
+                                       "sha":  "5c83dde70b43188e0ea257ca4c87155087bb600e"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/17306905.pdf",
+                                       "size":  38135,
+                                       "sha":  "8892ba8e52e34903a6c17f1da26990d91dec0801"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/17407184.pdf",
+                                       "size":  21533,
+                                       "sha":  "b0eb2ab0312514bff217329c8fd6e5551a47794d"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/17556527.pdf",
+                                       "size":  26347,
+                                       "sha":  "c72478c7a68e86b4f1eba0689dbd167e3269628a"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/18132924.pdf",
+                                       "size":  43586,
+                                       "sha":  "ac33093d89280b2f4ebff76b87b26b3a731e057a"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/18365791.pdf",
+                                       "size":  22051,
+                                       "sha":  "e07ce8154e336ca9185e1ada800d5e04d1dd0895"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/18569929.pdf",
+                                       "size":  22786,
+                                       "sha":  "45336632207ee552d1bfc1d3d571d1e07295d2ae"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/18635654.pdf",
+                                       "size":  21283,
+                                       "sha":  "475354d45b3959a4de2fce9b905bca4f1dfc7854"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/18669563.pdf",
+                                       "size":  21062,
+                                       "sha":  "5e4ce2125556920269e23d0e02ccc70badf48f08"
+                                   },
+                                   {
+                                       "path":  "data/data/data/ACCOUNTANT/19446337.pdf",
+                                       "size":  31444,
+                                       "sha":  "3171718b4c86a4cefc74c6284a040bf583931b96"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-matlab.json"
+                ],
+    "error":  null
+}

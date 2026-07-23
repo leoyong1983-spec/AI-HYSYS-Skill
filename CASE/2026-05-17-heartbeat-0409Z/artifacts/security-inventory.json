@@ -1,0 +1,391 @@
+﻿{
+    "generated_at_utc":  "2026-05-17T04:09:02Z",
+    "policy":  "Metadata-only run. No HYSYS case file, archive, executable, macro, or script payload was downloaded or run.",
+    "total_files":  38,
+    "total_size_bytes":  343714,
+    "dangerous_or_executable_files":  0,
+    "large_files_over_90mb":  0,
+    "archive_files":  0,
+    "files":  [
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/datacite-0409-hysys-v14-results.json",
+                      "filename":  "datacite-0409-hysys-v14-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  13688,
+                      "sha256":  "c770009b24867d7180390422a7b51b2aa052f4485b48b624cf7ee16041c358df",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/dedupe-summary.json",
+                      "filename":  "dedupe-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  352,
+                      "sha256":  "f044273c033f804be64e03fb58eea587be8a756b701a57889c476f0994781f4c",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/external-0409-counts-corrected.json",
+                      "filename":  "external-0409-counts-corrected.json",
+                      "extension":  ".json",
+                      "size_bytes":  4058,
+                      "sha256":  "bfe9558d2b6391d47963257d5e873f687def565e0d58e6586fad11d2422c0e56",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/external-0409-search-summary.json",
+                      "filename":  "external-0409-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1716,
+                      "sha256":  "b2f5b51a9a6cf962ea2d49116a2c3fe09cbfdbf7fced06ff390f00aabfbf2471",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-article-29021564.json",
+                      "filename":  "figshare-0409-article-29021564.json",
+                      "extension":  ".json",
+                      "size_bytes":  15967,
+                      "sha256":  "ba6127a277fe5fc37603021fe96d0365e39fffdc8db8f4a407df33f769ff5967",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-article-32085284.json",
+                      "filename":  "figshare-0409-article-32085284.json",
+                      "extension":  ".json",
+                      "size_bytes":  8453,
+                      "sha256":  "99252a2d30a08135aaf595eb7129d5e609f70dbaf989791d531d2ae4969b3804",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-article-detail-summary.json",
+                      "filename":  "figshare-0409-article-detail-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1057,
+                      "sha256":  "a2d60c6406763b606394838ef47bc53611086bbd8897e104fb529b50317e6e83",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-hysys-project-results.json",
+                      "filename":  "figshare-0409-hysys-project-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  1003,
+                      "sha256":  "adb98f86d89215315be546a081ab04e3798167d3967c96d0ad167c91b4acc0f0",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-hysys-v14-results.json",
+                      "filename":  "figshare-0409-hysys-v14-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  1399,
+                      "sha256":  "70ca1076890eddd639d722790bb4f99ca3a2fe1671650eabb6645bb9b3e1b651",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-inspection-summary.json",
+                      "filename":  "github-0409-inspection-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  3023,
+                      "sha256":  "8e2e3fd28baa5058314be481a84e016a82640abdbdaa2f6ac9eca282a64e171e",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "filename":  "github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "extension":  ".json",
+                      "size_bytes":  145,
+                      "sha256":  "21cd647f86196fc46782319424a7b88b89f81d92e8deaf2f46f2793ea08b558a",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json.err.txt",
+                      "filename":  "github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json.err.txt",
+                      "extension":  ".txt",
+                      "size_bytes":  724,
+                      "sha256":  "231f5fdf3d09581f021c933c877764d3ca4e6c62fe2a411ea9b3e24db4209502",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-license-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "filename":  "github-0409-license-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "extension":  ".json",
+                      "size_bytes":  2542,
+                      "sha256":  "a80e4a9d0efdfd076b1fa26926bf931d1b1b2536ef14d3e855843f4e9a97629a",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-license-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "filename":  "github-0409-license-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "extension":  ".json",
+                      "size_bytes":  2507,
+                      "sha256":  "4443f8a35c06c1edc7d6139d05349d5acf8c08d09191c2d53ba6aec3e2bbfec1",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-releases-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "filename":  "github-0409-releases-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-releases-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "filename":  "github-0409-releases-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-releases-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "filename":  "github-0409-releases-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-repo-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "filename":  "github-0409-repo-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "extension":  ".json",
+                      "size_bytes":  254,
+                      "sha256":  "06dcc7a2634ced72eb1be593023429388362dbf7c32942d5dd8fda51979caa51",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "filename":  "github-0409-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "extension":  ".json",
+                      "size_bytes":  587,
+                      "sha256":  "19fc06b814e8004fcd2f6b62dfeb6b2e50bfa022fecd0952093759311fa1bfeb",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "filename":  "github-0409-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "extension":  ".json",
+                      "size_bytes":  537,
+                      "sha256":  "601cba449b4c09dcf922ac74989b9db533ac5a297c96bf37cf1117b6b9ecaf4e",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-tree-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "filename":  "github-0409-tree-Paryazdan__Aspen-HYSYS-Projects.json",
+                      "extension":  ".json",
+                      "size_bytes":  697,
+                      "sha256":  "1270974c76991d1ca3f99f88de954f87bc0d5742897a02a499e2217c660a794c",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "filename":  "github-0409-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "extension":  ".json",
+                      "size_bytes":  1189,
+                      "sha256":  "a1108ff3ac23d0df2d6baa282429138362cabf90b0fa429e48717ce211220ff0",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "filename":  "github-0409-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "extension":  ".json",
+                      "size_bytes":  1183,
+                      "sha256":  "b14bd87b81f59912452163ab20e3bc951e913509217d7edc9af183649b51a335",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-0409-search-normalized.json",
+                      "filename":  "github-repo-0409-search-normalized.json",
+                      "extension":  ".json",
+                      "size_bytes":  1617,
+                      "sha256":  "9725a07cfe44b258cd7173a26ab6d1c97db53a6a329d998edfbc631cbdb09494",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-0409-search-summary.json",
+                      "filename":  "github-repo-0409-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1566,
+                      "sha256":  "385515ea487551ced4c69baa2bfb113c3063da0b97d9d5eb90126defe84decfc",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-0409-search-summary-corrected.json",
+                      "filename":  "github-repo-0409-search-summary-corrected.json",
+                      "extension":  ".json",
+                      "size_bytes":  1566,
+                      "sha256":  "1b2e4d30d896e322ce8628c514bf697dcad299dd3e7439e788e2ecc8a671a93e",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-aspen-hysys-project.json",
+                      "filename":  "github-repo-search-aspen-hysys-project.json",
+                      "extension":  ".json",
+                      "size_bytes":  235,
+                      "sha256":  "4013f2c43647f9b45c1ebf6a580a5b768d6765292311c9298204d683b35b2dde",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-aspen-hysys-supplementary.json",
+                      "filename":  "github-repo-search-aspen-hysys-supplementary.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-aspen-hysys-v14.json",
+                      "filename":  "github-repo-search-aspen-hysys-v14.json",
+                      "extension":  ".json",
+                      "size_bytes":  1094,
+                      "sha256":  "01deb4453b114812c3e3c1f45409ce192312925f4673cd1290f41e83c64ba1c2",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-hysys-flowsheet.json",
+                      "filename":  "github-repo-search-hysys-flowsheet.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-hysys-hscz.json",
+                      "filename":  "github-repo-search-hysys-hscz.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-hysys-matlab-validation.json",
+                      "filename":  "github-repo-search-hysys-matlab-validation.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-hysys-simulation-file.json",
+                      "filename":  "github-repo-search-hysys-simulation-file.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-search-hysys-xml-cases.json",
+                      "filename":  "github-repo-search-hysys-xml-cases.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/gitlab-0409-hysys-project-results.json",
+                      "filename":  "gitlab-0409-hysys-project-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/harvard-dataverse-0409-hysys-project-results.json",
+                      "filename":  "harvard-dataverse-0409-hysys-project-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  17574,
+                      "sha256":  "dce8777a9aad482cf44a90753fa5511436bcacf59394949da825bd41a1065b86",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/zenodo-0409-hysys-project-results.json",
+                      "filename":  "zenodo-0409-hysys-project-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  133061,
+                      "sha256":  "370b97487693c6ef39818996dc4f4e63ac6a7e2337332f483f0d50831f261a87",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/zenodo-0409-hysys-v14-results.json",
+                      "filename":  "zenodo-0409-hysys-v14-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  125850,
+                      "sha256":  "ea76dbad22abcb551f031be3e521a91ecf7da97610e85eb50503256d9a7fc126",
+                      "risk_flags":  [
+
+                                     ]
+                  }
+              ]
+}

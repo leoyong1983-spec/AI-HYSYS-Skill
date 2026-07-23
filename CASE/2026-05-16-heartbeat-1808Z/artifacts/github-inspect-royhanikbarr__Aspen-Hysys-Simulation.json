@@ -1,0 +1,37 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "royhanikbarr/Aspen-Hysys-Simulation",
+                 "url":  "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+                 "description":  "Simulation of Chemical Processes in Aspen Hysys",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2023-06-25T09:46:14Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  3,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc",
+                                        "size":  752329,
+                                        "sha":  "5b6136528f4e4482f0ff74e87269cbc513ddcfc8"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Design Simulation Production Butyl Chloride/Paper Hysys Simulation Production Butyl Chloride.pdf",
+                                       "size":  705494,
+                                       "sha":  "c2abd351b5c7af46f8d6fc901a3209caa0129e86"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1080,
+                                       "sha":  "646809bf591c63d095e6b687d54bbe9ab4ca65df"
+                                   }
+                               ]
+             },
+    "error":  null
+}

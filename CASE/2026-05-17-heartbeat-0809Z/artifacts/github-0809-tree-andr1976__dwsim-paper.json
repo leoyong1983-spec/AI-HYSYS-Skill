@@ -1,0 +1,337 @@
+{
+  "sha": "b265312f9916edf8d88374e35efa50c458d3b53c",
+  "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/trees/b265312f9916edf8d88374e35efa50c458d3b53c",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484314906e732e6304f0706de5b4b44340276ff4",
+      "size": 1073,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/484314906e732e6304f0706de5b4b44340276ff4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cfac3a553f3a1005acfb73552168e1dea2b1017",
+      "size": 2436,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/7cfac3a553f3a1005acfb73552168e1dea2b1017"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "384555bc1b484cc2fa9090374ab26357d80dc91b",
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/trees/384555bc1b484cc2fa9090374ab26357d80dc91b"
+    },
+    {
+      "path": "data/DWSIM_result.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee088066097954782a08ee900f5da092d3eb16d",
+      "size": 10027,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/2ee088066097954782a08ee900f5da092d3eb16d"
+    },
+    {
+      "path": "data/DWSIM_results_cleaned.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a03f1d5254e3baee3a8b4fe34b923a25236f24",
+      "size": 10027,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/d2a03f1d5254e3baee3a8b4fe34b923a25236f24"
+    },
+    {
+      "path": "data/HYSYS_result.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f9f53af443bbe346a7e14b00717903b97dc2231",
+      "size": 7500,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/9f9f53af443bbe346a7e14b00717903b97dc2231"
+    },
+    {
+      "path": "data/raw_testplan.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c3ee7a3ca995d1ae988b85afa58b074dd002de",
+      "size": 25000,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/37c3ee7a3ca995d1ae988b85afa58b074dd002de"
+    },
+    {
+      "path": "data/scaled_testplan.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f4f139e0049e8cd59894c2e2c42cfc158305cd2",
+      "size": 25021,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/6f4f139e0049e8cd59894c2e2c42cfc158305cd2"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24653d4f20e101a4b84da788bb05482231474179",
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/trees/24653d4f20e101a4b84da788bb05482231474179"
+    },
+    {
+      "path": "figures/figure6_corrected.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b7bbe1f0b4b68d1bfc13c826f71c677ff516b27",
+      "size": 38045,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/6b7bbe1f0b4b68d1bfc13c826f71c677ff516b27"
+    },
+    {
+      "path": "figures/figure_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536a792724094924f8550f51d51665742e33540c",
+      "size": 348101,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/536a792724094924f8550f51d51665742e33540c"
+    },
+    {
+      "path": "figures/figure_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc9b10de3e8bfa332d891371e4c9c94f0e70434",
+      "size": 20393,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/9bc9b10de3e8bfa332d891371e4c9c94f0e70434"
+    },
+    {
+      "path": "figures/figure_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5e4f31448922e6a923a826ce5e6b5421ef9923",
+      "size": 102719,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/5f5e4f31448922e6a923a826ce5e6b5421ef9923"
+    },
+    {
+      "path": "figures/figure_4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587f37deea00eef68b7af867dbb7271275d1dd5f",
+      "size": 135506,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/587f37deea00eef68b7af867dbb7271275d1dd5f"
+    },
+    {
+      "path": "figures/figure_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e04a4f0a41a18d82413a42ea94c4cbbfbfc3bf8",
+      "size": 129139,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/6e04a4f0a41a18d82413a42ea94c4cbbfbfc3bf8"
+    },
+    {
+      "path": "figures/figure_6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d943d2542c707ead4f071430352cace21ba665e7",
+      "size": 38368,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/d943d2542c707ead4f071430352cace21ba665e7"
+    },
+    {
+      "path": "figures/figure_7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fce03effe017f479b59fde4075265f4ccaaaf10a",
+      "size": 34463,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/fce03effe017f479b59fde4075265f4ccaaaf10a"
+    },
+    {
+      "path": "figures/figure_8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe9a2bcaaa8dc0a8c94c50187cf6e68012091d7",
+      "size": 30701,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/2fe9a2bcaaa8dc0a8c94c50187cf6e68012091d7"
+    },
+    {
+      "path": "figures/power.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5e06534a3487d30f74d94509f7dcb3bb87e9acf",
+      "size": 34519,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/e5e06534a3487d30f74d94509f7dcb3bb87e9acf"
+    },
+    {
+      "path": "figures/rvp_plot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da0ce8a1d32ea283eaff8098f4f4f2ff0bcb857",
+      "size": 30674,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/9da0ce8a1d32ea283eaff8098f4f4f2ff0bcb857"
+    },
+    {
+      "path": "paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35654b96544b3fb980be2d8d740effd7b73433de",
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/trees/35654b96544b3fb980be2d8d740effd7b73433de"
+    },
+    {
+      "path": "paper/Paper_draft_v10.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac34c102ad3b556093b6b068076f0448436672ed",
+      "size": 1023209,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/ac34c102ad3b556093b6b068076f0448436672ed"
+    },
+    {
+      "path": "paper/Revised_Paper_ANRA.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a1e820787b1b1e6c662149fd62fd4d03c278ad",
+      "size": 1023486,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/13a1e820787b1b1e6c662149fd62fd4d03c278ad"
+    },
+    {
+      "path": "paper/Revised_Paper_ANRA.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "947227ceacbe213d21ca645cd109427c3685d281",
+      "size": 615869,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/947227ceacbe213d21ca645cd109427c3685d281"
+    },
+    {
+      "path": "paper/Revised_Paper_Track_Changes_ANRA.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "053b3342b38bae3f9e032ea4d2b3cabd80597608",
+      "size": 1023185,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/053b3342b38bae3f9e032ea4d2b3cabd80597608"
+    },
+    {
+      "path": "presentation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "111b63b85ad342099718e7827c385f81a59fff0c",
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/trees/111b63b85ad342099718e7827c385f81a59fff0c"
+    },
+    {
+      "path": "presentation/Simulate365 User meeting Anders Andreasen.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03f4eec57bcb09e308033fb3cf496d958f15ce84",
+      "size": 1069718,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/03f4eec57bcb09e308033fb3cf496d958f15ce84"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ef24109a155eea016dcd6590ffe66edea01f3d",
+      "size": 69,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/33ef24109a155eea016dcd6590ffe66edea01f3d"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "edf27417ab23655ca8391d9557217048be507bb4",
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/trees/edf27417ab23655ca8391d9557217048be507bb4"
+    },
+    {
+      "path": "scripts/DWSIM_automation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a6aca78a509a21650d5831298053a58866f8967",
+      "size": 6350,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/0a6aca78a509a21650d5831298053a58866f8967"
+    },
+    {
+      "path": "scripts/HYSYS_automation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "378d9d2babc752cbb3184137513e40d757451e98",
+      "size": 5877,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/378d9d2babc752cbb3184137513e40d757451e98"
+    },
+    {
+      "path": "scripts/plot_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256f3596cc40d2914d26731b8dfc4122ddbf9d2a",
+      "size": 2942,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/256f3596cc40d2914d26731b8dfc4122ddbf9d2a"
+    },
+    {
+      "path": "simulations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2dcfb87069156107a779fbc26fc4a4be3a1a3abd",
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/trees/2dcfb87069156107a779fbc26fc4a4be3a1a3abd"
+    },
+    {
+      "path": "simulations/Base_case_bechmark.dwxmz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dbf8c27c74a6a9b10e2bc539e16e575a96cee2b",
+      "size": 617611,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/4dbf8c27c74a6a9b10e2bc539e16e575a96cee2b"
+    },
+    {
+      "path": "simulations/Black oil EOS density.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04922521264ad7352e33f24357144e5f462c7a1b",
+      "size": 815520,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/04922521264ad7352e33f24357144e5f462c7a1b"
+    },
+    {
+      "path": "simulations/Black oil EOS density.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e678fab39fa101639df34d12c8fdf8bb924b3aee",
+      "size": 813271,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/e678fab39fa101639df34d12c8fdf8bb924b3aee"
+    },
+    {
+      "path": "simulations/Black oil EOS density.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29aed339329de804aa3dd032552c26bff4f74cdb",
+      "size": 5026200,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/29aed339329de804aa3dd032552c26bff4f74cdb"
+    },
+    {
+      "path": "simulations/Graph_for_paper.dwxmz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd17ced71133e67b3f7ca1e186bf609792730cef",
+      "size": 615836,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/fd17ced71133e67b3f7ca1e186bf609792730cef"
+    },
+    {
+      "path": "simulations/Graph_for_paper_backup.dwxmz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e520b08b3a81c403fbcf9cfec5ab72ae78bf139",
+      "size": 615836,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/9e520b08b3a81c403fbcf9cfec5ab72ae78bf139"
+    },
+    {
+      "path": "simulations/Optim.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddebced42b46113d3855df1f92ca34d56397f874",
+      "size": 817635,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/ddebced42b46113d3855df1f92ca34d56397f874"
+    },
+    {
+      "path": "simulations/Optim.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f41c5f747466fd1bc9da9cb7d2c3b7ddce75ea26",
+      "size": 5010843,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/f41c5f747466fd1bc9da9cb7d2c3b7ddce75ea26"
+    },
+    {
+      "path": "simulations/optimisation.dwxmz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a544be1e7fa656aea28e02de694c210dd1b3fd69",
+      "size": 636984,
+      "url": "https://api.github.com/repos/andr1976/dwsim-paper/git/blobs/a544be1e7fa656aea28e02de694c210dd1b3fd69"
+    }
+  ],
+  "truncated": false
+}

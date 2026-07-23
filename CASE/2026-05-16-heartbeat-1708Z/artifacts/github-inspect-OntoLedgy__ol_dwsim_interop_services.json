@@ -1,0 +1,228 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "OntoLedgy/ol_dwsim_interop_services",
+                 "url":  "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+                 "description":  "A Model Context Protocol (MCP) server that exposes DWSIM\u0027s chemical process simulation engine to Large Language Model (LLM) agents through safe, composable tools and resources.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "develop",
+                 "pushed_at":  "2026-05-14T08:11:36Z",
+                 "license":  "AGPL-3.0"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  1015,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  ".claude/bugs/calculation-errors/report.md",
+                                       "size":  10572,
+                                       "sha":  "a33193202fab78fcf0b2f78eace333beadf1dd49"
+                                   },
+                                   {
+                                       "path":  ".claude/templates/bug-report-template.md",
+                                       "size":  1204,
+                                       "sha":  "db84f6177d804e5dc73f2a525e1cf5a7f2365cf4"
+                                   },
+                                   {
+                                       "path":  ".github/workflows/README.md",
+                                       "size":  2855,
+                                       "sha":  "ac6d0f0715259f1826d12986776ef7b6058eefd7"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/cape-open-data-mapping/.snapshots/design.md/metadata.json",
+                                       "size":  387,
+                                       "sha":  "036b86d18843436bee0973cc5ad7cfba1ea4d5dd"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/cape-open-data-mapping/.snapshots/design.md/snapshot-001.json",
+                                       "size":  6093,
+                                       "sha":  "7c033be22a5ccd0c72c7cca042ef1e9885d098d8"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/cape-open-data-mapping/.snapshots/requirements.md/metadata.json",
+                                       "size":  399,
+                                       "sha":  "c85ea631607ec132f6104a6d5ffe9ba72c0ef29a"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/cape-open-data-mapping/.snapshots/requirements.md/snapshot-001.json",
+                                       "size":  5510,
+                                       "sha":  "547d8a7ae3d17898b398e31bd837f3b707a5fb2f"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/cape-open-data-mapping/.snapshots/tasks.md/metadata.json",
+                                       "size":  385,
+                                       "sha":  "68cc1951d1a77d0bb579e4c2063cf65fa1c0252b"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/cape-open-data-mapping/.snapshots/tasks.md/snapshot-001.json",
+                                       "size":  10176,
+                                       "sha":  "fa5037a1851e790d1304795170bf09f80fd808cf"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/csharp-session-manager/.snapshots/design.md/metadata.json",
+                                       "size":  378,
+                                       "sha":  "4e92c02c616873be3d9ee4038c7ac0eda49863c4"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/csharp-session-manager/.snapshots/requirements.md/metadata.json",
+                                       "size":  390,
+                                       "sha":  "f000e1efce2aba8393d66cfa7651db94ec5c8c2c"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/csharp-session-manager/.snapshots/tasks.md/metadata.json",
+                                       "size":  376,
+                                       "sha":  "a0f342a010304ade40cde02998674d41c1568b0d"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/deployment-packaging/.snapshots/design.md/metadata.json",
+                                       "size":  389,
+                                       "sha":  "9567fdaffa602b9ad2bad552a5c35ff04f3f3cc3"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/deployment-packaging/.snapshots/requirements.md/metadata.json",
+                                       "size":  401,
+                                       "sha":  "d28bfbb93eb0a719a046d7611257d5ae7cd14fde"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/deployment-packaging/.snapshots/tasks.md/metadata.json",
+                                       "size":  387,
+                                       "sha":  "c41e1ae8b9654e3844d1986a155540aa11fb9683"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/dwsim-assembly-loader/.snapshots/design.md/metadata.json",
+                                       "size":  657,
+                                       "sha":  "cf00772207071fc92a5a45a4828705942f852d5c"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/dwsim-assembly-loader/.snapshots/requirements.md/metadata.json",
+                                       "size":  675,
+                                       "sha":  "194e0bafc3b8bfed6b930911de0ec4a5c2e5bea1"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/dwsim-assembly-loader/.snapshots/tasks.md/metadata.json",
+                                       "size":  1194,
+                                       "sha":  "ed65059a3ea26551a0580ce0cf115381d7079ed1"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/dwsim-worker-class-library/.snapshots/design.md/metadata.json",
+                                       "size":  394,
+                                       "sha":  "4e6ae73a6c8b734ea0bb538cf12841cbb10e7c92"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/dwsim-worker-class-library/.snapshots/requirements.md/metadata.json",
+                                       "size":  406,
+                                       "sha":  "8afa96302c0be3fa011f2da53fcc14a708ca0659"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/dwsim-worker-class-library/.snapshots/tasks.md/metadata.json",
+                                       "size":  392,
+                                       "sha":  "1a97739027cbb6db2ceefc859e82234b979d533f"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/fastmcp-oauth-migration/.snapshots/design.md/metadata.json",
+                                       "size":  378,
+                                       "sha":  "5b19ba9ce3829d7bba95c0b419aaae4a70845736"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/fastmcp-oauth-migration/.snapshots/requirements.md/metadata.json",
+                                       "size":  390,
+                                       "sha":  "4816bb91eb5b9ddb42f71d3e6a936b3fc2607bb2"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/fastmcp-oauth-migration/.snapshots/tasks.md/metadata.json",
+                                       "size":  376,
+                                       "sha":  "ec797cf6a68b27a494cab74f175b22a1bb66c8c5"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-apps-backend/.snapshots/design.md/metadata.json",
+                                       "size":  372,
+                                       "sha":  "c6ff36ac4369cf04c3c44ddaa206ff56217f8bc2"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-apps-backend/.snapshots/tasks.md/metadata.json",
+                                       "size":  370,
+                                       "sha":  "77b57c7c267532ac16c105674809e693369ff620"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-export-tools/.snapshots/design.md/metadata.json",
+                                       "size":  395,
+                                       "sha":  "16637302397a90e0d2162b4e7e41b7fe0d5303f4"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-export-tools/.snapshots/requirements.md/metadata.json",
+                                       "size":  407,
+                                       "sha":  "b5deac57f642f217aa6eebbd96888770af0fb0cf"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-export-tools/.snapshots/tasks.md/metadata.json",
+                                       "size":  393,
+                                       "sha":  "bab106bd628d326d70f77bcf6ccc656609543411"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flash-tools/.snapshots/design.md/metadata.json",
+                                       "size":  397,
+                                       "sha":  "76d285233b3f2800d3fd3416dab8b85a13311041"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flash-tools/.snapshots/requirements.md/metadata.json",
+                                       "size":  409,
+                                       "sha":  "d3ce12052bbf3a5609ff2e2f4b456ccfe792f856"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flash-tools/.snapshots/tasks.md/metadata.json",
+                                       "size":  391,
+                                       "sha":  "cc456f00f9acd72ccdeedbf8757038b74db49865"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flowsheet-tools/.snapshots/design.md/metadata.json",
+                                       "size":  382,
+                                       "sha":  "66dab89770155bcb9abeed9c87cfeca427ce8602"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flowsheet-tools/.snapshots/design.md/snapshot-001.json",
+                                       "size":  8403,
+                                       "sha":  "10632889ee4b81d57fcf5ea53f3b6bc5798853df"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flowsheet-tools/.snapshots/requirements.md/metadata.json",
+                                       "size":  394,
+                                       "sha":  "d32c38c552059b7dfc36e1bb33e12b7d004d2af9"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flowsheet-tools/.snapshots/requirements.md/snapshot-001.json",
+                                       "size":  5770,
+                                       "sha":  "c4042a5ab39dc48527152c60c014cf824e69a74e"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flowsheet-tools/.snapshots/tasks.md/metadata.json",
+                                       "size":  380,
+                                       "sha":  "b28b0c15111862b3c05fcb035fb08e161b587c6a"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-flowsheet-tools/.snapshots/tasks.md/snapshot-001.json",
+                                       "size":  8314,
+                                       "sha":  "904bb6df2dad0b1c2dd4dc9f0d96566f23ab811d"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-observability/.snapshots/design.md/metadata.json",
+                                       "size":  386,
+                                       "sha":  "45db9b74dc0a204d6e96d404bfae508f99bd6133"
+                                   },
+                                   {
+                                       "path":  ".spec-workflow/approvals/mcp-observability/.snapshots/requirements.md/metadata.json",
+                                       "size":  398,
+                                       "sha":  "7de5569a6cbc2ea1fbc602c63a02f421b1cf65cb"
+                                   }
+                               ]
+             },
+    "seen_before":  true,
+    "queries":  [
+                    "github-repo-hysys-python-com.json",
+                    "github-repo-hysys-simulation-files.json"
+                ],
+    "error":  null
+}

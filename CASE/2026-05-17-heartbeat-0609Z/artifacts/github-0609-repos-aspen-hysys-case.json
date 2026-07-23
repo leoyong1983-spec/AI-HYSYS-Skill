@@ -1,0 +1,18 @@
+[
+  {
+    "defaultBranch": "main",
+    "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+    "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "pushedAt": "2026-04-25T19:57:00Z",
+    "stargazersCount": 0,
+    "updatedAt": "2026-04-25T19:57:04Z",
+    "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+  }
+]

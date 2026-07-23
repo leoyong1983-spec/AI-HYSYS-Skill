@@ -1,0 +1,37 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Mahdi-Arashian/sour-gas-sweetening-hysys",
+                 "url":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+                 "description":  "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-05-10T19:54:29Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  3,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "GTU Simulation.hsc",
+                                        "size":  1239992,
+                                        "sha":  "d0ea686ea5e94902296d666ee1940e68229f6396"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1232,
+                                       "sha":  "d0ffd28049a2ba8626224f3ca1dc27404e12c1fe"
+                                   },
+                                   {
+                                       "path":  "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf",
+                                       "size":  431577,
+                                       "sha":  "f7813bb28a7355db376e68e0bfac01855ee967c6"
+                                   }
+                               ]
+             },
+    "error":  null
+}

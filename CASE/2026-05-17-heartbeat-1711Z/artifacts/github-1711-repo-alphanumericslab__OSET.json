@@ -1,0 +1,15 @@
+{
+  "full_name": "alphanumericslab/OSET",
+  "description": null,
+  "updated_at": "2026-04-30T02:17:14Z",
+  "pushed_at": "2026-05-09T19:18:22Z",
+  "default_branch": "master",
+  "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+  },
+  "html_url": "https://github.com/alphanumericslab/OSET"
+}

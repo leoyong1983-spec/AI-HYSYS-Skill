@@ -1,0 +1,16 @@
+{
+  "full_name": "facebook/fboss",
+  "description": "Facebook Open Switching System\n\nSoftware for controlling network switches.",
+  "updated_at": "2026-05-17T16:35:26Z",
+  "pushed_at": "2026-05-17T16:35:21Z",
+  "default_branch": "main",
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "html_url": "https://github.com/facebook/fboss",
+  "topics": []
+}

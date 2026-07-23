@@ -1,6 +1,6 @@
 ---
 name: ai-hysys-basic-package
-description: "Control Aspen HYSYS with auditable, script-first workflows to take over, update, tune, freeze, export, and visually organize an existing process case. Use when Codex must use direct COM automation, spreadsheet/workbook bridges, or proven project runners to verify the environment, load a validated case, run calculations, perform bounded tuning, export results, compile review-stage basic process package deliverables, or rearrange a native PFD on a workcopy without changing calculation boundaries."
+description: "Control Aspen HYSYS with auditable, script-first workflows for existing-case takeover, bounded updates, validation, reporting, and native PFD cleanup. 中文：通过 direct COM、spreadsheet/workbook bridge 或已验证项目脚本接管已有可运行 HYSYS case，完成环境检查、有限调参、验证、导出、原生 PFD 整理和审查阶段基础工艺包交付；不默认支持从零建模或生产写回。"
 ---
 
 # AI HYSYS Basic Package
@@ -10,6 +10,8 @@ description: "Control Aspen HYSYS with auditable, script-first workflows to take
 Use this skill when the task is not theoretical process discussion but actual Aspen HYSYS execution with reproducible artifacts.
 
 Default assumption: the safest production path is takeover of a human-built, already-runnable HYSYS case. Do not treat AI greenfield case construction as the normal path.
+
+中文说明：本技能用于让 AI 以可审计、脚本优先的方式接管已有 Aspen HYSYS 模型，重点是环境验证、控制通道选择、有限参数修改、求解状态检查、结果导出和基础工艺包交付。默认边界是“已有可运行 case 的受控接管”，不是“AI 从零可靠创建生产级 HYSYS 模型”，也不是“无人批准的生产系统写回”。
 
 Prefer scriptable, reviewable, repeatable control lanes:
 
@@ -24,6 +26,8 @@ Read [references/authority-and-path-selection.md](references/authority-and-path-
 
 Read [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md) before writing parameters, running sensitivity, freezing a baseline, or choosing between direct COM, spreadsheet/workbook, data tables, and indirect communication.
 
+Read [references/literature-patterns.md](references/literature-patterns.md) when a task cites AI/HYSYS papers, asks whether the method is publishable, requests an experiment design, or mixes LLM agents with HYSYS execution.
+
 Read [references/digital-twin-boundary.md](references/digital-twin-boundary.md) when the user asks for HYSYS digital twin, hybrid AI, soft sensor, historian, monitoring, yield optimization, or emissions optimization support.
 
 Read [references/heat-exchanger-ai-patterns.md](references/heat-exchanger-ai-patterns.md) when the user asks for heat exchanger, Aspen EDR, HEN, pinch, `Delta Tmin`, heat duty, LNG cold-box, cryogenic heat-exchanger, or exchanger AI optimization support.
@@ -34,7 +38,7 @@ Read [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) befo
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
 
-If the user wants provenance, precedent, or launch material, read [CASE/source-index.md](CASE/source-index.md) and [CASE/notes/hysys-source-digest.md](CASE/notes/hysys-source-digest.md) selectively instead of loading the whole `CASE/` tree.
+If the user wants provenance, precedent, launch material, heartbeat source triage, or cross-skill maintenance rules, read [CASE/SOURCE_EVALUATION_RULES.md](CASE/SOURCE_EVALUATION_RULES.md), [CASE/source-index.md](CASE/source-index.md), and [CASE/notes/hysys-source-digest.md](CASE/notes/hysys-source-digest.md) selectively instead of loading the whole `CASE/` tree.
 
 ## Workflow
 
@@ -73,6 +77,8 @@ Do not begin tuning or package compilation before confirming which control lane 
 
 Use `scripts/hysys_readiness_check.py` when available. It must classify Python/pywin32 failures, COM registry failures, launch failures, case open/create failures, object-binding failures, and solver failures separately.
 
+For installation, readiness, or version-migration tasks, compare observed HYSYS version, Windows/Office/Python facts, pywin32 state, COM registration, and Aspen product availability against the official platform-support sources in `CASE/official/aspentech-platform-support-2026-05.html` and `CASE/official/aspentech-v15-engineering-platform-specifications-2026.pdf`. Report unsupported or missing platform prerequisites as environment blockers, not as prompt or skill failures.
+
 If multiple lanes work, prefer the one already proven in the current workspace.
 
 ### 3. Choose the case with strict priority
@@ -109,6 +115,16 @@ For simple property-table requests, such as pure hydrogen density from 1 MPa to 
 2. `MPa(g)` means the table pressure is converted before writing to HYSYS, normally `P_abs = P_gauge + 0.101325 MPa`.
 3. Read the HYSYS property directly, for example `MassDensity.GetValue('kg/m3')`, and do not relabel external EOS or fitted values as HYSYS-native results.
 
+For simple property-table requests, such as pure hydrogen density from 1 MPa to 90 MPa, prefer a minimal native HYSYS material-stream case after readiness passes. Record the table pressure basis explicitly:
+
+1. `MPa(a)` means the table pressure is written directly as absolute pressure.
+2. `MPa(g)` means the table pressure is converted before writing to HYSYS, normally `P_abs = P_gauge + 0.101325 MPa`.
+3. Read the HYSYS property directly, for example `MassDensity.GetValue('kg/m3')`, and do not relabel external EOS or fitted values as HYSYS-native results.
+
+For LNG or cryogenic plantwide tasks, first identify the existing HYSYS case, plantwide boundary, multi-stream cryogenic heat exchanger objects, refrigeration or utility KPIs, product quality specs, bottleneck or troubleshooting target, and human review owner. Do not treat an official LNG plantwide simulation source as permission for AI greenfield LNG model generation; use it to structure takeover, bounded tuning, validation, and reporting on an approved workcopy.
+
+For heat-integration, heat exchanger network, pinch-analysis, `Delta Tmin`, supertargeting, or sustainability-surrogate tasks, first identify the source HYSYS case or workbook, thermal-stream schema, stream and unit-operation name map, utility assumptions, objective metrics, surrogate or optimizer role, and human review owner. Treat mock-mode notebooks, Excel-only calculations, surrogate models, and Bayesian optimization outputs as advisory candidates until HYSYS workcopy readback, unit checks, and KPI exports pass.
+
 For bounded tuning:
 
 1. Freeze property method, unit-operation topology, key equipment naming, spreadsheet schema, and already-proven convergence structure unless the user explicitly reopens them.
@@ -120,6 +136,15 @@ For bounded tuning:
 7. For a case containing recycle operations, do not accept a single `RecycleConvergence` value as sufficient proof. Record the recycle's `IsIgnored` state, feed/product bindings, solver-idle state, and project-approved tear-stream residuals for mass, temperature, pressure, enthalpy, and composition when available; then save, close, reopen, and repeat the readback before acceptance.
 8. If a run reaches a valid staged snapshot but later fails a policy, export, or finalization check, preserve the original error and traceback. Do not relabel the run as successful until a separate finalization step revalidates the reopened staged case, confirms the source-case hash is unchanged, records the previous error, and promotes only the verified artifact.
 9. For every pressure write, declare whether the external requirement is gauge or absolute, record the atmospheric-pressure basis used for conversion, write the corresponding absolute pressure to HYSYS, and read the HYSYS pressure back in an explicit absolute unit. Report both the original basis and the converted/readback value; never infer the basis from a bare number or equipment label.
+
+For paper-informed AI/HYSYS tasks, classify the task before executing:
+
+1. Existing-case takeover: production-preferred. Require case provenance, variable schema, smoke test, solver policy, KPI export, and audit log.
+2. Batch scenario / sensitivity / techno-economic workflow: require scenario matrix, sample IDs, input bounds, output KPIs, failure classes, and rerun rules before full execution.
+3. LLM agent / text-to-simulation / diagram-to-simulation: research or prototype unless a validated case and approved runner exist. Preserve prompts, generated scripts, tool logs, convergence states, and expert review notes.
+4. Text-to-flowsheet / Graph-IR / black-box convergence repair: research or bounded-assistance only. Keep topology and parameter intent in an auditable intermediate representation before simulator writes; allow numerical optimization only on whitelisted variables with explicit bounds, objective, residuals, iterations, and rollback.
+5. Surrogate / ML / hybrid model / digital twin: HYSYS remains the first-principles baseline. Require design space, training/validation/test split, extrapolation limits, and HYSYS or human review of recommendations.
+6. Operational AI / setpoint recommendation: advisory only unless the project provides an approved writeback procedure. Validate candidates on a workcopy, not a production case.
 
 ### 5. Export machine-readable outputs first
 
@@ -162,7 +187,7 @@ Do not use those sources to claim that:
 
 If a digital twin task is requested, first identify the existing HYSYS baseline, data source, KPI or soft sensor definition, control lane, and human validation responsibility.
 
-If the task mentions online digital twins, Aspen OnLine, AI Model Builder, or Hybrid Models, separate:
+If the task mentions online digital twins, Aspen OnLine, AI Model Builder, AspenTech AVA, agentic Industrial AI, or Hybrid Models, separate:
 
 1. offline HYSYS/Aspen Plus model preparation
 2. plant data import or historian binding
@@ -186,7 +211,13 @@ If the task replaces or rebuilds an approved subsystem inside an existing case, 
 
 If the task mentions MCP, MCP server, tool server, remote simulator node, or protocol-based simulation control, treat MCP as an orchestration boundary above the existing lanes, not as simulator authority by itself. Require explicit read/write operations, units, schemas, access-control assumptions, single-workcopy lock policy, dry-run mode, audit logs, failure behavior, rollback behavior, and human acceptance before any write-capable HYSYS tool is enabled. HYSYS-specific MCP repositories are community candidate control wrappers that still require license checks, local HYSYS runtime smoke tests, and workcopy-only write discipline before use; AVEVA APS MCP examples remain architecture references only, not portable HYSYS APIs.
 
-If the task mentions HYSYS Dynamics, online simulation, live process digital twin, Aspen OnLine, production planning, PIMS, distributed control systems, OTS, operator training, DCS/SIS loop training, or APC, split the work into offline model preparation, dynamic/online conversion prerequisites, external commercial-system boundaries, validation evidence, and human acceptance. Do not imply this skill can publish online models, replace PIMS/APC/DCS/OTS platforms, or close a production loop by itself.
+If the task mentions HEN supertargeting, pinch analysis, `Delta Tmin`, Bayesian optimization, LCSI, sustainability assessment, or HDA-style surrogate optimization, separate the spreadsheet/notebook layer, surrogate/optimizer layer, and HYSYS runtime layer. Require thermal-stream units, hot/cold stream classification, utility assumptions, minimum approach-temperature basis, HYSYS object mapping, and final workcopy validation before accepting recommendations.
+
+If the task mentions ML-aided flash calculations, thermodynamic surrogates, accelerated flash evaluation, or Python-side property surrogate models, classify it as a simulation-acceleration layer. Require component slate, EOS/property package, pressure-temperature-composition bounds, HYSYS reference-data provenance, error metrics, extrapolation limits, and final HYSYS or human engineering review before accepting any result.
+
+If the task mentions HYSYS Dynamics, online simulation, live process digital twin, Aspen OnLine, production planning, PIMS, Aspen DMC3, APC, distributed control systems, or DCS, split the work into offline model preparation, dynamic/online conversion prerequisites, external commercial-system boundaries, validation evidence, and human acceptance. Do not imply this skill can publish online models, replace PIMS/DMC3/APC/DCS, or close a production loop by itself.
+
+If the task mentions Aspen OnLine or online HYSYS digital twins, require explicit input/output tag schema, plant-data source, schedule/run policy, case-history or replay path, KPI/reporting schema, failure handling, external APC/DCS boundary, and human acceptance record before any execution or recommendation.
 
 If the task mentions ammonia, urea, fertilizer, `NH3-CO2-H2O`, ElecNRTL, first-principles OTS, or HYSYS Dynamics operator-training scenarios, require an existing dynamic case or validated conversion plan, property-package basis, dynamic holdup and pressure-flow assumptions, DCS/SIS loop map, training-scenario list, trainee acceptance criteria, failure behavior, and human sign-off. Treat embedded DCS/SIS logic as simulation/training evidence only unless the project provides a separate qualified safety and production approval path.
 
@@ -194,9 +225,31 @@ If the task mentions third-party rigorous models such as MySep, multi-unit plant
 
 If the task mentions LLM agents, text-to-simulation, flowsheet synthesis, diagram-to-simulation, or autonomous case construction, treat it as research/prototyping unless an existing validated HYSYS case or approved project runner is available. Prefer step-by-step construction over single-prompt generation, preserve tool logs and convergence status, and require human review of topology, property package, parameters, units, and solver results before any engineering use.
 
+If the task mentions text-to-flowsheet, Graph-IR, black-box optimization, convergence repair, or optimizer-assisted simulation, separate the AI intent layer from the HYSYS execution layer. The AI may propose topology or candidate parameters, but HYSYS writes must still use an approved workcopy and a chosen control lane. A numerical optimizer may only adjust pre-approved variables within documented engineering bounds; it must not silently change property packages, unit-operation topology, equipment naming, frozen baselines, or reporting boundaries. Log the objective function, input bounds, initial point, iterations, residual or penalty value, solver status, failed samples, final KPI export, and human acceptance note.
+
+If the task mentions SFILES, flowsheet autocompletion, graph completion, or transformer-generated flowsheet suggestions, treat the output as a candidate intent artifact. Convert it into an explicit stream/unit-operation map, record unsupported nodes and rejected edges, and validate against an existing HYSYS workcopy or approved runner before any engineering conclusion.
+
+If the task mentions specialized multi-agent process-systems-engineering workflows, soft sensors, calibration, dynamic modeling, NMPC, or control recommendation generation, split the work into role-separated planning, modeling, execution, validation, and reporting steps. Require physical-consistency checks, validation metrics, feasibility checks, workcopy readback, and human acceptance before reporting any model or control recommendation as accepted. Do not treat a multi-agent result as production writeback permission.
+
+If the task mentions hierarchical agents, chemical process development agents, knowledge/concept/parameter cohorts, or CeProAgents-style workflows, keep the stages separate: knowledge retrieval, concept generation, parameter write-set construction, simulation execution, validation, and reporting. Do not let a concept-generation agent write directly into HYSYS. Require an explicit workcopy, variable schema, bounds, rollback values, solver evidence, KPI export, and human review before accepting any generated process configuration.
+
+If an LLM proposes or infers operating constraints, optimization bounds, feasible ranges, or missing parameter limits, treat them as hypotheses until validated. Record the source rationale, baseline value, proposed lower/upper bound, engineering unit, rollback value, and rejection criteria. Do not write inferred bounds into HYSYS or run optimizer sweeps until they pass engineering range checks, workcopy readback, failed-sample logging, and human acceptance.
+
+If the task cites broad LLM-in-process-systems-engineering architectures or surveys, map the claim to a specific lane before acting: interface, orchestration, simulation execution, digital twin supervision, optimization, control recommendation, safety support, or reporting. Require explicit tool contracts, deterministic HYSYS or approved-simulator readback, validation metrics, fallback behavior, and human acceptance. Do not treat a literature survey as implementation evidence for this repository.
+
+If the task mentions MCP, MCP server, tool server, remote simulator node, or protocol-based simulation control, treat MCP as an orchestration boundary above the existing lanes, not as a simulator authority by itself. The MCP tool contract must expose explicit read/write operations, units, schemas, authentication assumptions, access-control assumptions, single-workcopy lock policy, dry-run mode, audit logs, failure behavior, and rollback behavior before any write operation. Prefer read-only-first deployment and require human acceptance before enabling write-capable HYSYS or plant-data tools. Do not imply distributed or production writeback capability unless the project has a configured runtime, approval owner, and tested recovery path.
+
+If designing a HYSYS MCP or COM wrapper, expose lifecycle and health tools before write tools: open/close/save, status, probe, run/reinit, stop, result readback, and error classification. Keep HYSYS COM ownership in one process/thread boundary or an explicit STA-style worker; document retry and reconnect limits; serialize writes against one workcopy; and log every tool call, unit, old value, new value, solver status, rollback value, and human acceptance state. Adjacent Aspen Plus MCP examples are architecture references only, not portable HYSYS APIs.
+
+Public HYSYS MCP servers are still candidate implementations until validated in the current local runtime. Learn from read-only/default/enhanced mode separation and explicit tool tagging, but do not install, expose, or rely on a third-party MCP server as the default control lane without local HYSYS smoke tests, permission review, failure recovery checks, and maintainer approval.
+
+If the task mentions AVA-style or agentic operational AI recommendations, treat the AI layer as advisory workflow support unless a project-approved writeback procedure exists. Identify the validated HYSYS baseline, data source, first-principles or hybrid model boundary, recommendation target, approval owner, and audit trail before producing or applying any recommendation.
+
 If the task mentions SCADA, ScadaBR, Modbus, OPC, external supervisory interfaces, dashboards, operator training, or online monitoring, first classify the lane as simulation testbed, training system, engineering dashboard, or production control boundary. Require tag schema, read/write direction, units, refresh rate, failure behavior, rollback, and human approval before any writeback. Do not treat a SCADA bridge as permission for autonomous DCS/APC/SIS or production-loop control.
 
 If the task mentions carbon accounting, decarbonization, energy-saving optimization, or reasoning-agent process simulation, separate simulator outputs, optimization variables, energy scenarios, carbon factors, reporting boundary, uncertainty, and human engineering review. Treat Aspen Plus agent papers as adjacent workflow evidence, not as proof that HYSYS greenfield model construction is reliable.
+
+If the task mentions HAZOP, process hazard analysis, safeguard review, alarm review, interlocks, SIS, deviation worksheets, or operating envelope review, classify the task as safety-support only. Start from a validated HYSYS case, exported operating envelope, PFD/P&ID inputs, and explicit node/deviation definitions. LLM-generated causes, consequences, safeguards, alarms, interlocks, or SIS suggestions are advisory drafts; require qualified human HAZOP-team review before any safety item is treated as accepted or closed.
 
 ### 7. Keep the package at the right depth
 
@@ -223,6 +276,26 @@ If the project requires Chinese submission:
 3. Add Chinese annotations for reader-visible English terms that remain.
 4. Do not mistake console mojibake for real file corruption; verify with UTF-8 reads or formal extraction tools before editing.
 
+### 9. Keep agent state and model compatibility explicit
+
+For long-running HYSYS tasks, create or update a machine-readable checkpoint before and after each major stage:
+
+1. lane decision
+2. readiness check
+3. case selection or workcopy creation
+4. planned write set
+5. solver run
+6. KPI export
+7. release or handoff summary
+
+At minimum, the checkpoint should record run mode, source case, workcopy path, HYSYS version if known, property package if known, frozen topology boundary, variable schema, valid ranges, rollback values, solver policy, output paths, open human decisions, and last successful stage.
+
+If the agent host, model, provider, prompt template, or JSON schema changes, run a small schema smoke test before any HYSYS write. Treat invalid JSON, missing units, missing rollback values, unknown object paths, or changed enum names as blockers, not as minor formatting issues.
+
+If multiple agents or models are used, keep one writer lane per workcopy. A supervisor agent may audit checkpoints, compare planned versus actual writes, and request rollback, but it must not share live HYSYS COM handles, issue parallel writes, or close human decisions by itself.
+
+Voice calls, meetings, browser automation, and web dashboards are presentation or lookup layers. They may summarize results, retrieve documentation, or support human review, but they are not HYSYS execution authority and must not replace COM/workbook evidence, solver logs, KPI exports, or human acceptance.
+
 ## Guardrails
 
 - Do not claim a case solved if it did not.
@@ -232,6 +305,9 @@ If the project requires Chinese submission:
 - Do not reopen free tuning after the project enters package review unless the user explicitly authorizes it.
 - Do not close human decisions without explicit human direction.
 - Do not assume AI can build a production-ready HYSYS flowsheet from zero just because COM object creation works.
+- Do not bind the skill to a specific agent runtime or default model unless the user explicitly configures that runtime and the schema smoke test passes.
+- Do not treat voice, meeting, browser, or dashboard integration as permission to write to HYSYS.
+- Do not let AI-generated HAZOP, safeguard, alarm, interlock, or SIS recommendations close process-safety decisions without qualified human review.
 
 ## Source hierarchy
 
@@ -242,6 +318,12 @@ Use external knowledge in this order:
 3. Community spreadsheet-bridge examples and reusable HYSYS automation snippets
 4. Recent AI-for-HYSYS or process-simulation agent research when the user asks for agentic, diagram-to-simulation, text-to-simulation, surrogate-model, LNG optimization, production-planning, or digital-twin workflows
 5. Secondary community material only as fallback
+
+Treat paper evidence as precedent, not permission. A paper showing HYSYS/Python automation, LLM flowsheet generation, surrogate optimization, or digital-twin validation changes the task classification and required evidence; it does not remove runtime readiness, case provenance, solver validation, or human review requirements.
+
+Do not adopt third-party HYSYS Python wrappers as default dependencies just because a package exists on PyPI. For candidates such as `aspen_pysys`, first check license compatibility, alpha/stability status, Python and pywin32 requirements, whether an existing HYSYS case and COM runtime are available, and whether the wrapper has been smoke-tested in the current workspace. If any of those checks fail, keep using the repository's direct COM starter and spreadsheet/workbook bridge guidance.
+
+When extending the direct COM layer, keep wrapper ideas but not wrapper code: use per-session object caches only, normalize COM tuple/list/array-like readbacks before validation or reporting, and do not share live HYSYS COM handles across processes.
 
 ## Output expectations
 

@@ -1,0 +1,33 @@
+﻿[
+    {
+        "id":  32085284,
+        "exit_code":  0,
+        "title":  "Comparative\nAnalysis of MEA Absorption and Membrane\nSeparation for FCCU CO\u003csub\u003e2\u003c/sub\u003e Capture: Process Simulation and\nTechno-Economic Evaluation",
+        "doi":  "10.1021/acs.energyfuels.6c00473.s001",
+        "license":  "CC BY-NC 4.0",
+        "file_count":  1,
+        "file_sample":  [
+                            "ef6c00473_si_001.pdf"
+                        ],
+        "hysys_files":  [
+
+                        ],
+        "error":  ""
+    },
+    {
+        "id":  29021564,
+        "exit_code":  0,
+        "title":  "A fundamental study on hybrid geothermal energy systems",
+        "doi":  "",
+        "license":  "All rights reserved",
+        "file_count":  2,
+        "file_sample":  [
+                            "Abstract_ATTACHMENT01.pdf",
+                            "Thesis_ATTACHMENT02.pdf"
+                        ],
+        "hysys_files":  [
+
+                        ],
+        "error":  ""
+    }
+]

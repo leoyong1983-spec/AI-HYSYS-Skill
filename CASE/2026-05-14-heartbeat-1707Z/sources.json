@@ -1,0 +1,344 @@
+﻿[
+    {
+        "title":  "GitHub candidate: afabrild/HYSYS-MATLAB-LINK",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+        "download_url":  "https://raw.githubusercontent.com/afabrild/HYSYS-MATLAB-LINK/main/Distill_Example.hsc",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-afabrild__HYSYS-MATLAB-LINK-repo.json",
+                                    "filename":  "github-afabrild__HYSYS-MATLAB-LINK-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  389,
+                                    "sha256":  "45a4ccacbcf43d866cd6d467308f87d3345cd677cbf41591af45b50c0d1af69c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-afabrild__HYSYS-MATLAB-LINK-tree.json",
+                                    "filename":  "github-afabrild__HYSYS-MATLAB-LINK-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  904,
+                                    "sha256":  "a319e7da7347917de9c398106a3a4507ef2cce21e4d7ed0881861925189b2de3"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository metadata inspected. No explicit license was detected, so model file was not downloaded or archived.",
+        "recommended_use":  "Manual permission candidate for distillation automation and MATLAB-HYSYS link regression tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+                            "download_url":  "https://raw.githubusercontent.com/afabrild/HYSYS-MATLAB-LINK/main/Distill_Example.hsc",
+                            "title":  "GitHub candidate: afabrild/HYSYS-MATLAB-LINK",
+                            "filenames":  [
+                                              "Distill_Example.hsc"
+                                          ],
+                            "sha256":  [
+                                           "45a4ccacbcf43d866cd6d467308f87d3345cd677cbf41591af45b50c0d1af69c",
+                                           "a319e7da7347917de9c398106a3a4507ef2cce21e4d7ed0881861925189b2de3"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Contains Distill_Example.hsc and MATLAB COM automation script, but no explicit repository license was detected.",
+                               "No HYSYS model payload was downloaded because redistribution/research-archive permission is unclear.",
+                               "Repository contents may change; rerun tree inspection before future archival."
+                           ]
+    },
+    {
+        "title":  "GitHub candidate: Rus-tam/hysys_observer",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Rus-tam/hysys_observer",
+        "download_url":  "https://raw.githubusercontent.com/Rus-tam/hysys_observer/main/example.hsc",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-Rus-tam__hysys_observer-repo.json",
+                                    "filename":  "github-Rus-tam__hysys_observer-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  354,
+                                    "sha256":  "f945c1a105d38d494ff7027f2091602be2a996b819dd79ba7af538ee43f51fca"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-Rus-tam__hysys_observer-tree.json",
+                                    "filename":  "github-Rus-tam__hysys_observer-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  4922,
+                                    "sha256":  "1303a9d36fbd4a732a7ab83cee51358858e5e700df60507fb1584d8cacf31ff4"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository metadata inspected. No explicit license was detected, so model file was not downloaded or archived.",
+        "recommended_use":  "Manual permission candidate for observer-style HYSYS automation tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Rus-tam/hysys_observer",
+                            "download_url":  "https://raw.githubusercontent.com/Rus-tam/hysys_observer/main/example.hsc",
+                            "title":  "GitHub candidate: Rus-tam/hysys_observer",
+                            "filenames":  [
+                                              "example.hsc"
+                                          ],
+                            "sha256":  [
+                                           "f945c1a105d38d494ff7027f2091602be2a996b819dd79ba7af538ee43f51fca",
+                                           "1303a9d36fbd4a732a7ab83cee51358858e5e700df60507fb1584d8cacf31ff4"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Contains example.hsc and Python observer/connector code, but no explicit repository license was detected.",
+                               "No HYSYS model payload was downloaded because redistribution/research-archive permission is unclear.",
+                               "Repository contents may change; rerun tree inspection before future archival."
+                           ]
+    },
+    {
+        "title":  "GitHub candidate: Anikesh31/simulator_codingplatform_integration",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+        "download_url":  "https://raw.githubusercontent.com/Anikesh31/simulator_codingplatform_integration/main/Test_file_hysys_python.hsc",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-Anikesh31__simulator_codingplatform_integration-repo.json",
+                                    "filename":  "github-Anikesh31__simulator_codingplatform_integration-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  525,
+                                    "sha256":  "23d6aafdb12e833510beaecff0e82cb3e6a29fd79ae0689ac6a3d145a9831527"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-Anikesh31__simulator_codingplatform_integration-tree.json",
+                                    "filename":  "github-Anikesh31__simulator_codingplatform_integration-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3302,
+                                    "sha256":  "18e7756ade8eb90aa5e5a4879cbd270a2c722320509ecf06cebd8837249a94b5"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository metadata inspected. No explicit license was detected, so model file was not downloaded or archived.",
+        "recommended_use":  "Manual permission candidate for Python/MATLAB HYSYS integration regression tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+                            "download_url":  "https://raw.githubusercontent.com/Anikesh31/simulator_codingplatform_integration/main/Test_file_hysys_python.hsc",
+                            "title":  "GitHub candidate: Anikesh31/simulator_codingplatform_integration",
+                            "filenames":  [
+                                              "Test_file_hysys_python.hsc"
+                                          ],
+                            "sha256":  [
+                                           "23d6aafdb12e833510beaecff0e82cb3e6a29fd79ae0689ac6a3d145a9831527",
+                                           "18e7756ade8eb90aa5e5a4879cbd270a2c722320509ecf06cebd8837249a94b5"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Contains Test_file_hysys_python.hsc plus Python/MATLAB tutorial scripts and README, but no explicit repository license was detected.",
+                               "No HYSYS model payload was downloaded because redistribution/research-archive permission is unclear.",
+                               "Repository contents may change; rerun tree inspection before future archival."
+                           ]
+    },
+    {
+        "title":  "GitHub candidate: lihaijie1228/hysys_python_GA",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/lihaijie1228/hysys_python_GA",
+        "download_url":  "https://raw.githubusercontent.com/lihaijie1228/hysys_python_GA/main/simulaton_file/Decarbonization/Decarbonization.hsc",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-lihaijie1228__hysys_python_GA-repo.json",
+                                    "filename":  "github-lihaijie1228__hysys_python_GA-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  388,
+                                    "sha256":  "d6f514c2d944649eee7feef4a7cc37e29bdaab2a890a5c1e6cecb8ed9ac76f81"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-lihaijie1228__hysys_python_GA-tree.json",
+                                    "filename":  "github-lihaijie1228__hysys_python_GA-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3621,
+                                    "sha256":  "213d04e0739a04d85460444b6bc82c806eda9cce72035837438172c47b6515d1"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository metadata inspected. No explicit license was detected, so model file was not downloaded or archived.",
+        "recommended_use":  "Manual permission candidate for decarbonization optimization and GA automation tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/lihaijie1228/hysys_python_GA",
+                            "download_url":  "https://raw.githubusercontent.com/lihaijie1228/hysys_python_GA/main/simulaton_file/Decarbonization/Decarbonization.hsc",
+                            "title":  "GitHub candidate: lihaijie1228/hysys_python_GA",
+                            "filenames":  [
+                                              "simulaton_file/Decarbonization/Decarbonization.hsc"
+                                          ],
+                            "sha256":  [
+                                           "d6f514c2d944649eee7feef4a7cc37e29bdaab2a890a5c1e6cecb8ed9ac76f81",
+                                           "213d04e0739a04d85460444b6bc82c806eda9cce72035837438172c47b6515d1"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Contains Decarbonization.hsc, README, CSV, and Python genetic-algorithm automation scripts, but no explicit repository license was detected.",
+                               "No HYSYS model payload was downloaded because redistribution/research-archive permission is unclear.",
+                               "Repository contents may change; rerun tree inspection before future archival."
+                           ]
+    },
+    {
+        "title":  "Duplicate GitHub record: edgarsmdn/Aspen_HYSYS_Python",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+        "download_url":  "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-edgarsmdn__Aspen_HYSYS_Python-repo.json",
+                                    "filename":  "github-edgarsmdn__Aspen_HYSYS_Python-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  396,
+                                    "sha256":  "e8e35a05fb3c70916b418b7cb9a39139c6130c72296df7377954ea241d330138"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/github-edgarsmdn__Aspen_HYSYS_Python-tree.json",
+                                    "filename":  "github-edgarsmdn__Aspen_HYSYS_Python-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2780,
+                                    "sha256":  "f37d9a8a111554e2807e4135294b1e8cd245cbb1f3acf80cd00754ab05edbf96"
+                                }
+                            ],
+        "license_public_access_note":  "MIT repository, but already archived in CASE/2026-05-11-heartbeat-1057Z; no duplicate download performed.",
+        "recommended_use":  "Use the existing archived copy for spreadsheet bridge and Python-COM smoke tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+                            "download_url":  "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+                            "title":  "edgarsmdn/Aspen_HYSYS_Python",
+                            "filenames":  [
+                                              "Test_1.hsc",
+                                              "README.md",
+                                              "LICENSE",
+                                              "Test_1.py",
+                                              "HYSYS_python_spreadsheets.py"
+                                          ],
+                            "sha256":  [
+                                           "e8e35a05fb3c70916b418b7cb9a39139c6130c72296df7377954ea241d330138",
+                                           "f37d9a8a111554e2807e4135294b1e8cd245cbb1f3acf80cd00754ab05edbf96"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Duplicate of existing CASE archive; no new benchmark value from re-downloading.",
+                               "No model was opened, executed, or solved during this heartbeat."
+                           ]
+    },
+    {
+        "title":  "Zenodo search sweep: no new non-duplicate HYSYS model payload",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/search?q=Aspen%20HYSYS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1707Z/artifacts/zenodo-search-results.json",
+                                    "filename":  "zenodo-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  665582,
+                                    "sha256":  "9e3a174f72e1f12e77d4dee44b3082c4f7cae1ae1c2c10196e019ec8ecf1fda5"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo API search metadata saved. HYSYS model hits were known duplicates or non-model papers/data-only records; no payload downloaded.",
+        "recommended_use":  "Use as search evidence and duplicate-control audit trail; revisit only if Zenodo publishes new versions with HYSYS payloads.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/search?q=Aspen%20HYSYS",
+                            "download_url":  "",
+                            "title":  "Zenodo search sweep: no new non-duplicate HYSYS model payload",
+                            "filenames":  [
+                                              "zenodo-search-results.json"
+                                          ],
+                            "sha256":  [
+                                           "9e3a174f72e1f12e77d4dee44b3082c4f7cae1ae1c2c10196e019ec8ecf1fda5"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Search-result aggregate includes false positives where HSC means unrelated terms such as Hyper Suprime-Cam or hepatic stellate cells.",
+                               "Known model records such as Zenodo 10966344 and 18806107 are duplicates already present in CASE."
+                           ]
+    }
+]

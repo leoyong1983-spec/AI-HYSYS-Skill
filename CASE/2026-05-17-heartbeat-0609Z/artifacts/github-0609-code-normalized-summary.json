@@ -1,0 +1,161 @@
+{
+  "files": [
+    {
+      "file": "github-0609-code-aspen-hysys-hsc.json",
+      "count": 0
+    },
+    {
+      "file": "github-0609-code-aspen-hysys-readme.json",
+      "count": 49
+    },
+    {
+      "file": "github-0609-code-hysys-compound.json",
+      "count": 0
+    },
+    {
+      "file": "github-0609-code-hysys-excel.json",
+      "count": 0
+    },
+    {
+      "file": "github-0609-code-hysys-hsc.json",
+      "count": 0
+    },
+    {
+      "file": "github-0609-code-hysys-hscz.json",
+      "count": 0
+    },
+    {
+      "file": "github-0609-code-hysys-validation-csv.json",
+      "count": 0
+    },
+    {
+      "file": "github-0609-code-hysys-xml.json",
+      "count": 50
+    }
+  ],
+  "raw_items": 99,
+  "unique_items": 99,
+  "unique_repos": 83,
+  "top_repos": [
+    [
+      "pyvideo/pyvideo.github.io",
+      6
+    ],
+    [
+      "petermr/CEVOpen",
+      3
+    ],
+    [
+      "ehijano/rss_fetch",
+      3
+    ],
+    [
+      "thiagonf/censo-lattes",
+      3
+    ],
+    [
+      "MsAlEhR/protein-fold-recognition",
+      3
+    ],
+    [
+      "DreamBlooms/HansPub-45000-to-59000",
+      2
+    ],
+    [
+      "Davidzf21/Rec_Informacion",
+      2
+    ],
+    [
+      "HTR-United/lectaurep-mariages-et-divorces",
+      2
+    ],
+    [
+      "edgarsmdn/Aspen_HYSYS_Python",
+      1
+    ],
+    [
+      "bpalotai/Flowsheet-toolbox",
+      1
+    ],
+    [
+      "OptiMaL-PSE-Lab/Sketch2Simulation",
+      1
+    ],
+    [
+      "Gallo05952/Articolo_energies",
+      1
+    ],
+    [
+      "zwang1995/Aspen-Plus-Automation",
+      1
+    ],
+    [
+      "iurisegtovich/AwesomeThermodynamics",
+      1
+    ],
+    [
+      "DanielVazVaz/PySIS",
+      1
+    ],
+    [
+      "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+      1
+    ],
+    [
+      "andr1976/dwsim-paper",
+      1
+    ],
+    [
+      "a5c-ai/babysitter",
+      1
+    ],
+    [
+      "Avest-AI/MemCal",
+      1
+    ],
+    [
+      "CSQianDong/Awesome-arXiv-Daily-Reporter",
+      1
+    ],
+    [
+      "Kareiman/Kareiman",
+      1
+    ],
+    [
+      "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+      1
+    ],
+    [
+      "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      1
+    ],
+    [
+      "jkantorow/jkantorow",
+      1
+    ],
+    [
+      "abdelaleeem/Real-Enthalpy-",
+      1
+    ],
+    [
+      "FlameEnjoyer/academic-portfolio",
+      1
+    ],
+    [
+      "M-Hamdy-M/lng-niching-metaheuristics",
+      1
+    ],
+    [
+      "SinaGhanbarii/HDA-Plant-Simulation",
+      1
+    ],
+    [
+      "Armaan-2309/CHE213-Simulation-Labs",
+      1
+    ],
+    [
+      "kammmran/ChemGraph_Old_Version_KNIME_Based",
+      1
+    ]
+  ]
+}

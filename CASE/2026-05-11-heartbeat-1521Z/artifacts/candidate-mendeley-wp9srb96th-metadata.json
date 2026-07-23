@@ -1,0 +1,28 @@
+﻿{
+    "id":  "wp9srb96th",
+    "title":  "Data for: Mixed-integer optimization of distillation sequences with Aspen Plus: A practical approach",
+    "version":  1,
+    "doi":  "10.17632/wp9srb96th.1",
+    "license":  "CC BY NC 3.0",
+    "source_page":  "https://data.mendeley.com/datasets/wp9srb96th/1",
+    "files":  [
+                  {
+                      "filename":  "01_Description of Supplementary Material.pdf",
+                      "size":  634641,
+                      "content_type":  "application/pdf",
+                      "download_url":  "https://data.mendeley.com/public-files/datasets/wp9srb96th/files/6827b034-a935-4b8a-9969-307f47861bfd/file_downloaded"
+                  },
+                  {
+                      "filename":  "02_Excel Files.zip",
+                      "size":  57607036,
+                      "content_type":  "application/zip",
+                      "download_url":  "https://data.mendeley.com/public-files/datasets/wp9srb96th/files/7d3ffbab-fea8-456c-99f3-dc477a90f323/file_downloaded"
+                  },
+                  {
+                      "filename":  "03_Aspen Plus Files.zip",
+                      "size":  702280,
+                      "content_type":  "application/zip",
+                      "download_url":  "https://data.mendeley.com/public-files/datasets/wp9srb96th/files/0e5441cf-cc69-4485-97f3-22d56badade2/file_downloaded"
+                  }
+              ]
+}

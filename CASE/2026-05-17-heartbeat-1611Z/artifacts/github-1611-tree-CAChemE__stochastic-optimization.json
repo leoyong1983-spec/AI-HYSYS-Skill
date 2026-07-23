@@ -1,0 +1,762 @@
+{
+  "sha": "90dcfef2469e270a1f74458797c03cc90ff4a0dd",
+  "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/90dcfef2469e270a1f74458797c03cc90ff4a0dd",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f33aa8aa5bb55af9ae002ee002f6ff974da20bf",
+      "size": 214,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/9f33aa8aa5bb55af9ae002ee002f6ff974da20bf"
+    },
+    {
+      "path": "ConventionalDistillationColumn",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fab84fbe94d4bfa2dbd9b01f5a772983c37fd589",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/fab84fbe94d4bfa2dbd9b01f5a772983c37fd589"
+    },
+    {
+      "path": "ConventionalDistillationColumn/PSO_Algorithm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e18038e4bdc1c8122c42c4a054abfa9a68851cb",
+      "size": 11026,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2e18038e4bdc1c8122c42c4a054abfa9a68851cb"
+    },
+    {
+      "path": "ConventionalDistillationColumn/Test_Column.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc20fee3f89e2959385704de384fb0194f709c6",
+      "size": 719693,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/6bc20fee3f89e2959385704de384fb0194f709c6"
+    },
+    {
+      "path": "ConventionalDistillationColumn/Test_Column_ObjFnc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80dc9c6106ad20a1e6aef0c511d6cfd90975836e",
+      "size": 8282,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/80dc9c6106ad20a1e6aef0c511d6cfd90975836e"
+    },
+    {
+      "path": "ConventionalDistillationColumn/column_algorithm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d32a8b2ca89640eb3d1eedd4a0b915ca6d8e134",
+      "size": 2956,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2d32a8b2ca89640eb3d1eedd4a0b915ca6d8e134"
+    },
+    {
+      "path": "ConventionalDistillationColumn/hyInterface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54af7f845b0cfa8236fca21612076e30bd189341",
+      "size": 4985,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/54af7f845b0cfa8236fca21612076e30bd189341"
+    },
+    {
+      "path": "ConventionalDistillationColumn/main_Column.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c069ad3b6343a841aca5d5df4f98ec31c9363b84",
+      "size": 5957,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/c069ad3b6343a841aca5d5df4f98ec31c9363b84"
+    },
+    {
+      "path": "ConventionalDistillationColumn/print_pso.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85e47561ff708dcd9b35d3f8f84773238f90d09",
+      "size": 1930,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/c85e47561ff708dcd9b35d3f8f84773238f90d09"
+    },
+    {
+      "path": "ConventionalDistillationColumn/pso_column.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c50756b884599dbd5e780c57e574a4ece1b8ac7f",
+      "size": 1350,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/c50756b884599dbd5e780c57e574a4ece1b8ac7f"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313ac9f44a48eae9420f85e1148867cf711f338d",
+      "size": 1516,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/313ac9f44a48eae9420f85e1148867cf711f338d"
+    },
+    {
+      "path": "PSO",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23421c6cddcd6f7e3f6fae23b47c49f6677331ce",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/23421c6cddcd6f7e3f6fae23b47c49f6677331ce"
+    },
+    {
+      "path": "PSO/1D",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ee1b47c8918b8ee14b96dfca04d0c4903c69c42",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/8ee1b47c8918b8ee14b96dfca04d0c4903c69c42"
+    },
+    {
+      "path": "PSO/1D/1D-Python-PSO-algorithm-viz.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d502b92367222468b7140971951a5902ee296db",
+      "size": 230820,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/4d502b92367222468b7140971951a5902ee296db"
+    },
+    {
+      "path": "PSO/1D/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f2042e60d98e845a692d9e9b79405eef7546041",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/3f2042e60d98e845a692d9e9b79405eef7546041"
+    },
+    {
+      "path": "PSO/1D/img/PSS-Example-1D.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7a86b1e29fb44d01f31bf427bcdce5266e4298b",
+      "size": 101535,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/f7a86b1e29fb44d01f31bf427bcdce5266e4298b"
+    },
+    {
+      "path": "PSO/2D",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d32a5484dae3c3cdfca89a3a03656702078170a",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/1d32a5484dae3c3cdfca89a3a03656702078170a"
+    },
+    {
+      "path": "PSO/2D/2D-Python-PSO-algorithm-viz.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df6f7b3a462ce035fef08c1eeeec869c98e2f027",
+      "size": 211908,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/df6f7b3a462ce035fef08c1eeeec869c98e2f027"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a41ede76a8f3a602dad846fd0675e8c951a8397",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/8a41ede76a8f3a602dad846fd0675e8c951a8397"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_0.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f181397141cf805d8ce0edfa7b452393658feecb",
+      "size": 112058,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/f181397141cf805d8ce0edfa7b452393658feecb"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f92ccc8249356a55400e0a32f124d29e2e2a974",
+      "size": 111634,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/3f92ccc8249356a55400e0a32f124d29e2e2a974"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8648d354e04d1168d8c3194607fa7a9a3bc395cd",
+      "size": 106458,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/8648d354e04d1168d8c3194607fa7a9a3bc395cd"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_11.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ec606e9df9d54e3ae7298942e4f4bb8fa137de4",
+      "size": 106287,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/7ec606e9df9d54e3ae7298942e4f4bb8fa137de4"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb7f4a8191a350914eab387d080c10fc78ec586c",
+      "size": 106054,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/bb7f4a8191a350914eab387d080c10fc78ec586c"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_13.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b844951ba1ff6124bb95a9b8873a7d1dec94912d",
+      "size": 105849,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/b844951ba1ff6124bb95a9b8873a7d1dec94912d"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_14.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f081508f445d73da7c2fc9d775143194156f6c",
+      "size": 105504,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/98f081508f445d73da7c2fc9d775143194156f6c"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_15.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3d5cb789d5ee628a538552df148cbeee9cf693f",
+      "size": 105090,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/b3d5cb789d5ee628a538552df148cbeee9cf693f"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37493008db4944cd9df1fdca76d2b6722bf415db",
+      "size": 104834,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/37493008db4944cd9df1fdca76d2b6722bf415db"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37f7cf9730c50865331ab889769ffe8af5b8989c",
+      "size": 104471,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/37f7cf9730c50865331ab889769ffe8af5b8989c"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3037ace1f98116e5740d089cba73b4dc6a490cc",
+      "size": 104080,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/c3037ace1f98116e5740d089cba73b4dc6a490cc"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_19.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff08b2be07f7bc3439db6c5da09f6f4e7fe302d8",
+      "size": 103831,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/ff08b2be07f7bc3439db6c5da09f6f4e7fe302d8"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd7f454471c8332351b7dd0891a04bb168222fc3",
+      "size": 111458,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/bd7f454471c8332351b7dd0891a04bb168222fc3"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_20.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e357be4ac4a704fe14db65aa553306e95649cb1c",
+      "size": 103739,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/e357be4ac4a704fe14db65aa553306e95649cb1c"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_21.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd6deb5ccb4b0111dc5bbe23f9cdbbbdcdada3f8",
+      "size": 103687,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/dd6deb5ccb4b0111dc5bbe23f9cdbbbdcdada3f8"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_22.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08098920398a0c6f002e93fb8fc303c2a1edb87d",
+      "size": 103702,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/08098920398a0c6f002e93fb8fc303c2a1edb87d"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_23.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bcbcfb8a23a95a39f2d7321b26e5fb08715d76",
+      "size": 103654,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/85bcbcfb8a23a95a39f2d7321b26e5fb08715d76"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_24.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "677b2cff81a64bfcde364fda0fb7f360e517d15d",
+      "size": 103606,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/677b2cff81a64bfcde364fda0fb7f360e517d15d"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_25.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3572af301a23824ac3947a49aa1aedf37456ea3",
+      "size": 103588,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/b3572af301a23824ac3947a49aa1aedf37456ea3"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_26.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e248a589727319db8b015042d7bf8af261152f2",
+      "size": 103588,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2e248a589727319db8b015042d7bf8af261152f2"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_27.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce935ea57922e0b4fea52e0358710c738c5ac95",
+      "size": 103594,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2ce935ea57922e0b4fea52e0358710c738c5ac95"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_28.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce935ea57922e0b4fea52e0358710c738c5ac95",
+      "size": 103594,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2ce935ea57922e0b4fea52e0358710c738c5ac95"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_29.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce935ea57922e0b4fea52e0358710c738c5ac95",
+      "size": 103594,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2ce935ea57922e0b4fea52e0358710c738c5ac95"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef0a371ec1454e1249d436f330e830947e3efa14",
+      "size": 110423,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/ef0a371ec1454e1249d436f330e830947e3efa14"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5718bfcdd44ba564e20abecbdf0581d6d4bea662",
+      "size": 110098,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/5718bfcdd44ba564e20abecbdf0581d6d4bea662"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "479926ab3f4e82d8d9ecc8aaabefd3fc88e66cdc",
+      "size": 109491,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/479926ab3f4e82d8d9ecc8aaabefd3fc88e66cdc"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8e8978f657583fb754c7136aabcf5e44f6798b3",
+      "size": 109406,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/f8e8978f657583fb754c7136aabcf5e44f6798b3"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a34ae48c2a61c1f6f772b0c2eaff330bf9496218",
+      "size": 107886,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/a34ae48c2a61c1f6f772b0c2eaff330bf9496218"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22760d24312186cfdd6ff928a6cfd77db55b51a9",
+      "size": 107374,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/22760d24312186cfdd6ff928a6cfd77db55b51a9"
+    },
+    {
+      "path": "PSO/2D/ackley_convergent/ackley_2D_9.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b45f85ede5a034613405bfed165d05d4b2bc456",
+      "size": 106906,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/9b45f85ede5a034613405bfed165d05d4b2bc456"
+    },
+    {
+      "path": "PSO/2D/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25c3a66064086dffe3c439146278b654cf3c1ec7",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/25c3a66064086dffe3c439146278b654cf3c1ec7"
+    },
+    {
+      "path": "PSO/2D/img/PSO_Ackley.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "601f9edd8c374c4879a8f83047ca5a311df15697",
+      "size": 230073,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/601f9edd8c374c4879a8f83047ca5a311df15697"
+    },
+    {
+      "path": "PSO/2D/img/PSO_Example1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cfa1c51faa52c5ff4612ac0cce9efcb323dba2b",
+      "size": 316795,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2cfa1c51faa52c5ff4612ac0cce9efcb323dba2b"
+    },
+    {
+      "path": "PSO/2D/img/PSO_Rana.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1402686e5cf3ddd9a0507b0ff7fe96388c7ec7e4",
+      "size": 561698,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/1402686e5cf3ddd9a0507b0ff7fe96388c7ec7e4"
+    },
+    {
+      "path": "PSO/2D/img/PSO_odd_square.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43e600776e5d6c0c1a50f0434a837a2ea8f6fb48",
+      "size": 722387,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/43e600776e5d6c0c1a50f0434a837a2ea8f6fb48"
+    },
+    {
+      "path": "PSO/2D/img/PSO_salomon.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d46520306c03b19a809b74de859b1a59fa4aaf5",
+      "size": 266965,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/7d46520306c03b19a809b74de859b1a59fa4aaf5"
+    },
+    {
+      "path": "PSO/2D/optitestfuns.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b162f82acd363c8bb914d03fa775aad0257f962e",
+      "size": 4033,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/b162f82acd363c8bb914d03fa775aad0257f962e"
+    },
+    {
+      "path": "PSO/2D/plotPSO.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68b5697d17dce57b91078de1f36ec59bae6ea85d",
+      "size": 6531,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/68b5697d17dce57b91078de1f36ec59bae6ea85d"
+    },
+    {
+      "path": "PSO/2D/test_plot.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852a9d3b356a29790ecb607b1e719a58d1526092",
+      "size": 184643,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/852a9d3b356a29790ecb607b1e719a58d1526092"
+    },
+    {
+      "path": "PSO/nD",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e17dae93cad5d510f86dd9a80720c4047f4592e",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/8e17dae93cad5d510f86dd9a80720c4047f4592e"
+    },
+    {
+      "path": "PSO/nD/.ipynb_checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39e87fa9dbb48b1747f445b2eb3a8af384cac03c",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/39e87fa9dbb48b1747f445b2eb3a8af384cac03c"
+    },
+    {
+      "path": "PSO/nD/.ipynb_checkpoints/test_plot-checkpoint.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0688baa02932af9255ad34903ce26e5747af5f98",
+      "size": 1278475,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/0688baa02932af9255ad34903ce26e5747af5f98"
+    },
+    {
+      "path": "PSO/nD/DemoAckley.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31074cf79232eb947d4c05669f893445039be22a",
+      "size": 234,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/31074cf79232eb947d4c05669f893445039be22a"
+    },
+    {
+      "path": "PSO/nD/MATLAB",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9ceb91e8674a79bddddcc89a5abc731a9bb1d56",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/f9ceb91e8674a79bddddcc89a5abc731a9bb1d56"
+    },
+    {
+      "path": "PSO/nD/MATLAB/DemoAckley.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd526594d4646af094cd548511526f0ebc71c38",
+      "size": 61,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/fdd526594d4646af094cd548511526f0ebc71c38"
+    },
+    {
+      "path": "PSO/nD/MATLAB/F_Ackley.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e50e4f975e81651a969054763b7a83acc364a872",
+      "size": 138,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/e50e4f975e81651a969054763b7a83acc364a872"
+    },
+    {
+      "path": "PSO/nD/MATLAB/ftest1d.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84c9be104e167d25f43ba1a40199b7d1146de9ab",
+      "size": 102,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/84c9be104e167d25f43ba1a40199b7d1146de9ab"
+    },
+    {
+      "path": "PSO/nD/MATLAB/ftest2d.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0dfa22aef992bddb2680436ea09fc2b9a4a2513",
+      "size": 283,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/d0dfa22aef992bddb2680436ea09fc2b9a4a2513"
+    },
+    {
+      "path": "PSO/nD/MATLAB/ftest3d.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c263094d389e1cd57cc134ba40a3155f3b4de9",
+      "size": 514,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/14c263094d389e1cd57cc134ba40a3155f3b4de9"
+    },
+    {
+      "path": "PSO/nD/MATLAB/pso_v3.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9bb80adf16453182113ee26e673c33c6db18e44",
+      "size": 11730,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/d9bb80adf16453182113ee26e673c33c6db18e44"
+    },
+    {
+      "path": "PSO/nD/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfc81367dc15be317e9bb0fee68f67222d619f87",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/dfc81367dc15be317e9bb0fee68f67222d619f87"
+    },
+    {
+      "path": "PSO/nD/img/1D",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f42d271b14a6cbab83ad7288a08e158dab26aa7b",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/f42d271b14a6cbab83ad7288a08e158dab26aa7b"
+    },
+    {
+      "path": "PSO/nD/img/1D/ackley_1D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb69e9576a556e29df610027b81b7bbb4a76be1f",
+      "size": 28775,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/fb69e9576a556e29df610027b81b7bbb4a76be1f"
+    },
+    {
+      "path": "PSO/nD/img/1D/griewangk_1D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ece26a960b997f072ccc3e744f2a0cad4ce5932",
+      "size": 40601,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/2ece26a960b997f072ccc3e744f2a0cad4ce5932"
+    },
+    {
+      "path": "PSO/nD/img/1D/odd_square_1D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7039c09ba68bee2c3a044cad0328b761db4c2a9",
+      "size": 36198,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/d7039c09ba68bee2c3a044cad0328b761db4c2a9"
+    },
+    {
+      "path": "PSO/nD/img/1D/rastrigin_1D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c173b7857da1b342993cd407a101737bd647ec6",
+      "size": 33721,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/8c173b7857da1b342993cd407a101737bd647ec6"
+    },
+    {
+      "path": "PSO/nD/img/1D/salomon_1D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b280007f6136d8518f8ffc7dd2d9a1c0e9cd9c9c",
+      "size": 31356,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/b280007f6136d8518f8ffc7dd2d9a1c0e9cd9c9c"
+    },
+    {
+      "path": "PSO/nD/img/2D",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56a4090f387e2a4fc6cf81028ebedaa19e170d0a",
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/trees/56a4090f387e2a4fc6cf81028ebedaa19e170d0a"
+    },
+    {
+      "path": "PSO/nD/img/2D/ackley_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3311664ec516387547a52fe4cae2d9da5980f9f",
+      "size": 108064,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/d3311664ec516387547a52fe4cae2d9da5980f9f"
+    },
+    {
+      "path": "PSO/nD/img/2D/griewangk_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8fa3fbebfc0b372eeae01a0505ea873248ff2e1",
+      "size": 128070,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/c8fa3fbebfc0b372eeae01a0505ea873248ff2e1"
+    },
+    {
+      "path": "PSO/nD/img/2D/odd_square_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4193e0390e912c6975117d64c6cb34e65f64d0cb",
+      "size": 96553,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/4193e0390e912c6975117d64c6cb34e65f64d0cb"
+    },
+    {
+      "path": "PSO/nD/img/2D/rana_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5aaf81518fdb1d4640eff17d8bc05601e246b1b",
+      "size": 162963,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/c5aaf81518fdb1d4640eff17d8bc05601e246b1b"
+    },
+    {
+      "path": "PSO/nD/img/2D/rastrigin_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a792beb44237762a96af5a64b672f96df86ad33c",
+      "size": 140383,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/a792beb44237762a96af5a64b672f96df86ad33c"
+    },
+    {
+      "path": "PSO/nD/img/2D/salomon_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f425f49cc1b3a1466e814638344b71ded879c7",
+      "size": 144910,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/a9f425f49cc1b3a1466e814638344b71ded879c7"
+    },
+    {
+      "path": "PSO/nD/img/2D/schwefel_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8809996ac3b54f64e524c68024488ed0834d0b5a",
+      "size": 134879,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/8809996ac3b54f64e524c68024488ed0834d0b5a"
+    },
+    {
+      "path": "PSO/nD/optitestfuns.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b162f82acd363c8bb914d03fa775aad0257f962e",
+      "size": 4033,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/b162f82acd363c8bb914d03fa775aad0257f962e"
+    },
+    {
+      "path": "PSO/nD/plotPSO.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb69558703ed22abe4503d371222a68793a4c78e",
+      "size": 6530,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/eb69558703ed22abe4503d371222a68793a4c78e"
+    },
+    {
+      "path": "PSO/nD/print_pso.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4190ef29b5a22e576dd04abbeac15ba07d8ec83",
+      "size": 1932,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/f4190ef29b5a22e576dd04abbeac15ba07d8ec83"
+    },
+    {
+      "path": "PSO/nD/pso.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f0e741c7bd2fe66911d26533e45a452bab4081b",
+      "size": 11066,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/3f0e741c7bd2fe66911d26533e45a452bab4081b"
+    },
+    {
+      "path": "PSO/nD/test_plot.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ee19d299c419096589c5dba0144585fe0bad85e",
+      "size": 1457202,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/5ee19d299c419096589c5dba0144585fe0bad85e"
+    },
+    {
+      "path": "PSO/nD/test_pso.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "474855b4dd9eab2cf208782ba95fb276797df7de",
+      "size": 2299,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/474855b4dd9eab2cf208782ba95fb276797df7de"
+    },
+    {
+      "path": "PSO/nD/tictoc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e0a9d4ae0991b930bfc8e2050e9d025cccfe37",
+      "size": 900,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/e3e0a9d4ae0991b930bfc8e2050e9d025cccfe37"
+    },
+    {
+      "path": "PSO/talk-structure",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941ddd2bd649b6c4fd371c70aa785b732332c3c7",
+      "size": 340,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/941ddd2bd649b6c4fd371c70aa785b732332c3c7"
+    },
+    {
+      "path": "PyConES-2016.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6bef17abc0efb7fa3b38ec1886917178c58bffb",
+      "size": 4415,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/c6bef17abc0efb7fa3b38ec1886917178c58bffb"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5103b767a2009d75dbf2ee1dea9c6f44e8039290",
+      "size": 1152,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/5103b767a2009d75dbf2ee1dea9c6f44e8039290"
+    },
+    {
+      "path": "Slides - PyconES 2016 - Simulation-Based Optimization Using PSO.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab12b21b81635c365d3db391196d9cdebf34a5fb",
+      "size": 3544219,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/ab12b21b81635c365d3db391196d9cdebf34a5fb"
+    },
+    {
+      "path": "optimizacion-estocastica-python.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fcb9831d686772f5f83ce1ea8b9302325d7499f",
+      "size": 2249026,
+      "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/7fcb9831d686772f5f83ce1ea8b9302325d7499f"
+    }
+  ],
+  "truncated": false
+}

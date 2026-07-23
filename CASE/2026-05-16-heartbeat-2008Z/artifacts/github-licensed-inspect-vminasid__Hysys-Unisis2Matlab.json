@@ -1,0 +1,38 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "vminasid/Hysys-Unisis2Matlab",
+                 "url":  "https://github.com/vminasid/Hysys-Unisis2Matlab",
+                 "description":  "This program generates Non-Linear Programming MATLAB code from an existing Unisim/Hysis model. ",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "master",
+                 "pushed_at":  "2015-12-04T15:09:54Z",
+                 "license":  "GPL-3.0"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  5,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  35142,
+                                       "sha":  "733c072369ca77331f392c40da7404c85c36542c"
+                                   },
+                                   {
+                                       "path":  "NLPGenerator.m",
+                                       "size":  10119,
+                                       "sha":  "b42e8aba723a1b6b4fdd959db9f7658638dea740"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  3927,
+                                       "sha":  "7a4a65c53d0c09308b16c4f779178ee8d0ee5480"
+                                   }
+                               ]
+             },
+    "error":  null
+}

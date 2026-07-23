@@ -1,0 +1,15 @@
+{
+  "full_name": "equinor/neqsim",
+  "description": "NeqSim is a library for calculation of fluid behavior, phase equilibrium and process simulation",
+  "updated_at": "2026-05-16T09:24:11Z",
+  "pushed_at": "2026-05-17T14:19:55Z",
+  "default_branch": "master",
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "html_url": "https://github.com/equinor/neqsim"
+}

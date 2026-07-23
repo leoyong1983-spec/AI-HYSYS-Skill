@@ -1,0 +1,25 @@
+{
+  "query": "HYSYS \"natural gas\" hsc in:readme",
+  "items": [
+    {
+      "description": "",
+      "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjcyNTUyNjc2",
+        "is_bot": false,
+        "login": "M-Hamdy-M",
+        "type": "User",
+        "url": "https://github.com/M-Hamdy-M"
+      },
+      "updatedAt": "2025-06-21T08:46:00Z",
+      "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+    }
+  ]
+}

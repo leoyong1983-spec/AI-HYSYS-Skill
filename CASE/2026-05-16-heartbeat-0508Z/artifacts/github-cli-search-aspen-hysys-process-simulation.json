@@ -1,0 +1,125 @@
+{
+  "query": "\"Aspen HYSYS\" \"process simulation\" hsc in:readme",
+  "items": [
+    {
+      "description": "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+      "fullName": "afabrild/HYSYS-MATLAB-LINK",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjMzODg3NDI4",
+        "is_bot": false,
+        "login": "afabrild",
+        "type": "User",
+        "url": "https://github.com/afabrild"
+      },
+      "updatedAt": "2025-11-02T12:02:26Z",
+      "url": "https://github.com/afabrild/HYSYS-MATLAB-LINK"
+    },
+    {
+      "description": "Supplementary material and information ",
+      "fullName": "andr1976/dwsim-paper",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU4NDc1NTM1",
+        "is_bot": false,
+        "login": "andr1976",
+        "type": "User",
+        "url": "https://github.com/andr1976"
+      },
+      "updatedAt": "2025-10-22T16:40:55Z",
+      "url": "https://github.com/andr1976/dwsim-paper"
+    },
+    {
+      "description": "",
+      "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjcyNTUyNjc2",
+        "is_bot": false,
+        "login": "M-Hamdy-M",
+        "type": "User",
+        "url": "https://github.com/M-Hamdy-M"
+      },
+      "updatedAt": "2025-06-21T08:46:00Z",
+      "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+    },
+    {
+      "description": "",
+      "fullName": "guillemrh/TFG",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjY3Mjg2MTM3",
+        "is_bot": false,
+        "login": "guillemrh",
+        "type": "User",
+        "url": "https://github.com/guillemrh"
+      },
+      "updatedAt": "2022-04-26T16:04:55Z",
+      "url": "https://github.com/guillemrh/TFG"
+    },
+    {
+      "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+      "fullName": "Jimohmuktar/CrBlend-ML",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODuwaFg",
+        "is_bot": false,
+        "login": "Jimohmuktar",
+        "type": "User",
+        "url": "https://github.com/Jimohmuktar"
+      },
+      "updatedAt": "2026-03-05T21:34:16Z",
+      "url": "https://github.com/Jimohmuktar/CrBlend-ML"
+    },
+    {
+      "description": "My personal portfolio repo containing projects, code, papers, and more.",
+      "fullName": "rubel-miah-che/rubel-portfolio",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODehVUQ",
+        "is_bot": false,
+        "login": "rubel-miah-che",
+        "type": "User",
+        "url": "https://github.com/rubel-miah-che"
+      },
+      "updatedAt": "2025-11-03T06:44:50Z",
+      "url": "https://github.com/rubel-miah-che/rubel-portfolio"
+    }
+  ]
+}

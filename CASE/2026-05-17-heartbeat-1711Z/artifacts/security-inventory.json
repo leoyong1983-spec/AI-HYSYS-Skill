@@ -1,0 +1,514 @@
+{
+  "total_files": 72,
+  "dangerous_or_executable_count": 0,
+  "archive_count": 0,
+  "total_size_bytes": 683223,
+  "dangerous_or_executable": [],
+  "archives": [],
+  "files": [
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/dedupe-sample.json",
+      "filename": "dedupe-sample.json",
+      "extension": ".json",
+      "size_bytes": 36032,
+      "sha256": "e6e6425e1ce59ad86d57c2aac2ece78baec5c32d3d4166f19bf7d1016bb1c63c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/dedupe-summary.json",
+      "filename": "dedupe-summary.json",
+      "extension": ".json",
+      "size_bytes": 288,
+      "sha256": "6ccb7c6c8c3783323e281d8893255568d53f3cb132cfbc426e28a098b4c4d68d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/download-summary.json",
+      "filename": "download-summary.json",
+      "extension": ".json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-bitbucket-search.err.txt",
+      "filename": "external-1711-bitbucket-search.err.txt",
+      "extension": ".txt",
+      "size_bytes": 20,
+      "sha256": "5cf18864037ee5fdac2aeef382c752c8e8cbb06aacf42a0257cae8bb3bfcc31e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-gitlab-project-search.json",
+      "filename": "external-1711-gitlab-project-search.json",
+      "extension": ".json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-search-summary.json",
+      "filename": "external-1711-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 1202,
+      "sha256": "e9dda479463cc86594432804d2ce370ce795e7d3a9413527b39d83a96e2fbcf3"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "filename": "external-1711-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "filename": "external-1711-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-zenodo-HYSYS__XML__Cases__.xml.err.txt",
+      "filename": "external-1711-zenodo-HYSYS__XML__Cases__.xml.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-code-aspen-hysys.json",
+      "filename": "github-1711-code-aspen-hysys.json",
+      "extension": ".json",
+      "size_bytes": 15618,
+      "sha256": "c10879a7c69462b10ae5c0cd1dbd44f13897350e2669cc8ec02a24e917d202b3"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-code-hsc-hysys.json",
+      "filename": "github-1711-code-hsc-hysys.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-code-hysys-matlab.json",
+      "filename": "github-1711-code-hysys-matlab.json",
+      "extension": ".json",
+      "size_bytes": 16926,
+      "sha256": "8f03c81836d4b0f57541bb623b2e1e43d6e61ce5c4f6b8d59fabb2184c71ee29"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-code-hysys-py.json",
+      "filename": "github-1711-code-hysys-py.json",
+      "extension": ".json",
+      "size_bytes": 15034,
+      "sha256": "88b4f3954410827835d0d07212d6d9e6a8d3dbe2bd72ba73da06e7538f9f9d21"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-code-hysys-xlsm.json",
+      "filename": "github-1711-code-hysys-xlsm.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-code-opencase-hysys-py.json",
+      "filename": "github-1711-code-opencase-hysys-py.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-code-simulationcase-hysys-py.json",
+      "filename": "github-1711-code-simulationcase-hysys-py.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-dedupe-assessment.json",
+      "filename": "github-1711-dedupe-assessment.json",
+      "extension": ".json",
+      "size_bytes": 433,
+      "sha256": "b9ffd55efb5a620b58ce3a88acb521facee60f9ff7ac709b8a50a73b8d4cb8c9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-inspected-repositories.json",
+      "filename": "github-1711-inspected-repositories.json",
+      "extension": ".json",
+      "size_bytes": 235774,
+      "sha256": "14f8c628041a5b727e402644f12e7079fd9d3c5006e3775288c132dd714b5066"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-inspection-summary.json",
+      "filename": "github-1711-inspection-summary.json",
+      "extension": ".json",
+      "size_bytes": 6399,
+      "sha256": "93c79f2a5bf1b13d706f3b6b212a1fc0bee2d56756b51b4f9d885107f08ed720"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-inspection-targets.json",
+      "filename": "github-1711-inspection-targets.json",
+      "extension": ".json",
+      "size_bytes": 2006,
+      "sha256": "3e0886020bb84812b8536d070ac270cc6c53a354471b688ca7f8e4e40bfd5714"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-a5c-ai__babysitter.json",
+      "filename": "github-1711-license-a5c-ai__babysitter.json",
+      "extension": ".json",
+      "size_bytes": 2501,
+      "sha256": "1532041a2fa974c43396a86cb5babfc7cca17827f77f699eb55f9be615ff5289"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-act-elegancy__consumet.json",
+      "filename": "github-1711-license-act-elegancy__consumet.json",
+      "extension": ".json",
+      "size_bytes": 2569,
+      "sha256": "e67153643bc022514277d100c18bb1d50f8c535d4eb069f1efe1f0b996ffe715"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "filename": "github-1711-license-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-ai-se__Resume_Job_Matching.json",
+      "filename": "github-1711-license-ai-se__Resume_Job_Matching.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-alphanumericslab__OSET.json",
+      "filename": "github-1711-license-alphanumericslab__OSET.json",
+      "extension": ".json",
+      "size_bytes": 3205,
+      "sha256": "806896ae48092dc39bbe54f2ce15d1ac98334b949b6351a88aabec5bdd29e3c4"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-cambridge-cares__TheWorldAvatar.json",
+      "filename": "github-1711-license-cambridge-cares__TheWorldAvatar.json",
+      "extension": ".json",
+      "size_bytes": 2855,
+      "sha256": "7aea313c1c0711191b842eaec68f4f66ad70b0380e52278b271d1d68caa74ef9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-chensunwang__HYCivicCenter.json",
+      "filename": "github-1711-license-chensunwang__HYCivicCenter.json",
+      "extension": ".json",
+      "size_bytes": 2562,
+      "sha256": "1d29baa3b25e5c08ed80d14a8ee1fd649062586a06004bcf6938d270b9592b59"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-emeraldsci__SymbolicLabLanguage.json",
+      "filename": "github-1711-license-emeraldsci__SymbolicLabLanguage.json",
+      "extension": ".json",
+      "size_bytes": 49568,
+      "sha256": "1976fc4c00243b3dde64e748070eaff2e5657d65f439f28deaab1e6b2d3403e2"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-equinor__neqsim.json",
+      "filename": "github-1711-license-equinor__neqsim.json",
+      "extension": ".json",
+      "size_bytes": 16650,
+      "sha256": "734e16100dbc0e796c94e54024e91ede14f5101a36cb32def85154c2f44a7bea"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-Gravios__MTA.json",
+      "filename": "github-1711-license-Gravios__MTA.json",
+      "extension": ".json",
+      "size_bytes": 2492,
+      "sha256": "2f87e663987c9277ad668a40af9daeaa3eef8e1c0cf168e9c4d4eaa4253e46fd"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-HelloYeah__Floral_OC.json",
+      "filename": "github-1711-license-HelloYeah__Floral_OC.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-huayancreate__konka.json",
+      "filename": "github-1711-license-huayancreate__konka.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-idaholab__FORCE.json",
+      "filename": "github-1711-license-idaholab__FORCE.json",
+      "extension": ".json",
+      "size_bytes": 2489,
+      "sha256": "b134dd78a611ed32a63d52660242bb13afc5d77fd3aa8349ccf7ebb0377c720d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-kwellis__woffl.json",
+      "filename": "github-1711-license-kwellis__woffl.json",
+      "extension": ".json",
+      "size_bytes": 48595,
+      "sha256": "f8b98a39c0cbfcb01c1a563ecff7f187bd46f0e87e83f59079bfdd32b70daac9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-mapleccs__MAPO.json",
+      "filename": "github-1711-license-mapleccs__MAPO.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-metcalex__CHBE-403.json",
+      "filename": "github-1711-license-metcalex__CHBE-403.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-msmasnadi__OPGEEv4.json",
+      "filename": "github-1711-license-msmasnadi__OPGEEv4.json",
+      "extension": ".json",
+      "size_bytes": 3949,
+      "sha256": "ea5b57ebcc8c5a00c8e54c56d8f8e0e7f6c8709a988badf3251b2122e8c94f76"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-petrobras__ccp.json",
+      "filename": "github-1711-license-petrobras__ccp.json",
+      "extension": ".json",
+      "size_bytes": 16659,
+      "sha256": "faa7a4c071606bf6bbe4c79acaa43a207e8c835d9240650df598098a2bce85d0"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-puttak__Modeling-Simulation-Project.json",
+      "filename": "github-1711-license-puttak__Modeling-Simulation-Project.json",
+      "extension": ".json",
+      "size_bytes": 16820,
+      "sha256": "37fc8bac147e2c9095edf9ce24bf5ebfb29c82fa2d7e2401a344e153da0a2764"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-license-Weamandcompany__website.json",
+      "filename": "github-1711-license-Weamandcompany__website.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-model-bearing-repositories.json",
+      "filename": "github-1711-model-bearing-repositories.json",
+      "extension": ".json",
+      "size_bytes": 2781,
+      "sha256": "d7096711efd113666bba53fc146b77bb70bf335b50d920afb88528ef3143f654"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-a5c-ai__babysitter.json",
+      "filename": "github-1711-repo-a5c-ai__babysitter.json",
+      "extension": ".json",
+      "size_bytes": 582,
+      "sha256": "fac1aef27f5b602c870298e53f2fad56deaae6c3d9f966fbc9dec1683de4483d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-act-elegancy__consumet.json",
+      "filename": "github-1711-repo-act-elegancy__consumet.json",
+      "extension": ".json",
+      "size_bytes": 467,
+      "sha256": "459713e853c564ab43879b36fdba77fd8c9cbe82a6665e8ba2def8a7674cb61e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "filename": "github-1711-repo-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "extension": ".json",
+      "size_bytes": 359,
+      "sha256": "7d6f4e943aca0ac913ff03497adfd3a3d5f7564139f0ff2404e20c24bc3cf764"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-ai-se__Resume_Job_Matching.json",
+      "filename": "github-1711-repo-ai-se__Resume_Job_Matching.json",
+      "extension": ".json",
+      "size_bytes": 267,
+      "sha256": "d4338f69cae753ab373067f5b30eab529a04c3ed21b50ed643f107039030b7a3"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-alphanumericslab__OSET.json",
+      "filename": "github-1711-repo-alphanumericslab__OSET.json",
+      "extension": ".json",
+      "size_bytes": 476,
+      "sha256": "1089323a406cde213a5f0c2bd31dc7fe5cee2e75abc1339a617c97c6dd7fc7a6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-cambridge-cares__TheWorldAvatar.json",
+      "filename": "github-1711-repo-cambridge-cares__TheWorldAvatar.json",
+      "extension": ".json",
+      "size_bytes": 481,
+      "sha256": "4ca6778faae029f1fc3fd35dd93c792865419088f11d111c549ec1b019c60592"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-chensunwang__HYCivicCenter.json",
+      "filename": "github-1711-repo-chensunwang__HYCivicCenter.json",
+      "extension": ".json",
+      "size_bytes": 425,
+      "sha256": "192fe5ec2a68bc9201ee16b8033943afa2968e85bc2ddd3a53809b3fdf819133"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-emeraldsci__SymbolicLabLanguage.json",
+      "filename": "github-1711-repo-emeraldsci__SymbolicLabLanguage.json",
+      "extension": ".json",
+      "size_bytes": 541,
+      "sha256": "1168ff4166e9427850bda2f6812327fac96d2e7653b3570eaa21ac1073c8a8a4"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-equinor__neqsim.json",
+      "filename": "github-1711-repo-equinor__neqsim.json",
+      "extension": ".json",
+      "size_bytes": 524,
+      "sha256": "f355a47b634352aebebf85a55467a91d724616929624640b1c256676587254b6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-Gravios__MTA.json",
+      "filename": "github-1711-repo-Gravios__MTA.json",
+      "extension": ".json",
+      "size_bytes": 481,
+      "sha256": "82700b043e821ec9f262cde160540557ea626cd91e15ef1a85800f3fd914656a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-HelloYeah__Floral_OC.json",
+      "filename": "github-1711-repo-HelloYeah__Floral_OC.json",
+      "extension": ".json",
+      "size_bytes": 270,
+      "sha256": "c0d21d7a2f180fd9e232629b510fbc23ab0ac790ccd1b6abe428b90bde96add7"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-huayancreate__konka.json",
+      "filename": "github-1711-repo-huayancreate__konka.json",
+      "extension": ".json",
+      "size_bytes": 260,
+      "sha256": "5dcb4c47579b9c8b844dfe6f1b0753807a53e64247188e0b4003cff3b19250f2"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-idaholab__FORCE.json",
+      "filename": "github-1711-repo-idaholab__FORCE.json",
+      "extension": ".json",
+      "size_bytes": 734,
+      "sha256": "f91a249bdbcfd459afd686d6b6fdaad544258b54a35e547da0d9769d31fdf9f6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-kwellis__woffl.json",
+      "filename": "github-1711-repo-kwellis__woffl.json",
+      "extension": ".json",
+      "size_bytes": 496,
+      "sha256": "aeaf9c7c626956420552f98515f47bfb4b37e061824377ccc83f382cc88aa84a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-mapleccs__MAPO.json",
+      "filename": "github-1711-repo-mapleccs__MAPO.json",
+      "extension": ".json",
+      "size_bytes": 241,
+      "sha256": "76c8e08cd104cc8af5de7f4e2284d68a9260879208916f65b1c7db4e01e38ba1"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-metcalex__CHBE-403.json",
+      "filename": "github-1711-repo-metcalex__CHBE-403.json",
+      "extension": ".json",
+      "size_bytes": 251,
+      "sha256": "34d46aa606f309d4a2a609cebda9596ed7fdb6782b31807a3e78f44c32786587"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-msmasnadi__OPGEEv4.json",
+      "filename": "github-1711-repo-msmasnadi__OPGEEv4.json",
+      "extension": ".json",
+      "size_bytes": 386,
+      "sha256": "86500f4f2e7947a4b596163c132ff444fcb6d63fa21fe45d9756fb5a717b086c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-petrobras__ccp.json",
+      "filename": "github-1711-repo-petrobras__ccp.json",
+      "extension": ".json",
+      "size_bytes": 494,
+      "sha256": "17d83b5bd7fe5b0a99f4abd96602311fba60b139399df29841b5feebafbcf6d8"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-puttak__Modeling-Simulation-Project.json",
+      "filename": "github-1711-repo-puttak__Modeling-Simulation-Project.json",
+      "extension": ".json",
+      "size_bytes": 486,
+      "sha256": "320460f5c6c6ca96149f05a223e3fdd02d9be07009b216ce87e7eefc5f1a1556"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-search-Aspen__HYSYS__hsc.json",
+      "filename": "github-1711-repo-search-Aspen__HYSYS__hsc.json",
+      "extension": ".json",
+      "size_bytes": 72,
+      "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-search-Aspen__HYSYS__optimization.json",
+      "filename": "github-1711-repo-search-Aspen__HYSYS__optimization.json",
+      "extension": ".json",
+      "size_bytes": 42726,
+      "sha256": "7dcc932ac35e8dc1627956b1a8630ded966077f96e1e11e5b51d13b3794d97d4"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-search-Aspen__HYSYS__simulation__files.json",
+      "filename": "github-1711-repo-search-Aspen__HYSYS__simulation__files.json",
+      "extension": ".json",
+      "size_bytes": 14568,
+      "sha256": "65838f11c1c75b2c733912d76ff577eb632762895b6fe3ddf0f1d0becfbbcf70"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-search-HYSYS__case__file.json",
+      "filename": "github-1711-repo-search-HYSYS__case__file.json",
+      "extension": ".json",
+      "size_bytes": 20366,
+      "sha256": "5e74d87b709a06f7b165edacdb744e41a510cca61ab2fdf5c9f637d20b0c0aa9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-search-HYSYS__Excel__automation.json",
+      "filename": "github-1711-repo-search-HYSYS__Excel__automation.json",
+      "extension": ".json",
+      "size_bytes": 7119,
+      "sha256": "0143ea160f9a0217579fe0601002e62dcbf29deddaa19e3a47bf0bf7dfe8f504"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-search-HYSYS__MATLAB__Aspen.json",
+      "filename": "github-1711-repo-search-HYSYS__MATLAB__Aspen.json",
+      "extension": ".json",
+      "size_bytes": 36499,
+      "sha256": "3c653988ce7bf28b9e39ac5c2608317f9303e45462769fe241b10980f1c97de0"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-search-HYSYS__Python__COM.json",
+      "filename": "github-1711-repo-search-HYSYS__Python__COM.json",
+      "extension": ".json",
+      "size_bytes": 7094,
+      "sha256": "070bc30455300cf4ca57db06cbd1c5df7582dca7af676976ff6ef2eecc1f5b0e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-repo-Weamandcompany__website.json",
+      "filename": "github-1711-repo-Weamandcompany__website.json",
+      "extension": ".json",
+      "size_bytes": 259,
+      "sha256": "e929b450f64ce524ca70317bb951dd975b06fdb9cf9bb78b03e0c05d82d44025"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-search-summary.json",
+      "filename": "github-1711-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 3346,
+      "sha256": "c4605964a6cd403a70be7b1aa968cda830c98d736acead4d5fdcc4595aaf7341"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-skipped-no-model.json",
+      "filename": "github-1711-skipped-no-model.json",
+      "extension": ".json",
+      "size_bytes": 7684,
+      "sha256": "53b25b55590cbbab94c8cff5ec8440e6b2cc8ca422be2af0aa59959ed7f635b4"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/github-1711-tree-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "filename": "github-1711-tree-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "extension": ".json",
+      "size_bytes": 8110,
+      "sha256": "81cda6bfdd78d06c6818c7891faeb36332029774fffc676c1bb6e2ba91953828"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/security-inventory.json",
+      "filename": "security-inventory.json",
+      "extension": ".json",
+      "size_bytes": 23174,
+      "sha256": "b507b32bd39c9641f066a55308c18820003c378c8b2956c0fdde673d4e489728"
+    }
+  ]
+}

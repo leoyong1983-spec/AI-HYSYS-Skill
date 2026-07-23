@@ -1,0 +1,493 @@
+﻿[
+    {
+        "title":  "GitHub no-model candidate: pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-repo.json",
+                                    "filename":  "github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  444,
+                                    "sha256":  "eec17a2f2a6ed4db5e72714f9039b8bf63caac284ec2f4c39b5ab183874ed0a7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-tree.json",
+                                    "filename":  "github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6723,
+                                    "sha256":  "16ad6d01f379a8e9c05e9c4c05ccf6e5de52cbd52c52864ee0c07fb7e4c6e5c6"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata and tree inspected; no explicit license or HYSYS model file was found. No payload downloaded.",
+        "recommended_use":  "Reference only for manual review of multi-language HYSYS automation patterns; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                            "filenames":  [
+                                              "github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-repo.json",
+                                              "github-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "eec17a2f2a6ed4db5e72714f9039b8bf63caac284ec2f4c39b5ab183874ed0a7",
+                                           "16ad6d01f379a8e9c05e9c4c05ccf6e5de52cbd52c52864ee0c07fb7e4c6e5c6"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Connection scripts for Excel/VBA, MATLAB, Python, and Unity were found, but no HYSYS .hsc/.hscz/XML/.compound model file and no explicit license were detected.",
+                               "Repository contents may change later; rerun tree inspection before changing this rating."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: snua/HYSYS-dynamic-simulation",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/snua/HYSYS-dynamic-simulation",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-snua__HYSYS-dynamic-simulation-repo.json",
+                                    "filename":  "github-snua__HYSYS-dynamic-simulation-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  377,
+                                    "sha256":  "c44502265feedde003358c6c89a31eb3affc2782393650fbc3bd3794a8e0a8bd"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-snua__HYSYS-dynamic-simulation-tree.json",
+                                    "filename":  "github-snua__HYSYS-dynamic-simulation-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1186,
+                                    "sha256":  "a24a8fe7aeef6d60ede2914b123c49f46d7f6ce15783ad25cbb24e031f1f72ed"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata and tree inspected; no explicit license or HYSYS model file was found. No payload downloaded.",
+        "recommended_use":  "Reference only for dynamic-simulation teaching material if license is clarified; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/snua/HYSYS-dynamic-simulation",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: snua/HYSYS-dynamic-simulation",
+                            "filenames":  [
+                                              "github-snua__HYSYS-dynamic-simulation-repo.json",
+                                              "github-snua__HYSYS-dynamic-simulation-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "c44502265feedde003358c6c89a31eb3affc2782393650fbc3bd3794a8e0a8bd",
+                                           "a24a8fe7aeef6d60ede2914b123c49f46d7f6ce15783ad25cbb24e031f1f72ed"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Dynamic simulation slides and worksheet were found, but no downloadable HYSYS model file and no explicit license were detected.",
+                               "Repository contents may change later; rerun tree inspection before changing this rating."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: sajjad-ah/ASPEN-HYSYS",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-sajjad-ah__ASPEN-HYSYS-repo.json",
+                                    "filename":  "github-sajjad-ah__ASPEN-HYSYS-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  376,
+                                    "sha256":  "992507b1215014f32b640423e2de79cd4b202a3538510401f7d2aeb56996e58b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-sajjad-ah__ASPEN-HYSYS-tree.json",
+                                    "filename":  "github-sajjad-ah__ASPEN-HYSYS-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  8583,
+                                    "sha256":  "af5482736171232b2dec82b56ff227c766f28ea7d731198422ffa43642567417"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata and tree inspected; no explicit license or HYSYS model file was found. No payload downloaded.",
+        "recommended_use":  "Reference only for compressor/automation script ideas after license review; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: sajjad-ah/ASPEN-HYSYS",
+                            "filenames":  [
+                                              "github-sajjad-ah__ASPEN-HYSYS-repo.json",
+                                              "github-sajjad-ah__ASPEN-HYSYS-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "992507b1215014f32b640423e2de79cd4b202a3538510401f7d2aeb56996e58b",
+                                           "af5482736171232b2dec82b56ff227c766f28ea7d731198422ffa43642567417"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Automation and safety-instrumented-system materials were found, but no HYSYS model file and no explicit license were detected.",
+                               "Repository contents may change later; rerun tree inspection before changing this rating."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: cityfamer/HyPy",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/cityfamer/HyPy",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-cityfamer__HyPy-repo.json",
+                                    "filename":  "github-cityfamer__HyPy-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  335,
+                                    "sha256":  "a2409b9f4001757499363cc3b38cd00c1ef094e279e340082975d18c59dbaef6"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-cityfamer__HyPy-tree.json",
+                                    "filename":  "github-cityfamer__HyPy-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1252,
+                                    "sha256":  "b52cb379f95fad81a13171bd8f18491cc80ba906f1d64ef0f14b6c7f77b15a25"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata and tree inspected; no explicit license or HYSYS model file was found. No payload downloaded.",
+        "recommended_use":  "Reference only for HYSYS Python wrapper patterns; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/cityfamer/HyPy",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: cityfamer/HyPy",
+                            "filenames":  [
+                                              "github-cityfamer__HyPy-repo.json",
+                                              "github-cityfamer__HyPy-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "a2409b9f4001757499363cc3b38cd00c1ef094e279e340082975d18c59dbaef6",
+                                           "b52cb379f95fad81a13171bd8f18491cc80ba906f1d64ef0f14b6c7f77b15a25"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Python package skeleton for HYSYS interaction was found, but no model file and no explicit license were detected.",
+                               "Repository contents may change later; rerun tree inspection before changing this rating."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: DanielVazVaz/PySIS",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/DanielVazVaz/PySIS",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-DanielVazVaz__PySIS-repo.json",
+                                    "filename":  "github-DanielVazVaz__PySIS-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  347,
+                                    "sha256":  "f5cc8e41bec6fa02e98fd30bd2af0fb836a2d19d4305d84e61cd4a0af70dac5d"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-DanielVazVaz__PySIS-tree.json",
+                                    "filename":  "github-DanielVazVaz__PySIS-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3930,
+                                    "sha256":  "b1268eb351d6426007e1817e2d331676a5d2e7589184b6da1156744825a4e39f"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata and tree inspected; no explicit license or HYSYS model file was found. No payload downloaded.",
+        "recommended_use":  "Reference only for API abstraction ideas; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/DanielVazVaz/PySIS",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: DanielVazVaz/PySIS",
+                            "filenames":  [
+                                              "github-DanielVazVaz__PySIS-repo.json",
+                                              "github-DanielVazVaz__PySIS-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "f5cc8e41bec6fa02e98fd30bd2af0fb836a2d19d4305d84e61cd4a0af70dac5d",
+                                           "b1268eb351d6426007e1817e2d331676a5d2e7589184b6da1156744825a4e39f"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Python abstraction layer and docs were found, but no model file and no explicit license were detected.",
+                               "Repository contents may change later; rerun tree inspection before changing this rating."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: robfox92/matlab-fitness-hysys",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/robfox92/matlab-fitness-hysys",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-robfox92__matlab-fitness-hysys-repo.json",
+                                    "filename":  "github-robfox92__matlab-fitness-hysys-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  410,
+                                    "sha256":  "c6ef966da618be3cffc5be0841eaff37e2e0c9e3ac72d0cd5149981ec9aa775b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-robfox92__matlab-fitness-hysys-tree.json",
+                                    "filename":  "github-robfox92__matlab-fitness-hysys-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  667,
+                                    "sha256":  "1a44fb6675815aca474dd2db32af280c37c05442c4f87a0670d9909363b37168"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata and tree inspected; no explicit license or HYSYS model file was found. No payload downloaded.",
+        "recommended_use":  "Reference only for MATLAB optimization coupling ideas; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/robfox92/matlab-fitness-hysys",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: robfox92/matlab-fitness-hysys",
+                            "filenames":  [
+                                              "github-robfox92__matlab-fitness-hysys-repo.json",
+                                              "github-robfox92__matlab-fitness-hysys-tree.json"
+                                          ],
+                            "sha256":  [
+                                           "c6ef966da618be3cffc5be0841eaff37e2e0c9e3ac72d0cd5149981ec9aa775b",
+                                           "1a44fb6675815aca474dd2db32af280c37c05442c4f87a0670d9909363b37168"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "MATLAB optimization/HYSYS README was found, but no model file and no explicit license were detected.",
+                               "Repository contents may change later; rerun tree inspection before changing this rating."
+                           ]
+    },
+    {
+        "title":  "GitHub search sweep: no new licensed non-duplicate HYSYS model repository",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/search?q=HYSYS\u0026type=repositories",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-search-aspen-hysys-case-file.json",
+                                    "filename":  "github-search-aspen-hysys-case-file.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  401,
+                                    "sha256":  "0cfc41277ced10956a6abc31a932f3e82360dbedb7f0364178d885ce4904e83a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-search-hysys-case.json",
+                                    "filename":  "github-search-hysys-case.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1031,
+                                    "sha256":  "12e412f731f36dacdad32d7ebce70ce304d793704eef2706108488a3899f61f3"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-search-hysys-com.json",
+                                    "filename":  "github-search-hysys-com.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-search-hysys-license-mit.json",
+                                    "filename":  "github-search-hysys-license-mit.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5150,
+                                    "sha256":  "c847b7a5825be86bc3345f3435f50d8179bab0762e0296ed64f66c232af107fd"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-search-hysys-matlab.json",
+                                    "filename":  "github-search-hysys-matlab.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  580,
+                                    "sha256":  "6d04e8d2f58263cfc3794edf31845899047b3d7b04667c95c706927b4b3c7408"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/github-search-hysys-optimization.json",
+                                    "filename":  "github-search-hysys-optimization.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                }
+                            ],
+        "license_public_access_note":  "Repository search metadata saved. No new non-duplicate repository met the license plus HYSYS-model-file gate.",
+        "recommended_use":  "Use as audit evidence for this heartbeat and to refine future queries.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/search?q=HYSYS\u0026type=repositories",
+                            "download_url":  "",
+                            "title":  "GitHub search sweep: no new licensed non-duplicate HYSYS model repository",
+                            "filenames":  [
+                                              "github-search-aspen-hysys-case-file.json",
+                                              "github-search-hysys-case.json",
+                                              "github-search-hysys-com.json",
+                                              "github-search-hysys-license-mit.json",
+                                              "github-search-hysys-matlab.json",
+                                              "github-search-hysys-optimization.json"
+                                          ],
+                            "sha256":  [
+                                           "0cfc41277ced10956a6abc31a932f3e82360dbedb7f0364178d885ce4904e83a",
+                                           "12e412f731f36dacdad32d7ebce70ce304d793704eef2706108488a3899f61f3",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "c847b7a5825be86bc3345f3435f50d8179bab0762e0296ed64f66c232af107fd",
+                                           "6d04e8d2f58263cfc3794edf31845899047b3d7b04667c95c706927b4b3c7408",
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "GitHub repository search is not exhaustive for binary extensions.",
+                               "Several model-bearing repositories are already recorded in prior CASE runs and were intentionally not duplicated."
+                           ]
+    },
+    {
+        "title":  "Zenodo targeted search sweep: no new non-duplicate HYSYS model payload",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/search?q=Aspen%20HYSYS%20case%20file",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-1907Z/artifacts/zenodo-targeted-search-results.json",
+                                    "filename":  "zenodo-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  521616,
+                                    "sha256":  "adb845aa84d0dd0639ec357e50ce247ec6861062927bdd745fd4585e1fb2837e"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo API search metadata saved. Hits were known duplicates, papers without HYSYS model payload, or data-only records. No payload downloaded.",
+        "recommended_use":  "Use as duplicate-control evidence; revisit if a record publishes explicit .hsc/.hscz/XML/.compound payloads.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/search?q=Aspen%20HYSYS%20case%20file",
+                            "download_url":  "",
+                            "title":  "Zenodo targeted search sweep: no new non-duplicate HYSYS model payload",
+                            "filenames":  [
+                                              "zenodo-targeted-search-results.json"
+                                          ],
+                            "sha256":  [
+                                           "adb845aa84d0dd0639ec357e50ce247ec6861062927bdd745fd4585e1fb2837e"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Search aggregate may include false positives unrelated to Aspen HYSYS model files.",
+                               "Known Zenodo model records such as 10966344, 14882867, and 18806107 are already archived."
+                           ]
+    }
+]

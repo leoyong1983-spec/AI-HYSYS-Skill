@@ -1,0 +1,329 @@
+﻿[
+    {
+        "title":  "Licensed GitHub HYSYS case repositories rediscovered as duplicates",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/search?q=HYSYS+license%3Amit\u0026type=repositories",
+        "download_url":  "not_downloaded_duplicate_existing_CASE_assets",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/dedupe-summary.json",
+                                    "filename":  "dedupe-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  302,
+                                    "sha256":  "c0669a649802776b1cdb911f9e8dc709a8771632cb56fc87f32360efbb5e3e2b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-search-summary.json",
+                                    "filename":  "github-licensed-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  981,
+                                    "sha256":  "d28f1942f89f9059812a3e3851b5e6e651b1624875ba0bebd1b1f9770096c922"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-search-merged.json",
+                                    "filename":  "github-licensed-search-merged.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9000,
+                                    "sha256":  "bc30685be8ffc698a6744322380efd630b2b6bbc012574f06a92e402d51a4083"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspection-summary.json",
+                                    "filename":  "github-licensed-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7090,
+                                    "sha256":  "c0edcedd5dba25e39fccc64a8b92614bc18becb38ceee8a569c547b95d1a5e57"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  18050,
+                                    "sha256":  "072a8ce41fa8de464848ae22feeae4017ae24868d4d5bb629f479d3c8a1319b7"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repositories with MIT or GPL-3.0 license metadata were inspected. Qualifying HYSYS payloads were not downloaded because source pages, filenames, or prior hashes already exist in CASE archives.",
+        "recommended_use":  "Use the existing archived copies for Python-COM bridge tests, natural-gas sweetening, CDU optimization, pipeline pressure-drop, DWSIM-vs-HYSYS comparison, COSMO optimization, and Python-HYSYS access smoke tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python; https://github.com/shahria-sunny/Natural-Gas-Sweetening; https://github.com/shahria-sunny/CDU-Simulation-Optimization; https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines; https://github.com/andr1976/dwsim-paper; https://github.com/may3rd/COSMO; https://github.com/tinchofiuba/pythonHysys",
+                            "download_url":  "codeload GitHub archive URLs already present in prior CASE records where downloaded",
+                            "title":  "edgarsmdn/Aspen_HYSYS_Python; shahria-sunny/Natural-Gas-Sweetening; shahria-sunny/CDU-Simulation-Optimization; kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines; andr1976/dwsim-paper; may3rd/COSMO; tinchofiuba/pythonHysys",
+                            "filenames":  [
+                                              "Test_1.hsc",
+                                              "Gas Sweetening.hsc",
+                                              "project.hsc",
+                                              "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+                                              "simulations/Black oil EOS density.hsc",
+                                              "simulations/Black oil EOS density.xml",
+                                              "simulations/Optim.hsc",
+                                              "simulations/Optim.xml",
+                                              "Test_1.hsc",
+                                              "case.hsc",
+                                              "final.hsc"
+                                          ],
+                            "sha256":  [
+                                           "prior CASE hashes already recorded; this run did not redownload duplicate binaries"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc",
+                                                                           ".xml"
+                                                                       ],
+                                        "suspected_hysys_version":  "mixed; Natural-Gas-Sweetening and CDU repositories describe Aspen HYSYS V14; others unknown from metadata-only inspection",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  true,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Repository contents can change after inspection; use pinned commits before any future redownload.",
+                               "GPL-3.0 candidates require downstream compatibility review before redistribution-oriented benchmark use.",
+                               "No HYSYS model was opened or solved in this run."
+                           ]
+    },
+    {
+        "title":  "Licensed GitHub automation and simulation references without qualifying HYSYS case payloads",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/search?q=Aspen+HYSYS+license%3Amit\u0026type=repositories",
+        "download_url":  "not_downloaded_no_qualifying_hysys_case_file",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspection-summary.json",
+                                    "filename":  "github-licensed-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7090,
+                                    "sha256":  "c0edcedd5dba25e39fccc64a8b92614bc18becb38ceee8a569c547b95d1a5e57"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-search-merged.json",
+                                    "filename":  "github-licensed-search-merged.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9000,
+                                    "sha256":  "bc30685be8ffc698a6744322380efd630b2b6bbc012574f06a92e402d51a4083"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  18050,
+                                    "sha256":  "072a8ce41fa8de464848ae22feeae4017ae24868d4d5bb629f479d3c8a1319b7"
+                                }
+                            ],
+        "license_public_access_note":  "Repositories were publicly visible through GitHub search and had license metadata, but tree inspection did not identify .hsc, .hscz, HYSYS XML case, or .compound payloads suitable for CASE ingestion.",
+        "recommended_use":  "Keep as source leads for automation patterns, surrogate modeling context, or future manual review; do not treat as HYSYS benchmark cases until a case file is located.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization; https://github.com/aqiqiqiu/ai-hysys-autobuilder; https://github.com/GaboTalero/HYSYS-Python-Case-Builder; https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation; https://github.com/YuniqueCore/DynPlots; https://github.com/naawu789/HySysID; https://github.com/oscarcontrerasnavas/hysys-to-excel-intro; https://github.com/vminasid/Hysys-Unisis2Matlab; https://github.com/punkeel/HySystemdNotifier; https://github.com/jjgomera/pychemqt",
+                            "download_url":  "not_downloaded",
+                            "title":  "Galigeigei-Z/HDA-Surrogate-Optimization; aqiqiqiu/ai-hysys-autobuilder; GaboTalero/HYSYS-Python-Case-Builder; Jeslin-Jacob/rbf-interpolation-atmospheric-distillation; YuniqueCore/DynPlots; naawu789/HySysID; oscarcontrerasnavas/hysys-to-excel-intro; vminasid/Hysys-Unisis2Matlab; punkeel/HySystemdNotifier; jjgomera/pychemqt",
+                            "filenames":  [
+
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Some repositories may contain HYSYS assets behind releases, Git LFS pointers, or branch paths not visible in default tree summaries.",
+                               "Automation code references may still be useful, but they are outside the strict benchmark-case acceptance rule."
+                           ]
+    },
+    {
+        "title":  "Secondary platform metadata sweep with no confirmed non-duplicate HYSYS model download",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "Zenodo, Figshare, Harvard Dataverse, DataCite/Mendeley, GitLab, Bitbucket API metadata searches",
+        "download_url":  "not_downloaded_no_confirmed_public_nonduplicate_hysys_payload",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/external-search-summary.json",
+                                    "filename":  "external-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1599,
+                                    "sha256":  "693a946e8d63f1c38da098dcbbb49a62548c47db2bf8396231062b8262c5e68c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/zenodo-2008-targeted-search-results.json",
+                                    "filename":  "zenodo-2008-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  129852,
+                                    "sha256":  "ee91ded17b4af31763f90d024f8a923627439113166a755b3b9e9b49582ed368"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/harvard-dataverse-2008-targeted-search-results.json",
+                                    "filename":  "harvard-dataverse-2008-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  67558,
+                                    "sha256":  "e377e22659d7f4fa4ab862b630a8fe1ffedfbad289a51c7a8f1aceda3ca352b3"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/mendeley-datacite-2008-targeted-search-results.json",
+                                    "filename":  "mendeley-datacite-2008-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  231173,
+                                    "sha256":  "8b8b6ed67f5168056265445b105898f201bd61785dbca28bdb2848d5505e6b2c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/gitlab-2008-project-search-results.json",
+                                    "filename":  "gitlab-2008-project-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2,
+                                    "sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/bitbucket-2008-repository-search-results.json",
+                                    "filename":  "bitbucket-2008-repository-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  31,
+                                    "sha256":  "102a4a417a7e9a03ec85bb20a2ece3f9a3570ede409e6e0d95df975eaff760e1"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/bitbucket-2008-repository-search-results.err.txt",
+                                    "filename":  "bitbucket-2008-repository-search-results.err.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  55,
+                                    "sha256":  "a3e9f5e47cfbe7d1a77940b576397ff60c2b42373f23eb2bc1ed1e203587ab46"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  18050,
+                                    "sha256":  "072a8ce41fa8de464848ae22feeae4017ae24868d4d5bb629f479d3c8a1319b7"
+                                }
+                            ],
+        "license_public_access_note":  "Metadata endpoints were publicly reachable except Bitbucket, which returned HTTP 410. No files were downloaded because the run did not confirm a new public, licensed, non-duplicate Aspen HYSYS model payload.",
+        "recommended_use":  "Use these metadata dumps to refine future targeted queries for .hsc, .hscz, HYSYS XML, DOI-linked supplements, and license fields before download.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/api/records?q=Aspen%20HYSYS; https://api.figshare.com/v2/articles/search; https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20simulation; https://api.datacite.org/dois?query=Aspen%20HYSYS%20simulation; https://gitlab.com/api/v4/projects?search=Aspen%20HYSYS; https://api.bitbucket.org/2.0/repositories?q=name~%22hysys%22%20OR%20description~%22HYSYS%22",
+                            "download_url":  "not_downloaded",
+                            "title":  "secondary metadata sweep 2026-05-16 2008Z",
+                            "filenames":  [
+                                              "zenodo-2008-targeted-search-results.json",
+                                              "figshare-2008-targeted-search-results.json",
+                                              "harvard-dataverse-2008-targeted-search-results.json",
+                                              "mendeley-datacite-2008-targeted-search-results.json",
+                                              "gitlab-2008-project-search-results.json",
+                                              "bitbucket-2008-repository-search-results.json"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Metadata-only searches can miss case files nested inside supplementary archives.",
+                               "Manual DOI and landing-page review may be needed before any future download.",
+                               "Bitbucket API 410 prevented that lane from producing usable candidates."
+                           ]
+    },
+    {
+        "title":  "Operational note: GitHub licensed search lane should use duplicate allowlist before download",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "local CASE dedupe index and GitHub licensed search artifacts",
+        "download_url":  "not_applicable_operational_note",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/dedupe-summary.json",
+                                    "filename":  "dedupe-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  302,
+                                    "sha256":  "c0669a649802776b1cdb911f9e8dc709a8771632cb56fc87f32360efbb5e3e2b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-search-summary.json",
+                                    "filename":  "github-licensed-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  981,
+                                    "sha256":  "d28f1942f89f9059812a3e3851b5e6e651b1624875ba0bebd1b1f9770096c922"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspection-summary.json",
+                                    "filename":  "github-licensed-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7090,
+                                    "sha256":  "c0edcedd5dba25e39fccc64a8b92614bc18becb38ceee8a569c547b95d1a5e57"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  18050,
+                                    "sha256":  "072a8ce41fa8de464848ae22feeae4017ae24868d4d5bb629f479d3c8a1319b7"
+                                }
+                            ],
+        "license_public_access_note":  "No external payload was downloaded for this operational note. It records a workflow improvement based on public metadata and local CASE duplicate evidence.",
+        "recommended_use":  "Implement a maintained allowlist of high-confidence duplicate repositories and known non-case automation repositories to reduce repeated hourly reinspection.",
+        "dedupe_keys":  {
+                            "source_page":  "local CASE index: 35 sources.json and 35 index.md files reviewed",
+                            "download_url":  "not_applicable",
+                            "title":  "duplicate allowlist recommendation",
+                            "filenames":  [
+                                              "dedupe-summary.json",
+                                              "github-licensed-inspection-summary.json"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Without a persistent allowlist, later heartbeats may keep spending time on the same duplicate repositories.",
+                               "Allowlist entries should remain advisory because upstream repositories can publish new case files later."
+                           ]
+    }
+]

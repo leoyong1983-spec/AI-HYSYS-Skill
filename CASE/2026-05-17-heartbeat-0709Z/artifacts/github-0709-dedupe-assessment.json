@@ -1,0 +1,413 @@
+[
+  {
+    "repo": "kush1706/Methanol_Synthesis_Aspen_hysys",
+    "license": null,
+    "source_page": "https://github.com/kush1706/methanol_synthesis_aspen_hysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "GROUP_17.hsc.hsc"
+    ],
+    "duplicate_model_files": [
+      "GROUP_17.hsc.hsc"
+    ],
+    "readmes": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "iraola/tennessee-eastman-hysys",
+    "license": "NOASSERTION",
+    "source_page": "https://github.com/iraola/tennessee-eastman-hysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+    ],
+    "duplicate_model_files": [
+      "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "license": null,
+    "source_page": "https://github.com/mahdi-arashian/sour-gas-sweetening-hysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "GTU Simulation.hsc"
+    ],
+    "duplicate_model_files": [
+      "GTU Simulation.hsc"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [
+      "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "Paryazdan/Aspen-HYSYS-Projects",
+    "license": null,
+    "source_page": "https://github.com/paryazdan/aspen-hysys-projects",
+    "duplicate_source_page": true,
+    "model_files": [
+      "YazdanihaPHw3aSim.hsc"
+    ],
+    "duplicate_model_files": [
+      "YazdanihaPHw3aSim.hsc"
+    ],
+    "readmes": [],
+    "pdfs": [
+      "YazdanihaPHw3aFlowsheet.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "marcellobozzini/Python-Driving-License",
+    "license": null,
+    "source_page": "https://github.com/marcellobozzini/python-driving-license",
+    "duplicate_source_page": true,
+    "model_files": [
+      "Separazione_reattori.hsc"
+    ],
+    "duplicate_model_files": [
+      "Separazione_reattori.hsc"
+    ],
+    "readmes": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "license": null,
+    "source_page": "https://github.com/masoud-abdi/the-simulation-of-acetic-acid-process",
+    "duplicate_source_page": true,
+    "model_files": [
+      "acetic fin.hsc"
+    ],
+    "duplicate_model_files": [
+      "acetic fin.hsc"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [
+      "Acid-Material.pdf",
+      "HYSYS-Print.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "tinchofiuba/pythonHysys",
+    "license": "MIT",
+    "source_page": "https://github.com/tinchofiuba/pythonhysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "case.hsc",
+      "final.hsc"
+    ],
+    "duplicate_model_files": [
+      "case.hsc",
+      "final.hsc"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "hysys2Python.py"
+    ],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "royhanikbarr/Gas-Turbine-Hysys",
+    "license": null,
+    "source_page": "https://github.com/royhanikbarr/gas-turbine-hysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "Gas Turbine Power Plant Simulation.hsc"
+    ],
+    "duplicate_model_files": [
+      "Gas Turbine Power Plant Simulation.hsc"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [
+      "Simulation of Gas Turbine in Hysys.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "JeePeiQi0101/Aspen.HYSYS",
+    "license": null,
+    "source_page": "https://github.com/jeepeiqi0101/aspen.hysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "Aspen HYSYS simulation file_Parallel.xml",
+      "Aspen HYSYS simulation file_Series.xml",
+      "Aspen HYSYS simulation file_Single.xml"
+    ],
+    "duplicate_model_files": [
+      "Aspen HYSYS simulation file_Parallel.xml",
+      "Aspen HYSYS simulation file_Series.xml",
+      "Aspen HYSYS simulation file_Single.xml"
+    ],
+    "readmes": [],
+    "pdfs": [
+      "Hydrolysis of Acetic Anhydride report.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "license": null,
+    "source_page": "https://github.com/corey-mcinrue/node-c-aspen-hysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "NODECFINAL.hsc"
+    ],
+    "duplicate_model_files": [
+      "NODECFINAL.hsc"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "CristopherCano/Projects-ASPEN-HYSYS",
+    "license": null,
+    "source_page": "https://github.com/cristophercano/projects-aspen-hysys",
+    "duplicate_source_page": true,
+    "model_files": [
+      "Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Precalentando.hsc",
+      "Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Sin Precalentar.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso A1.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso A2.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso B1.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso C1.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso C2.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso C3.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso D1-2.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso D1.hsc",
+      "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 1.hsc",
+      "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 2.hsc",
+      "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 3.hsc",
+      "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO BASE.hsc",
+      "Proyecto Sección de absorción-desorción de la Planta de producción de óxido de etileno/Proyecto 1 Sección de absorción-desorción de la Planta de producción de óxido de etileno .hsc"
+    ],
+    "duplicate_model_files": [
+      "Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Precalentando.hsc",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Caso A1.hsc",
+      "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO BASE.hsc"
+    ],
+    "readmes": [
+      "Proyecto P1 Balance de Energía y eficiencia de un horno/README.md",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/README.md",
+      "README.md"
+    ],
+    "pdfs": [
+      "Proyecto P1 Balance de Energía y eficiencia de un horno/Proyecto_1 Balance de Energía y eficiencia de un horno_Cristopher Arvizu Cano.pdf",
+      "Proyecto P2  Ciclos de vapor para generación de potencia/Proyecto_2 Cr Balance de Energía y eficiencia de un horno_Cristopher Arvizu Cano.pdf",
+      "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2-Pinch y Exergia Circuito de sntesis NH3-2020-1.pdf",
+      "Proyecto Sección de absorción-desorción de la Planta de producción de óxido de etileno/Proyecto 1 Sección de absorción-desorción de la Planta de producción de óxido de etileno.pdf"
+    ],
+    "excel_or_csv": [
+      "Proyecto P1 Balance de Energía y eficiencia de un horno/Proyecto_1 Balance de Energía y eficiencia de un horno_Cristopher Arvizu Cano (2).xlsx",
+      "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2-Pinch y Exergia Circuito de sntesis NH3-2020-1.xlsx",
+      "Proyecto Sección de absorción-desorción de la Planta de producción de óxido de etileno/Proyecto 1 Sección de absorción-desorción de la Planta de producción de óxido de etileno .xlsx"
+    ],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "royhanikbarr/Aspen-Hysys-Simulation",
+    "license": null,
+    "source_page": "https://github.com/royhanikbarr/aspen-hysys-simulation",
+    "duplicate_source_page": true,
+    "model_files": [
+      "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc"
+    ],
+    "duplicate_model_files": [
+      "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [
+      "Design Simulation Production Butyl Chloride/Paper Hysys Simulation Production Butyl Chloride.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "may3rd/COSMO",
+    "license": "GPL-3.0",
+    "source_page": "https://github.com/may3rd/cosmo",
+    "duplicate_source_page": true,
+    "model_files": [
+      "Test_1.hsc"
+    ],
+    "duplicate_model_files": [
+      "Test_1.hsc"
+    ],
+    "readmes": [
+      "README.md",
+      "hens/README.md",
+      "yee_1990/readme.md"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [
+      "cases.xlsx",
+      "example_streams.csv",
+      "example_utilities.csv",
+      "forbidden_matches.csv",
+      "matches_U_cost.csv",
+      "parameters.csv",
+      "problem1.csv",
+      "required_matches.csv",
+      "streams.csv",
+      "test.csv",
+      "test_case.xlsx",
+      "utilities.csv",
+      "yee_1990/NLP/results.csv",
+      "yee_1990/NLP/streams.csv",
+      "yee_1990/NLP/utilities.csv",
+      "yee_1990/ex1/forbidden_matches.csv",
+      "yee_1990/ex1/matches_U_cost.csv",
+      "yee_1990/ex1/required_matches.csv",
+      "yee_1990/ex1/streams.csv",
+      "yee_1990/ex1/utilities.csv",
+      "yee_1990/ex3/forbidden_matches.csv",
+      "yee_1990/ex3/matches_U_cost.csv",
+      "yee_1990/ex3/required_matches.csv",
+      "yee_1990/ex3/streams.csv",
+      "yee_1990/ex3/utilities.csv",
+      "yee_1990/ex4/forbidden_matches.csv",
+      "yee_1990/ex4/matches_U_cost.csv",
+      "yee_1990/ex4/required_matches.csv",
+      "yee_1990/ex4/streams.csv",
+      "yee_1990/ex4/utilities.csv"
+    ],
+    "automation_scripts": [
+      "cosmo/constants/hysys_constants.py",
+      "cosmo/hysys_simulation.py",
+      "cosmo/hysys_typelib.py",
+      "run_excel.py"
+    ],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "Zinatullin76/Python-Hysys",
+    "license": null,
+    "source_page": "https://github.com/zinatullin76/python-hysys",
+    "duplicate_source_page": false,
+    "model_files": [
+      "NTC.hsc"
+    ],
+    "duplicate_model_files": [],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [
+      "Презетация.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "PythonHysysBridge.py"
+    ],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "Rus-tam/hysys_observer",
+    "license": null,
+    "source_page": "https://github.com/rus-tam/hysys_observer",
+    "duplicate_source_page": true,
+    "model_files": [
+      "example.hsc"
+    ],
+    "duplicate_model_files": [
+      "example.hsc"
+    ],
+    "readmes": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "src/components/stream.py",
+      "src/components/utilities.py",
+      "src/components/writer.py"
+    ],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "Facul-101/PY-HYSYS",
+    "license": null,
+    "source_page": "https://github.com/facul-101/py-hysys",
+    "duplicate_source_page": false,
+    "model_files": [
+      "First-PY_HYSYS/Simulacao_detalhada_V04.hsc"
+    ],
+    "duplicate_model_files": [],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "First-PY_HYSYS/engine_auxiliar_functions.py",
+      "First-PY_HYSYS/engine_main.py",
+      "First-PY_HYSYS/utils.py",
+      "Hysys_integration/__init__.py",
+      "Hysys_integration/pysys.py"
+    ],
+    "recommended_action": "candidate_only"
+  },
+  {
+    "repo": "afabrild/HYSYS-MATLAB-LINK",
+    "license": null,
+    "source_page": "https://github.com/afabrild/hysys-matlab-link",
+    "duplicate_source_page": true,
+    "model_files": [
+      "Distill_Example.hsc"
+    ],
+    "duplicate_model_files": [
+      "Distill_Example.hsc"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "Hysys_Matlab_Example.m"
+    ],
+    "recommended_action": "candidate_only"
+  }
+]

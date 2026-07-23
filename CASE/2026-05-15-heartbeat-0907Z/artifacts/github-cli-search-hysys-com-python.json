@@ -1,0 +1,125 @@
+{
+  "query": "HYSYS win32com Python in:readme",
+  "items": [
+    {
+      "description": "Python interface through the COM interface with Aspen Plus",
+      "fullName": "DanielVazVaz/PyAPLUS",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjM5Mjk1Njcw",
+        "is_bot": false,
+        "login": "DanielVazVaz",
+        "type": "User",
+        "url": "https://github.com/DanielVazVaz"
+      },
+      "updatedAt": "2025-09-30T12:50:13Z",
+      "url": "https://github.com/DanielVazVaz/PyAPLUS"
+    },
+    {
+      "description": "使用python 连接hysys ，并采用遗传算法实现稳态优化",
+      "fullName": "lihaijie1228/hysys_python_GA",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBj-EuA",
+        "is_bot": false,
+        "login": "lihaijie1228",
+        "type": "User",
+        "url": "https://github.com/lihaijie1228"
+      },
+      "updatedAt": "2026-03-10T13:52:07Z",
+      "url": "https://github.com/lihaijie1228/hysys_python_GA"
+    },
+    {
+      "description": "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+      "fullName": "Galigeigei-Z/HDA-Surrogate-Optimization",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDODLfYvw",
+        "is_bot": false,
+        "login": "Galigeigei-Z",
+        "type": "User",
+        "url": "https://github.com/Galigeigei-Z"
+      },
+      "updatedAt": "2026-05-14T12:13:01Z",
+      "url": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization"
+    },
+    {
+      "description": "",
+      "fullName": "akinami-421/-agent-",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOEKenVw",
+        "is_bot": false,
+        "login": "akinami-421",
+        "type": "User",
+        "url": "https://github.com/akinami-421"
+      },
+      "updatedAt": "2026-05-13T03:15:33Z",
+      "url": "https://github.com/akinami-421/-agent-"
+    },
+    {
+      "description": "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+      "fullName": "leoyong1983-spec/AI-HYSYS-Skill",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOEGlu5w",
+        "is_bot": false,
+        "login": "leoyong1983-spec",
+        "type": "User",
+        "url": "https://github.com/leoyong1983-spec"
+      },
+      "updatedAt": "2026-05-14T22:15:05Z",
+      "url": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill"
+    },
+    {
+      "description": "Serie de prácticas para usar ASPEN desde scripts de Python",
+      "fullName": "JavierSalasGarcia/aspen_python_API",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBlPvEg",
+        "is_bot": false,
+        "login": "JavierSalasGarcia",
+        "type": "User",
+        "url": "https://github.com/JavierSalasGarcia"
+      },
+      "updatedAt": "2025-11-20T06:16:32Z",
+      "url": "https://github.com/JavierSalasGarcia/aspen_python_API"
+    }
+  ]
+}

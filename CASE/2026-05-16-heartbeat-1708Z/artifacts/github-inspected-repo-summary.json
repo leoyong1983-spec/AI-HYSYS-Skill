@@ -1,0 +1,239 @@
+﻿{
+    "merged_repositories":  85,
+    "inspected_repositories":  21,
+    "hysys_like_repositories":  1,
+    "note":  "Batch tree inspection was capped after partial API timeout; retained inspected metadata and broad search results remain auditable.",
+    "rows":  [
+                 {
+                     "repo":  "jjgomera/pychemqt",
+                     "url":  "https://github.com/jjgomera/pychemqt",
+                     "license":  "GPL-3.0",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-recent.json",
+                     "file_count":  1103,
+                     "hysys_like":  "",
+                     "companion_count":  40,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "JoshuaKiplimo/ResParse",
+                     "url":  "https://github.com/JoshuaKiplimo/ResParse",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-excel-validation.json",
+                     "file_count":  25,
+                     "hysys_like":  "",
+                     "companion_count":  14,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "JavierBerenguer/Trabajo-Final-de-Grado",
+                     "url":  "https://github.com/JavierBerenguer/Trabajo-Final-de-Grado",
+                     "license":  "MIT",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json",
+                     "file_count":  131,
+                     "hysys_like":  "",
+                     "companion_count":  40,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "GaboTalero/GaboTalero",
+                     "url":  "https://github.com/GaboTalero/GaboTalero",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-python-com.json",
+                     "file_count":  1,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Gopal564/Chemical-Engineering-Revision",
+                     "url":  "https://github.com/Gopal564/Chemical-Engineering-Revision",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-excel-validation.json,github-repo-hysys-supersonic.json",
+                     "file_count":  1,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "suryonaufal/suryonaufal",
+                     "url":  "https://github.com/suryonaufal/suryonaufal",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json",
+                     "file_count":  2,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "wisemansg/wisemansg",
+                     "url":  "https://github.com/wisemansg/wisemansg",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json",
+                     "file_count":  1,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "sai-ashwin-2001/ml-proj-bitsf464",
+                     "url":  "https://github.com/sai-ashwin-2001/ml-proj-bitsf464",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-lng.json",
+                     "file_count":  5,
+                     "hysys_like":  "",
+                     "companion_count":  4,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Obinna-Okolie/Obinna_Okolie",
+                     "url":  "https://github.com/Obinna-Okolie/Obinna_Okolie",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json",
+                     "file_count":  4,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "OntoLedgy/ol_dwsim_interop_services",
+                     "url":  "https://github.com/OntoLedgy/ol_dwsim_interop_services",
+                     "license":  "AGPL-3.0",
+                     "seen_before":  true,
+                     "queries":  "github-repo-hysys-python-com.json,github-repo-hysys-simulation-files.json",
+                     "file_count":  1015,
+                     "hysys_like":  "",
+                     "companion_count":  40,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "FlameEnjoyer/academic-portfolio",
+                     "url":  "https://github.com/FlameEnjoyer/academic-portfolio",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json",
+                     "file_count":  2,
+                     "hysys_like":  "",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries",
+                     "url":  "https://github.com/AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-excel-validation.json",
+                     "file_count":  19,
+                     "hysys_like":  "",
+                     "companion_count":  4,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "aqiqiqiu/ai-hysys-autobuilder",
+                     "url":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+                     "license":  "MIT",
+                     "seen_before":  true,
+                     "queries":  "github-repo-hysys-python-com.json",
+                     "file_count":  20,
+                     "hysys_like":  "",
+                     "companion_count":  17,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "alimardani76/pyexergy",
+                     "url":  "https://github.com/alimardani76/pyexergy",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-lng.json",
+                     "file_count":  6,
+                     "hysys_like":  "",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                     "url":  "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                     "license":  "",
+                     "seen_before":  true,
+                     "queries":  "github-repo-hysys-lng.json",
+                     "file_count":  2,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "AbhiA0821/Resume-Matcher",
+                     "url":  "https://github.com/AbhiA0821/Resume-Matcher",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json",
+                     "file_count":  2496,
+                     "hysys_like":  "",
+                     "companion_count":  40,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Brianhuynh97/Brianhuynh97",
+                     "url":  "https://github.com/Brianhuynh97/Brianhuynh97",
+                     "license":  "MIT",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json,github-repo-hysys-python-com.json,github-repo-hysys-recent.json",
+                     "file_count":  6,
+                     "hysys_like":  "",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Deepanshu-Sati/flash-solver",
+                     "url":  "https://github.com/Deepanshu-Sati/flash-solver",
+                     "license":  "MIT",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-python-com.json",
+                     "file_count":  24,
+                     "hysys_like":  "",
+                     "companion_count":  17,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "avaldeslopez93/avaldeslopez93",
+                     "url":  "https://github.com/avaldeslopez93/avaldeslopez93",
+                     "license":  "",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-matlab.json",
+                     "file_count":  1,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Asgari-research/h2-gasification-mof-zeolite-screening",
+                     "url":  "https://github.com/Asgari-research/h2-gasification-mof-zeolite-screening",
+                     "license":  "MIT",
+                     "seen_before":  false,
+                     "queries":  "github-repo-hysys-python-com.json,github-repo-hysys-simulation-files.json",
+                     "file_count":  11,
+                     "hysys_like":  "",
+                     "companion_count":  6,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+                     "url":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+                     "license":  "",
+                     "seen_before":  true,
+                     "queries":  "github-repo-hysys-supersonic.json",
+                     "file_count":  28,
+                     "hysys_like":  "Project-PR/hyApp.hsc",
+                     "companion_count":  14,
+                     "error":  null
+                 }
+             ]
+}

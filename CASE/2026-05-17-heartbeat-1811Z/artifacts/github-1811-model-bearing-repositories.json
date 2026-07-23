@@ -1,0 +1,101 @@
+[
+  {
+    "full_name": "EmPajak21/multiagentllms",
+    "source_page": "https://github.com/EmPajak21/multiagentllms",
+    "code_hits": [
+      {
+        "path": "tools/hysys.py",
+        "repository": {
+          "id": "R_kgDONTVvug",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "EmPajak21/multiagentllms",
+          "url": "https://github.com/EmPajak21/multiagentllms"
+        },
+        "sha": "739f340b6eb200ea94c436468c1ab647fd37141f",
+        "url": "https://github.com/EmPajak21/multiagentllms/blob/9bcf1d344ac1c7014525d3610efc83cbbda5cfd1/tools/hysys.py"
+      },
+      {
+        "path": "tools/hysys.py",
+        "repository": {
+          "id": "R_kgDONTVvug",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "EmPajak21/multiagentllms",
+          "url": "https://github.com/EmPajak21/multiagentllms"
+        },
+        "sha": "739f340b6eb200ea94c436468c1ab647fd37141f",
+        "url": "https://github.com/EmPajak21/multiagentllms/blob/9bcf1d344ac1c7014525d3610efc83cbbda5cfd1/tools/hysys.py"
+      }
+    ],
+    "repo_json": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-EmPajak21__multiagentllms.json",
+    "license_json": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-license-EmPajak21__multiagentllms.json",
+    "default_branch": "main",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [
+      {
+        "path": "tools/surrogates/GOSP A_EP.hsc",
+        "size": 20027990,
+        "sha": "301b97948a4ae8a1ae6ff99c061cf1ae10cc3ca9"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "agentic_workflow_copy.py",
+        "size": 11867,
+        "sha": "950ef21ae9ed8bc36aa1da8c4c6b0c349a4c583a"
+      },
+      {
+        "path": "agents.py",
+        "size": 1622,
+        "sha": "03a2c27b4bfd1f0ddb904358c34bc4dea88f9424"
+      },
+      {
+        "path": "main.py",
+        "size": 2111,
+        "sha": "c9ceb7e9731978c5e80b791d0a0e1ff8d2c47f72"
+      },
+      {
+        "path": "tools/RAG/get_econ_constraint_pdf.py",
+        "size": 922,
+        "sha": "76f015e961d3be632b5e70dde56bb3a82e140f2b"
+      },
+      {
+        "path": "tools/RAG/get_econ_pdf.py",
+        "size": 1574,
+        "sha": "8f6654dfb657ae14b02f7ae29a2bbd9f466fce2f"
+      },
+      {
+        "path": "tools/__init__.py",
+        "size": 919,
+        "sha": "e07d5fa3c3c7af2581597399afdafa103fd02a6f"
+      },
+      {
+        "path": "tools/hysys.py",
+        "size": 4628,
+        "sha": "739f340b6eb200ea94c436468c1ab647fd37141f"
+      },
+      {
+        "path": "tools/moo_gosp_laa.py",
+        "size": 28445,
+        "sha": "e75af0a8f91daa450e5f5eea586181cdff95d58e"
+      },
+      {
+        "path": "tools/tools.py",
+        "size": 10762,
+        "sha": "0ee17f1ddcd639e40f30821311109198663e4993"
+      },
+      {
+        "path": "workflow.py",
+        "size": 10183,
+        "sha": "965c0c19f0f12da882b67d59a54efbe1e6ada73a"
+      }
+    ],
+    "has_readme": false,
+    "has_license_file": false,
+    "tree_truncated": false,
+    "tree_file_count": 32,
+    "tree_json": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-tree-EmPajak21__multiagentllms.json"
+  }
+]

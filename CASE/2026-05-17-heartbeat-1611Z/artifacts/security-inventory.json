@@ -1,0 +1,675 @@
+{
+  "total_files": 95,
+  "dangerous_or_executable_count": 0,
+  "archive_count": 0,
+  "total_size_bytes": 4121693,
+  "dangerous_or_executable": [],
+  "archives": [],
+  "files": [
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/classification-corrections.json",
+      "filename": "classification-corrections.json",
+      "extension": ".json",
+      "size_bytes": 364,
+      "sha256": "1c980a949bdfb75078af7f59b54c06af13130f5b7ec5bded5fb915c922323925"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/dedupe-sample.json",
+      "filename": "dedupe-sample.json",
+      "extension": ".json",
+      "size_bytes": 35726,
+      "sha256": "8e64a1ffafaa3057fb4bee7f328c7a470878a97147506cf87d90e4f66d7e6654"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/dedupe-summary.json",
+      "filename": "dedupe-summary.json",
+      "extension": ".json",
+      "size_bytes": 288,
+      "sha256": "4f13b4a9c3a9d7643ca16d7febd0359393bcbdbe23f7324c4ac008369736a196"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/download-summary.json",
+      "filename": "download-summary.json",
+      "extension": ".json",
+      "size_bytes": 116,
+      "sha256": "47efaa0d4031cc38137c3f5aa612204539f5885a53bd0ae579136768e5f58a01"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/external-1611-bitbucket-search.err.txt",
+      "filename": "external-1611-bitbucket-search.err.txt",
+      "extension": ".txt",
+      "size_bytes": 20,
+      "sha256": "5cf18864037ee5fdac2aeef382c752c8e8cbb06aacf42a0257cae8bb3bfcc31e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/external-1611-gitlab-project-search.json",
+      "filename": "external-1611-gitlab-project-search.json",
+      "extension": ".json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/external-1611-search-summary.json",
+      "filename": "external-1611-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 1202,
+      "sha256": "387dab0c807331d1d9a5aae496971755e6afdba06393717fc9f84eb5f7d75c96"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/external-1611-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "filename": "external-1611-zenodo-Aspen__HYSYS__.hsc.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/external-1611-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "filename": "external-1611-zenodo-Aspen__HYSYS__.hscz.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/external-1611-zenodo-HYSYS__XML__Cases__.xml.err.txt",
+      "filename": "external-1611-zenodo-HYSYS__XML__Cases__.xml.err.txt",
+      "extension": ".txt",
+      "size_bytes": 30,
+      "sha256": "59fd1291794c1385fb9e2d6069a682f0d7bc6754df11c32041b53ef7d5098984"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-aspen-hysys-any.json",
+      "filename": "github-1611-code-search-aspen-hysys-any.json",
+      "extension": ".json",
+      "size_bytes": 15618,
+      "sha256": "c10879a7c69462b10ae5c0cd1dbd44f13897350e2669cc8ec02a24e917d202b3"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hsc-hysys-any.json",
+      "filename": "github-1611-code-search-hsc-hysys-any.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hysys-matlab.json",
+      "filename": "github-1611-code-search-hysys-matlab.json",
+      "extension": ".json",
+      "size_bytes": 16926,
+      "sha256": "8f03c81836d4b0f57541bb623b2e1e43d6e61ce5c4f6b8d59fabb2184c71ee29"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hysys-py.json",
+      "filename": "github-1611-code-search-hysys-py.json",
+      "extension": ".json",
+      "size_bytes": 15034,
+      "sha256": "60ae80ccb5ea1fee28122994958eb12e06002a39fc106f54bce8cce1755eee84"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-hysys-simulation-files.json",
+      "filename": "github-1611-code-search-hysys-simulation-files.json",
+      "extension": ".json",
+      "size_bytes": 1938,
+      "sha256": "7861e52c3bebc538ecd119f08fb9eaf09f7c33f3d67a4f1553ff32d13c23d897"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-code-search-win32com-hysys-py.json",
+      "filename": "github-1611-code-search-win32com-hysys-py.json",
+      "extension": ".json",
+      "size_bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-dedupe-assessment.json",
+      "filename": "github-1611-dedupe-assessment.json",
+      "extension": ".json",
+      "size_bytes": 1005,
+      "sha256": "db3e5b6e1ef41da087bcf1d2a93f3cf1bc0bb40c170604188862807dae08398c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-inspected-repositories.json",
+      "filename": "github-1611-inspected-repositories.json",
+      "extension": ".json",
+      "size_bytes": 253353,
+      "sha256": "bd727daf89cd525a400975bb96e65454efd15819768fcf6fb0b5a708cec9d169"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-inspection-summary.json",
+      "filename": "github-1611-inspection-summary.json",
+      "extension": ".json",
+      "size_bytes": 5870,
+      "sha256": "b23f599197062effcb79be95f8bf09165218e9b3211de5424fcb1303e65d8f45"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-inspection-targets.json",
+      "filename": "github-1611-inspection-targets.json",
+      "extension": ".json",
+      "size_bytes": 1827,
+      "sha256": "1127b0103ed1b35de42d2259235fafae304dcab8162e1a462fbce7db6e127bd2"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-a5c-ai__babysitter.json",
+      "filename": "github-1611-license-a5c-ai__babysitter.json",
+      "extension": ".json",
+      "size_bytes": 2501,
+      "sha256": "1532041a2fa974c43396a86cb5babfc7cca17827f77f699eb55f9be615ff5289"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-act-elegancy__consumet.json",
+      "filename": "github-1611-license-act-elegancy__consumet.json",
+      "extension": ".json",
+      "size_bytes": 2569,
+      "sha256": "e67153643bc022514277d100c18bb1d50f8c535d4eb069f1efe1f0b996ffe715"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "filename": "github-1611-license-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-CAChemE__stochastic-optimization.json",
+      "filename": "github-1611-license-CAChemE__stochastic-optimization.json",
+      "extension": ".json",
+      "size_bytes": 3271,
+      "sha256": "5f4723bcbe0a8a7767ab65be68add05beca90285f71a28b3c658e599f2c1fb8a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-cambridge-cares__TheWorldAvatar.json",
+      "filename": "github-1611-license-cambridge-cares__TheWorldAvatar.json",
+      "extension": ".json",
+      "size_bytes": 2855,
+      "sha256": "7aea313c1c0711191b842eaec68f4f66ad70b0380e52278b271d1d68caa74ef9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-chensunwang__HYCivicCenter.json",
+      "filename": "github-1611-license-chensunwang__HYCivicCenter.json",
+      "extension": ".json",
+      "size_bytes": 2562,
+      "sha256": "1d29baa3b25e5c08ed80d14a8ee1fd649062586a06004bcf6938d270b9592b59"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-emeraldsci__SymbolicLabLanguage.json",
+      "filename": "github-1611-license-emeraldsci__SymbolicLabLanguage.json",
+      "extension": ".json",
+      "size_bytes": 49568,
+      "sha256": "1976fc4c00243b3dde64e748070eaff2e5657d65f439f28deaab1e6b2d3403e2"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-equinor__neqsim.json",
+      "filename": "github-1611-license-equinor__neqsim.json",
+      "extension": ".json",
+      "size_bytes": 16650,
+      "sha256": "734e16100dbc0e796c94e54024e91ede14f5101a36cb32def85154c2f44a7bea"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-Gallo05952__Articolo_energies.json",
+      "filename": "github-1611-license-Gallo05952__Articolo_energies.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-Gravios__MTA.json",
+      "filename": "github-1611-license-Gravios__MTA.json",
+      "extension": ".json",
+      "size_bytes": 2492,
+      "sha256": "2f87e663987c9277ad668a40af9daeaa3eef8e1c0cf168e9c4d4eaa4253e46fd"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-HelloYeah__Floral_OC.json",
+      "filename": "github-1611-license-HelloYeah__Floral_OC.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-huayancreate__konka.json",
+      "filename": "github-1611-license-huayancreate__konka.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-idaholab__FORCE.json",
+      "filename": "github-1611-license-idaholab__FORCE.json",
+      "extension": ".json",
+      "size_bytes": 2489,
+      "sha256": "b134dd78a611ed32a63d52660242bb13afc5d77fd3aa8349ccf7ebb0377c720d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-kwellis__woffl.json",
+      "filename": "github-1611-license-kwellis__woffl.json",
+      "extension": ".json",
+      "size_bytes": 48595,
+      "sha256": "f8b98a39c0cbfcb01c1a563ecff7f187bd46f0e87e83f59079bfdd32b70daac9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-mapleccs__MAPO.json",
+      "filename": "github-1611-license-mapleccs__MAPO.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-metcalex__CHBE-403.json",
+      "filename": "github-1611-license-metcalex__CHBE-403.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-msmasnadi__OPGEEv4.json",
+      "filename": "github-1611-license-msmasnadi__OPGEEv4.json",
+      "extension": ".json",
+      "size_bytes": 3949,
+      "sha256": "ea5b57ebcc8c5a00c8e54c56d8f8e0e7f6c8709a988badf3251b2122e8c94f76"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-petrobras__ccp.json",
+      "filename": "github-1611-license-petrobras__ccp.json",
+      "extension": ".json",
+      "size_bytes": 16659,
+      "sha256": "faa7a4c071606bf6bbe4c79acaa43a207e8c835d9240650df598098a2bce85d0"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-puttak__Modeling-Simulation-Project.json",
+      "filename": "github-1611-license-puttak__Modeling-Simulation-Project.json",
+      "extension": ".json",
+      "size_bytes": 16820,
+      "sha256": "37fc8bac147e2c9095edf9ce24bf5ebfb29c82fa2d7e2401a344e153da0a2764"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-Weamandcompany__website.json",
+      "filename": "github-1611-license-Weamandcompany__website.json",
+      "extension": ".json",
+      "size_bytes": 64,
+      "sha256": "4cf863611fda7ab859d69c39e68d00db76c649bf06f47b36152502a1bb5c8273"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-model-bearing-repositories.json",
+      "filename": "github-1611-model-bearing-repositories.json",
+      "extension": ".json",
+      "size_bytes": 9895,
+      "sha256": "2eb2dead2df84faf9d7a63dc8053668a217a660a62f18c340d951992c894fc16"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-a5c-ai__babysitter.json",
+      "filename": "github-1611-repo-a5c-ai__babysitter.json",
+      "extension": ".json",
+      "size_bytes": 7277,
+      "sha256": "5d756c9321c60e1ec647334d192f55ce52c497abd448efa614c745462934be4e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-act-elegancy__consumet.json",
+      "filename": "github-1611-repo-act-elegancy__consumet.json",
+      "extension": ".json",
+      "size_bytes": 7391,
+      "sha256": "6739e8554816fe9a2e8723a175f2f1075574b35076c6289768522d1e813dfe57"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "filename": "github-1611-repo-Ahmedhassan676__Python4ChemicalEngineers.json",
+      "extension": ".json",
+      "size_bytes": 6643,
+      "sha256": "fe973c8c2d9cc9a0ca300c05e55a612e384be59ff96d00a524c640499e1e5261"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-CAChemE__stochastic-optimization.json",
+      "filename": "github-1611-repo-CAChemE__stochastic-optimization.json",
+      "extension": ".json",
+      "size_bytes": 7612,
+      "sha256": "df594e33c9fe4547a9cf816d5c37381eacdf505a563b1d80ea6faa089876130a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-cambridge-cares__TheWorldAvatar.json",
+      "filename": "github-1611-repo-cambridge-cares__TheWorldAvatar.json",
+      "extension": ".json",
+      "size_bytes": 7683,
+      "sha256": "172ea4efe148f01990b9b22c44d404fb611ede1f6d9728170050eb0b0ace0306"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-chensunwang__HYCivicCenter.json",
+      "filename": "github-1611-repo-chensunwang__HYCivicCenter.json",
+      "extension": ".json",
+      "size_bytes": 6082,
+      "sha256": "6e5853400e02718ed33c1bf0a551f3d7de6b148a5147e8e73278dfaabecdbe43"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-emeraldsci__SymbolicLabLanguage.json",
+      "filename": "github-1611-repo-emeraldsci__SymbolicLabLanguage.json",
+      "extension": ".json",
+      "size_bytes": 7607,
+      "sha256": "8e0f449f3b0eedb7306cfab15e88815c799fddd4dcb5077e8f78d9a9a4493753"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-equinor__neqsim.json",
+      "filename": "github-1611-repo-equinor__neqsim.json",
+      "extension": ".json",
+      "size_bytes": 7167,
+      "sha256": "16549973256b869eac7faa862c8945eb4dc2cd6df7600477f5d5a0a1a4510fd7"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-Gallo05952__Articolo_energies.json",
+      "filename": "github-1611-repo-Gallo05952__Articolo_energies.json",
+      "extension": ".json",
+      "size_bytes": 6040,
+      "sha256": "02c87a3b3084334e182e352134ff3d06d126ac0f5ac23f581036729cde07a5ac"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-Gravios__MTA.json",
+      "filename": "github-1611-repo-Gravios__MTA.json",
+      "extension": ".json",
+      "size_bytes": 5517,
+      "sha256": "015a96d35463396e2d4e8b6b48ccd4dff05a56018fe7fc63cb33901203ca315f"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-HelloYeah__Floral_OC.json",
+      "filename": "github-1611-repo-HelloYeah__Floral_OC.json",
+      "extension": ".json",
+      "size_bytes": 5670,
+      "sha256": "ff66b866cd4d0e2df3eb506ede50ee9342fbf127ce78682ae9432c31549e757c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-huayancreate__konka.json",
+      "filename": "github-1611-repo-huayancreate__konka.json",
+      "extension": ".json",
+      "size_bytes": 6856,
+      "sha256": "07b1246b2dbbe7f7ab44319277f68981d27d140030f042a7c5da2b4a3b85d098"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-idaholab__FORCE.json",
+      "filename": "github-1611-repo-idaholab__FORCE.json",
+      "extension": ".json",
+      "size_bytes": 7050,
+      "sha256": "1b49a83282140ad0416aa61ae82176bd80ade20f59b2f02dc378d10cca1b8a11"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-kwellis__woffl.json",
+      "filename": "github-1611-repo-kwellis__woffl.json",
+      "extension": ".json",
+      "size_bytes": 5596,
+      "sha256": "66e7ea1b142216333264a5f48fd1ef3e170ddf8ea0f26f641fdebdd183b28caf"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-mapleccs__MAPO.json",
+      "filename": "github-1611-repo-mapleccs__MAPO.json",
+      "extension": ".json",
+      "size_bytes": 5358,
+      "sha256": "ef88dbeef199c2e7f14e222b1a48d1c98a2442fb64f8389ba13e0236d5c3aa44"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-metcalex__CHBE-403.json",
+      "filename": "github-1611-repo-metcalex__CHBE-403.json",
+      "extension": ".json",
+      "size_bytes": 5550,
+      "sha256": "c9d1749d9f9feb69f34b48876a37a3738444fa44f07b4fbf5c097395a220b17b"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-msmasnadi__OPGEEv4.json",
+      "filename": "github-1611-repo-msmasnadi__OPGEEv4.json",
+      "extension": ".json",
+      "size_bytes": 5695,
+      "sha256": "1f7b3ca2e15a3bfe0529c5c4edabf5bebd4ce592641c9605582bbab64e01bbee"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-petrobras__ccp.json",
+      "filename": "github-1611-repo-petrobras__ccp.json",
+      "extension": ".json",
+      "size_bytes": 6850,
+      "sha256": "182c4ff4a45a0aab2dcbbe8d72e14791d1b86af42e69b181d0d2f8eac914a552"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-puttak__Modeling-Simulation-Project.json",
+      "filename": "github-1611-repo-puttak__Modeling-Simulation-Project.json",
+      "extension": ".json",
+      "size_bytes": 6475,
+      "sha256": "6acc361eb7d8b1b74f5821206cdf20788f8eaf537cf9efd2f7f8e5a190efbac5"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-Aspen__HYSYS__hsc.json",
+      "filename": "github-1611-repo-search-Aspen__HYSYS__hsc.json",
+      "extension": ".json",
+      "size_bytes": 72,
+      "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-Aspen__HYSYS__Python__COM.json",
+      "filename": "github-1611-repo-search-Aspen__HYSYS__Python__COM.json",
+      "extension": ".json",
+      "size_bytes": 7094,
+      "sha256": "070bc30455300cf4ca57db06cbd1c5df7582dca7af676976ff6ef2eecc1f5b0e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-HYSYS__case__file.json",
+      "filename": "github-1611-repo-search-HYSYS__case__file.json",
+      "extension": ".json",
+      "size_bytes": 20366,
+      "sha256": "5e74d87b709a06f7b165edacdb744e41a510cca61ab2fdf5c9f637d20b0c0aa9"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-HYSYS__optimization__case.json",
+      "filename": "github-1611-repo-search-HYSYS__optimization__case.json",
+      "extension": ".json",
+      "size_bytes": 6022,
+      "sha256": "e9534ed26871901e4ad11b8f883e5e526d7237fd4dbb022c413a089d58887745"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-search-HYSYS__simulation__Aspen__license__MIT.json",
+      "filename": "github-1611-repo-search-HYSYS__simulation__Aspen__license__MIT.json",
+      "extension": ".json",
+      "size_bytes": 72,
+      "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-Weamandcompany__website.json",
+      "filename": "github-1611-repo-Weamandcompany__website.json",
+      "extension": ".json",
+      "size_bytes": 5838,
+      "sha256": "52980b2a3d6098ee3fc019d439302ca433391cebfda651830380bcc24839b74b"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-search-summary.json",
+      "filename": "github-1611-search-summary.json",
+      "extension": ".json",
+      "size_bytes": 2481,
+      "sha256": "ebf5449e1068b7ec12205cb324a29a542a4350ac8a805118464bb042018a6a1c"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-skipped-no-model.json",
+      "filename": "github-1611-skipped-no-model.json",
+      "extension": ".json",
+      "size_bytes": 7396,
+      "sha256": "a0a19bedbaf1640d87311d222cdbe6a1d234ab3d52e2c76d6e4313e3db456fe1"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-act-elegancy__consumet.json",
+      "filename": "github-1611-tree-act-elegancy__consumet.json",
+      "extension": ".json",
+      "size_bytes": 12098,
+      "sha256": "206d27dd5fd499c79569fb7d363dd6d4dbaa08fb8b246ce7e53b773fe4d7a3e3"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-CAChemE__stochastic-optimization.json",
+      "filename": "github-1611-tree-CAChemE__stochastic-optimization.json",
+      "extension": ".json",
+      "size_bytes": 30705,
+      "sha256": "a768239025e50c456348f54564b4d9d214685db1bc0bb5f02d0e9234f9f0e0d4"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-chensunwang__HYCivicCenter.json",
+      "filename": "github-1611-tree-chensunwang__HYCivicCenter.json",
+      "extension": ".json",
+      "size_bytes": 586617,
+      "sha256": "5128d5759729c565ba9880b5dfc84516b411c9102a365a27de41622a02e0764a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-Gallo05952__Articolo_energies.json",
+      "filename": "github-1611-tree-Gallo05952__Articolo_energies.json",
+      "extension": ".json",
+      "size_bytes": 13139,
+      "sha256": "86fa2b9cbac498b1cf4b1a26fc6e2ca882737b5eeb41571c18cc31853b7ba152"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-Gravios__MTA.json",
+      "filename": "github-1611-tree-Gravios__MTA.json",
+      "extension": ".json",
+      "size_bytes": 587658,
+      "sha256": "5615ab57eef2bcdbcad7f097d109e29fcc1824c9599ea3306a6e7da208609858"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-HelloYeah__Floral_OC.json",
+      "filename": "github-1611-tree-HelloYeah__Floral_OC.json",
+      "extension": ".json",
+      "size_bytes": 285779,
+      "sha256": "9914af78a53840ef8327b0c3d138669e7ff98c99a6ce0534881bf6e89e55b4f1"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-huayancreate__konka.json",
+      "filename": "github-1611-tree-huayancreate__konka.json",
+      "extension": ".json",
+      "size_bytes": 436909,
+      "sha256": "b7aa37d361ac90b0b0edc6fbd9d0e4c62e45a2f724535f41eb0b0f21c2d4f2c6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-idaholab__FORCE.json",
+      "filename": "github-1611-tree-idaholab__FORCE.json",
+      "extension": ".json",
+      "size_bytes": 295357,
+      "sha256": "233e3a932bea911e47db1240b25cb44b75e28554f002e8682b7c52ff7c9543fa"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-kwellis__woffl.json",
+      "filename": "github-1611-tree-kwellis__woffl.json",
+      "extension": ".json",
+      "size_bytes": 19879,
+      "sha256": "df6d390be895d40f0b2243339b2abc00141fbfac0d34100057cde3d1ed97a3bc"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-mapleccs__MAPO.json",
+      "filename": "github-1611-tree-mapleccs__MAPO.json",
+      "extension": ".json",
+      "size_bytes": 68729,
+      "sha256": "a386644a5eacea23f00f30a5942074a918b6dc3786b71b15d03e15ed165f3af6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-metcalex__CHBE-403.json",
+      "filename": "github-1611-tree-metcalex__CHBE-403.json",
+      "extension": ".json",
+      "size_bytes": 6051,
+      "sha256": "8753c3f1936c022a27fd6523a00892307b62314478ed232b4f1c153d8f07f5a5"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-msmasnadi__OPGEEv4.json",
+      "filename": "github-1611-tree-msmasnadi__OPGEEv4.json",
+      "extension": ".json",
+      "size_bytes": 113976,
+      "sha256": "b976488a273883784ee85c339408381788006a83f4209047fec09bb20e9eeb7d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-petrobras__ccp.json",
+      "filename": "github-1611-tree-petrobras__ccp.json",
+      "extension": ".json",
+      "size_bytes": 51612,
+      "sha256": "2d59c7f5d2e983062151d59964af1dd7d7453a20b5cf36a4c7623a2f16fbe604"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-puttak__Modeling-Simulation-Project.json",
+      "filename": "github-1611-tree-puttak__Modeling-Simulation-Project.json",
+      "extension": ".json",
+      "size_bytes": 5733,
+      "sha256": "14fe8a78cc5daf6a6586da6fa64a5a303921a3e28a04d7ac7a075287e8638be2"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-Weamandcompany__website.json",
+      "filename": "github-1611-tree-Weamandcompany__website.json",
+      "extension": ".json",
+      "size_bytes": 110467,
+      "sha256": "87192a82231aafb846e56ebe276a5bb4dcb1cb04374a906b1a94e611aeb47ff6"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/pruned-large-tree-files.json",
+      "filename": "pruned-large-tree-files.json",
+      "extension": ".json",
+      "size_bytes": 1722,
+      "sha256": "f1970fe2cb2fb3246724e3dbc92ebcd02ebeacf9cd732be26e50891fc4b63b8a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/security-inventory.json",
+      "filename": "security-inventory.json",
+      "extension": ".json",
+      "size_bytes": 32245,
+      "sha256": "24ee512d8865ed9a38cbeec1ecca76d5c48d5da22c0d3dd2cfdb268d99f6702b"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/LICENSE",
+      "filename": "LICENSE",
+      "extension": "",
+      "size_bytes": 1516,
+      "sha256": "d655bfaaa56b795bd2bc7ae9efb10220305e7856ec6b699655f25199de53b4d1"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/README.md",
+      "filename": "README.md",
+      "extension": ".md",
+      "size_bytes": 1152,
+      "sha256": "ab4f289bc6926eb40d1a31acac2e6917f6b16da6cec63af56576c55d467806bf"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/column_algorithm.py",
+      "filename": "column_algorithm.py",
+      "extension": ".py",
+      "size_bytes": 2956,
+      "sha256": "10b81e649fb261ce987f4667aa089b68c1f2e182519ddbca6bf07ed139de6c18"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/hyInterface.py",
+      "filename": "hyInterface.py",
+      "extension": ".py",
+      "size_bytes": 4985,
+      "sha256": "175535820b3c1639829c3ac0d2b5a55dde81597c2e13b035dd4e009de323fc0e"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/main_Column.py",
+      "filename": "main_Column.py",
+      "extension": ".py",
+      "size_bytes": 5957,
+      "sha256": "9238232295d079258b10392ecfb478ba57bb67763b4655bfc6c0142e44187996"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/print_pso.py",
+      "filename": "print_pso.py",
+      "extension": ".py",
+      "size_bytes": 1930,
+      "sha256": "bcba241730b5e6dbcd6877c7175e5e3d7f3853e280a67374cafcf3455d101988"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/PSO_Algorithm.py",
+      "filename": "PSO_Algorithm.py",
+      "extension": ".py",
+      "size_bytes": 11026,
+      "sha256": "836bbbeaf29aee33983bdfc7a3a1005e5a7dcfaf5650ff1f40380a99d9db4e9a"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/pso_column.py",
+      "filename": "pso_column.py",
+      "extension": ".py",
+      "size_bytes": 1350,
+      "sha256": "bda00a2b02fd0aa66f45a7d9f0266a8e09c0100978b8b329b18ef10771ea463b"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/Test_Column.hsc",
+      "filename": "Test_Column.hsc",
+      "extension": ".hsc",
+      "size_bytes": 719693,
+      "sha256": "2f818d792fee86d3b499dfce667b72b37b9de4a5544600c1c3489dd89a61b43d"
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-1611Z/artifacts/GitHub_2026_HYSYS_CAChemE__stochastic-optimization/ConventionalDistillationColumn/Test_Column_ObjFnc.py",
+      "filename": "Test_Column_ObjFnc.py",
+      "extension": ".py",
+      "size_bytes": 8282,
+      "sha256": "25cb5d2e7e170ce52c8f61c417e025fb5a831242eaf51f70a70b0b4d3a597588"
+    }
+  ]
+}

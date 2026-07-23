@@ -1,0 +1,1321 @@
+[
+  {
+    "repo": "afabrild/HYSYS-MATLAB-LINK",
+    "source_page": "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+    "errors": [],
+    "default_branch": "master",
+    "description": "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+    "license": null,
+    "size_kb": 451,
+    "stargazers_count": 4,
+    "pushed_at": "2019-11-15T03:58:41Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 3,
+    "case_files": [
+      "Distill_Example.hsc"
+    ],
+    "hsc_files": [
+      "Distill_Example.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "Hysys_Matlab_Example.m"
+    ],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/afabrild/HYSYS-MATLAB-LINK/master/Distill_Example.hsc",
+      "https://raw.githubusercontent.com/afabrild/HYSYS-MATLAB-LINK/master/README.md",
+      "https://raw.githubusercontent.com/afabrild/HYSYS-MATLAB-LINK/master/Hysys_Matlab_Example.m"
+    ]
+  },
+  {
+    "repo": "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+    "source_page": "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+    "errors": [],
+    "default_branch": "main",
+    "description": "A comprehensive process simulation of crude oil characterization and fractionation using Aspen Hysys. The project models a pre-treatment unit and an atmospheric distillation column to separate crude oil into high-value products like kerosene, diesel, and AGO, demonstrating proficiency in process design, heat integration, and equipment sizing.",
+    "license": null,
+    "size_kb": 3,
+    "stargazers_count": 0,
+    "pushed_at": "2025-08-03T08:17:21Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 1,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation/main/README.md"
+    ]
+  },
+  {
+    "repo": "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+    "source_page": "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+    "errors": [],
+    "default_branch": "main",
+    "description": null,
+    "license": null,
+    "size_kb": 1410,
+    "stargazers_count": 0,
+    "pushed_at": "2022-09-12T22:55:48Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 28,
+    "case_files": [
+      "Project-PR/hyApp.hsc"
+    ],
+    "hsc_files": [
+      "Project-PR/hyApp.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR/main/Project-PR/hyApp.hsc",
+      "https://raw.githubusercontent.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR/main/README.md"
+    ]
+  },
+  {
+    "repo": "Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "source_page": "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Aspen HYSYS Simulation for Node C of CP407 Group 9 Design 2025",
+    "license": null,
+    "size_kb": 1001,
+    "stargazers_count": 0,
+    "pushed_at": "2025-04-03T19:16:00Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 2,
+    "case_files": [
+      "NODECFINAL.hsc"
+    ],
+    "hsc_files": [
+      "NODECFINAL.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/Corey-McInrue/Node-C-ASPEN-HYSYS/main/NODECFINAL.hsc",
+      "https://raw.githubusercontent.com/Corey-McInrue/Node-C-ASPEN-HYSYS/main/README.md"
+    ]
+  },
+  {
+    "repo": "edgarsmdn/Aspen_HYSYS_Python",
+    "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Aspen HYSYS - Python connection",
+    "license": "MIT",
+    "size_kb": 372,
+    "stargazers_count": 90,
+    "pushed_at": "2023-11-01T19:33:55Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 9,
+    "case_files": [
+      "Test_1.hsc"
+    ],
+    "hsc_files": [
+      "Test_1.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [
+      "LICENSE"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "HYSYS_python_spreadsheets.py"
+    ],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/Test_1.hsc",
+      "https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/README.md",
+      "https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/LICENSE",
+      "https://raw.githubusercontent.com/edgarsmdn/Aspen_HYSYS_Python/main/HYSYS_python_spreadsheets.py"
+    ]
+  },
+  {
+    "repo": "GaboTalero/HYSYS-Python-Case-Builder",
+    "source_page": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+    "license": "MIT",
+    "size_kb": 14,
+    "stargazers_count": 0,
+    "pushed_at": "2026-04-25T19:57:00Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 9,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [
+      "LICENSE"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "HYSYS_python_simulation.py",
+      "HYSYS_python_spreadsheets_creator.py",
+      "HyCOM_DIC_creator.py",
+      "Hysys_python_creator.py",
+      "Hysys_python_flowsheet.py"
+    ],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/GaboTalero/HYSYS-Python-Case-Builder/main/README.md",
+      "https://raw.githubusercontent.com/GaboTalero/HYSYS-Python-Case-Builder/main/LICENSE",
+      "https://raw.githubusercontent.com/GaboTalero/HYSYS-Python-Case-Builder/main/HYSYS_python_simulation.py",
+      "https://raw.githubusercontent.com/GaboTalero/HYSYS-Python-Case-Builder/main/HYSYS_python_spreadsheets_creator.py",
+      "https://raw.githubusercontent.com/GaboTalero/HYSYS-Python-Case-Builder/main/HyCOM_DIC_creator.py",
+      "https://raw.githubusercontent.com/GaboTalero/HYSYS-Python-Case-Builder/main/Hysys_python_creator.py",
+      "https://raw.githubusercontent.com/GaboTalero/HYSYS-Python-Case-Builder/main/Hysys_python_flowsheet.py"
+    ]
+  },
+  {
+    "repo": "mrepol742/CryptographySystem",
+    "source_page": "https://github.com/mrepol742/CryptographySystem",
+    "errors": [],
+    "default_branch": "master",
+    "description": "Encrypt decrypt using caesar,  symmetric (AES), asymmetric (RSA) and hybrid.",
+    "license": "GPL-3.0",
+    "size_kb": 49855,
+    "stargazers_count": 0,
+    "pushed_at": "2023-12-18T05:31:30Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 32,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [
+      "LICENSE"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/mrepol742/CryptographySystem/master/README.md",
+      "https://raw.githubusercontent.com/mrepol742/CryptographySystem/master/LICENSE"
+    ]
+  },
+  {
+    "repo": "Paryazdan/Aspen-HYSYS-Projects",
+    "source_page": "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+    "errors": [],
+    "default_branch": "master",
+    "description": null,
+    "license": null,
+    "size_kb": 208,
+    "stargazers_count": 0,
+    "pushed_at": "2020-09-21T09:04:07Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 2,
+    "case_files": [
+      "YazdanihaPHw3aSim.hsc"
+    ],
+    "hsc_files": [
+      "YazdanihaPHw3aSim.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [],
+    "licenses": [],
+    "pdfs": [
+      "YazdanihaPHw3aFlowsheet.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/Paryazdan/Aspen-HYSYS-Projects/master/YazdanihaPHw3aSim.hsc",
+      "https://raw.githubusercontent.com/Paryazdan/Aspen-HYSYS-Projects/master/YazdanihaPHw3aFlowsheet.pdf"
+    ]
+  },
+  {
+    "repo": "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "source_page": "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+    "license": null,
+    "size_kb": 93,
+    "stargazers_count": 17,
+    "pushed_at": "2023-03-07T18:04:35Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 11,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [
+      "Dynamic/Excel/Connection.xlsm",
+      "Steady-State/Excel/Connection.xlsm"
+    ],
+    "automation_scripts": [
+      "Dynamic/Excel/Connection.xlsm",
+      "Dynamic/Matlab/Connections.m",
+      "Dynamic/Matlab/HysysValue.m",
+      "Steady-State/Excel/Connection.xlsm",
+      "Steady-State/Matlab/Connections.m",
+      "Steady-State/Matlab/HysysValue.m"
+    ],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/README.md",
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/Dynamic/Excel/Connection.xlsm",
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/Steady-State/Excel/Connection.xlsm",
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/Dynamic/Excel/Connection.xlsm",
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/Dynamic/Matlab/Connections.m",
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/Dynamic/Matlab/HysysValue.m",
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/Steady-State/Excel/Connection.xlsm",
+      "https://raw.githubusercontent.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity/main/Steady-State/Matlab/Connections.m"
+    ]
+  },
+  {
+    "repo": "robfox92/matlab-fitness-hysys",
+    "source_page": "https://github.com/robfox92/matlab-fitness-hysys",
+    "errors": [],
+    "default_branch": "master",
+    "description": "Functions to allow MATLAB optimization algorithms to interface with HYSYS simulations",
+    "license": null,
+    "size_kb": 6,
+    "stargazers_count": 1,
+    "pushed_at": "2016-01-08T05:11:02Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 2,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/robfox92/matlab-fitness-hysys/master/README.md"
+    ]
+  },
+  {
+    "repo": "royhanikbarr/Aspen-Hysys-Simulation",
+    "source_page": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Simulation of Chemical Processes in Aspen Hysys",
+    "license": null,
+    "size_kb": 967,
+    "stargazers_count": 1,
+    "pushed_at": "2023-06-25T09:46:14Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 3,
+    "case_files": [
+      "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc"
+    ],
+    "hsc_files": [
+      "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [
+      "Design Simulation Production Butyl Chloride/Paper Hysys Simulation Production Butyl Chloride.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/royhanikbarr/Aspen-Hysys-Simulation/main/Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc",
+      "https://raw.githubusercontent.com/royhanikbarr/Aspen-Hysys-Simulation/main/README.md",
+      "https://raw.githubusercontent.com/royhanikbarr/Aspen-Hysys-Simulation/main/Design Simulation Production Butyl Chloride/Paper Hysys Simulation Production Butyl Chloride.pdf"
+    ]
+  },
+  {
+    "repo": "sajjad-ah/ASPEN-HYSYS",
+    "source_page": "https://github.com/sajjad-ah/ASPEN-HYSYS",
+    "errors": [],
+    "default_branch": "main",
+    "description": "This repository includes some useful codes for ASPEN-HYSYS automation",
+    "license": null,
+    "size_kb": 9670,
+    "stargazers_count": 0,
+    "pushed_at": "2026-05-13T06:03:31Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 27,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [],
+    "licenses": [],
+    "pdfs": [
+      "SAFETY INSTRUMENTED SYSTEMS.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "python/Compressor-Curves-Codes/H_F_to_Pout_Flow.ipynb",
+      "python/Compressor-Curves-Codes/H_F_to_Pout_KgFlow.ipynb",
+      "python/Compressor-Curves-Codes/H_F_to_Pout_Sm3.ipynb",
+      "python/Compressor-Curves-Codes/PR_results.ipynb",
+      "python/Compressor-Curves-Codes/UniSimCompressorData.py",
+      "python/Compressor-Curves-Codes/draft_readcurve_unisim.ipynb",
+      "python/Compressor-Curves-Codes/p_r_consequence.py",
+      "python/Compressor-Curves-Codes/testcompressordata.py"
+    ],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/sajjad-ah/ASPEN-HYSYS/main/SAFETY INSTRUMENTED SYSTEMS.pdf",
+      "https://raw.githubusercontent.com/sajjad-ah/ASPEN-HYSYS/main/python/Compressor-Curves-Codes/H_F_to_Pout_Flow.ipynb",
+      "https://raw.githubusercontent.com/sajjad-ah/ASPEN-HYSYS/main/python/Compressor-Curves-Codes/H_F_to_Pout_KgFlow.ipynb",
+      "https://raw.githubusercontent.com/sajjad-ah/ASPEN-HYSYS/main/python/Compressor-Curves-Codes/H_F_to_Pout_Sm3.ipynb",
+      "https://raw.githubusercontent.com/sajjad-ah/ASPEN-HYSYS/main/python/Compressor-Curves-Codes/PR_results.ipynb",
+      "https://raw.githubusercontent.com/sajjad-ah/ASPEN-HYSYS/main/python/Compressor-Curves-Codes/UniSimCompressorData.py"
+    ]
+  },
+  {
+    "repo": "SuradechKKPB/AutomatedHYSYS",
+    "source_page": "https://github.com/SuradechKKPB/AutomatedHYSYS",
+    "errors": [],
+    "default_branch": "master",
+    "description": "HYSYS Automation",
+    "license": null,
+    "size_kb": 7,
+    "stargazers_count": 17,
+    "pushed_at": "2019-12-12T07:25:09Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 4,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "Automated_HYSYS.py",
+      "custom_functions_HYSYS.py"
+    ],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/SuradechKKPB/AutomatedHYSYS/master/README.md",
+      "https://raw.githubusercontent.com/SuradechKKPB/AutomatedHYSYS/master/Automated_HYSYS.py",
+      "https://raw.githubusercontent.com/SuradechKKPB/AutomatedHYSYS/master/custom_functions_HYSYS.py"
+    ]
+  },
+  {
+    "repo": "zwang1995/Aspen-Plus-Automation",
+    "source_page": "https://github.com/zwang1995/Aspen-Plus-Automation",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Automation of process simulation in Aspen Plus",
+    "license": "MIT",
+    "size_kb": 567,
+    "stargazers_count": 18,
+    "pushed_at": "2024-10-17T14:20:06Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 10,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md",
+      "script/README.md",
+      "simulation/README.md"
+    ],
+    "licenses": [
+      "LICENSE"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "script/aspen_utils_v1.py",
+      "script/aspen_utils_v2.py",
+      "script/simulation_v1.py",
+      "script/simulation_v2.py"
+    ],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/README.md",
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/script/README.md",
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/simulation/README.md",
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/LICENSE",
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/script/aspen_utils_v1.py",
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/script/aspen_utils_v2.py",
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/script/simulation_v1.py",
+      "https://raw.githubusercontent.com/zwang1995/Aspen-Plus-Automation/main/script/simulation_v2.py"
+    ]
+  },
+  {
+    "repo": "Armaan-2309/CHE213-Simulation-Labs",
+    "source_page": "https://github.com/Armaan-2309/CHE213-Simulation-Labs",
+    "errors": [],
+    "default_branch": "main",
+    "description": "This repository contains MATLAB simulation codes for the CHE213 course (Mass Transfer), typically offered in the 3rd semester of the B.Tech Chemical Engineering curriculum.",
+    "license": null,
+    "size_kb": 10227,
+    "stargazers_count": 0,
+    "pushed_at": "2025-07-07T07:31:35Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 11,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/Armaan-2309/CHE213-Simulation-Labs/main/README.md"
+    ]
+  },
+  {
+    "repo": "bpalotai/Flowsheet-toolbox",
+    "source_page": "https://github.com/bpalotai/Flowsheet-toolbox",
+    "errors": [],
+    "default_branch": "main",
+    "description": null,
+    "license": null,
+    "size_kb": 1184,
+    "stargazers_count": 0,
+    "pushed_at": "2026-04-21T17:28:14Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 102,
+    "case_files": [
+      "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+    ],
+    "hsc_files": [
+      "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "readme.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [
+      "Cases/HX-model-V1/BatchResults/batch_20250622_114928/batch_results.xlsx",
+      "Cases/HX-model-V1/BatchResults/batch_20250622_115612/batch_results.xlsx",
+      "Cases/HX-model-V1/BatchResults/batch_20250622_120614/batch_results.xlsx",
+      "Cases/HX-model-V1/BatchResults/batch_20250622_120855/batch_results.xlsx",
+      "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250622-212405.xlsx",
+      "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250622-214517.xlsx",
+      "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250623-211632.xlsx",
+      "Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250623-220729.xlsx",
+      "Cases/HX-model-V1/CalibrationResults/calibration_results_20250622-122429.xlsx",
+      "Cases/HX-model-V1/SamplingResults/sampling_20250622_120844.xlsx",
+      "Cases/HX-model-V1/SurrogateModels/ANN-HX-V1_20250622_121212/training_data.csv",
+      "_example_batch_file/Heat_exchanger_process_data_result-short.xlsx"
+    ],
+    "automation_scripts": [
+      "api/routes/simulations.py",
+      "driver/Simulation/__init__.py",
+      "driver/Simulation/drivers/Hysys_driver.py",
+      "driver/Simulation/drivers/__init__.py",
+      "driver/Simulation/simulation_driver.py",
+      "driver/Simulation/simulation_interface.py"
+    ],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/readme.md",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/Cases/HX-model-V1/BatchResults/batch_20250622_114928/batch_results.xlsx",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/Cases/HX-model-V1/BatchResults/batch_20250622_115612/batch_results.xlsx",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/Cases/HX-model-V1/BatchResults/batch_20250622_120614/batch_results.xlsx",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/Cases/HX-model-V1/BatchResults/batch_20250622_120855/batch_results.xlsx",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/Cases/HX-model-V1/CalibrationResults/batch_calibration_results_20250622-212405.xlsx",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/api/routes/simulations.py",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/driver/Simulation/__init__.py",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/driver/Simulation/drivers/Hysys_driver.py",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/driver/Simulation/drivers/__init__.py",
+      "https://raw.githubusercontent.com/bpalotai/Flowsheet-toolbox/main/driver/Simulation/simulation_driver.py"
+    ]
+  },
+  {
+    "repo": "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "source_page": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+    "license": "MIT",
+    "size_kb": 378,
+    "stargazers_count": 0,
+    "pushed_at": "2025-12-21T15:33:50Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 14,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [
+      "LICENSE"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [
+      "data/Apen Hysys Data.csv",
+      "data/Thermodynamic Validation.xlsx",
+      "data/Yield_RBF_Populated_per_blend.csv",
+      "data/rbf_error_matrix.csv",
+      "data/rbf_error_matrix_per_blend.csv",
+      "data/rbf_validation_point_errors.csv"
+    ],
+    "automation_scripts": [],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/main/README.md",
+      "https://raw.githubusercontent.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/main/LICENSE",
+      "https://raw.githubusercontent.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/main/data/Apen Hysys Data.csv",
+      "https://raw.githubusercontent.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/main/data/Thermodynamic Validation.xlsx",
+      "https://raw.githubusercontent.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/main/data/Yield_RBF_Populated_per_blend.csv",
+      "https://raw.githubusercontent.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/main/data/rbf_error_matrix.csv",
+      "https://raw.githubusercontent.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation/main/data/rbf_error_matrix_per_blend.csv"
+    ]
+  },
+  {
+    "repo": "M-Hamdy-M/lng-niching-metaheuristics",
+    "source_page": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+    "errors": [],
+    "default_branch": "main",
+    "description": null,
+    "license": null,
+    "size_kb": 3992,
+    "stargazers_count": 0,
+    "pushed_at": "2025-06-21T08:45:56Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 59,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "hysys_optimization/problems/dsmr/Analysis.ipynb",
+      "hysys_optimization/problems/dsmr/Solving SMR.ipynb",
+      "hysys_optimization/problems/dsmr/Tuning SMR.ipynb",
+      "hysys_optimization/problems/dsmr/smr_opt_problem.py",
+      "optimization/algorithms/common/selection.py",
+      "optimization/algorithms/pso/operators/component_evaluators.py",
+      "optimization/problems/types/composite_benchmark_function.py"
+    ],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/M-Hamdy-M/lng-niching-metaheuristics/main/README.md",
+      "https://raw.githubusercontent.com/M-Hamdy-M/lng-niching-metaheuristics/main/hysys_optimization/problems/dsmr/Analysis.ipynb",
+      "https://raw.githubusercontent.com/M-Hamdy-M/lng-niching-metaheuristics/main/hysys_optimization/problems/dsmr/Solving SMR.ipynb",
+      "https://raw.githubusercontent.com/M-Hamdy-M/lng-niching-metaheuristics/main/hysys_optimization/problems/dsmr/Tuning SMR.ipynb",
+      "https://raw.githubusercontent.com/M-Hamdy-M/lng-niching-metaheuristics/main/hysys_optimization/problems/dsmr/smr_opt_problem.py",
+      "https://raw.githubusercontent.com/M-Hamdy-M/lng-niching-metaheuristics/main/optimization/algorithms/common/selection.py"
+    ]
+  },
+  {
+    "repo": "OptiMaL-PSE-Lab/Sketch2Simulation",
+    "source_page": "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation",
+    "errors": [],
+    "default_branch": "main",
+    "description": "Sketch2Simulation: Automating Flowsheet Generation via Multi Agent Large Language Models",
+    "license": "MIT",
+    "size_kb": 589,
+    "stargazers_count": 24,
+    "pushed_at": "2026-03-24T12:29:46Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 33,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [
+      "LICENSE"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [
+      "sketch2sim/RAG/components_list.xlsx"
+    ],
+    "automation_scripts": [
+      "sketch2sim/RAG/rag_components.py",
+      "sketch2sim/instructions/hysys_template_base.py",
+      "sketch2sim/merge_simulation_scripts.py"
+    ],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/OptiMaL-PSE-Lab/Sketch2Simulation/main/README.md",
+      "https://raw.githubusercontent.com/OptiMaL-PSE-Lab/Sketch2Simulation/main/LICENSE",
+      "https://raw.githubusercontent.com/OptiMaL-PSE-Lab/Sketch2Simulation/main/sketch2sim/RAG/components_list.xlsx",
+      "https://raw.githubusercontent.com/OptiMaL-PSE-Lab/Sketch2Simulation/main/sketch2sim/RAG/rag_components.py",
+      "https://raw.githubusercontent.com/OptiMaL-PSE-Lab/Sketch2Simulation/main/sketch2sim/instructions/hysys_template_base.py",
+      "https://raw.githubusercontent.com/OptiMaL-PSE-Lab/Sketch2Simulation/main/sketch2sim/merge_simulation_scripts.py"
+    ]
+  },
+  {
+    "repo": "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+    "source_page": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+    "errors": [],
+    "default_branch": "main",
+    "description": "This is my final project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+    "license": null,
+    "size_kb": 8153,
+    "stargazers_count": 1,
+    "pushed_at": "2024-10-03T14:41:47Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 12,
+    "case_files": [
+      "SIM/SynGas-SMR-DMR(integration).hsc",
+      "SIM/SynGas-SMR-DMR(main).hsc"
+    ],
+    "hsc_files": [
+      "SIM/SynGas-SMR-DMR(integration).hsc",
+      "SIM/SynGas-SMR-DMR(main).hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [
+      "DOCS/Report.pdf",
+      "DOCS/Seminar.pdf"
+    ],
+    "excel_or_csv": [
+      "MISC/Reaction Conversions Sensitivity.xlsx"
+    ],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors/main/SIM/SynGas-SMR-DMR(integration).hsc",
+      "https://raw.githubusercontent.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors/main/SIM/SynGas-SMR-DMR(main).hsc",
+      "https://raw.githubusercontent.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors/main/README.md",
+      "https://raw.githubusercontent.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors/main/DOCS/Report.pdf",
+      "https://raw.githubusercontent.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors/main/DOCS/Seminar.pdf",
+      "https://raw.githubusercontent.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors/main/MISC/Reaction Conversions Sensitivity.xlsx"
+    ]
+  },
+  {
+    "repo": "SinaGhanbarii/HDA-Plant-Simulation",
+    "source_page": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+    "errors": [],
+    "default_branch": "main",
+    "description": "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+    "license": null,
+    "size_kb": 8421,
+    "stargazers_count": 1,
+    "pushed_at": "2024-07-11T08:42:21Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 26,
+    "case_files": [
+      "HDA 2024 Aspen/1-HDA-Setup.hsc",
+      "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+      "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+      "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc"
+    ],
+    "hsc_files": [
+      "HDA 2024 Aspen/1-HDA-Setup.hsc",
+      "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+      "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+      "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [
+      "HDA Report.pdf"
+    ],
+    "excel_or_csv": [
+      "Book1.xlsx",
+      "HDA Product Column.xlsx",
+      "Heat exchangers.xlsx"
+    ],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/1-HDA-Setup.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/READY_HDA-Setup.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/Working_HDA-Setup.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/README.md",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA Report.pdf",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/Book1.xlsx",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/HDA Product Column.xlsx",
+      "https://raw.githubusercontent.com/SinaGhanbarii/HDA-Plant-Simulation/main/Heat exchangers.xlsx"
+    ]
+  },
+  {
+    "repo": "atlanticbhandari07/CCS_code",
+    "source_page": "https://github.com/atlanticbhandari07/CCS_code",
+    "errors": [],
+    "default_branch": "main",
+    "description": "CO2 Capture Simulation Python scripts for thesis - HYSYS automation, cost optimization, and gas velocity analysis",
+    "license": null,
+    "size_kb": 51,
+    "stargazers_count": 0,
+    "pushed_at": "2026-05-15T21:04:12Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 5,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/atlanticbhandari07/CCS_code/main/README.md"
+    ]
+  },
+  {
+    "repo": "digipres/digipres.github.io",
+    "source_page": "https://github.com/digipres/digipres.github.io",
+    "errors": [],
+    "default_branch": "master",
+    "description": "Auto-generated static web site digipres.org",
+    "license": null,
+    "size_kb": 950272,
+    "stargazers_count": 30,
+    "pushed_at": "2026-05-15T13:11:08Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 29919,
+    "case_files": [
+      "_sources/registries/trid/triddefs_xml/caseware-compressed.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/c/cas-encase.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/c/casetemplate.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/c/caseware-compressed.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/e/encase-gen.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/e/encase_le.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/h/hsc-hysys.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/s/suitcase-font.trid.xml",
+      "_sources/registries/trid/triddefs_xml/encase_le.trid.xml",
+      "_sources/registries/trid/triddefs_xml/hsc-hysys.trid.xml",
+      "_sources/registries/trid/triddefs_xml/suitcase-font.trid.xml"
+    ],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [
+      "_sources/registries/trid/triddefs_xml/caseware-compressed.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/c/cas-encase.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/c/casetemplate.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/c/caseware-compressed.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/e/encase-gen.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/e/encase_le.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/h/hsc-hysys.trid.xml",
+      "_sources/registries/trid/triddefs_xml/defs/s/suitcase-font.trid.xml",
+      "_sources/registries/trid/triddefs_xml/encase_le.trid.xml",
+      "_sources/registries/trid/triddefs_xml/hsc-hysys.trid.xml",
+      "_sources/registries/trid/triddefs_xml/suitcase-font.trid.xml"
+    ],
+    "readmes": [
+      "README.md",
+      "_sources/registries/tcdb/README.md",
+      "_sources/registries/tffh/README.md"
+    ],
+    "licenses": [
+      "_sources/registries/trid/triddefs_xml/defs/l/licensekeys-sme.trid.xml"
+    ],
+    "pdfs": [
+      "workflow-webinars/2025-dpc-workflow-webinars/2025-02-05-dpc-webinar-series-dpres-workflows-mikko-vatanen.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/20250203-dpc-workflow-webinar-cul-dps-ingest-workflows-v2.pptx.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/20250203-riddle-preservationworkflowwebinar.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/20250204-kirilova-qdrpreservationworkflow-dpc.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/dpc-cdl-ingest-workspace.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/dpc-cow-ohio-state-gray-2025.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/dpc-ldf-archives-presentation-1-30-25.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/dpc-workflow-webinar-2025-ojas-final.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/dpc-workflows-02-04-2025-share-kathleen-oneill.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/dpcwebinaruchicago.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/forced-migration-to-a-new-digital-archiving-environment.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/nlb-dp-workflow-7feb2025-fordpc.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/nul-borndigital-workflow-dpc.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/panos-papageorgiou-preserving-virtual-archaeology.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/prae-workflowarchive-no-anim.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/preservation-of-moma-produced-video-sgentile.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/queensland-state-archives-slide-deck-for-dpc-2025-workflow-webinar-series-7-february-2025-3.pdf",
+      "workflow-webinars/2025-dpc-workflow-webinars/rcaseyuccfirststepspreservation.pdf",
+      "workflow-webinars/2026-dpc-workflow-webinars/03a-shaw-workflow-webinar-dpc-march-2026-dpc.pdf",
+      "workflow-webinars/2026-dpc-workflow-webinars/03b-gatlabayan-dpc-presentation-2026-03-05-mariecris-gatlabayan.pdf"
+    ],
+    "excel_or_csv": [
+      "_data/formats/species.csv",
+      "_sources/registries/tcdb/TCDB_2003.8_data-cleaned.csv",
+      "_sources/registries/tffh/tffh.csv"
+    ],
+    "automation_scripts": [
+      "Format_Registry_Comparison.ipynb"
+    ],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/caseware-compressed.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/c/cas-encase.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/c/casetemplate.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/c/caseware-compressed.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/e/encase-gen.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/e/encase_le.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/h/hsc-hysys.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/s/suitcase-font.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/encase_le.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/hsc-hysys.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/suitcase-font.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/README.md",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/tcdb/README.md",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/tffh/README.md",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/trid/triddefs_xml/defs/l/licensekeys-sme.trid.xml",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/workflow-webinars/2025-dpc-workflow-webinars/2025-02-05-dpc-webinar-series-dpres-workflows-mikko-vatanen.pdf",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/workflow-webinars/2025-dpc-workflow-webinars/20250203-dpc-workflow-webinar-cul-dps-ingest-workflows-v2.pptx.pdf",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/workflow-webinars/2025-dpc-workflow-webinars/20250203-riddle-preservationworkflowwebinar.pdf",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/workflow-webinars/2025-dpc-workflow-webinars/20250204-kirilova-qdrpreservationworkflow-dpc.pdf",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/workflow-webinars/2025-dpc-workflow-webinars/dpc-cdl-ingest-workspace.pdf",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_data/formats/species.csv",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/tcdb/TCDB_2003.8_data-cleaned.csv",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/_sources/registries/tffh/tffh.csv",
+      "https://raw.githubusercontent.com/digipres/digipres.github.io/master/Format_Registry_Comparison.ipynb"
+    ]
+  },
+  {
+    "repo": "jhao/pm-universe",
+    "source_page": "https://github.com/jhao/pm-universe",
+    "errors": [],
+    "default_branch": "main",
+    "description": "需求分析和产品经理必会的50个行业软件功能",
+    "license": "NOASSERTION",
+    "size_kb": 2336,
+    "stargazers_count": 0,
+    "pushed_at": "2025-11-23T13:14:41Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 425,
+    "case_files": [],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [
+      "README.md",
+      "prototypes/README.md",
+      "prototypes/consumer/amazon/README.md",
+      "prototypes/consumer/bereal/README.md",
+      "prototypes/consumer/capcut/README.md",
+      "prototypes/consumer/depop/README.md",
+      "prototypes/consumer/dropbox/README.md",
+      "prototypes/consumer/ebay/README.md",
+      "prototypes/consumer/etsy/README.md",
+      "prototypes/consumer/glossier/README.md",
+      "prototypes/consumer/google-drive/README.md",
+      "prototypes/consumer/instagram/README.md",
+      "prototypes/consumer/medium/README.md",
+      "prototypes/consumer/pinterest/README.md",
+      "prototypes/consumer/poshmark/README.md",
+      "prototypes/consumer/reddit/README.md",
+      "prototypes/consumer/shein/README.md",
+      "prototypes/consumer/shopify/README.md",
+      "prototypes/consumer/temu/README.md",
+      "prototypes/consumer/tiktok-douyin/README.md"
+    ],
+    "licenses": [
+      "LICENSE"
+    ],
+    "pdfs": [],
+    "excel_or_csv": [
+      "data/chinese-software-map.xlsx",
+      "data/feature-matrix.xlsx",
+      "data/industry-competitors.xlsx"
+    ],
+    "automation_scripts": [],
+    "has_model": false,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/README.md",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/prototypes/README.md",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/prototypes/consumer/amazon/README.md",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/prototypes/consumer/bereal/README.md",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/prototypes/consumer/capcut/README.md",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/LICENSE",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/data/chinese-software-map.xlsx",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/data/feature-matrix.xlsx",
+      "https://raw.githubusercontent.com/jhao/pm-universe/main/data/industry-competitors.xlsx"
+    ]
+  },
+  {
+    "repo": "jkitchin/jkitchin.github.com",
+    "source_page": "https://github.com/jkitchin/jkitchin.github.com",
+    "errors": [],
+    "default_branch": "master",
+    "description": "my blog",
+    "license": "NOASSERTION",
+    "size_kb": 1054216,
+    "stargazers_count": 10,
+    "pushed_at": "2025-11-01T13:48:03Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 3279,
+    "case_files": [
+      "blog/category/molecular-simulation/feed/atom/index.xml",
+      "blog/category/molecular-simulation/feed/index.xml",
+      "blog/category/simulation/feed/atom/index.xml",
+      "blog/category/simulation/feed/index.xml"
+    ],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [
+      "blog/category/molecular-simulation/feed/atom/index.xml",
+      "blog/category/molecular-simulation/feed/index.xml",
+      "blog/category/simulation/feed/atom/index.xml",
+      "blog/category/simulation/feed/index.xml"
+    ],
+    "readmes": [
+      "README.md"
+    ],
+    "licenses": [],
+    "pdfs": [
+      "aiche-2018/aiche-2018.pdf",
+      "make-org/make-org.pdf",
+      "media/2013-09-30-Attaching-code-blocks-to-a-pdf-file-during-export/attaching-code-blocks-to-a-pdf.pdf",
+      "media/2013-10-03-Exporting-accented-characters-to-latex-from-org-mode/exporting-accented-characters.pdf",
+      "media/2013-10-23-Writing-exams-in-org-mode/writing-exams-in-orgmode.pdf",
+      "media/2013-10-23-building-the-pdf/writing-exams-in-orgmode.pdf",
+      "media/2013-11-23-Automating-Adobe-Acrobat-Pro-with-python/rubric.pdf",
+      "media/2013-11-23-Automating-Adobe-Acrobat-Pro-with-python/woohoo.pdf",
+      "media/2013-12-08-Selectively-exporting-headlines-in-org-mode/blog-1.pdf",
+      "media/2013-12-08-Selectively-exporting-headlines-in-org-mode/blog-2.pdf",
+      "media/2014-02-03-Using-YAML-in-python-for-structured-data/06-364.pdf",
+      "media/2014-02-09-Sorting-fields-in-bibtex-entries/bib.pdf",
+      "media/2014-02-10-Merging-bibtex-files-and-avoiding-duplicates/merged.pdf",
+      "media/2014-03-05-Creating-a-transportable-zip-archive-of-an-org-file/blog.pdf",
+      "media/2014-05-19-Exporting-citations-with-biblatex/exporting-with-biblatex.pdf",
+      "media/2014-05-19-Introduction/exporting-with-biblatex.pdf",
+      "media/2014-07-17-Pandoc-does-org-mode-now/org-to-word.pdf",
+      "media/2014-10-17-Generate-emacs-lisp-documentation/jmax-bibtex-doc.pdf",
+      "media/2014-10-30-Generating-your-bibliography-in-another-file/separate-bib-references.pdf",
+      "media/2014-10-30-Generating-your-bibliography-in-another-file/separate-bib.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/blog/category/molecular-simulation/feed/atom/index.xml",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/blog/category/molecular-simulation/feed/index.xml",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/blog/category/simulation/feed/atom/index.xml",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/blog/category/simulation/feed/index.xml",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/README.md",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/aiche-2018/aiche-2018.pdf",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/make-org/make-org.pdf",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/media/2013-09-30-Attaching-code-blocks-to-a-pdf-file-during-export/attaching-code-blocks-to-a-pdf.pdf",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/media/2013-10-03-Exporting-accented-characters-to-latex-from-org-mode/exporting-accented-characters.pdf",
+      "https://raw.githubusercontent.com/jkitchin/jkitchin.github.com/master/media/2013-10-23-Writing-exams-in-org-mode/writing-exams-in-orgmode.pdf"
+    ]
+  },
+  {
+    "repo": "marcellobozzini/Python-Driving-License",
+    "source_page": "https://github.com/marcellobozzini/Python-Driving-License",
+    "errors": [],
+    "default_branch": "main",
+    "description": "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+    "license": null,
+    "size_kb": 11388,
+    "stargazers_count": 0,
+    "pushed_at": "2023-10-12T10:10:53Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 2,
+    "case_files": [
+      "Separazione_reattori.hsc"
+    ],
+    "hsc_files": [
+      "Separazione_reattori.hsc"
+    ],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [],
+    "readmes": [],
+    "licenses": [],
+    "pdfs": [],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/marcellobozzini/Python-Driving-License/main/Separazione_reattori.hsc"
+    ]
+  },
+  {
+    "repo": "prasang-gupta/prasang-gupta.github.io",
+    "source_page": "https://github.com/prasang-gupta/prasang-gupta.github.io",
+    "errors": [],
+    "default_branch": "main",
+    "description": null,
+    "license": null,
+    "size_kb": 77993,
+    "stargazers_count": 0,
+    "pushed_at": "2022-09-15T15:12:20Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 697,
+    "case_files": [
+      "tag/aspen-hysys/index.xml",
+      "tag/simulation-modelling/index.xml"
+    ],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [
+      "tag/aspen-hysys/index.xml",
+      "tag/simulation-modelling/index.xml"
+    ],
+    "readmes": [],
+    "licenses": [],
+    "pdfs": [
+      "clef2020.pdf",
+      "project/modelparallelism/du2020.pdf",
+      "project/rtddocumentation/howtodocumentinrtd.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/prasang-gupta/prasang-gupta.github.io/main/tag/aspen-hysys/index.xml",
+      "https://raw.githubusercontent.com/prasang-gupta/prasang-gupta.github.io/main/tag/simulation-modelling/index.xml",
+      "https://raw.githubusercontent.com/prasang-gupta/prasang-gupta.github.io/main/clef2020.pdf",
+      "https://raw.githubusercontent.com/prasang-gupta/prasang-gupta.github.io/main/project/modelparallelism/du2020.pdf",
+      "https://raw.githubusercontent.com/prasang-gupta/prasang-gupta.github.io/main/project/rtddocumentation/howtodocumentinrtd.pdf"
+    ]
+  },
+  {
+    "repo": "yangg1g/unpacktools",
+    "source_page": "https://github.com/yangg1g/unpacktools",
+    "errors": [],
+    "default_branch": "master",
+    "description": "一些解包工具",
+    "license": null,
+    "size_kb": 233337,
+    "stargazers_count": 135,
+    "pushed_at": "2021-04-01T09:10:21Z",
+    "archived": false,
+    "fork": false,
+    "file_count": 6874,
+    "case_files": [
+      "TrIDNet_1.8/triddefs_xml/caseware-compressed.trid.xml",
+      "TrIDNet_1.8/triddefs_xml/encase_le.trid.xml",
+      "TrIDNet_1.8/triddefs_xml/hsc-hysys.trid.xml",
+      "TrIDNet_1.8/triddefs_xml/suitcase-font.trid.xml"
+    ],
+    "hsc_files": [],
+    "hscz_files": [],
+    "compound_files": [],
+    "xml_candidates": [
+      "TrIDNet_1.8/triddefs_xml/caseware-compressed.trid.xml",
+      "TrIDNet_1.8/triddefs_xml/encase_le.trid.xml",
+      "TrIDNet_1.8/triddefs_xml/hsc-hysys.trid.xml",
+      "TrIDNet_1.8/triddefs_xml/suitcase-font.trid.xml"
+    ],
+    "readmes": [
+      "AndroidKiller/bin/dex2jar/README.md",
+      "AndroidKiller/bin/dex2jar/d2j-j6/README.md",
+      "AndroidKiller/bin/jd-gui/README.md",
+      "AndroidKiller/相关插件，请自行按说明选用/dex2jar/dex2jar/README.md",
+      "AndroidKiller/相关插件，请自行按说明选用/dex2jar/dex2jar/d2j-j6/README.md",
+      "AndroidKiller/相关插件，请自行按说明选用/jd-gui/jd-gui/README.md",
+      "FontCreator/Unicode/ReadMe.txt",
+      "GARbro-v1.5.44.2904/README.txt",
+      "OllyDBG/Plugin/ReadMe.txt",
+      "RPGViewer/Readme.txt",
+      "expimg/readme.txt",
+      "readme.md",
+      "unrpa/README.md",
+      "unrpyc/README.md",
+      "unrpyc/un.rpyc/README.md",
+      "vgmtoolbox_bin_r1040/readme.txt"
+    ],
+    "licenses": [
+      "AndroidKiller/bin/dex2jar/LICENSE.txt",
+      "AndroidKiller/bin/jd-gui/LICENSE",
+      "AndroidKiller/相关插件，请自行按说明选用/dex2jar/dex2jar/LICENSE.txt",
+      "AndroidKiller/相关插件，请自行按说明选用/jd-gui/jd-gui/LICENSE",
+      "GARbro-v1.5.44.2904/LICENSE.txt",
+      "unrpa/COPYING",
+      "unrpyc/LICENSE",
+      "vgmtoolbox_bin_r1040/LICENSE.txt"
+    ],
+    "pdfs": [
+      "FontCreator/FontCreatorManual.pdf",
+      "OllyDBG/OllyDBG入门教程.pdf"
+    ],
+    "excel_or_csv": [],
+    "automation_scripts": [
+      "unrpyc/decompiler/__init__.py",
+      "unrpyc/decompiler/astdump.py",
+      "unrpyc/decompiler/codegen.py",
+      "unrpyc/decompiler/magic.py",
+      "unrpyc/decompiler/screendecompiler.py",
+      "unrpyc/decompiler/sl2decompiler.py",
+      "unrpyc/decompiler/testcasedecompiler.py",
+      "unrpyc/decompiler/translate.py",
+      "unrpyc/decompiler/util.py",
+      "unrpyc/un.rpyc/compile.py",
+      "unrpyc/un.rpyc/unrpyc-compile.py"
+    ],
+    "has_model": true,
+    "raw_urls": [
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/TrIDNet_1.8/triddefs_xml/caseware-compressed.trid.xml",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/TrIDNet_1.8/triddefs_xml/encase_le.trid.xml",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/TrIDNet_1.8/triddefs_xml/hsc-hysys.trid.xml",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/TrIDNet_1.8/triddefs_xml/suitcase-font.trid.xml",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/bin/dex2jar/README.md",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/bin/dex2jar/d2j-j6/README.md",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/bin/jd-gui/README.md",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/相关插件，请自行按说明选用/dex2jar/dex2jar/README.md",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/相关插件，请自行按说明选用/dex2jar/dex2jar/d2j-j6/README.md",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/bin/dex2jar/LICENSE.txt",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/bin/jd-gui/LICENSE",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/相关插件，请自行按说明选用/dex2jar/dex2jar/LICENSE.txt",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/AndroidKiller/相关插件，请自行按说明选用/jd-gui/jd-gui/LICENSE",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/GARbro-v1.5.44.2904/LICENSE.txt",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/FontCreator/FontCreatorManual.pdf",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/OllyDBG/OllyDBG入门教程.pdf",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/unrpyc/decompiler/__init__.py",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/unrpyc/decompiler/astdump.py",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/unrpyc/decompiler/codegen.py",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/unrpyc/decompiler/magic.py",
+      "https://raw.githubusercontent.com/yangg1g/unpacktools/master/unrpyc/decompiler/screendecompiler.py"
+    ]
+  }
+]

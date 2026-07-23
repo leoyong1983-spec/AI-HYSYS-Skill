@@ -1,0 +1,150 @@
+{
+  "sha": "6fafcdec8a698f16d9136d7db9fcb4a3c4cea5d2",
+  "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/trees/6fafcdec8a698f16d9136d7db9fcb4a3c4cea5d2",
+  "tree": [
+    {
+      "path": "BoundaryEquations.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de2796fdd62124e87403f2dd9869837f7f2e423a",
+      "size": 5241,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/de2796fdd62124e87403f2dd9869837f7f2e423a"
+    },
+    {
+      "path": "ConstantsModel.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd6e5be09772699a06f7bb5822443b4442fce64",
+      "size": 29757,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/8cd6e5be09772699a06f7bb5822443b4442fce64"
+    },
+    {
+      "path": "Data.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01d4a1e4745eca129c0a960f474f05a4a725f5ad",
+      "size": 43061,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/01d4a1e4745eca129c0a960f474f05a4a725f5ad"
+    },
+    {
+      "path": "Equations.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ea7d5ce4517fff8bf6a186edb55d30847d7615",
+      "size": 24515,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/57ea7d5ce4517fff8bf6a186edb55d30847d7615"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "ODHReactions.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8356f90b4a5f79263c1cde60273bf3980a7d3b32",
+      "size": 1811,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/8356f90b4a5f79263c1cde60273bf3980a7d3b32"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0fae66f1164b1d5cc232ab1c02da026a5598ce2",
+      "size": 1298,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/c0fae66f1164b1d5cc232ab1c02da026a5598ce2"
+    },
+    {
+      "path": "Roots_of_Jacobi_Polynomial.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85c64061a71eaa63a5d2c52626e304005cdefff",
+      "size": 278,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/e85c64061a71eaa63a5d2c52626e304005cdefff"
+    },
+    {
+      "path": "Zfactor.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0a0463ba4cee148d0d555b6a14b5c2a353dd568",
+      "size": 1326,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/b0a0463ba4cee148d0d555b6a14b5c2a353dd568"
+    },
+    {
+      "path": "img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d25da1dfb2a50776ac7caa1cdcd1dee240211a0",
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/trees/7d25da1dfb2a50776ac7caa1cdcd1dee240211a0"
+    },
+    {
+      "path": "img/BCs.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec1d915c17472ba4275dfeda566c42e1946a6a0",
+      "size": 26885,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/bec1d915c17472ba4275dfeda566c42e1946a6a0"
+    },
+    {
+      "path": "img/GasEnergy.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e4cfcc75576cb077d0c26c479de23ba03dffff4",
+      "size": 15525,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/2e4cfcc75576cb077d0c26c479de23ba03dffff4"
+    },
+    {
+      "path": "img/GasMass.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9d64f88845f91e240e084e7e4b48af67e74d47",
+      "size": 15544,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/1a9d64f88845f91e240e084e7e4b48af67e74d47"
+    },
+    {
+      "path": "img/IC-concentration.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cdec278a167e6c82eec2bff852f779ffd738363",
+      "size": 10769,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/7cdec278a167e6c82eec2bff852f779ffd738363"
+    },
+    {
+      "path": "img/IC-temperature.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcf4f4469a2d60b97a4e5a31abae8b416766d571",
+      "size": 9748,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/fcf4f4469a2d60b97a4e5a31abae8b416766d571"
+    },
+    {
+      "path": "img/Rxns.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e1d1fd91f76d1d36b28771e56840b629a4d60e",
+      "size": 19192,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/a1e1d1fd91f76d1d36b28771e56840b629a4d60e"
+    },
+    {
+      "path": "img/SolidEnergy.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "281f01d02d550d22efaa2fdec56c3e213a7b1065",
+      "size": 16026,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/281f01d02d550d22efaa2fdec56c3e213a7b1065"
+    },
+    {
+      "path": "img/SolidMass.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd776773f69de47590fc72223e5eed39e330d203",
+      "size": 12172,
+      "url": "https://api.github.com/repos/puttak/Modeling-Simulation-Project/git/blobs/cd776773f69de47590fc72223e5eed39e330d203"
+    }
+  ],
+  "truncated": false
+}

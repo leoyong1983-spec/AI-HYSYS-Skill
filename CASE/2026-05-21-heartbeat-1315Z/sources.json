@@ -1,0 +1,199 @@
+[
+  {
+    "title": "GitHub search sweep for licensed HYSYS repositories and code",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS+license%3Amit&type=repositories",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub search only. MIT/permissive-license oriented search returned automation-only repositories or already-known candidates; no qualifying model payload was downloaded.",
+    "recommended_use": "Negative evidence for permissive-license coverage; continue repository tree inspection and DOI-backed source discovery.",
+    "dedupe_keys": {
+      "search_queries": [
+        "Aspen HYSYS license:mit",
+        "HYSYS case license:mit",
+        "Aspen HYSYS filename:README.md",
+        "\"Aspen HYSYS\" \"simulation files\"",
+        "HYSYS \"*.hsc\"",
+        "Aspen HYSYS methanol",
+        "Aspen HYSYS gas sweetening"
+      ],
+      "dedupe_status": "no_new_downloadable_case_payload"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "model_run_status": "not_run",
+    "residual_risks": "GitHub search can miss binary HYSYS files and repositories where only metadata mentions HYSYS."
+  },
+  {
+    "title": "Gallo05952/Articolo_energies",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/Gallo05952/Articolo_energies",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license is declared. Contains HYSYS .hsc models and workbook/CSV support data, but archival/download rights remain unclear, so no files were downloaded.",
+    "recommended_use": "Manual permission queue only. Potential future use for biogas cryogenic distillation metadata, sensitivity analysis, and surrogate-model workflow design after permission is clarified.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Gallo05952/Articolo_energies",
+      "title": "Gallo05952/Articolo_energies",
+      "case_filenames": [
+        "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+        "Articolo_energies.hsc"
+      ],
+      "git_blob_sha": [
+        "75e2c222dceb2a80448b5f9f46842b254c30a9c5",
+        "085bbf51c76b2e6b9b280012a6513fb397704ebd"
+      ],
+      "support_files": [
+        "Analisi.xlsx",
+        "f.csv",
+        "sensitivity_T_RR.csv",
+        "sensitivity_T_RR_NStadi.csv"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-16-heartbeat-2108Z",
+        "CASE/2026-05-17-heartbeat-0309Z",
+        "CASE/2026-05-17-heartbeat-0609Z",
+        "CASE/2026-05-17-heartbeat-1611Z"
+      ],
+      "dedupe_status": "duplicate_no_license_candidate"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "process_theme": "biogas cryogenic distillation",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "default_branch": "main",
+      "pushed_at": "2024-04-02T15:09:35Z",
+      "updated_at": "2024-11-06T14:06:12Z",
+      "model_run_status": "not_run"
+    },
+    "model_run_status": "not_run",
+    "residual_risks": "Technically relevant model payload exists, but redistribution and reuse rights remain unresolved. Scripts, notebooks, and models were not run."
+  },
+  {
+    "title": "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license is declared. Contains syngas SMR/DMR HYSYS .hsc, HYSYS XML, report slides, and sensitivity workbook; archival/download rights remain unclear, so no files were downloaded.",
+    "recommended_use": "Manual permission queue only. Potential future use for hydrogen/syngas process automation, sensitivity analysis, and surrogate-model training after license or author permission is clarified.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "title": "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "case_filenames": [
+        "SynGas-SMR-DMR(integration).hsc",
+        "SynGas-SMR-DMR(integration).xml",
+        "SynGas-SMR-DMR(main).hsc",
+        "SynGas-SMR-DMR(main).xml"
+      ],
+      "git_blob_sha": [
+        "a5639ca1d5f1a4b7a15c5bf7a68531a1bc1476b3",
+        "76cbc4efb6c5c778c194f66f110f3c4ce07222d9",
+        "d58208cb44e78b74d309a85350baf14f63a56f3d",
+        "d3f5a12faa99758192ecc4ed3fc22c9249232e86"
+      ],
+      "support_files": [
+        "DOCS/Report.pdf",
+        "DOCS/Seminar.pdf",
+        "MISC/Reaction Conversions Sensitivity.xlsx"
+      ],
+      "prior_case_records": [
+        "CASE/2026-05-17-heartbeat-0309Z",
+        "CASE/2026-05-17-heartbeat-0609Z"
+      ],
+      "dedupe_status": "duplicate_no_license_candidate"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc",
+        ".xml"
+      ],
+      "suspected_hysys_version": "unknown",
+      "process_theme": "syngas generation using SMR and DMR reactors",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "default_branch": "main",
+      "pushed_at": "2024-10-03T14:41:47Z",
+      "updated_at": "2026-03-30T17:19:53Z",
+      "model_run_status": "not_run"
+    },
+    "model_run_status": "not_run",
+    "residual_risks": "Strong engineering relevance, but no-license status blocks archive download. HYSYS version remains unknown because no model was opened."
+  },
+  {
+    "title": "bpalotai/Flowsheet-toolbox",
+    "type": "candidate_record",
+    "quality": "D",
+    "source_page": "https://github.com/bpalotai/Flowsheet-toolbox",
+    "download_url": null,
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license is declared. Contains a sample HYSYS .hsc model and spreadsheet/CSV/script support material, but archival/download rights remain unclear, so no files were downloaded.",
+    "recommended_use": "Manual permission queue only. If licensed later, it could support HYSYS-to-data pipeline and external-model automation tests.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/bpalotai/Flowsheet-toolbox",
+      "title": "bpalotai/Flowsheet-toolbox",
+      "case_filenames": [
+        "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc"
+      ],
+      "git_blob_sha": "53854097296b54b0a378e6d0f7421c880cbf9c08",
+      "prior_case_records": [
+        "CASE/2026-05-11-heartbeat-1411Z",
+        "CASE/2026-05-17-heartbeat-0309Z"
+      ],
+      "dedupe_status": "duplicate_no_license_candidate"
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "process_theme": "heat exchanger sample model and flowsheet data tooling",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "default_branch": "main",
+      "model_run_status": "not_run"
+    },
+    "model_run_status": "not_run",
+    "residual_risks": "Repository may be useful for automation research, but redistribution rights are unresolved and included scripts were not run."
+  }
+]

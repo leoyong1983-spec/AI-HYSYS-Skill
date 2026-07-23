@@ -1,0 +1,159 @@
+﻿{
+    "inspected":  17,
+    "hysys_like_repositories":  7,
+    "rows":  [
+                 {
+                     "repo":  "edgarsmdn/Aspen_HYSYS_Python",
+                     "url":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+                     "license":  "MIT",
+                     "file_count":  9,
+                     "hysys_like":  "Test_1.hsc",
+                     "companion_count":  4,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+                     "url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+                     "license":  "MIT",
+                     "file_count":  21,
+                     "hysys_like":  "",
+                     "companion_count":  16,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "punkeel/HySystemdNotifier",
+                     "url":  "https://github.com/punkeel/HySystemdNotifier",
+                     "license":  "GPL-3.0",
+                     "file_count":  15,
+                     "hysys_like":  "",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "jjgomera/pychemqt",
+                     "url":  "https://github.com/jjgomera/pychemqt",
+                     "license":  "GPL-3.0",
+                     "file_count":  1103,
+                     "hysys_like":  "",
+                     "companion_count":  410,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "shahria-sunny/Natural-Gas-Sweetening",
+                     "url":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+                     "license":  "MIT",
+                     "file_count":  4,
+                     "hysys_like":  "Gas Sweetening.hsc",
+                     "companion_count":  3,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "shahria-sunny/CDU-Simulation-Optimization",
+                     "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+                     "license":  "MIT",
+                     "file_count":  4,
+                     "hysys_like":  "project.hsc",
+                     "companion_count":  3,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "aqiqiqiu/ai-hysys-autobuilder",
+                     "url":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+                     "license":  "MIT",
+                     "file_count":  20,
+                     "hysys_like":  "",
+                     "companion_count":  17,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                     "url":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+                     "license":  "MIT",
+                     "file_count":  11,
+                     "hysys_like":  "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+                     "companion_count":  8,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "GaboTalero/HYSYS-Python-Case-Builder",
+                     "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+                     "license":  "MIT",
+                     "file_count":  9,
+                     "hysys_like":  "",
+                     "companion_count":  9,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                     "url":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                     "license":  "MIT",
+                     "file_count":  14,
+                     "hysys_like":  "",
+                     "companion_count":  12,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "oscarcontrerasnavas/hysys-to-excel-intro",
+                     "url":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+                     "license":  "GPL-3.0",
+                     "file_count":  4,
+                     "hysys_like":  "",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "andr1976/dwsim-paper",
+                     "url":  "https://github.com/andr1976/dwsim-paper",
+                     "license":  "MIT",
+                     "file_count":  36,
+                     "hysys_like":  "simulations/Black oil EOS density.hsc;simulations/Black oil EOS density.xml;simulations/Optim.hsc;simulations/Optim.xml",
+                     "companion_count":  12,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "may3rd/COSMO",
+                     "url":  "https://github.com/may3rd/COSMO",
+                     "license":  "GPL-3.0",
+                     "file_count":  133,
+                     "hysys_like":  "Test_1.hsc",
+                     "companion_count":  114,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "naawu789/HySysID",
+                     "url":  "https://github.com/naawu789/HySysID",
+                     "license":  "MIT",
+                     "file_count":  84,
+                     "hysys_like":  "",
+                     "companion_count":  66,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "vminasid/Hysys-Unisis2Matlab",
+                     "url":  "https://github.com/vminasid/Hysys-Unisis2Matlab",
+                     "license":  "GPL-3.0",
+                     "file_count":  5,
+                     "hysys_like":  "",
+                     "companion_count":  3,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "tinchofiuba/pythonHysys",
+                     "url":  "https://github.com/tinchofiuba/pythonHysys",
+                     "license":  "MIT",
+                     "file_count":  19,
+                     "hysys_like":  "case.hsc;final.hsc",
+                     "companion_count":  9,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "YuniqueCore/DynPlots",
+                     "url":  "https://github.com/YuniqueCore/DynPlots",
+                     "license":  "MIT",
+                     "file_count":  10,
+                     "hysys_like":  "",
+                     "companion_count":  8,
+                     "error":  null
+                 }
+             ]
+}

@@ -1,0 +1,227 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "jjgomera/pychemqt",
+                 "url":  "https://github.com/jjgomera/pychemqt",
+                 "description":  "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "master",
+                 "pushed_at":  "2026-05-10T21:37:09Z",
+                 "license":  "GPL-3.0"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  1103,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  ".script/README",
+                                       "size":  548,
+                                       "sha":  "ce96a1c030dfdddb03447d41e960bf7f9ce3261e"
+                                   },
+                                   {
+                                       "path":  ".script/copyright.py",
+                                       "size":  1439,
+                                       "sha":  "0fa651514e18ad0f563592eb4be6250082cddacf"
+                                   },
+                                   {
+                                       "path":  ".script/crude.py",
+                                       "size":  42343,
+                                       "sha":  "df0f8fdb08d79c49534e8f92de3667d0fbbdb44a"
+                                   },
+                                   {
+                                       "path":  ".script/database.py",
+                                       "size":  936,
+                                       "sha":  "1ebbfa3922651fe26c1a13fda8104d26fdbebddf"
+                                   },
+                                   {
+                                       "path":  ".script/ipython.py",
+                                       "size":  4386,
+                                       "sha":  "96721df241fea9688f0eb8c40986f2bc98fc43e3"
+                                   },
+                                   {
+                                       "path":  ".script/mEoSAncillary.py",
+                                       "size":  3255,
+                                       "sha":  "9bb4d78c3e714d2d33b505a7d64da71ce75c7088"
+                                   },
+                                   {
+                                       "path":  ".script/plot2point.py",
+                                       "size":  1062,
+                                       "sha":  "6010c5bafe959611866be46942a802393bbf01d9"
+                                   },
+                                   {
+                                       "path":  ".script/plotMEoS.py",
+                                       "size":  27128,
+                                       "sha":  "978dedaedbce2118d4116a95ba8d3c788bdf0fab"
+                                   },
+                                   {
+                                       "path":  ".script/superancillary.py",
+                                       "size":  3958,
+                                       "sha":  "ff49626599306aef04baa00cdfa26448663994e8"
+                                   },
+                                   {
+                                       "path":  ".script/svg.py",
+                                       "size":  8567,
+                                       "sha":  "36852c48f2d07ba7d6b2b105b8bfd7a9c503cfe7"
+                                   },
+                                   {
+                                       "path":  ".script/translate_elemental.py",
+                                       "size":  1485,
+                                       "sha":  "506da4ef63c87bccebeb9280d462587d45ef773e"
+                                   },
+                                   {
+                                       "path":  ".script/translation.py",
+                                       "size":  1170,
+                                       "sha":  "d62e13355756d167c25f2400f51d525122f74613"
+                                   },
+                                   {
+                                       "path":  ".script/unidades.py",
+                                       "size":  1001,
+                                       "sha":  "455f62d0a8d0cb53ea1a25cd7a3d44d04cc5d465"
+                                   },
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  35147,
+                                       "sha":  "94a9ed024d3859793618152ea559a168bbcbb5e2"
+                                   },
+                                   {
+                                       "path":  "README.rst",
+                                       "size":  5643,
+                                       "sha":  "3f26a4d069b93232a3fbf6aecff3bd68b1806d5b"
+                                   },
+                                   {
+                                       "path":  "Samples/__init__.py",
+                                       "size":  783,
+                                       "sha":  "3b09ab8cf96062e166324a9f205c48e695a18122"
+                                   },
+                                   {
+                                       "path":  "UI/BIP.py",
+                                       "size":  4714,
+                                       "sha":  "7dc656092dfc8de70059a4722c0433107dd0c313"
+                                   },
+                                   {
+                                       "path":  "UI/UI_corriente.py",
+                                       "size":  51201,
+                                       "sha":  "0c8d53c4b0821e5fc174f56145adaa3402fe2300"
+                                   },
+                                   {
+                                       "path":  "UI/__init__.py",
+                                       "size":  1209,
+                                       "sha":  "02e6d7b8895b33cf3be589ae1214c07f69ef6ef9"
+                                   },
+                                   {
+                                       "path":  "UI/bombaCurva.py",
+                                       "size":  10239,
+                                       "sha":  "a6df9831fea0d35522b8ac3b07b74687eaec9da3"
+                                   },
+                                   {
+                                       "path":  "UI/delegate.py",
+                                       "size":  3569,
+                                       "sha":  "8cd48518e8cdb445b5785c3b95e8e7dbace85d95"
+                                   },
+                                   {
+                                       "path":  "UI/flujo.py",
+                                       "size":  70695,
+                                       "sha":  "2a5046561e4b44fd5dfd9a803da2d48953fb1382"
+                                   },
+                                   {
+                                       "path":  "UI/inputTable.py",
+                                       "size":  13009,
+                                       "sha":  "c895bf4e16b6aefc65af0834eba86f83dc0789ce"
+                                   },
+                                   {
+                                       "path":  "UI/mainWindow.py",
+                                       "size":  80597,
+                                       "sha":  "687d66dcec269ceaafbec61255464b3bfebbcca5"
+                                   },
+                                   {
+                                       "path":  "UI/newComponent.py",
+                                       "size":  23266,
+                                       "sha":  "eb35a89042773842ccf9be9979f0cf9e7eeb18fd"
+                                   },
+                                   {
+                                       "path":  "UI/petro.py",
+                                       "size":  23245,
+                                       "sha":  "e8b39205605b1a839c783d1972efa2d2245d8084"
+                                   },
+                                   {
+                                       "path":  "UI/plots.py",
+                                       "size":  7141,
+                                       "sha":  "316553603cf3927b8d2f0a1184593d0e7cbdf6d1"
+                                   },
+                                   {
+                                       "path":  "UI/prefPFD.py",
+                                       "size":  15920,
+                                       "sha":  "6162543b84775162fa210de4fef0e2b817cee61b"
+                                   },
+                                   {
+                                       "path":  "UI/prefPetro.py",
+                                       "size":  6534,
+                                       "sha":  "a39226b8ce1bd28ac46427c650dfb4a9a22cdf13"
+                                   },
+                                   {
+                                       "path":  "UI/texteditor.py",
+                                       "size":  11575,
+                                       "sha":  "f59fa562657de2968a07db244811f4b692df6532"
+                                   },
+                                   {
+                                       "path":  "UI/viewComponents.py",
+                                       "size":  83559,
+                                       "sha":  "8aac8e1b245aea0832842bcec790e229701b71c4"
+                                   },
+                                   {
+                                       "path":  "UI/widgets.py",
+                                       "size":  63187,
+                                       "sha":  "131a6bf16df698086a91c08ccefc85a0f4180995"
+                                   },
+                                   {
+                                       "path":  "__init__.py",
+                                       "size":  783,
+                                       "sha":  "3b09ab8cf96062e166324a9f205c48e695a18122"
+                                   },
+                                   {
+                                       "path":  "dat/MathiasCopeman.csv",
+                                       "size":  26428,
+                                       "sha":  "40624effa2df026472e39b930959ef9b835b87ae"
+                                   },
+                                   {
+                                       "path":  "dat/__init__.py",
+                                       "size":  783,
+                                       "sha":  "3b09ab8cf96062e166324a9f205c48e695a18122"
+                                   },
+                                   {
+                                       "path":  "dat/databank.db",
+                                       "size":  2479104,
+                                       "sha":  "52aa920fb2f4bb167c25e2458db5ce5f849f12f9"
+                                   },
+                                   {
+                                       "path":  "dat/pipeDatabase.db",
+                                       "size":  96256,
+                                       "sha":  "23d653c132868aa5da8fce3f711e5e0501aad4d9"
+                                   },
+                                   {
+                                       "path":  "docs/README.rst",
+                                       "size":  27,
+                                       "sha":  "72a33558153fb57def85612b021ec596ef2a51b9"
+                                   },
+                                   {
+                                       "path":  "docs/UI_databank.rst",
+                                       "size":  2926,
+                                       "sha":  "b7f1c7443987283d184a0ae261f9fc06cc1a54c6"
+                                   },
+                                   {
+                                       "path":  "docs/__init__.py",
+                                       "size":  783,
+                                       "sha":  "3b09ab8cf96062e166324a9f205c48e695a18122"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-recent.json"
+                ],
+    "error":  null
+}

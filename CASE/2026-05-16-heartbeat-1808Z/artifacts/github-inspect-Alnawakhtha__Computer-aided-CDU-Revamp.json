@@ -1,0 +1,28 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Alnawakhtha/Computer-aided-CDU-Revamp",
+                 "url":  "https://github.com/Alnawakhtha/Computer-aided-CDU-Revamp",
+                 "description":  "CDU \u0026 VDU Simulation \u0026 Optimization This project models BAPCO’s CDU and VDU in Aspen HYSYS to enhance energy efficiency using pinch analysis and optimize heater design in Aspen EDR. Conducted under UoB supervision with BAPCO data, it explores heat integration to reduce fuel consumption and costs.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-03-20T09:32:12Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  2,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1978,
+                                       "sha":  "963ae84c84053e323d0be55387a46bbeed59108e"
+                                   }
+                               ]
+             },
+    "error":  null
+}

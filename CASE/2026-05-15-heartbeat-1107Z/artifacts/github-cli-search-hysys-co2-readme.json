@@ -1,0 +1,205 @@
+{
+  "query": "HYSYS CO2 in:readme",
+  "items": [
+    {
+      "description": "",
+      "fullName": "jonathanedwards23/CO2-electrolyzer-model",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOB0gvLA",
+        "is_bot": false,
+        "login": "jonathanedwards23",
+        "type": "User",
+        "url": "https://github.com/jonathanedwards23"
+      },
+      "updatedAt": "2024-08-29T22:42:49Z",
+      "url": "https://github.com/jonathanedwards23/CO2-electrolyzer-model"
+    },
+    {
+      "description": "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+      "fullName": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOEONUqw",
+        "is_bot": false,
+        "login": "Mahdi-Arashian",
+        "type": "User",
+        "url": "https://github.com/Mahdi-Arashian"
+      },
+      "updatedAt": "2026-05-10T19:54:34Z",
+      "url": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys"
+    },
+    {
+      "description": "It contains the code to deploy a chatbot on a flask application",
+      "fullName": "sanjay-s-aspentech/ChatBot",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCSrl4w",
+        "is_bot": false,
+        "login": "sanjay-s-aspentech",
+        "type": "User",
+        "url": "https://github.com/sanjay-s-aspentech"
+      },
+      "updatedAt": "2024-10-18T10:01:33Z",
+      "url": "https://github.com/sanjay-s-aspentech/ChatBot"
+    },
+    {
+      "description": "",
+      "fullName": "hermionini/manishamt",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBq9gfQ",
+        "is_bot": false,
+        "login": "hermionini",
+        "type": "User",
+        "url": "https://github.com/hermionini"
+      },
+      "updatedAt": "2026-04-06T13:01:33Z",
+      "url": "https://github.com/hermionini/manishamt"
+    },
+    {
+      "description": "A curated list of awesome resources on Thermodynamics",
+      "fullName": "iurisegtovich/AwesomeThermodynamics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjEwOTMwNTE3",
+        "is_bot": false,
+        "login": "iurisegtovich",
+        "type": "User",
+        "url": "https://github.com/iurisegtovich"
+      },
+      "updatedAt": "2026-05-11T07:31:56Z",
+      "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+    },
+    {
+      "description": "Academic and Collaborative Projects",
+      "fullName": "ryanroy9698/ryanroy9698.github.io",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjczNzE3MjMx",
+        "is_bot": false,
+        "login": "ryanroy9698",
+        "type": "User",
+        "url": "https://github.com/ryanroy9698"
+      },
+      "updatedAt": "2024-06-03T03:31:25Z",
+      "url": "https://github.com/ryanroy9698/ryanroy9698.github.io"
+    },
+    {
+      "description": "Data and reproducible analysis scripts for process-informed MOF and zeolite selection in gasification-derived hydrogen purification.",
+      "fullName": "Asgari-research/h2-gasification-mof-zeolite-screening",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOBoluIQ",
+        "is_bot": false,
+        "login": "Asgari-research",
+        "type": "User",
+        "url": "https://github.com/Asgari-research"
+      },
+      "updatedAt": "2026-05-10T09:35:19Z",
+      "url": "https://github.com/Asgari-research/h2-gasification-mof-zeolite-screening"
+    },
+    {
+      "description": "",
+      "fullName": "z08r3p/CHEN90012",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOC3pSAQ",
+        "is_bot": false,
+        "login": "z08r3p",
+        "type": "User",
+        "url": "https://github.com/z08r3p"
+      },
+      "updatedAt": "2024-12-31T12:26:00Z",
+      "url": "https://github.com/z08r3p/CHEN90012"
+    },
+    {
+      "description": "Methanol Synthesis Reactor Model",
+      "fullName": "ldminnes/msr-pbr",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjc2NTkwMTI4",
+        "is_bot": false,
+        "login": "ldminnes",
+        "type": "User",
+        "url": "https://github.com/ldminnes"
+      },
+      "updatedAt": "2025-09-16T15:55:32Z",
+      "url": "https://github.com/ldminnes/msr-pbr"
+    },
+    {
+      "description": "",
+      "fullName": "wesleyZero/capstone_II",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOB6-aSw",
+        "is_bot": false,
+        "login": "wesleyZero",
+        "type": "User",
+        "url": "https://github.com/wesleyZero"
+      },
+      "updatedAt": "2024-06-21T16:46:47Z",
+      "url": "https://github.com/wesleyZero/capstone_II"
+    }
+  ]
+}

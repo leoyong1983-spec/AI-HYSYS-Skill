@@ -1,0 +1,312 @@
+[
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Data for Process Design and Energy Assessment of an Onboard Carbon Capture System  with Boilers or Heat Pumps for Additional Steam Generation",
+    "doi": "10.5281/zenodo.7787405",
+    "html": null,
+    "files": [
+      "Data for manuscript at Zenodo.xlsx"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "ASPEN HYSYS DASTURIY-TEXNIK MAJMUASI VA UNDA GIDROKREKING QURILMASINI LOYIHALASH",
+    "doi": "10.5281/zenodo.6621128",
+    "html": null,
+    "files": [
+      "EJSSPC0602.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Design and simulation of sour water unit: A case study of port Harcourt refining company",
+    "doi": "10.5281/zenodo.8118142",
+    "html": null,
+    "files": [
+      "V9I2 68-76 2023.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Aspen HYSYS model for the Tennessee Eastman process",
+    "doi": "10.5281/zenodo.10966344",
+    "html": null,
+    "files": [
+      "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+    ],
+    "has_hysys_model_file": true
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Comparative study of CO2-N2 and N2-N2 dual expansion in natural gas liquefaction process",
+    "doi": "10.5281/zenodo.10669530",
+    "html": null,
+    "files": [
+      "GJETA-2023-0197.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+    "doi": "10.5281/zenodo.18806107",
+    "html": null,
+    "files": [
+      "1. Análisis Multicriterio.xlsx",
+      "3. Calculo del poder calorifico de los bloques.xlsx",
+      "6. Temperatura de salida de los gases de combustion.EES",
+      "7. Sistema Integrado OCC,ASU,CCS.hsc",
+      "5. Poder calorifico por bloques final.EES",
+      "2. Calculo de la Potencia nominal.xlsx",
+      "4. Balance estequiometrico para el proceso combustion.EES"
+    ],
+    "has_hysys_model_file": true
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Production of Synthetic Fuels From High Density Polyethylene (HDPE) Waste Through Pyrolysis: Experimental And Simulation Approaches",
+    "doi": "10.5281/zenodo.3722799",
+    "html": null,
+    "files": [
+      "2019 ANN HDPE.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "SUYUQ UGLEVODLAR YOQILG'I SARFI FRAKSIYALARINI BUG'LATISH JARAYONINI ZAMONAVIY TEXNIK VOSITALAR ASOSIDA BOSHQARISHNI TAKOMILLASHTIRISH",
+    "doi": "10.5281/zenodo.18286446",
+    "html": null,
+    "files": [
+      "1248-1255.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Role of biogenic CO2 in refiery decarbonization. A case study of Colombian refineries",
+    "doi": "10.5281/zenodo.15476366",
+    "html": null,
+    "files": [
+      "MC refinery MADS.lnr",
+      "HC refinery MADS.lnr",
+      "HC refinery LADS.lnr",
+      "MC refinery LADS.lnr",
+      "Erik López-basto et al, supplementary material.docx"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_aspen_hysys_hsc.json",
+    "title": "Enhancing Reformate Yield on Naphtha Reforming Unit by Upgrading Secondary-Recovery Schemes",
+    "doi": "10.5281/zenodo.10650287",
+    "html": null,
+    "files": [
+      "EJAET-8-6-8-13.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "SUYUQ UGLEVODLAR YOQILG'I SARFI FRAKSIYALARINI BUG'LATISH JARAYONINI ZAMONAVIY TEXNIK VOSITALAR ASOSIDA BOSHQARISHNI TAKOMILLASHTIRISH",
+    "doi": "10.5281/zenodo.18286446",
+    "html": null,
+    "files": [
+      "1248-1255.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "Elevating Natural Gas Liquid (NGLs) Extraction and Fractionation Train Performance: A Synergistic Approach of Simulation Analysis, Advanced Modification, and Vertical Advancement",
+    "doi": "10.5281/zenodo.18296724",
+    "html": null,
+    "files": [
+      "Elevating Natural Gas Liquid (NGLs) Extraction And Fractionation Train Performance.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+    "doi": "10.5281/zenodo.19469917",
+    "html": null,
+    "files": [
+      "Upload data.rar"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "Non-Random-Two-Liquid Thermodynamic Model for Ethanol Production from Cassava Waste Slurry using a Computer-Aided Aspen Hysys Simulation",
+    "doi": "10.5281/zenodo.15778142",
+    "html": null,
+    "files": [
+      "V10-N01-57-73.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "Technoeconomic Analysis of the Synthesis of Ethylene Glycol from Biomass",
+    "doi": "10.5281/zenodo.7117899",
+    "html": null,
+    "files": [
+      "IJISRT22SEP298.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "Chemical Treatment of Water Stream in a Continuous Flowing Process with Doping Technique: Calcium Hydroxide (Ca(Oh)2) as a Case Study",
+    "doi": "10.5281/zenodo.6379342",
+    "html": null,
+    "files": [
+      "01-Article Text-1649-1-10-20220323.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "Design and simulation of sour water unit: A case study of port Harcourt refining company",
+    "doi": "10.5281/zenodo.8118142",
+    "html": null,
+    "files": [
+      "V9I2 68-76 2023.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "D11.2 Experimental investigation of CO2 liquefaction for CO2 capture from cement plants",
+    "doi": "10.5281/zenodo.2605080",
+    "html": null,
+    "files": [
+      "d11.2-experimental-co2-liquefaction.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "ORC Optimal Design through Clusterization for Waste Heat Recovery in Anaerobic Digestion Plants",
+    "doi": "10.3390/app11062762",
+    "html": null,
+    "files": [
+      "fulltext.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "zenodo",
+    "file": "external-0609-zenodo_hysys_simulation.json",
+    "title": "CO2 Abatement by Methanol Production from Flue-Gas in Methanol Plant",
+    "doi": "10.5281/zenodo.1072503",
+    "html": null,
+    "files": [
+      "9300.pdf"
+    ],
+    "has_hysys_model_file": false
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+    "url": "https://doi.org/10.7910/DVN/VMAWN8",
+    "type": "dataset",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+    "url": "https://doi.org/10.7910/DVN/QOBGVF",
+    "type": "dataset",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "Replication Data for: Testing of Automated Photochemical Reflectance Index Sensors as Proxy Measurements of Light Use Efficiency in an Aspen Forest",
+    "url": "https://doi.org/10.7910/DVN/ZDZHAH",
+    "type": "dataset",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "QISAP : Quantum Instruction Set Analytics Platform",
+    "url": "https://doi.org/10.7910/DVN/QMYLWC",
+    "type": "dataset",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "scheme-aspen.scheme",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/3732365",
+    "type": "file",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "scheme-aspen.scheme",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/4004065",
+    "type": "file",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "cuminNew.bkp",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/7477764",
+    "type": "file",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "Euc.bkp",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/7477773",
+    "type": "file",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "ConnectAspenCumin.py",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/7477771",
+    "type": "file",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  },
+  {
+    "source": "harvard_dataverse",
+    "title": "ConnectAspenEucalyptus.py",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/7477774",
+    "type": "file",
+    "has_hysys_model_file": false,
+    "note": "search metadata only; no direct .hsc/.hscz/.compound evidence in result item"
+  }
+]

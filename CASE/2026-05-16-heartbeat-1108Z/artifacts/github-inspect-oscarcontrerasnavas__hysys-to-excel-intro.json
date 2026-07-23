@@ -1,0 +1,48 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2019-01-08T17:19:27Z",
+                 "defaultBranchRef":  {
+                                          "name":  "master"
+                                      },
+                 "description":  "Excel file with VBA simple script to get info from hysys cases",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  {
+                                     "key":  "gpl-3.0",
+                                     "name":  "GNU General Public License v3.0",
+                                     "nickname":  "GNU GPLv3"
+                                 },
+                 "nameWithOwner":  "oscarcontrerasnavas/hysys-to-excel-intro",
+                 "pushedAt":  "2022-06-16T22:10:00Z",
+                 "url":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro"
+             },
+    "tree":  {
+                 "tree_sha":  "189a5495647ada94618279056ea0d96de1e5b34d",
+                 "truncated":  false,
+                 "file_count":  4,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  35149,
+                                       "sha":  "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  399,
+                                       "sha":  "a0cb8b3fd0bdea91354ec7e0600c6fbbfba0c743"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null,
+    "seen_before":  true,
+    "queries":  [
+                    "github-repo-hysys-case-file"
+                ]
+}

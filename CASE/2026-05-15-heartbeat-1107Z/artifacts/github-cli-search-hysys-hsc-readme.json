@@ -1,0 +1,345 @@
+{
+  "query": "HYSYS hsc in:readme",
+  "items": [
+    {
+      "description": "Aspen HYSYS - Python connection",
+      "fullName": "edgarsmdn/Aspen_HYSYS_Python",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjQ3NzQ1ODcw",
+        "is_bot": false,
+        "login": "edgarsmdn",
+        "type": "User",
+        "url": "https://github.com/edgarsmdn"
+      },
+      "updatedAt": "2026-05-14T13:37:40Z",
+      "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python"
+    },
+    {
+      "description": "Supplementary material and information ",
+      "fullName": "andr1976/dwsim-paper",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU4NDc1NTM1",
+        "is_bot": false,
+        "login": "andr1976",
+        "type": "User",
+        "url": "https://github.com/andr1976"
+      },
+      "updatedAt": "2025-10-22T16:40:55Z",
+      "url": "https://github.com/andr1976/dwsim-paper"
+    },
+    {
+      "description": "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+      "fullName": "afabrild/HYSYS-MATLAB-LINK",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjMzODg3NDI4",
+        "is_bot": false,
+        "login": "afabrild",
+        "type": "User",
+        "url": "https://github.com/afabrild"
+      },
+      "updatedAt": "2025-11-02T12:02:26Z",
+      "url": "https://github.com/afabrild/HYSYS-MATLAB-LINK"
+    },
+    {
+      "description": "python automation package for aspen family products.",
+      "fullName": "bsha0/ap-python",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjI0MzY3Nzc3",
+        "is_bot": false,
+        "login": "bsha0",
+        "type": "User",
+        "url": "https://github.com/bsha0"
+      },
+      "updatedAt": "2025-09-22T12:04:20Z",
+      "url": "https://github.com/bsha0/ap-python"
+    },
+    {
+      "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+      "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOClAUYg",
+        "is_bot": false,
+        "login": "GaboTalero",
+        "type": "User",
+        "url": "https://github.com/GaboTalero"
+      },
+      "updatedAt": "2026-04-25T19:57:04Z",
+      "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+    },
+    {
+      "description": "",
+      "fullName": "guillemrh/TFG",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjY3Mjg2MTM3",
+        "is_bot": false,
+        "login": "guillemrh",
+        "type": "User",
+        "url": "https://github.com/guillemrh"
+      },
+      "updatedAt": "2022-04-26T16:04:55Z",
+      "url": "https://github.com/guillemrh/TFG"
+    },
+    {
+      "description": "",
+      "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjcyNTUyNjc2",
+        "is_bot": false,
+        "login": "M-Hamdy-M",
+        "type": "User",
+        "url": "https://github.com/M-Hamdy-M"
+      },
+      "updatedAt": "2025-06-21T08:46:00Z",
+      "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+    },
+    {
+      "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+      "fullName": "Jimohmuktar/CrBlend-ML",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODuwaFg",
+        "is_bot": false,
+        "login": "Jimohmuktar",
+        "type": "User",
+        "url": "https://github.com/Jimohmuktar"
+      },
+      "updatedAt": "2026-03-05T21:34:16Z",
+      "url": "https://github.com/Jimohmuktar/CrBlend-ML"
+    },
+    {
+      "description": "",
+      "fullName": "Ambercozy/HYSYS-GOSP-Design",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjQ3ODA2Mzc0",
+        "is_bot": false,
+        "login": "Ambercozy",
+        "type": "User",
+        "url": "https://github.com/Ambercozy"
+      },
+      "updatedAt": "2019-02-20T06:28:51Z",
+      "url": "https://github.com/Ambercozy/HYSYS-GOSP-Design"
+    },
+    {
+      "description": "",
+      "fullName": "chickenhgbla/gaussian-process-rto",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU3MDA4ODc2",
+        "is_bot": false,
+        "login": "chickenhgbla",
+        "type": "User",
+        "url": "https://github.com/chickenhgbla"
+      },
+      "updatedAt": "2019-10-30T22:46:26Z",
+      "url": "https://github.com/chickenhgbla/gaussian-process-rto"
+    },
+    {
+      "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+      "fullName": "sanjay-saran/dme-production-methanol",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBz9xbQ",
+        "is_bot": false,
+        "login": "sanjay-saran",
+        "type": "User",
+        "url": "https://github.com/sanjay-saran"
+      },
+      "updatedAt": "2025-04-23T13:35:19Z",
+      "url": "https://github.com/sanjay-saran/dme-production-methanol"
+    },
+    {
+      "description": "使用python 连接hysys ，并采用遗传算法实现稳态优化",
+      "fullName": "lihaijie1228/hysys_python_GA",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBj-EuA",
+        "is_bot": false,
+        "login": "lihaijie1228",
+        "type": "User",
+        "url": "https://github.com/lihaijie1228"
+      },
+      "updatedAt": "2026-03-10T13:52:07Z",
+      "url": "https://github.com/lihaijie1228/hysys_python_GA"
+    },
+    {
+      "description": "AI integrated model",
+      "fullName": "ruhanfarajov/aspenhysys",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODnOG2w",
+        "is_bot": false,
+        "login": "ruhanfarajov",
+        "type": "User",
+        "url": "https://github.com/ruhanfarajov"
+      },
+      "updatedAt": "2026-02-20T18:25:53Z",
+      "url": "https://github.com/ruhanfarajov/aspenhysys"
+    },
+    {
+      "description": "Excel and Hysys intaraction",
+      "fullName": "ArturTask/HysysExcel",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjYyNzUxNTc0",
+        "is_bot": false,
+        "login": "ArturTask",
+        "type": "User",
+        "url": "https://github.com/ArturTask"
+      },
+      "updatedAt": "2026-02-03T18:05:21Z",
+      "url": "https://github.com/ArturTask/HysysExcel"
+    },
+    {
+      "description": "My personal portfolio repo containing projects, code, papers, and more.",
+      "fullName": "rubel-miah-che/rubel-portfolio",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODehVUQ",
+        "is_bot": false,
+        "login": "rubel-miah-che",
+        "type": "User",
+        "url": "https://github.com/rubel-miah-che"
+      },
+      "updatedAt": "2025-11-03T06:44:50Z",
+      "url": "https://github.com/rubel-miah-che/rubel-portfolio"
+    },
+    {
+      "description": "",
+      "fullName": "JoshuaKiplimo/ResParse",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU0MTUyMzIx",
+        "is_bot": false,
+        "login": "JoshuaKiplimo",
+        "type": "User",
+        "url": "https://github.com/JoshuaKiplimo"
+      },
+      "updatedAt": "2022-12-12T14:45:36Z",
+      "url": "https://github.com/JoshuaKiplimo/ResParse"
+    },
+    {
+      "description": "",
+      "fullName": "HALOxHUB/MBNEWUPD18",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBpi5mw",
+        "is_bot": false,
+        "login": "HALOxHUB",
+        "type": "User",
+        "url": "https://github.com/HALOxHUB"
+      },
+      "updatedAt": "2023-02-20T13:29:22Z",
+      "url": "https://github.com/HALOxHUB/MBNEWUPD18"
+    }
+  ]
+}

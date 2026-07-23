@@ -1,0 +1,32 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                 "url":  "https://github.com/abdulhafiz891/Cryogenic-Distillation-for-N2-Rejection",
+                 "description":  "The simulation is about Nitrogen Rejection using Cryogenic Distillation in Aspen HYSYS",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2023-04-11T03:59:41Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  2,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1723,
+                                       "sha":  "c89667eaf7fadbeeeceb38bff63e035f8f75a07f"
+                                   }
+                               ]
+             },
+    "seen_before":  true,
+    "queries":  [
+                    "github-repo-hysys-lng.json"
+                ],
+    "error":  null
+}

@@ -1,0 +1,172 @@
+﻿{
+    "id":  "g5k7tndk77",
+    "doi":  {
+                "id":  "10.17632/g5k7tndk77.1",
+                "status":  "allocated",
+                "prefix":  "10.17632"
+            },
+    "name":  "Exergoeconomic Analysis",
+    "description":  "Exergoeconomic analysis of basic Brayton cycle based cryocooler for 10 kW cooling load",
+    "version":  1,
+    "contributors":  [
+                         {
+                             "profile_id":  "c87d1b01-af46-369a-a654-230dc73008b2",
+                             "first_name":  "Aman ",
+                             "last_name":  "Dhillon"
+                         },
+                         {
+                             "institution":  {
+                                                 "name":  "Indian Insitute of Technology Kharagpur"
+                                             },
+                             "profile_id":  "e2bcd5a8-c0cc-3884-a830-66cf43f713ff",
+                             "first_name":  "Parthasarathi",
+                             "last_name":  "Ghosh"
+                         }
+                     ],
+    "files":  [
+                  {
+                      "filename":  "Compressoreffeciency.xlsx",
+                      "id":  "e0d214ec-716d-430f-bd1e-ad237968865b",
+                      "content_details":  {
+                                              "id":  "2833a76e-aff2-402d-b323-ff3b1952ce9f",
+                                              "sha256_hash":  "3d7b1fbabc40a625085132744675e3eba6b78c52be443467ed07c5118e5e8a2a",
+                                              "content_type":  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                              "size":  107150,
+                                              "created_date":  "2020-12-12T15:50:06.351Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/e0d214ec-716d-430f-bd1e-ad237968865b/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/e0d214ec-716d-430f-bd1e-ad237968865b/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T18:23:28.027594084Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  107150,
+                      "status":  "COMPLETED"
+                  },
+                  {
+                      "filename":  "HXminApproach.xlsx",
+                      "id":  "ad3d8465-65a2-471f-9a34-14b299ff738c",
+                      "content_details":  {
+                                              "id":  "fe313f9f-e75f-49fd-922f-3b6a17b65feb",
+                                              "sha256_hash":  "ae63f18ae118dc56c7ee95a6b487454734a6d3efbf9202c57a87a320ba6c279c",
+                                              "content_type":  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                              "size":  91501,
+                                              "created_date":  "2020-12-12T15:50:06.475Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/ad3d8465-65a2-471f-9a34-14b299ff738c/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/ad3d8465-65a2-471f-9a34-14b299ff738c/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T18:23:28.027598674Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  91501,
+                      "status":  "COMPLETED"
+                  },
+                  {
+                      "filename":  "Load Heat Exchanger Temperature difference.xlsx",
+                      "id":  "4f1792a6-9e1c-45ba-b82e-0abca0b0e45b",
+                      "content_details":  {
+                                              "id":  "32a263c1-6d7f-4354-b048-748b24e55fab",
+                                              "sha256_hash":  "76651f2b9701782e4706f35dbecfbfb15de3aeb52bae67209a06716726488ce6",
+                                              "content_type":  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                              "size":  2036725,
+                                              "created_date":  "2020-12-12T15:50:06.548Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/4f1792a6-9e1c-45ba-b82e-0abca0b0e45b/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/4f1792a6-9e1c-45ba-b82e-0abca0b0e45b/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T18:23:28.027602254Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  2036725,
+                      "status":  "COMPLETED"
+                  },
+                  {
+                      "filename":  "Turbineeffeciency.xlsx",
+                      "id":  "f7c85c94-bb79-4bbd-baba-48c3d693341e",
+                      "content_details":  {
+                                              "id":  "06438a67-063e-4f28-a1f0-daafcdd431b0",
+                                              "sha256_hash":  "453964478d1b9c7e997150e48f51d0991eeed0f7a6ea22799f2896cb46abf86d",
+                                              "content_type":  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                                              "size":  92654,
+                                              "created_date":  "2020-12-12T15:50:06.436Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/f7c85c94-bb79-4bbd-baba-48c3d693341e/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/g5k7tndk77/files/f7c85c94-bb79-4bbd-baba-48c3d693341e/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T18:23:28.027605705Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  92654,
+                      "status":  "COMPLETED"
+                  }
+              ],
+    "versions":  [
+                     {
+                         "version":  1,
+                         "available":  true,
+                         "publish_date":  "2020-12-14T10:17:18.781Z"
+                     }
+                 ],
+    "articles":  [
+
+                 ],
+    "categories":  [
+                       {
+                           "id":  "data.elsevier.com/vocabulary/OmniScience/Concept-264264813",
+                           "label":  "Exergoeconomics"
+                       }
+                   ],
+    "institutions":  [
+                         {
+                             "id":  "a4b0b16a-710b-5469-8cc1-26ca2e85e3d6",
+                             "name":  "Indian Institute of Technology Kharagpur",
+                             "ror_id":  "https://ror.org/03w5sq511"
+                         }
+                     ],
+    "metrics":  {
+                    "views":  0,
+                    "file_downloads":  0,
+                    "file_previews":  0
+                },
+    "available":  true,
+    "method":  "Using the Aspen Hysys 10.1 with MBWR Equation of state",
+    "size":  2328030,
+    "owner":  {
+                  "profile_id":  "c87d1b01-af46-369a-a654-230dc73008b2",
+                  "first_name":  "Aman ",
+                  "last_name":  "Dhillon"
+              },
+    "channel":  "WEB",
+    "owner_id":  "c87d1b01-af46-369a-a654-230dc73008b2",
+    "publish_date":  "2020-12-14T10:17:18.781Z",
+    "data_licence":  {
+                         "id":  "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+                         "description":  "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+                         "url":  "http://creativecommons.org/licenses/by/4.0",
+                         "category":  "Creative",
+                         "short_name":  "CC BY 4.0",
+                         "full_name":  "Creative Commons Attribution 4.0 International"
+                     },
+    "related_links":  [
+
+                      ],
+    "funders":  [
+
+                ],
+    "customer_id":  "7377952c-6404-4428-bbfc-77242cfc301e",
+    "modified_on":  "2020-12-12T15:54:17.589Z",
+    "created_on":  "2020-12-12T15:47:10.811Z",
+    "confidential":  false,
+    "links":  {
+                  "view":  "https://data.mendeley.com/datasets/g5k7tndk77"
+              },
+    "repository":  {
+                       "id":  "MENDELEY_DATA",
+                       "name":  "Mendeley Data"
+                   }
+}

@@ -1,0 +1,42 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "JeePeiQi0101/Aspen.HYSYS",
+                 "url":  "https://github.com/JeePeiQi0101/Aspen.HYSYS",
+                 "description":  "Utilising MS Excel \u0026 Aspen HYSYS for Hydrolysis of Acetic Anhydride",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2023-06-26T11:42:30Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  4,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "Aspen HYSYS simulation file_Parallel.xml",
+                                        "size":  2100449,
+                                        "sha":  "f097321de7a6e11944ac53ff4794c3784c88222d"
+                                    },
+                                    {
+                                        "path":  "Aspen HYSYS simulation file_Series.xml",
+                                        "size":  2178992,
+                                        "sha":  "415ccb1702c82240b602214ac768576f31355776"
+                                    },
+                                    {
+                                        "path":  "Aspen HYSYS simulation file_Single.xml",
+                                        "size":  1823120,
+                                        "sha":  "a4fe57591507891a481e8adb27496f836fc8d012"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Hydrolysis of Acetic Anhydride report.pdf",
+                                       "size":  1324335,
+                                       "sha":  "11aef7ebf4d0bef72eb3c3c3f21ddc894748ea96"
+                                   }
+                               ]
+             },
+    "error":  null
+}

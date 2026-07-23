@@ -1,0 +1,39 @@
+{
+  "sha": "b32568362ef1761121155ab10bb5a41c34f23465",
+  "url": "https://api.github.com/repos/snua/HYSYS-dynamic-simulation/git/trees/b32568362ef1761121155ab10bb5a41c34f23465",
+  "tree": [
+    {
+      "path": "Intro-Dynamic-Simulation-Slides.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7e87168545c127bc511c1e59753492a0a80fa2",
+      "size": 782817,
+      "url": "https://api.github.com/repos/snua/HYSYS-dynamic-simulation/git/blobs/4b7e87168545c127bc511c1e59753492a0a80fa2"
+    },
+    {
+      "path": "Intro-Dynamic-Simulation-Worksheet.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efdf0248a04769358f2b7623cf83b99b258ca3f7",
+      "size": 1249182,
+      "url": "https://api.github.com/repos/snua/HYSYS-dynamic-simulation/git/blobs/efdf0248a04769358f2b7623cf83b99b258ca3f7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9270ddc9be9ce326a78efe2f70294fe96d7b39",
+      "size": 80,
+      "url": "https://api.github.com/repos/snua/HYSYS-dynamic-simulation/git/blobs/6c9270ddc9be9ce326a78efe2f70294fe96d7b39"
+    },
+    {
+      "path": "solutions.rar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "328a59660d6b6430e4b790629c95f4be343cc4a8",
+      "size": 25959922,
+      "url": "https://api.github.com/repos/snua/HYSYS-dynamic-simulation/git/blobs/328a59660d6b6430e4b790629c95f4be343cc4a8"
+    }
+  ],
+  "truncated": false
+}

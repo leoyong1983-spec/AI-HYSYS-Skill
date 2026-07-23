@@ -1,0 +1,145 @@
+﻿[
+    {
+        "title":  "Duplicate hit: Zenodo 18806107 modular oxy-combustion + CCS HYSYS package",
+        "type":  "duplicate_record",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/18806107",
+        "download_url":  "https://zenodo.org/api/records/18806107/files",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2019Z/artifacts/dedupe-evidence.json",
+                                    "filename":  "dedupe-evidence.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  765,
+                                    "sha256":  "d6e3870407b30f2a03f3aa1aa2d7b47437d141884c30e26b787871c4031c0908"
+                                }
+                            ],
+        "license_public_access_note":  "Already archived in prior heartbeat with open CC BY 4.0 record; this run skipped redownload by dedupe policy.",
+        "recommended_use":  "Use existing archived case for CO2 capture/CCUS regression and automation tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/18806107",
+                            "download_url":  "https://zenodo.org/api/records/18806107/files",
+                            "title":  "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+                            "filenames":  [
+                                              "7. Sistema Integrado OCC,ASU,CCS.hsc"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc",
+                                                                           ".xlsx",
+                                                                           ".ees"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No new material added this run; rely on prior archived copy integrity."
+                           ]
+    },
+    {
+        "title":  "Candidate: Mendeley f28wdd3g8m (AspenPlus package, no evidenced HYSYS case)",
+        "type":  "candidate_record",
+        "quality":  "D",
+        "source_page":  "https://data.mendeley.com/datasets/f28wdd3g8m/2",
+        "download_url":  "https://data.mendeley.com/public-files/datasets/f28wdd3g8m/files/b250afda-4c6b-4db9-80ac-a677f66c46fb/file_downloaded",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2019Z/artifacts/candidate-f28wdd3g8m-metadata.json",
+                                    "filename":  "candidate-f28wdd3g8m-metadata.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1186,
+                                    "sha256":  "6a9b236fa16ea5305fd7d71a363fc1386056afd88043c407f9073531478914c4"
+                                }
+                            ],
+        "license_public_access_note":  "Public Mendeley dataset under CC BY 4.0, but package appears Aspen Plus focused (.apwz).",
+        "recommended_use":  "Only consider if baseline scope expands to Aspen Plus; not suitable for current Aspen HYSYS baseline ingestion.",
+        "dedupe_keys":  {
+                            "source_page":  "https://data.mendeley.com/datasets/f28wdd3g8m/2",
+                            "download_url":  "https://data.mendeley.com/public-files/datasets/f28wdd3g8m/files/b250afda-4c6b-4db9-80ac-a677f66c46fb/file_downloaded",
+                            "title":  "Raw and Filtered Data - Rdf-to-DME",
+                            "filenames":  [
+                                              "Research Data.zip"
+                                          ],
+                            "sha256":  [
+                                           "204ece03f64eb122f57050a9733989fd08f439309825dc8b981b94c4ddce4955"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".apwz"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Potential false-negative if hidden HYSYS files exist in later revisions.",
+                               "Current evidence indicates Aspen Plus only."
+                           ]
+    },
+    {
+        "title":  "Candidate set: GitHub repos with .hsc but missing explicit license",
+        "type":  "candidate_record",
+        "quality":  "D",
+        "source_page":  "https://github.com/Rus-tam/hysys_observer",
+        "download_url":  "https://api.github.com/search/repositories?q=HYSYS%20.hsc",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-11-heartbeat-2019Z/artifacts/candidate-github-unlicensed-hsc.json",
+                                    "filename":  "candidate-github-unlicensed-hsc.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  774,
+                                    "sha256":  "36c40076a8ff21d22704ede4f00bbe8aa44ab274822a3d47667d7c761e7dbfaf"
+                                }
+                            ],
+        "license_public_access_note":  "Repository-level license metadata missing (NOASSERTION); redistribution safety unclear.",
+        "recommended_use":  "Manual legal review first; if permission granted, ingest specific .hsc files in a follow-up run.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Rus-tam/hysys_observer",
+                            "download_url":  "",
+                            "title":  "unlicensed hsc candidates",
+                            "filenames":  [
+                                              "example.hsc",
+                                              "Test_file_hysys_python.hsc",
+                                              "NODECFINAL.hsc"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hysys_xml":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Potential license infringement if archived without explicit permission."
+                           ]
+    }
+]

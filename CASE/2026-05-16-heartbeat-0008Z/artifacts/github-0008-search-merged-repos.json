@@ -1,0 +1,282 @@
+{
+  "queries": {
+    "github-cli-search-hysys-dynamic-hsc": "HYSYS \"dynamic simulation\" hsc in:readme",
+    "github-cli-search-hysys-distillation-hsc": "HYSYS distillation hsc in:readme",
+    "github-cli-search-hysys-amine-hsc": "HYSYS amine hsc in:readme",
+    "github-cli-search-hysys-dehydration-hsc": "HYSYS dehydration hsc in:readme",
+    "github-cli-search-hysys-acid-gas-hsc": "HYSYS \"acid gas\" hsc in:readme",
+    "github-cli-search-hysys-v12-hsc": "\"Aspen HYSYS\" V12 hsc in:readme",
+    "github-cli-search-hysys-v14-hsc": "\"Aspen HYSYS\" V14 hsc in:readme",
+    "github-cli-search-hysys-hscz": "HYSYS hscz in:readme",
+    "github-cli-search-hysys-compound": "HYSYS compound in:readme",
+    "github-cli-search-hysys-supplementary": "HYSYS supplementary hsc in:readme",
+    "github-cli-search-hysys-validation": "HYSYS validation hsc in:readme",
+    "github-cli-search-hysys-license-mit": "HYSYS hsc license:mit"
+  },
+  "unique_repos": 18,
+  "new_unseen_repos": 10,
+  "errors": [],
+  "new_repos": [
+    {
+      "fullName": "ruhanfarajov/aspenhysys",
+      "queries": [
+        "HYSYS distillation hsc in:readme"
+      ],
+      "repo": {
+        "description": "AI integrated model",
+        "fullName": "ruhanfarajov/aspenhysys",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "U_kgDODnOG2w",
+          "is_bot": false,
+          "login": "ruhanfarajov",
+          "type": "User",
+          "url": "https://github.com/ruhanfarajov"
+        },
+        "updatedAt": "2026-02-20T18:25:53Z",
+        "url": "https://github.com/ruhanfarajov/aspenhysys"
+      }
+    },
+    {
+      "fullName": "jjgomera/pychemqt",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+        "fullName": "jjgomera/pychemqt",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0"
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjE3MTA1NDc=",
+          "is_bot": false,
+          "login": "jjgomera",
+          "type": "User",
+          "url": "https://github.com/jjgomera"
+        },
+        "updatedAt": "2026-05-10T21:37:14Z",
+        "url": "https://github.com/jjgomera/pychemqt"
+      }
+    },
+    {
+      "fullName": "iurisegtovich/AwesomeThermodynamics",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "A curated list of awesome resources on Thermodynamics",
+        "fullName": "iurisegtovich/AwesomeThermodynamics",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjEwOTMwNTE3",
+          "is_bot": false,
+          "login": "iurisegtovich",
+          "type": "User",
+          "url": "https://github.com/iurisegtovich"
+        },
+        "updatedAt": "2026-05-11T07:31:56Z",
+        "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+      }
+    },
+    {
+      "fullName": "huzaifashahid7/Catalytic-wet-oxidation",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "Research on catalytic wet air oxidation for industrial wastewater treatment using Fe/Al₂O₃.",
+        "fullName": "huzaifashahid7/Catalytic-wet-oxidation",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "U_kgDODJJN0A",
+          "is_bot": false,
+          "login": "huzaifashahid7",
+          "type": "User",
+          "url": "https://github.com/huzaifashahid7"
+        },
+        "updatedAt": "2025-07-18T03:32:27Z",
+        "url": "https://github.com/huzaifashahid7/Catalytic-wet-oxidation"
+      }
+    },
+    {
+      "fullName": "joseabraham-mena/EOSPy",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "joseabraham-mena/EOSPy",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjMwMzI4Mjg2",
+          "is_bot": false,
+          "login": "joseabraham-mena",
+          "type": "User",
+          "url": "https://github.com/joseabraham-mena"
+        },
+        "updatedAt": "2018-09-16T18:25:04Z",
+        "url": "https://github.com/joseabraham-mena/EOSPy"
+      }
+    },
+    {
+      "fullName": "AdityaSharma911/ML-for-DME-Optimization-",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "AdityaSharma911/ML-for-DME-Optimization-",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "url": "https://api.github.com/licenses/mit"
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjU1MjcwOTgy",
+          "is_bot": false,
+          "login": "AdityaSharma911",
+          "type": "User",
+          "url": "https://github.com/AdityaSharma911"
+        },
+        "updatedAt": "2023-07-31T15:38:40Z",
+        "url": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-"
+      }
+    },
+    {
+      "fullName": "AhmadAlsaadi/CheProcess",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "AhmadAlsaadi/CheProcess",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0"
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjEzMTQ0MjQ1",
+          "is_bot": false,
+          "login": "AhmadAlsaadi",
+          "type": "User",
+          "url": "https://github.com/AhmadAlsaadi"
+        },
+        "updatedAt": "2019-05-27T14:21:14Z",
+        "url": "https://github.com/AhmadAlsaadi/CheProcess"
+      }
+    },
+    {
+      "fullName": "OntoLedgy/ol_dwsim_interop_services",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "A Model Context Protocol (MCP) server that exposes DWSIM's chemical process simulation engine to Large Language Model (LLM) agents through safe, composable tools and resources.",
+        "fullName": "OntoLedgy/ol_dwsim_interop_services",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0"
+        },
+        "owner": {
+          "id": "O_kgDOBcQrjw",
+          "is_bot": false,
+          "login": "OntoLedgy",
+          "type": "Organization",
+          "url": "https://github.com/OntoLedgy"
+        },
+        "updatedAt": "2026-05-07T17:09:56Z",
+        "url": "https://github.com/OntoLedgy/ol_dwsim_interop_services"
+      }
+    },
+    {
+      "fullName": "Gopal564/Chemical-Engineering-Revision",
+      "queries": [
+        "HYSYS compound in:readme"
+      ],
+      "repo": {
+        "description": "Revision of all topics",
+        "fullName": "Gopal564/Chemical-Engineering-Revision",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjg3OTc1MTQ0",
+          "is_bot": false,
+          "login": "Gopal564",
+          "type": "User",
+          "url": "https://github.com/Gopal564"
+        },
+        "updatedAt": "2025-03-15T04:44:37Z",
+        "url": "https://github.com/Gopal564/Chemical-Engineering-Revision"
+      }
+    },
+    {
+      "fullName": "JoshuaKiplimo/ResParse",
+      "queries": [
+        "HYSYS compound in:readme",
+        "HYSYS validation hsc in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "JoshuaKiplimo/ResParse",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjU0MTUyMzIx",
+          "is_bot": false,
+          "login": "JoshuaKiplimo",
+          "type": "User",
+          "url": "https://github.com/JoshuaKiplimo"
+        },
+        "updatedAt": "2022-12-12T14:45:36Z",
+        "url": "https://github.com/JoshuaKiplimo/ResParse"
+      }
+    }
+  ]
+}

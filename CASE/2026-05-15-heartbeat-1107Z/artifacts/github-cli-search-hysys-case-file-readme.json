@@ -1,0 +1,85 @@
+{
+  "query": "HYSYS \"case file\" in:readme",
+  "items": [
+    {
+      "description": "For optimizing HYSYS case files",
+      "fullName": "perrywzm/hysysopt",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjQ3MTU1Njcz",
+        "is_bot": false,
+        "login": "perrywzm",
+        "type": "User",
+        "url": "https://github.com/perrywzm"
+      },
+      "updatedAt": "2025-11-16T12:18:33Z",
+      "url": "https://github.com/perrywzm/hysysopt"
+    },
+    {
+      "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+      "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOClAUYg",
+        "is_bot": false,
+        "login": "GaboTalero",
+        "type": "User",
+        "url": "https://github.com/GaboTalero"
+      },
+      "updatedAt": "2026-04-25T19:57:04Z",
+      "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+    },
+    {
+      "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+      "fullName": "Jimohmuktar/CrBlend-ML",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODuwaFg",
+        "is_bot": false,
+        "login": "Jimohmuktar",
+        "type": "User",
+        "url": "https://github.com/Jimohmuktar"
+      },
+      "updatedAt": "2026-03-05T21:34:16Z",
+      "url": "https://github.com/Jimohmuktar/CrBlend-ML"
+    },
+    {
+      "description": "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+      "fullName": "leoyong1983-spec/AI-HYSYS-Skill",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOEGlu5w",
+        "is_bot": false,
+        "login": "leoyong1983-spec",
+        "type": "User",
+        "url": "https://github.com/leoyong1983-spec"
+      },
+      "updatedAt": "2026-05-15T09:33:46Z",
+      "url": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill"
+    }
+  ]
+}

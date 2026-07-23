@@ -1,0 +1,103 @@
+﻿{
+    "id":  "cny3h66vx8",
+    "doi":  {
+                "id":  "10.17632/cny3h66vx8.1",
+                "status":  "allocated",
+                "prefix":  "10.17632"
+            },
+    "name":  "Thermoexergetic anaysis f muticomponent distillation System",
+    "description":  "HYSYS: Thermoexergetic efficiency and exegetic loss rate data ",
+    "version":  1,
+    "contributors":  [
+                         {
+                             "profile_id":  "7c2ca843-a7de-3e50-9de7-1ab4116ea2b9",
+                             "first_name":  "Kehinde",
+                             "last_name":  "ADESINA"
+                         }
+                     ],
+    "files":  [
+                  {
+                      "filename":  "ENGOPT DATASET.doc",
+                      "id":  "a1950960-8071-4fa6-8983-1624782040f8",
+                      "content_details":  {
+                                              "id":  "2b29648d-8734-414f-aeac-7f30a32b003d",
+                                              "sha256_hash":  "f3b45a71894d1d7bdaf057b8528524d4f79477e4e58a77b6d7dd47146d85a440",
+                                              "content_type":  "application/msword",
+                                              "size":  111104,
+                                              "created_date":  "2021-09-29T15:02:20.256Z",
+                                              "download_url":  "https://data.mendeley.com/public-files/datasets/cny3h66vx8/files/a1950960-8071-4fa6-8983-1624782040f8/file_downloaded",
+                                              "view_url":  "https://data.mendeley.com/public-files/datasets/cny3h66vx8/files/a1950960-8071-4fa6-8983-1624782040f8/file_viewed",
+                                              "download_expiry_time":  "2126-05-11T18:23:27.659772882Z"
+                                          },
+                      "metrics":  {
+                                      "downloads":  0,
+                                      "previews":  0
+                                  },
+                      "size":  111104,
+                      "status":  "COMPLETED"
+                  }
+              ],
+    "versions":  [
+                     {
+                         "version":  1,
+                         "available":  true,
+                         "publish_date":  "2021-09-30T06:46:36.901Z"
+                     }
+                 ],
+    "articles":  [
+
+                 ],
+    "categories":  [
+                       {
+                           "id":  "data.elsevier.com/vocabulary/OmniScience/Concept-253221598",
+                           "label":  "Exergy Analysis"
+                       }
+                   ],
+    "institutions":  [
+                         {
+                             "id":  "b2e885e9-e28c-5639-a3e5-2196f8cbe0b9",
+                             "name":  "Near East University",
+                             "ror_id":  "https://ror.org/02x8svs93"
+                         }
+                     ],
+    "metrics":  {
+                    "views":  0,
+                    "file_downloads":  0,
+                    "file_previews":  0
+                },
+    "available":  true,
+    "size":  111104,
+    "owner":  {
+                  "profile_id":  "7c2ca843-a7de-3e50-9de7-1ab4116ea2b9",
+                  "first_name":  "Kehinde",
+                  "last_name":  "ADESINA"
+              },
+    "channel":  "WEB",
+    "owner_id":  "7c2ca843-a7de-3e50-9de7-1ab4116ea2b9",
+    "publish_date":  "2021-09-30T06:46:36.901Z",
+    "data_licence":  {
+                         "id":  "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+                         "description":  "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+                         "url":  "http://creativecommons.org/licenses/by/4.0",
+                         "category":  "Creative",
+                         "short_name":  "CC BY 4.0",
+                         "full_name":  "Creative Commons Attribution 4.0 International"
+                     },
+    "related_links":  [
+
+                      ],
+    "funders":  [
+
+                ],
+    "customer_id":  "7377952c-6404-4428-bbfc-77242cfc301e",
+    "modified_on":  "2021-09-30T06:46:36.901Z",
+    "created_on":  "2021-09-29T14:43:24.867Z",
+    "confidential":  false,
+    "links":  {
+                  "view":  "https://data.mendeley.com/datasets/cny3h66vx8"
+              },
+    "repository":  {
+                       "id":  "MENDELEY_DATA",
+                       "name":  "Mendeley Data"
+                   }
+}

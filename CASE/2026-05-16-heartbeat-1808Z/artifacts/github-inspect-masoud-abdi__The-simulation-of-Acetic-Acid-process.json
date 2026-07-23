@@ -1,0 +1,42 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+                 "url":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+                 "description":  "The simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10. I put the file here and be careful open it by ASPEN HYSYS v. 10. The data of each stream and the process flow diagram is attached.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2022-10-29T21:20:54Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  4,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "acetic fin.hsc",
+                                        "size":  2237973,
+                                        "sha":  "c6d64bec448a7ab97a72cdc12dd52012482cf694"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Acid-Material.pdf",
+                                       "size":  517525,
+                                       "sha":  "9ad9af5cfbaa568dd1509773aeb8080f0814c741"
+                                   },
+                                   {
+                                       "path":  "HYSYS-Print.pdf",
+                                       "size":  116180,
+                                       "sha":  "1d7c19adf3f807c9912556d8bccbfa42c15a7454"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  574,
+                                       "sha":  "6d5d24f096a919d025a33eecfecf8483e9ec8c68"
+                                   }
+                               ]
+             },
+    "error":  null
+}

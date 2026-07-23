@@ -1,0 +1,33 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "punkeel/HySystemdNotifier",
+                 "url":  "https://github.com/punkeel/HySystemdNotifier",
+                 "description":  null,
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-01-17T21:33:29Z",
+                 "license":  "GPL-3.0"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  15,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  32473,
+                                       "sha":  "810fce6e9bf2aa10265b85614db5ac65941ecf81"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1465,
+                                       "sha":  "1439d7c34b33a514eef423dbe12e9bb6e3b8cdbe"
+                                   }
+                               ]
+             },
+    "error":  null
+}

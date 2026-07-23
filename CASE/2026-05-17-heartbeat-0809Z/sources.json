@@ -1,0 +1,404 @@
+[
+  {
+    "title": "Duplicate: leoyong1983-spec/AI-HYSYS-Skill",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+    "download_url": "https://codeload.github.com/leoyong1983-spec/AI-HYSYS-Skill/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-leoyong1983-spec__AI-HYSYS-Skill.json",
+        "filename": "github-0809-repo-leoyong1983-spec__AI-HYSYS-Skill.json",
+        "file_type": "json",
+        "size_bytes": 6481,
+        "sha256": "57fb510189bcd6face296b0a39f6496b09eab4f62b9f1dfeb1103767c8c0d44a"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-leoyong1983-spec__AI-HYSYS-Skill.json",
+        "filename": "github-0809-tree-leoyong1983-spec__AI-HYSYS-Skill.json",
+        "file_type": "json",
+        "size_bytes": 659698,
+        "sha256": "03758d3131f0f5d60ed198a1f4ea94eb117ce53976f42331a4729b8da1a3f366"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata MIT. Not downloaded because it is duplicate.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request human license review before downloading.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+      "download_url": "https://codeload.github.com/leoyong1983-spec/AI-HYSYS-Skill/zip/refs/heads/main",
+      "title": "leoyong1983-spec/AI-HYSYS-Skill",
+      "filenames": [
+        "Black oil EOS density.hsc",
+        "Black oil EOS density.xml",
+        "Optim.hsc",
+        "Optim.xml",
+        "Capture_onboard_NG.hsc",
+        "Capture_onboard_methanol.hsc",
+        "MeOH_Production.hsc",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc",
+        "project.hsc",
+        "Gas Sweetening.hsc",
+        "Pressure Drop Estimation in pipelines.hsc",
+        "All_control_off_DMC.hsc",
+        "Test_1.hsc",
+        "Atmospheric Crude Tower.hsc",
+        "1000 KG DRYER.HSC",
+        "Test_1.hsc",
+        "case.hsc",
+        "final.hsc",
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "Test_1.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc",
+        ".xml"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source or filename already exists in CASE.",
+      "No Aspen HYSYS runtime validation performed."
+    ]
+  },
+  {
+    "title": "Duplicate: kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "download_url": "https://codeload.github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+        "filename": "github-0809-repo-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+        "file_type": "json",
+        "size_bytes": 7842,
+        "sha256": "52a84a947fdd3363493765a99ba040b6a1214f698f29733567d97af2c43c6cd0"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+        "filename": "github-0809-tree-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+        "file_type": "json",
+        "size_bytes": 5666,
+        "sha256": "e02ffc9b6cba17f6af93693ad96a75eb09498411cf7964071b689c02a490f646"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata MIT. Not downloaded because it is duplicate.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request human license review before downloading.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "download_url": "https://codeload.github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines/zip/refs/heads/main",
+      "title": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "filenames": [
+        "Pressure Drop Estimation in pipelines.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source or filename already exists in CASE.",
+      "No Aspen HYSYS runtime validation performed."
+    ]
+  },
+  {
+    "title": "Duplicate: shahria-sunny/Natural-Gas-Sweetening",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+    "download_url": "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+        "filename": "github-0809-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+        "file_type": "json",
+        "size_bytes": 6927,
+        "sha256": "feb4e7b6f379d2da5f4ba24c60bfa7b8052547413dc8a5b22052b57c153ef6e1"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+        "filename": "github-0809-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+        "file_type": "json",
+        "size_bytes": 1468,
+        "sha256": "6bff2f7f715071a38c26c8f864bd8d027520e0cc051f15e56892e85c6977a60e"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata MIT. Not downloaded because it is duplicate.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request human license review before downloading.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+      "download_url": "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main",
+      "title": "shahria-sunny/Natural-Gas-Sweetening",
+      "filenames": [
+        "Gas Sweetening.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source or filename already exists in CASE.",
+      "No Aspen HYSYS runtime validation performed."
+    ]
+  },
+  {
+    "title": "Duplicate: shahria-sunny/CDU-Simulation-Optimization",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+    "download_url": "https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+        "filename": "github-0809-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+        "file_type": "json",
+        "size_bytes": 7236,
+        "sha256": "1351bb0f6f1b9a7bcd8dd99f92fec13869b183040078dd4c67b1b47b609d3ffa"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+        "filename": "github-0809-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+        "file_type": "json",
+        "size_bytes": 1474,
+        "sha256": "87be0889a745f94e74eeb380a9926ac40cb36edcddb62f3cb498fc6413601911"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata MIT. Not downloaded because it is duplicate.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request human license review before downloading.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+      "download_url": "https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+      "title": "shahria-sunny/CDU-Simulation-Optimization",
+      "filenames": [
+        "project.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source or filename already exists in CASE.",
+      "No Aspen HYSYS runtime validation performed."
+    ]
+  },
+  {
+    "title": "Duplicate: edgarsmdn/Aspen_HYSYS_Python",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+    "download_url": "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-edgarsmdn__Aspen_HYSYS_Python.json",
+        "filename": "github-0809-repo-edgarsmdn__Aspen_HYSYS_Python.json",
+        "file_type": "json",
+        "size_bytes": 6235,
+        "sha256": "83f123270109c50574137c6db0f1bf475b3a9d63d9a19626f803a418d4ed0207"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-edgarsmdn__Aspen_HYSYS_Python.json",
+        "filename": "github-0809-tree-edgarsmdn__Aspen_HYSYS_Python.json",
+        "file_type": "json",
+        "size_bytes": 3509,
+        "sha256": "ef141b21794bdefc2a5c12d9ba96ac3b119f8b2a28f196a4e5360444cc5596c5"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata MIT. Not downloaded because it is duplicate.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request human license review before downloading.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+      "download_url": "https://codeload.github.com/edgarsmdn/Aspen_HYSYS_Python/zip/refs/heads/main",
+      "title": "edgarsmdn/Aspen_HYSYS_Python",
+      "filenames": [
+        "Test_1.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source or filename already exists in CASE.",
+      "No Aspen HYSYS runtime validation performed."
+    ]
+  },
+  {
+    "title": "Duplicate: lihaijie1228/hysys_python_GA",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/lihaijie1228/hysys_python_GA",
+    "download_url": "https://codeload.github.com/lihaijie1228/hysys_python_GA/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-lihaijie1228__hysys_python_GA.json",
+        "filename": "github-0809-repo-lihaijie1228__hysys_python_GA.json",
+        "file_type": "json",
+        "size_bytes": 6118,
+        "sha256": "9e65124d9996a0e51849cdd5b9c492ed557ad4132e5d0dcdf63e5cd2519569c6"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-lihaijie1228__hysys_python_GA.json",
+        "filename": "github-0809-tree-lihaijie1228__hysys_python_GA.json",
+        "file_type": "json",
+        "size_bytes": 4530,
+        "sha256": "07e41ed9a8650dfc50bcaa913eeb76f1bf505eca66c99603f41891ddff1188bd"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata NOASSERTION. Not downloaded because it is duplicate.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request human license review before downloading.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/lihaijie1228/hysys_python_GA",
+      "download_url": "https://codeload.github.com/lihaijie1228/hysys_python_GA/zip/refs/heads/main",
+      "title": "lihaijie1228/hysys_python_GA",
+      "filenames": [
+        "Decarbonization.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source or filename already exists in CASE.",
+      "No Aspen HYSYS runtime validation performed."
+    ]
+  },
+  {
+    "title": "Duplicate: andr1976/dwsim-paper",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/andr1976/dwsim-paper",
+    "download_url": "https://codeload.github.com/andr1976/dwsim-paper/zip/refs/heads/main",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-repo-andr1976__dwsim-paper.json",
+        "filename": "github-0809-repo-andr1976__dwsim-paper.json",
+        "file_type": "json",
+        "size_bytes": 5971,
+        "sha256": "a52d7f7db4fe3384301aabc2f0820f14a1bfad22ba61810e6fcb243fb8e74634"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0809Z/artifacts/github-0809-tree-andr1976__dwsim-paper.json",
+        "filename": "github-0809-tree-andr1976__dwsim-paper.json",
+        "file_type": "json",
+        "size_bytes": 12784,
+        "sha256": "5a533c4201db38512a1e61fad0cbab6e43ec7e8a211d63d33572da5ef59b0ecf"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository; license metadata MIT. Not downloaded because it is duplicate.",
+    "recommended_use": "Use existing archived copy if duplicate; otherwise request human license review before downloading.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/andr1976/dwsim-paper",
+      "download_url": "https://codeload.github.com/andr1976/dwsim-paper/zip/refs/heads/main",
+      "title": "andr1976/dwsim-paper",
+      "filenames": [
+        "Black oil EOS density.hsc",
+        "Black oil EOS density.xml",
+        "Optim.hsc",
+        "Optim.xml"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc",
+        ".xml"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source or filename already exists in CASE.",
+      "No Aspen HYSYS runtime validation performed."
+    ]
+  }
+]

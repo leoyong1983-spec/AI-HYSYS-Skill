@@ -1,0 +1,17 @@
+﻿[
+    {
+        "source_page":  "https://zenodo.org/records/18806107",
+        "prior_sources_json":  "CASE/2026-05-11-heartbeat-0222Z/sources.json",
+        "reason":  "source_page and download_url already archived with full artifacts incl .hsc"
+    },
+    {
+        "source_page":  "https://data.mendeley.com/datasets/8r8ztbkfjj/1",
+        "prior_sources_json":  "CASE/2026-05-11-heartbeat-1411Z/sources.json",
+        "reason":  "source_page and zip download_url already archived"
+    },
+    {
+        "source_page":  "https://data.mendeley.com/datasets/pv4znnnv3j/1",
+        "prior_sources_json":  "CASE/2026-05-11-heartbeat-1521Z/sources.json",
+        "reason":  "source_page and key filename 1000 KG DRYER.HSC already archived"
+    }
+]

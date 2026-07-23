@@ -1,0 +1,428 @@
+[
+  {
+    "repo": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "url": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "license": "",
+    "description": "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [
+      "GTU Simulation.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "url": "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "license": "",
+    "description": "The simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10. I put the file here and be careful open it by ASPEN HYSYS v. 10. The data of each stream and the process flow diagram is attached.",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".pdf": 2,
+      ".md": 1
+    },
+    "hysys_files": [
+      "acetic fin.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Acid-Material.pdf",
+        "HYSYS-Print.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "marcellobozzini/Python-Driving-License",
+    "url": "https://github.com/marcellobozzini/Python-Driving-License",
+    "license": "",
+    "description": "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1
+    },
+    "hysys_files": [
+      "Separazione_reattori.hsc"
+    ],
+    "readme": [],
+    "companion": {}
+  },
+  {
+    "repo": "ramirocrespo/aspen",
+    "error": "gh: Branch not found (HTTP 404)"
+  },
+  {
+    "repo": "kush1706/Methanol_Synthesis_Aspen_hysys",
+    "url": "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+    "license": "",
+    "description": "",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1
+    },
+    "hysys_files": [
+      "GROUP_17.hsc.hsc"
+    ],
+    "readme": [],
+    "companion": {}
+  },
+  {
+    "repo": "royhanikbarr/Aspen-Hysys-Simulation",
+    "url": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+    "license": "",
+    "description": "Simulation of Chemical Processes in Aspen Hysys",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [
+      "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Design Simulation Production Butyl Chloride/Paper Hysys Simulation Production Butyl Chloride.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "sanjay-saran/dme-production-methanol",
+    "url": "https://github.com/sanjay-saran/dme-production-methanol",
+    "license": "",
+    "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "SinaGhanbarii/HDA-Plant-Simulation",
+    "url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+    "license": "",
+    "description": "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".hsc": 10,
+      ".xlsx": 3,
+      ".pdf": 1,
+      ".md": 1,
+      ".m": 5
+    },
+    "hysys_files": [
+      "HDA 2024 Aspen/1-HDA-Setup.hsc",
+      "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+      "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+      "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".xlsx": [
+        "Book1.xlsx",
+        "HDA Product Column.xlsx",
+        "Heat exchangers.xlsx"
+      ],
+      ".pdf": [
+        "HDA Report.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".m": [
+        "DeltaT_ad.m",
+        "Kinetics.m",
+        "Main.m",
+        "MaterialBalances.m",
+        "delT_adiabatic.m"
+      ]
+    }
+  },
+  {
+    "repo": "Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "url": "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "license": "",
+    "description": "Aspen HYSYS Simulation for Node C of CP407 Group 9 Design 2025",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".md": 1
+    },
+    "hysys_files": [
+      "NODECFINAL.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "lior-abadi/chemEng-system-design",
+    "url": "https://github.com/lior-abadi/chemEng-system-design",
+    "license": "",
+    "description": "Design of a chemical process that synthesizes Formaldehyde. All calculus and design drafts are made via Visual Basic code integrated with Excel & Hysys/Unisim.",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".xml": 5,
+      ".xlsx": 9,
+      ".xls": 1,
+      ".pdf": 9,
+      ".md": 1,
+      ".docx": 1,
+      ".bas": 11,
+      ".xlsm": 13
+    },
+    "hysys_files": [
+      "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs (2).xml",
+      "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs.xml"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".xml": [
+        "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs (2).xml",
+        "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs.xml",
+        "02. Part 2 - Final Process Design/01. TP2_S1.XML",
+        "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Henry's Law/HenrysLaw.XML",
+        "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Vapour Curve Constructor/DiagramaTX.XML"
+      ],
+      ".xlsx": [
+        "00. Part 0 - Optimal Reaction Conditions/C谩lculos de Constantes de Reacci贸n.xlsx",
+        "02. Part 2 - Final Process Design/02. Optimizaciones del 1er Sist RXN.xlsx",
+        "02. Part 2 - Final Process Design/Calculos de coeficientes de actividad.xlsx",
+        "02. Part 2 - Final Process Design/Coeficientes cin茅tica.xlsx",
+        "02. Part 2 - Final Process Design/C谩lculos de Constantes de Reacci贸n.xlsx"
+      ],
+      ".xls": [
+        "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs.xls"
+      ],
+      ".pdf": [
+        "00. Design Specs (ES).pdf",
+        "00. Part 0 - Optimal Reaction Conditions/00. TP0 ABADI LIOR.pdf",
+        "00. Part 0 - Optimal Reaction Conditions/CO formation selectivity for steam reforming of methanol.pdf",
+        "00. Part 0 - Optimal Reaction Conditions/Influence of Reaction Conditions on Methanol Synthesis and WGS Reaction.pdf",
+        "01. Part 1 - Global Process Draft/01. TP1 - LIOR ABADI.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".docx": [
+        "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/How may I use Excel VBA to automate a series of runs of my HYSYS model and retrieve results for each run.docx"
+      ],
+      ".bas": [
+        "04. ALL MACROS EXTRACTED/00.Preentrega.bas",
+        "04. ALL MACROS EXTRACTED/01.FlowsheetsTP1.bas",
+        "04. ALL MACROS EXTRACTED/02. Calculos de VAN.bas",
+        "04. ALL MACROS EXTRACTED/02. Calculos de coeficientes de actividad.bas",
+        "04. ALL MACROS EXTRACTED/02. Optimizaciones del 1er Sist RXN.bas"
+      ],
+      ".xlsm": [
+        "00. Part 0 - Optimal Reaction Conditions/00. Pre entrega 1, Cond Reacci贸n RevA iii (Sin range look).xlsm",
+        "01. Part 1 - Global Process Draft/01. Evaluaci贸n de Flowsheets y BM 2.xlsm",
+        "02. Part 2 - Final Process Design/02. Optimizaciones del 1er Sist RXN.xlsm",
+        "02. Part 2 - Final Process Design/02. Optimizaciones del 2do Sist RXN.xlsm",
+        "02. Part 2 - Final Process Design/Calculos de VAN.xlsm"
+      ]
+    }
+  },
+  {
+    "repo": "Paryazdan/Aspen-HYSYS-Projects",
+    "url": "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+    "license": "",
+    "description": "",
+    "default_branch": "master",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".pdf": 1
+    },
+    "hysys_files": [
+      "YazdanihaPHw3aSim.hsc"
+    ],
+    "readme": [],
+    "companion": {
+      ".pdf": [
+        "YazdanihaPHw3aFlowsheet.pdf"
+      ]
+    }
+  },
+  {
+    "repo": "Shreya88876/Aspen_file_shreya",
+    "url": "https://github.com/Shreya88876/Aspen_file_shreya",
+    "license": "",
+    "description": "DRY (CO2) REFORMING OF METHANE USING RGIBBS REACTOR (ASPEN HYSYS)",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {},
+    "hysys_files": [],
+    "readme": [],
+    "companion": {}
+  },
+  {
+    "repo": "GaboTalero/HYSYS-Python-Case-Builder",
+    "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "license": "MIT",
+    "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 7
+    },
+    "hysys_files": [],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "EXtest.py",
+        "HYSYS_python_simulation.py",
+        "HYSYS_python_spreadsheets_creator.py",
+        "HyCOM_DIC_creator.py",
+        "Hysys_python_creator.py"
+      ]
+    }
+  },
+  {
+    "repo": "sajjad-ah/ASPEN-HYSYS",
+    "url": "https://github.com/sajjad-ah/ASPEN-HYSYS",
+    "license": "",
+    "description": "This repository includes some useful codes for ASPEN-HYSYS automation",
+    "default_branch": "main",
+    "truncated": false,
+    "counts": {
+      ".pdf": 1,
+      ".py": 3
+    },
+    "hysys_files": [],
+    "readme": [],
+    "companion": {
+      ".pdf": [
+        "SAFETY INSTRUMENTED SYSTEMS.pdf"
+      ],
+      ".py": [
+        "python/Compressor-Curves-Codes/UniSimCompressorData.py",
+        "python/Compressor-Curves-Codes/p_r_consequence.py",
+        "python/Compressor-Curves-Codes/testcompressordata.py"
+      ]
+    }
+  },
+  {
+    "repo": "ArturTask/HysysExcel",
+    "url": "https://github.com/ArturTask/HysysExcel",
+    "license": "",
+    "description": "Excel and Hysys intaraction",
+    "default_branch": "master",
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".xlsx": 1,
+      ".md": 1,
+      ".py": 5
+    },
+    "hysys_files": [
+      "Test_1.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".xlsx": [
+        "test.xlsx"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "CleanExcelData.py",
+        "ExcelManager.py",
+        "HYSYS_python_spreadsheets.py",
+        "config/conf.py",
+        "main.py"
+      ]
+    }
+  },
+  {
+    "repo": "oscarcontrerasnavas/hysys-to-excel-intro",
+    "url": "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+    "license": "GPL-3.0",
+    "description": "Excel file with VBA simple script to get info from hysys cases",
+    "default_branch": "master",
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".xlsm": 1
+    },
+    "hysys_files": [],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".xlsm": [
+        "ExtractFromHysys.xlsm"
+      ]
+    }
+  }
+]

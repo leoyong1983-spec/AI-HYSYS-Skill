@@ -1,0 +1,36 @@
+[
+  {
+    "defaultBranch": "main",
+    "description": "Aspen HYSYS - Python connection",
+    "fullName": "edgarsmdn/Aspen_HYSYS_Python",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "pushedAt": "2023-11-01T19:33:55Z",
+    "size": 372,
+    "stargazersCount": 90,
+    "updatedAt": "2026-05-14T13:37:40Z",
+    "url": "https://github.com/edgarsmdn/Aspen_HYSYS_Python"
+  },
+  {
+    "defaultBranch": "main",
+    "description": "Package for Aspen Hysys- Python connection",
+    "fullName": "cityfamer/HyPy",
+    "isFork": false,
+    "isPrivate": false,
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "pushedAt": "2022-10-12T11:53:32Z",
+    "size": 4,
+    "stargazersCount": 0,
+    "updatedAt": "2023-06-13T06:45:24Z",
+    "url": "https://github.com/cityfamer/HyPy"
+  }
+]

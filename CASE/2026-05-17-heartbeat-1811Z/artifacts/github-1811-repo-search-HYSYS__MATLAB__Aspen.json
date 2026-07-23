@@ -1,0 +1,56 @@
+{
+  "total_count": 5,
+  "items": [
+    {
+      "full_name": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "html_url": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "description": "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS & DWSIM).",
+      "updated_at": "2026-04-27T02:50:41Z",
+      "pushed_at": "2025-12-14T15:45:26Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "default_branch": "main"
+    },
+    {
+      "full_name": "Anikesh31/simulator_codingplatform_integration",
+      "html_url": "https://github.com/Anikesh31/simulator_codingplatform_integration",
+      "description": "This repository is intended to serve as a tutorial for beginners to connect Aspen HYSYS with coding platforms like Python and MATLAB. and carry out customization tasks.",
+      "updated_at": "2026-04-29T08:47:03Z",
+      "pushed_at": "2025-06-30T14:10:28Z",
+      "license": null,
+      "default_branch": "main"
+    },
+    {
+      "full_name": "SinaGhanbarii/HDA-Plant-Simulation",
+      "html_url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+      "description": "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+      "updated_at": "2026-03-10T14:10:32Z",
+      "pushed_at": "2024-07-11T08:42:21Z",
+      "license": null,
+      "default_branch": "main"
+    },
+    {
+      "full_name": "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+      "html_url": "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+      "description": "Connection scripts for Aspen Hysys with Excel (VBA), Matlab, Python and Unity",
+      "updated_at": "2026-03-01T09:48:46Z",
+      "pushed_at": "2023-03-07T18:04:35Z",
+      "license": null,
+      "default_branch": "main"
+    },
+    {
+      "full_name": "afabrild/HYSYS-MATLAB-LINK",
+      "html_url": "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+      "description": "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+      "updated_at": "2025-11-02T12:02:26Z",
+      "pushed_at": "2019-11-15T03:58:41Z",
+      "license": null,
+      "default_branch": "master"
+    }
+  ]
+}

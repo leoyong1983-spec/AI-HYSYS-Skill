@@ -1,0 +1,39 @@
+{
+  "sha": "c17b90045d270e4f4b05e66e07b5a4d6ead12845",
+  "url": "https://api.github.com/repos/shahria-sunny/CDU-Simulation-Optimization/git/trees/c17b90045d270e4f4b05e66e07b5a4d6ead12845",
+  "tree": [
+    {
+      "path": "CDU_Report.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "831966ac8499c3b27f3668c9a4b3d418a707ec73",
+      "size": 322508,
+      "url": "https://api.github.com/repos/shahria-sunny/CDU-Simulation-Optimization/git/blobs/831966ac8499c3b27f3668c9a4b3d418a707ec73"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d04ebfe367271dda05310b73830365bff82b501",
+      "size": 1078,
+      "url": "https://api.github.com/repos/shahria-sunny/CDU-Simulation-Optimization/git/blobs/7d04ebfe367271dda05310b73830365bff82b501"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f31febbb6458c2d405721f788adbc549b2f2707",
+      "size": 7898,
+      "url": "https://api.github.com/repos/shahria-sunny/CDU-Simulation-Optimization/git/blobs/7f31febbb6458c2d405721f788adbc549b2f2707"
+    },
+    {
+      "path": "project.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c8f506bd4e0099767abb17ce218197320ce1a39",
+      "size": 765164,
+      "url": "https://api.github.com/repos/shahria-sunny/CDU-Simulation-Optimization/git/blobs/9c8f506bd4e0099767abb17ce218197320ce1a39"
+    }
+  ],
+  "truncated": false
+}

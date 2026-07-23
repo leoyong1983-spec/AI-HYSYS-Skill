@@ -1,0 +1,58 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Asgari-research/h2-gasification-mof-zeolite-screening",
+                 "url":  "https://github.com/Asgari-research/h2-gasification-mof-zeolite-screening",
+                 "description":  "Data and reproducible analysis scripts for process-informed MOF and zeolite selection in gasification-derived hydrogen purification.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-05-09T20:14:43Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  11,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1147,
+                                       "sha":  "65563559811e633296e646d7e9de27c7e3df92b6"
+                                   },
+                                   {
+                                       "path":  "LICENSE-DATA.md",
+                                       "size":  537,
+                                       "sha":  "136b55c24f80848f0a501f6036d2acce8c5003e3"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  3843,
+                                       "sha":  "7f998d3de786eb4c3186620ad5ada7132b741d4e"
+                                   },
+                                   {
+                                       "path":  "data.z01",
+                                       "size":  25165824,
+                                       "sha":  "9981730626c78aefc877a0037bf25a28db506a0e"
+                                   },
+                                   {
+                                       "path":  "data.zip",
+                                       "size":  13685955,
+                                       "sha":  "48a1715eafda24a497e7432d37769dbdeb642b84"
+                                   },
+                                   {
+                                       "path":  "src/reproduce_analysis.py",
+                                       "size":  10098,
+                                       "sha":  "f4dfa561543a7a0b34c1608230a52b508f8821c0"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-python-com.json",
+                    "github-repo-hysys-simulation-files.json"
+                ],
+    "error":  null
+}

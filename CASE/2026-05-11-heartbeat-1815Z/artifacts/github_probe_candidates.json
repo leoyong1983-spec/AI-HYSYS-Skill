@@ -1,0 +1,200 @@
+﻿[
+    {
+        "repo":  "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+        "source_page":  "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+        "download_url":  "https://codeload.github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation/zip/refs/heads/main",
+        "zip_filename":  "Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.zip",
+        "zip_size_bytes":  2186,
+        "hsc_count":  0,
+        "hsc_sample":  [
+
+                       ],
+        "hsc_sha256":  [
+
+                       ],
+        "has_license_file":  false,
+        "license_file_count":  0,
+        "has_readme":  true,
+        "pdf_count":  0,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  false
+    },
+    {
+        "repo":  "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+        "source_page":  "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+        "download_url":  "https://codeload.github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS/zip/refs/heads/main",
+        "zip_filename":  "Ankesh-cloud__Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS.zip",
+        "zip_size_bytes":  1467692,
+        "hsc_count":  0,
+        "hsc_sample":  [
+
+                       ],
+        "hsc_sha256":  [
+
+                       ],
+        "has_license_file":  false,
+        "license_file_count":  0,
+        "has_readme":  true,
+        "pdf_count":  1,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  false
+    },
+    {
+        "repo":  "CristopherCano/Projects-ASPEN-HYSYS",
+        "source_page":  "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+        "download_url":  "https://codeload.github.com/CristopherCano/Projects-ASPEN-HYSYS/zip/refs/heads/main",
+        "zip_filename":  "CristopherCano__Projects-ASPEN-HYSYS.zip",
+        "zip_size_bytes":  17662609,
+        "hsc_count":  15,
+        "hsc_sample":  [
+                           "Projects-ASPEN-HYSYS-main/Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Precalentando.hsc",
+                           "Projects-ASPEN-HYSYS-main/Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Sin Precalentar.hsc",
+                           "Projects-ASPEN-HYSYS-main/Proyecto P2  Ciclos de vapor para generación de potencia/Caso A1.hsc",
+                           "Projects-ASPEN-HYSYS-main/Proyecto P2  Ciclos de vapor para generación de potencia/Caso A2.hsc",
+                           "Projects-ASPEN-HYSYS-main/Proyecto P2  Ciclos de vapor para generación de potencia/Caso B1.hsc"
+                       ],
+        "hsc_sha256":  [
+                           "940ecb8c123a3e3f6b40fa3d3646e8602304bc6b67c262a6fd9733431f7d738d",
+                           "45c6c236ea433aa91e7ea8b9bd6169c1a0f2f2d94117fc718ec732560bf6ae15",
+                           "311a08289d738ce58cb45aab97922f6b65cc47c53ea63e79dbf7c68cbd0ad449",
+                           "e70142ad9ddb24f4995c27a905ba4507fd3180601e635cb7a433cbc84b2b2d6a",
+                           "2b4b1899c095f129c05314efdc551d81ec6403e909b7381e1c9223d2b1e4fc51",
+                           "d52dc74ab5051ff35c82279277a6284eb8fe6944be98071eb4212aac77ea91e4",
+                           "42b07bf48a9bf235678fa7a7b0b03751dfb470dc86e692887089f32b1db567c6",
+                           "4c9a85c889b384677bec0d94775fddda1b76b86b1d0400afa3494d47b5b232ce",
+                           "93446d9fc75ffe3b3b756663792a09234be8ee9a9ad6ac2b146fd4bad0b8c50d",
+                           "cb9cce94bafcb161cb642e506761a36320fc964b56abf52e7e7264d56e0c2981",
+                           "4ff73ab32d50b7f0e46f099c0ea1a988dbb04f69b1b2493f745911441a80374a",
+                           "41f7528a0196ea25a9c5c7f21a0dbb8fa5b16e66c4c3d5b0fdf68870c89a693a",
+                           "a7c12690d5644d3ef87c44be69754ec2fd0249613a7054775c9461f401d6f842",
+                           "d91c6259ceb84b7ce45c1f47cb79b0eddbdded363da95665d5bd72f606f87419",
+                           "ebfaf94ac5f3beac0c5815a14898b46e1313eed3d827b2e93e364366d20b04f4"
+                       ],
+        "has_license_file":  false,
+        "license_file_count":  0,
+        "has_readme":  true,
+        "pdf_count":  4,
+        "tabular_count":  3,
+        "dedupe_hsc_sha_match_existing":  false
+    },
+    {
+        "repo":  "kush1706/Methanol_Synthesis_Aspen_hysys",
+        "source_page":  "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+        "download_url":  "https://codeload.github.com/kush1706/Methanol_Synthesis_Aspen_hysys/zip/refs/heads/main",
+        "zip_filename":  "kush1706__Methanol_Synthesis_Aspen_hysys.zip",
+        "zip_size_bytes":  434063,
+        "hsc_count":  1,
+        "hsc_sample":  [
+                           "Methanol_Synthesis_Aspen_hysys-main/GROUP_17.hsc.hsc"
+                       ],
+        "hsc_sha256":  [
+                           "03ef684c62244d08f9cdc41e11e8fefb69fa08cffe23af931b77cf69bca70a21"
+                       ],
+        "has_license_file":  false,
+        "license_file_count":  0,
+        "has_readme":  false,
+        "pdf_count":  0,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  false
+    },
+    {
+        "repo":  "Paryazdan/Aspen-HYSYS-Projects",
+        "source_page":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+        "download_url":  "https://codeload.github.com/Paryazdan/Aspen-HYSYS-Projects/zip/refs/heads/main",
+        "zip_filename":  "Paryazdan__Aspen-HYSYS-Projects.zip",
+        "zip_size_bytes":  207759,
+        "hsc_count":  1,
+        "hsc_sample":  [
+                           "Aspen-HYSYS-Projects-master/YazdanihaPHw3aSim.hsc"
+                       ],
+        "hsc_sha256":  [
+                           "3470d1dd7e9464c52efb71175199019a0a7fcb2a8a78459fa6af1eb7a44b682e"
+                       ],
+        "has_license_file":  false,
+        "license_file_count":  0,
+        "has_readme":  false,
+        "pdf_count":  1,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  false
+    },
+    {
+        "repo":  "sajjad-ah/ASPEN-HYSYS",
+        "source_page":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+        "download_url":  "https://codeload.github.com/sajjad-ah/ASPEN-HYSYS/zip/refs/heads/main",
+        "zip_filename":  "sajjad-ah__ASPEN-HYSYS.zip",
+        "zip_size_bytes":  464435,
+        "hsc_count":  0,
+        "hsc_sample":  [
+
+                       ],
+        "hsc_sha256":  [
+
+                       ],
+        "has_license_file":  false,
+        "license_file_count":  0,
+        "has_readme":  false,
+        "pdf_count":  0,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  false
+    },
+    {
+        "repo":  "shahria-sunny/CDU-Simulation-Optimization",
+        "source_page":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "download_url":  "https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+        "zip_filename":  "shahria-sunny__CDU-Simulation-Optimization.zip",
+        "zip_size_bytes":  1051033,
+        "hsc_count":  1,
+        "hsc_sample":  [
+                           "CDU-Simulation-Optimization-main/project.hsc"
+                       ],
+        "hsc_sha256":  [
+                           "795c3587c611405f4786115514030036987615e47c33fe74aba1fcb1610fbdd2"
+                       ],
+        "has_license_file":  true,
+        "license_file_count":  1,
+        "has_readme":  true,
+        "pdf_count":  1,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  true
+    },
+    {
+        "repo":  "shahria-sunny/Natural-Gas-Sweetening",
+        "source_page":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "download_url":  "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main",
+        "zip_filename":  "shahria-sunny__Natural-Gas-Sweetening.zip",
+        "zip_size_bytes":  1695224,
+        "hsc_count":  1,
+        "hsc_sample":  [
+                           "Natural-Gas-Sweetening-main/Gas Sweetening.hsc"
+                       ],
+        "hsc_sha256":  [
+                           "fcda75090796e9ba8a69bfb29a769deea36761d11d26c93d51d98318d19d4610"
+                       ],
+        "has_license_file":  true,
+        "license_file_count":  1,
+        "has_readme":  true,
+        "pdf_count":  1,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  true
+    },
+    {
+        "repo":  "Shreya88876/Aspen_file_shreya",
+        "source_page":  "https://github.com/Shreya88876/Aspen_file_shreya",
+        "download_url":  "https://codeload.github.com/Shreya88876/Aspen_file_shreya/zip/refs/heads/main",
+        "zip_filename":  "Shreya88876__Aspen_file_shreya.zip",
+        "zip_size_bytes":  713519,
+        "hsc_count":  0,
+        "hsc_sample":  [
+
+                       ],
+        "hsc_sha256":  [
+
+                       ],
+        "has_license_file":  false,
+        "license_file_count":  0,
+        "has_readme":  false,
+        "pdf_count":  0,
+        "tabular_count":  0,
+        "dedupe_hsc_sha_match_existing":  false
+    }
+]

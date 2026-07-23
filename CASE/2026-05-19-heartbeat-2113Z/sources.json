@@ -1,0 +1,172 @@
+[
+  {
+    "title": "lior-abadi/chemEng-system-design",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/lior-abadi/chemEng-system-design",
+    "download_url": "https://codeload.github.com/lior-abadi/chemEng-system-design/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected; no model payload archived.",
+    "recommended_use": "Candidate for future HYSYS XML import/parser triage and spreadsheet-interface review after permission.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/lior-abadi/chemEng-system-design",
+      "download_url": "https://codeload.github.com/lior-abadi/chemEng-system-design/zip/refs/heads/main",
+      "title": "lior-abadi/chemEng-system-design",
+      "filenames": [
+        "Excel HYSYS Link - AutomateCompCalcs.xml",
+        "01. TP2_S1.XML",
+        "HenrysLaw.XML",
+        "DiagramaTX.XML",
+        "README.md"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".xml"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No explicit license detected.",
+      "XML files may be UniSim/HYSYS-adjacent rather than confirmed HYSYS XML case files.",
+      "Repository includes XLSM files; macros were not downloaded or executed."
+    ]
+  },
+  {
+    "title": "puttak/aspen",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/puttak/aspen",
+    "download_url": "https://codeload.github.com/puttak/aspen/zip/refs/heads/master",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected; no model payload archived.",
+    "recommended_use": "Manual provenance and permission review only before any benchmark inclusion.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/puttak/aspen",
+      "download_url": "https://codeload.github.com/puttak/aspen/zip/refs/heads/master",
+      "title": "puttak/aspen",
+      "filenames": [
+        "udemy_beginner_case1.hsc",
+        "udemy_beginner_case2.hsc",
+        "udemy_beginner_case3.hsc",
+        "udemy_beginner_case4.hsc",
+        "README.md"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No explicit license detected.",
+      "Path naming suggests possible course-derived material.",
+      "No validation data or report was confirmed during this scan."
+    ]
+  },
+  {
+    "title": "zulfanadiputra/DME-plant-HYSYS",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/zulfanadiputra/DME-plant-HYSYS",
+    "download_url": "https://codeload.github.com/zulfanadiputra/DME-plant-HYSYS/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected; no model payload archived.",
+    "recommended_use": "Possible future HYSYS V12 compatibility smoke candidate after permission.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/zulfanadiputra/DME-plant-HYSYS",
+      "download_url": "https://codeload.github.com/zulfanadiputra/DME-plant-HYSYS/zip/refs/heads/main",
+      "title": "zulfanadiputra/DME-plant-HYSYS",
+      "filenames": [
+        "DMEPlant in V12.hsc",
+        "README.md"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "V12",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No explicit license detected.",
+      "HYSYS version inferred only from filename.",
+      "Limited validation material found during this scan."
+    ]
+  },
+  {
+    "title": "JeePeiQi0101/Design.Distillation.Column.HYSYS",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/JeePeiQi0101/Design.Distillation.Column.HYSYS",
+    "download_url": "https://codeload.github.com/JeePeiQi0101/Design.Distillation.Column.HYSYS/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository, but no explicit license detected; no model payload archived.",
+    "recommended_use": "Candidate for future distillation XML import review after permission.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/JeePeiQi0101/Design.Distillation.Column.HYSYS",
+      "download_url": "https://codeload.github.com/JeePeiQi0101/Design.Distillation.Column.HYSYS/zip/refs/heads/main",
+      "title": "JeePeiQi0101/Design.Distillation.Column.HYSYS",
+      "filenames": [
+        "Separation Processes (HYSYS).xml",
+        "Design Distillation Column (HYSYS) report.pdf"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".xml"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No explicit license detected.",
+      "XML was not downloaded or inspected.",
+      "Distinct repository from prior JeePeiQi0101/Aspen.HYSYS candidate but same owner, so manual review should check overlap."
+    ]
+  }
+]

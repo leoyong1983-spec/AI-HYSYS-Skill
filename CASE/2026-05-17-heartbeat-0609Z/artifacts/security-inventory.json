@@ -1,0 +1,1503 @@
+{
+  "generated_at_utc": "2026-05-17T06:09:04Z",
+  "total_files": 166,
+  "dangerous_or_executable_count": 0,
+  "archive_count": 0,
+  "total_size_bytes": 13424615,
+  "files": [
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/dedupe-counts-bootstrap.json",
+      "filename": "dedupe-counts-bootstrap.json",
+      "file_type": "json",
+      "size_bytes": 118,
+      "sha256": "5be07b1f121b7b76712ae748f2b5fbcc4612137139cd10d7d1d9810b399b84bd",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/dedupe-keys-snapshot.json",
+      "filename": "dedupe-keys-snapshot.json",
+      "file_type": "json",
+      "size_bytes": 172213,
+      "sha256": "2601306ef7f9aec3055e05427cd4395921f5f1be8dfaa3ec3b1493468e308c8f",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/dedupe-summary.json",
+      "filename": "dedupe-summary.json",
+      "file_type": "json",
+      "size_bytes": 290,
+      "sha256": "d30bac0c84e472e5d0633fbfdf38882a133467f8f60513557f94bbcb9c1e4e8e",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-gitlab_aspen_hysys.json",
+      "filename": "external-0609-gitlab_aspen_hysys.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-gitlab_hysys_simulation.json",
+      "filename": "external-0609-gitlab_hysys_simulation.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-harvard_dataverse_aspen_hysys.json",
+      "filename": "external-0609-harvard_dataverse_aspen_hysys.json",
+      "file_type": "json",
+      "size_bytes": 17775,
+      "sha256": "94e1fb71710218f294dab74e3822b5c427ba77b8452dcaa1ec4cc2743ec96ccc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-result-screening.json",
+      "filename": "external-0609-result-screening.json",
+      "file_type": "json",
+      "size_bytes": 11142,
+      "sha256": "6a4c2980c5698cabd8ca20eb5b859a9293385d4c04fbbcef785a9eba7e5201de",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-search-summary.json",
+      "filename": "external-0609-search-summary.json",
+      "file_type": "json",
+      "size_bytes": 1188,
+      "sha256": "73201933bd724ac458bf3566ea5ab25f02e8a248a61dbd627eb0976dd182981d",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-zenodo_aspen_hysys_hsc.json",
+      "filename": "external-0609-zenodo_aspen_hysys_hsc.json",
+      "file_type": "json",
+      "size_bytes": 64937,
+      "sha256": "8f773478c8958195591879cac1ba4b3a5b1e253bf8ea5ca76afcab25598068e5",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-zenodo_hysys_simulation.json",
+      "filename": "external-0609-zenodo_hysys_simulation.json",
+      "file_type": "json",
+      "size_bytes": 70408,
+      "sha256": "14a1d7afd8a8935a6cad9184df561983ac0df207d70a344ebb17160f56068073",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-aspen-hsc-path.err.txt",
+      "filename": "github-0609-code-aspen-hsc-path.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-aspen-hsc-path.json",
+      "filename": "github-0609-code-aspen-hsc-path.json",
+      "file_type": "json",
+      "size_bytes": 10,
+      "sha256": "2708be578e03e792e308e41c26495572a8aa7654cb654bca2c5ccccc7c8ef761",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-aspen-hysys-hsc.err.txt",
+      "filename": "github-0609-code-aspen-hysys-hsc.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-aspen-hysys-hsc.json",
+      "filename": "github-0609-code-aspen-hysys-hsc.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-aspen-hysys-readme.err.txt",
+      "filename": "github-0609-code-aspen-hysys-readme.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-aspen-hysys-readme.json",
+      "filename": "github-0609-code-aspen-hysys-readme.json",
+      "file_type": "json",
+      "size_bytes": 22777,
+      "sha256": "bba05016c9765e6326d22bd297d12ac9351bffee0fe016bb43ef7689568d6d2f",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-casefile-hsc.err.txt",
+      "filename": "github-0609-code-casefile-hsc.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-casefile-hsc.json",
+      "filename": "github-0609-code-casefile-hsc.json",
+      "file_type": "json",
+      "size_bytes": 37374,
+      "sha256": "a72da325a8b88d96e70e2d3fa6be24f3839bad14f0c549b85c8ed9b9e714c231",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-dot-hsc.err.txt",
+      "filename": "github-0609-code-dot-hsc.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-dot-hsc.json",
+      "filename": "github-0609-code-dot-hsc.json",
+      "file_type": "json",
+      "size_bytes": 35282,
+      "sha256": "85eacec3b730041ed7e177203eddd99dfcd8a4c0b2fa167a2e334a624675b3c2",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-compound.err.txt",
+      "filename": "github-0609-code-hysys-compound.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-compound.json",
+      "filename": "github-0609-code-hysys-compound.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-excel.err.txt",
+      "filename": "github-0609-code-hysys-excel.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-excel.json",
+      "filename": "github-0609-code-hysys-excel.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-hsc.err.txt",
+      "filename": "github-0609-code-hysys-hsc.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-hsc.json",
+      "filename": "github-0609-code-hysys-hsc.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-hscz.err.txt",
+      "filename": "github-0609-code-hysys-hscz.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-hscz.json",
+      "filename": "github-0609-code-hysys-hscz.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-validation-csv.err.txt",
+      "filename": "github-0609-code-hysys-validation-csv.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-validation-csv.json",
+      "filename": "github-0609-code-hysys-validation-csv.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-xml.err.txt",
+      "filename": "github-0609-code-hysys-xml.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-hysys-xml.json",
+      "filename": "github-0609-code-hysys-xml.json",
+      "file_type": "json",
+      "size_bytes": 25198,
+      "sha256": "e865aabf3081190bde3089760306fed3089a96299bd5f22796beebf31e8d9be5",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-normalized-summary.json",
+      "filename": "github-0609-code-normalized-summary.json",
+      "file_type": "json",
+      "size_bytes": 2805,
+      "sha256": "0a1a3105c52c0b8ca751fa3b93f6a3dbade94a2ad967e0a0636210901b09dc62",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-normalized.json",
+      "filename": "github-0609-code-normalized.json",
+      "file_type": "json",
+      "size_bytes": 41571,
+      "sha256": "ad20c002bd7e2a9243018b006036d8aa4d53ea4ba5e9ea9ac46b458f9c3fff51",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-search-summary.json",
+      "filename": "github-0609-code-search-summary.json",
+      "file_type": "json",
+      "size_bytes": 1734,
+      "sha256": "c798a69b240af2cd47236ddab4d2206a327e4369b8fdc660db2a37b9ac780767",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-star-hsc.err.txt",
+      "filename": "github-0609-code-star-hsc.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-star-hsc.json",
+      "filename": "github-0609-code-star-hsc.json",
+      "file_type": "json",
+      "size_bytes": 36656,
+      "sha256": "f5309ce046819139b8cdfff1dc6c9cd09993fd45c0d3d45077a304be9ce9a20d",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-hsc-broad-search-summary.json",
+      "filename": "github-0609-hsc-broad-search-summary.json",
+      "file_type": "json",
+      "size_bytes": 585,
+      "sha256": "4d8db2634e959452202eac8b76a4c1cd127d45825061d108edd6612e8613bb9e",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-inspection-summary.json",
+      "filename": "github-0609-inspection-summary.json",
+      "file_type": "json",
+      "size_bytes": 59402,
+      "sha256": "f60badb264dd775ed9046b79884f872d0df75e0d9cfdca94a8af637df0157c9a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-inspection-targets.json",
+      "filename": "github-0609-inspection-targets.json",
+      "file_type": "json",
+      "size_bytes": 1259,
+      "sha256": "b9da660b9383e653c9889b185aa323f7f65802a616a423a9a8498df2fca50c44",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-afabrild__HYSYS-MATLAB-LINK.err.txt",
+      "filename": "github-0609-license-afabrild__HYSYS-MATLAB-LINK.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-afabrild__HYSYS-MATLAB-LINK.json",
+      "filename": "github-0609-license-afabrild__HYSYS-MATLAB-LINK.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.err.txt",
+      "filename": "github-0609-license-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.json",
+      "filename": "github-0609-license-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Armaan-2309__CHE213-Simulation-Labs.err.txt",
+      "filename": "github-0609-license-Armaan-2309__CHE213-Simulation-Labs.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Armaan-2309__CHE213-Simulation-Labs.json",
+      "filename": "github-0609-license-Armaan-2309__CHE213-Simulation-Labs.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.err.txt",
+      "filename": "github-0609-license-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+      "filename": "github-0609-license-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-atlanticbhandari07__CCS_code.err.txt",
+      "filename": "github-0609-license-atlanticbhandari07__CCS_code.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-atlanticbhandari07__CCS_code.json",
+      "filename": "github-0609-license-atlanticbhandari07__CCS_code.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-bpalotai__Flowsheet-toolbox.err.txt",
+      "filename": "github-0609-license-bpalotai__Flowsheet-toolbox.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-bpalotai__Flowsheet-toolbox.json",
+      "filename": "github-0609-license-bpalotai__Flowsheet-toolbox.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Corey-McInrue__Node-C-ASPEN-HYSYS.err.txt",
+      "filename": "github-0609-license-Corey-McInrue__Node-C-ASPEN-HYSYS.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Corey-McInrue__Node-C-ASPEN-HYSYS.json",
+      "filename": "github-0609-license-Corey-McInrue__Node-C-ASPEN-HYSYS.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-digipres__digipres.github.io.err.txt",
+      "filename": "github-0609-license-digipres__digipres.github.io.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-digipres__digipres.github.io.json",
+      "filename": "github-0609-license-digipres__digipres.github.io.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-edgarsmdn__Aspen_HYSYS_Python.json",
+      "filename": "github-0609-license-edgarsmdn__Aspen_HYSYS_Python.json",
+      "file_type": "json",
+      "size_bytes": 2434,
+      "sha256": "b05dfb53d875232058cd14c08f57041feda5b1dc35bca14d7659fe89980e2c6a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "filename": "github-0609-license-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "file_type": "json",
+      "size_bytes": 2490,
+      "sha256": "a14e77cd7ad4f723e29f9045c48b6ae14f0ebc92d0c11440ad971f3e803a4557",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "filename": "github-0609-license-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "file_type": "json",
+      "size_bytes": 2623,
+      "sha256": "99852adb53b30dfec21e567905e9b0b2c26125cae84f8e03aef3250c02ff1dee",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-jhao__pm-universe.json",
+      "filename": "github-0609-license-jhao__pm-universe.json",
+      "file_type": "json",
+      "size_bytes": 22328,
+      "sha256": "3b9e5eaa5c71a9412dbca7a6ec851da5d022cb719d3f723d88382284467d8fbb",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-jkitchin__jkitchin.github.com.json",
+      "filename": "github-0609-license-jkitchin__jkitchin.github.com.json",
+      "file_type": "json",
+      "size_bytes": 12594,
+      "sha256": "ef418cb008e3cf8b79f2c9ed718fb79fe28aa91ef02e880d54275b8fef67cd64",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-M-Hamdy-M__lng-niching-metaheuristics.err.txt",
+      "filename": "github-0609-license-M-Hamdy-M__lng-niching-metaheuristics.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-M-Hamdy-M__lng-niching-metaheuristics.json",
+      "filename": "github-0609-license-M-Hamdy-M__lng-niching-metaheuristics.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-marcellobozzini__Python-Driving-License.err.txt",
+      "filename": "github-0609-license-marcellobozzini__Python-Driving-License.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-marcellobozzini__Python-Driving-License.json",
+      "filename": "github-0609-license-marcellobozzini__Python-Driving-License.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-mrepol742__CryptographySystem.json",
+      "filename": "github-0609-license-mrepol742__CryptographySystem.json",
+      "file_type": "json",
+      "size_bytes": 49433,
+      "sha256": "1bd7a8ae59b5a0445a930456e9e65ead0098840a804df878ae85120f6ee22748",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-OptiMaL-PSE-Lab__Sketch2Simulation.json",
+      "filename": "github-0609-license-OptiMaL-PSE-Lab__Sketch2Simulation.json",
+      "file_type": "json",
+      "size_bytes": 2473,
+      "sha256": "8983249d6a91b9a0ec46954ecdda054719dce733f5bc292fa2b2dee1dd79d4f4",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Paryazdan__Aspen-HYSYS-Projects.err.txt",
+      "filename": "github-0609-license-Paryazdan__Aspen-HYSYS-Projects.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Paryazdan__Aspen-HYSYS-Projects.json",
+      "filename": "github-0609-license-Paryazdan__Aspen-HYSYS-Projects.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.err.txt",
+      "filename": "github-0609-license-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+      "filename": "github-0609-license-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-prasang-gupta__prasang-gupta.github.io.err.txt",
+      "filename": "github-0609-license-prasang-gupta__prasang-gupta.github.io.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-prasang-gupta__prasang-gupta.github.io.json",
+      "filename": "github-0609-license-prasang-gupta__prasang-gupta.github.io.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.err.txt",
+      "filename": "github-0609-license-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "filename": "github-0609-license-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-robfox92__matlab-fitness-hysys.err.txt",
+      "filename": "github-0609-license-robfox92__matlab-fitness-hysys.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-robfox92__matlab-fitness-hysys.json",
+      "filename": "github-0609-license-robfox92__matlab-fitness-hysys.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-royhanikbarr__Aspen-Hysys-Simulation.err.txt",
+      "filename": "github-0609-license-royhanikbarr__Aspen-Hysys-Simulation.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-royhanikbarr__Aspen-Hysys-Simulation.json",
+      "filename": "github-0609-license-royhanikbarr__Aspen-Hysys-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-sajjad-ah__ASPEN-HYSYS.err.txt",
+      "filename": "github-0609-license-sajjad-ah__ASPEN-HYSYS.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-sajjad-ah__ASPEN-HYSYS.json",
+      "filename": "github-0609-license-sajjad-ah__ASPEN-HYSYS.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-SinaGhanbarii__HDA-Plant-Simulation.err.txt",
+      "filename": "github-0609-license-SinaGhanbarii__HDA-Plant-Simulation.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-SinaGhanbarii__HDA-Plant-Simulation.json",
+      "filename": "github-0609-license-SinaGhanbarii__HDA-Plant-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-SuradechKKPB__AutomatedHYSYS.err.txt",
+      "filename": "github-0609-license-SuradechKKPB__AutomatedHYSYS.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-SuradechKKPB__AutomatedHYSYS.json",
+      "filename": "github-0609-license-SuradechKKPB__AutomatedHYSYS.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-yangg1g__unpacktools.err.txt",
+      "filename": "github-0609-license-yangg1g__unpacktools.err.txt",
+      "file_type": "txt",
+      "size_bytes": 26,
+      "sha256": "a610a1e09352bf51f3b6947315b340b22127697a464711d72e80bea47f576fdc",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-yangg1g__unpacktools.json",
+      "filename": "github-0609-license-yangg1g__unpacktools.json",
+      "file_type": "json",
+      "size_bytes": 140,
+      "sha256": "6c0109c2ac75f1f264b61da6aff1737f7bc7eac254e6396710ff81a4139f32b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-license-zwang1995__Aspen-Plus-Automation.json",
+      "filename": "github-0609-license-zwang1995__Aspen-Plus-Automation.json",
+      "file_type": "json",
+      "size_bytes": 2451,
+      "sha256": "075c848742e23ae62032f14c4d0deb05e2b96281511d0b5d59ad209a1968d364",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-afabrild__HYSYS-MATLAB-LINK.json",
+      "filename": "github-0609-repo-afabrild__HYSYS-MATLAB-LINK.json",
+      "file_type": "json",
+      "size_bytes": 5541,
+      "sha256": "8f16ba3beaab75738453e8907d98d23e263685fe70bcb7b41ebe8f8e90dbcad0",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.json",
+      "filename": "github-0609-repo-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 9846,
+      "sha256": "8aaf8f3d5e6fb6977303b8ecc5e31febcc70a826f9468aef14d06191e92ea0b2",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-Armaan-2309__CHE213-Simulation-Labs.json",
+      "filename": "github-0609-repo-Armaan-2309__CHE213-Simulation-Labs.json",
+      "file_type": "json",
+      "size_bytes": 6003,
+      "sha256": "bb2d294289c19344645683b30e3b73d38bf0c9a6039e6dd2aae22ab18530faf7",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+      "filename": "github-0609-repo-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+      "file_type": "json",
+      "size_bytes": 6722,
+      "sha256": "c4ef4e5a2d0cd03f989d4721483ad398bcb2dc76243293f6d39865c62b46d156",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-atlanticbhandari07__CCS_code.json",
+      "filename": "github-0609-repo-atlanticbhandari07__CCS_code.json",
+      "file_type": "json",
+      "size_bytes": 5710,
+      "sha256": "6d0a1b18848907c25ef6ca6699401f76f2ef118596c8631b84635b9e879d0036",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-bpalotai__Flowsheet-toolbox.json",
+      "filename": "github-0609-repo-bpalotai__Flowsheet-toolbox.json",
+      "file_type": "json",
+      "size_bytes": 5452,
+      "sha256": "2b7cf7af2aa1678c61cc23e65d0c7625f0291d4a9730d01823662c2615f42e4a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-Corey-McInrue__Node-C-ASPEN-HYSYS.json",
+      "filename": "github-0609-repo-Corey-McInrue__Node-C-ASPEN-HYSYS.json",
+      "file_type": "json",
+      "size_bytes": 5821,
+      "sha256": "ba3fe7ba02915d6bc982ce96439d6676691d69c09ea579bd7e043741b0f7e401",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-digipres__digipres.github.io.json",
+      "filename": "github-0609-repo-digipres__digipres.github.io.json",
+      "file_type": "json",
+      "size_bytes": 6648,
+      "sha256": "f38cdc9a0c28a5030adebc18cfeb2e5640aca90a807b77019b95bcc1de88066a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-edgarsmdn__Aspen_HYSYS_Python.json",
+      "filename": "github-0609-repo-edgarsmdn__Aspen_HYSYS_Python.json",
+      "file_type": "json",
+      "size_bytes": 5722,
+      "sha256": "6347699a1f6b3093361ec5c902f9c365182941a2a62ff33d70686a0c28914191",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "filename": "github-0609-repo-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "file_type": "json",
+      "size_bytes": 6125,
+      "sha256": "b0cb998c640e45f65142c240a045db7a659cbb8d8f7d475cc0532f1db188065b",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "filename": "github-0609-repo-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "file_type": "json",
+      "size_bytes": 7077,
+      "sha256": "40aa398b4ec5e421b3aeecc99346f380a21f2187a4a6075b371a6ab104cdae69",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-jhao__pm-universe.json",
+      "filename": "github-0609-repo-jhao__pm-universe.json",
+      "file_type": "json",
+      "size_bytes": 5111,
+      "sha256": "8a1dd97666b9955237847c34ac3ff31cd1e0b66a29481708329123893af323ff",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-jkitchin__jkitchin.github.com.json",
+      "filename": "github-0609-repo-jkitchin__jkitchin.github.com.json",
+      "file_type": "json",
+      "size_bytes": 5652,
+      "sha256": "2a551a2b5feed890258f104dbdda897d5e7bf2e5985a7a5e858bdb23e4f73041",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-M-Hamdy-M__lng-niching-metaheuristics.json",
+      "filename": "github-0609-repo-M-Hamdy-M__lng-niching-metaheuristics.json",
+      "file_type": "json",
+      "size_bytes": 5913,
+      "sha256": "2584f80c0e276491af9398de3d87203ec15bb8afe4e102d4bdc760566826a890",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-marcellobozzini__Python-Driving-License.json",
+      "filename": "github-0609-repo-marcellobozzini__Python-Driving-License.json",
+      "file_type": "json",
+      "size_bytes": 6131,
+      "sha256": "8d06bf0c2881055167765fad7cc80271200df5d65fae72297436e96c080017b9",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-mrepol742__CryptographySystem.json",
+      "filename": "github-0609-repo-mrepol742__CryptographySystem.json",
+      "file_type": "json",
+      "size_bytes": 5775,
+      "sha256": "71db9b69163eaa31dd79ffca6bb9255fcc6d9ccceeee804adfb268858d45027f",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-OptiMaL-PSE-Lab__Sketch2Simulation.json",
+      "filename": "github-0609-repo-OptiMaL-PSE-Lab__Sketch2Simulation.json",
+      "file_type": "json",
+      "size_bytes": 7142,
+      "sha256": "8dd735ee1ffd7fe153324073b053ef8aa9993d7f1fbad7e19773509bc22108aa",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-Paryazdan__Aspen-HYSYS-Projects.json",
+      "filename": "github-0609-repo-Paryazdan__Aspen-HYSYS-Projects.json",
+      "file_type": "json",
+      "size_bytes": 5656,
+      "sha256": "4e2e209f86c456363b12d94774d45779bfff70bb1f9281cca3430ba37056104a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+      "filename": "github-0609-repo-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+      "file_type": "json",
+      "size_bytes": 9342,
+      "sha256": "546f713b1dd50789d083a9a75450f53c7b92122afb5a90dd82279043ad8a412c",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-prasang-gupta__prasang-gupta.github.io.json",
+      "filename": "github-0609-repo-prasang-gupta__prasang-gupta.github.io.json",
+      "file_type": "json",
+      "size_bytes": 6009,
+      "sha256": "0ef6d3ed26f2f93c6066ba1ad040b91ca3192447f0332ecec00f3a6bb1d6064a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "filename": "github-0609-repo-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "file_type": "json",
+      "size_bytes": 6648,
+      "sha256": "17b21b44bb58ccf388cee3beb542be5c848f861f91147051b43fc769a2566924",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-robfox92__matlab-fitness-hysys.json",
+      "filename": "github-0609-repo-robfox92__matlab-fitness-hysys.json",
+      "file_type": "json",
+      "size_bytes": 5679,
+      "sha256": "60c614386f0acbc801b9b1c1adecd4e5b65f67dd938d56a1fd20f649047054d5",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-royhanikbarr__Aspen-Hysys-Simulation.json",
+      "filename": "github-0609-repo-royhanikbarr__Aspen-Hysys-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 5926,
+      "sha256": "0cf27e2969501016a91f3d301adfa7e22fa12fd450d440afcc07ae7ae896c4d4",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-sajjad-ah__ASPEN-HYSYS.json",
+      "filename": "github-0609-repo-sajjad-ah__ASPEN-HYSYS.json",
+      "file_type": "json",
+      "size_bytes": 5320,
+      "sha256": "6e163a37d38093ccf97c56182a8fd0f8c61194b53c441bf0c9837ff2e5df662f",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-search-normalized-summary.json",
+      "filename": "github-0609-repo-search-normalized-summary.json",
+      "file_type": "json",
+      "size_bytes": 1438,
+      "sha256": "2a9a127b78179109112388a6c7a1ebd3e2c1118d058af4f8fee893ed79f86f97",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-search-normalized.json",
+      "filename": "github-0609-repo-search-normalized.json",
+      "file_type": "json",
+      "size_bytes": 7774,
+      "sha256": "3ff9e5371567882daf3ad45f8c3a95c30b9011090a134b8d3883e079de0b4b0c",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-search-summary.json",
+      "filename": "github-0609-repo-search-summary.json",
+      "file_type": "json",
+      "size_bytes": 1786,
+      "sha256": "d7860756fe98a382654b8459ee5435fff66a7a1095dcf6ed3759115bc20f4cbe",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-SinaGhanbarii__HDA-Plant-Simulation.json",
+      "filename": "github-0609-repo-SinaGhanbarii__HDA-Plant-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 6139,
+      "sha256": "d7a3f863dbdc0ee210dcca0fb1d1b48502c0d203373db5bb51433967f388f016",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-SuradechKKPB__AutomatedHYSYS.json",
+      "filename": "github-0609-repo-SuradechKKPB__AutomatedHYSYS.json",
+      "file_type": "json",
+      "size_bytes": 5576,
+      "sha256": "5a6b027742cb1c3548a54323c6cf89c6b89090104eb7d22e37a1f547578eab25",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-yangg1g__unpacktools.json",
+      "filename": "github-0609-repo-yangg1g__unpacktools.json",
+      "file_type": "json",
+      "size_bytes": 5180,
+      "sha256": "6fcf4058b8f7e2b222a24625331e797b6ac980ba786f59f698fafae0fb9f580a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-zwang1995__Aspen-Plus-Automation.json",
+      "filename": "github-0609-repo-zwang1995__Aspen-Plus-Automation.json",
+      "file_type": "json",
+      "size_bytes": 5939,
+      "sha256": "4935b3d6743349c5e5ec83ee2ca773c86923bf890b53262830106cd7588023f8",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-aspen-hysys-case.err.txt",
+      "filename": "github-0609-repos-aspen-hysys-case.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-aspen-hysys-case.json",
+      "filename": "github-0609-repos-aspen-hysys-case.json",
+      "file_type": "json",
+      "size_bytes": 582,
+      "sha256": "653b50ddebee00da205e39641abb0cd6bb469cc464761af3d719a8efc4cc83a0",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-aspen-hysys-project.err.txt",
+      "filename": "github-0609-repos-aspen-hysys-project.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-aspen-hysys-project.json",
+      "filename": "github-0609-repos-aspen-hysys-project.json",
+      "file_type": "json",
+      "size_bytes": 422,
+      "sha256": "2fcbfa085d2bbc898d43be10ee9dd89473a45b80369692899aafa8ebb5517acb",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-automation.err.txt",
+      "filename": "github-0609-repos-hysys-automation.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-automation.json",
+      "filename": "github-0609-repos-hysys-automation.json",
+      "file_type": "json",
+      "size_bytes": 1425,
+      "sha256": "d8c3008456fbcd9934f021cc3152379784cf8e4f1b43ab65505216df4e4d36c1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-co2.err.txt",
+      "filename": "github-0609-repos-hysys-co2.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-co2.json",
+      "filename": "github-0609-repos-hysys-co2.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-lng.err.txt",
+      "filename": "github-0609-repos-hysys-lng.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-lng.json",
+      "filename": "github-0609-repos-hysys-lng.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-matlab.err.txt",
+      "filename": "github-0609-repos-hysys-matlab.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-matlab.json",
+      "filename": "github-0609-repos-hysys-matlab.json",
+      "file_type": "json",
+      "size_bytes": 947,
+      "sha256": "2b1cb3786a8aa4f7af8a16bfc01d0e725cf65bd3164cac1f6da6fe2bb2069eb7",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-python-com.err.txt",
+      "filename": "github-0609-repos-hysys-python-com.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-python-com.json",
+      "filename": "github-0609-repos-hysys-python-com.json",
+      "file_type": "json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-simulation.err.txt",
+      "filename": "github-0609-repos-hysys-simulation.err.txt",
+      "file_type": "txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repos-hysys-simulation.json",
+      "filename": "github-0609-repos-hysys-simulation.json",
+      "file_type": "json",
+      "size_bytes": 3609,
+      "sha256": "d63f556d57bb6df72707d231f1dfb1941c52b10919962ea8a305639c96770153",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-afabrild__HYSYS-MATLAB-LINK.json",
+      "filename": "github-0609-tree-afabrild__HYSYS-MATLAB-LINK.json",
+      "file_type": "json",
+      "size_bytes": 899,
+      "sha256": "2a4421daaf3c21a49b3e40ff3e513b05f5b5b739081b977080e196cc8812ac34",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.json",
+      "filename": "github-0609-tree-Amansurana2005__Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 597,
+      "sha256": "54804b7bd4507b0dbd8240f29486d30ca69655f88f409fa1c006cd93479ad3a8",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-Armaan-2309__CHE213-Simulation-Labs.json",
+      "filename": "github-0609-tree-Armaan-2309__CHE213-Simulation-Labs.json",
+      "file_type": "json",
+      "size_bytes": 3017,
+      "sha256": "b7c9d9f5fa0c4572e9c9476b0bbaa55ca0a69f6b7024ba545d930ffa7ed3e3db",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+      "filename": "github-0609-tree-AtabakBahadornia__1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR.json",
+      "file_type": "json",
+      "size_bytes": 8086,
+      "sha256": "0670f109f5757c99c6653888852af7afb58fc109e5a879a20377908b715c6286",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-atlanticbhandari07__CCS_code.json",
+      "filename": "github-0609-tree-atlanticbhandari07__CCS_code.json",
+      "file_type": "json",
+      "size_bytes": 1416,
+      "sha256": "6c357f72a15f4421de493d46a9575d7cc089de57494a1e021b303c17a3e9ebd2",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-bpalotai__Flowsheet-toolbox.json",
+      "filename": "github-0609-tree-bpalotai__Flowsheet-toolbox.json",
+      "file_type": "json",
+      "size_bytes": 36065,
+      "sha256": "a24fdfbf2d5c364129c5098072f7338b25d134fff087c8a909882f55c6f89be2",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-Corey-McInrue__Node-C-ASPEN-HYSYS.json",
+      "filename": "github-0609-tree-Corey-McInrue__Node-C-ASPEN-HYSYS.json",
+      "file_type": "json",
+      "size_bytes": 671,
+      "sha256": "ab48976d8111823692f3a4e61774b7b1fe238b1cbceab47e0c1a775c4aac3b67",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-digipres__digipres.github.io.json",
+      "filename": "github-0609-tree-digipres__digipres.github.io.json",
+      "file_type": "json",
+      "size_bytes": 8307262,
+      "sha256": "7b9ffe9a5b3416a47356dc1c01c74f7c905a1e3c3a72c90f44f0ef2eddce9502",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-edgarsmdn__Aspen_HYSYS_Python.json",
+      "filename": "github-0609-tree-edgarsmdn__Aspen_HYSYS_Python.json",
+      "file_type": "json",
+      "size_bytes": 2775,
+      "sha256": "41c74688f6f87aeff67be0e9f4a8a06b83f1f6bf6ea3489942792d6477a3808e",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "filename": "github-0609-tree-GaboTalero__HYSYS-Python-Case-Builder.json",
+      "file_type": "json",
+      "size_bytes": 2424,
+      "sha256": "7d97167010a2c7b64695c8c86603b9859d7f842c9ec8483de553f0f28fad8384",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "filename": "github-0609-tree-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+      "file_type": "json",
+      "size_bytes": 4736,
+      "sha256": "f4dbbbd5862b32f2715697a71e31e47cbceed77fcb795b11310b90fea828196d",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-jhao__pm-universe.json",
+      "filename": "github-0609-tree-jhao__pm-universe.json",
+      "file_type": "json",
+      "size_bytes": 122793,
+      "sha256": "79fab377f5246d609b4e3b1fc5bd5f1f1342970ff430da7a6d1a056ce5d43d5d",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-jkitchin__jkitchin.github.com.json",
+      "filename": "github-0609-tree-jkitchin__jkitchin.github.com.json",
+      "file_type": "json",
+      "size_bytes": 1637705,
+      "sha256": "58cfc973f0676a2a8425cdd6495c5009de9741c826d103ae44511590a79c3879",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-M-Hamdy-M__lng-niching-metaheuristics.json",
+      "filename": "github-0609-tree-M-Hamdy-M__lng-niching-metaheuristics.json",
+      "file_type": "json",
+      "size_bytes": 22336,
+      "sha256": "2575255558559f8cb7c09132b9832da8cdfaaf8651b724b96648ad51f3503a8a",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-marcellobozzini__Python-Driving-License.json",
+      "filename": "github-0609-tree-marcellobozzini__Python-Driving-License.json",
+      "file_type": "json",
+      "size_bytes": 722,
+      "sha256": "bf7fca024da7f84cf5c1c4381a173e92db3aa226c656e7431a15e711ddee7155",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-mrepol742__CryptographySystem.json",
+      "filename": "github-0609-tree-mrepol742__CryptographySystem.json",
+      "file_type": "json",
+      "size_bytes": 10291,
+      "sha256": "3a01f7ee1b414b2865f3aff5e2a0d94bd095c40a6c6407315a6d3a01c4fb4a77",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-OptiMaL-PSE-Lab__Sketch2Simulation.json",
+      "filename": "github-0609-tree-OptiMaL-PSE-Lab__Sketch2Simulation.json",
+      "file_type": "json",
+      "size_bytes": 10377,
+      "sha256": "612ee5ff39624970371edfb77f48933567d49c07de68edd73aad14d8dfe4c316",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-Paryazdan__Aspen-HYSYS-Projects.json",
+      "filename": "github-0609-tree-Paryazdan__Aspen-HYSYS-Projects.json",
+      "file_type": "json",
+      "size_bytes": 692,
+      "sha256": "fcfaaadfecb04bb57274fa294f51f0cb42480cbd594098092af4eb2ff17969b1",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+      "filename": "github-0609-tree-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+      "file_type": "json",
+      "size_bytes": 5335,
+      "sha256": "f2dc057ee6a5a19ea404f821a36a145f22887d083b6b8800ea9f9ccf307fa17f",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-prasang-gupta__prasang-gupta.github.io.json",
+      "filename": "github-0609-tree-prasang-gupta__prasang-gupta.github.io.json",
+      "file_type": "json",
+      "size_bytes": 305469,
+      "sha256": "9fe0daf1633edcf6156141b943120904818bc8ab08fd6ed9fe21b8582a0fbaa7",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "filename": "github-0609-tree-pSantosb__Hysys-connection-Excel-Matlab-Python-Unity.json",
+      "file_type": "json",
+      "size_bytes": 6718,
+      "sha256": "04dc5db30e5caad894cf8757aaee8ec839ca7fb75ab6efeeb7b5e0cda92e64ad",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-robfox92__matlab-fitness-hysys.json",
+      "filename": "github-0609-tree-robfox92__matlab-fitness-hysys.json",
+      "file_type": "json",
+      "size_bytes": 662,
+      "sha256": "30a1eff07d0ae171ff59ac8c4bce9b614bdbf4417a2302ccbff9638d9a73ec99",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-royhanikbarr__Aspen-Hysys-Simulation.json",
+      "filename": "github-0609-tree-royhanikbarr__Aspen-Hysys-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 1333,
+      "sha256": "5c8a4cd8570603330d6e82849000f00cf0e36e18be643389d5f17037f87c200d",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-sajjad-ah__ASPEN-HYSYS.json",
+      "filename": "github-0609-tree-sajjad-ah__ASPEN-HYSYS.json",
+      "file_type": "json",
+      "size_bytes": 8578,
+      "sha256": "725524dc91257bcbf6fc5d2a7c360be8acbe57d4c2273031a272df8ebaeec101",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-SinaGhanbarii__HDA-Plant-Simulation.json",
+      "filename": "github-0609-tree-SinaGhanbarii__HDA-Plant-Simulation.json",
+      "file_type": "json",
+      "size_bytes": 7163,
+      "sha256": "3d05f284dd9a11c2a610896ab0a6edb82cc44208fa9bebb432610e691f5b3623",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-SuradechKKPB__AutomatedHYSYS.json",
+      "filename": "github-0609-tree-SuradechKKPB__AutomatedHYSYS.json",
+      "file_type": "json",
+      "size_bytes": 1132,
+      "sha256": "4a43bd9bc810fb42a4b0b83b3f2da1d2f0c68c03e1079d7b8e4e8abac49813e0",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-yangg1g__unpacktools.json",
+      "filename": "github-0609-tree-yangg1g__unpacktools.json",
+      "file_type": "json",
+      "size_bytes": 1928651,
+      "sha256": "5e3dc9396204a5ae763a1a60427165ff047ada3f930dee6a07f29d14994a879e",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-tree-zwang1995__Aspen-Plus-Automation.json",
+      "filename": "github-0609-tree-zwang1995__Aspen-Plus-Automation.json",
+      "file_type": "json",
+      "size_bytes": 3087,
+      "sha256": "e49857a0afcf198ebd63408211cec422212ad424c06aa0de0c816f9733a204d4",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/security-inventory.json",
+      "filename": "security-inventory.json",
+      "file_type": "json",
+      "size_bytes": 68658,
+      "sha256": "6d2ca2073c9c833367aeb93607452a68bb18266e0e8b68dcc857f4f2d037e952",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/index.md",
+      "filename": "index.md",
+      "file_type": "md",
+      "size_bytes": 7086,
+      "sha256": "cbbe35359f8395a38d35031de1ff4ff5a2515a93245767d75c2c68b03aded801",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    },
+    {
+      "path": "CASE/2026-05-17-heartbeat-0609Z/sources.json",
+      "filename": "sources.json",
+      "file_type": "json",
+      "size_bytes": 13199,
+      "sha256": "6abab1356fd555f8983cae347825ebd8f6db435d70171dac4367527f78467b5c",
+      "dangerous_or_executable_extension": false,
+      "archive": false
+    }
+  ]
+}

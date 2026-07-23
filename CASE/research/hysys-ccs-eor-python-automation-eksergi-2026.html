@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Techno-Economic Sensitivity Analysis of Integrated CCS–EOR for a 1,000 MW Ultra-Supercritical Coal-Fired Power Plant in Indonesia
+							| Eksergi
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.20">
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Eksergi"/>
+<meta name="citation_journal_abbrev" content="Eksergi"/>
+<meta name="citation_issn" content="2460-8203"/> 
+<meta name="citation_author" content="Raden Ricko Satriyo"/>
+<meta name="citation_author_institution" content="Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia"/>
+<meta name="citation_author" content="Renanto"/>
+<meta name="citation_author_institution" content="Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia"/>
+<meta name="citation_author" content="Rendra Panca Anugraha"/>
+<meta name="citation_author_institution" content="Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia"/>
+<meta name="citation_author" content="Roudlotus Salwa Aulia"/>
+<meta name="citation_author_institution" content="Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia"/>
+<meta name="citation_author" content="Galuh Ferlianes Lestari"/>
+<meta name="citation_author_institution" content="Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia"/>
+<meta name="citation_title" content="Techno-Economic Sensitivity Analysis of Integrated CCS–EOR for a 1,000 MW Ultra-Supercritical Coal-Fired Power Plant in Indonesia"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2026/04/01"/>
+<meta name="citation_volume" content="23"/>
+<meta name="citation_issue" content="2"/>
+<meta name="citation_firstpage" content="58"/>
+<meta name="citation_lastpage" content="61"/>
+<meta name="citation_doi" content="10.31315/eksergi.v23i2.16590"/>
+<meta name="citation_abstract_html_url" content="https://jurnal.upnyk.ac.id/index.php/eksergi/article/view/16590"/>
+<meta name="citation_keywords" xml:lang="en" content="Aspen HYSYS"/>
+<meta name="citation_keywords" xml:lang="en" content="Carbon Capture and Storage (CCS)"/>
+<meta name="citation_keywords" xml:lang="en" content="MDEA"/>
+<meta name="citation_keywords" xml:lang="en" content="Python Automation"/>
+<meta name="citation_keywords" xml:lang="en" content="Techno-Economic analysis"/>
+<meta name="citation_pdf_url" content="https://jurnal.upnyk.ac.id/index.php/eksergi/article/download/16590/7602"/>
+<meta name="citation_reference" content="Abu-Zahra, M., Schneiders, L., Niederer, J., Feron, P., &amp; Versteeg, G. (2007). CO 2 capture from power plants Part I. A parametric study of the technical performance based on monoethanolamine. CO2 Capture from Power Plants Part I. A Parametric Study of the Technical Performance Based on Monoethanolamine, 1. https://doi.org/10.1016/S1750-5836(06)00007-7"/>
+<meta name="citation_reference" content="Adisasmito, S., Raksajati, A., Ali, A., Susilo, H., Susetyo, M. A., &amp; Reza, A. M. (2023). Modelling of carbon capture process for coal-fired power plants in Indonesia. Chemical Engineering Transactions, 106, 961–966. https://doi.org/10.3303/CET23106161"/>
+<meta name="citation_reference" content="Aspelund, A., Mølnvik, M. J., &amp; De Koeijer, G. (2006). Ship Transport of CO2. Chemical Engineering Research and Design, 84(9), 847–855. https://doi.org/10.1205/cherd.5147"/>
+<meta name="citation_reference" content="Bishnoi, S., &amp; Rochelle, G. T. (2000). Absorption of carbon dioxide into aqueous piperazine: Reaction kinetics, mass transfer, and solubility. Chemical Engineering Science, 55(22), 5531–5543. https://doi.org/10.1016/S0009-2509(00)00182-2"/>
+<meta name="citation_reference" content="Boot-Handford, M. E., Abanades, J. C., Anthony, E. J., Blunt, M. J., Brandani, S., Mac Dowell, N., Fernández, J. R., Ferrari, M. C., Gross, R., Hallett, J. P., Haszeldine, R. S., Heptonstall, P., Lyngfelt, A., Makuch, Z., Mangano, E., Porter, R. T. J., Pourkashanian, M., Rochelle, G. T., Shah, N., … Fennell, P. S. (2014). Carbon capture and storage update. Energy &amp; Environmental Science, 7(1), 130–189. https://doi.org/10.1039/C3EE42350F"/>
+<meta name="citation_reference" content="Bui, M., Adjiman, C. S., Bardow, A., Anthony, E. J., Boston, A., Brown, S., Fennell, P. S., Fuss, S., Galindo, A., Hackett, L. A., Hallett, J. P., Herzog, H. J., Jackson, G., Kemper, J., Krevor, S., Maitland, G. C., Matuszewski, M., Metcalfe, I. S., Petit, C., … Mac Dowell, N. (2018). Carbon capture and storage (CCS): The way forward. Energy &amp; Environmental Science, 11(5), 1062–1176. https://doi.org/10.1039/C7EE02342A"/>
+<meta name="citation_reference" content="Febriani, A. V., Hanum, F. F., Kuncara, J., &amp; Setyawan, M. (2024). Optimalisasi mutu batubara Indonesia. *Eksergi*, 21(2), 70–76. https://doi.org/10.31315/e.v21i2.11761"/>
+<meta name="citation_reference" content="Global CCS Institute. (2022). Global status of CCS 2022. Global CCS Institute."/>
+<meta name="citation_reference" content="Government of Indonesia. (2022). Enhanced nationally determined contribution: Republic of Indonesia."/>
+<meta name="citation_reference" content="Handogo, R., Mualim, A., Sutikno, J. P., &amp; Altway, A. (2022). Evaluation of CO₂ transport design via pipeline in the CCS system with various distance combinations. ECS Transactions, 107, 8593–8608. https://doi.org/10.1149/10701.8593ecst"/>
+<meta name="citation_reference" content="International Energy Agency (IEA). (2020). CCUS in clean energy transitions. IEA. https://www.iea.org/reports/ccus-in-clean-energy-transitions"/>
+<meta name="citation_reference" content="International Energy Agency. (2021). Net zero by 2050: A roadmap for the global energy sector (4th rev. ed.)."/>
+<meta name="citation_reference" content="International Energy Forum (IEF). (2021). Carbon capture, utilization and storage: Policy, markets, and investment pathways. IEF. https://www.ief.org"/>
+<meta name="citation_reference" content="Institute for Essential Services Reform (IESR). (2024, June 14). Coal Domination in Indonesia, What are the Opportunities for Sustainable Energy?. https://iesr.or.id/en/coal-domination-in-indonesia-what-are-the-opportunities-for-sustainable-energy/"/>
+<meta name="citation_reference" content="Intergovernmental Panel on Climate Change (IPCC). (2005). IPCC special report on carbon dioxide capture and storage. Cambridge University Press."/>
+<meta name="citation_reference" content="Irfan, &amp; Tobing, S. (2021). Analysis energy penalty implementation technology CO₂ capture post combustion in existing coal fired power plant class 660 MW. SSRN. https://ssrn.com/abstract=4874726"/>
+<meta name="citation_reference" content="Jarrell, P. M., Fox, C. E., Stein, M. H., &amp; Webb, S. L. (2002). Practical aspects of CO₂ flooding (Monograph Vol. 22). Society of Petroleum Engineers."/>
+<meta name="citation_reference" content="Kementerian Energi dan Sumber Daya Mineral (ESDM). (2025). Penetapan harga minyak mentah Indonesia. Kementerian ESDM Republik Indonesia."/>
+<meta name="citation_reference" content="Li, H., Yan, J., Yan, J., &amp; Anheden, M. (2009). Impurity impacts on the purification process in oxy-fuel combustion based CO2 capture and storage system. Applied Energy, 86(2), 202–213. https://doi.org/10.1016/j.apenergy.2008.05.006"/>
+<meta name="citation_reference" content="Lucquiaud, M., &amp; Gibbins, J. (2011). On the integration of CO2 capture with coal-fired power plants: A methodology to assess and optimise solvent-based post-combustion capture systems. International Journal of Greenhouse Gas Control, 5(3), 427–438. https://doi.org/10.1016/j.cherd.2011.03.003"/>
+<meta name="citation_reference" content="Mahidin, Maulana, F., Mukramah, Adisalamun, Hisbullah, Hadi, A., MH, N., &amp; Abnisa, F. (2025). Achieving Net Zero Emissions Target: Development of Carbon Dioxide Handling Technologies, Its Challenges and Barriers. Eksergi, 22(2), 150–157. https://doi.org/10.31315/eksergi.v22i2.14655"/>
+<meta name="citation_reference" content="Marler, R. T., &amp; Arora, J. S. (2004). Survey of multi-objective optimization methods for engineering. Structural and Multidisciplinary Optimization, 26(6), 369–395. https://doi.org/10.1007/s00158-003-0368-6"/>
+<meta name="citation_reference" content="National Energy Technology Laboratory (NETL). (2015). Cost and performance baseline for fossil energy plants, volume 1: Bituminous coal and natural gas to electricity (DOE/NETL-2015/1723). U.S. Department of Energy."/>
+<meta name="citation_reference" content="Nyamiati, R. D., Nurkhamidah, S., Nanda, D. E., Timotius, D., Mahreni, M., Handayani, D. P., &amp; Krisnabudhi, A. (2023). Current research on the development of carbon separation and capture with polymeric membrane: A state of the art review. Eksergi, 20(2), 58–63. https://doi.org/10.31315/e.v20i2.9096"/>
+<meta name="citation_reference" content="Pamungkas, R. Y., Nurkhamidah, S., Taufany, F., Altway, A., Susianto, &amp; Rahmawati, Y. (2025). Effect of DEA solvent flow rate on CO2 absorption-desorption. *Eksergi*, 22(3), 167–174. https://doi.org/10.31315/eksergi.v22i3.14951"/>
+<meta name="citation_reference" content="Park, K., &amp; Øi, L. E. (2017). Optimization of gas velocity and pressure drop in CO₂ absorption column. In Proceedings of the 58th Conference on Simulation and Modelling (SIMS 58) (pp. 292–297). Linköping University Electronic Press. https://doi.org/10.3384/ecp17138292"/>
+<meta name="citation_reference" content="Peletiri, S. P., Rahmanian, N., &amp; Mujtaba, I. M. (2017). Effects of impurities on CO₂ pipeline performance. Chemical Engineering Transactions, 57, 355–360. https://doi.org/10.3303/CET1757060"/>
+<meta name="citation_reference" content="Peletiri, S. P., Rahmanian, N., &amp; Mujtaba, I. M. (2018). CO2 Pipeline Design: A Review. Energies, 11(9), 2184. https://doi.org/10.3390/en11092184"/>
+<meta name="citation_reference" content="Pershen, S. (2025). Process simulation combined with other calculation tools for automated cost optimization of CO₂ capture [Master’s thesis]. University of South-Eastern Norway."/>
+<meta name="citation_reference" content="Petrovic, D., Anicic, B., &amp; Gvozdenac, D. (2019). Optimization of Post Combustion CO2 Capture from a Combined-Cycle Gas Turbine Power Plant via Taguchi Design of Experiment. Processes, 7(6), 364. https://doi.org/10.3390/pr7060364"/>
+<meta name="citation_reference" content="Poblete, J., de Medeiros, J. L., &amp; Araújo, O. Q. F. (2024). Thermodynamically efficient, low-emission gas-to-wire for carbon dioxide-rich natural gas: Exhaust gas recycle and Rankine cycle intensifications. Processes, 12(4), 639. https://doi.org/10.3390/pr12040639"/>
+<meta name="citation_reference" content="PT PLN (Persero). (2025). Tarif tenaga listrik PT PLN (Persero) tahun 2025. PT PLN (Persero)."/>
+<meta name="citation_reference" content="Rochelle, G. T. (2009). Amine scrubbing for CO₂ capture. Science, 325(5948), 1652–1654. https://doi.org/10.1126/science.1176731"/>
+<meta name="citation_reference" content="Rochelle, G. T., Chen, E., Freeman, S., Van Wagener, D., Xu, Q., &amp; Voice, A. (2011). Aqueous piperazine as the new standard for CO₂ capture technology. Chemical Engineering Journal, 171(3), 725–733. https://doi.org/10.1016/j.cej.2011.02.011"/>
+<meta name="citation_reference" content="Rubin, E. S., Davison, J. E., &amp; Herzog, H. J. (2015). The cost of CO₂ capture and storage. International Journal of Greenhouse Gas Control, 40, 378–400. https://doi.org/10.1016/j.ijggc.2015.05.018"/>
+<meta name="citation_reference" content="Shirdel, S., Øi, L. E., Aromada, S. A., &amp; Eldrup, N. H. (2022). Sensitivity analysis and cost estimation of a CO₂ capture plant in Aspen HYSYS. ChemEngineering, 6(2), 28. https://doi.org/10.3390/chemengineering6020028"/>
+<meta name="citation_reference" content="Smith, R. (2016). Chemical process design and integration (2nd ed.) (pp. 493-495). Wiley."/>
+<meta name="citation_reference" content="Sultan, H., Bhatti, U.H., Muhammad, H.A., Nam, S.C., Baek, I.H., 2021. Modification of postcombustion CO2 capture process: a techno-economic analysis. Greenh. Gases Sci. Technol. 11, 165–182. https://doi.org/10.1002/ghg.2042"/>
+<meta name="citation_reference" content="Sussatrio, H., Hadiyanto, H., &amp; Widayat, W. (2024). Optimasi Komposisi MDEA dan MEA Sebagai Absorbent untuk Proses Penghilangan CO2 dalam Produksi Gas di Lapangan A. Eksergi, 21(1), 29. https://doi.org/10.31315/e.v21i1.10855"/>
+<meta name="citation_reference" content="Towler, G., &amp; Sinnott, R. (2022). Chemical engineering design: Principles, practice and economics of plant and process design (3rd ed.) (pp. 667).Butterworth-Heinemann Inc."/>
+<meta name="citation_reference" content="Turton, R., Bailie, R. C., Whiting, W. B., &amp; Shaeiwitz, J. A. (2012). Analysis, synthesis, and design of chemical processes (4th ed.)(pp. 207). Prentice Hall."/>
+<meta name="citation_reference" content="Wei, B., Wang, B., Li, X., Aishan, M., &amp; Ju, Y. (2023). CO₂ storage in depleted oil and gas reservoirs: A review. Advances in Geo-Energy Research, 9(2), 76–93. https://doi.org/10.46690/ager.2023.08.02"/>
+<meta name="citation_reference" content="Yasmin, K. A. (2021). Reservoir simulation and economic model evaluation for CO₂ sequestration in depleted gas reservoir of field X (Bachelor’s thesis, Institut Teknologi Bandung)."/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Raden Ricko Satriyo"/>
+<meta name="DC.Creator.PersonalName" content="Renanto"/>
+<meta name="DC.Creator.PersonalName" content="Rendra Panca Anugraha"/>
+<meta name="DC.Creator.PersonalName" content="Roudlotus Salwa Aulia"/>
+<meta name="DC.Creator.PersonalName" content="Galuh Ferlianes Lestari"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2026-04-01"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2026-02-27"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2026-04-01"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2026-04-30"/>
+<meta name="DC.Description" xml:lang="en" content="Coal-fired power plants supply 60% of Indonesia&#039;s electricity and are major CO₂ sources. Integrating Carbon Capture and Storage with Enhanced Oil Recovery (CCS-EOR) offers a decarbonization pathway with economic benefits. This study evaluates techno-economic performance of an integrated CCS-EOR system for a 1,000 MW ultra-supercritical coal plant in Indonesia, simulated using Aspen HYSYS V14 automated with Python. A solvent blend of 35 wt% MDEA and 15 wt% PZ was used. Four parameters, minimum approach temperature (10–20°C), CO₂ removal efficiency (85–95%), absorber inlet gas velocity (2–2.5 m/s), and stripper Murphree efficiency (0.4–0.8) were varied across full factorial combinations, generating 162 scenarios. Four optimal scenarios were identified via multi-method optimization and assessed for economic feasibility at pipeline distances of 50–200 km. In the base case (90% removal), the system captured 5.66 million tons CO₂/year, with 28.91% energy penalty, Levelized Cost of CO₂ (LCoC) of -$64.53/ton, and Net Present Value (NPV) of $2.07 billion. CO₂ removal efficiency most influences LCoC, while ΔTmin most affects energy penalty. The Balanced Optimal scenario (LCoC -$65.65/ton, energy penalty 28.75%, NPV $2.20 billion) is recommended and remains viable up to 200 km."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="16590"/>
+<meta name="DC.Identifier.pageNumber" content="58-61"/>
+<meta name="DC.Identifier.DOI" content="10.31315/eksergi.v23i2.16590"/>
+<meta name="DC.Identifier.URI" content="https://jurnal.upnyk.ac.id/index.php/eksergi/article/view/16590"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2026 Raden Ricko Satriyo, Renanto, Roudlotus Salwa Aulia, Galuh Ferlianes Lestari"/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0"/>
+<meta name="DC.Source" content="Eksergi"/>
+<meta name="DC.Source.ISSN" content="2460-8203"/>
+<meta name="DC.Source.Issue" content="2"/>
+<meta name="DC.Source.Volume" content="23"/>
+<meta name="DC.Source.URI" content="https://jurnal.upnyk.ac.id/index.php/eksergi"/>
+<meta name="DC.Subject" xml:lang="en" content="Aspen HYSYS"/>
+<meta name="DC.Subject" xml:lang="en" content="Carbon Capture and Storage (CCS)"/>
+<meta name="DC.Subject" xml:lang="en" content="MDEA"/>
+<meta name="DC.Subject" xml:lang="en" content="Python Automation"/>
+<meta name="DC.Subject" xml:lang="en" content="Techno-Economic analysis"/>
+<meta name="DC.Title" content="Techno-Economic Sensitivity Analysis of Integrated CCS–EOR for a 1,000 MW Ultra-Supercritical Coal-Fired Power Plant in Indonesia"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content=""/>
+	<link rel="stylesheet" href="https://jurnal.upnyk.ac.id/index.php/eksergi/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://jurnal.upnyk.ac.id/index.php/eksergi/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://jurnal.upnyk.ac.id/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.20" type="text/css" /><link rel="stylesheet" href="https://jurnal.upnyk.ac.id/public/journals/8/styleSheet.css?d=2025-04-30+14%3A41%3A57" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://jurnal.upnyk.ac.id/index.php/eksergi/index
+					" class="is_img">
+							<img src="https://jurnal.upnyk.ac.id/public/journals/8/pageHeaderLogoImage_en_US.png" width="1160" height="186"  />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/">
+					Home
+				</a>
+							</li>
+								<li class="">
+				<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/issue/current">
+					Current
+				</a>
+							</li>
+								<li class="">
+				<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/issue/archive">
+					Archives
+				</a>
+							</li>
+								<li class="">
+				<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/announcement">
+					Announcements
+				</a>
+							</li>
+								<li class="">
+				<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/about">
+					About
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/about">
+										About the Journal
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/about/submissions">
+										Submissions
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/about/editorialTeam">
+										Editorial Team
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/about/privacy">
+										Privacy Statement
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/ArchivingPolicy">
+										Archiving Policy
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/about/contact">
+										Contact
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Search
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+															<li class="profile">
+				<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/login">
+					Login
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/issue/archive">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/issue/view/1075">
+					Vol. 23 No. 2 (2026)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Artikel
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Techno-Economic Sensitivity Analysis of Integrated CCS–EOR for a 1,000 MW Ultra-Supercritical Coal-Fired Power Plant in Indonesia
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Authors</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Raden Ricko Satriyo
+							</span>
+															<span class="affiliation">
+									Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia
+																	</span>
+																						<span class="orcid">
+																		<a href="https://orcid.org/0009-0004-2919-7174" target="_blank">
+										https://orcid.org/0009-0004-2919-7174
+									</a>
+								</span>
+													</li>
+											<li>
+							<span class="name">
+								Renanto
+							</span>
+															<span class="affiliation">
+									Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia
+																	</span>
+																						<span class="orcid">
+																		<a href="https://orcid.org/0000-0001-9172-6912" target="_blank">
+										https://orcid.org/0000-0001-9172-6912
+									</a>
+								</span>
+													</li>
+											<li>
+							<span class="name">
+								Rendra Panca Anugraha
+							</span>
+															<span class="affiliation">
+									Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Roudlotus Salwa Aulia
+							</span>
+															<span class="affiliation">
+									Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Galuh Ferlianes Lestari
+							</span>
+															<span class="affiliation">
+									Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia
+																	</span>
+																				</li>
+										</ul>
+				</section>
+			
+																												<section class="item doi">
+						<h2 class="label">
+														DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.31315/eksergi.v23i2.16590">
+								https://doi.org/10.31315/eksergi.v23i2.16590
+							</a>
+						</span>
+					</section>
+							
+									<section class="item keywords">
+				<h2 class="label">
+										Keywords:
+				</h2>
+				<span class="value">
+											Aspen HYSYS, 											Carbon Capture and Storage (CCS), 											MDEA, 											Python Automation, 											Techno-Economic analysis									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Abstract</h2>
+					<p>Coal-fired power plants supply 60% of Indonesia's electricity and are major CO₂ sources. Integrating Carbon Capture and Storage with Enhanced Oil Recovery (CCS-EOR) offers a decarbonization pathway with economic benefits. This study evaluates techno-economic performance of an integrated CCS-EOR system for a 1,000 MW ultra-supercritical coal plant in Indonesia, simulated using Aspen HYSYS V14 automated with Python. A solvent blend of 35 wt% MDEA and 15 wt% PZ was used. Four parameters, minimum approach temperature (10–20°C), CO₂ removal efficiency (85–95%), absorber inlet gas velocity (2–2.5 m/s), and stripper Murphree efficiency (0.4–0.8) were varied across full factorial combinations, generating 162 scenarios. Four optimal scenarios were identified via multi-method optimization and assessed for economic feasibility at pipeline distances of 50–200 km. In the base case (90% removal), the system captured 5.66 million tons CO₂/year, with 28.91% energy penalty, Levelized Cost of CO₂ (LCoC) of -$64.53/ton, and Net Present Value (NPV) of $2.07 billion. CO₂ removal efficiency most influences LCoC, while ΔTmin most affects energy penalty. The Balanced Optimal scenario (LCoC -$65.65/ton, energy penalty 28.75%, NPV $2.20 billion) is recommended and remains viable up to 200 km.</p>
+				</section>
+			
+			
+
+																																																																					<section class="item author_bios">
+					<h2 class="label">
+													Author Biographies
+											</h2>
+																		<section class="sub_item">
+								<h3 class="label">
+																																							Raden Ricko Satriyo, <span class="affiliation">Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia</span>
+																	</h3>
+								<div class="value">
+									<p>Department of Chemical Engineering, Faculty Member</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Renanto, <span class="affiliation">Department of Chemical Engineering Institut Teknologi Sepuluh Nopember, Surabaya, East Java, 60111, Indonesia</span>
+																	</h3>
+								<div class="value">
+									<p>Department of Chemical Engineering, Professor</p>
+								</div>
+							</section>
+																																																</section>
+			
+										<section class="item references">
+					<h2 class="label">
+						References
+					</h2>
+					<div class="value">
+																					<p>Abu-Zahra, M., Schneiders, L., Niederer, J., Feron, P., &amp; Versteeg, G. (2007). CO 2 capture from power plants Part I. A parametric study of the technical performance based on monoethanolamine. CO2 Capture from Power Plants Part I. A Parametric Study of the Technical Performance Based on Monoethanolamine, 1. <a href="https://doi.org/10.1016/S1750-5836(06)00007-7">https://doi.org/10.1016/S1750-5836(06)00007-7</a> </p>
+															<p>Adisasmito, S., Raksajati, A., Ali, A., Susilo, H., Susetyo, M. A., &amp; Reza, A. M. (2023). Modelling of carbon capture process for coal-fired power plants in Indonesia. Chemical Engineering Transactions, 106, 961–966. <a href="https://doi.org/10.3303/CET23106161">https://doi.org/10.3303/CET23106161</a> </p>
+															<p>Aspelund, A., Mølnvik, M. J., &amp; De Koeijer, G. (2006). Ship Transport of CO2. Chemical Engineering Research and Design, 84(9), 847–855. <a href="https://doi.org/10.1205/cherd.5147">https://doi.org/10.1205/cherd.5147</a> </p>
+															<p>Bishnoi, S., &amp; Rochelle, G. T. (2000). Absorption of carbon dioxide into aqueous piperazine: Reaction kinetics, mass transfer, and solubility. Chemical Engineering Science, 55(22), 5531–5543. <a href="https://doi.org/10.1016/S0009-2509(00)00182-2">https://doi.org/10.1016/S0009-2509(00)00182-2</a> </p>
+															<p>Boot-Handford, M. E., Abanades, J. C., Anthony, E. J., Blunt, M. J., Brandani, S., Mac Dowell, N., Fernández, J. R., Ferrari, M. C., Gross, R., Hallett, J. P., Haszeldine, R. S., Heptonstall, P., Lyngfelt, A., Makuch, Z., Mangano, E., Porter, R. T. J., Pourkashanian, M., Rochelle, G. T., Shah, N., … Fennell, P. S. (2014). Carbon capture and storage update. Energy &amp; Environmental Science, 7(1), 130–189. <a href="https://doi.org/10.1039/C3EE42350F">https://doi.org/10.1039/C3EE42350F</a> </p>
+															<p>Bui, M., Adjiman, C. S., Bardow, A., Anthony, E. J., Boston, A., Brown, S., Fennell, P. S., Fuss, S., Galindo, A., Hackett, L. A., Hallett, J. P., Herzog, H. J., Jackson, G., Kemper, J., Krevor, S., Maitland, G. C., Matuszewski, M., Metcalfe, I. S., Petit, C., … Mac Dowell, N. (2018). Carbon capture and storage (CCS): The way forward. Energy &amp; Environmental Science, 11(5), 1062–1176. <a href="https://doi.org/10.1039/C7EE02342A">https://doi.org/10.1039/C7EE02342A</a> </p>
+															<p>Febriani, A. V., Hanum, F. F., Kuncara, J., &amp; Setyawan, M. (2024). Optimalisasi mutu batubara Indonesia. *Eksergi*, 21(2), 70–76. <a href="https://doi.org/10.31315/e.v21i2.11761">https://doi.org/10.31315/e.v21i2.11761</a> </p>
+															<p>Global CCS Institute. (2022). Global status of CCS 2022. Global CCS Institute. </p>
+															<p>Government of Indonesia. (2022). Enhanced nationally determined contribution: Republic of Indonesia. </p>
+															<p>Handogo, R., Mualim, A., Sutikno, J. P., &amp; Altway, A. (2022). Evaluation of CO₂ transport design via pipeline in the CCS system with various distance combinations. ECS Transactions, 107, 8593–8608. <a href="https://doi.org/10.1149/10701.8593ecst">https://doi.org/10.1149/10701.8593ecst</a> </p>
+															<p>International Energy Agency (IEA). (2020). CCUS in clean energy transitions. IEA. <a href="https://www.iea.org/reports/ccus-in-clean-energy-transitions">https://www.iea.org/reports/ccus-in-clean-energy-transitions</a> </p>
+															<p>International Energy Agency. (2021). Net zero by 2050: A roadmap for the global energy sector (4th rev. ed.). </p>
+															<p>International Energy Forum (IEF). (2021). Carbon capture, utilization and storage: Policy, markets, and investment pathways. IEF. <a href="https://www.ief.org">https://www.ief.org</a> </p>
+															<p>Institute for Essential Services Reform (IESR). (2024, June 14). Coal Domination in Indonesia, What are the Opportunities for Sustainable Energy?. <a href="https://iesr.or.id/en/coal-domination-in-indonesia-what-are-the-opportunities-for-sustainable-energy/">https://iesr.or.id/en/coal-domination-in-indonesia-what-are-the-opportunities-for-sustainable-energy/</a> </p>
+															<p>Intergovernmental Panel on Climate Change (IPCC). (2005). IPCC special report on carbon dioxide capture and storage. Cambridge University Press. </p>
+															<p>Irfan, &amp; Tobing, S. (2021). Analysis energy penalty implementation technology CO₂ capture post combustion in existing coal fired power plant class 660 MW. SSRN. <a href="https://ssrn.com/abstract=4874726">https://ssrn.com/abstract=4874726</a> </p>
+															<p>Jarrell, P. M., Fox, C. E., Stein, M. H., &amp; Webb, S. L. (2002). Practical aspects of CO₂ flooding (Monograph Vol. 22). Society of Petroleum Engineers. </p>
+															<p>Kementerian Energi dan Sumber Daya Mineral (ESDM). (2025). Penetapan harga minyak mentah Indonesia. Kementerian ESDM Republik Indonesia. </p>
+															<p>Li, H., Yan, J., Yan, J., &amp; Anheden, M. (2009). Impurity impacts on the purification process in oxy-fuel combustion based CO2 capture and storage system. Applied Energy, 86(2), 202–213. <a href="https://doi.org/10.1016/j.apenergy.2008.05.006">https://doi.org/10.1016/j.apenergy.2008.05.006</a> </p>
+															<p>Lucquiaud, M., &amp; Gibbins, J. (2011). On the integration of CO2 capture with coal-fired power plants: A methodology to assess and optimise solvent-based post-combustion capture systems. International Journal of Greenhouse Gas Control, 5(3), 427–438. <a href="https://doi.org/10.1016/j.cherd.2011.03.003">https://doi.org/10.1016/j.cherd.2011.03.003</a> </p>
+															<p>Mahidin, Maulana, F., Mukramah, Adisalamun, Hisbullah, Hadi, A., MH, N., &amp; Abnisa, F. (2025). Achieving Net Zero Emissions Target: Development of Carbon Dioxide Handling Technologies, Its Challenges and Barriers. Eksergi, 22(2), 150–157. <a href="https://doi.org/10.31315/eksergi.v22i2.14655">https://doi.org/10.31315/eksergi.v22i2.14655</a> </p>
+															<p>Marler, R. T., &amp; Arora, J. S. (2004). Survey of multi-objective optimization methods for engineering. Structural and Multidisciplinary Optimization, 26(6), 369–395. <a href="https://doi.org/10.1007/s00158-003-0368-6">https://doi.org/10.1007/s00158-003-0368-6</a> </p>
+															<p>National Energy Technology Laboratory (NETL). (2015). Cost and performance baseline for fossil energy plants, volume 1: Bituminous coal and natural gas to electricity (DOE/NETL-2015/1723). U.S. Department of Energy. </p>
+															<p>Nyamiati, R. D., Nurkhamidah, S., Nanda, D. E., Timotius, D., Mahreni, M., Handayani, D. P., &amp; Krisnabudhi, A. (2023). Current research on the development of carbon separation and capture with polymeric membrane: A state of the art review. Eksergi, 20(2), 58–63. <a href="https://doi.org/10.31315/e.v20i2.9096">https://doi.org/10.31315/e.v20i2.9096</a> </p>
+															<p>Pamungkas, R. Y., Nurkhamidah, S., Taufany, F., Altway, A., Susianto, &amp; Rahmawati, Y. (2025). Effect of DEA solvent flow rate on CO2 absorption-desorption. *Eksergi*, 22(3), 167–174. <a href="https://doi.org/10.31315/eksergi.v22i3.14951">https://doi.org/10.31315/eksergi.v22i3.14951</a> </p>
+															<p>Park, K., &amp; Øi, L. E. (2017). Optimization of gas velocity and pressure drop in CO₂ absorption column. In Proceedings of the 58th Conference on Simulation and Modelling (SIMS 58) (pp. 292–297). Linköping University Electronic Press. <a href="https://doi.org/10.3384/ecp17138292">https://doi.org/10.3384/ecp17138292</a> </p>
+															<p>Peletiri, S. P., Rahmanian, N., &amp; Mujtaba, I. M. (2017). Effects of impurities on CO₂ pipeline performance. Chemical Engineering Transactions, 57, 355–360. <a href="https://doi.org/10.3303/CET1757060">https://doi.org/10.3303/CET1757060</a> </p>
+															<p>Peletiri, S. P., Rahmanian, N., &amp; Mujtaba, I. M. (2018). CO2 Pipeline Design: A Review. Energies, 11(9), 2184. <a href="https://doi.org/10.3390/en11092184">https://doi.org/10.3390/en11092184</a> </p>
+															<p>Pershen, S. (2025). Process simulation combined with other calculation tools for automated cost optimization of CO₂ capture [Master’s thesis]. University of South-Eastern Norway. </p>
+															<p>Petrovic, D., Anicic, B., &amp; Gvozdenac, D. (2019). Optimization of Post Combustion CO2 Capture from a Combined-Cycle Gas Turbine Power Plant via Taguchi Design of Experiment. Processes, 7(6), 364. <a href="https://doi.org/10.3390/pr7060364">https://doi.org/10.3390/pr7060364</a> </p>
+															<p>Poblete, J., de Medeiros, J. L., &amp; Araújo, O. Q. F. (2024). Thermodynamically efficient, low-emission gas-to-wire for carbon dioxide-rich natural gas: Exhaust gas recycle and Rankine cycle intensifications. Processes, 12(4), 639. <a href="https://doi.org/10.3390/pr12040639">https://doi.org/10.3390/pr12040639</a> </p>
+															<p>PT PLN (Persero). (2025). Tarif tenaga listrik PT PLN (Persero) tahun 2025. PT PLN (Persero). </p>
+															<p>Rochelle, G. T. (2009). Amine scrubbing for CO₂ capture. Science, 325(5948), 1652–1654. <a href="https://doi.org/10.1126/science.1176731">https://doi.org/10.1126/science.1176731</a> </p>
+															<p>Rochelle, G. T., Chen, E., Freeman, S., Van Wagener, D., Xu, Q., &amp; Voice, A. (2011). Aqueous piperazine as the new standard for CO₂ capture technology. Chemical Engineering Journal, 171(3), 725–733. <a href="https://doi.org/10.1016/j.cej.2011.02.011">https://doi.org/10.1016/j.cej.2011.02.011</a> </p>
+															<p>Rubin, E. S., Davison, J. E., &amp; Herzog, H. J. (2015). The cost of CO₂ capture and storage. International Journal of Greenhouse Gas Control, 40, 378–400. <a href="https://doi.org/10.1016/j.ijggc.2015.05.018">https://doi.org/10.1016/j.ijggc.2015.05.018</a> </p>
+															<p>Shirdel, S., Øi, L. E., Aromada, S. A., &amp; Eldrup, N. H. (2022). Sensitivity analysis and cost estimation of a CO₂ capture plant in Aspen HYSYS. ChemEngineering, 6(2), 28. <a href="https://doi.org/10.3390/chemengineering6020028">https://doi.org/10.3390/chemengineering6020028</a> </p>
+															<p>Smith, R. (2016). Chemical process design and integration (2nd ed.) (pp. 493-495). Wiley. </p>
+															<p>Sultan, H., Bhatti, U.H., Muhammad, H.A., Nam, S.C., Baek, I.H., 2021. Modification of postcombustion CO2 capture process: a techno-economic analysis. Greenh. Gases Sci. Technol. 11, 165–182. <a href="https://doi.org/10.1002/ghg.2042">https://doi.org/10.1002/ghg.2042</a> </p>
+															<p>Sussatrio, H., Hadiyanto, H., &amp; Widayat, W. (2024). Optimasi Komposisi MDEA dan MEA Sebagai Absorbent untuk Proses Penghilangan CO2 dalam Produksi Gas di Lapangan A. Eksergi, 21(1), 29. <a href="https://doi.org/10.31315/e.v21i1.10855">https://doi.org/10.31315/e.v21i1.10855</a> </p>
+															<p>Towler, G., &amp; Sinnott, R. (2022). Chemical engineering design: Principles, practice and economics of plant and process design (3rd ed.) (pp. 667).Butterworth-Heinemann Inc. </p>
+															<p>Turton, R., Bailie, R. C., Whiting, W. B., &amp; Shaeiwitz, J. A. (2012). Analysis, synthesis, and design of chemical processes (4th ed.)(pp. 207). Prentice Hall. </p>
+															<p>Wei, B., Wang, B., Li, X., Aishan, M., &amp; Ju, Y. (2023). CO₂ storage in depleted oil and gas reservoirs: A review. Advances in Geo-Energy Research, 9(2), 76–93. <a href="https://doi.org/10.46690/ager.2023.08.02">https://doi.org/10.46690/ager.2023.08.02</a> </p>
+															<p>Yasmin, K. A. (2021). Reservoir simulation and economic model evaluation for CO₂ sequestration in depleted gas reservoir of field X (Bachelor’s thesis, Institut Teknologi Bandung). </p>
+																		</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+						
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Downloads
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://jurnal.upnyk.ac.id/index.php/eksergi/article/view/16590/7602">
+
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Published
+					</h2>
+					<div class="value">
+																			<span>2026-04-01</span>
+																	</div>
+				</section>
+							</div>
+			
+										<div class="item citation">
+					<section class="sub_item citation_display">
+						<h2 class="label">
+							How to Cite
+						</h2>
+						<div class="value">
+							<div id="citationOutput" role="region" aria-live="polite">
+								<div class="csl-bib-body">
+  <div class="csl-entry">Satriyo, R. R., Renanto, Anugraha, R. P., Aulia, R. S., &#38; Lestari, G. F. (2026). Techno-Economic Sensitivity Analysis of Integrated CCS–EOR for a 1,000 MW Ultra-Supercritical Coal-Fired Power Plant in Indonesia. <i>Eksergi</i>, <i>23</i>(2), 58–61. https://doi.org/10.31315/eksergi.v23i2.16590</div>
+</div>
+							</div>
+							<div class="citation_formats">
+								<button class="cmp_button citation_formats_button" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+									More Citation Formats
+								</button>
+								<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+									<ul class="citation_formats_styles">
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/acm-sig-proceedings?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/acm-sig-proceedings?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													ACM
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/acs-nano?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/acs-nano?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													ACS
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/apa?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/apa?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													APA
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													ABNT
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/chicago-author-date?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/chicago-author-date?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													Chicago
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/harvard-cite-them-right?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/harvard-cite-them-right?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													Harvard
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/ieee?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/ieee?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													IEEE
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/modern-language-association?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/modern-language-association?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													MLA
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													Turabian
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/vancouver?submissionId=16590&amp;publicationId=13849"
+													data-load-citation
+													data-json-href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/get/vancouver?submissionId=16590&amp;publicationId=13849&amp;return=json"
+												>
+													Vancouver
+												</a>
+											</li>
+																			</ul>
+																			<div class="label">
+											Download Citation
+										</div>
+										<ul class="citation_formats_styles">
+																							<li>
+													<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/download/ris?submissionId=16590&amp;publicationId=13849">
+														<span class="fa fa-download"></span>
+														Endnote/Zotero/Mendeley (RIS)
+													</a>
+												</li>
+																							<li>
+													<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/citationstylelanguage/download/bibtex?submissionId=16590&amp;publicationId=13849">
+														<span class="fa fa-download"></span>
+														BibTeX
+													</a>
+												</li>
+																					</ul>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Issue
+							</h2>
+							<div class="value">
+								<a class="title" href="https://jurnal.upnyk.ac.id/index.php/eksergi/issue/view/1075">
+									Vol. 23 No. 2 (2026)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Section
+							</h2>
+							<div class="value">
+								Artikel
+							</div>
+						</section>
+					
+									</div>
+			
+															
+										<div class="item copyright">
+					<h2 class="label">
+						License
+					</h2>
+																										<p>Copyright (c) 2026 Raden Ricko Satriyo, Renanto, Roudlotus Salwa Aulia, Galuh Ferlianes Lestari</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+																<p>Authors who publish with this journal agree to the following terms:</p>
+<p>Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>(CC BY SA 4.0) that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.</p>
+<p>Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.</p>
+<p>Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See <a href="http://opcit.eprints.org/oacitation-biblio.html" target="_new">The Effect of Open Access</a>).<br /><br /><br />Eksergi allows authors retain the copyright and full publishing rights without restrictions.</p>
+				</div>
+			
+			
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+				<div class="pkp_block block_custom" id="customblock-menu-sanguilmu">
+	<h2 class="title pkp_screen_reader">menu-sanguilmu</h2>
+	<div class="content">
+		<p class="kepala">ADDITIONAL MENU</p>
+<div class="badan"><a href="/index.php/eksergi/focus_scope"><em class="fa fa-eye">&nbsp;</em>Focus &amp; Scope</a> <a href="/index.php/eksergi/about/editorialTeam"><em class="fa fa-users">&nbsp;</em>Editorial Team</a> <a href="/index.php/eksergi/reviewer"><em class="fa fa-user-circle-o">&nbsp;</em>Reviewers</a> <a href="/index.php/eksergi/authorguideline"><em class="fa fa-book">&nbsp;</em>Author Guidelines</a> <a href="/index.php/eksergi/PeerReview"><em class="fa fa-recycle">&nbsp;</em>Peer Review Process</a> <a href="/index.php/eksergi/PublicationEthics"><em class="fa fa-etsy">&nbsp;</em>Publication Ethics</a> <a href="/index.php/eksergi/about/submissions"><em class="fa fa-paper-plane">&nbsp;</em>Online Submissions</a> <a href="/index.php/eksergi/CopyrightNotice"><em class="fa fa-copyright">&nbsp;</em>Copyright Notice</a> <a href="/index.php/eksergi/PlagiarismScreening"><em class="fa fa-files-o">&nbsp;</em>Plagiarism Screening</a> <a href="/index.php/eksergi/INDEXING"><em class="fa fa-dot-circle-o">&nbsp;</em>Indexing</a> <a href="/index.php/eksergi/AuthorFee"><em class="fa fa-money">&nbsp;</em>Author Fees</a> <a href="/index.php/eksergi/OpenAccessStatement"><em class="fa fa-server">&nbsp;</em>Open Access Statement </a><a href="https://jurnal.upnyk.ac.id/index.php/eksergi/AIPolicy">AI Policy</a></div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-template-sanguilmu">
+	<h2 class="title pkp_screen_reader">template-sanguilmu</h2>
+	<div class="content">
+		<p class="kepala">JOURNAL TEMPLATE</p>
+<div class="badan"><a href="https://docs.google.com/document/d/1g6SrSUPa7U4dkm9FE0oYhnz6jgKFwJrU/edit?usp=sharing&amp;ouid=106217459582478133514&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener"><img src="https://jurnal.upnyk.ac.id/public/site/images/lanaazim/blobid0.png" alt="journal template"></a></div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-accreditation-sanguilmu">
+	<h2 class="title pkp_screen_reader">accreditation-sanguilmu</h2>
+	<div class="content">
+		<p class="kepala">Accreditation</p>
+<div class="badan"><img src="https://jurnal.upnyk.ac.id/public/site/images/lanaazim/blobid1.jpg" alt="Akreditasi Sinta 3 | Telematika: Jurnal Telematika dan Teknologi Informasi"></div>
+<div class="badan"><a href="https://drive.google.com/file/d/1aZEetEDaC-iKRLCUQdkuIJKmK3D5xU5s/view?usp=sharing">Download Certificate</a></div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-tools-sanguilmu">
+	<h2 class="title pkp_screen_reader">tools-sanguilmu</h2>
+	<div class="content">
+		<p class="kepala">TOOLS</p>
+<div class="badan"><a href="https://www.mendeley.com/" target="_blank" rel="noopener"><img src="/public/site/images/lanaazim/mendeley.png" alt="" width="221"></a> <a href="https://www.turnitin.com/" target="_blank" rel="noopener"><img src="/public/site/images/lanaazim/turnitin-ae811b66b684fe4628be22f1b585ff16.png" alt="" width="166"></a> <a href="https://www.grammarly.com/" target="_blank" rel="noopener"><img src="/public/site/images/lanaazim/grammarly-fc4c7603c7b9d4fe6a06b443ef54e179.png" alt="" width="166"></a></div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-information-sanguilmu">
+	<h2 class="title pkp_screen_reader">information-Sanguilmu</h2>
+	<div class="content">
+		<p class="kepala">INFORMATION</p>
+<div class="badan"><a href="/index.php/eksergi/information/readers"><em class="fa fa-info-circle">&nbsp;</em>Reader</a> <a href="/index.php/eksergi/information/authors"><em class="fa fa-info-circle">&nbsp;</em>Author</a> <a href="/index.php/eksergi/information/librarians"><em class="fa fa-info-circle">&nbsp;</em>Librarians</a></div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-visitor-sanguilmu">
+	<h2 class="title pkp_screen_reader">Visitor-Sanguilmu</h2>
+	<div class="content">
+		<p class="kepala">VISITORS</p>
+<div class="badan"><a href="https://info.flagcounter.com/cjT3"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://s01.flagcounter.com/count2/cjT3/bg_afe1ff/txt_000000/border_CCCCCC/columns_2/maxflags_30/viewers_3/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a></div>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<p>Eksergi, published by Prodi Teknik Kimia UPN Veteran Yogyakarta, is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+			</div>
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://jurnal.upnyk.ac.id/index.php/eksergi/about/aboutThisPublishingSystem">
+				<img alt="More information about the publishing system, Platform and Workflow by OJS/PKP." src="https://jurnal.upnyk.ac.id/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://jurnal.upnyk.ac.id/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.20" type="text/javascript"></script><script src="https://jurnal.upnyk.ac.id/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.20" type="text/javascript"></script><script src="https://jurnal.upnyk.ac.id/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.20" type="text/javascript"></script><script src="https://jurnal.upnyk.ac.id/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.20" type="text/javascript"></script><script src="https://jurnal.upnyk.ac.id/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.20" type="text/javascript"></script><script src="https://jurnal.upnyk.ac.id/plugins/themes/default/js/main.js?v=3.3.0.20" type="text/javascript"></script><script src="https://jurnal.upnyk.ac.id/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.3.0.20" type="text/javascript"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿[
+    {
+        "source_page":  "https://github.com/Rus-tam/hysys_observer",
+        "case_file":  "example.hsc",
+        "license":  "NOASSERTION",
+        "note":  "contains .hsc but no explicit license found via GitHub API"
+    },
+    {
+        "source_page":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+        "case_file":  "Test_file_hysys_python.hsc",
+        "license":  "NOASSERTION",
+        "note":  "contains .hsc but no explicit license found via GitHub API"
+    },
+    {
+        "source_page":  "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+        "case_file":  "NODECFINAL.hsc",
+        "license":  "NOASSERTION",
+        "note":  "contains .hsc but no explicit license found via GitHub API"
+    }
+]

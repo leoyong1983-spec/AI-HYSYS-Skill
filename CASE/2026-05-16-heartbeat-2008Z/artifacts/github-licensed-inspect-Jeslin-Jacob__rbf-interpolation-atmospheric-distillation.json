@@ -1,0 +1,83 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                 "url":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                 "description":  "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-12-21T15:33:50Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  14,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1071,
+                                       "sha":  "1d08ae3e1ba882ef4d65abbb2d15b0cc948006cb"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  4695,
+                                       "sha":  "faf644dd7ceec0d52f4aa705866dc7a758bf9d11"
+                                   },
+                                   {
+                                       "path":  "data/Apen Hysys Data.csv",
+                                       "size":  24617,
+                                       "sha":  "ce8360ab9261442a748ab865028050acbd368c2c"
+                                   },
+                                   {
+                                       "path":  "data/Thermodynamic Validation.xlsx",
+                                       "size":  9820,
+                                       "sha":  "1c1269dca8790dcd124a47b16395aada2dcdc6b9"
+                                   },
+                                   {
+                                       "path":  "data/Yield_RBF_Populated_per_blend.csv",
+                                       "size":  474490,
+                                       "sha":  "f4584a3729656b1ba11c65f12f33bbef0dece491"
+                                   },
+                                   {
+                                       "path":  "data/rbf_error_matrix.csv",
+                                       "size":  1441,
+                                       "sha":  "affe733e1d35d733f04ffdd86a0356d1eb23f8f5"
+                                   },
+                                   {
+                                       "path":  "data/rbf_error_matrix_per_blend.csv",
+                                       "size":  2475,
+                                       "sha":  "b765a7d7591737dbdfb153546542d8fd64d0be32"
+                                   },
+                                   {
+                                       "path":  "data/rbf_validation_point_errors.csv",
+                                       "size":  161020,
+                                       "sha":  "5f7a55d953c1199bf6b6c7b60a3f4336191766c4"
+                                   },
+                                   {
+                                       "path":  "docs/Thermodynamic Validation.md",
+                                       "size":  5259,
+                                       "sha":  "664e4055db1ca28e92133918bc29a3b7f7aff574"
+                                   },
+                                   {
+                                       "path":  "docs/validation.md",
+                                       "size":  4664,
+                                       "sha":  "a38e28189c2ada27e444dc3de1322aba0d014df2"
+                                   },
+                                   {
+                                       "path":  "src/Rbf Validation.py",
+                                       "size":  6873,
+                                       "sha":  "e2a577a785faaa8096e97d2f969d823bb2366eae"
+                                   },
+                                   {
+                                       "path":  "src/rbf_interpolation.py",
+                                       "size":  5547,
+                                       "sha":  "69f311a9cbd9dfb69da1288d350d2262568afcf7"
+                                   }
+                               ]
+             },
+    "error":  null
+}

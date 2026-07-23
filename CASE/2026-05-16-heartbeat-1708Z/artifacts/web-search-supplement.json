@@ -1,0 +1,30 @@
+﻿{
+    "generated_at_utc":  "2026-05-16T17:08:29.396Z",
+    "purpose":  "Supplemental web search required by discovery task; no payload downloaded from these results.",
+    "queries":  [
+                    {
+                        "query":  "site:github.com Aspen HYSYS .hsc case file",
+                        "notable_results":  [
+                                                "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+                                                "https://github.com/andr1976/dwsim-paper"
+                                            ],
+                        "action":  "Both were confirmed as already archived in existing CASE records."
+                    },
+                    {
+                        "query":  "site:zenodo.org Aspen HYSYS .hsc",
+                        "notable_results":  [
+                                                "https://zenodo.org/records/14882867",
+                                                "https://zenodo.org/records/10966344",
+                                                "https://zenodo.org/records/18806107"
+                                            ],
+                        "action":  "Known Zenodo HYSYS records were treated as duplicates."
+                    },
+                    {
+                        "query":  "site:figshare.com Aspen HYSYS HYSYS simulation file",
+                        "notable_results":  [
+
+                                            ],
+                        "action":  "No confirmed downloadable HYSYS case payload selected."
+                    }
+                ]
+}

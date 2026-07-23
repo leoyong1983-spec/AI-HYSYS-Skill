@@ -1,0 +1,50 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS hsc",
+        "url":  "https://gitlab.com/api/v4/projects?search=Aspen%20HYSYS%20hsc\u0026simple=true\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hscz",
+        "url":  "https://gitlab.com/api/v4/projects?search=Aspen%20HYSYS%20hscz\u0026simple=true\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS case file",
+        "url":  "https://gitlab.com/api/v4/projects?search=HYSYS%20case%20file\u0026simple=true\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS Python COM",
+        "url":  "https://gitlab.com/api/v4/projects?search=HYSYS%20Python%20COM\u0026simple=true\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "HYSYS MATLAB hsc",
+        "url":  "https://gitlab.com/api/v4/projects?search=HYSYS%20MATLAB%20hsc\u0026simple=true\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS simulation",
+        "url":  "https://gitlab.com/api/v4/projects?search=Aspen%20HYSYS%20simulation\u0026simple=true\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+
+                 ]
+    }
+]

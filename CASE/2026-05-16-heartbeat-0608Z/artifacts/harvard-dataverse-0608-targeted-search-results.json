@@ -1,0 +1,1267 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS .hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20.hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Replication Data for: Computational model for HSC culture and feedback",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4DNDZU",
+                         "url":  "https://doi.org/10.7910/DVN/4DNDZU",
+                         "published_at":  "2019-02-09T01:11:34Z",
+                         "authors":  [
+                                         "Mahadik, Bhushan"
+                                     ],
+                         "description":  "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\""
+                     },
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/M9ZT0F",
+                         "url":  "https://doi.org/10.7910/DVN/M9ZT0F",
+                         "published_at":  "2018-02-26T10:43:18Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce A.",
+                                         "Ottman, Michael J.",
+                                         "Wall, Gerard W.",
+                                         "White, Jeffrey W.",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod K.",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew J.",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie A.",
+                                         "Izaurralde, Roberto C.",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis D.",
+                                         "Kassie, Belay T.",
+                                         "Kersebaum, Kurt C.",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David B.",
+                                         "Nendel, Claas",
+                                         "O\u0027Leary, Garry",
+                                         "Olesen, Jørgen E.",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Rezaei, Ehsan Eyshi",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund P.",
+                                         "Semenov, Mikhail A.",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "The Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ECSFZG",
+                         "url":  "https://doi.org/10.7910/DVN/ECSFZG",
+                         "published_at":  "2017-04-24T11:52:42Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce",
+                                         "Ottman, Michael",
+                                         "Wall, Gerard",
+                                         "White, Jeffrey",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie",
+                                         "Izaurralde, Roberto",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis",
+                                         "Kassie, Belay",
+                                         "Kersebaum, Kurt",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David",
+                                         "Nendel, Claas",
+                                         "O’Leary, Garry",
+                                         "Olesen, Jørgen",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Eyshi Rezaei, Ehsan",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund",
+                                         "Semenov, Mikhail",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The data set reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     },
+                     {
+                         "name":  "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QOBGVF",
+                         "url":  "https://doi.org/10.7910/DVN/QOBGVF",
+                         "published_at":  "2023-10-20T21:49:31Z",
+                         "authors":  [
+                                         "Nikkhah, Ali",
+                                         "Nikkhah, Hasan",
+                                         "Shahbazi, Amir",
+                                         "Kamelan Zargar Zarin, Mona",
+                                         "Beykal Iz, Duygu",
+                                         "Ebadi, Mohammad-Taghi",
+                                         "Fakhroleslam, Mohammad",
+                                         "Beykal, Burcu"
+                                     ],
+                         "description":  "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS .hscz",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20.hscz\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Cumin and Eucalyptus Essential Oil Standardization Using Fractional Distillation",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QOBGVF",
+                         "url":  "https://doi.org/10.7910/DVN/QOBGVF",
+                         "published_at":  "2023-10-20T21:49:31Z",
+                         "authors":  [
+                                         "Nikkhah, Ali",
+                                         "Nikkhah, Hasan",
+                                         "Shahbazi, Amir",
+                                         "Kamelan Zargar Zarin, Mona",
+                                         "Beykal Iz, Duygu",
+                                         "Ebadi, Mohammad-Taghi",
+                                         "Fakhroleslam, Mohammad",
+                                         "Beykal, Burcu"
+                                     ],
+                         "description":  "This dataset contains the Aspen Plus (V12) simulations for the cumin and eucalyptus essential oil standardization with a fractional distillation column, as well as the initialization routines for data-driven optimization with NOMAD solver. The latest version of NOMAD can be downloaded from: https://www.gerad.ca/en/software/nomad/. The Python files provided allow linking Aspen Plus to NOMAD for carrying out data-driven optimization routines. Please note that the parameters file for the eucalyptus case study needs to be renamed to \"param.txt\" before running NOMAD."
+                     },
+                     {
+                         "name":  "Replication Data for: Testing of Automated Photochemical Reflectance Index Sensors as Proxy Measurements of Light Use Efficiency in an Aspen Forest",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ZDZHAH",
+                         "url":  "https://doi.org/10.7910/DVN/ZDZHAH",
+                         "published_at":  "2020-03-12T17:57:46Z",
+                         "authors":  [
+                                         "Castro, Saulo",
+                                         "Sanchez-Azofeifa, Arturo",
+                                         "Sanchez-Azofeifa, Gerardo Arturo"
+                                     ],
+                         "description":  "Commercially available autonomous photochemical reflectance index (PRI) sensors are a new development in the remote sensing field that offer novel opportunities for a deeper exploration of vegetation physiology dynamics. In this study, we evaluated the reliability of autonomous PRI sensors (SRS-PRI) developed by METER Group Inc. as proxies of light use efficiency (LUE) in an aspen (Populus tremuloides) forest stand. Before comparisons between PRI and LUE measurements were made, the optical SRS-PRI sensor pairs required calibrations to resolve diurnal and seasonal patterns properly. An offline diurnal calibration procedure was shown to account for variable sky conditions and diurnal illumination changes affecting sensor response. Eddy covariance measurements provided seasonal gross primary productivity (GPP) measures as well as apparent canopy quantum yield dynamics (α). LUE was derived from the ratio of GPP to absorbed photosynthetically active radiation (APAR). Corrected PRI values were derived after diurnal and midday cross-calibration of the sensor’s 532 nm and 570 nm fore-optics, and closely related to both LUE (R2 = 0.62, p \u003c 0.05) and α (R2 = 0.72, p \u003c 0.05). A LUE model derived from corrected PRI values showed good correlation to measured GPP (R2 = 0.77, p \u003c 0.05), with an accuracy comparable to results obtained from an α driven LUE model (R2 = 0.79, p \u003c 0.05). The automated PRI sensors proved to be suitable proxies of light use efficiency. The onset of continuous PRI sensors signifies new opportunities for explicitly examining the cause of changing PRI, LUE, and productivity over time and space. As such, this technology represents great value for the flux, remote sensing and modeling community."
+                     },
+                     {
+                         "name":  "QISAP : Quantum Instruction Set Analytics Platform",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/QMYLWC",
+                         "url":  "https://doi.org/10.7910/DVN/QMYLWC",
+                         "published_at":  "2025-09-03T04:43:14Z",
+                         "authors":  [
+                                         "Jha, Ayush"
+                                     ],
+                         "description":  "The current landscape of quantum computing is dominated by the Noisy Intermediate-Scale Quantum (NISQ) era, where hardware limitations necessitate highly optimized quantum circuits to maximize computational fidelity. This research presents a comparative analysis of three prominent quantum compilers—Qiskit, Cirq, and PyQuil—evaluating their performance on the Greenberger-Horne-Zeilinger (GHZ) state generation circuit. The study focuses on key performance metrics including circuit depth, CX gate count, and total gate count for 3, 4, and 5-qubit GHZ states compiled for Rigetti’s Aspen-M quantum processor. While all compilers produced functionally equivalent circuits for this benchmark, significant differences in compilation strategies and overhead were observed. The findings highlight the critical trade-offs between compilation time and circuit optimization, and underscore the importance of hardwareaware compilation in the NISQ era. Index Terms of File (Research Paper) Quantum computing, quantum compilation, NISQ devices, GHZ state, compiler performance, Qiskit, Cirq, PyQuil"
+                     },
+                     {
+                         "name":  "The Impacts of Industrial and Entrepreneurial Work on Income and Health: Experimental Evidence from Ethiopia",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/DNQHTO",
+                         "url":  "https://doi.org/10.7910/DVN/DNQHTO",
+                         "published_at":  "2017-08-01T21:06:51Z",
+                         "authors":  [
+                                         "Blattman, Christopher",
+                                         "Dercon, Stefan"
+                                     ],
+                         "description":  "Working with five Ethiopian firms, we randomized applicants to an industrial job offer, an “entrepreneurship” program of $300 plus business training, or control status. Industrial jobs offered more and steadier hours but low wages and risky conditions. The job offer doubled exposure to industrial work but, since most quit within months, had no impact on employment or income after a year. Applicants largely took industrial work to cope with adverse shocks. This exposure, meanwhile, significantly increased health problems. The entrepreneurship program raised earnings 33% and provided steadier hours. When barriers to self-employment were relieved, applicants preferred entrepreneurial to industrial labor."
+                     },
+                     {
+                         "name":  "Aspen Institute Poll: January 2000",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.25940/ROPER-31108298",
+                         "url":  "https://doi.org/10.25940/ROPER-31108298",
+                         "published_at":  "2020-12-22T19:54:48Z",
+                         "authors":  [
+                                         "Institute, Aspen"
+                                     ],
+                         "description":  null
+                     },
+                     {
+                         "name":  "Replication data for: Time and State Dependence in an Ss Decision Experiment",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.3886/E114078V1",
+                         "url":  "https://doi.org/10.3886/E114078V1",
+                         "published_at":  "2020-07-30T06:29:03Z",
+                         "authors":  [
+                                         "Magnani, Jacopo",
+                                         "Gorry, Aspen",
+                                         "Oprea, Ryan"
+                                     ],
+                         "description":  "Flow earnings in a laboratory experiment decline the further a Brownian state variable, z, evolves from its optimal level, z*. Optimal state dependent models predict subjects will pay a fixed cost to return z to z* only when z strays outside a critical inaction region around the optimum. On average, subjects adjust at states remarkably close to optimal threshold levels but, as in the field, do not establish true \"state dependent\" inaction regions, suggesting significant \"time dependent\" components in adjustment rules. Structural estimates of subjective observation cost qualitatively account for variation in time dependence observed across treatments. (JEL C91, D21, D80)"
+                     },
+                     {
+                         "name":  "Replication data for: Time and State Dependence in an Ss Decision Experiment",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.3886/E114078",
+                         "url":  "https://doi.org/10.3886/E114078",
+                         "published_at":  "2020-07-30T06:29:03Z",
+                         "authors":  [
+                                         "Magnani, Jacopo",
+                                         "Gorry, Aspen",
+                                         "Oprea, Ryan"
+                                     ],
+                         "description":  "Flow earnings in a laboratory experiment decline the further a Brownian state variable, z, evolves from its optimal level, z*. Optimal state dependent models predict subjects will pay a fixed cost to return z to z* only when z strays outside a critical inaction region around the optimum. On average, subjects adjust at states remarkably close to optimal threshold levels but, as in the field, do not establish true \"state dependent\" inaction regions, suggesting significant \"time dependent\" components in adjustment rules. Structural estimates of subjective observation cost qualitatively account for variation in time dependence observed across treatments. (JEL C91, D21, D80)"
+                     },
+                     {
+                         "name":  "Influence of Aspen Serpentine Leafminer (Phyllocnistis populiella) on Burn Severity In Trembling Aspen (Populus tremuloides)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.5683/SP3/8OU83A",
+                         "url":  "https://doi.org/10.5683/SP3/8OU83A",
+                         "published_at":  "2025-11-22T07:05:47Z",
+                         "authors":  [
+                                         "Russell, Sadie"
+                                     ],
+                         "description":  "Trembling aspen (Populus tremuloides) is a fire-resilient tree species, making its role increasingly important as wildfire seasons intensify in British Columbia, Canada. However, forest pests like the aspen serpentine leafminer (Phyllocnistis populiella) raise concerns about their potential to alter fire behavior by affecting forest structure and fuel conditions. This study evaluates whether leafminer outbreaks influence burn severity in aspen-dominated stands of northeastern British Columbia. Using provincial and federal datasets from 2010 to 2020, fire-affected aspen stands were analyzed at a 200 m resolution, comparing areas with and without prior leafminer outbreaks. A random forest model assessed the effect of leafminer presence on burn severity, measured by the differenced Normalized Burn Ratio (dNBR), while controlling for 11 climate, topography, and vegetation variables. Among 10,326 aspen-dominated burn pixels, 21% showed leafminer presence. The model achieved an R² of 0.84, with surrounding mean dNBR exerting the greatest influence on model performance, while leafminer presence had the least effect. Burn severity was slightly lower in leafminer-affected areas, with a mean dNBR decrease of 0.03. Additionally, higher trembling aspen percentage and climate conditions favorable to aspen growth were strongly associated with reduced burn severity. These findings suggest that while the leafminer’s impact on burn severity is minimal, finer-scale analyses or investigations of outbreak severity may reveal more nuanced effects on aspen fire resilience."
+                     },
+                     {
+                         "name":  "Ectomycorrhizal and arbuscular colonization of aspen roots",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7939/DVN/LD0ME9",
+                         "url":  "https://doi.org/10.7939/DVN/LD0ME9",
+                         "published_at":  "2025-11-20T07:02:03Z",
+                         "authors":  [
+                                         "Karst, Justine"
+                                     ],
+                         "description":  "On August 24, 2019, Justine Karst and Nadir Erbilgin sampled a 30–50 cm segment of root from each of three aspen (Populus tremuloides) trees within each plot at the interface of the humus layer of the forest floor and mineral soil. We traced roots from boles and confirmed their identity to be aspen by taste-testing. Sampled roots were put on ice after collection and transported to the University of Alberta the same day and stored at -20 °C prior to processing. Aspen roots were thawed and washed free of adhering soil. Fine roots (\u003c 1 mm in diameter) were retained, cut into 1 cm fragments, mixed thoroughly in a dish of water, and subsampled for scoring roots for mycorrhizal colonization. Justine Karst scored roots for ectomycorrhizal colonization and James Franklin scored roots for arbuscular mycorrhizal colonization."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS case file",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20case%20file\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Replication files for: Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/F7KYTE",
+                         "url":  "https://doi.org/10.7910/DVN/F7KYTE",
+                         "published_at":  "2025-05-09T18:11:14Z",
+                         "authors":  [
+                                         "Domenech-Arumi, Gerard"
+                                     ],
+                         "description":  "Replication files for \"Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona\""
+                     },
+                     {
+                         "name":  "Spatial Interpolation for Ground Station-based Environment Data in Oklahoma",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/LJBB7S",
+                         "url":  "https://doi.org/10.7910/DVN/LJBB7S",
+                         "published_at":  "2025-01-31T23:51:05Z",
+                         "authors":  [
+                                         "HU, Tao"
+                                     ],
+                         "description":  "The first case study focuses on spatial interpolation for ground station-based environmental data. Spatial interpolation is a critical process in environmental science, where data from ground stations are used to estimate values in unmeasured locations. This case study showcases how our Common Workflow Language (CWL) based Workflow Management System (WfMS) can handle complex spatial data processes, ensuring accurate and efficient interpolation. In this case study, two spatial interpolation models were implemented. IDW (Inverse Distance Weighting) is a deterministic method for spatial interpolation, which estimates the values at unknown points using the values from known points weighted by the inverse of their distances. Kriging is a geostatistical interpolation technique that not only considers the distance between known and unknown points but also models the spatial autocorrelation among the measured points. It provides more accurate estimations by using a weighted average of known points, where the weights are determined based on the spatial structure of the data."
+                     },
+                     {
+                         "name":  "Geographical Accessibility to Primary Care Health Facilities in Oklahoma",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/AQCAVJ",
+                         "url":  "https://doi.org/10.7910/DVN/AQCAVJ",
+                         "published_at":  "2025-01-31T23:46:59Z",
+                         "authors":  [
+                                         "HU, Tao"
+                                     ],
+                         "description":  "Geographical accessibility measures the ease with which people can reach desired services, such as healthcare facilities. It is an important aspect of health geography and urban planning, as it influences both policy decisions and resource allocation. This case study demonstrates the application of the GIScience Worklfow Management System (WfMS) to analyze geographical accessibility to primary care health facilities in Oklahoma. By integrating three spatial analysis models (2SFCA, E2SFCA, and G2SFCA) into a single workflow, users can efficiently compare and interpret the accessibility measures. This case study involves 7 different nodes: CsvReader, GeoFileReader, 2SFCA, E2SFCA, G2SFCA, RenameFileName, and GeoFileViewer."
+                     },
+                     {
+                         "name":  "San275 lab book pages (now replaced with dummy file).pdf",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/HKK1KU",
+                         "url":  "https://doi.org/10.7910/DVN/HKK1KU",
+                         "published_at":  "2019-11-17T20:12:25Z",
+                         "authors":  [
+                                         "Durham, William"
+                                     ],
+                         "description":  "run log"
+                     },
+                     {
+                         "name":  "San250 lab book pages.pdf",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/W2FDI8",
+                         "url":  "https://doi.org/10.7910/DVN/W2FDI8",
+                         "published_at":  "2018-09-02T15:36:21Z",
+                         "authors":  [
+                                         "Durham, William"
+                                     ],
+                         "description":  "run log"
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/3LGNXQ",
+                         "url":  "https://doi.org/10.7910/DVN/3LGNXQ",
+                         "published_at":  "2025-10-13T19:24:27Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Splenocytes from 5 control and 5 social defeat mice were pooled respectively prior to performing single cell RNA sequencing by 10X Genomics."
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type and S100a9 knock-out mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WJVQSB",
+                         "url":  "https://doi.org/10.7910/DVN/WJVQSB",
+                         "published_at":  "2025-10-13T19:18:08Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Psychological trauma increases inflammation. In a mouse model of psychological trauma (repeated social defeat stress), we used single cell RNA sequencing to assess the gene expression in splenocytes ± psychological trauma as well as without S100a9 (gene of interest)"
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type and ITGAX-Cre Tyrosine Hydroxylase knock-out mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VUIU3O",
+                         "url":  "https://doi.org/10.7910/DVN/VUIU3O",
+                         "published_at":  "2025-10-13T17:51:14Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Psychological trauma increases inflammation. In a mouse model of psychological trauma (repeated social defeat stress), we used single cell RNA sequencing to assess the gene expression in splenocytes ± psychological trauma as well as without TH in ITGAX positive cells"
+                     },
+                     {
+                         "name":  "Supplementary Files",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/T9HCLU",
+                         "url":  "https://doi.org/10.7910/DVN/T9HCLU",
+                         "published_at":  "2025-08-27T01:11:32Z",
+                         "authors":  [
+                                         "Rodrigues, Gustavo D"
+                                     ],
+                         "description":  "Supplementary Files"
+                     },
+                     {
+                         "name":  "Replication Data for: Data Construction Files",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ZZGSIL",
+                         "url":  "https://doi.org/10.7910/DVN/ZZGSIL",
+                         "published_at":  "2015-07-10T20:01:37Z",
+                         "authors":  [
+                                         "Zigler, Cory"
+                                     ],
+                         "description":  "Replication Data for: Data Construction Files"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS simulation file",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20simulation%20file\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Simulated surface Chl, satellite-like derived Chl, and remotely sensed reflectance",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/NWR1QY",
+                         "url":  "https://doi.org/10.7910/DVN/NWR1QY",
+                         "published_at":  "2018-01-26T15:36:54Z",
+                         "authors":  [
+                                         "Dutkiewicz, Stephanie",
+                                         "Jahn, Oliver"
+                                     ],
+                         "description":  "Model output Daily from 1994-2006 (note each year has only 360 days) in netcdf files. - Simulated surface (0-50m) Chl-a (Called \"actual Chl-a\" in the BG paper). Units mgChl/m3 - Derived Chl-a from the simulated remotely sensed reflectance. (Called \"GS derived Chl-a:\" in the BG paper). Units mgChl/m3 - Simulated remotely sensed reflectance in the blue spectrum (450, 475,500nm) and green (550 nm). Units 1/sr"
+                     },
+                     {
+                         "name":  "Replication files for: Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/F7KYTE",
+                         "url":  "https://doi.org/10.7910/DVN/F7KYTE",
+                         "published_at":  "2025-05-09T18:11:14Z",
+                         "authors":  [
+                                         "Domenech-Arumi, Gerard"
+                                     ],
+                         "description":  "Replication files for \"Neighborhoods, Perceived Inequality, and Preferences for Redistribution: Evidence from Barcelona\""
+                     },
+                     {
+                         "name":  "Replication Data for: \"Did Earth eat its leftovers? Impact ejecta as a component of the late veneer\"",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4NOILF",
+                         "url":  "https://doi.org/10.7910/DVN/4NOILF",
+                         "published_at":  "2022-04-08T14:45:09Z",
+                         "authors":  [
+                                         "Carter, Philip"
+                                     ],
+                         "description":  "This dataset contains data from the article: Carter, P. J. and Stewart, S. T., 2021, \"Did Earth eat its leftovers? Impact ejecta as a component of the late veneer\", PSJ, in press. These data consist of N-body simulation input files, processed data, select simulation output and code to read input/output files. See the README file for further information"
+                     },
+                     {
+                         "name":  "Replication Data for: \"Colliding in the shadows of giants: Planetesimal collisions during the growth and migration of gas giants\"",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/5YQDU9",
+                         "url":  "https://doi.org/10.7910/DVN/5YQDU9",
+                         "published_at":  "2020-08-06T21:41:18Z",
+                         "authors":  [
+                                         "Carter, Philip J.",
+                                         "Stewart, Sarah T."
+                                     ],
+                         "description":  "This dataset contains data from the article: Carter, P. J. and Stewart, S. T., 2020, \"Colliding in the shadows of giants: Planetesimal collisions during the growth and migration of gas giants\", PSJ, 1, 45. These data consist of N-body simulation input files, processed data, select simulation output and code to read input/output files. See the README file for further information."
+                     },
+                     {
+                         "name":  "Replication Data for: \"The energy budgets of giant impacts\"",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/YYNJSX",
+                         "url":  "https://doi.org/10.7910/DVN/YYNJSX",
+                         "published_at":  "2020-01-07T20:38:43Z",
+                         "authors":  [
+                                         "Carter, Philip J.",
+                                         "Lock, Simon J.",
+                                         "Stewart, Sarah T."
+                                     ],
+                         "description":  "This dataset contains data from the article: Carter, P. J.; Lock, S. J. and Stewart, S. T., 2019, \"The energy budgets of giant impacts\", JGR: Planets, in press, https://doi.org/10.1029/2019JE006042. These data consist of giant impact simulation input files, processed data used to create the figures in the article, select simulation output and code to read input/output files, and EOS tables for use with the GADGET2 code. See the README file for further information."
+                     },
+                     {
+                         "name":  "A mathematical model relates intracellular TLR4 oscillations to sepsis progression ",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/NRLZRK",
+                         "url":  "https://doi.org/10.7910/DVN/NRLZRK",
+                         "published_at":  "2017-10-31T12:29:05Z",
+                         "authors":  [
+                                         "Camargo, Maristela"
+                                     ],
+                         "description":  "Mathematica simulation of the TLR4 intracellular trafficking"
+                     },
+                     {
+                         "name":  "San275 lab book pages (now replaced with dummy file).pdf",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/HKK1KU",
+                         "url":  "https://doi.org/10.7910/DVN/HKK1KU",
+                         "published_at":  "2019-11-17T20:12:25Z",
+                         "authors":  [
+                                         "Durham, William"
+                                     ],
+                         "description":  "run log"
+                     },
+                     {
+                         "name":  "San250 lab book pages.pdf",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/W2FDI8",
+                         "url":  "https://doi.org/10.7910/DVN/W2FDI8",
+                         "published_at":  "2018-09-02T15:36:21Z",
+                         "authors":  [
+                                         "Durham, William"
+                                     ],
+                         "description":  "run log"
+                     },
+                     {
+                         "name":  "Simulation pipeline for HapGen2",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/DZAYXC",
+                         "url":  "https://doi.org/10.7910/DVN/DZAYXC",
+                         "published_at":  "2023-03-07T16:06:18Z",
+                         "authors":  [
+                                         "Zhang, Haoyu"
+                                     ],
+                         "description":  "This data contains information required for simulation pipeline for HapGen2"
+                     },
+                     {
+                         "name":  "Simulation data based on Angus cattle genotypes",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S3TY9M",
+                         "url":  "https://doi.org/10.7910/DVN/S3TY9M",
+                         "published_at":  "2017-05-20T05:36:16Z",
+                         "authors":  [
+                                         "Zeng, Jian"
+                                     ],
+                         "description":  "Simulated genotypes and phenotypes for 5,000 cattle as the progeny of 948 Aberdeen Angus beef cattle that were genotyped with the Illumina 777K BovineHD BeadChip. Each zip file contains the data for one replicate of the simulation under two different scenarios (common or rare QTL), where for each scenario there are 6 data files: 3 PLINK binary format SNP files (.bed, .bim, .fam), a QTL info file (columns are QTL ID, QTL effect and QTL allele frequency), a phenotype file for the 4,000 training individuals, and a file for the true genetic values of the 1,000 testing individuals. Note that the .fam files are the same across simulation replicates. Since duplicated files are now allowed in this database, only one .fam file is present but it can be used to read in the genotype data with PLINK for other simulation replicates by simply changing the rep ID in the filename."
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS supplementary material hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20supplementary%20material%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Replication Data for: Identification of the effect of humidity on chronometer rate: A belated response to George Daniels",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/1WJYTQ",
+                         "url":  "https://doi.org/10.7910/DVN/1WJYTQ",
+                         "published_at":  "2024-12-30T13:43:56Z",
+                         "authors":  [
+                                         "Belin, Matej"
+                                     ],
+                         "description":  "source data"
+                     },
+                     {
+                         "name":  "Replication Data for: Study 2 (The Transmission Game: Testing behavioral interventions in a pandemic-like simulation)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ILDEM0",
+                         "url":  "https://doi.org/10.7910/DVN/ILDEM0",
+                         "published_at":  "2021-11-09T01:42:25Z",
+                         "authors":  [
+                                         "Woike, Jan Kristian",
+                                         "Hafenbrädl, Sebastian",
+                                         "Kanngiesser, Patricia",
+                                         "Hertwig, Ralph"
+                                     ],
+                         "description":  "Data for Study 2 (The Transmission Game: Testing behavioral interventions in a pandemic-like simulation)"
+                     },
+                     {
+                         "name":  "Replication Data for: Study 1 (The Transmission Game: Testing behavioral interventions in a pandemic-like simulation)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/RHR2A5",
+                         "url":  "https://doi.org/10.7910/DVN/RHR2A5",
+                         "published_at":  "2021-10-30T21:23:08Z",
+                         "authors":  [
+                                         "Woike, Jan Kristian",
+                                         "Hafenbrädl, Sebastian",
+                                         "Kanngiesser, Patricia",
+                                         "Hertwig, Ralph"
+                                     ],
+                         "description":  "Data for Study 1 (The Transmission Game: Testing behavioral interventions in a pandemic-like simulation)"
+                     },
+                     {
+                         "name":  "Replication data for:The augmenting effects of Desolvation and Conformational energy terms on the predictions of docking programs against mPGES-1",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/IYA8Y6",
+                         "url":  "https://doi.org/10.7910/DVN/IYA8Y6",
+                         "published_at":  "2015-07-30T06:46:01Z",
+                         "authors":  [
+                                         "Polamarasetty, Aparoy"
+                                     ],
+                         "description":  "These files contain all teh input and poutput files used in teh study titled:The augmenting effects of Desolvation and Conformational energy terms on the predictions of docking programs against mPGES-1. One can view or download these files from here for replicating the present work."
+                     },
+                     {
+                         "name":  "Supplementary Files",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/T9HCLU",
+                         "url":  "https://doi.org/10.7910/DVN/T9HCLU",
+                         "published_at":  "2025-08-27T01:11:32Z",
+                         "authors":  [
+                                         "Rodrigues, Gustavo D"
+                                     ],
+                         "description":  "Supplementary Files"
+                     },
+                     {
+                         "name":  "Supplementary Figures for Bridging Sightlines",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/8ZFKW1",
+                         "url":  "https://doi.org/10.7910/DVN/8ZFKW1",
+                         "published_at":  "2019-10-03T11:52:28Z",
+                         "authors":  [
+                                         "Zucker, Catherine"
+                                     ],
+                         "description":  "This set of figures contains the cornerplots of the model parameters and the line-of-sight extinction profiles for all the ``tenuous connection\" sightlines found in this table"
+                     },
+                     {
+                         "name":  "Bridging Sightlines",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/K16GQX",
+                         "url":  "https://doi.org/10.7910/DVN/K16GQX",
+                         "published_at":  "2021-02-01T21:07:32Z",
+                         "authors":  [
+                                         "Zucker, Catherine"
+                                     ],
+                         "description":  "This dataset contains model parameters for the ``tenuous connections\" bridging major star-forming regions along the Radcliffe Wave. For each model parameter, we report the 16th, 50th, and 84th percentile of the samples from our dynesty chain, which should be regarded as the statistical uncertainties. An additional systematic uncertainty of 5% is expected. The column headings are as follows: \u0027name\u0027 is the cloud coincident with the sightline. Since these regions are virtually unstudied, we assign them a name based on their Galactic coordinates \u0027l\u0027 is the Galactic longitude of the sightline (in degrees) \u0027b\u0027 is the Galactic latitude of the sightline (in degrees) \u0027n\u0027 is the normalization parameter \u0027f\u0027 is the foreground extinction parameter (in mag) \u0027m\u0027 is the cloud distance modulus parameter (in mag) \u0027d\u0027 is the cloud distance (derived from m) in pc \u0027p\u0027 is the outlier fraction parameter \u0027sfore\u0027 is the foreground smoothing parameter \u0027sback\u0027 is the background smoothing parameter See Section 3.2 for a complete description of the model parameters."
+                     },
+                     {
+                         "name":  "Best-Fit Model for the Radcliffe Wave",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/OE51SZ",
+                         "url":  "https://doi.org/10.7910/DVN/OE51SZ",
+                         "published_at":  "2021-10-22T21:05:02Z",
+                         "authors":  [
+                                         "Zucker, Catherine"
+                                     ],
+                         "description":  "A table containing the Heliocentric Galactic Cartesian coordinates (x, y, z) in parsecs for the best-fit model of the Radcliffe Wave shown in Figure 2 of Alves+2020."
+                     },
+                     {
+                         "name":  "Replication Data for: \"Democracy Beyond Secrecy\"",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VGXENY",
+                         "url":  "https://doi.org/10.7910/DVN/VGXENY",
+                         "published_at":  "2020-10-23T19:32:59Z",
+                         "authors":  [
+                                         "Gerber, Marlène",
+                                         "Mueller, Sean",
+                                         "Schaub, Hans-Peter"
+                                     ],
+                         "description":  "Replication material for a journal article (to be) published in the Swiss Political Science Review (accepted: October 2020)."
+                     },
+                     {
+                         "name":  "Collected Printed Material, 1956-2005",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/3LDEIR",
+                         "url":  "https://doi.org/10.7910/DVN/3LDEIR",
+                         "published_at":  "2017-08-22T17:35:05Z",
+                         "authors":  [
+                                         "McCormick, Marie C."
+                                     ],
+                         "description":  "This dataset represents a group of paper records (a \"series\") within the Marie C. McCormick papers, 1956-2016 (inclusive), 1968-2009 (bulk), which can be accessed on-site at the Center for the History of Medicine at the Francis A. Countway Library of Medicine in Boston, Massachusetts. The series consists of collected publications, bibliographies, reading notes, publication citations, and related correspondence collected by Marie C. McCormick as reference in her professional and research activities. Publications include scientific paper reprints, manuscripts, newspaper and journal clippings, brochures, and pamphlets. Subject areas include allergies, blood, cancer, nutrition, various body systems (including cardiovascular, endocrine, and gastrointestinal), infections, lungs, metabolic diseases, neonates, pediatrics, psychology, urinary tract infections, public health, health care services, health care financing, health care in various geographic regions, and numerous other topics. Some papers are in French and Spanish. Data and associated records are accessible onsite at the Center for the History of Medicine per the conditions governing access described below. Conditions Governing Access to Original Collection Materials: Researchers should consult Public Services for more information on accessing the collection. The Marie C. McCormick papers were processed with grant funding from the Andrew W. Mellon Foundation, as awarded and administered by the Council on Library and Information Resources (CLIR) in 2016. View the Marie C. McCormick Papers finding aid for a full collection inventory of both paper and digital records, and for more information about accessing and using the collection."
+                     }
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases xml",
+        "url":  "https://dataverse.harvard.edu/api/search?q=HYSYS%20XML%20Cases%20xml\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "Spatial Interpolation for Ground Station-based Environment Data in Oklahoma",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/LJBB7S",
+                         "url":  "https://doi.org/10.7910/DVN/LJBB7S",
+                         "published_at":  "2025-01-31T23:51:05Z",
+                         "authors":  [
+                                         "HU, Tao"
+                                     ],
+                         "description":  "The first case study focuses on spatial interpolation for ground station-based environmental data. Spatial interpolation is a critical process in environmental science, where data from ground stations are used to estimate values in unmeasured locations. This case study showcases how our Common Workflow Language (CWL) based Workflow Management System (WfMS) can handle complex spatial data processes, ensuring accurate and efficient interpolation. In this case study, two spatial interpolation models were implemented. IDW (Inverse Distance Weighting) is a deterministic method for spatial interpolation, which estimates the values at unknown points using the values from known points weighted by the inverse of their distances. Kriging is a geostatistical interpolation technique that not only considers the distance between known and unknown points but also models the spatial autocorrelation among the measured points. It provides more accurate estimations by using a weighted average of known points, where the weights are determined based on the spatial structure of the data."
+                     },
+                     {
+                         "name":  "Geographical Accessibility to Primary Care Health Facilities in Oklahoma",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/AQCAVJ",
+                         "url":  "https://doi.org/10.7910/DVN/AQCAVJ",
+                         "published_at":  "2025-01-31T23:46:59Z",
+                         "authors":  [
+                                         "HU, Tao"
+                                     ],
+                         "description":  "Geographical accessibility measures the ease with which people can reach desired services, such as healthcare facilities. It is an important aspect of health geography and urban planning, as it influences both policy decisions and resource allocation. This case study demonstrates the application of the GIScience Worklfow Management System (WfMS) to analyze geographical accessibility to primary care health facilities in Oklahoma. By integrating three spatial analysis models (2SFCA, E2SFCA, and G2SFCA) into a single workflow, users can efficiently compare and interpret the accessibility measures. This case study involves 7 different nodes: CsvReader, GeoFileReader, 2SFCA, E2SFCA, G2SFCA, RenameFileName, and GeoFileViewer."
+                     },
+                     {
+                         "name":  "Benoîte Groult XML",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/MT4U6T",
+                         "url":  "https://doi.org/10.7910/DVN/MT4U6T",
+                         "published_at":  "2021-03-29T14:45:43Z",
+                         "authors":  [
+                                         "Meynard, Cécile",
+                                         "Greslou, Elisabeth"
+                                     ],
+                         "description":  "Ce jeu de données est constitué des encodages en XML-TEI des manuscrits de Mon Evasion, de Benoîte Groult, féministe française."
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type and S100a9 knock-out mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WJVQSB",
+                         "url":  "https://doi.org/10.7910/DVN/WJVQSB",
+                         "published_at":  "2025-10-13T19:18:08Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Psychological trauma increases inflammation. In a mouse model of psychological trauma (repeated social defeat stress), we used single cell RNA sequencing to assess the gene expression in splenocytes ± psychological trauma as well as without S100a9 (gene of interest)"
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/3LGNXQ",
+                         "url":  "https://doi.org/10.7910/DVN/3LGNXQ",
+                         "published_at":  "2025-10-13T19:24:27Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Splenocytes from 5 control and 5 social defeat mice were pooled respectively prior to performing single cell RNA sequencing by 10X Genomics."
+                     },
+                     {
+                         "name":  "Gene expression profile at single cell level of splenocytes from wild-type and ITGAX-Cre Tyrosine Hydroxylase knock-out mice ± repeated social defeat stress",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VUIU3O",
+                         "url":  "https://doi.org/10.7910/DVN/VUIU3O",
+                         "published_at":  "2025-10-13T17:51:14Z",
+                         "authors":  [
+                                         "Case, Adam",
+                                         "Case, Adam"
+                                     ],
+                         "description":  "Psychological trauma increases inflammation. In a mouse model of psychological trauma (repeated social defeat stress), we used single cell RNA sequencing to assess the gene expression in splenocytes ± psychological trauma as well as without TH in ITGAX positive cells"
+                     },
+                     {
+                         "name":  "ClinicalTrials.Gov CSV (from XML)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/TJZUYL",
+                         "url":  "https://doi.org/10.7910/DVN/TJZUYL",
+                         "published_at":  "2017-12-26T20:09:17Z",
+                         "authors":  [
+                                         "Laohaprapanon, Suriyan",
+                                         "Sood, Gaurav"
+                                     ],
+                         "description":  "ClinicalTrials.gov distributes a massive clumsy folder with lots of XMLs. We have collated all the XMLs into a single CSV. The source XML and resulting CSV are posted."
+                     },
+                     {
+                         "name":  "Results of the multi-criteria analysis to prioritize health care facilities for electrification",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/T4XOZC",
+                         "url":  "https://doi.org/10.7910/DVN/T4XOZC",
+                         "published_at":  "2024-02-14T11:39:53Z",
+                         "authors":  [
+                                         "Andrade, Andrés"
+                                     ],
+                         "description":  "Results of the multi-criteria analysis to prioritize health care facilities for electrification. The multi-criteria analysis was carried out in the study once with objective weightings and once with subjective weightings."
+                     },
+                     {
+                         "name":  "MCA Questionnaire",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/YHM8SB",
+                         "url":  "https://doi.org/10.7910/DVN/YHM8SB",
+                         "published_at":  "2024-02-14T11:40:56Z",
+                         "authors":  [
+                                         "Andrade, Andrés"
+                                     ],
+                         "description":  "The dataset contains the expert questionnaire, based on which the weightings of the multi-criteria analysis were determined."
+                     },
+                     {
+                         "name":  "Replication data for: Design study MEVA (WRF Simulation data, 3 km domain)",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/29762",
+                         "url":  "https://doi.org/10.7910/DVN/29762",
+                         "published_at":  "2017-08-23T06:26:50Z",
+                         "authors":  [
+                                         "Bauer, Hans-Stefan"
+                                     ],
+                         "description":  "Data from WRF model simulation used for a design study (MEVA), 3 km domain"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS CO2 capture hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20CO2%20capture%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "dng captures closed",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/TLS35F",
+                         "url":  "https://doi.org/10.7910/DVN/TLS35F",
+                         "published_at":  "2021-08-23T14:28:50Z",
+                         "authors":  [
+                                         "Krebs, Ellen"
+                                     ],
+                         "description":  "raw dng photogrammetry captures of the atlas closed."
+                     },
+                     {
+                         "name":  "Dynamic spatial spillover effects of financial agglomeration on CO2 emissions: The case of China",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ACQ5SZ",
+                         "url":  "https://doi.org/10.7910/DVN/ACQ5SZ",
+                         "published_at":  "2025-01-25T05:24:16Z",
+                         "authors":  [
+                                         "Wan, Jun"
+                                     ],
+                         "description":  "Dynamic spatial spillover effects of financial agglomeration on CO2 emissions: The case of China"
+                     },
+                     {
+                         "name":  "Replication Data for: Sensor network design for post-combustion CO2 capture plants: computational efficiency and robustness",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/SXHO2Z",
+                         "url":  "https://doi.org/10.7910/DVN/SXHO2Z",
+                         "published_at":  "2023-03-22T16:46:14Z",
+                         "authors":  [
+                                         "Liu, Siyu",
+                                         "Yin, Xunyuan",
+                                         "Liu, Jinfeng"
+                                     ],
+                         "description":  "Replication Data for: Sensor network design for post-combustion CO2 capture plants: computational efficiency and robustness, Journal of Process Control, 129:103035, 2023"
+                     },
+                     {
+                         "name":  "CAIT-UTC-REG 21: Autonomous Vehicles: Capturing In-Vehicle Experience and Focus Group Follow-up with Persons with Autism and Other Disabilities",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/GPEBOL",
+                         "url":  "https://doi.org/10.7910/DVN/GPEBOL",
+                         "published_at":  "2021-11-05T15:46:51Z",
+                         "authors":  [
+                                         "Feeley, Cecilia",
+                                         "Lubin, Andrea",
+                                         "Hwang, Jinuk",
+                                         "Tobin, Brian"
+                                     ],
+                         "description":  "As autonomous vehicle (AV) innovation continues to gain worldwide momentum and with it the potential for expanded mobility, it is vital to consider how this technology can contribute to improved access for persons with disabilities, who represent one in four U.S. adults, or over 60 million persons. To date, there has been limited research focused on investigating strategies for designing and deploying self-driving vehicles so they can best accommodate the often diverse needs of persons living with one or more disabilities. This research discusses findings from a series of four autonomous shuttle rides followed by focus group sessions convened with adults with disabilities to document their direct experience as passengers during Princeton University’s 2019 SmartDrivingCar Summit. A core intent of this research was to gather feedback and recommendations on AV from persons with disabilities who had acquired a level of familiarity with the technology through a direct vehicle encounter, transcending their knowledge of AV solely as an abstract concept. Ultimately, the research team captured invaluable information on participant initial impressions of AV; their in-vehicle trip experience; interest in utilizing AV in the future; and AV-related concerns. Findings demonstrate that the majority of participants had both positive initial and post-trip impressions of AV and were extremely interested in utilizing AV to meet their current trip needs. Participants also offered insightful recommendations that can contribute to continued development of AV technology so that it can more fully accommodate the travel needs of persons with diverse disabilities."
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Replication Data for: Li B (2025). Capturing and converting CO2 using amino acids as various commercially valuable nano-carbonates",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/47C3LA",
+                         "url":  "https://doi.org/10.7910/DVN/47C3LA",
+                         "published_at":  "2025-11-19T16:02:28Z",
+                         "authors":  [
+                                         "Li, Bingyun"
+                                     ],
+                         "description":  "Excel data for paper entitled \"Capturing and converting CO2 using amino acids as various commercially valuable nano-carbonates\""
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS LNG hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20LNG%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "LEAP Nigeria In-depth Interview \u0026 Focus Group Materials",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/FBSSOW",
+                         "url":  "https://doi.org/10.7910/DVN/FBSSOW",
+                         "published_at":  "2021-04-09T22:38:13Z",
+                         "authors":  [
+                                         "Stankevitz, Kayla"
+                                     ],
+                         "description":  "Consent forms and guides for Nigeria in-depth interviews and focus groups"
+                     },
+                     {
+                         "name":  "LEAP Zambia In-depth Interview \u0026 Focus Group Materials",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/TIQHLU",
+                         "url":  "https://doi.org/10.7910/DVN/TIQHLU",
+                         "published_at":  "2021-04-09T22:45:38Z",
+                         "authors":  [
+                                         "Stankevitz, Kayla"
+                                     ],
+                         "description":  "Zambia In-depth Interview \u0026 Focus Group Consent Forms \u0026 Guides"
+                     },
+                     {
+                         "name":  "LEAP Zambia Surveys, Datasets \u0026 Codebooks",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/GVD13Z",
+                         "url":  "https://doi.org/10.7910/DVN/GVD13Z",
+                         "published_at":  "2021-07-08T16:00:59Z",
+                         "authors":  [
+                                         "Stankevitz, Kayla"
+                                     ],
+                         "description":  "LEAP Zambia baseline, midline, and endline datasets and codebooks"
+                     },
+                     {
+                         "name":  "LEAP Nigeria Surveys, Datasets \u0026 Codebooks",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/2J7Z5Z",
+                         "url":  "https://doi.org/10.7910/DVN/2J7Z5Z",
+                         "published_at":  "2021-07-08T15:26:55Z",
+                         "authors":  [
+                                         "Stankevitz, Kayla"
+                                     ],
+                         "description":  "Baseline, midline, and endline datasets for LEAP project in Nigeria"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Replication Data for: Computational model for HSC culture and feedback",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4DNDZU",
+                         "url":  "https://doi.org/10.7910/DVN/4DNDZU",
+                         "published_at":  "2019-02-09T01:11:34Z",
+                         "authors":  [
+                                         "Mahadik, Bhushan"
+                                     ],
+                         "description":  "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\""
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hydrogen hsc",
+        "url":  "https://dataverse.harvard.edu/api/search?q=Aspen%20HYSYS%20hydrogen%20hsc\u0026type=dataset\u0026per_page=10",
+        "error":  null,
+        "hits":  [
+                     {
+                         "name":  "HEROES forced_src-HSC-G Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/THXTEP",
+                         "url":  "https://doi.org/10.7910/DVN/THXTEP",
+                         "published_at":  "2023-02-17T19:30:30Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-G filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Z Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/WVJWB9",
+                         "url":  "https://doi.org/10.7910/DVN/WVJWB9",
+                         "published_at":  "2023-02-17T19:30:16Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Z filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-R2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/358ILW",
+                         "url":  "https://doi.org/10.7910/DVN/358ILW",
+                         "published_at":  "2023-02-17T19:30:24Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-R2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-I2 Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/S9YC2Z",
+                         "url":  "https://doi.org/10.7910/DVN/S9YC2Z",
+                         "published_at":  "2023-02-17T19:30:20Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-I2 filter"
+                     },
+                     {
+                         "name":  "HEROES forced_src-HSC-Y Catalogs",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/BJVBKK",
+                         "url":  "https://doi.org/10.7910/DVN/BJVBKK",
+                         "published_at":  "2023-02-17T19:30:13Z",
+                         "authors":  [
+                                         "Taylor, Anthony"
+                                     ],
+                         "description":  "HSCPIPE 8.4 output forced_src catalogs for HSC-Y filter"
+                     },
+                     {
+                         "name":  "Replication Data for: Computational model for HSC culture and feedback",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/4DNDZU",
+                         "url":  "https://doi.org/10.7910/DVN/4DNDZU",
+                         "published_at":  "2019-02-09T01:11:34Z",
+                         "authors":  [
+                                         "Mahadik, Bhushan"
+                                     ],
+                         "description":  "Berkeley Madonna file for recreating teh 3-state and 5-state model of HSC culture in vitro. Full paper available on PlosOne with title \"A computational model of feedback-mediated hematopoietic stem cell differentiation in vitro\""
+                     },
+                     {
+                         "name":  "Proton and hydrogen transport through hydrogen environments: Ionization and Stripping",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/GN5SKT",
+                         "url":  "https://doi.org/10.7910/DVN/GN5SKT",
+                         "published_at":  "2022-04-06T12:38:49Z",
+                         "authors":  [
+                                         "Cariatore, N. D.",
+                                         "Schultz, D. R."
+                                     ],
+                         "description":  "Data is presented over a wide range of impact energies describing the ionization or stripping probability, projectile energy loss, and ejected electron and recoiling target energies and angles for proton- and hydrogen-passage through hydrogen astrophysical environments. These kinematic and reaction data are tabulated at three levels of detail for use in heavy-particle (H + , H) and secondary-electron transport simulations: (1) the integral scattering cross section and average values of the distributions of energy and angle of the particles, (2) the singly differential cross sections as a function of particle energy and angle, and (3) a subset of the many possible doubly differential cross sections as functions of the particle energy and angle chosen to be most relevant to transport simulations. We present the integral scattering cross section, average values and the singly differential cross sections (SDCS) in the manuscript. We have tabulated for dissemination via of the present website a subset of the many possible doubly differential cross sections (DDCS) as simultaneous functions of the particles’ energies and angles, chosen as being the most likely of them to be of use in simulations going to this level of description of the particles’ kinematics."
+                     },
+                     {
+                         "name":  "Hydrogen-Air combustion dataset",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/ERSQ2W",
+                         "url":  "https://doi.org/10.7910/DVN/ERSQ2W",
+                         "published_at":  "2024-10-10T11:58:19Z",
+                         "authors":  [
+                                         "Kosyanchuk, Vasiliy"
+                                     ],
+                         "description":  "Presented file contains 3000 time series of hydrogen-air (N2-O2-Ar) combustion, generated using Cantera library [https://cantera.org] based on Westbrook combustion mechanism with time step dt=0.1 microsecond"
+                     },
+                     {
+                         "name":  "Replication Data for Time to Politicization: The Emergence and Effects of Politics on Science YouTube Videos",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/VMAWN8",
+                         "url":  "https://doi.org/10.7910/DVN/VMAWN8",
+                         "published_at":  "2024-02-11T16:24:42Z",
+                         "authors":  [
+                                         "Omapang, Aspen K.B.",
+                                         "Green, Breanna E.",
+                                         "Yu, Chao",
+                                         "Muenster, Roxana M.",
+                                         "Margolin, Drew B."
+                                     ],
+                         "description":  "Increasingly, political tensions are seeping into everyday topics. This is particularly evident in science and education, where examples include fervent anti-science movements in the wake of Covid-19 and the banning of books that discuss the topic of race. Your choice of hobby and even the brand of coffee you drink have now become proxies for political affiliation. The imposition of politics fundamentally changes the flow of and dynamics within conversation, and typically not for the better. In this mixed-methods study, we address the act of politicizing science on YouTube. Using data from informational and educational science YouTube videos, we identify the moment of politicization and how it fundamentally changes dialogue within conversation threads. Our results show that politicization becomes more likely as the thread goes on and once a thread has been politicized, it remains that way. Importantly, when the topical shift has occurred, the toxicity of the comments increases. The instances of politicization tend to act as “tipping points” where conversation about science and politics become personal accusations and attacks, which are ideal sites of intervention. Qualitative insights reveal common “pathways” to politicization, which can be used to design mitigation strategies."
+                     },
+                     {
+                         "name":  "Data from the Hot Serial Cereal Experiment for modeling wheat response to temperature: field experiments and AgMIP-Wheat multi-model simulations",
+                         "type":  "dataset",
+                         "global_id":  "doi:10.7910/DVN/M9ZT0F",
+                         "url":  "https://doi.org/10.7910/DVN/M9ZT0F",
+                         "published_at":  "2018-02-26T10:43:18Z",
+                         "authors":  [
+                                         "Martre, Pierre",
+                                         "Kimball, Bruce A.",
+                                         "Ottman, Michael J.",
+                                         "Wall, Gerard W.",
+                                         "White, Jeffrey W.",
+                                         "Asseng, Senthold",
+                                         "Ewert, Frank",
+                                         "Cammarano, Davide",
+                                         "Maiorano, Andrea",
+                                         "Aggarwal, Pramod K.",
+                                         "Anothai, Jakarat",
+                                         "Basso, Bruno",
+                                         "Biernath, Christian",
+                                         "Challinor, Andrew J.",
+                                         "De Sanctis, Giacomo",
+                                         "Doltra, Jordi",
+                                         "Dumont, Benjamin",
+                                         "Fereres, Elias",
+                                         "Garcia-Vila, Margarita",
+                                         "Gayler, Sebastian",
+                                         "Hoogenboom, Gerrit",
+                                         "Hunt, Leslie A.",
+                                         "Izaurralde, Roberto C.",
+                                         "Jabloun, Mohamed",
+                                         "Jones, Curtis D.",
+                                         "Kassie, Belay T.",
+                                         "Kersebaum, Kurt C.",
+                                         "Koehler, Ann-Kristin",
+                                         "Müller, Christoph",
+                                         "Kumar, Soora Naresh",
+                                         "Liu, Bing",
+                                         "Lobell, David B.",
+                                         "Nendel, Claas",
+                                         "O\u0027Leary, Garry",
+                                         "Olesen, Jørgen E.",
+                                         "Palosuo, Taru",
+                                         "Priesack, Eckart",
+                                         "Rezaei, Ehsan Eyshi",
+                                         "Ripoche, Dominique",
+                                         "Rötter, Reimund P.",
+                                         "Semenov, Mikhail A.",
+                                         "Stöckle, Claudio",
+                                         "Stratonovitch, Pierre",
+                                         "Streck, Thilo",
+                                         "Supit, Iwan",
+                                         "Tao, Fulu",
+                                         "Thorburn, Peter",
+                                         "Waha, Katharina",
+                                         "Wang, Enli",
+                                         "Wolf, Joost",
+                                         "Zhao, Zhigan",
+                                         "Zhu, Yan"
+                                     ],
+                         "description":  "The dataset reported here includes the part of a Hot Serial Cereal Experiment (HSC) experiment recently used in the AgMIP-Wheat project to analyze the uncertainty of 30 wheat models and quantify their response to temperature. The HSC experiment was conducted in an open-field in a semiarid environment in the southwest USA. The data reported herewith include one hard red spring wheat cultivar (Yecora Rojo) sown approximately every six weeks from December to August for a two-year period for a total of 11 planting dates out of the 15 of the entire HSC experiment. The treatments were chosen to avoid any effect of frost on grain yields. On late fall, winter and early spring plantings temperature free-air controlled enhancement (T-FACE) apparatus utilizing infrared heaters with supplemental irrigation were used to increase air temperature by 1.3°C/2.7°C (day/night) with conditions equivalent to raising air temperature at constant relative humidity (i.e. as expected with global warming) during the whole crop growth cycle. Experimental data include local daily weather data, soil characteristics and initial conditions, detailed crop measurements taken at three growth stages during the growth cycle, and cultivar information. Simulations include both daily in-season and end-of-season results from 30 wheat models."
+                     }
+                 ]
+    }
+]

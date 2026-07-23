@@ -1,0 +1,192 @@
+﻿[
+    {
+        "fullName":  "leoyong1983-spec/AI-HYSYS-Skill",
+        "url":  "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+        "description":  "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+        "license":  "mit",
+        "updatedAt":  "2026-05-16T20:08:56Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-case-license.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "edgarsmdn/Aspen_HYSYS_Python",
+        "url":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+        "description":  "Aspen HYSYS - Python connection",
+        "license":  "mit",
+        "updatedAt":  "2026-05-14T13:37:40Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+        "url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+        "description":  "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+        "license":  "mit",
+        "updatedAt":  "2026-05-14T12:13:01Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "punkeel/HySystemdNotifier",
+        "url":  "https://github.com/punkeel/HySystemdNotifier",
+        "description":  "",
+        "license":  "gpl-3.0",
+        "updatedAt":  "2026-05-14T00:28:28Z",
+        "queries":  [
+                        "github-search-hysys-license-gpl.json"
+                    ]
+    },
+    {
+        "fullName":  "jjgomera/pychemqt",
+        "url":  "https://github.com/jjgomera/pychemqt",
+        "description":  "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+        "license":  "gpl-3.0",
+        "updatedAt":  "2026-05-10T21:37:14Z",
+        "queries":  [
+                        "github-search-hysys-license-gpl.json"
+                    ]
+    },
+    {
+        "fullName":  "shahria-sunny/Natural-Gas-Sweetening",
+        "url":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "description":  "Steady-state simulation of a natural gas sweetening unit using DEA solvent in Aspen HYSYS V14. Models full absorption-regeneration loop. \u003e99.9% H₂S removal. Complete stream tables, column profiles, and energy analysis included.",
+        "license":  "mit",
+        "updatedAt":  "2026-05-03T16:19:16Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "shahria-sunny/CDU-Simulation-Optimization",
+        "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "description":  "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+        "license":  "mit",
+        "updatedAt":  "2026-04-29T18:07:37Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "aqiqiqiu/ai-hysys-autobuilder",
+        "url":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+        "description":  "",
+        "license":  "mit",
+        "updatedAt":  "2026-04-27T12:08:29Z",
+        "queries":  [
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "url":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "description":  "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+        "license":  "mit",
+        "updatedAt":  "2026-04-27T02:50:41Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+        "license":  "mit",
+        "updatedAt":  "2026-04-25T19:57:04Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-case-license.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "url":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "description":  "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+        "license":  "mit",
+        "updatedAt":  "2025-12-21T15:33:53Z",
+        "queries":  [
+                        "github-search-aspen-hysys-license-mit.json",
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "oscarcontrerasnavas/hysys-to-excel-intro",
+        "url":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+        "description":  "Excel file with VBA simple script to get info from hysys cases",
+        "license":  "gpl-3.0",
+        "updatedAt":  "2025-11-02T12:03:15Z",
+        "queries":  [
+                        "github-search-hysys-license-gpl.json"
+                    ]
+    },
+    {
+        "fullName":  "andr1976/dwsim-paper",
+        "url":  "https://github.com/andr1976/dwsim-paper",
+        "description":  "Supplementary material and information ",
+        "license":  "mit",
+        "updatedAt":  "2025-10-22T16:40:55Z",
+        "queries":  [
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "may3rd/COSMO",
+        "url":  "https://github.com/may3rd/COSMO",
+        "description":  "Automated HYSYS for optimization",
+        "license":  "gpl-3.0",
+        "updatedAt":  "2025-06-05T16:48:57Z",
+        "queries":  [
+                        "github-search-hysys-license-gpl.json"
+                    ]
+    },
+    {
+        "fullName":  "naawu789/HySysID",
+        "url":  "https://github.com/naawu789/HySysID",
+        "description":  "",
+        "license":  "mit",
+        "updatedAt":  "2025-04-16T20:51:26Z",
+        "queries":  [
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "vminasid/Hysys-Unisis2Matlab",
+        "url":  "https://github.com/vminasid/Hysys-Unisis2Matlab",
+        "description":  "This program generates Non-Linear Programming MATLAB code from an existing Unisim/Hysis model. ",
+        "license":  "gpl-3.0",
+        "updatedAt":  "2024-12-25T01:13:46Z",
+        "queries":  [
+                        "github-search-hysys-license-gpl.json"
+                    ]
+    },
+    {
+        "fullName":  "tinchofiuba/pythonHysys",
+        "url":  "https://github.com/tinchofiuba/pythonHysys",
+        "description":  "Vinculo usando python para acceder a corrientes y propiedades de hysys",
+        "license":  "mit",
+        "updatedAt":  "2024-10-31T14:47:19Z",
+        "queries":  [
+                        "github-search-hysys-license-mit.json"
+                    ]
+    },
+    {
+        "fullName":  "YuniqueCore/DynPlots",
+        "url":  "https://github.com/YuniqueCore/DynPlots",
+        "description":  "HYSYS dynamic data DUMP file difference drawing software",
+        "license":  "mit",
+        "updatedAt":  "2023-12-22T16:54:22Z",
+        "queries":  [
+                        "github-search-hysys-license-mit.json"
+                    ]
+    }
+]

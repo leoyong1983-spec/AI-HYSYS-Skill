@@ -1,0 +1,24 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Shreya88876/Aspen_file_shreya",
+                 "url":  "https://github.com/Shreya88876/Aspen_file_shreya",
+                 "description":  "DRY (CO2) REFORMING OF METHANE USING RGIBBS REACTOR (ASPEN HYSYS)",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2024-08-30T02:45:13Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  1,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+
+                               ]
+             },
+    "error":  null
+}

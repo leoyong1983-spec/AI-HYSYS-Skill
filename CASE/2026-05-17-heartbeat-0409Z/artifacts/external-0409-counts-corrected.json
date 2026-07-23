@@ -1,0 +1,150 @@
+﻿[
+    {
+        "file":  "datacite-0409-hysys-v14-results.json",
+        "item_count":  4
+    },
+    {
+        "file":  "dedupe-summary.json",
+        "item_count":  1
+    },
+    {
+        "file":  "external-0409-search-summary.json",
+        "item_count":  7
+    },
+    {
+        "file":  "figshare-0409-article-29021564.json",
+        "item_count":  1
+    },
+    {
+        "file":  "figshare-0409-article-32085284.json",
+        "item_count":  1
+    },
+    {
+        "file":  "figshare-0409-article-detail-summary.json",
+        "item_count":  2
+    },
+    {
+        "file":  "figshare-0409-hysys-project-results.json",
+        "item_count":  1
+    },
+    {
+        "file":  "figshare-0409-hysys-v14-results.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-inspection-summary.json",
+        "item_count":  3
+    },
+    {
+        "file":  "github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json.err.txt",
+        "item_count":  null
+    },
+    {
+        "file":  "github-0409-license-shahria-sunny__CDU-Simulation-Optimization.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-license-shahria-sunny__Natural-Gas-Sweetening.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-releases-Paryazdan__Aspen-HYSYS-Projects.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-0409-releases-shahria-sunny__CDU-Simulation-Optimization.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-0409-releases-shahria-sunny__Natural-Gas-Sweetening.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-0409-repo-Paryazdan__Aspen-HYSYS-Projects.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-repo-shahria-sunny__CDU-Simulation-Optimization.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-repo-shahria-sunny__Natural-Gas-Sweetening.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-tree-Paryazdan__Aspen-HYSYS-Projects.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-tree-shahria-sunny__CDU-Simulation-Optimization.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-0409-tree-shahria-sunny__Natural-Gas-Sweetening.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-repo-0409-search-normalized.json",
+        "item_count":  3
+    },
+    {
+        "file":  "github-repo-0409-search-summary-corrected.json",
+        "item_count":  8
+    },
+    {
+        "file":  "github-repo-0409-search-summary.json",
+        "item_count":  8
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-project.json",
+        "item_count":  1
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-supplementary.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-repo-search-aspen-hysys-v14.json",
+        "item_count":  2
+    },
+    {
+        "file":  "github-repo-search-hysys-flowsheet.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-repo-search-hysys-hscz.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-repo-search-hysys-matlab-validation.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-repo-search-hysys-simulation-file.json",
+        "item_count":  0
+    },
+    {
+        "file":  "github-repo-search-hysys-xml-cases.json",
+        "item_count":  0
+    },
+    {
+        "file":  "gitlab-0409-hysys-project-results.json",
+        "item_count":  0
+    },
+    {
+        "file":  "harvard-dataverse-0409-hysys-project-results.json",
+        "item_count":  1
+    },
+    {
+        "file":  "zenodo-0409-hysys-project-results.json",
+        "item_count":  20
+    },
+    {
+        "file":  "zenodo-0409-hysys-v14-results.json",
+        "item_count":  20
+    }
+]

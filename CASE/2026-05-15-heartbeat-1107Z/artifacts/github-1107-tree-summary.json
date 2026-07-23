@@ -1,0 +1,1099 @@
+[
+  {
+    "repo": "leoyong1983-spec/AI-HYSYS-Skill",
+    "url": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+    "description": "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "Aspen HYSYS in:readme",
+      "HYSYS \"case file\" in:readme",
+      "HYSYS license:mit",
+      "HYSYS LNG in:readme",
+      "HYSYS hydrogen in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".hsc": 18,
+      ".xml": 2,
+      ".xlsx": 9,
+      ".csv": 33,
+      ".pdf": 24,
+      ".md": 74,
+      ".txt": 38,
+      ".docx": 3,
+      ".py": 73,
+      ".m": 1,
+      ".zip": 10,
+      ".ipynb": 2
+    },
+    "hysys_files": [
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.hsc",
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.hsc",
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_NG.hsc",
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_methanol.hsc",
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/MeOH_Production.hsc",
+      "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/7. Sistema Integrado OCC,ASU,CCS.hsc",
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/project.hsc",
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening.hsc",
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc",
+      "CASE/2026-05-11-heartbeat-0854Z/artifacts/All_control_off_DMC.hsc",
+      "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main/Aspen_HYSYS_Python-main/Test_1.hsc",
+      "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/tests/Atmospheric Crude Tower.hsc",
+      "CASE/2026-05-11-heartbeat-1521Z/artifacts/1000 KG DRYER.HSC",
+      "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/Test_1.hsc",
+      "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/case.hsc",
+      "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/final.hsc",
+      "CASE/2026-05-14-heartbeat-1007Z/artifacts/Zenodo_2024_Tennessee_Eastman_Iraola/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+      "CASE/community/Test_1.hsc",
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.xml",
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.xml"
+    ],
+    "hysys_file_sizes": {
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.hsc": 813271,
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.hsc": 817635,
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_NG.hsc": 1627312,
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Capture_onboard_methanol.hsc": 1682163,
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/MeOH_Production.hsc": 1790289,
+      "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/7. Sistema Integrado OCC,ASU,CCS.hsc": 13444211,
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/project.hsc": 765164,
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening.hsc": 1257174,
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc": 262372,
+      "CASE/2026-05-11-heartbeat-0854Z/artifacts/All_control_off_DMC.hsc": 4390662,
+      "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main/Aspen_HYSYS_Python-main/Test_1.hsc": 458576,
+      "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/tests/Atmospheric Crude Tower.hsc": 990667,
+      "CASE/2026-05-11-heartbeat-1521Z/artifacts/1000 KG DRYER.HSC": 296054,
+      "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/Test_1.hsc": 469871,
+      "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/case.hsc": 198617,
+      "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main/final.hsc": 1414968,
+      "CASE/2026-05-14-heartbeat-1007Z/artifacts/Zenodo_2024_Tennessee_Eastman_Iraola/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC": 8728140,
+      "CASE/community/Test_1.hsc": 458576,
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.xml": 5026200,
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.xml": 5010843
+    },
+    "readme": [
+      "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/README.md",
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/README.md",
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/README.md",
+      "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/README.md",
+      "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main/Aspen_HYSYS_Python-main/README.md",
+      "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/README.md",
+      "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-GaboTalero-HYSYS-Python-Case-Builder/README.md",
+      "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-Galigeigei-Z-HDA-Surrogate-Optimization/README.md",
+      "CASE/2026-05-11-heartbeat-1648Z/artifacts/github-iraola-tennessee-eastman-hysys/README.md",
+      "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/README.md"
+    ],
+    "companion": {
+      ".xml": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Black oil EOS density.xml",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/simulations/Optim.xml"
+      ],
+      ".xlsx": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Circular-marine-fuels-2030.xlsx",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Circular-marine-fuels-2050.xlsx",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Data.xlsx",
+        "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/1. Análisis Multicriterio.xlsx",
+        "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/2. Calculo de la Potencia nominal.xlsx",
+        "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-18806107/3. Calculo del poder calorifico de los bloques.xlsx",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/MS EXCEL/Pressure Drop Estimation in Pipelines.xlsx",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/cases.xlsx",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/test_case.xlsx"
+      ],
+      ".csv": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/DWSIM_result.csv",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/DWSIM_results_cleaned.csv",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/HYSYS_result.csv",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/raw_testplan.csv",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/data/scaled_testplan.csv",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/example_streams.csv",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/example_utilities.csv",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/forbidden_matches.csv",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/matches_U_cost.csv",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/parameters.csv"
+      ],
+      ".pdf": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_ANRA.pdf",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/presentation/Simulate365 User meeting Anders Andreasen.pdf",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/CDU_Report.pdf",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/Gas Sweetening Report.pdf",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/ASPEN HYSYS/aspen report.pdf",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/DWSIM/dwsim report.pdf",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/Pressure Drop Estimation in Pipelines-ppt.pdf",
+        "CASE/official/aspen-elearning-catalog-2025-04.pdf",
+        "CASE/official/aspen-hpcl-industrial-ai-quality-soft-sensors-2026.pdf",
+        "CASE/official/aspen-hybrid-model-condensate-digital-twin-article-2025.pdf"
+      ],
+      ".md": [
+        ".github/pull_request_template.md",
+        "AGENTS.md",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/README.md",
+        "CASE/2026-05-11-heartbeat-0026Z/index.md",
+        "CASE/2026-05-11-heartbeat-0222Z/index.md",
+        "CASE/2026-05-11-heartbeat-0529Z/index.md",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main/CDU-Simulation-Optimization-main/README.md",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main/Natural-Gas-Sweetening-main/README.md",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/README.md",
+        "CASE/2026-05-11-heartbeat-0741Z/index.md"
+      ],
+      ".txt": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/requirements.txt",
+        "CASE/2026-05-11-heartbeat-0222Z/artifacts/zenodo-19469917/Upload-data-rar-listing.txt",
+        "CASE/2026-05-11-heartbeat-0854Z/artifacts/DMC_evaluation2-zip-listing.txt",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main-zip-listing.txt",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master-zip-listing.txt",
+        "CASE/2026-05-11-heartbeat-1254Z/artifacts/chickenhgbla__gaussian-process-rto-master-zip-listing.txt",
+        "CASE/2026-05-11-heartbeat-1254Z/artifacts/sanjay-saran__dme-production-methanol-main-zip-listing.txt",
+        "CASE/2026-05-11-heartbeat-1411Z/artifacts/Research-data-zip-listing.txt",
+        "CASE/2026-05-11-heartbeat-1909Z/existing_source_pages.txt",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main/requirements.txt"
+      ],
+      ".docx": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Paper_draft_v10.docx",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_ANRA.docx",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/paper/Revised_Paper_Track_Changes_ANRA.docx"
+      ],
+      ".py": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/DWSIM_automation.py",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/HYSYS_automation.py",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main/scripts/plot_data.py",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/PYTHON/Pressure Drop Estimation in Pipelines.py",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main/Aspen_HYSYS_Python-main/HYSYS_python_spreadsheets.py",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main/Aspen_HYSYS_Python-main/Test_1.py",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/__init__.py",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/aspenhysys/__init__.py",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/aspenhysys/application.py",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master/ap-python-master/ap-python/ap_python/aspenplus/__init__.py"
+      ],
+      ".m": [
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main/Pressure-Drop-Estimation-in-Pipelines-main/MATLAB/Pressure_Drop_Estimation_in_Pipelines.m"
+      ],
+      ".zip": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/github-andr1976-dwsim-paper/dwsim-paper-main.zip",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/CDU-Simulation-Optimization-main.zip",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Natural-Gas-Sweetening-main.zip",
+        "CASE/2026-05-11-heartbeat-0741Z/artifacts/Pressure-Drop-Estimation-in-Pipelines-main.zip",
+        "CASE/2026-05-11-heartbeat-0854Z/artifacts/DMC_evaluation2.zip",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/Aspen_HYSYS_Python-main.zip",
+        "CASE/2026-05-11-heartbeat-1057Z/artifacts/ap-python-master.zip",
+        "CASE/2026-05-11-heartbeat-1411Z/artifacts/Research data.zip",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main.zip",
+        "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main.zip"
+      ],
+      ".ipynb": [
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/Plotting.ipynb",
+        "CASE/2026-05-11-heartbeat-0026Z/artifacts/zenodo-14882867/env_calc.ipynb"
+      ]
+    }
+  },
+  {
+    "repo": "cdimurro/the-exergy-imperative",
+    "url": "https://github.com/cdimurro/the-exergy-imperative",
+    "description": "A complete guide to exergy analysis and its role in the energy transition. Open-sourced by Exergy Lab.",
+    "license": "NOASSERTION",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme",
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "Asgari-research/h2-gasification-mof-zeolite-screening",
+    "url": "https://github.com/Asgari-research/h2-gasification-mof-zeolite-screening",
+    "description": "Data and reproducible analysis scripts for process-informed MOF and zeolite selection in gasification-derived hydrogen purification.",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS CO2 in:readme",
+      "HYSYS hydrogen in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 3,
+      ".txt": 1,
+      ".py": 1,
+      ".zip": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "LICENSE-DATA.md",
+        "MANIFEST.md",
+        "README.md"
+      ],
+      ".txt": [
+        "requirements.txt"
+      ],
+      ".py": [
+        "src/reproduce_analysis.py"
+      ],
+      ".zip": [
+        "data.zip"
+      ]
+    }
+  },
+  {
+    "repo": "rahulgarg223/Simulation-of-Production-of-Green-Hydrogen",
+    "url": "https://github.com/rahulgarg223/Simulation-of-Production-of-Green-Hydrogen",
+    "description": "Project which involves around simulating the process of production of green hydrogen.",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Overview_Report.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "jonathanedwards23/CO2-electrolyzer-model",
+    "url": "https://github.com/jonathanedwards23/CO2-electrolyzer-model",
+    "description": "",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "Aspen HYSYS in:readme",
+      "HYSYS CO2 in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "iurisegtovich/AwesomeThermodynamics",
+    "url": "https://github.com/iurisegtovich/AwesomeThermodynamics",
+    "description": "A curated list of awesome resources on Thermodynamics",
+    "license": "",
+    "default_branch": "master",
+    "queries": [
+      "Aspen HYSYS in:readme",
+      "HYSYS CO2 in:readme",
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".txt": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".txt": [
+        "FIGs/imgsrc.txt"
+      ]
+    }
+  },
+  {
+    "repo": "edgarsmdn/Aspen_Plus_Python",
+    "url": "https://github.com/edgarsmdn/Aspen_Plus_Python",
+    "description": "An example connection between Aspen Plus and Python",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "Aspen HYSYS in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "AspenPlus_Python.py"
+      ]
+    }
+  },
+  {
+    "repo": "RHorsley80/tank_heat_balance",
+    "url": "https://github.com/RHorsley80/tank_heat_balance",
+    "description": "A rigorous heat balance for cylindrical storage tanks, insulated and uninsulated, based on Kumana and Kothari's 1982 paper.",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".xml": 6,
+      ".md": 2,
+      ".txt": 1,
+      ".py": 4
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".xml": [
+        ".idea/inspectionProfiles/Project_Default.xml",
+        ".idea/inspectionProfiles/profiles_settings.xml",
+        ".idea/misc.xml",
+        ".idea/modules.xml",
+        ".idea/vcs.xml",
+        ".idea/workspace.xml"
+      ],
+      ".md": [
+        "README.md",
+        "ROADMAP.md"
+      ],
+      ".txt": [
+        "requirements.txt"
+      ],
+      ".py": [
+        "app.py",
+        "insulation_properties.py",
+        "tank_heat_balance.py",
+        "test_kk_example.py"
+      ]
+    }
+  },
+  {
+    "repo": "AdityaSharma911/ML-for-DME-Optimization-",
+    "url": "https://github.com/AdityaSharma911/ML-for-DME-Optimization-",
+    "description": "",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".ipynb": 2
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".ipynb": [
+        "ANN_final.ipynb",
+        "Regression_.ipynb"
+      ]
+    }
+  },
+  {
+    "repo": "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+    "url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+    "description": "This is my second project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "Aspen HYSYS in:readme",
+      "HYSYS \"simulation file\" in:readme",
+      "HYSYS hydrogen in:readme",
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".hsc": 2,
+      ".xml": 2,
+      ".xlsx": 1,
+      ".pdf": 4,
+      ".md": 1
+    },
+    "hysys_files": [
+      "SIM/compressor and cooling water.hsc",
+      "SIM/no compressor and cooling cycle.hsc"
+    ],
+    "hysys_file_sizes": {
+      "SIM/compressor and cooling water.hsc": 768823,
+      "SIM/no compressor and cooling cycle.hsc": 749936
+    },
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".xml": [
+        "SIM/compressor and cooling water.xml",
+        "SIM/no compressor and cooling cycle.xml"
+      ],
+      ".xlsx": [
+        "MISC/case study 1.xlsx"
+      ],
+      ".pdf": [
+        "DOCS/Plant_Design_1402_1_HW2_R01.pdf",
+        "DOCS/REPORT.pdf",
+        "MISC/q_cond vs vap frac.pdf",
+        "MISC/temp vs vap frac.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "rubel-miah-che/rubel-portfolio",
+    "url": "https://github.com/rubel-miah-che/rubel-portfolio",
+    "description": "My personal portfolio repo containing projects, code, papers, and more.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hsc in:readme",
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 5,
+      ".md": 1,
+      ".py": 4
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "cv/Rubel_Miah_Academic_CV.pdf",
+        "papers/119_ICChE2023_Manuscript_Ridika.pdf",
+        "papers/538.pdf",
+        "papers/FullPaper_47.pdf",
+        "papers/PIIS2405844024167539.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "Learning_2.py",
+        "learning.py",
+        "notebooks/Learning_2.py",
+        "notebooks/learning.py"
+      ]
+    }
+  },
+  {
+    "repo": "zwang1995/Aspen-Plus-Automation",
+    "url": "https://github.com/zwang1995/Aspen-Plus-Automation",
+    "description": "Automation of process simulation in Aspen Plus",
+    "license": "MIT",
+    "default_branch": "main",
+    "queries": [
+      "Aspen HYSYS in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 3,
+      ".py": 4
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md",
+      "script/README.md",
+      "simulation/README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md",
+        "script/README.md",
+        "simulation/README.md"
+      ],
+      ".py": [
+        "script/aspen_utils_v1.py",
+        "script/aspen_utils_v2.py",
+        "script/simulation_v1.py",
+        "script/simulation_v2.py"
+      ]
+    }
+  },
+  {
+    "repo": "M-Hamdy-M/lng-niching-metaheuristics",
+    "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hsc in:readme",
+      "HYSYS \"simulation file\" in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 37,
+      ".ipynb": 4
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "hysys_optimization/problems/dsmr/smr_opt_problem.py",
+        "optimization/__init__.py",
+        "optimization/algorithms/common/selection.py",
+        "optimization/algorithms/core/__init__.py",
+        "optimization/algorithms/core/callback.py",
+        "optimization/algorithms/core/initializers.py",
+        "optimization/algorithms/core/optimization_algorithm.py",
+        "optimization/algorithms/core/optimization_step.py",
+        "optimization/algorithms/core/population.py",
+        "optimization/algorithms/de/variants/__init__.py"
+      ],
+      ".ipynb": [
+        "demos/Custom Problem Demo.ipynb",
+        "hysys_optimization/problems/dsmr/Analysis.ipynb",
+        "hysys_optimization/problems/dsmr/Solving SMR.ipynb",
+        "hysys_optimization/problems/dsmr/Tuning SMR.ipynb"
+      ]
+    }
+  },
+  {
+    "repo": "z08r3p/CHEN90012",
+    "url": "https://github.com/z08r3p/CHEN90012",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS CO2 in:readme",
+      "HYSYS hydrogen in:readme",
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "jjgomera/pychemqt",
+    "url": "https://github.com/jjgomera/pychemqt",
+    "description": "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+    "license": "GPL-3.0",
+    "default_branch": "master",
+    "queries": [
+      "HYSYS license:gpl-3.0"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 1,
+      ".txt": 2,
+      ".py": 388
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [],
+    "companion": {
+      ".csv": [
+        "dat/MathiasCopeman.csv"
+      ],
+      ".txt": [
+        ".circleci/requirements_test.txt",
+        "docs/requirements.txt"
+      ],
+      ".py": [
+        ".script/copyright.py",
+        ".script/crude.py",
+        ".script/database.py",
+        ".script/ipython.py",
+        ".script/mEoSAncillary.py",
+        ".script/plot2point.py",
+        ".script/plotMEoS.py",
+        ".script/superancillary.py",
+        ".script/svg.py",
+        ".script/translate_elemental.py"
+      ]
+    }
+  },
+  {
+    "repo": "JoshuaKiplimo/ResParse",
+    "url": "https://github.com/JoshuaKiplimo/ResParse",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hsc in:readme",
+      "HYSYS hydrogen in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".csv": 1,
+      ".pdf": 2,
+      ".txt": 3,
+      ".py": 10
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "readme.txt"
+    ],
+    "companion": {
+      ".csv": [
+        "TechnologySkills.csv"
+      ],
+      ".pdf": [
+        "resume/JOSHUA KIPRONO.pdf",
+        "resume/entry-level-computer-science-resume-example.pdf"
+      ],
+      ".txt": [
+        "readme.txt",
+        "requirements.txt",
+        "resume/test.txt"
+      ],
+      ".py": [
+        ".streamlit/Voice.py",
+        "ResumeMatch.py",
+        "actionVerbs.py",
+        "get_jobs.py",
+        "majors.py",
+        "packages/common.py",
+        "packages/listing.py",
+        "packages/page.py",
+        "pdfGenerator.py",
+        "textFormat.py"
+      ]
+    }
+  },
+  {
+    "repo": "Jimohmuktar/CrBlend-ML",
+    "url": "https://github.com/Jimohmuktar/CrBlend-ML",
+    "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hsc in:readme",
+      "HYSYS \"case file\" in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 5
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "assay_library.py",
+        "blending_physics.py",
+        "config.py",
+        "data_generator.py",
+        "hysys_connector.py"
+      ]
+    }
+  },
+  {
+    "repo": "Ibrahim-Badmus/python-hydrogen-optimization",
+    "url": "https://github.com/Ibrahim-Badmus/python-hydrogen-optimization",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 6
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md",
+      "data/README.md",
+      "figures/README.md",
+      "notebooks/README.md",
+      "results/README.md",
+      "scripts/README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md",
+        "data/README.md",
+        "figures/README.md",
+        "notebooks/README.md",
+        "results/README.md",
+        "scripts/README.md"
+      ]
+    }
+  },
+  {
+    "repo": "ruhanfarajov/aspenhysys",
+    "url": "https://github.com/ruhanfarajov/aspenhysys",
+    "description": "AI integrated model",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "Aspen HYSYS in:readme",
+      "HYSYS hsc in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".py": 32
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "app/__init__.py",
+        "app/api/__init__.py",
+        "app/api/routes.py",
+        "app/core/__init__.py",
+        "app/core/config.py",
+        "app/core/logging.py",
+        "app/db/__init__.py",
+        "app/db/base.py",
+        "app/db/session.py",
+        "app/main.py"
+      ]
+    }
+  },
+  {
+    "repo": "hermionini/manishamt",
+    "url": "https://github.com/hermionini/manishamt",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS CO2 in:readme",
+      "HYSYS hydrogen in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".ipynb": 3
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".ipynb": [
+        "474624_Manisha_Thakur_Ghana_Cloud_Cover_Data_Analysis.ipynb",
+        "EV_Analytics_Manisha_Thakur_474624.ipynb",
+        "Manisha_Thakur_474624_ensemble_code.ipynb"
+      ]
+    }
+  },
+  {
+    "repo": "ldminnes/msr-pbr",
+    "url": "https://github.com/ldminnes/msr-pbr",
+    "description": "Methanol Synthesis Reactor Model",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS CO2 in:readme",
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1,
+      ".m": 2
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ],
+      ".m": [
+        "msr.m",
+        "pbr.m"
+      ]
+    }
+  },
+  {
+    "repo": "wesleyZero/capstone_II",
+    "url": "https://github.com/wesleyZero/capstone_II",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS CO2 in:readme",
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 1,
+      ".md": 1,
+      ".m": 11
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "readme/pdf/capstone2_DMC.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".m": [
+        "economic_fxns.m",
+        "flowrate_fxns.m",
+        "get_console.m",
+        "get_constants.m",
+        "get_user_inputs.m",
+        "heat_exchange_fxns.m",
+        "plot_fxns.m",
+        "reactor_fxns.m",
+        "run_dmc.m",
+        "separation_fxns.m"
+      ]
+    }
+  },
+  {
+    "repo": "ArminHasanpour/ArminHasanpour",
+    "url": "https://github.com/ArminHasanpour/ArminHasanpour",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "Ibrahim-Badmus/hydrogen-process-models",
+    "url": "https://github.com/Ibrahim-Badmus/hydrogen-process-models",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 6
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md",
+      "ammonia_synthesis/README.md",
+      "compression/README.md",
+      "docs/README.md",
+      "electrolysis/README.md",
+      "flowsheets/README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md",
+        "ammonia_synthesis/README.md",
+        "compression/README.md",
+        "docs/README.md",
+        "electrolysis/README.md",
+        "flowsheets/README.md"
+      ]
+    }
+  },
+  {
+    "repo": "Ibrahim-Badmus/hydrogen-techno-economics",
+    "url": "https://github.com/Ibrahim-Badmus/hydrogen-techno-economics",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "AbdulMoiz00/AbdulMoiz00",
+    "url": "https://github.com/AbdulMoiz00/AbdulMoiz00",
+    "description": "Config files for my GitHub profile.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS methanol in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "FlameEnjoyer/academic-portfolio",
+    "url": "https://github.com/FlameEnjoyer/academic-portfolio",
+    "description": "",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Academic_Portfolio.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "Gopal564/Chemical-Engineering-Revision",
+    "url": "https://github.com/Gopal564/Chemical-Engineering-Revision",
+    "description": "Revision of all topics",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "HYSYS hydrogen in:readme",
+      "HYSYS ammonia in:readme"
+    ],
+    "truncated": false,
+    "counts": {
+      ".md": 1
+    },
+    "hysys_files": [],
+    "hysys_file_sizes": {},
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".md": [
+        "README.md"
+      ]
+    }
+  }
+]

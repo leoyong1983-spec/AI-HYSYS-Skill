@@ -16,6 +16,7 @@
 6. [scripts/hysys_automation.py](../scripts/hysys_automation.py) 是本仓库内置 direct COM starter wrapper，用于把主通道固化成可审计代码。
 7. [hysys-scadabr-python-supervisory-control-mdpi-2026.pdf](../CASE/research/hysys-scadabr-python-supervisory-control-mdpi-2026.pdf) 说明 HYSYS/Python 可与 ScadaBR/Modbus 类监督系统结合，但这应作为 external supervisory/testbed lane，而不是默认生产闭环控制。
 8. [reasoning-agent-distillation-nature-2026.pdf](../CASE/research/reasoning-agent-distillation-nature-2026.pdf) 补强 LLM reasoning agent 的仿真、优化、碳核算和节能方案分步工作流；它是 Aspen Plus 相邻证据，不改变 HYSYS 生产默认边界。
+9. [hysys-ccs-eor-python-automation-eksergi-2026.pdf](../CASE/research/hysys-ccs-eor-python-automation-eksergi-2026.pdf) 展示 Aspen HYSYS V14 与 Python 自动化用于 162 个 full-factorial CCS-EOR 技经敏感性场景，补强批量场景必须先定义变量 schema、KPI、失败样本和经济指标导出。
 
 ## 通道定义
 
@@ -49,9 +50,10 @@
 3. 求解策略：是否暂停 solver、如何恢复、如何等待收敛、如何记录失败样本。
 4. 批量策略：先跑单点 smoke test，再跑小批量，再进入全量敏感性或优化。
 5. 写回策略：默认只写 HYSYS workcopy，不直接写生产操作参数；优化建议必须进入人工复核。
-6. 边界来源：优先用工程限制和记录在案的敏感性分析确定上下限，不使用任意搜索范围。
-7. 稳健性检查：对依赖初值或随机性的算法，记录初值/随机种子，并在可行时比较多个初值或种子；单次最优不得直接视为工程全局最优。
-8. 最终复核：把入选候选重新写入原 HYSYS workcopy，独立等待求解并回读约束与 KPI，再进入人工验收。
+6. 场景策略：full-factorial、DOE、PSO、Bayesian optimization 或人工候选集都必须记录设计矩阵、样本编号、输入边界、输出 KPI、失败分类和重跑规则。
+7. 边界来源：优先用工程限制和记录在案的敏感性分析确定上下限，不使用任意搜索范围。
+8. 稳健性检查：对依赖初值或随机性的算法，记录初值/随机种子，并在可行时比较多个初值或种子；单次最优不得直接视为工程全局最优。
+9. 最终复核：把入选候选重新写入原 HYSYS workcopy，独立等待求解并回读约束与 KPI，再进入人工验收。
 
 ## LLM Agent 任务的附加规则
 
@@ -103,3 +105,17 @@ The Crossref metadata for `Automation in the simulation of processes with Aspen 
 2. Use Excel/VBA/spreadsheet/workbook bridges as legitimate tagged IO lanes when the case already exposes stable variables through them.
 3. Do not let a convenient spreadsheet bridge hide missing units, solver policy, object names, or human acceptance.
 4. Do not treat an external automation article as local runtime validation; every project still needs a readiness check and one-point smoke test before batch writes.
+
+## 2026-06-02 MCP And Optimizer Boundary Addendum
+
+MCP is a protocol and orchestration boundary, not a new simulator truth source. If a HYSYS task is exposed through an MCP server, the server still has to choose one of the existing execution lanes: proven project runner, direct COM, spreadsheet/workbook bridge, data table, or approved indirect bridge.
+
+Before any MCP-backed write operation, record:
+
+1. tool name, schema, units, and read/write direction
+2. authentication and local-machine/runtime assumptions
+3. workcopy path and single-writer lock policy
+4. dry-run behavior and rollback plan
+5. audit log location and human approval owner
+
+Black-box optimization is also not a separate control lane. It is only a bounded helper above a validated lane. It may adjust whitelisted variables within documented engineering bounds, but it must not silently change topology, property package, equipment names, frozen baselines, or reporting scope.

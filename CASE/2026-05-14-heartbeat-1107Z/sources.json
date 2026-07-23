@@ -1,0 +1,416 @@
+﻿[
+    {
+        "title":  "Paryazdan/Aspen-HYSYS-Projects",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-Paryazdan__Aspen-HYSYS-Projects-readme.base64.txt",
+                                    "filename":  "github-Paryazdan__Aspen-HYSYS-Projects-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-Paryazdan__Aspen-HYSYS-Projects-repo.json",
+                                    "filename":  "github-Paryazdan__Aspen-HYSYS-Projects-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11318,
+                                    "sha256":  "ca54212ebf17f0f9d10185b0c7e76dca11f4714d8579af09610dfd6de276a54b"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-Paryazdan__Aspen-HYSYS-Projects-tree.json",
+                                    "filename":  "github-Paryazdan__Aspen-HYSYS-Projects-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1390,
+                                    "sha256":  "bc6432ca7cd3f27ea649193479a09a4dd55fc5c1ce88bbd751f1e3b4d9e182e2"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no repository license detected. Tree contains YazdanihaPHw3aSim.hsc and a PDF flowsheet, but model/PDF were not downloaded.",
+        "recommended_use":  "Manual permission-review candidate for a HYSYS project with PDF flowsheet.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+                            "download_url":  "",
+                            "title":  "Paryazdan/Aspen-HYSYS-Projects",
+                            "filenames":  [
+                                              "YazdanihaPHw3aSim.hsc",
+                                              "YazdanihaPHw3aFlowsheet.pdf"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; do not archive model until permission is clarified.",
+                               "Repository is old and has limited metadata."
+                           ]
+    },
+    {
+        "title":  "sanjay-saran/dme-production-methanol",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/sanjay-saran/dme-production-methanol",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-sanjay-saran__dme-production-methanol-readme.base64.txt",
+                                    "filename":  "github-sanjay-saran__dme-production-methanol-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  1624,
+                                    "sha256":  "2f7d0ef5dcd032030ae7fbadede46b01240888d7bb2b83e003f3f1c92f284a81"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-sanjay-saran__dme-production-methanol-repo.json",
+                                    "filename":  "github-sanjay-saran__dme-production-methanol-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  12040,
+                                    "sha256":  "e1f76eb4082e7659a43efc9232915215247b8e93dff7809867750f9b793971e6"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-sanjay-saran__dme-production-methanol-tree.json",
+                                    "filename":  "github-sanjay-saran__dme-production-methanol-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  884,
+                                    "sha256":  "cdf0a6de3c43b4c8ea1920973deb9f63710a7947ffaddec1691413c5d2455ada"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no repository license detected. Tree inspection found README only and no model files.",
+        "recommended_use":  "Rejected candidate unless a model file appears.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/sanjay-saran/dme-production-methanol",
+                            "download_url":  "",
+                            "title":  "sanjay-saran/dme-production-methanol",
+                            "filenames":  [
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model file; no license."
+                           ]
+    },
+    {
+        "title":  "Shreya88876/Aspen_file_shreya",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Shreya88876/Aspen_file_shreya",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-Shreya88876__Aspen_file_shreya-readme.base64.txt",
+                                    "filename":  "github-Shreya88876__Aspen_file_shreya-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  128,
+                                    "sha256":  "cd06f5cb22929a0bc5fb340149daaab49796a37572df0b2fcb8ac3dfafbae4c9"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-Shreya88876__Aspen_file_shreya-repo.json",
+                                    "filename":  "github-Shreya88876__Aspen_file_shreya-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11344,
+                                    "sha256":  "7976e1e6456379aed96edc28e91fba22fe3330b3e32bd49b812e4fdf7db20949"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-Shreya88876__Aspen_file_shreya-tree.json",
+                                    "filename":  "github-Shreya88876__Aspen_file_shreya-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  872,
+                                    "sha256":  "ae47c656db487c7804c1b10a2092642991187e3f11a84e33a951be9b596d8efc"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no repository license detected. Tree metadata did not reveal HYSYS model files despite repository description.",
+        "recommended_use":  "Rejected candidate unless model files are added or discovered.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Shreya88876/Aspen_file_shreya",
+                            "download_url":  "",
+                            "title":  "Shreya88876/Aspen_file_shreya",
+                            "filenames":  [
+
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Description mentions Aspen HYSYS but no model file visible in tree metadata."
+                           ]
+    },
+    {
+        "title":  "cityfamer/HyPy",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/cityfamer/HyPy",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-cityfamer__HyPy-readme.base64.txt",
+                                    "filename":  "github-cityfamer__HyPy-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  68,
+                                    "sha256":  "87ff898a154993918cce6c8d20cfaebe0fec614dce3feeb748b70eb210ea0924"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-cityfamer__HyPy-repo.json",
+                                    "filename":  "github-cityfamer__HyPy-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  9944,
+                                    "sha256":  "8843d53a5e563a26c5f6d6b8cd05c4e61e32ea75f700021422dde46052d3dbc3"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-cityfamer__HyPy-tree.json",
+                                    "filename":  "github-cityfamer__HyPy-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2500,
+                                    "sha256":  "8a7c37e722b4520cfd2790eabd26546cf48e5193bd3088316d1489d31ad3e5d8"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. Contains Python package files for Aspen HYSYS connection but no model file.",
+        "recommended_use":  "Possible automation API reference only; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/cityfamer/HyPy",
+                            "download_url":  "",
+                            "title":  "cityfamer/HyPy",
+                            "filenames":  [
+                                              "HyPy/simulation.py",
+                                              "README.md",
+                                              "setup.py"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model file; no license."
+                           ]
+    },
+    {
+        "title":  "GerasimovRM/AspenHysysReader",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/GerasimovRM/AspenHysysReader",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-GerasimovRM__AspenHysysReader-readme.base64.txt",
+                                    "filename":  "github-GerasimovRM__AspenHysysReader-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  60,
+                                    "sha256":  "13e249c8785eb17a4b221dd18b709578618f55e519e008d878453d2064603b54"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-GerasimovRM__AspenHysysReader-repo.json",
+                                    "filename":  "github-GerasimovRM__AspenHysysReader-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11154,
+                                    "sha256":  "7c3f7ce0d75df92ad0c109ddeb146d88a438ed976e7f62a79952c57f0c4b17f3"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\github-GerasimovRM__AspenHysysReader-tree.json",
+                                    "filename":  "github-GerasimovRM__AspenHysysReader-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3168,
+                                    "sha256":  "67b774fed2abaa164fa2c0a27330c484d1f7119835f05b952f6a5761b615676b"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no license detected. Contains Python reader and summary.xlsx but no HYSYS model file.",
+        "recommended_use":  "Possible automation reader reference only; not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/GerasimovRM/AspenHysysReader",
+                            "download_url":  "",
+                            "title":  "GerasimovRM/AspenHysysReader",
+                            "filenames":  [
+                                              "main.py",
+                                              "summary.xlsx",
+                                              "readme.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No model file; no license."
+                           ]
+    },
+    {
+        "title":  "Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/19469917",
+        "download_url":  "https://zenodo.org/api/records/19469917/files/Upload%20data.rar/content",
+        "local_artifacts":  {
+                                "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\zenodo-19469917-record.json",
+                                "filename":  "zenodo-19469917-record.json",
+                                "file_type":  "json",
+                                "size_bytes":  7070,
+                                "sha256":  "b6b3a3abfa1bb371d1192813256067a055e25f389b3bf154ff4a11980dd3e98f"
+                            },
+        "license_public_access_note":  "Open Zenodo record with CC-BY-4.0 license and DOI 10.5281/zenodo.19469917. Attached package is a RAR archive; local environment lacked a RAR listing tool, so contents were not safely inspected and package was not archived.",
+        "recommended_use":  "Manual archive-inspection candidate for hydrogen co-firing HYSYS/economic dispatch data.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/19469917",
+                            "download_url":  "https://zenodo.org/api/records/19469917/files/Upload%20data.rar/content",
+                            "title":  "Hydrogen Co-Firing in Gas Turbines: Aspen HYSYS Simulation and Economic Dispatch Optimization Approaches",
+                            "filenames":  [
+                                              "Upload data.rar"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "RAR contents not inspected; do not ingest until archive listing confirms HYSYS model files.",
+                               "Package was not committed because contents could not be safely classified."
+                           ]
+    },
+    {
+        "title":  "Role of biogenic CO2 in refinery decarbonization. A case study of Colombian refineries",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/records/15476366",
+        "download_url":  "",
+        "local_artifacts":  {
+                                "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1107Z\\artifacts\\zenodo-15476366-record.json",
+                                "filename":  "zenodo-15476366-record.json",
+                                "file_type":  "json",
+                                "size_bytes":  11461,
+                                "sha256":  "bbb0748ed361ba44783642b04108a321d14af1e19e8641d92ef34b6f7fdbbcce"
+                            },
+        "license_public_access_note":  "Open Zenodo record with CC-BY-4.0 license and DOI 10.5281/zenodo.15476366. Files are .lnr and DOCX supplementary material, not HYSYS case files.",
+        "recommended_use":  "Not a HYSYS benchmark case unless .lnr semantics are later mapped to a supported simulation format.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/15476366",
+                            "download_url":  "",
+                            "title":  "Role of biogenic CO2 in refinery decarbonization. A case study of Colombian refineries",
+                            "filenames":  [
+                                              "MC refinery MADS.lnr",
+                                              "HC refinery MADS.lnr",
+                                              "HC refinery LADS.lnr",
+                                              "MC refinery LADS.lnr",
+                                              "Erik López-basto et al, supplementary material.docx"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No supported HYSYS model extension found.",
+                               "Do not ingest .lnr as HYSYS case without format confirmation."
+                           ]
+    }
+]

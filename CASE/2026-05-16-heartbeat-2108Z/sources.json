@@ -1,0 +1,380 @@
+﻿[
+    {
+        "title":  "New GitHub HYSYS case candidates requiring manual license review",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/bpalotai/Flowsheet-toolbox; https://github.com/Gallo05952/Articolo_energies; https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit; https://github.com/SinaGhanbarii/HDA-Plant-Simulation; https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+        "download_url":  "not_downloaded_license_unclear_no_repository_license_detected",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-inspection-summary.json",
+                                    "filename":  "github-readme-candidate-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  21021,
+                                    "sha256":  "1bfe7c301b6fb95ca632c3a664a48138c1992c18f301c3f97de0543e2aea9946"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-repo-bpalotai__Flowsheet-toolbox.json",
+                                    "filename":  "github-readme-candidate-repo-bpalotai__Flowsheet-toolbox.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  244,
+                                    "sha256":  "25004378813ee5dc55022e28ce3a87c83b29c2a01b99a0e5e647f3eb4e45ed18"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-repo-Gallo05952__Articolo_energies.json",
+                                    "filename":  "github-readme-candidate-repo-Gallo05952__Articolo_energies.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  248,
+                                    "sha256":  "9de68fe79b8894e123928e432840e90268d20118059ea87df2479b97014a9b56"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-repo-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+                                    "filename":  "github-readme-candidate-repo-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  604,
+                                    "sha256":  "7c5053b6818c97915ba6967fe780b9973135bcd096420b4570cea23e261c79f1"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-repo-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit.json",
+                                    "filename":  "github-readme-candidate-repo-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  587,
+                                    "sha256":  "ab3d71e0f5bde1cb7f2d84c63a943c48cca8dfc7519eaee29267c9df541eeb97"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-repo-SinaGhanbarii__HDA-Plant-Simulation.json",
+                                    "filename":  "github-readme-candidate-repo-SinaGhanbarii__HDA-Plant-Simulation.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  497,
+                                    "sha256":  "586b8b0d7b716b0315c6aff62e266db77a40ac54ab5b8c0dba918826d82832e7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-tree-bpalotai__Flowsheet-toolbox.json",
+                                    "filename":  "github-readme-candidate-tree-bpalotai__Flowsheet-toolbox.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  36070,
+                                    "sha256":  "6a8a3561d7d0a4ed44b3de3989071ad48960b8d535dab5ced0c1d1fd716d588f"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-tree-Gallo05952__Articolo_energies.json",
+                                    "filename":  "github-readme-candidate-tree-Gallo05952__Articolo_energies.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10391,
+                                    "sha256":  "8cd10451ee9b7a02f24d5eda86bcc39ceba0e565bd984dd3508f0be9d44504e8"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-tree-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+                                    "filename":  "github-readme-candidate-tree-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5340,
+                                    "sha256":  "b5f38fc5a76fc311a40d619e2380d0119f6d708dd511741e9353aabe515f69f3"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-tree-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit.json",
+                                    "filename":  "github-readme-candidate-tree-Pouria-MK___Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5951,
+                                    "sha256":  "adf2617e564af40dbcd6981818879b8e72293c21f0aef87a8f1137f06e8e93b9"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-tree-SinaGhanbarii__HDA-Plant-Simulation.json",
+                                    "filename":  "github-readme-candidate-tree-SinaGhanbarii__HDA-Plant-Simulation.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7168,
+                                    "sha256":  "2bd3894d2f5e55e88f03cc026a9e5832812be3bf2604d6115d99d2dae7e15df8"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  26049,
+                                    "sha256":  "e739495148626798195c3ad05c956cb87130710635d65f011949180249a88b8e"
+                                }
+                            ],
+        "license_public_access_note":  "Repositories are publicly visible and contain .hsc paths, but GitHub did not report a repository licenseInfo value during this run. No files were downloaded because reuse or research-archive permission is unclear.",
+        "recommended_use":  "Manual maintainer review of license, author intent, and redistribution boundary. If approved, rerun with pinned commit archives and ingest only the relevant model, README/report, data, and license evidence.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/bpalotai/Flowsheet-toolbox; https://github.com/Gallo05952/Articolo_energies; https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit; https://github.com/SinaGhanbarii/HDA-Plant-Simulation; https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+                            "download_url":  "not_downloaded",
+                            "title":  "bpalotai/Flowsheet-toolbox; Gallo05952/Articolo_energies; Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit; SinaGhanbarii/HDA-Plant-Simulation; Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+                            "filenames":  [
+                                              "Cases/HX-model-V1/HysysModel/SampleModel_V2.hsc",
+                                              "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+                                              "Articolo_energies.hsc",
+                                              "SIM/compressor and cooling water.hsc",
+                                              "SIM/no compressor and cooling cycle.hsc",
+                                              "HDA 2024 Aspen/1-HDA-Setup.hsc",
+                                              "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+                                              "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+                                              "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+                                              "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc",
+                                              "SIM/SynGas-SMR-DMR(integration).hsc",
+                                              "SIM/SynGas-SMR-DMR(main).hsc"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No repository license was detected; downloading or redistributing HYSYS files would be unsafe without manual approval.",
+                               "Some repositories appear to be course or article support material and may not intend redistribution beyond GitHub viewing.",
+                               "No HYSYS model was opened or solved."
+                           ]
+    },
+    {
+        "title":  "GitHub README/code search candidates without qualifying downloadable case decision",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/search?q=Aspen+HYSYS+filename%3AREADME.md\u0026type=code",
+        "download_url":  "not_downloaded_no_clear_licensed_nonduplicate_case",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-code-search-summary.json",
+                                    "filename":  "github-code-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1461,
+                                    "sha256":  "ad041d14edd064745c3720899056cb37fd7308b35b95d75caa1481d4d00b2c17"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-code-aspen-hysys-readme.json",
+                                    "filename":  "github-code-aspen-hysys-readme.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  18517,
+                                    "sha256":  "3dc74daaf3c12ee27f372ae7042a6605d6c34779a0fef45286ae820b33d3d626"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-inspection-summary.json",
+                                    "filename":  "github-readme-candidate-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  21021,
+                                    "sha256":  "1bfe7c301b6fb95ca632c3a664a48138c1992c18f301c3f97de0543e2aea9946"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  26049,
+                                    "sha256":  "e739495148626798195c3ad05c956cb87130710635d65f011949180249a88b8e"
+                                }
+                            ],
+        "license_public_access_note":  "GitHub README search produced 49 metadata hits. Only selected engineering repositories were tree-inspected. Direct code searches for hsc/hscz/compound returned zero hits via the legacy GitHub code search API.",
+        "recommended_use":  "Use as a lead list for future focused searches. Promote only repositories with explicit license or author permission and confirmed non-duplicate HYSYS payloads.",
+        "dedupe_keys":  {
+                            "source_page":  "GitHub code search metadata",
+                            "download_url":  "not_downloaded",
+                            "title":  "Aspen HYSYS README candidates",
+                            "filenames":  [
+                                              "github-code-aspen-hysys-readme.json",
+                                              "github-readme-candidate-inspection-summary.json"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Legacy GitHub code search may miss binary case files.",
+                               "README mentions may refer to Aspen HYSYS without distributing a reusable model.",
+                               "Several repositories are automation-only or personal profile repositories."
+                           ]
+    },
+    {
+        "title":  "Secondary repository and data platform sweep without confirmed downloadable case",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "Zenodo, Figshare, Harvard Dataverse, DataCite, GitLab metadata searches",
+        "download_url":  "not_downloaded_no_confirmed_public_licensed_payload",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/external-2108-search-summary.json",
+                                    "filename":  "external-2108-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1540,
+                                    "sha256":  "993b36abe53308829e9bcca3a3988965161249caf1cd36b52212e839cd425d6f"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/zenodo-2108-hysys-hsc-search-results.json",
+                                    "filename":  "zenodo-2108-hysys-hsc-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  126028,
+                                    "sha256":  "4096ab97a0b3bf853a19e0e7a88ccc9b79d1b2cafead57b1783221bcde718ddd"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/zenodo-2108-hysys-hscz-search-results.json",
+                                    "filename":  "zenodo-2108-hysys-hscz-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  124522,
+                                    "sha256":  "ba06d85f66dcaf922622ba4b27e709b85be331137d8785325db48c6552e687d8"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/figshare-2108-hysys-search-results.json",
+                                    "filename":  "figshare-2108-hysys-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/harvard-dataverse-2108-hysys-search-results.json",
+                                    "filename":  "harvard-dataverse-2108-hysys-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  38800,
+                                    "sha256":  "d921e7d136de5244277c7adcbb28dee6962b4e18dfdba5d3d4614d47772ecbd9"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/datacite-2108-hysys-search-results.json",
+                                    "filename":  "datacite-2108-hysys-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  170,
+                                    "sha256":  "067e237f91a79b96eaea3c15393ba6d16a84e449a6f723d5b4f8f6d81f68172b"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/gitlab-2108-hysys-project-search-results.json",
+                                    "filename":  "gitlab-2108-hysys-project-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  26049,
+                                    "sha256":  "e739495148626798195c3ad05c956cb87130710635d65f011949180249a88b8e"
+                                }
+                            ],
+        "license_public_access_note":  "Only public metadata endpoints were queried. No supplementary package or model file was downloaded because no new public, licensed, non-duplicate HYSYS payload was confirmed.",
+        "recommended_use":  "Add a second-stage file-list resolver for Zenodo and Dataverse before any future download; keep GitLab as low-yield for this topic unless query terms are improved.",
+        "dedupe_keys":  {
+                            "source_page":  "secondary metadata APIs",
+                            "download_url":  "not_downloaded",
+                            "title":  "secondary sweep 2026-05-16 2108Z",
+                            "filenames":  [
+                                              "external-2108-search-summary.json"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Zenodo full-text metadata can return broad hits not containing actual HYSYS model files.",
+                               "File-level license and payload checks remain necessary before download.",
+                               "No files from these platforms were opened or run."
+                           ]
+    },
+    {
+        "title":  "Operational recommendation: separate no-license candidates from duplicate allowlist",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "local CASE dedupe and GitHub README candidate inspection",
+        "download_url":  "not_applicable_operational_note",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/dedupe-summary.json",
+                                    "filename":  "dedupe-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  352,
+                                    "sha256":  "60572d72937d74f84f5eb590c65c8b3a873e67b1b68bd027a377203f862e2c89"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/github-readme-candidate-inspection-summary.json",
+                                    "filename":  "github-readme-candidate-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  21021,
+                                    "sha256":  "1bfe7c301b6fb95ca632c3a664a48138c1992c18f301c3f97de0543e2aea9946"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-16-heartbeat-2108Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  26049,
+                                    "sha256":  "e739495148626798195c3ad05c956cb87130710635d65f011949180249a88b8e"
+                                }
+                            ],
+        "license_public_access_note":  "No external payload was downloaded for this note. It records a workflow issue: promising HYSYS candidates exist, but no-license repositories need a different queue from duplicates.",
+        "recommended_use":  "Create a manual-review queue for no-license HYSYS candidates and a machine allowlist for known duplicates/no-case repositories.",
+        "dedupe_keys":  {
+                            "source_page":  "local CASE dedupe summary",
+                            "download_url":  "not_applicable",
+                            "title":  "workflow recommendation",
+                            "filenames":  [
+                                              "dedupe-summary.json",
+                                              "github-readme-candidate-inspection-summary.json"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Without a manual-review queue, high-value but no-license candidates may be rediscovered repeatedly.",
+                               "Without a duplicate/no-case allowlist, hourly runs waste time reinspecting known low-yield repositories."
+                           ]
+    }
+]

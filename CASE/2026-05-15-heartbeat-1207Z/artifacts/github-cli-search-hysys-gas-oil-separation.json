@@ -1,0 +1,25 @@
+{
+  "query": "HYSYS \"gas oil separation\" in:readme",
+  "items": [
+    {
+      "description": "A comprehensive process simulation of crude oil characterization and fractionation using Aspen Hysys. The project models a pre-treatment unit and an atmospheric distillation column to separate crude oil into high-value products like kerosene, diesel, and AGO, demonstrating proficiency in process design, heat integration, and equipment sizing.",
+      "fullName": "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODV62lQ",
+        "is_bot": false,
+        "login": "Amansurana2005",
+        "type": "User",
+        "url": "https://github.com/Amansurana2005"
+      },
+      "updatedAt": "2025-08-03T08:23:22Z",
+      "url": "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation"
+    }
+  ]
+}

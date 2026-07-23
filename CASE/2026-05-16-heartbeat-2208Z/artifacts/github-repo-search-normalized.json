@@ -1,0 +1,165 @@
+﻿[
+    {
+        "repo":  "andr1976/dwsim-paper",
+        "url":  "https://github.com/andr1976/dwsim-paper",
+        "description":  "Supplementary material and information ",
+        "license":  "mit",
+        "updatedAt":  "2025-10-22T16:40:55Z",
+        "isFork":  false,
+        "queries":  [
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+        "license":  "mit",
+        "updatedAt":  "2026-04-25T19:57:04Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-case-file",
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "url":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+        "description":  "Radial Basis Function (RBF) interpolation framework for thermodynamically consistent data generation from Aspen HYSYS simulations of atmospheric distillation units processing multi-crude blends.",
+        "license":  "mit",
+        "updatedAt":  "2025-12-21T15:33:53Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "leoyong1983-spec/AI-HYSYS-Skill",
+        "url":  "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+        "description":  "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+        "license":  "mit",
+        "updatedAt":  "2026-05-16T21:15:37Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "tinchofiuba/pythonHysys",
+        "url":  "https://github.com/tinchofiuba/pythonHysys",
+        "description":  "Vinculo usando python para acceder a corrientes y propiedades de hysys",
+        "license":  "mit",
+        "updatedAt":  "2024-10-31T14:47:19Z",
+        "isFork":  false,
+        "queries":  [
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "YuniqueCore/DynPlots",
+        "url":  "https://github.com/YuniqueCore/DynPlots",
+        "description":  "HYSYS dynamic data DUMP file difference drawing software",
+        "license":  "mit",
+        "updatedAt":  "2023-12-22T16:54:22Z",
+        "isFork":  false,
+        "queries":  [
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "shahria-sunny/Natural-Gas-Sweetening",
+        "url":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "description":  "Steady-state simulation of a natural gas sweetening unit using DEA solvent in Aspen HYSYS V14. Models full absorption-regeneration loop. \u003e99.9% H₂S removal. Complete stream tables, column profiles, and energy analysis included.",
+        "license":  "mit",
+        "updatedAt":  "2026-05-03T16:19:16Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "url":  "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+        "description":  "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS \u0026 DWSIM).",
+        "license":  "mit",
+        "updatedAt":  "2026-04-27T02:50:41Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "edgarsmdn/Aspen_HYSYS_Python",
+        "url":  "https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+        "description":  "Aspen HYSYS - Python connection",
+        "license":  "mit",
+        "updatedAt":  "2026-05-14T13:37:40Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+        "url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+        "description":  "A Python-based interface for Aspen HYSYS enabling automated heat exchanger network (HEN) supertargeting to pre-identify the optimal ΔTmin.",
+        "license":  "mit",
+        "updatedAt":  "2026-05-14T12:13:01Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "aqiqiqiu/ai-hysys-autobuilder",
+        "url":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+        "description":  "",
+        "license":  "mit",
+        "updatedAt":  "2026-04-27T12:08:29Z",
+        "isFork":  false,
+        "queries":  [
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "naawu789/HySysID",
+        "url":  "https://github.com/naawu789/HySysID",
+        "description":  "",
+        "license":  "mit",
+        "updatedAt":  "2025-04-16T20:51:26Z",
+        "isFork":  false,
+        "queries":  [
+                        "hysys-license-mit-broadened"
+                    ]
+    },
+    {
+        "repo":  "perrywzm/hysysopt",
+        "url":  "https://github.com/perrywzm/hysysopt",
+        "description":  "For optimizing HYSYS case files",
+        "license":  "",
+        "updatedAt":  "2025-11-16T12:18:33Z",
+        "isFork":  false,
+        "queries":  [
+                        "hysys-case-file"
+                    ]
+    },
+    {
+        "repo":  "shahria-sunny/CDU-Simulation-Optimization",
+        "url":  "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "description":  "Steady-state simulation of an Atmospheric Crude Distillation Unit (CDU) processing Arabian Light crude using Aspen HYSYS V14. Includes pump-around circuit design and a heat integration study achieving a 53.6% reduction in furnace duty through Pinch Analysis principles.",
+        "license":  "mit",
+        "updatedAt":  "2026-04-29T18:07:37Z",
+        "isFork":  false,
+        "queries":  [
+                        "aspen-hysys-license-mit-broadened",
+                        "hysys-license-mit-broadened"
+                    ]
+    }
+]

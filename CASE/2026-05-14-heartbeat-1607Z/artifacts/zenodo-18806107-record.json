@@ -1,0 +1,177 @@
+﻿{
+    "created":  "2026-02-27T18:12:27.470732+00:00",
+    "modified":  "2026-02-27T18:12:27.845598+00:00",
+    "id":  18806107,
+    "conceptrecid":  "18806106",
+    "doi":  "10.5281/zenodo.18806107",
+    "conceptdoi":  "10.5281/zenodo.18806106",
+    "doi_url":  "https://doi.org/10.5281/zenodo.18806107",
+    "metadata":  {
+                     "title":  "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+                     "doi":  "10.5281/zenodo.18806107",
+                     "publication_date":  "2026-02-27",
+                     "description":  "\u003cp\u003eThis dataset contains the supporting calculations and process simulations for the study\u0026nbsp;\u003cem\u003e\u0026ldquo;Decentralized Valorization of Associated Petroleum Gas via Modular Oxy-Combustion and Carbon Capture.\u0026rdquo;\u003c/em\u003e It includes Excel spreadsheets with flaring statistics and thermodynamic balances, Aspen HYSYS v12.1 models of oxy-combustion and CO₂ capture systems, and Engineering Equation Solver (EES) files for energy and exergetic efficiency analysis. The dataset provides reproducible evidence for the manuscript\u0026rsquo;s reported performance metrics and supports transparency in energy systems research.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                     "access_right":  "open",
+                     "creators":  [
+                                      {
+                                          "name":  "Gonzalo, Chiriboga",
+                                          "affiliation":  null,
+                                          "orcid":  "0000-0003-2039-8063"
+                                      }
+                                  ],
+                     "language":  "spa",
+                     "resource_type":  {
+                                           "title":  "Dataset",
+                                           "type":  "dataset"
+                                       },
+                     "license":  {
+                                     "id":  "cc-by-4.0"
+                                 },
+                     "grants":  [
+                                    {
+                                        "code":  "DI-CONV-2023-026",
+                                        "internal_id":  "010n0x685::DI-CONV-2023-026",
+                                        "funder":  {
+                                                       "name":  "Central University of Ecuador"
+                                                   },
+                                        "title":  "Economía Circular en los Reservorios Hidroeléctricos del Ecuador"
+                                    }
+                                ],
+                     "relations":  {
+                                       "version":  [
+                                                       {
+                                                           "index":  0,
+                                                           "is_last":  true,
+                                                           "parent":  {
+                                                                          "pid_type":  "recid",
+                                                                          "pid_value":  "18806106"
+                                                                      }
+                                                       }
+                                                   ]
+                                   }
+                 },
+    "title":  "Calculation and Simulation Data for Modular Oxy-Combustion and Carbon Capture in Associated Petroleum Gas Valorization",
+    "links":  {
+                  "self":  "https://zenodo.org/api/records/18806107",
+                  "self_html":  "https://zenodo.org/records/18806107",
+                  "preview_html":  "https://zenodo.org/records/18806107?preview=1",
+                  "doi":  "https://doi.org/10.5281/zenodo.18806107",
+                  "self_doi":  "https://doi.org/10.5281/zenodo.18806107",
+                  "self_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.18806107",
+                  "reserve_doi":  "https://zenodo.org/api/records/18806107/draft/pids/doi",
+                  "parent":  "https://zenodo.org/api/records/18806106",
+                  "parent_html":  "https://zenodo.org/records/18806106",
+                  "parent_doi":  "https://doi.org/10.5281/zenodo.18806106",
+                  "parent_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.18806106",
+                  "self_iiif_manifest":  "https://zenodo.org/api/iiif/record:18806107/manifest",
+                  "self_iiif_sequence":  "https://zenodo.org/api/iiif/record:18806107/sequence/default",
+                  "files":  "https://zenodo.org/api/records/18806107/files",
+                  "media_files":  "https://zenodo.org/api/records/18806107/media-files",
+                  "archive":  "https://zenodo.org/api/records/18806107/files-archive",
+                  "archive_media":  "https://zenodo.org/api/records/18806107/media-files-archive",
+                  "latest":  "https://zenodo.org/api/records/18806107/versions/latest",
+                  "latest_html":  "https://zenodo.org/records/18806107/latest",
+                  "versions":  "https://zenodo.org/api/records/18806107/versions",
+                  "draft":  "https://zenodo.org/api/records/18806107/draft",
+                  "access_links":  "https://zenodo.org/api/records/18806107/access/links",
+                  "access_grants":  "https://zenodo.org/api/records/18806107/access/grants",
+                  "access_users":  "https://zenodo.org/api/records/18806107/access/users",
+                  "access_request":  "https://zenodo.org/api/records/18806107/access/request",
+                  "access":  "https://zenodo.org/api/records/18806107/access",
+                  "communities":  "https://zenodo.org/api/records/18806107/communities",
+                  "communities-suggestions":  "https://zenodo.org/api/records/18806107/communities-suggestions",
+                  "request_deletion":  "https://zenodo.org/api/records/18806107/request-deletion",
+                  "file_modification":  "https://zenodo.org/api/records/18806107/file-modification",
+                  "quota_increase":  "https://zenodo.org/api/records/18806107/quota-increase",
+                  "requests":  "https://zenodo.org/api/records/18806107/requests"
+              },
+    "updated":  "2026-02-27T18:12:27.845598+00:00",
+    "recid":  "18806107",
+    "revision":  4,
+    "files":  [
+                  {
+                      "id":  "aa3cf36e-1f64-42e5-9bee-afee5bf8002d",
+                      "key":  "1. Análisis Multicriterio.xlsx",
+                      "size":  63475,
+                      "checksum":  "md5:010763f9aa388cd3463c5bad6bc4a50c",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/18806107/files/1.%20An%C3%A1lisis%20Multicriterio.xlsx/content"
+                                }
+                  },
+                  {
+                      "id":  "4fdf5a66-7a1b-4cbf-9109-efa8e2b8d698",
+                      "key":  "3. Calculo del poder calorifico de los bloques.xlsx",
+                      "size":  383154,
+                      "checksum":  "md5:16123af93c37fb6721a883f21a313e6f",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/18806107/files/3.%20Calculo%20del%20poder%20calorifico%20de%20los%20bloques.xlsx/content"
+                                }
+                  },
+                  {
+                      "id":  "ee16b0c6-7993-4fca-9705-ccc89433298c",
+                      "key":  "6. Temperatura de salida de los gases de combustion.EES",
+                      "size":  34929,
+                      "checksum":  "md5:0e99309b88a5886e9d67a0055d32ade0",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/18806107/files/6.%20Temperatura%20de%20salida%20de%20los%20gases%20de%20combustion.EES/content"
+                                }
+                  },
+                  {
+                      "id":  "7c549277-aa1d-4507-9167-c42c62b8ce15",
+                      "key":  "7. Sistema Integrado OCC,ASU,CCS.hsc",
+                      "size":  13444211,
+                      "checksum":  "md5:8787a077c8293f8b9d4ede16d7f61119",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/18806107/files/7.%20Sistema%20Integrado%20OCC,ASU,CCS.hsc/content"
+                                }
+                  },
+                  {
+                      "id":  "b8a2b0c4-6055-4a1d-a216-a1fdcda52f49",
+                      "key":  "5. Poder calorifico por bloques final.EES",
+                      "size":  62844,
+                      "checksum":  "md5:425dcbede46937b909e0f3155dbe5e4d",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/18806107/files/5.%20Poder%20calorifico%20por%20bloques%20final.EES/content"
+                                }
+                  },
+                  {
+                      "id":  "c8a92c44-39fc-4195-8222-ab01373cfd0a",
+                      "key":  "2. Calculo de la Potencia nominal.xlsx",
+                      "size":  1147741,
+                      "checksum":  "md5:77fbd3229424f7c52c5f7821b10a01aa",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/18806107/files/2.%20Calculo%20de%20la%20Potencia%20nominal.xlsx/content"
+                                }
+                  },
+                  {
+                      "id":  "20fd8849-7738-4fcb-a072-3131635b3367",
+                      "key":  "4. Balance estequiometrico para el proceso combustion.EES",
+                      "size":  111095,
+                      "checksum":  "md5:f472857e72461e6b111e7d0be93d53ee",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/18806107/files/4.%20Balance%20estequiometrico%20para%20el%20proceso%20combustion.EES/content"
+                                }
+                  }
+              ],
+    "swh":  {
+
+            },
+    "owners":  [
+                   {
+                       "id":  "430838"
+                   }
+               ],
+    "status":  "published",
+    "stats":  {
+                  "downloads":  54,
+                  "unique_downloads":  54,
+                  "views":  65,
+                  "unique_views":  60,
+                  "version_downloads":  54,
+                  "version_unique_downloads":  54,
+                  "version_unique_views":  60,
+                  "version_views":  65
+              },
+    "state":  "done",
+    "submitted":  true
+}

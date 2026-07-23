@@ -1,0 +1,102 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "andr1976/dwsim-paper",
+                 "url":  "https://github.com/andr1976/dwsim-paper",
+                 "description":  "Supplementary material and information ",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2022-05-31T21:30:21Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  36,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "simulations/Black oil EOS density.hsc",
+                                        "size":  813271,
+                                        "sha":  "e678fab39fa101639df34d12c8fdf8bb924b3aee"
+                                    },
+                                    {
+                                        "path":  "simulations/Black oil EOS density.xml",
+                                        "size":  5026200,
+                                        "sha":  "29aed339329de804aa3dd032552c26bff4f74cdb"
+                                    },
+                                    {
+                                        "path":  "simulations/Optim.hsc",
+                                        "size":  817635,
+                                        "sha":  "ddebced42b46113d3855df1f92ca34d56397f874"
+                                    },
+                                    {
+                                        "path":  "simulations/Optim.xml",
+                                        "size":  5010843,
+                                        "sha":  "f41c5f747466fd1bc9da9cb7d2c3b7ddce75ea26"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  1073,
+                                       "sha":  "484314906e732e6304f0706de5b4b44340276ff4"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  2436,
+                                       "sha":  "7cfac3a553f3a1005acfb73552168e1dea2b1017"
+                                   },
+                                   {
+                                       "path":  "data/DWSIM_result.csv",
+                                       "size":  10027,
+                                       "sha":  "2ee088066097954782a08ee900f5da092d3eb16d"
+                                   },
+                                   {
+                                       "path":  "data/DWSIM_results_cleaned.csv",
+                                       "size":  10027,
+                                       "sha":  "d2a03f1d5254e3baee3a8b4fe34b923a25236f24"
+                                   },
+                                   {
+                                       "path":  "data/HYSYS_result.csv",
+                                       "size":  7500,
+                                       "sha":  "9f9f53af443bbe346a7e14b00717903b97dc2231"
+                                   },
+                                   {
+                                       "path":  "data/raw_testplan.csv",
+                                       "size":  25000,
+                                       "sha":  "37c3ee7a3ca995d1ae988b85afa58b074dd002de"
+                                   },
+                                   {
+                                       "path":  "data/scaled_testplan.csv",
+                                       "size":  25021,
+                                       "sha":  "6f4f139e0049e8cd59894c2e2c42cfc158305cd2"
+                                   },
+                                   {
+                                       "path":  "paper/Revised_Paper_ANRA.pdf",
+                                       "size":  615869,
+                                       "sha":  "947227ceacbe213d21ca645cd109427c3685d281"
+                                   },
+                                   {
+                                       "path":  "presentation/Simulate365 User meeting Anders Andreasen.pdf",
+                                       "size":  1069718,
+                                       "sha":  "03f4eec57bcb09e308033fb3cf496d958f15ce84"
+                                   },
+                                   {
+                                       "path":  "scripts/DWSIM_automation.py",
+                                       "size":  6350,
+                                       "sha":  "0a6aca78a509a21650d5831298053a58866f8967"
+                                   },
+                                   {
+                                       "path":  "scripts/HYSYS_automation.py",
+                                       "size":  5877,
+                                       "sha":  "378d9d2babc752cbb3184137513e40d757451e98"
+                                   },
+                                   {
+                                       "path":  "scripts/plot_data.py",
+                                       "size":  2942,
+                                       "sha":  "256f3596cc40d2914d26731b8dfc4122ddbf9d2a"
+                                   }
+                               ]
+             },
+    "error":  null
+}

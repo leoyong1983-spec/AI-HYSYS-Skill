@@ -1,0 +1,147 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "CristopherCano/Projects-ASPEN-HYSYS",
+                 "url":  "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+                 "description":  "Chemical process simulation with Aspen | Hysys",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2021-02-05T21:27:51Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  30,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Precalentando.hsc",
+                                        "size":  249565,
+                                        "sha":  "dab0499d1a85b04107c44a1b1ba6e2e6adebf8a2"
+                                    },
+                                    {
+                                        "path":  "Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Sin Precalentar.hsc",
+                                        "size":  227762,
+                                        "sha":  "03b7a8bf6f76cfb332026e190529b62dc0c09a1a"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso A1.hsc",
+                                        "size":  319293,
+                                        "sha":  "7d9ccff178f009bf77380053950b03590c7c872a"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso A2.hsc",
+                                        "size":  317983,
+                                        "sha":  "1cf0a347ab0bd1726fe3bc32882714ef87930029"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso B1.hsc",
+                                        "size":  338622,
+                                        "sha":  "77cf8f3feefb7435c1b1b0b1b1d013b84856d3bf"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso C1.hsc",
+                                        "size":  353409,
+                                        "sha":  "ad251abb69e0e3aa3c64a4155adf1a6cab121554"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso C2.hsc",
+                                        "size":  348916,
+                                        "sha":  "25bb2454caeed5009e224bef626da15e85c69f7a"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso C3.hsc",
+                                        "size":  379241,
+                                        "sha":  "f1be53999abbc67143841c2f1a5b2f3cba69a5e8"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso D1-2.hsc",
+                                        "size":  380958,
+                                        "sha":  "8bb35d9190fbf0cc5b3227929ef64678189ece7a"
+                                    },
+                                    {
+                                        "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Caso D1.hsc",
+                                        "size":  380082,
+                                        "sha":  "5b9fd9f55f26c04f08c43f153f92cfeb6bf30754"
+                                    },
+                                    {
+                                        "path":  "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 1.hsc",
+                                        "size":  458438,
+                                        "sha":  "ec45b186e0c64de80870631b646eca9f3b63242e"
+                                    },
+                                    {
+                                        "path":  "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 2.hsc",
+                                        "size":  472572,
+                                        "sha":  "7fbe13d2f6109f1e47baaa8eeb2694b37f016bcf"
+                                    },
+                                    {
+                                        "path":  "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 3.hsc",
+                                        "size":  475549,
+                                        "sha":  "caebc6cecf3e101340316aef28e019f83116fd06"
+                                    },
+                                    {
+                                        "path":  "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO BASE.hsc",
+                                        "size":  401409,
+                                        "sha":  "99b9befffbfcffa7a73f76ee5b32eb341be54750"
+                                    },
+                                    {
+                                        "path":  "Proyecto Sección de absorción-desorción de la Planta de producción de óxido de etileno/Proyecto 1 Sección de absorción-desorción de la Planta de producción de óxido de etileno .hsc",
+                                        "size":  928782,
+                                        "sha":  "8fbfc293e3598fb6398ba9c9bbab139a6681245f"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Proyecto P1 Balance de Energía y eficiencia de un horno/Proyecto_1 Balance de Energía y eficiencia de un horno_Cristopher Arvizu Cano (2).xlsx",
+                                       "size":  101433,
+                                       "sha":  "5392b2b6bf841b31a132579885a179aafddcc2b8"
+                                   },
+                                   {
+                                       "path":  "Proyecto P1 Balance de Energía y eficiencia de un horno/Proyecto_1 Balance de Energía y eficiencia de un horno_Cristopher Arvizu Cano.pdf",
+                                       "size":  1410045,
+                                       "sha":  "decd31de52690986e2ed3b9c405126a8975c719b"
+                                   },
+                                   {
+                                       "path":  "Proyecto P1 Balance de Energía y eficiencia de un horno/README.md",
+                                       "size":  9211,
+                                       "sha":  "60592b9f15a3634cd6104730cba36a7c59a160b8"
+                                   },
+                                   {
+                                       "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/Proyecto_2 Cr Balance de Energía y eficiencia de un horno_Cristopher Arvizu Cano.pdf",
+                                       "size":  1911498,
+                                       "sha":  "39422072dec3c2858249d7fcf98e7664e89bbeab"
+                                   },
+                                   {
+                                       "path":  "Proyecto P2  Ciclos de vapor para generación de potencia/README.md",
+                                       "size":  7286,
+                                       "sha":  "438050109e4034eeeeccc4136f7fca20dc6b331c"
+                                   },
+                                   {
+                                       "path":  "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2-Pinch y Exergia Circuito de sntesis NH3-2020-1.pdf",
+                                       "size":  2411044,
+                                       "sha":  "67b33285fd275f39f3e6b555f78a852947625e0a"
+                                   },
+                                   {
+                                       "path":  "Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2-Pinch y Exergia Circuito de sntesis NH3-2020-1.xlsx",
+                                       "size":  25984,
+                                       "sha":  "1cf2142538ffcc5f3fd9369d16b4a490199c9428"
+                                   },
+                                   {
+                                       "path":  "Proyecto Sección de absorción-desorción de la Planta de producción de óxido de etileno/Proyecto 1 Sección de absorción-desorción de la Planta de producción de óxido de etileno .xlsx",
+                                       "size":  25300,
+                                       "sha":  "a0310dfdd06df414692c83f7a4237d25473cb80d"
+                                   },
+                                   {
+                                       "path":  "Proyecto Sección de absorción-desorción de la Planta de producción de óxido de etileno/Proyecto 1 Sección de absorción-desorción de la Planta de producción de óxido de etileno.pdf",
+                                       "size":  1081713,
+                                       "sha":  "5987807679eaa213500639327b2cdc09ae5a717c"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  2080,
+                                       "sha":  "82743b8aa8962f71418d67a7a47ce9a97b71c4e0"
+                                   }
+                               ]
+             },
+    "error":  null
+}

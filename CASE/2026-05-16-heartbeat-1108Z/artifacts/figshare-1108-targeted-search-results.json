@@ -1,0 +1,1178 @@
+﻿[
+    {
+        "query":  "Aspen HYSYS .hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20.hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS .hscz",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20.hscz\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS case file",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20case%20file\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS simulation file",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20simulation%20file\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS supplementary material hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20supplementary%20material%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "HYSYS XML Cases xml",
+        "url":  "https://api.figshare.com/v2/articles?search_for=HYSYS%20XML%20Cases%20xml\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS CO2 capture hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20CO2%20capture%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS LNG hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20LNG%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS hydrogen hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20hydrogen%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS ammonia hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20ammonia%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS methanol hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20methanol%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    },
+    {
+        "query":  "Aspen HYSYS supersonic separator hsc",
+        "url":  "https://api.figshare.com/v2/articles?search_for=Aspen%20HYSYS%20supersonic%20separator%20hsc\u0026page_size=10",
+        "error":  [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null
+                  ],
+        "hits":  [
+                     {
+                         "id":  32306073,
+                         "title":  "Women We Love Femininities and the Korean Wave",
+                         "doi":  "",
+                         "url":  "https://api.figshare.com/v2/articles/32306073",
+                         "published_date":  "2026-05-16T10:56:21Z",
+                         "defined_type_name":  "book"
+                     },
+                     {
+                         "id":  32306064,
+                         "title":  "The Meaning of Educational Accumulation: Human Formation, Institutional Responsibility and Civilizational Continuity Under Conditions of Global Fragmentation (2023–2026)",
+                         "doi":  "10.6084/m9.figshare.32306064.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306064",
+                         "published_date":  "2026-05-16T10:55:06Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306070,
+                         "title":  "Selling densification through ecology: urban greening and the green growth machine in Switzerland",
+                         "doi":  "10.6084/m9.figshare.32306070.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306070",
+                         "published_date":  "2026-05-16T10:54:49Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32306061,
+                         "title":  "\u003cb\u003eFizzClean Toilet Cleaner Reviews – Pros, Cons \u0026 Complaints Does It Remove Tough Stains?\u003c/b\u003e",
+                         "doi":  "10.6084/m9.figshare.32306061.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306061",
+                         "published_date":  "2026-05-16T10:41:01Z",
+                         "defined_type_name":  "poster"
+                     },
+                     {
+                         "id":  32305977,
+                         "title":  "Supplementary Data for Similar positive shrub and forest canopy effects on tree seedlings reveal the crucial importance of VPD stress in Mediterranean climates.",
+                         "doi":  "10.6084/m9.figshare.32305977.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305977",
+                         "published_date":  "2026-05-16T10:40:13Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306058,
+                         "title":  "Cost Efficient \u0026 Scalable Blockchain Architecture for Cloud Computing Integrity Auditing",
+                         "doi":  "10.6084/m9.figshare.32306058.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306058",
+                         "published_date":  "2026-05-16T10:36:12Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306046,
+                         "title":  "\u003csup\u003e3D-Printed Composite Scaffolds Based on GelMA/Alginate and PCL/β-TCP for Bone Tissue Engineering and Craniofacial Reconstruction\u003c/sup\u003e",
+                         "doi":  "10.6084/m9.figshare.32306046.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306046",
+                         "published_date":  "2026-05-16T10:31:08Z",
+                         "defined_type_name":  "journal contribution"
+                     },
+                     {
+                         "id":  32305989,
+                         "title":  "Supplementary data files for \" \u003cb\u003eVertical and Horizontal IIT in the Context of Nepal’s Pharmaceutical and Health Product Exports to Global Markets\u003c/b\u003e\"",
+                         "doi":  "10.6084/m9.figshare.32305989.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32305989",
+                         "published_date":  "2026-05-16T10:25:53Z",
+                         "defined_type_name":  "dataset"
+                     },
+                     {
+                         "id":  32306043,
+                         "title":  "Fundamental Analysis of Transformer Essence of Self-Attention and Positional Encoding",
+                         "doi":  "10.6084/m9.figshare.32306043.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306043",
+                         "published_date":  "2026-05-16T10:23:17Z",
+                         "defined_type_name":  "preprint"
+                     },
+                     {
+                         "id":  32306040,
+                         "title":  "Latent-Class TWAS Reveals Opposing Glutamatergic-Plasticity Architectures and Neuroimmune-Pruning Signals in Alcohol Misuse Subtypes",
+                         "doi":  "10.6084/m9.figshare.32306040.v1",
+                         "url":  "https://api.figshare.com/v2/articles/32306040",
+                         "published_date":  "2026-05-16T10:17:08Z",
+                         "defined_type_name":  "preprint"
+                     }
+                 ]
+    }
+]

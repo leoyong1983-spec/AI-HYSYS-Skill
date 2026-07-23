@@ -1,0 +1,37 @@
+{
+  "zenodo": [],
+  "gitlab": [
+    {
+      "query": "Aspen HYSYS",
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-gitlab-project-search.json",
+      "project_count": 0
+    }
+  ],
+  "bitbucket": [],
+  "errors": [
+    {
+      "platform": "zenodo",
+      "query": "Aspen HYSYS .hsc",
+      "error": "HTTP Error 406: NOT ACCEPTABLE",
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-zenodo-Aspen__HYSYS__.hsc.err.txt"
+    },
+    {
+      "platform": "zenodo",
+      "query": "Aspen HYSYS .hscz",
+      "error": "HTTP Error 406: NOT ACCEPTABLE",
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-zenodo-Aspen__HYSYS__.hscz.err.txt"
+    },
+    {
+      "platform": "zenodo",
+      "query": "HYSYS XML Cases .xml",
+      "error": "HTTP Error 406: NOT ACCEPTABLE",
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-zenodo-HYSYS__XML__Cases__.xml.err.txt"
+    },
+    {
+      "platform": "bitbucket",
+      "query": "name/description HYSYS",
+      "error": "HTTP Error 410: Gone",
+      "path": "CASE/2026-05-17-heartbeat-1711Z/artifacts/external-1711-bitbucket-search.err.txt"
+    }
+  ]
+}

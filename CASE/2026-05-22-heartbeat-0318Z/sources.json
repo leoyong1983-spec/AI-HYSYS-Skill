@@ -1,0 +1,170 @@
+[
+  {
+    "title": "GitHub no-license .hsc duplicate sweep",
+    "type": "candidate_sweep_duplicate_no_license",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS&type=repositories",
+    "download_url": "not_downloaded_duplicate_or_no_license",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub metadata and tree listings were inspected. Model-bearing repositories in this sweep did not expose explicit licenses, so no payloads were downloaded.",
+    "recommended_use": "Manual permission-review queue only. Do not ingest into the CASE benchmark archive unless explicit license or author permission appears.",
+    "dedupe_keys": [
+      "source_page:https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+      "source_page:https://github.com/marcellobozzini/Python-Driving-License",
+      "source_page:https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+      "filename:Gas Turbine Power Plant Simulation.hsc",
+      "filename:Separazione_reattori.hsc",
+      "filename:GROUP_17.hsc.hsc",
+      "prior_case:CASE/2026-05-11-heartbeat-1909Z",
+      "prior_case:CASE/2026-05-16-heartbeat-0608Z",
+      "prior_case:CASE/2026-05-17-heartbeat-0709Z"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "gas turbine, reactor separation, methanol synthesis",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [
+        "royhanikbarr/Gas-Turbine-Hysys: Gas Turbine Power Plant Simulation.hsc",
+        "marcellobozzini/Python-Driving-License: Separazione_reattori.hsc",
+        "kush1706/Methanol_Synthesis_Aspen_hysys: GROUP_17.hsc.hsc"
+      ],
+      "supporting_artifacts_observed": [
+        "README files",
+        "PDF/PNG support files for some repositories",
+        "Jupyter notebook in one repository"
+      ]
+    },
+    "residual_risks": [
+      "No explicit model redistribution license was observed.",
+      "Repositories are duplicates of prior CASE candidate records.",
+      "HYSYS version and solve status were not verified."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "GitHub no-model / empty-repository sweep",
+    "type": "candidate_sweep_no_qualifying_model_files",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS&type=repositories",
+    "download_url": "not_downloaded_no_qualifying_hysys_model",
+    "local_artifacts": [],
+    "license_public_access_note": "Only public GitHub metadata and tree listings were inspected. Most repositories had no explicit license; MIT-licensed automation code lacked a HYSYS model payload.",
+    "recommended_use": "Use for search-filter tuning or automation-reference backlog only. Do not archive as HYSYS model cases.",
+    "dedupe_keys": [
+      "source_page:https://github.com/ved10544-spec/Ved10544",
+      "source_page:https://github.com/miladmolaee/AspenHysys",
+      "source_page:https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+      "source_page:https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+      "source_page:https://github.com/Shreya88876/Aspen_file_shreya",
+      "source_page:https://github.com/shri2901/AspenHYSYS",
+      "source_page:https://github.com/DanielVazVaz/PySIS",
+      "source_page:https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+      "no_qualifying_hysys_model_file_observed"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "mixed HYSYS keyword hits and automation references",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "README-only repositories",
+        "empty repositories",
+        "PDF-only repository",
+        "Python automation code without model payload"
+      ]
+    },
+    "residual_risks": [
+      "Keyword hits may become relevant only if repositories add model files later.",
+      "Automation repositories may depend on private local HYSYS cases.",
+      "No local HYSYS runtime validation was performed."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Zenodo recent Aspen HYSYS sweep",
+    "type": "candidate_sweep_duplicate_or_pdf_only",
+    "quality": "D",
+    "source_page": "https://zenodo.org/api/records/?q=%22Aspen%20HYSYS%22&size=25&sort=mostrecent",
+    "download_url": "not_downloaded_duplicate_or_pdf_only",
+    "local_artifacts": [],
+    "license_public_access_note": "Public Zenodo metadata was inspected. Known model-bearing records were duplicates of existing CASE entries; many other hits were PDF-only paper records.",
+    "recommended_use": "Use as DOI duplicate avoidance and literature backlog. Download only future nonduplicate records with exposed HYSYS model files and clear license terms.",
+    "dedupe_keys": [
+      "zenodo_record:14882867",
+      "zenodo_record:18806107",
+      "zenodo_record:10966344",
+      "filename:MeOH_Production.hsc",
+      "filename:Capture_onboard_NG.hsc",
+      "filename:Capture_onboard_methanol.hsc",
+      "filename:7. Sistema Integrado OCC,ASU,CCS.hsc",
+      "filename:TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "marine fuels, oxy-combustion carbon capture, Tennessee Eastman, mixed HYSYS papers",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [
+        "MeOH_Production.hsc",
+        "Capture_onboard_NG.hsc",
+        "Capture_onboard_methanol.hsc",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc",
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+      ],
+      "supporting_artifacts_observed": [
+        "Zenodo metadata",
+        "CC BY 4.0 records",
+        "CC BY-NC-ND 4.0 record",
+        "PDF-only records"
+      ]
+    },
+    "residual_risks": [
+      "Model-bearing records are already archived or logged in CASE.",
+      "CC BY-NC-ND restrictions limit reuse of the Tennessee Eastman HYSYS record.",
+      "PDF-only records do not expose reusable HYSYS models."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Figshare / Dataverse / Mendeley public search sweep",
+    "type": "candidate_sweep_no_confirmed_open_model",
+    "quality": "D",
+    "source_page": "https://api.figshare.com/v2/articles/search; https://dataverse.harvard.edu/api/search; https://data.mendeley.com/research-data/?search=Aspen%20HYSYS%20hsc",
+    "download_url": "not_downloaded_no_confirmed_open_hysys_model",
+    "local_artifacts": [],
+    "license_public_access_note": "Only public metadata or search pages were inspected. No new public, clearly licensed HYSYS main model package was confirmed.",
+    "recommended_use": "Continue as lower-priority discovery channels; require file-list proof of .hsc/.hscz/HYSYS XML/.compound before download.",
+    "dedupe_keys": [
+      "figshare_search:Aspen HYSYS hsc hscz",
+      "dataverse_search:Aspen HYSYS",
+      "mendeley_search:Aspen HYSYS hsc",
+      "no_confirmed_open_hysys_model_package"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "public search metadata only"
+      ]
+    },
+    "residual_risks": [
+      "Dynamic search interfaces may hide file details.",
+      "No candidate file was downloaded or inspected.",
+      "Manual DOI-specific follow-up may be needed if a stronger lead appears."
+    ],
+    "model_run_status": "not_run"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "file_count_excluding_this_inventory": 18,
+  "extension_counts": {
+    ".json": 18
+  },
+  "risky_or_macro_like_files": [],
+  "scripts_downloaded_but_not_executed": [],
+  "hysys_models_downloaded_but_not_opened": [],
+  "note": "No HYSYS model payloads or companion documents were downloaded in this run; final artifacts are search metadata only."
+}

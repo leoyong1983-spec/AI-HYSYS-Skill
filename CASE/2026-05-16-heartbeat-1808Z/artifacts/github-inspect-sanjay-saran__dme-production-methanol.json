@@ -1,0 +1,28 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "sanjay-saran/dme-production-methanol",
+                 "url":  "https://github.com/sanjay-saran/dme-production-methanol",
+                 "description":  "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-04-23T13:35:15Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  1,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1218,
+                                       "sha":  "19a3f80a8e96b134e7028534008895ef84eb0a5a"
+                                   }
+                               ]
+             },
+    "error":  null
+}

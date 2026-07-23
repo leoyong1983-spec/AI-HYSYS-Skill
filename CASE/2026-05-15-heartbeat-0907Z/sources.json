@@ -1,0 +1,869 @@
+[
+  {
+    "title": "Natural Gas Sweetening DEA Absorption Simulation",
+    "type": "hysys_case",
+    "quality": "B",
+    "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+    "download_url": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-shahria-sunny__Natural-Gas-Sweetening-repo.json",
+        "filename": "github-shahria-sunny__Natural-Gas-Sweetening-repo.json",
+        "file_type": "json",
+        "size_bytes": 7056,
+        "sha256": "3c9623a568dffdf86a62a55861bdc69382362329517e4fb8df18f71042456343"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-shahria-sunny__Natural-Gas-Sweetening-tree.json",
+        "filename": "github-shahria-sunny__Natural-Gas-Sweetening-tree.json",
+        "file_type": "json",
+        "size_bytes": 1468,
+        "sha256": "e2f874ed68a54d6668ba31d0a144e6caa6f3c5b143a8363d7022e2c8c62e23f7"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/duplicate-payload-check.json",
+        "filename": "duplicate-payload-check.json",
+        "file_type": "json",
+        "size_bytes": 5498,
+        "sha256": "b8ae11e546f6ffa5e22ae529398c536e2370a85f21f443f016d3570f6bcfc920"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected. No final payload was added in this run because the case is already archived in CASE/2026-05-11-heartbeat-0741Z.",
+    "recommended_use": "Existing archived copy remains useful for natural gas sweetening, DEA absorption and acid-gas removal regression tests.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+      "download_url": "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+      "title": "shahria-sunny/Natural-Gas-Sweetening",
+      "filenames": [
+        "Gas Sweetening.hsc"
+      ],
+      "sha256": [
+        "fcda75090796e9ba8a69bfb29a769deea36761d11d26c93d51d98318d19d4610"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source/case; current-run payload copies were removed before commit.",
+      "Model was not opened or solved in this run."
+    ]
+  },
+  {
+    "title": "Crude Oil Atmospheric Distillation Simulation and Energy Optimization",
+    "type": "hysys_case",
+    "quality": "B",
+    "source_page": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+    "download_url": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-shahria-sunny__CDU-Simulation-Optimization-repo.json",
+        "filename": "github-shahria-sunny__CDU-Simulation-Optimization-repo.json",
+        "file_type": "json",
+        "size_bytes": 7365,
+        "sha256": "0d93855dca8503317147572e648a0e66b3a1c289cf79f311ab0ceae87b43e4f3"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-shahria-sunny__CDU-Simulation-Optimization-tree.json",
+        "filename": "github-shahria-sunny__CDU-Simulation-Optimization-tree.json",
+        "file_type": "json",
+        "size_bytes": 1474,
+        "sha256": "3a3261bbb2d67525867c43a5657b35efd802ccb7dd4810e50cbfe239ddd25f62"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/duplicate-payload-check.json",
+        "filename": "duplicate-payload-check.json",
+        "file_type": "json",
+        "size_bytes": 5498,
+        "sha256": "b8ae11e546f6ffa5e22ae529398c536e2370a85f21f443f016d3570f6bcfc920"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected. No final payload was added in this run because the case is already archived in CASE/2026-05-11-heartbeat-0741Z.",
+    "recommended_use": "Existing archived copy remains useful for crude distillation, refinery CDU and energy optimization regression tests.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+      "download_url": "https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+      "title": "shahria-sunny/CDU-Simulation-Optimization",
+      "filenames": [
+        "project.hsc"
+      ],
+      "sha256": [
+        "795c3587c611405f4786115514030036987615e47c33fe74aba1fcb1610fbdd2"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source/case; current-run payload copies were removed before commit.",
+      "Model was not opened or solved in this run."
+    ]
+  },
+  {
+    "title": "Pressure Drop Estimation in Pipelines",
+    "type": "hysys_case",
+    "quality": "B",
+    "source_page": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "download_url": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines-repo.json",
+        "filename": "github-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines-repo.json",
+        "file_type": "json",
+        "size_bytes": 7971,
+        "sha256": "1c91b34b485550a64b967fe67245f91d1b2fa21646c401dc007957bc039c0488"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines-tree.json",
+        "filename": "github-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines-tree.json",
+        "file_type": "json",
+        "size_bytes": 5666,
+        "sha256": "203c81ba45973b492a08385265610ba2cd5038aa782ce205b2d44178c9c3ae62"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/duplicate-payload-check.json",
+        "filename": "duplicate-payload-check.json",
+        "file_type": "json",
+        "size_bytes": 5498,
+        "sha256": "b8ae11e546f6ffa5e22ae529398c536e2370a85f21f443f016d3570f6bcfc920"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected. No final payload was added in this run because the case is already archived in CASE/2026-05-11-heartbeat-0741Z.",
+    "recommended_use": "Existing archived copy remains useful for pressure-drop comparisons, pipeline hydraulics and HYSYS-vs-script data checks.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "download_url": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "title": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "filenames": [
+        "ASPEN HYSYS/Pressure Drop Estimation in pipelines.hsc"
+      ],
+      "sha256": [
+        "312418da47afc724bd75ef9d61c05c95cb1ad783010d39bc06793a25b579b9ac"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source/case; current-run payload copies were removed before commit.",
+      "Model was not opened or solved in this run."
+    ]
+  },
+  {
+    "title": "ap-python Aspen HYSYS automation test case",
+    "type": "hysys_case",
+    "quality": "B",
+    "source_page": "https://github.com/bsha0/ap-python",
+    "download_url": "https://github.com/bsha0/ap-python",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-bsha0__ap-python-repo.json",
+        "filename": "github-bsha0__ap-python-repo.json",
+        "file_type": "json",
+        "size_bytes": 5765,
+        "sha256": "903553b8e15d28ce397271a71941bc973f06314945e9dc239c800202427dd853"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-bsha0__ap-python-tree.json",
+        "filename": "github-bsha0__ap-python-tree.json",
+        "file_type": "json",
+        "size_bytes": 8649,
+        "sha256": "725ce95cd26575de0a8ebfb478bd4e50c031d53ab2b88d23f09cdeb41bc090e3"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/duplicate-payload-check.json",
+        "filename": "duplicate-payload-check.json",
+        "file_type": "json",
+        "size_bytes": 5498,
+        "sha256": "b8ae11e546f6ffa5e22ae529398c536e2370a85f21f443f016d3570f6bcfc920"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected. No final payload was added in this run because the case is already archived in CASE/2026-05-11-heartbeat-1057Z.",
+    "recommended_use": "Existing archived copy remains useful for package-level Python/HYSYS automation tests.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/bsha0/ap-python",
+      "download_url": "https://github.com/bsha0/ap-python",
+      "title": "bsha0/ap-python",
+      "filenames": [
+        "ap-python/ap_python/tests/Atmospheric Crude Tower.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source/case; current-run payload copies were removed before commit.",
+      "Model was not opened or solved in this run."
+    ]
+  },
+  {
+    "title": "Tennessee Eastman process in Aspen HYSYS",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/iraola/tennessee-eastman-hysys",
+    "download_url": "https://github.com/iraola/tennessee-eastman-hysys",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-iraola__tennessee-eastman-hysys-repo.json",
+        "filename": "github-iraola__tennessee-eastman-hysys-repo.json",
+        "file_type": "json",
+        "size_bytes": 6426,
+        "sha256": "db735ef3851b0b9dd38423b9ddd3476428fb3da1ea96f6b44a880c89e4054358"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-iraola__tennessee-eastman-hysys-tree.json",
+        "filename": "github-iraola__tennessee-eastman-hysys-tree.json",
+        "file_type": "json",
+        "size_bytes": 1140,
+        "sha256": "44ecb2740de243d62ba57d49cf0918cf9ec2c306b4c052c549bb785494ea6bc7"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata was accessible. NOASSERTION license field; contains TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC but license/redistribution terms need manual review. Payload files were not downloaded.",
+    "recommended_use": "Could be a valuable dynamic/process-monitoring benchmark after license review.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/iraola/tennessee-eastman-hysys",
+      "download_url": "https://github.com/iraola/tennessee-eastman-hysys",
+      "title": "iraola/tennessee-eastman-hysys",
+      "filenames": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License or redistribution rights are unresolved.",
+      "Repository tree metadata confirms filenames only; no model SHA was calculated because payload was not downloaded.",
+      "No scripts, workbooks or HYSYS models were executed."
+    ]
+  },
+  {
+    "title": "Syngas generation DMR/SMR HYSYS simulations",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+    "download_url": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors-repo.json",
+        "filename": "github-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors-repo.json",
+        "file_type": "json",
+        "size_bytes": 9979,
+        "sha256": "b6056bdbac265196d7f1176acaa5fd2d17641903776246ca599827c0bdc3794b"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors-tree.json",
+        "filename": "github-Pouria-MK___Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors-tree.json",
+        "file_type": "json",
+        "size_bytes": 6381,
+        "sha256": "9c26ca23139cbc06300575a194d182382284660296a2e2ce7344ed3ceb8a48a9"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata was accessible. No License detected; contains two .hsc files, XML, Excel and PDF reports. Payload files were not downloaded.",
+    "recommended_use": "Potential syngas/SMR-DMR process design benchmark after permission review.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "download_url": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "title": "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "filenames": [
+        "SIM/SynGas-SMR-DMR(integration).hsc",
+        "SIM/SynGas-SMR-DMR(main).hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License or redistribution rights are unresolved.",
+      "Repository tree metadata confirms filenames only; no model SHA was calculated because payload was not downloaded.",
+      "No scripts, workbooks or HYSYS models were executed."
+    ]
+  },
+  {
+    "title": "Styrene plant HYSYS V12 simulations",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+    "download_url": "https://github.com/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Pouria-MK___Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant-repo.json",
+        "filename": "github-Pouria-MK___Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant-repo.json",
+        "file_type": "json",
+        "size_bytes": 8999,
+        "sha256": "31dac3bb6a6a0fc17b854d09be559598e79e8b71a3d6ac5f68434b0872edb9e3"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Pouria-MK___Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant-tree.json",
+        "filename": "github-Pouria-MK___Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant-tree.json",
+        "file_type": "json",
+        "size_bytes": 6825,
+        "sha256": "e68622fa41b690082bc3d466d5d6297e8f906df03ebaf015631d454396631c28"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata was accessible. No License detected; contains .hsc and .hscz files with reports and spreadsheets; filenames indicate V12. Payload files were not downloaded.",
+    "recommended_use": "Potential HYSYS V12 compatibility benchmark after permission review.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+      "download_url": "https://github.com/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+      "title": "Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+      "filenames": [
+        "SIM/MainSimStyreneV12(modified).hsc",
+        "SIM/MainSimStyreneV12.hsc",
+        "SIM/Styrene-Recycle.hsc",
+        "SIM/Styrene.hsc",
+        "SIM/Styrene-Recycle.hscz",
+        "SIM/Styrene.hscz"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc",
+        ".hscz"
+      ],
+      "suspected_hysys_version": "V12",
+      "contains_hsc": true,
+      "contains_hscz": true,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License or redistribution rights are unresolved.",
+      "Repository tree metadata confirms filenames only; no model SHA was calculated because payload was not downloaded.",
+      "No scripts, workbooks or HYSYS models were executed."
+    ]
+  },
+  {
+    "title": "HYSYS Python GA decarbonization optimization",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/lihaijie1228/hysys_python_GA",
+    "download_url": "https://github.com/lihaijie1228/hysys_python_GA",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-lihaijie1228__hysys_python_GA-repo.json",
+        "filename": "github-lihaijie1228__hysys_python_GA-repo.json",
+        "file_type": "json",
+        "size_bytes": 6247,
+        "sha256": "9296d9ddb5b6aed9af5533521b0ecb3d140cb4a92c1ea78b451c4f5ce3a1edf9"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-lihaijie1228__hysys_python_GA-tree.json",
+        "filename": "github-lihaijie1228__hysys_python_GA-tree.json",
+        "file_type": "json",
+        "size_bytes": 4530,
+        "sha256": "1216056728d69d23166a6691612b9ea1b42039db3138f23b3ec216a813c0b762"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata was accessible. No License detected; contains Decarbonization.hsc, CSV/TXT and Python scripts. Payload files were not downloaded.",
+    "recommended_use": "Potential Python-COM optimization benchmark after permission review.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/lihaijie1228/hysys_python_GA",
+      "download_url": "https://github.com/lihaijie1228/hysys_python_GA",
+      "title": "lihaijie1228/hysys_python_GA",
+      "filenames": [
+        "simulaton_file/Decarbonization/Decarbonization.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License or redistribution rights are unresolved.",
+      "Repository tree metadata confirms filenames only; no model SHA was calculated because payload was not downloaded.",
+      "No scripts, workbooks or HYSYS models were executed."
+    ]
+  },
+  {
+    "title": "Gaussian-process RTO HYSYS testing case",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/chickenhgbla/gaussian-process-rto",
+    "download_url": "https://github.com/chickenhgbla/gaussian-process-rto",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-chickenhgbla__gaussian-process-rto-repo.json",
+        "filename": "github-chickenhgbla__gaussian-process-rto-repo.json",
+        "file_type": "json",
+        "size_bytes": 6428,
+        "sha256": "45bc0d5acc67e9e2c8d768944a79698f85184b02ef0b776db5f64f4ec21e336c"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-chickenhgbla__gaussian-process-rto-tree.json",
+        "filename": "github-chickenhgbla__gaussian-process-rto-tree.json",
+        "file_type": "json",
+        "size_bytes": 2657,
+        "sha256": "f573e890ba1532ab71508433a67ec51634df1344d5d49bb9e11ea4a774f92fc2"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata was accessible. No License detected; contains testing.hsc, Excel and MATLAB scripts. Payload files were not downloaded.",
+    "recommended_use": "Potential surrogate/RTO benchmark after permission review.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/chickenhgbla/gaussian-process-rto",
+      "download_url": "https://github.com/chickenhgbla/gaussian-process-rto",
+      "title": "chickenhgbla/gaussian-process-rto",
+      "filenames": [
+        "testing.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "License or redistribution rights are unresolved.",
+      "Repository tree metadata confirms filenames only; no model SHA was calculated because payload was not downloaded.",
+      "No scripts, workbooks or HYSYS models were executed."
+    ]
+  },
+  {
+    "title": "HDA Surrogate Optimization automation reference",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+    "download_url": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Galigeigei-Z__HDA-Surrogate-Optimization-repo.json",
+        "filename": "github-Galigeigei-Z__HDA-Surrogate-Optimization-repo.json",
+        "file_type": "json",
+        "size_bytes": 7086,
+        "sha256": "18ef713bf1807eb5db95bf7fcf365ad48da4b50df6efaf550e599b183f15257f"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Galigeigei-Z__HDA-Surrogate-Optimization-tree.json",
+        "filename": "github-Galigeigei-Z__HDA-Surrogate-Optimization-tree.json",
+        "file_type": "json",
+        "size_bytes": 9605,
+        "sha256": "a0a151556135813b7759ae085cad5bc20e30b47d1ceb23adc5bbed33fc32e745"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected, but no qualifying .hsc/.hscz/HYSYS XML/.compound file was found.",
+    "recommended_use": "Automation/reference only; no HYSYS case file found in tree.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+      "download_url": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+      "title": "Galigeigei-Z/HDA-Surrogate-Optimization",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Skipped as benchmark case because no HYSYS model file was found.",
+      "No payload files or scripts were executed."
+    ]
+  },
+  {
+    "title": "RBF atmospheric distillation data reference",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "download_url": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-repo.json",
+        "filename": "github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-repo.json",
+        "file_type": "json",
+        "size_bytes": 7719,
+        "sha256": "a83bfb7e6e0e277c25874ff8a2d7f56a4bc713207f537b1e95bd16fb4b915cdf"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-tree.json",
+        "filename": "github-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation-tree.json",
+        "file_type": "json",
+        "size_bytes": 5857,
+        "sha256": "ab3e66b9b1b9dc16690c9e014c5e26507c60e8c860bd7ced32de755a10b7d906"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected, but no qualifying .hsc/.hscz/HYSYS XML/.compound file was found.",
+    "recommended_use": "Data/reference only; no HYSYS case file found in tree.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+      "download_url": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+      "title": "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Skipped as benchmark case because no HYSYS model file was found.",
+      "No payload files or scripts were executed."
+    ]
+  },
+  {
+    "title": "Sketch2Simulation process diagram reference",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation",
+    "download_url": "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-OptiMaL-PSE-Lab__Sketch2Simulation-repo.json",
+        "filename": "github-OptiMaL-PSE-Lab__Sketch2Simulation-repo.json",
+        "file_type": "json",
+        "size_bytes": 7931,
+        "sha256": "a79e8a302c65d67f77ac51693fa5cc2c554c5db513d1da50c7470ff68ebb8620"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-OptiMaL-PSE-Lab__Sketch2Simulation-tree.json",
+        "filename": "github-OptiMaL-PSE-Lab__Sketch2Simulation-tree.json",
+        "file_type": "json",
+        "size_bytes": 13037,
+        "sha256": "56c764616a12f3da3cdecc0c129ea786c3c7192f41848c845afd6bdc624e696b"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected, but no qualifying .hsc/.hscz/HYSYS XML/.compound file was found.",
+    "recommended_use": "Possible AI-to-flowsheet reference only; no HYSYS case file found in tree.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation",
+      "download_url": "https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation",
+      "title": "OptiMaL-PSE-Lab/Sketch2Simulation",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Skipped as benchmark case because no HYSYS model file was found.",
+      "No payload files or scripts were executed."
+    ]
+  },
+  {
+    "title": "GitHub-first 2026-05-15 0907Z licensed and candidate sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/search",
+    "download_url": "https://github.com/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-aspen-hysys-readme.json",
+        "filename": "github-cli-search-aspen-hysys-readme.json",
+        "file_type": "json",
+        "size_bytes": 26230,
+        "sha256": "4694afd170585d3ce8be97c215e0453243006e3026803e52231e274251481f11"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-hysys-case-readme.json",
+        "filename": "github-cli-search-hysys-case-readme.json",
+        "file_type": "json",
+        "size_bytes": 18482,
+        "sha256": "9e98fc74559bab88b72b22caa3e6fd062cf96dab6b6ebc5ddb98824934627265"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-hysys-com-python.json",
+        "filename": "github-cli-search-hysys-com-python.json",
+        "file_type": "json",
+        "size_bytes": 3830,
+        "sha256": "13d490bf540f6785ac1a993eba2b115aaeb7b56630bc836d32da7c1ab17d26eb"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-hysys-excel-validation.json",
+        "filename": "github-cli-search-hysys-excel-validation.json",
+        "file_type": "json",
+        "size_bytes": 6349,
+        "sha256": "93f2d97c23050b4f4f47e580b1e8bee076d50d70dbd8fc75a9dfb3cd14c70227"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-hysys-hsc-readme.json",
+        "filename": "github-cli-search-hysys-hsc-readme.json",
+        "file_type": "json",
+        "size_bytes": 10006,
+        "sha256": "c895cc26912bd984c498411a7fb0995b344ca17dcc38ee14eb573c8c6b3392cd"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-hysys-hscz-readme.json",
+        "filename": "github-cli-search-hysys-hscz-readme.json",
+        "file_type": "json",
+        "size_bytes": 55,
+        "sha256": "dcd163395d9da097718040a9b09df9ef272c4a314e0347a86d8ff7e4cfcfcf46"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-license-apache2-hysys.json",
+        "filename": "github-cli-search-license-apache2-hysys.json",
+        "file_type": "json",
+        "size_bytes": 652,
+        "sha256": "393f44119c59baf5e84213d142d91131d45280b74a52ca888e729e321480bf5a"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-license-gpl3-hysys.json",
+        "filename": "github-cli-search-license-gpl3-hysys.json",
+        "file_type": "json",
+        "size_bytes": 3554,
+        "sha256": "a228b9eebe924e9d2af3a03ddedb9fb6540a767a48856cf0f583d8c9ce8e56c0"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-license-mit-hysys.json",
+        "filename": "github-cli-search-license-mit-hysys.json",
+        "file_type": "json",
+        "size_bytes": 9214,
+        "sha256": "b8890ba3cb861a126efd91d5cce046d736b3e2282d6870b1751d7fda7dd0cc2a"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-cli-search-merged-repos.json",
+        "filename": "github-cli-search-merged-repos.json",
+        "file_type": "json",
+        "size_bytes": 64519,
+        "sha256": "7c36a4664eadf2442154e620931109cda127ac46557dac45a4923cdfa84454d9"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-0907-expanded-tree-summary.json",
+        "filename": "github-0907-expanded-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 48374,
+        "sha256": "091b7e43899192b1b12977c4bc05346057701b2cc630f1d76e323d30afe88860"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/github-0907-repo-tree-summary.json",
+        "filename": "github-0907-repo-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 4819,
+        "sha256": "493618dff3f211c3866ae992189f0830355c17778ee05dfa6e9dba0f71dccdd1"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/dedupe-summary.json",
+        "filename": "dedupe-summary.json",
+        "file_type": "json",
+        "size_bytes": 239,
+        "sha256": "ff06629d8201eec23160db10b3a4ebd264b2dc8296c14d400eed306bc05e3585"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/security-inventory.json",
+        "filename": "security-inventory.json",
+        "file_type": "json",
+        "size_bytes": 361,
+        "sha256": "4afa790c059e684c26174db9c6db70a0bd7b5f92a5721f2318d4f089deb7585e"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/download-manifest.json",
+        "filename": "download-manifest.json",
+        "file_type": "json",
+        "size_bytes": 75,
+        "sha256": "05b9bc6a7c5d0350d9e75e8b415ee1ce7e70f77fecd148b7210ce3fc40ebbdca"
+      },
+      {
+        "path": "CASE/2026-05-15-heartbeat-0907Z/artifacts/duplicate-payload-check.json",
+        "filename": "duplicate-payload-check.json",
+        "file_type": "json",
+        "size_bytes": 5498,
+        "sha256": "b8ae11e546f6ffa5e22ae529398c536e2370a85f21f443f016d3570f6bcfc920"
+      }
+    ],
+    "license_public_access_note": "Search and tree metadata only. No final new model payload was committed in this run after source/SHA dedupe.",
+    "recommended_use": "Use this sweep to refine duplicate allowlists and prioritize manual license review for NOASSERTION/no-license HYSYS case repositories.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/search",
+      "download_url": "https://github.com/search",
+      "title": "GitHub-first 2026-05-15 0907Z licensed and candidate sweep",
+      "filenames": [
+        "github-cli-search-aspen-hysys-readme.json",
+        "github-cli-search-hysys-case-readme.json",
+        "github-cli-search-hysys-com-python.json",
+        "github-cli-search-hysys-excel-validation.json",
+        "github-cli-search-hysys-hsc-readme.json",
+        "github-cli-search-hysys-hscz-readme.json",
+        "github-cli-search-license-apache2-hysys.json",
+        "github-cli-search-license-gpl3-hysys.json",
+        "github-cli-search-license-mit-hysys.json",
+        "github-cli-search-merged-repos.json",
+        "github-0907-expanded-tree-summary.json",
+        "github-0907-repo-tree-summary.json",
+        "dedupe-summary.json",
+        "security-inventory.json",
+        "download-manifest.json",
+        "duplicate-payload-check.json"
+      ],
+      "sha256": [
+        "4694afd170585d3ce8be97c215e0453243006e3026803e52231e274251481f11",
+        "9e98fc74559bab88b72b22caa3e6fd062cf96dab6b6ebc5ddb98824934627265",
+        "13d490bf540f6785ac1a993eba2b115aaeb7b56630bc836d32da7c1ab17d26eb",
+        "93f2d97c23050b4f4f47e580b1e8bee076d50d70dbd8fc75a9dfb3cd14c70227",
+        "c895cc26912bd984c498411a7fb0995b344ca17dcc38ee14eb573c8c6b3392cd",
+        "dcd163395d9da097718040a9b09df9ef272c4a314e0347a86d8ff7e4cfcfcf46",
+        "393f44119c59baf5e84213d142d91131d45280b74a52ca888e729e321480bf5a",
+        "a228b9eebe924e9d2af3a03ddedb9fb6540a767a48856cf0f583d8c9ce8e56c0",
+        "b8890ba3cb861a126efd91d5cce046d736b3e2282d6870b1751d7fda7dd0cc2a",
+        "7c36a4664eadf2442154e620931109cda127ac46557dac45a4923cdfa84454d9",
+        "091b7e43899192b1b12977c4bc05346057701b2cc630f1d76e323d30afe88860",
+        "493618dff3f211c3866ae992189f0830355c17778ee05dfa6e9dba0f71dccdd1",
+        "ff06629d8201eec23160db10b3a4ebd264b2dc8296c14d400eed306bc05e3585",
+        "4afa790c059e684c26174db9c6db70a0bd7b5f92a5721f2318d4f089deb7585e",
+        "05b9bc6a7c5d0350d9e75e8b415ee1ce7e70f77fecd148b7210ce3fc40ebbdca",
+        "b8ae11e546f6ffa5e22ae529398c536e2370a85f21f443f016d3570f6bcfc920"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc",
+        ".hscz"
+      ],
+      "suspected_hysys_version": "V12 candidate in styrene filenames; otherwise unknown",
+      "contains_hsc": true,
+      "contains_hscz": true,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Search metadata may include false positives.",
+      "Some candidates may become downloadable only after license or author permission is clarified."
+    ]
+  }
+]

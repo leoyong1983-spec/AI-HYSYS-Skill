@@ -1,0 +1,205 @@
+{
+  "query": "HYSYS Excel validation in:readme",
+  "items": [
+    {
+      "description": "Pressure Drop Estimation in Pipelines using Darcy–Weisbach equation with analytical modeling and multi-software validation (MATLAB, Python, Excel, Aspen HYSYS & DWSIM).",
+      "fullName": "kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOCLpF7Q",
+        "is_bot": false,
+        "login": "kavinrajachakravarthy",
+        "type": "User",
+        "url": "https://github.com/kavinrajachakravarthy"
+      },
+      "updatedAt": "2026-04-27T02:50:41Z",
+      "url": "https://github.com/kavinrajachakravarthy/Pressure-Drop-Estimation-in-Pipelines"
+    },
+    {
+      "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+      "fullName": "Jimohmuktar/CrBlend-ML",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDODuwaFg",
+        "is_bot": false,
+        "login": "Jimohmuktar",
+        "type": "User",
+        "url": "https://github.com/Jimohmuktar"
+      },
+      "updatedAt": "2026-03-05T21:34:16Z",
+      "url": "https://github.com/Jimohmuktar/CrBlend-ML"
+    },
+    {
+      "description": "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+      "fullName": "leoyong1983-spec/AI-HYSYS-Skill",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOEGlu5w",
+        "is_bot": false,
+        "login": "leoyong1983-spec",
+        "type": "User",
+        "url": "https://github.com/leoyong1983-spec"
+      },
+      "updatedAt": "2026-05-14T22:15:05Z",
+      "url": "https://github.com/leoyong1983-spec/AI-HYSYS-Skill"
+    },
+    {
+      "description": "A random forest regressor model was used to predict the  salaries of chemical engineering-related jobs scraped from Glassdoor.com",
+      "fullName": "AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBkIvzA",
+        "is_bot": false,
+        "login": "AngeloRules",
+        "type": "User",
+        "url": "https://github.com/AngeloRules"
+      },
+      "updatedAt": "2023-07-03T07:59:55Z",
+      "url": "https://github.com/AngeloRules/Regression-Based-Model-For-Predicting-Chemical-Engineers-Salaries"
+    },
+    {
+      "description": "A curated list of awesome resources on Thermodynamics",
+      "fullName": "iurisegtovich/AwesomeThermodynamics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjEwOTMwNTE3",
+        "is_bot": false,
+        "login": "iurisegtovich",
+        "type": "User",
+        "url": "https://github.com/iurisegtovich"
+      },
+      "updatedAt": "2026-05-11T07:31:56Z",
+      "url": "https://github.com/iurisegtovich/AwesomeThermodynamics"
+    },
+    {
+      "description": "",
+      "fullName": "jasa03/jasa03.github.io",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBcEKPg",
+        "is_bot": false,
+        "login": "jasa03",
+        "type": "User",
+        "url": "https://github.com/jasa03"
+      },
+      "updatedAt": "2025-12-14T05:58:25Z",
+      "url": "https://github.com/jasa03/jasa03.github.io"
+    },
+    {
+      "description": "",
+      "fullName": "z08r3p/CHEN90012",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOC3pSAQ",
+        "is_bot": false,
+        "login": "z08r3p",
+        "type": "User",
+        "url": "https://github.com/z08r3p"
+      },
+      "updatedAt": "2024-12-31T12:26:00Z",
+      "url": "https://github.com/z08r3p/CHEN90012"
+    },
+    {
+      "description": "",
+      "fullName": "virajdesai0309/portfolio",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjg3ODkwNDA5",
+        "is_bot": false,
+        "login": "virajdesai0309",
+        "type": "User",
+        "url": "https://github.com/virajdesai0309"
+      },
+      "updatedAt": "2025-12-13T05:26:03Z",
+      "url": "https://github.com/virajdesai0309/portfolio"
+    },
+    {
+      "description": "",
+      "fullName": "JoshuaKiplimo/ResParse",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU0MTUyMzIx",
+        "is_bot": false,
+        "login": "JoshuaKiplimo",
+        "type": "User",
+        "url": "https://github.com/JoshuaKiplimo"
+      },
+      "updatedAt": "2022-12-12T14:45:36Z",
+      "url": "https://github.com/JoshuaKiplimo/ResParse"
+    },
+    {
+      "description": "Revision of all topics",
+      "fullName": "Gopal564/Chemical-Engineering-Revision",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjg3OTc1MTQ0",
+        "is_bot": false,
+        "login": "Gopal564",
+        "type": "User",
+        "url": "https://github.com/Gopal564"
+      },
+      "updatedAt": "2025-03-15T04:44:37Z",
+      "url": "https://github.com/Gopal564/Chemical-Engineering-Revision"
+    }
+  ]
+}

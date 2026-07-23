@@ -1,0 +1,67 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Anikesh31/simulator_codingplatform_integration",
+                 "url":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+                 "description":  "This repository is intended to serve as a tutorial for beginners to connect Aspen HYSYS with coding platforms like Python and MATLAB. and carry out customization tasks.",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-06-30T14:10:28Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  12,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "Test_file_hysys_python.hsc",
+                                        "size":  1657656,
+                                        "sha":  "9a7b060e70725988b904bacd5bf804b846f42304"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "HYSYS_MATLAB_integration.m",
+                                       "size":  762,
+                                       "sha":  "741d5e07332b3806de6faad77192a4b67e90c67e"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1027,
+                                       "sha":  "7d5262d59dde8f0d795d2f850ced520d142880ce"
+                                   },
+                                   {
+                                       "path":  "TEA_snippets.py",
+                                       "size":  4409,
+                                       "sha":  "5f4304296774098c275134b89b245ccc378863d9"
+                                   },
+                                   {
+                                       "path":  "built_in_methods.py",
+                                       "size":  3835,
+                                       "sha":  "cfccd78477882dada85d8b4dc29707b3823ad268"
+                                   },
+                                   {
+                                       "path":  "connection.py",
+                                       "size":  944,
+                                       "sha":  "918d758b469213abc0d941e7deae3d78cd961f8c"
+                                   },
+                                   {
+                                       "path":  "retrieve_major_objects_info.py",
+                                       "size":  2870,
+                                       "sha":  "196bbf73e03e0df34d81543ddbdd45695384fcd3"
+                                   },
+                                   {
+                                       "path":  "special_operations.py",
+                                       "size":  2334,
+                                       "sha":  "7efb0d88b4a6f11b808e48fae6eb5a65d4f5c455"
+                                   },
+                                   {
+                                       "path":  "using_backdoor.py",
+                                       "size":  1284,
+                                       "sha":  "f53a65f6bcdafaea2cd0a3b91778ac28b6d68968"
+                                   }
+                               ]
+             },
+    "error":  null
+}

@@ -1,0 +1,44 @@
+﻿[
+    {
+        "file":  "github-repo-aspen-hysys-hsc.json",
+        "query":  "\"Aspen HYSYS\" \".hsc\"",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-hscz.json",
+        "query":  "\"Aspen HYSYS\" \".hscz\"",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-case-file.json",
+        "query":  "\"Aspen HYSYS\" \"case file\"",
+        "count":  1,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-simulation-files.json",
+        "query":  "\"Aspen HYSYS\" \"simulation files\"",
+        "count":  1,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-python-com.json",
+        "query":  "\"HYSYS\" \"Python\" \"COM\"",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-matlab-link.json",
+        "query":  "\"HYSYS\" \"MATLAB\" \"hsc\"",
+        "count":  0,
+        "error":  null
+    },
+    {
+        "file":  "github-repo-hysys-excel-validation.json",
+        "query":  "\"HYSYS\" \"Excel\" \"validation\"",
+        "count":  0,
+        "error":  null
+    }
+]

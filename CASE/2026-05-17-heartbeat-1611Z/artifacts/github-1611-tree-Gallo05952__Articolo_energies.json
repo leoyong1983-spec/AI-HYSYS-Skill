@@ -1,0 +1,338 @@
+{
+  "sha": "ee28e3092de71d8b57a82132b4ccdd69936ed29b",
+  "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/trees/ee28e3092de71d8b57a82132b4ccdd69936ed29b",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "size": 66,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/dfe0770424b2a19faf507a501ebfc23be8f54e7b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffcc50a6a9771f8f78d9d1c400269e0201e7f7c0",
+      "size": 389,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/ffcc50a6a9771f8f78d9d1c400269e0201e7f7c0"
+    },
+    {
+      "path": "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e2c222dceb2a80448b5f9f46842b254c30a9c5",
+      "size": 1221180,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/75e2c222dceb2a80448b5f9f46842b254c30a9c5"
+    },
+    {
+      "path": "Analisi.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67e4f1577e1644ad63684d2582b83d6a1aacefd0",
+      "size": 35137,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/67e4f1577e1644ad63684d2582b83d6a1aacefd0"
+    },
+    {
+      "path": "AnalisiDati.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd91709b6a13daae04adee9151882c95a8438c1",
+      "size": 846011,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/6fd91709b6a13daae04adee9151882c95a8438c1"
+    },
+    {
+      "path": "Articolo_energies.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382a61a6f0ebae4a98ea0f73f9f9f6e4429f3ad9",
+      "size": 551478,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/382a61a6f0ebae4a98ea0f73f9f9f6e4429f3ad9"
+    },
+    {
+      "path": "Articolo_energies.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "085bbf51c76b2e6b9b280012a6513fb397704ebd",
+      "size": 549474,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/085bbf51c76b2e6b9b280012a6513fb397704ebd"
+    },
+    {
+      "path": "Dati",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f4440947315d80256b573948f3c8be3dda535f3",
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/trees/8f4440947315d80256b573948f3c8be3dda535f3"
+    },
+    {
+      "path": "Dati/Dati Composizione1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f3606236f8bf43b32d9d1b10981f8f9743ca2c7",
+      "size": 226967,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/1f3606236f8bf43b32d9d1b10981f8f9743ca2c7"
+    },
+    {
+      "path": "Dati/Dati Composizione2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5cee311f1a1e3442f93c542da76b72c2a6fbdaa",
+      "size": 206590,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/b5cee311f1a1e3442f93c542da76b72c2a6fbdaa"
+    },
+    {
+      "path": "Dati/Dati Composizione3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b4e543afdc268f055d60ada046323ee4d8cc0cc",
+      "size": 226660,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/3b4e543afdc268f055d60ada046323ee4d8cc0cc"
+    },
+    {
+      "path": "Dati/Dati Composizione4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7cfe7f9e6c359bd74b71fc34534a45700a0e1ad",
+      "size": 226677,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/b7cfe7f9e6c359bd74b71fc34534a45700a0e1ad"
+    },
+    {
+      "path": "Dati/Dati ComposizioneT1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d80f8938d04566b3f85ed3e5032ec203a9de5aa",
+      "size": 11968,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/8d80f8938d04566b3f85ed3e5032ec203a9de5aa"
+    },
+    {
+      "path": "Dati/Dati ComposizioneT2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbd37d8f353e22a063ff83e3b574f4b035d20dad",
+      "size": 11975,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/dbd37d8f353e22a063ff83e3b574f4b035d20dad"
+    },
+    {
+      "path": "Dati/Dati ComposizioneT3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b81b8d4b4ff10fd4c8952f07466e260c0964b422",
+      "size": 11912,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/b81b8d4b4ff10fd4c8952f07466e260c0964b422"
+    },
+    {
+      "path": "Dati/Dati ComposizioneT4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b895be99558ef1bd88329a8bf72685656024140",
+      "size": 11960,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/1b895be99558ef1bd88329a8bf72685656024140"
+    },
+    {
+      "path": "Funzioni",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75c04cde5a9a456e9092fcd73560126173a25842",
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/trees/75c04cde5a9a456e9092fcd73560126173a25842"
+    },
+    {
+      "path": "Funzioni/AperturaAspen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2b57ba8b91acd9c01bd909ea7996e4bbf0a1785",
+      "size": 1192,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/d2b57ba8b91acd9c01bd909ea7996e4bbf0a1785"
+    },
+    {
+      "path": "Funzioni/RunColonna.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1201408054b7691ccda47cf9f3c08c6451e04fba",
+      "size": 6431,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/1201408054b7691ccda47cf9f3c08c6451e04fba"
+    },
+    {
+      "path": "Funzioni/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e93597be0516b550ffbea10ecf2abcd31b0792e8",
+      "size": 176,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/e93597be0516b550ffbea10ecf2abcd31b0792e8"
+    },
+    {
+      "path": "Funzioni/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40aac77692e64e404e9670798b1b43592a8fb02e",
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/trees/40aac77692e64e404e9670798b1b43592a8fb02e"
+    },
+    {
+      "path": "Funzioni/__pycache__/AperturaAspen.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d826835dc25380c27f09332f6b81f8455fa61ae",
+      "size": 2595,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/6d826835dc25380c27f09332f6b81f8455fa61ae"
+    },
+    {
+      "path": "Funzioni/__pycache__/RunColonna.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261171e59e0a39c334591b9ca633c2e80ea17bf1",
+      "size": 10012,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/261171e59e0a39c334591b9ca633c2e80ea17bf1"
+    },
+    {
+      "path": "Funzioni/__pycache__/__init__.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cad4caf2b7faf00bcff661f8c8d1e12be12ed9b",
+      "size": 482,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/0cad4caf2b7faf00bcff661f8c8d1e12be12ed9b"
+    },
+    {
+      "path": "Funzioni/__pycache__/cambiopressione.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "454d48142f6cad38b69410adbdfbb779a2765773",
+      "size": 938,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/454d48142f6cad38b69410adbdfbb779a2765773"
+    },
+    {
+      "path": "Funzioni/__pycache__/cambiostadi.cpython-311.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3ca3a91268c0b8b74b3dc7b5c51646c2c55d5c1",
+      "size": 1634,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/f3ca3a91268c0b8b74b3dc7b5c51646c2c55d5c1"
+    },
+    {
+      "path": "Funzioni/cambiopressione.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb58e4b0b9943ba460911e3266931e134ed66888",
+      "size": 193,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/bb58e4b0b9943ba460911e3266931e134ed66888"
+    },
+    {
+      "path": "Funzioni/cambiostadi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a536fd4f84cfa34a40898cfebc9ad33a92c423",
+      "size": 506,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/c2a536fd4f84cfa34a40898cfebc9ad33a92c423"
+    },
+    {
+      "path": "Grafici",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6b1c5c5e2f33d4e3508b2dbc6ca2a1d4adda679",
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/trees/e6b1c5c5e2f33d4e3508b2dbc6ca2a1d4adda679"
+    },
+    {
+      "path": "Grafici/Prima_convergenza.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0479406ac2e5d0fa21a00676c46a226827f081de",
+      "size": 65952,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/0479406ac2e5d0fa21a00676c46a226827f081de"
+    },
+    {
+      "path": "Grafici/pim analisi.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69499e1bbb08cb89f1b0afc2b1dae7edae16f68f",
+      "size": 42897,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/69499e1bbb08cb89f1b0afc2b1dae7edae16f68f"
+    },
+    {
+      "path": "Scrittura",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1b1d3f74e214aeb6526453ba335c108b2645711",
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/trees/c1b1d3f74e214aeb6526453ba335c108b2645711"
+    },
+    {
+      "path": "Scrittura/Energies_V1.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "205a2a150eba88e30d34fea59aedddff0fa73abf",
+      "size": 696218,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/205a2a150eba88e30d34fea59aedddff0fa73abf"
+    },
+    {
+      "path": "Scrittura/energies-template.dotx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69039d51a2b5fdcca38a0f1d4d9e88e9078cc721",
+      "size": 96357,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/69039d51a2b5fdcca38a0f1d4d9e88e9078cc721"
+    },
+    {
+      "path": "desktop.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf7202b44eeb748cefde81ad91a2cd1e723190f",
+      "size": 162,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/abf7202b44eeb748cefde81ad91a2cd1e723190f"
+    },
+    {
+      "path": "f.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca59907f1adaba5ff4cb063bf823642b53177de",
+      "size": 5398,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/dca59907f1adaba5ff4cb063bf823642b53177de"
+    },
+    {
+      "path": "main_conStadi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12cccab04791f24259d12a0d00896616dba9035d",
+      "size": 3795,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/12cccab04791f24259d12a0d00896616dba9035d"
+    },
+    {
+      "path": "main_senzaStadi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca3481155e5b4156a5b5ec739ada37d3fe99c0c",
+      "size": 2835,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/fca3481155e5b4156a5b5ec739ada37d3fe99c0c"
+    },
+    {
+      "path": "prove.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbaf17f9b456bb95b85835635116e15b92cb614",
+      "size": 182924,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/acbaf17f9b456bb95b85835635116e15b92cb614"
+    },
+    {
+      "path": "readme.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "487ca1e69853b2fb9b70f7712de6048030ddd8a4",
+      "size": 108,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/487ca1e69853b2fb9b70f7712de6048030ddd8a4"
+    },
+    {
+      "path": "sensitivity_T_RR.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d562cc016e560fe008e7c06e3303acf2ec6ea0e4",
+      "size": 1966,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/d562cc016e560fe008e7c06e3303acf2ec6ea0e4"
+    },
+    {
+      "path": "sensitivity_T_RR_NStadi.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d562cc016e560fe008e7c06e3303acf2ec6ea0e4",
+      "size": 1966,
+      "url": "https://api.github.com/repos/Gallo05952/Articolo_energies/git/blobs/d562cc016e560fe008e7c06e3303acf2ec6ea0e4"
+    }
+  ],
+  "truncated": false
+}

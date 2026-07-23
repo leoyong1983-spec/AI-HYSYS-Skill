@@ -1,0 +1,32 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Corey-McInrue/Node-C-ASPEN-HYSYS",
+                 "url":  "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+                 "description":  "Aspen HYSYS Simulation for Node C of CP407 Group 9 Design 2025",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2025-04-03T19:16:00Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  2,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "NODECFINAL.hsc",
+                                        "size":  1022195,
+                                        "sha":  "1967a1ae5e42376b14cb1810020c508bed2755c2"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  280,
+                                       "sha":  "c459a0917899365b420dc9897d010a441d003258"
+                                   }
+                               ]
+             },
+    "error":  null
+}

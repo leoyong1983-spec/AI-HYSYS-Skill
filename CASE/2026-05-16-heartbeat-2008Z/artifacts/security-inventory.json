@@ -1,0 +1,341 @@
+﻿{
+    "generated_at_utc":  "2026-05-16T20:08:29Z",
+    "policy":  "Metadata and search-result artifacts only; no downloaded HYSYS models, archives, executables, macros, or scripts were run.",
+    "total_files":  33,
+    "total_size_bytes":  577849,
+    "dangerous_or_executable_files":  0,
+    "large_files_over_90mb":  0,
+    "archive_files":  0,
+    "files":  [
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/bitbucket-2008-repository-search-results.err.txt",
+                      "filename":  "bitbucket-2008-repository-search-results.err.txt",
+                      "extension":  ".txt",
+                      "size_bytes":  55,
+                      "sha256":  "a3e9f5e47cfbe7d1a77940b576397ff60c2b42373f23eb2bc1ed1e203587ab46",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/bitbucket-2008-repository-search-results.json",
+                      "filename":  "bitbucket-2008-repository-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  31,
+                      "sha256":  "102a4a417a7e9a03ec85bb20a2ece3f9a3570ede409e6e0d95df975eaff760e1",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/dedupe-summary.json",
+                      "filename":  "dedupe-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  302,
+                      "sha256":  "c0669a649802776b1cdb911f9e8dc709a8771632cb56fc87f32360efbb5e3e2b",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/external-search-summary.json",
+                      "filename":  "external-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  1599,
+                      "sha256":  "693a946e8d63f1c38da098dcbbb49a62548c47db2bf8396231062b8262c5e68c",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-andr1976__dwsim-paper.json",
+                      "filename":  "github-licensed-inspect-andr1976__dwsim-paper.json",
+                      "extension":  ".json",
+                      "size_bytes":  5624,
+                      "sha256":  "4a5fea8ad779157c5a2104182e62225acfb50ed5febcb2a711eaf82d0e552deb",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-aqiqiqiu__ai-hysys-autobuilder.json",
+                      "filename":  "github-licensed-inspect-aqiqiqiu__ai-hysys-autobuilder.json",
+                      "extension":  ".json",
+                      "size_bytes":  6049,
+                      "sha256":  "4d22173b612e007a3b4e8a21091685f4d442490e5aadacc31140d07792225c61",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-edgarsmdn__Aspen_HYSYS_Python.json",
+                      "filename":  "github-licensed-inspect-edgarsmdn__Aspen_HYSYS_Python.json",
+                      "extension":  ".json",
+                      "size_bytes":  2217,
+                      "sha256":  "9912ce855692500dbfbedb1ea7df2806c1698875914e331099ce879436c59e30",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-GaboTalero__HYSYS-Python-Case-Builder.json",
+                      "filename":  "github-licensed-inspect-GaboTalero__HYSYS-Python-Case-Builder.json",
+                      "extension":  ".json",
+                      "size_bytes":  3510,
+                      "sha256":  "09a7b62bb45b57e1cd0c1d217f473249234979a8571727c5e7268a4378a7a5f2",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+                      "filename":  "github-licensed-inspect-Galigeigei-Z__HDA-Surrogate-Optimization.json",
+                      "extension":  ".json",
+                      "size_bytes":  6009,
+                      "sha256":  "699a985afe8e15eab0841f1deb3c90960996e7c83cca2d4467c97351ab8fca6a",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspection-summary.json",
+                      "filename":  "github-licensed-inspection-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  7090,
+                      "sha256":  "c0edcedd5dba25e39fccc64a8b92614bc18becb38ceee8a569c547b95d1a5e57",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+                      "filename":  "github-licensed-inspect-Jeslin-Jacob__rbf-interpolation-atmospheric-distillation.json",
+                      "extension":  ".json",
+                      "size_bytes":  4608,
+                      "sha256":  "79aaaa7dd99bc2575f9aa18ef1ab0e18f4640146302182fd8ccd625ebeee289e",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-jjgomera__pychemqt.json",
+                      "filename":  "github-licensed-inspect-jjgomera__pychemqt.json",
+                      "extension":  ".json",
+                      "size_bytes":  24789,
+                      "sha256":  "978315487de6470a7990a01eaacc5eb8d0fe2c01aa927e659d1fcc0579a19a50",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+                      "filename":  "github-licensed-inspect-kavinrajachakravarthy__Pressure-Drop-Estimation-in-Pipelines.json",
+                      "extension":  ".json",
+                      "size_bytes":  3780,
+                      "sha256":  "20d2fba9eefff23764c3d57eddea70c74876d67add427c72fabe69d05bd150bd",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-may3rd__COSMO.json",
+                      "filename":  "github-licensed-inspect-may3rd__COSMO.json",
+                      "extension":  ".json",
+                      "size_bytes":  25522,
+                      "sha256":  "700d9c455d35a5f6c92db37bde7395e40b0e48819a2081e9e7c850ef6c5a7c94",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-naawu789__HySysID.json",
+                      "filename":  "github-licensed-inspect-naawu789__HySysID.json",
+                      "extension":  ".json",
+                      "size_bytes":  20624,
+                      "sha256":  "e8b8034a294f204eed93510bf48f1e0f64c5b819e5c05a536723bc43eb7949d1",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-oscarcontrerasnavas__hysys-to-excel-intro.json",
+                      "filename":  "github-licensed-inspect-oscarcontrerasnavas__hysys-to-excel-intro.json",
+                      "extension":  ".json",
+                      "size_bytes":  1399,
+                      "sha256":  "c73883d629d20bef542e866807c4c8121a67b8302c1035ad33d38fb76eef57ee",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-punkeel__HySystemdNotifier.json",
+                      "filename":  "github-licensed-inspect-punkeel__HySystemdNotifier.json",
+                      "extension":  ".json",
+                      "size_bytes":  1309,
+                      "sha256":  "d0824c9936a8b164816508b424486615ff91068fed0069c7dd3bdc4064265072",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "filename":  "github-licensed-inspect-shahria-sunny__CDU-Simulation-Optimization.json",
+                      "extension":  ".json",
+                      "size_bytes":  2185,
+                      "sha256":  "5d20645aa7ae4f16dd83e61a8ec46c9fa03b856c0c3bfba22ae9c0d4c95f54d2",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "filename":  "github-licensed-inspect-shahria-sunny__Natural-Gas-Sweetening.json",
+                      "extension":  ".json",
+                      "size_bytes":  2159,
+                      "sha256":  "9d2cf08e40e7c0140c586237a27cd0512b82d9c1b61b06d9cbd880c4c6fac47b",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-tinchofiuba__pythonHysys.json",
+                      "filename":  "github-licensed-inspect-tinchofiuba__pythonHysys.json",
+                      "extension":  ".json",
+                      "size_bytes":  3960,
+                      "sha256":  "e33f93dd36cb6332c3c376d50b2a890276436dd086d811f9579e79f54223e9ab",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-vminasid__Hysys-Unisis2Matlab.json",
+                      "filename":  "github-licensed-inspect-vminasid__Hysys-Unisis2Matlab.json",
+                      "extension":  ".json",
+                      "size_bytes":  1700,
+                      "sha256":  "ab546a239528f1534f540585931a337d32ebcd369f5d9fbcfd2ec34fc6b8ed13",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-inspect-YuniqueCore__DynPlots.json",
+                      "filename":  "github-licensed-inspect-YuniqueCore__DynPlots.json",
+                      "extension":  ".json",
+                      "size_bytes":  3217,
+                      "sha256":  "93cfec7f92730a4267483fc79ab8c3e675e6f42dd0fdcf78782014d0e815bcd1",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-search-merged.json",
+                      "filename":  "github-licensed-search-merged.json",
+                      "extension":  ".json",
+                      "size_bytes":  9000,
+                      "sha256":  "bc30685be8ffc698a6744322380efd630b2b6bbc012574f06a92e402d51a4083",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-licensed-search-summary.json",
+                      "filename":  "github-licensed-search-summary.json",
+                      "extension":  ".json",
+                      "size_bytes":  981,
+                      "sha256":  "d28f1942f89f9059812a3e3851b5e6e651b1624875ba0bebd1b1f9770096c922",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-search-aspen-hysys-license-mit.json",
+                      "filename":  "github-search-aspen-hysys-license-mit.json",
+                      "extension":  ".json",
+                      "size_bytes":  3659,
+                      "sha256":  "ac2917c2a99b8ade220a981e6e7830de6b0b896f1ab062de00327cb71217fd44",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-search-hysys-case-license.json",
+                      "filename":  "github-search-hysys-case-license.json",
+                      "extension":  ".json",
+                      "size_bytes":  779,
+                      "sha256":  "19d6ade9f01349d6b9e595a393e4acd8ba5c49429d3930d6224b7771cbd01998",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-search-hysys-license-apache.json",
+                      "filename":  "github-search-hysys-license-apache.json",
+                      "extension":  ".json",
+                      "size_bytes":  7,
+                      "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-search-hysys-license-gpl.json",
+                      "filename":  "github-search-hysys-license-gpl.json",
+                      "extension":  ".json",
+                      "size_bytes":  1950,
+                      "sha256":  "09cfbd663164ab844022b1c8e3fb12f3456a13cb7a4a2372bdd459ab6b2b45e7",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/github-search-hysys-license-mit.json",
+                      "filename":  "github-search-hysys-license-mit.json",
+                      "extension":  ".json",
+                      "size_bytes":  5150,
+                      "sha256":  "7aa4d81f5a1f1b2009e5aeb5a173fd72889ad6a34f999d143ac8161a28cf46e9",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/gitlab-2008-project-search-results.json",
+                      "filename":  "gitlab-2008-project-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  2,
+                      "sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/harvard-dataverse-2008-targeted-search-results.json",
+                      "filename":  "harvard-dataverse-2008-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  67558,
+                      "sha256":  "e377e22659d7f4fa4ab862b630a8fe1ffedfbad289a51c7a8f1aceda3ca352b3",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/mendeley-datacite-2008-targeted-search-results.json",
+                      "filename":  "mendeley-datacite-2008-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  231173,
+                      "sha256":  "8b8b6ed67f5168056265445b105898f201bd61785dbca28bdb2848d5505e6b2c",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "path":  "CASE/2026-05-16-heartbeat-2008Z/artifacts/zenodo-2008-targeted-search-results.json",
+                      "filename":  "zenodo-2008-targeted-search-results.json",
+                      "extension":  ".json",
+                      "size_bytes":  129852,
+                      "sha256":  "ee91ded17b4af31763f90d024f8a923627439113166a755b3b9e9b49582ed368",
+                      "risk_flags":  [
+
+                                     ]
+                  }
+              ]
+}

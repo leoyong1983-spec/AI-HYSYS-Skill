@@ -1,0 +1,239 @@
+[
+  {
+    "title": "GitHub licensed duplicate and automation-only HYSYS sweep",
+    "type": "repository_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening ; https://github.com/shahria-sunny/CDU-Simulation-Optimization ; https://github.com/GaboTalero/HYSYS-Python-Case-Builder ; https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization ; https://github.com/edgarsmdn/Aspen_HYSYS_Python",
+    "download_url": "not_used",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repositories with MIT or public metadata were inspected. The two MIT model repositories are already archived; the remaining inspected repositories are automation/data/script repositories without a qualifying HYSYS main case in the tree.",
+    "recommended_use": "Use existing archived copies for natural-gas sweetening and CDU tests; use automation-only repositories only as code-control references, not as CASE model assets.",
+    "dedupe_keys": {
+      "source_pages": [
+        "https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+        "https://github.com/shahria-sunny/CDU-Simulation-Optimization"
+      ],
+      "filenames": [
+        "Gas Sweetening.hsc",
+        "project.hsc"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-11-heartbeat-0741Z/",
+        "CASE/2026-05-15-heartbeat-0907Z/",
+        "CASE/2026-05-16-heartbeat-2208Z/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc",
+      "suspected_hysys_version": "V14 for shahria-sunny repositories by repository description; unknown for automation-only repositories",
+      "process_area": "natural gas sweetening, crude distillation, HYSYS automation",
+      "model_file_names": [
+        "Gas Sweetening.hsc",
+        "project.hsc"
+      ]
+    },
+    "residual_risks": [
+      "No model was opened in Aspen HYSYS.",
+      "Automation repositories may require local HYSYS COM setup but do not provide a qualifying redistributable main case."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "GitHub no-license HYSYS model and XML candidate sweep",
+    "type": "manual_permission_candidate_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation ; https://github.com/marcellobozzini/Python-Driving-License ; https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys ; https://github.com/JeePeiQi0101/Aspen.HYSYS ; https://github.com/royhanikbarr/Gas-Turbine-Hysys ; https://github.com/royhanikbarr/Aspen-Hysys-Simulation ; https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process ; https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys ; https://github.com/Anikesh31/simulator_codingplatform_integration ; https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "download_url": "raw_or_codeload_urls_not_used",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access, but no explicit repository license was detected for these model payloads. Files were not downloaded or archived.",
+    "recommended_use": "Manual permission-review queue only; do not use as redistributable benchmark assets until author license or permission is clarified.",
+    "dedupe_keys": {
+      "source_pages": [
+        "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+        "https://github.com/marcellobozzini/Python-Driving-License",
+        "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+        "https://github.com/JeePeiQi0101/Aspen.HYSYS",
+        "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+        "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+        "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+        "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+        "https://github.com/Anikesh31/simulator_codingplatform_integration",
+        "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS"
+      ],
+      "filenames": [
+        "HDA 2024 Aspen/1-HDA-Setup.hsc",
+        "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+        "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+        "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+        "Separazione_reattori.hsc",
+        "GROUP_17.hsc.hsc",
+        "Aspen HYSYS simulation file_Parallel.xml",
+        "Aspen HYSYS simulation file_Series.xml",
+        "Aspen HYSYS simulation file_Single.xml",
+        "Gas Turbine Power Plant Simulation.hsc",
+        "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc",
+        "acetic fin.hsc",
+        "GTU Simulation.hsc",
+        "Test_file_hysys_python.hsc",
+        "NODECFINAL.hsc"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-11-heartbeat-1909Z/",
+        "CASE/2026-05-13-heartbeat-2201Z/",
+        "CASE/2026-05-14-heartbeat-1707Z/",
+        "CASE/2026-05-14-heartbeat-2207Z/",
+        "CASE/2026-05-20-heartbeat-0613Z/",
+        "CASE/2026-05-21-heartbeat-1215Z/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc or HYSYS-named .xml",
+      "suspected_hysys_version": "V10 for masoud-abdi by repository description; unknown for most others",
+      "process_area": "HDA, methanol synthesis, acetic acid, gas turbine, butyl chloride, sour gas sweetening, tutorial automation, node simulation",
+      "model_file_names": [
+        "1-HDA-Setup.hsc",
+        "Separazione_reattori.hsc",
+        "GROUP_17.hsc.hsc",
+        "Aspen HYSYS simulation file_Parallel.xml",
+        "Gas Turbine Power Plant Simulation.hsc",
+        "Simulation Production Butyl Chloride.hsc",
+        "acetic fin.hsc",
+        "GTU Simulation.hsc",
+        "Test_file_hysys_python.hsc",
+        "NODECFINAL.hsc"
+      ]
+    },
+    "residual_risks": [
+      "No explicit license means archival and redistribution rights are unclear.",
+      "Some XML files are inferred from filenames and were not inspected as HYSYS XML cases.",
+      "No model was opened in Aspen HYSYS."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Mendeley Data HYSYS dataset duplicate and no-model sweep",
+    "type": "open_data_sweep",
+    "quality": "D",
+    "source_page": "https://data.mendeley.com/datasets/8r8ztbkfjj/1 ; https://data.mendeley.com/datasets/r3875vhrjs/1 ; https://data.mendeley.com/datasets/wzd6j2pd4v/1 ; https://data.mendeley.com/datasets/g5k7tndk77 ; https://data.mendeley.com/datasets/9384yj4xg3/5",
+    "download_url": "mendeley_public_file_urls_not_used",
+    "local_artifacts": [],
+    "license_public_access_note": "Mendeley records are public where listed, with license metadata varying by record. Model-bearing 8r8ztbkfjj and r3875vhrjs are already represented in CASE; other records were already logged as no-model, metadata-only, or not qualifying HYSYS-main-case payloads.",
+    "recommended_use": "Use existing CASE archives or metadata records; do not re-download duplicates.",
+    "dedupe_keys": {
+      "source_pages": [
+        "https://data.mendeley.com/datasets/8r8ztbkfjj/1",
+        "https://data.mendeley.com/datasets/r3875vhrjs/1",
+        "https://data.mendeley.com/datasets/wzd6j2pd4v/1",
+        "https://data.mendeley.com/datasets/g5k7tndk77",
+        "https://data.mendeley.com/datasets/9384yj4xg3/5"
+      ],
+      "filenames": [
+        "Research data/HYSYS files/April to October.hsc",
+        "Research data/HYSYS files/November to March.hsc",
+        "HYSYS simulation of 40 bara GOX 95 purity.hsc",
+        "HYSYS simulation of 40 bara LOX 95 purity.hsc"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-11-heartbeat-1411Z/",
+        "CASE/2026-05-11-heartbeat-1521Z/",
+        "CASE/2026-05-11-heartbeat-1815Z/",
+        "CASE/2026-05-22-heartbeat-0618Z/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc for duplicate records; none confirmed for no-model records",
+      "suspected_hysys_version": "unknown",
+      "process_area": "LNG BOG recondensation, cryogenic air separation, hydrogen liquefaction, geothermal, cryocooler analysis",
+      "model_file_names": [
+        "April to October.hsc",
+        "November to March.hsc",
+        "HYSYS simulation of 40 bara GOX 95 purity.hsc",
+        "HYSYS simulation of 40 bara LOX 95 purity.hsc"
+      ]
+    },
+    "residual_risks": [
+      "Some Mendeley records expose data, reports, or output files but not a HYSYS main model.",
+      "No payload was downloaded or inspected in this run.",
+      "No Aspen HYSYS run was performed."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Zenodo Aspen HYSYS duplicate and non-case record sweep",
+    "type": "open_data_sweep",
+    "quality": "D",
+    "source_page": "https://zenodo.org/records/10966344 ; https://zenodo.org/records/18806107 ; https://zenodo.org/records/7787405 ; https://zenodo.org/records/15476366 ; https://zenodo.org/records/6621128",
+    "download_url": "https://zenodo.org/api/records/?q=%22Aspen%20HYSYS%22%20hsc&size=10",
+    "local_artifacts": [],
+    "license_public_access_note": "Public Zenodo metadata was inspected. Records 10966344 and 18806107 contain HYSYS .hsc files but are already archived; other inspected records expose PDFs, spreadsheets, documents, or .lnr files and were not treated as HYSYS main case packages.",
+    "recommended_use": "Use existing archived Zenodo records for Tennessee Eastman and OCC/ASU/CCS tests; keep other records as no-model examples.",
+    "dedupe_keys": {
+      "record_ids": [
+        "10966344",
+        "18806107"
+      ],
+      "dois": [
+        "10.5281/zenodo.10966344",
+        "10.5281/zenodo.18806107"
+      ],
+      "filenames": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc"
+      ],
+      "existing_case_paths": [
+        "CASE/2026-05-14-heartbeat-1007Z/",
+        "CASE/2026-05-11-heartbeat-0222Z/"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": true,
+      "hysys_file_priority": ".hsc for duplicate records",
+      "suspected_hysys_version": "V12.1 for Zenodo 18806107 by metadata; unknown for Zenodo 10966344",
+      "process_area": "Tennessee Eastman, oxy-combustion, ASU, CCS",
+      "model_file_names": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc"
+      ]
+    },
+    "residual_risks": [
+      "Zenodo 10966344 has CC BY-NC-ND 4.0 restrictions.",
+      "Non-case records may mention HYSYS but do not expose qualifying .hsc/.hscz payloads.",
+      "No Aspen HYSYS run was performed."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Figshare, Harvard Dataverse, GitLab, and OA supplementary negative sweep",
+    "type": "open_web_sweep",
+    "quality": "D",
+    "source_page": "https://figshare.com/search?q=Aspen%20HYSYS ; https://dataverse.harvard.edu/dataverse/harvard?q=Aspen%20HYSYS ; https://gitlab.com/search?search=Aspen%20HYSYS",
+    "download_url": "not_used",
+    "local_artifacts": [],
+    "license_public_access_note": "Only public, no-login search surfaces were considered. No clearly licensed, nonduplicate Aspen HYSYS .hsc, .hscz, HYSYS XML, .compound, or model-bearing archive was confirmed.",
+    "recommended_use": "Use as negative search coverage and false-positive filtering evidence.",
+    "dedupe_keys": {
+      "searched_terms": [
+        "Aspen HYSYS .hsc figshare",
+        "Aspen HYSYS hsc Dataverse",
+        "Aspen HYSYS .hsc GitLab",
+        "Aspen HYSYS supplementary .hsc"
+      ],
+      "matched_downloads": []
+    },
+    "hysys_specific_metadata": {
+      "contains_hysys_main_file": false,
+      "hysys_file_priority": "none confirmed",
+      "suspected_hysys_version": "unknown",
+      "process_area": "not_applicable",
+      "model_file_names": []
+    },
+    "residual_risks": [
+      "Search engines may omit newly uploaded or poorly indexed supplemental files.",
+      "No login-gated, paywalled, or institution-gated material was used."
+    ],
+    "model_run_status": "not_run"
+  }
+]

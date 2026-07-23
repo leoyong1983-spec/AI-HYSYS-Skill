@@ -1,0 +1,192 @@
+﻿[
+    {
+        "title":  "Aspen HYSYS model for the Tennessee Eastman process",
+        "type":  "hysys_case",
+        "quality":  "B",
+        "source_page":  "https://zenodo.org/records/10966344",
+        "download_url":  "https://zenodo.org/api/records/10966344/files/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC/content",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\Zenodo_2024_Tennessee_Eastman_Iraola\\record-10966344.json",
+                                    "filename":  "record-10966344.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6478,
+                                    "sha256":  "1a52c810794fe65957edb4075ee069b9f1a1239d037c55484a23148dd901a244"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\Zenodo_2024_Tennessee_Eastman_Iraola\\TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+                                    "filename":  "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+                                    "file_type":  "HSC",
+                                    "size_bytes":  8728140,
+                                    "sha256":  "4adf908a6bf0e36d058453bcddd2cdf0b857324ff8ba5bdd0817261edab5d3b6"
+                                }
+                            ],
+        "license_public_access_note":  "Open Zenodo record, DOI 10.5281/zenodo.10966344, license cc-by-nc-nd-4.0. Non-commercial, no-derivatives restrictions apply; archived as original unmodified model plus metadata.",
+        "recommended_use":  "Tennessee Eastman process HYSYS benchmark candidate for case loading, COM object lifecycle tests, dynamic/process monitoring, and fault-detection workflow scaffolding. Do not claim solved until opened and run in Aspen HYSYS.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/records/10966344",
+                            "download_url":  "https://zenodo.org/api/records/10966344/files/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC/content",
+                            "title":  "Aspen HYSYS model for the Tennessee Eastman process",
+                            "filenames":  [
+                                              "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+                                              "record-10966344.json"
+                                          ],
+                            "sha256":  [
+                                           "4adf908a6bf0e36d058453bcddd2cdf0b857324ff8ba5bdd0817261edab5d3b6",
+                                           "1a52c810794fe65957edb4075ee069b9f1a1239d037c55484a23148dd901a244"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".HSC"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "HYSYS version unknown.",
+                               "License is CC-BY-NC-ND-4.0; preserve original file and avoid derivative redistribution.",
+                               "No local HYSYS load or solve was performed."
+                           ]
+    },
+    {
+        "title":  "Anikesh31/simulator_codingplatform_integration",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\github-Anikesh31__simulator_codingplatform_integration-readme.base64.txt",
+                                    "filename":  "github-Anikesh31__simulator_codingplatform_integration-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  1372,
+                                    "sha256":  "0d02c53831858c34a21bb4c2bd9a859574e84865d4eb61f1e272a9528cf11365"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\github-Anikesh31__simulator_codingplatform_integration-repo.json",
+                                    "filename":  "github-Anikesh31__simulator_codingplatform_integration-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  13028,
+                                    "sha256":  "7f04e5f2d761426e7d10e686fb3b2b276620d8efa60077277bca89d2d652c7f4"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\github-Anikesh31__simulator_codingplatform_integration-tree.json",
+                                    "filename":  "github-Anikesh31__simulator_codingplatform_integration-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  6600,
+                                    "sha256":  "433442ecb6bc15da869d91dbfe0f3dc1b4372b6616582d6672976061920d8b1b"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no repository license detected. Tree contains Test_file_hysys_python.hsc and HYSYS integration scripts; model was not downloaded.",
+        "recommended_use":  "Manual permission-review candidate for HYSYS coding-platform integration examples.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+                            "download_url":  "",
+                            "title":  "Anikesh31/simulator_codingplatform_integration",
+                            "filenames":  [
+                                              "Test_file_hysys_python.hsc",
+                                              "HYSYS_MATLAB_integration.m",
+                                              "connection.py",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; do not archive model/scripts until permission is clarified.",
+                               "Scripts/notebooks must not be executed without review."
+                           ]
+    },
+    {
+        "title":  "royhanikbarr/Aspen-Hysys-Simulation",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\github-royhanikbarr__Aspen-Hysys-Simulation-readme.base64.txt",
+                                    "filename":  "github-royhanikbarr__Aspen-Hysys-Simulation-readme.base64.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  1440,
+                                    "sha256":  "1bd2a4e857e9c7a4adbf2367dbb0f36d03d9411a31f2896805cb2691d2bc8bed"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\github-royhanikbarr__Aspen-Hysys-Simulation-repo.json",
+                                    "filename":  "github-royhanikbarr__Aspen-Hysys-Simulation-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  11858,
+                                    "sha256":  "3fe1cbfc5bf361a64a732dffad6c1c4d95aa276d765092d7e74fb76751f67018"
+                                },
+                                {
+                                    "path":  "D:\\CODEX\\AI-HYSYS-Skill\\CASE\\2026-05-14-heartbeat-1007Z\\artifacts\\github-royhanikbarr__Aspen-Hysys-Simulation-tree.json",
+                                    "filename":  "github-royhanikbarr__Aspen-Hysys-Simulation-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  2672,
+                                    "sha256":  "ddb6bf2b6ae2025a75d6acd066c8930f315b2db79142bb9a814f0fcb94b8ba6d"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository, no repository license detected. Tree contains Simulation Production Butyl Chloride.hsc and a PDF paper; files were not downloaded.",
+        "recommended_use":  "Manual permission-review candidate for butyl chloride production HYSYS simulation.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+                            "download_url":  "",
+                            "title":  "royhanikbarr/Aspen-Hysys-Simulation",
+                            "filenames":  [
+                                              "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc",
+                                              "Design Simulation Production Butyl Chloride/Paper Hysys Simulation Production Butyl Chloride.pdf",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No explicit license; do not archive model/report until permission is clarified.",
+                               "No validation status established."
+                           ]
+    }
+]

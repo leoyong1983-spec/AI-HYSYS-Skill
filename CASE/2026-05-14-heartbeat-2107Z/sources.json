@@ -1,0 +1,548 @@
+﻿[
+    {
+        "title":  "Duplicate GitHub record: andr1976/dwsim-paper",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/andr1976/dwsim-paper",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-andr1976__dwsim-paper-repo.json",
+                                    "filename":  "github-andr1976__dwsim-paper-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  388,
+                                    "sha256":  "2c257af8c2d6a9ecb7e371746c4aa32db440ffac570256c776b0c54419d5322d"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-andr1976__dwsim-paper-tree.json",
+                                    "filename":  "github-andr1976__dwsim-paper-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  10045,
+                                    "sha256":  "afd31ca11050faa01f34a8340e860e3d79ac11bb923c4d9187ee85405ba15692"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata indicates an explicit license, but this source is already archived; no duplicate payload downloaded.",
+        "recommended_use":  "Use existing archived copy for HYSYS-vs-DWSIM black-oil/property-data comparisons and automation script regression checks.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/andr1976/dwsim-paper",
+                            "download_url":  "",
+                            "title":  "Duplicate GitHub record: andr1976/dwsim-paper",
+                            "filenames":  [
+                                              "simulations/Black oil EOS density.hsc",
+                                              "simulations/Optim.hsc",
+                                              "data/HYSYS_result.csv",
+                                              "data/DWSIM_result.csv",
+                                              "paper/Revised_Paper_ANRA.pdf",
+                                              "scripts/HYSYS_automation.py"
+                                          ],
+                            "sha256":  [
+                                           "2c257af8c2d6a9ecb7e371746c4aa32db440ffac570256c776b0c54419d5322d",
+                                           "afd31ca11050faa01f34a8340e860e3d79ac11bb923c4d9187ee85405ba15692"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "MIT repository with HYSYS case files, HYSYS/DWSIM data, paper, and scripts, but already archived in CASE/2026-05-11-heartbeat-0026Z.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat.",
+                               "Repository contents may change after this run."
+                           ]
+    },
+    {
+        "title":  "Duplicate GitHub record: tinchofiuba/pythonHysys",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/tinchofiuba/pythonHysys",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-tinchofiuba__pythonHysys-repo.json",
+                                    "filename":  "github-tinchofiuba__pythonHysys-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  425,
+                                    "sha256":  "649c2e6bdfe233a2dbb3bc36c06ac5ef897e63e64faf6c71dcc07a8a69fcf8b0"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-tinchofiuba__pythonHysys-tree.json",
+                                    "filename":  "github-tinchofiuba__pythonHysys-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5004,
+                                    "sha256":  "6a74a996974aac0267679a4ac95d8b9a772058a2b0552bf49c4f7b7f6ae11029"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata indicates an explicit license, but this source is already archived; no duplicate payload downloaded.",
+        "recommended_use":  "Use existing archived copy for Python-to-HYSYS stream/property access smoke tests.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/tinchofiuba/pythonHysys",
+                            "download_url":  "",
+                            "title":  "Duplicate GitHub record: tinchofiuba/pythonHysys",
+                            "filenames":  [
+                                              "case.hsc",
+                                              "final.hsc",
+                                              "case.bk0",
+                                              "hysys2Python.py",
+                                              "README.md",
+                                              "LICENSE"
+                                          ],
+                            "sha256":  [
+                                           "649c2e6bdfe233a2dbb3bc36c06ac5ef897e63e64faf6c71dcc07a8a69fcf8b0",
+                                           "6a74a996974aac0267679a4ac95d8b9a772058a2b0552bf49c4f7b7f6ae11029"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "MIT repository with HYSYS case files and Python-HYSYS access code, but already archived in CASE/2026-05-11-heartbeat-2213Z.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat.",
+                               "Repository contents may change after this run."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: YuniqueCore/DynPlots",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/YuniqueCore/DynPlots",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-YuniqueCore__DynPlots-repo.json",
+                                    "filename":  "github-YuniqueCore__DynPlots-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  405,
+                                    "sha256":  "c245b55459e16a9e1ab48b721b14c843f5ed76f2b1cd53ab7a7823485d2dfc07"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-YuniqueCore__DynPlots-tree.json",
+                                    "filename":  "github-YuniqueCore__DynPlots-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3648,
+                                    "sha256":  "3c2f100d5ee6d1cde872532110304edcf019399f067c428d23ed138fad7a5d1b"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected. Repository is licensed or metadata-only, but no qualifying new HYSYS model payload was downloaded.",
+        "recommended_use":  "Reference only for post-processing dynamic dump files, not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/YuniqueCore/DynPlots",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: YuniqueCore/DynPlots",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "DynPlots/Backends/Common/FileHelper.py"
+                                          ],
+                            "sha256":  [
+                                           "c245b55459e16a9e1ab48b721b14c843f5ed76f2b1cd53ab7a7823485d2dfc07",
+                                           "3c2f100d5ee6d1cde872532110304edcf019399f067c428d23ed138fad7a5d1b"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "MIT HYSYS dynamic dump plotting tool, but no Aspen HYSYS case file was present; already noted in prior CASE triage.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat.",
+                               "Repository contents may change after this run."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: aqiqiqiu/ai-hysys-autobuilder",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-aqiqiqiu__ai-hysys-autobuilder-repo.json",
+                                    "filename":  "github-aqiqiqiu__ai-hysys-autobuilder-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  369,
+                                    "sha256":  "fffd4565a16517ab9eda1e12bf4e9940a62f3ae844cf73397b551dbc0f2283da"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-aqiqiqiu__ai-hysys-autobuilder-tree.json",
+                                    "filename":  "github-aqiqiqiu__ai-hysys-autobuilder-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5712,
+                                    "sha256":  "850b236eb1c46ac30541c4fb5334be711997d863d4cc4bed686429ac6c52e57a"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected. Repository is licensed or metadata-only, but no qualifying new HYSYS model payload was downloaded.",
+        "recommended_use":  "Reference only for HYSYS COM automation patterns, not a benchmark case.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/aqiqiqiu/ai-hysys-autobuilder",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: aqiqiqiu/ai-hysys-autobuilder",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md",
+                                              "src/ai_hysys_autobuilder/hysys_com.py"
+                                          ],
+                            "sha256":  [
+                                           "fffd4565a16517ab9eda1e12bf4e9940a62f3ae844cf73397b551dbc0f2283da",
+                                           "850b236eb1c46ac30541c4fb5334be711997d863d4cc4bed686429ac6c52e57a"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "MIT HYSYS automation code repository with no model file; already recorded in prior CASE triage.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat.",
+                               "Repository contents may change after this run."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: naawu789/HySysID",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/naawu789/HySysID",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-naawu789__HySysID-repo.json",
+                                    "filename":  "github-naawu789__HySysID-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  341,
+                                    "sha256":  "89608ba57cc223e2d49070aebebcf32a243b40460368a16894d017e5a13cd325"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-naawu789__HySysID-tree.json",
+                                    "filename":  "github-naawu789__HySysID-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  21449,
+                                    "sha256":  "9cb1701ffd02394a2535f313101772e2dac2bee99dead757d8889e4587e02416"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected. Repository is licensed or metadata-only, but no qualifying new HYSYS model payload was downloaded.",
+        "recommended_use":  "No HYSYS benchmark use.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/naawu789/HySysID",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: naawu789/HySysID",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "89608ba57cc223e2d49070aebebcf32a243b40460368a16894d017e5a13cd325",
+                                           "9cb1701ffd02394a2535f313101772e2dac2bee99dead757d8889e4587e02416"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "MIT repository name collision/system-identification material; no Aspen HYSYS model evidence; already recorded in prior CASE triage.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat.",
+                               "Repository contents may change after this run."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: stonedingwt/HYSys",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/stonedingwt/HYSys",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-stonedingwt__HYSys-repo.json",
+                                    "filename":  "github-stonedingwt__HYSys-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  357,
+                                    "sha256":  "2960daff10cf042b24ffeba5dc4b8d86964e0370e6710356b3408de2a16fff7d"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-stonedingwt__HYSys-tree.json",
+                                    "filename":  "github-stonedingwt__HYSys-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1295776,
+                                    "sha256":  "e6e7b1c29fb2f3c54a3c3178c94bebfb9a870207262594a6fbb9be6ae43568ff"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected. Repository is licensed or metadata-only, but no qualifying new HYSYS model payload was downloaded.",
+        "recommended_use":  "No HYSYS benchmark use; suppress as name collision.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/stonedingwt/HYSys",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: stonedingwt/HYSys",
+                            "filenames":  [
+                                              "repository tree metadata"
+                                          ],
+                            "sha256":  [
+                                           "2960daff10cf042b24ffeba5dc4b8d86964e0370e6710356b3408de2a16fff7d",
+                                           "e6e7b1c29fb2f3c54a3c3178c94bebfb9a870207262594a6fbb9be6ae43568ff"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Apache-2.0 repository name collision with large UI/skill source tree; no Aspen HYSYS model file was found.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat.",
+                               "Repository contents may change after this run."
+                           ]
+    },
+    {
+        "title":  "GitHub no-model candidate: punkeel/HySystemdNotifier",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/punkeel/HySystemdNotifier",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-punkeel__HySystemdNotifier-repo.json",
+                                    "filename":  "github-punkeel__HySystemdNotifier-repo.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  392,
+                                    "sha256":  "fd77165ab7c31b255d4c3e47958818838889f614ac2280087a638abffe717174"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-punkeel__HySystemdNotifier-tree.json",
+                                    "filename":  "github-punkeel__HySystemdNotifier-tree.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5839,
+                                    "sha256":  "8039dc4d3161f529fc73df2426b651eb19cb6505da2953e7b58be180a80b24b7"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub metadata inspected. Repository is licensed or metadata-only, but no qualifying new HYSYS model payload was downloaded.",
+        "recommended_use":  "No HYSYS benchmark use; suppress as name collision.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/punkeel/HySystemdNotifier",
+                            "download_url":  "",
+                            "title":  "GitHub no-model candidate: punkeel/HySystemdNotifier",
+                            "filenames":  [
+                                              "LICENSE",
+                                              "README.md"
+                                          ],
+                            "sha256":  [
+                                           "fd77165ab7c31b255d4c3e47958818838889f614ac2280087a638abffe717174",
+                                           "8039dc4d3161f529fc73df2426b651eb19cb6505da2953e7b58be180a80b24b7"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  true,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "GPL-3.0 systemd notifier project; name contains HYSys but no Aspen HYSYS model file.",
+                               "No HYSYS model was opened, executed, or solved during this heartbeat.",
+                               "Repository contents may change after this run."
+                           ]
+    },
+    {
+        "title":  "GitHub license-filter search sweep: no new non-duplicate licensed HYSYS model payload",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/search?q=HYSYS+license\u0026type=repositories",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-search-aspen-hysys-license-gpl3.json",
+                                    "filename":  "github-search-aspen-hysys-license-gpl3.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-search-hysys-license-apache2.json",
+                                    "filename":  "github-search-hysys-license-apache2.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  283,
+                                    "sha256":  "035baa195ad244ea1f6ca5d84f70ef63fa51ea819a25d7f7c1781b83c547a770"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-search-hysys-license-gpl3.json",
+                                    "filename":  "github-search-hysys-license-gpl3.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1950,
+                                    "sha256":  "09cfbd663164ab844022b1c8e3fb12f3456a13cb7a4a2372bdd459ab6b2b45e7"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/github-search-hysys-license-mit.json",
+                                    "filename":  "github-search-hysys-license-mit.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  5150,
+                                    "sha256":  "cd570e448c73c3361b43aa0354584e10177637cac5ac40af112929a76d4ead56"
+                                }
+                            ],
+        "license_public_access_note":  "License-filtered GitHub search metadata saved. Licensed HYSYS model-bearing hits were known duplicates; new licensed hits lacked HYSYS model files.",
+        "recommended_use":  "Use as audit evidence and to prioritize duplicate suppression.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/search?q=HYSYS+license\u0026type=repositories",
+                            "download_url":  "",
+                            "title":  "GitHub license-filter search sweep",
+                            "filenames":  [
+                                              "github-search-aspen-hysys-license-gpl3.json",
+                                              "github-search-hysys-license-apache2.json",
+                                              "github-search-hysys-license-gpl3.json",
+                                              "github-search-hysys-license-mit.json"
+                                          ],
+                            "sha256":  [
+                                           "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414",
+                                           "035baa195ad244ea1f6ca5d84f70ef63fa51ea819a25d7f7c1781b83c547a770",
+                                           "09cfbd663164ab844022b1c8e3fb12f3456a13cb7a4a2372bdd459ab6b2b45e7",
+                                           "cd570e448c73c3361b43aa0354584e10177637cac5ac40af112929a76d4ead56"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "GitHub repository search is not exhaustive for binary case files.",
+                               "Several high-quality licensed hits are already archived and were intentionally not duplicated."
+                           ]
+    },
+    {
+        "title":  "Zenodo license-targeted sweep: no new non-duplicate HYSYS model payload",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://zenodo.org/search?q=Aspen%20HYSYS%20license%20hsc",
+        "download_url":  "",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-14-heartbeat-2107Z/artifacts/zenodo-license-targeted-search-results.json",
+                                    "filename":  "zenodo-license-targeted-search-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  528267,
+                                    "sha256":  "332192f1727325ec2aa33cbb28e52ee510a050b1581b0ddb02aa46e8a1d57c5b"
+                                }
+                            ],
+        "license_public_access_note":  "Zenodo API search metadata saved. Hits were known duplicates, false positives, or non-model records. No payload downloaded.",
+        "recommended_use":  "Use as duplicate-control evidence; revisit only if new DOI-backed HYSYS payloads appear.",
+        "dedupe_keys":  {
+                            "source_page":  "https://zenodo.org/search?q=Aspen%20HYSYS%20license%20hsc",
+                            "download_url":  "",
+                            "title":  "Zenodo license-targeted sweep",
+                            "filenames":  [
+                                              "zenodo-license-targeted-search-results.json"
+                                          ],
+                            "sha256":  [
+                                           "332192f1727325ec2aa33cbb28e52ee510a050b1581b0ddb02aa46e8a1d57c5b"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  true,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Zenodo search aggregate can include false positives and already archived records.",
+                               "No payload was opened, executed, or solved."
+                           ]
+    }
+]

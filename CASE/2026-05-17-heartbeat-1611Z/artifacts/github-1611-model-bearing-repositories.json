@@ -1,0 +1,287 @@
+[
+  {
+    "full_name": "Gallo05952/Articolo_energies",
+    "source_page": "https://github.com/Gallo05952/Articolo_energies",
+    "code_hits": [
+      {
+        "path": "main_conStadi.py",
+        "repository": {
+          "id": "R_kgDOLoovqg",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "Gallo05952/Articolo_energies",
+          "url": "https://github.com/Gallo05952/Articolo_energies"
+        },
+        "sha": "12cccab04791f24259d12a0d00896616dba9035d",
+        "url": "https://github.com/Gallo05952/Articolo_energies/blob/ee28e3092de71d8b57a82132b4ccdd69936ed29b/main_conStadi.py"
+      },
+      {
+        "path": "readme.md",
+        "repository": {
+          "id": "R_kgDOLoovqg",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "Gallo05952/Articolo_energies",
+          "url": "https://github.com/Gallo05952/Articolo_energies"
+        },
+        "sha": "487ca1e69853b2fb9b70f7712de6048030ddd8a4",
+        "url": "https://github.com/Gallo05952/Articolo_energies/blob/ee28e3092de71d8b57a82132b4ccdd69936ed29b/readme.md"
+      },
+      {
+        "path": "main_conStadi.py",
+        "repository": {
+          "id": "R_kgDOLoovqg",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "Gallo05952/Articolo_energies",
+          "url": "https://github.com/Gallo05952/Articolo_energies"
+        },
+        "sha": "12cccab04791f24259d12a0d00896616dba9035d",
+        "url": "https://github.com/Gallo05952/Articolo_energies/blob/ee28e3092de71d8b57a82132b4ccdd69936ed29b/main_conStadi.py"
+      },
+      {
+        "path": "main_senzaStadi.py",
+        "repository": {
+          "id": "R_kgDOLoovqg",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "Gallo05952/Articolo_energies",
+          "url": "https://github.com/Gallo05952/Articolo_energies"
+        },
+        "sha": "fca3481155e5b4156a5b5ec739ada37d3fe99c0c",
+        "url": "https://github.com/Gallo05952/Articolo_energies/blob/ee28e3092de71d8b57a82132b4ccdd69936ed29b/main_senzaStadi.py"
+      }
+    ],
+    "repo_json": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-Gallo05952__Articolo_energies.json",
+    "license_json": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-Gallo05952__Articolo_energies.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-Gallo05952__Articolo_energies.json",
+    "default_branch": "main",
+    "license_spdx": "NOASSERTION",
+    "license_ok_for_archive": false,
+    "model_files": [
+      {
+        "path": "50kmol_h_ALIM_N2_H2S_O2_Hashemi.hsc",
+        "size": 1221180,
+        "sha": "75e2c222dceb2a80448b5f9f46842b254c30a9c5"
+      },
+      {
+        "path": "Articolo_energies.hsc",
+        "size": 549474,
+        "sha": "085bbf51c76b2e6b9b280012a6513fb397704ebd"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "Funzioni/AperturaAspen.py",
+        "size": 1192,
+        "sha": "d2b57ba8b91acd9c01bd909ea7996e4bbf0a1785"
+      },
+      {
+        "path": "Funzioni/RunColonna.py",
+        "size": 6431,
+        "sha": "1201408054b7691ccda47cf9f3c08c6451e04fba"
+      },
+      {
+        "path": "Funzioni/__init__.py",
+        "size": 176,
+        "sha": "e93597be0516b550ffbea10ecf2abcd31b0792e8"
+      },
+      {
+        "path": "Funzioni/cambiopressione.py",
+        "size": 193,
+        "sha": "bb58e4b0b9943ba460911e3266931e134ed66888"
+      },
+      {
+        "path": "Funzioni/cambiostadi.py",
+        "size": 506,
+        "sha": "c2a536fd4f84cfa34a40898cfebc9ad33a92c423"
+      },
+      {
+        "path": "main_conStadi.py",
+        "size": 3795,
+        "sha": "12cccab04791f24259d12a0d00896616dba9035d"
+      },
+      {
+        "path": "main_senzaStadi.py",
+        "size": 2835,
+        "sha": "fca3481155e5b4156a5b5ec739ada37d3fe99c0c"
+      },
+      {
+        "path": "readme.md",
+        "size": 108,
+        "sha": "487ca1e69853b2fb9b70f7712de6048030ddd8a4"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": false,
+    "tree_truncated": false
+  },
+  {
+    "full_name": "CAChemE/stochastic-optimization",
+    "source_page": "https://github.com/CAChemE/stochastic-optimization",
+    "code_hits": [
+      {
+        "path": "ConventionalDistillationColumn/pso_column.py",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnk2MzM2MzA3Ng==",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "CAChemE/stochastic-optimization",
+          "url": "https://github.com/CAChemE/stochastic-optimization"
+        },
+        "sha": "c50756b884599dbd5e780c57e574a4ece1b8ac7f",
+        "url": "https://github.com/CAChemE/stochastic-optimization/blob/90dcfef2469e270a1f74458797c03cc90ff4a0dd/ConventionalDistillationColumn/pso_column.py"
+      },
+      {
+        "path": "PyConES-2016.md",
+        "repository": {
+          "id": "MDEwOlJlcG9zaXRvcnk2MzM2MzA3Ng==",
+          "isFork": false,
+          "isPrivate": false,
+          "nameWithOwner": "CAChemE/stochastic-optimization",
+          "url": "https://github.com/CAChemE/stochastic-optimization"
+        },
+        "sha": "c6bef17abc0efb7fa3b38ec1886917178c58bffb",
+        "url": "https://github.com/CAChemE/stochastic-optimization/blob/90dcfef2469e270a1f74458797c03cc90ff4a0dd/PyConES-2016.md"
+      }
+    ],
+    "repo_json": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-repo-CAChemE__stochastic-optimization.json",
+    "license_json": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-license-CAChemE__stochastic-optimization.json",
+    "tree_json": "CASE/2026-05-17-heartbeat-1611Z/artifacts/github-1611-tree-CAChemE__stochastic-optimization.json",
+    "default_branch": "master",
+    "license_spdx": "BSD-3-Clause",
+    "license_ok_for_archive": true,
+    "model_files": [
+      {
+        "path": "ConventionalDistillationColumn/Test_Column.hsc",
+        "size": 719693,
+        "sha": "6bc20fee3f89e2959385704de384fb0194f709c6"
+      }
+    ],
+    "sidecar_files": [
+      {
+        "path": "ConventionalDistillationColumn/PSO_Algorithm.py",
+        "size": 11026,
+        "sha": "2e18038e4bdc1c8122c42c4a054abfa9a68851cb"
+      },
+      {
+        "path": "ConventionalDistillationColumn/Test_Column_ObjFnc.py",
+        "size": 8282,
+        "sha": "80dc9c6106ad20a1e6aef0c511d6cfd90975836e"
+      },
+      {
+        "path": "ConventionalDistillationColumn/column_algorithm.py",
+        "size": 2956,
+        "sha": "2d32a8b2ca89640eb3d1eedd4a0b915ca6d8e134"
+      },
+      {
+        "path": "ConventionalDistillationColumn/hyInterface.py",
+        "size": 4985,
+        "sha": "54af7f845b0cfa8236fca21612076e30bd189341"
+      },
+      {
+        "path": "ConventionalDistillationColumn/main_Column.py",
+        "size": 5957,
+        "sha": "c069ad3b6343a841aca5d5df4f98ec31c9363b84"
+      },
+      {
+        "path": "ConventionalDistillationColumn/print_pso.py",
+        "size": 1930,
+        "sha": "c85e47561ff708dcd9b35d3f8f84773238f90d09"
+      },
+      {
+        "path": "ConventionalDistillationColumn/pso_column.py",
+        "size": 1350,
+        "sha": "c50756b884599dbd5e780c57e574a4ece1b8ac7f"
+      },
+      {
+        "path": "PSO/2D/optitestfuns.py",
+        "size": 4033,
+        "sha": "b162f82acd363c8bb914d03fa775aad0257f962e"
+      },
+      {
+        "path": "PSO/2D/plotPSO.py",
+        "size": 6531,
+        "sha": "68b5697d17dce57b91078de1f36ec59bae6ea85d"
+      },
+      {
+        "path": "PSO/nD/DemoAckley.py",
+        "size": 234,
+        "sha": "31074cf79232eb947d4c05669f893445039be22a"
+      },
+      {
+        "path": "PSO/nD/MATLAB/DemoAckley.m",
+        "size": 61,
+        "sha": "fdd526594d4646af094cd548511526f0ebc71c38"
+      },
+      {
+        "path": "PSO/nD/MATLAB/F_Ackley.m",
+        "size": 138,
+        "sha": "e50e4f975e81651a969054763b7a83acc364a872"
+      },
+      {
+        "path": "PSO/nD/MATLAB/ftest1d.m",
+        "size": 102,
+        "sha": "84c9be104e167d25f43ba1a40199b7d1146de9ab"
+      },
+      {
+        "path": "PSO/nD/MATLAB/ftest2d.m",
+        "size": 283,
+        "sha": "d0dfa22aef992bddb2680436ea09fc2b9a4a2513"
+      },
+      {
+        "path": "PSO/nD/MATLAB/ftest3d.m",
+        "size": 514,
+        "sha": "14c263094d389e1cd57cc134ba40a3155f3b4de9"
+      },
+      {
+        "path": "PSO/nD/MATLAB/pso_v3.m",
+        "size": 11730,
+        "sha": "d9bb80adf16453182113ee26e673c33c6db18e44"
+      },
+      {
+        "path": "PSO/nD/optitestfuns.py",
+        "size": 4033,
+        "sha": "b162f82acd363c8bb914d03fa775aad0257f962e"
+      },
+      {
+        "path": "PSO/nD/plotPSO.py",
+        "size": 6530,
+        "sha": "eb69558703ed22abe4503d371222a68793a4c78e"
+      },
+      {
+        "path": "PSO/nD/print_pso.py",
+        "size": 1932,
+        "sha": "f4190ef29b5a22e576dd04abbeac15ba07d8ec83"
+      },
+      {
+        "path": "PSO/nD/pso.py",
+        "size": 11066,
+        "sha": "3f0e741c7bd2fe66911d26533e45a452bab4081b"
+      },
+      {
+        "path": "PSO/nD/test_pso.py",
+        "size": 2299,
+        "sha": "474855b4dd9eab2cf208782ba95fb276797df7de"
+      },
+      {
+        "path": "PSO/nD/tictoc.py",
+        "size": 900,
+        "sha": "e3e0a9d4ae0991b930bfc8e2050e9d025cccfe37"
+      },
+      {
+        "path": "README.md",
+        "size": 1152,
+        "sha": "5103b767a2009d75dbf2ee1dea9c6f44e8039290"
+      },
+      {
+        "path": "Slides - PyconES 2016 - Simulation-Based Optimization Using PSO.pdf",
+        "size": 3544219,
+        "sha": "ab12b21b81635c365d3db391196d9cdebf34a5fb"
+      }
+    ],
+    "has_readme": true,
+    "has_license_file": true,
+    "tree_truncated": false
+  }
+]

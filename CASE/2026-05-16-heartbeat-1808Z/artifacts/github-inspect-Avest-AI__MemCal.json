@@ -1,0 +1,28 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Avest-AI/MemCal",
+                 "url":  "https://github.com/Avest-AI/MemCal",
+                 "description":  "A fast and accurate simulation software for membrane gas separation (extension in Aspen HYSYS)",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2024-09-04T14:54:11Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  3,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  1810,
+                                       "sha":  "d4644be52889015e7e4a19a8c50a736150103973"
+                                   }
+                               ]
+             },
+    "error":  null
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "alvinlim86/Neo4J",
+  "description": "using Neo4j Aura for creating Knowledge Graph",
+  "updated_at": "2024-10-28T04:52:32Z",
+  "pushed_at": "2024-10-28T04:52:29Z",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "html_url": "https://github.com/alvinlim86/Neo4J",
+  "topics": []
+}

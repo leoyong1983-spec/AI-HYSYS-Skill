@@ -1,0 +1,133 @@
+{
+  "searches": [
+    {
+      "type": "code",
+      "query": "HYSYS",
+      "extra": [
+        "--extension",
+        "py"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-py.json",
+      "items": 35
+    },
+    {
+      "type": "code",
+      "query": "HYSYS COM",
+      "extra": [
+        "--extension",
+        "py"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-com-py.json",
+      "items": 8
+    },
+    {
+      "type": "code",
+      "query": "OpenCase HYSYS",
+      "extra": [
+        "--extension",
+        "py"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-opencase-py.json",
+      "items": 0
+    },
+    {
+      "type": "code",
+      "query": "HYSYS Spreadsheet",
+      "extra": [
+        "--extension",
+        "py"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-spreadsheet-py.json",
+      "items": 1
+    },
+    {
+      "type": "code",
+      "query": ".hsc HYSYS",
+      "extra": [],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hsc-hysys.json",
+      "items": 0
+    },
+    {
+      "type": "code",
+      "query": ".hscz HYSYS",
+      "extra": [],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hscz-hysys.json",
+      "items": 0
+    },
+    {
+      "type": "code",
+      "query": "Aspen HYSYS README",
+      "extra": [],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-aspen-hysys-readme.json",
+      "items": 0
+    },
+    {
+      "type": "code",
+      "query": "HYSYS",
+      "extra": [
+        "--extension",
+        "m"
+      ],
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-code-hysys-matlab.json",
+      "items": 35
+    },
+    {
+      "type": "repo",
+      "query": "Aspen HYSYS hsc",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__hsc.json",
+      "total_count": 0,
+      "items": 0
+    },
+    {
+      "type": "repo",
+      "query": "Aspen HYSYS hscz",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__hscz.json",
+      "total_count": 0,
+      "items": 0
+    },
+    {
+      "type": "repo",
+      "query": "HYSYS case file",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__case__file.json",
+      "total_count": 3,
+      "items": 3
+    },
+    {
+      "type": "repo",
+      "query": "Aspen HYSYS simulation files",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__simulation__files.json",
+      "total_count": 2,
+      "items": 2
+    },
+    {
+      "type": "repo",
+      "query": "HYSYS Python COM",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__Python__COM.json",
+      "total_count": 1,
+      "items": 1
+    },
+    {
+      "type": "repo",
+      "query": "HYSYS MATLAB Aspen",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__MATLAB__Aspen.json",
+      "total_count": 5,
+      "items": 5
+    },
+    {
+      "type": "repo",
+      "query": "HYSYS Excel validation",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-HYSYS__Excel__validation.json",
+      "total_count": 1,
+      "items": 1
+    },
+    {
+      "type": "repo",
+      "query": "Aspen HYSYS optimization case",
+      "path": "CASE/2026-05-17-heartbeat-1811Z/artifacts/github-1811-repo-search-Aspen__HYSYS__optimization__case.json",
+      "total_count": 0,
+      "items": 0
+    }
+  ],
+  "errors": [],
+  "unique_repositories": 61
+}

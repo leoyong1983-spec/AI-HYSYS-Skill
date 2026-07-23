@@ -1,0 +1,10 @@
+{
+  "file_count_excluding_this_inventory": 39,
+  "extension_counts": {
+    ".json": 39
+  },
+  "risky_or_macro_like_files": [],
+  "scripts_downloaded_but_not_executed": [],
+  "hysys_models_downloaded_but_not_opened": [],
+  "note": "Current-run duplicate model payload directories were removed before commit; only metadata JSON and index files remain."
+}

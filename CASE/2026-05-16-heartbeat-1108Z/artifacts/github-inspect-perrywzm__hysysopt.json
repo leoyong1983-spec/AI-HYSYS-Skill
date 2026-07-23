@@ -1,0 +1,104 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2019-03-26T09:15:13Z",
+                 "defaultBranchRef":  {
+                                          "name":  "master"
+                                      },
+                 "description":  "For optimizing HYSYS case files",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  null,
+                 "nameWithOwner":  "perrywzm/hysysopt",
+                 "pushedAt":  "2019-04-03T14:52:50Z",
+                 "url":  "https://github.com/perrywzm/hysysopt"
+             },
+    "tree":  {
+                 "tree_sha":  "c55b721aea2fb7ad96cdaefd9d997e6789657f09",
+                 "truncated":  false,
+                 "file_count":  17,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Example.ipynb",
+                                       "size":  53676,
+                                       "sha":  "18dc2a6d2e36ace426426d08db5186661279a181"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  43,
+                                       "sha":  "440e598ade42e2bf054deeb46fd2ad7be011b71c"
+                                   },
+                                   {
+                                       "path":  "costing.py",
+                                       "size":  10482,
+                                       "sha":  "9f5e0e5dd885dabaf4eaa12de0d6eaf281eee342"
+                                   },
+                                   {
+                                       "path":  "hysysopt/__init__.py",
+                                       "size":  29,
+                                       "sha":  "2ea3f59ab4f9078f21f8ce59cef35f397252f0e1"
+                                   },
+                                   {
+                                       "path":  "hysysopt/distcol.py",
+                                       "size":  1691,
+                                       "sha":  "5049721ba9029e14470e38a60b78093d1b6ba1fa"
+                                   },
+                                   {
+                                       "path":  "hysysopt/interface.py",
+                                       "size":  4278,
+                                       "sha":  "e5a5331057074114283c2412ffe27d5bc0b53ec7"
+                                   },
+                                   {
+                                       "path":  "hysysopt/optimizer.py",
+                                       "size":  17095,
+                                       "sha":  "7ea2057810a8e5f5bcbfdcb3a38adc3b73742413"
+                                   },
+                                   {
+                                       "path":  "hysysopt/optimizers/pso.py",
+                                       "size":  2924,
+                                       "sha":  "b657212fe27f02dbe718c5cc92e1c9e76fa27533"
+                                   },
+                                   {
+                                       "path":  "hysysopt/util.py",
+                                       "size":  2576,
+                                       "sha":  "7a941c27be95b75bcaa09173d212e0d181705aed"
+                                   },
+                                   {
+                                       "path":  "hysysopt/visualizer.py",
+                                       "size":  3650,
+                                       "sha":  "e7a41e05bc0957fe5fd01e9f65ee73659ecd5a87"
+                                   },
+                                   {
+                                       "path":  "main.py",
+                                       "size":  1926,
+                                       "sha":  "c6010af9bd62cebc4e3b1d7a238855ce0c67baf5"
+                                   },
+                                   {
+                                       "path":  "plot_grid.py",
+                                       "size":  1623,
+                                       "sha":  "20191130c99d91d812059ef3afc111a7f0ab3715"
+                                   },
+                                   {
+                                       "path":  "test_costing.py",
+                                       "size":  268,
+                                       "sha":  "d91553c9f6dc8674429b03d2add9402eac8fa0dd"
+                                   },
+                                   {
+                                       "path":  "visualizer.py",
+                                       "size":  2552,
+                                       "sha":  "54a2bfbd7e3576b77c52299d86efe9fef2c35199"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null,
+    "seen_before":  true,
+    "queries":  [
+                    "github-repo-hysys-case-file"
+                ]
+}

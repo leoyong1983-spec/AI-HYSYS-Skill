@@ -1,0 +1,141 @@
+[
+  {
+    "title": "GitHub licensed duplicate sweep: shahria-sunny Natural Gas Sweetening and CDU Simulation Optimization",
+    "type": "github_duplicate_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/shahria-sunny/Natural-Gas-Sweetening ; https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+    "download_url": "https://codeload.github.com/shahria-sunny/Natural-Gas-Sweetening/zip/refs/heads/main ; https://codeload.github.com/shahria-sunny/CDU-Simulation-Optimization/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Both repositories are public MIT-licensed GitHub repositories and contain HYSYS `.hsc` model files plus reports/README material. They were not downloaded because existing CASE records already archive them.",
+    "recommended_use": "Use existing archived copies for natural-gas sweetening, acid-gas removal, crude distillation, and HYSYS V14 automation regression tests.",
+    "dedupe_keys": [
+      "source_page:https://github.com/shahria-sunny/Natural-Gas-Sweetening",
+      "filename:Gas Sweetening.hsc",
+      "sha256:fcda75090796e9ba8a69bfb29a769deea36761d11d26c93d51d98318d19d4610",
+      "source_page:https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+      "filename:project.hsc",
+      "sha256:795c3587c611405f4786115514030036987615e47c33fe74aba1fcb1610fbdd2"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "V14 inferred from repository metadata/README",
+      "main_model_files": [
+        "Gas Sweetening.hsc",
+        "project.hsc"
+      ],
+      "supporting_files_seen": [
+        "Gas Sweetening Report.pdf",
+        "CDU_Report.pdf",
+        "README.md"
+      ],
+      "process_area": "natural gas sweetening / crude atmospheric distillation",
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate records were not re-downloaded.",
+      "HYSYS models were not opened or solved in this run."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "GitHub no-license `.hsc` manual-permission queue refresh",
+    "type": "github_no_license_candidate_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys ; https://github.com/Anikesh31/simulator_codingplatform_integration ; https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+    "download_url": "https://raw.githubusercontent.com/Mahdi-Arashian/sour-gas-sweetening-hysys/main/GTU%20Simulation.hsc ; https://raw.githubusercontent.com/Anikesh31/simulator_codingplatform_integration/main/Test_file_hysys_python.hsc ; https://raw.githubusercontent.com/Corey-McInrue/Node-C-ASPEN-HYSYS/main/NODECFINAL.hsc",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub read access only. No repository license was detected for these model-bearing repositories, so files were not downloaded or redistributed.",
+    "recommended_use": "Manual author-permission queue only; do not use as corpus assets unless license/permission is clarified.",
+    "dedupe_keys": [
+      "source_page:https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+      "filename:GTU Simulation.hsc",
+      "source_page:https://github.com/Anikesh31/simulator_codingplatform_integration",
+      "filename:Test_file_hysys_python.hsc",
+      "source_page:https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+      "filename:NODECFINAL.hsc"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "main_model_files": [
+        "GTU Simulation.hsc",
+        "Test_file_hysys_python.hsc",
+        "NODECFINAL.hsc"
+      ],
+      "supporting_files_seen": [
+        "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf",
+        "README.md"
+      ],
+      "process_area": "sour gas sweetening / HYSYS coding integration / student design node",
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No explicit license means archival and redistribution rights are unclear.",
+      "Repositories were already recorded in earlier CASE candidate sweeps.",
+      "HYSYS models were not opened or solved."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Zenodo Hydrogen Co-Firing in Gas Turbines ambiguous archive candidate",
+    "type": "zenodo_ambiguous_archive_candidate",
+    "quality": "D",
+    "source_page": "https://zenodo.org/records/19469917",
+    "download_url": "https://zenodo.org/api/records/19469917/files",
+    "local_artifacts": [],
+    "license_public_access_note": "Public Zenodo record with DOI 10.5281/zenodo.19469917 and CC BY 4.0 metadata. File listing exposes `Upload data.rar`; contents were not downloaded because no `.hsc`, `.hscz`, HYSYS XML, or `.compound` file is confirmed by metadata.",
+    "recommended_use": "Literature/candidate backlog only until archive contents are safely identified from trustworthy metadata or a safer file listing.",
+    "dedupe_keys": [
+      "source_page:https://zenodo.org/records/19469917",
+      "doi:10.5281/zenodo.19469917",
+      "filename:Upload data.rar",
+      "prior_candidate:Hydrogen Co-Firing in Gas Turbines package candidate"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "main_model_files": [],
+      "supporting_files_seen": [
+        "Upload data.rar"
+      ],
+      "process_area": "hydrogen co-firing / gas turbines / economic dispatch",
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "RAR contents are not described in the API metadata.",
+      "Archive may contain non-model files or unsafe/irrelevant binary payloads.",
+      "No HYSYS model was downloaded, opened, or solved."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "GitHub automation/no-model refresh: Avest-AI MemCal and related HYSYS automation repositories",
+    "type": "github_no_model_candidate_sweep",
+    "quality": "D",
+    "source_page": "https://github.com/Avest-AI/MemCal ; https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization ; https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "download_url": "https://codeload.github.com/Avest-AI/MemCal/zip/refs/heads/main ; https://codeload.github.com/Galigeigei-Z/HDA-Surrogate-Optimization/zip/refs/heads/main ; https://codeload.github.com/GaboTalero/HYSYS-Python-Case-Builder/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repositories. Some are MIT-licensed automation repositories, but inspected trees did not expose a qualifying HYSYS main model file; Avest-AI/MemCal has no detected repository license.",
+    "recommended_use": "Automation-pattern or literature leads only; not model corpus assets.",
+    "dedupe_keys": [
+      "source_page:https://github.com/Avest-AI/MemCal",
+      "source_page:https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+      "source_page:https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+      "no_main_model_file"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "main_model_files": [],
+      "supporting_files_seen": [
+        "README.md",
+        "notebooks",
+        "XLSX examples"
+      ],
+      "process_area": "membrane gas separation / HYSYS automation / HEN supertargeting",
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Automation repositories may require local or proprietary HYSYS cases not present in public tree.",
+      "Unknown binaries or extensions, if any, must not be executed.",
+      "No qualifying HYSYS model file was archived."
+    ],
+    "model_run_status": "not_run"
+  }
+]

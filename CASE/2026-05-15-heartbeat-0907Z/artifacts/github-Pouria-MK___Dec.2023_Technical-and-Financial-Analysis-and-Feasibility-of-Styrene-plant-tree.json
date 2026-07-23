@@ -1,0 +1,148 @@
+{
+  "sha": "ffbb09899db274b8c6f9983357ecccf8aa69caa4",
+  "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/trees/ffbb09899db274b8c6f9983357ecccf8aa69caa4",
+  "tree": [
+    {
+      "path": "DOCS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cdb9ecd8244b8867fb6c81c895c7981a778b17c",
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/trees/4cdb9ecd8244b8867fb6c81c895c7981a778b17c"
+    },
+    {
+      "path": "DOCS/Plant_Design_1402_1_HW1.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373885277780a18594cd15c3be5ec37e9fe5f8e6",
+      "size": 440320,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/373885277780a18594cd15c3be5ec37e9fe5f8e6"
+    },
+    {
+      "path": "DOCS/Plant_Design_1402_1_HW4_R0.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f261cba243f5a77bb1938a81787ef12cb042c625",
+      "size": 211193,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/f261cba243f5a77bb1938a81787ef12cb042c625"
+    },
+    {
+      "path": "DOCS/report(costing-sizing).pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d68c6e6f7325cf9522f75ea1619fb7f11872675",
+      "size": 1141338,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/7d68c6e6f7325cf9522f75ea1619fb7f11872675"
+    },
+    {
+      "path": "DOCS/report(simulation).pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a8481219e98f397268f5f69a037229b1bd8fd29",
+      "size": 1944054,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/8a8481219e98f397268f5f69a037229b1bd8fd29"
+    },
+    {
+      "path": "MISC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0b1b14b000779062635652e243434739154d303",
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/trees/e0b1b14b000779062635652e243434739154d303"
+    },
+    {
+      "path": "MISC/Equipment Sizing and costing and Economical Analysis.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd5b9507b581a34bd6fca0938751afde9b8f532",
+      "size": 52856,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/9fd5b9507b581a34bd6fca0938751afde9b8f532"
+    },
+    {
+      "path": "MISC/RXN1 Keq.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b794dcecccc2abff324d93968496ad9d061769",
+      "size": 10161,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/99b794dcecccc2abff324d93968496ad9d061769"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f177fc81a7f6d4083a222165aadf114efeda0b52",
+      "size": 3311,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/f177fc81a7f6d4083a222165aadf114efeda0b52"
+    },
+    {
+      "path": "SIM",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04c1aafd292e04a982bbc69ff80b1fdb178626cc",
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/trees/04c1aafd292e04a982bbc69ff80b1fdb178626cc"
+    },
+    {
+      "path": "SIM/MainSimStyreneV12(modified).hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d816496febdad8013d74a5f46fb950ec311d5f43",
+      "size": 1717771,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/d816496febdad8013d74a5f46fb950ec311d5f43"
+    },
+    {
+      "path": "SIM/MainSimStyreneV12.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4d973fb82e9f85f94c65042fa386d3ed8c2b18a",
+      "size": 1692097,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/b4d973fb82e9f85f94c65042fa386d3ed8c2b18a"
+    },
+    {
+      "path": "SIM/Styrene-Recycle.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcd5c741e62ebbb0eb8c3baeede8bb3efaf3c462",
+      "size": 2146603,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/fcd5c741e62ebbb0eb8c3baeede8bb3efaf3c462"
+    },
+    {
+      "path": "SIM/Styrene-Recycle.hscz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cedaf4563adf6c6f30ba7c94d3055a95f8fa1b9",
+      "size": 2151824,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/3cedaf4563adf6c6f30ba7c94d3055a95f8fa1b9"
+    },
+    {
+      "path": "SIM/Styrene-Recycle.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b499d8a646313a8417b145eeca08288861140a",
+      "size": 7623079,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/39b499d8a646313a8417b145eeca08288861140a"
+    },
+    {
+      "path": "SIM/Styrene.hsc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec04c5e4cda3e352767bcb4e66fdcd8ba5532ade",
+      "size": 2148664,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/ec04c5e4cda3e352767bcb4e66fdcd8ba5532ade"
+    },
+    {
+      "path": "SIM/Styrene.hscz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c50ba565d31e32f6ee67b0ed4aba8fefbfbfa5db",
+      "size": 2153816,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/c50ba565d31e32f6ee67b0ed4aba8fefbfbfa5db"
+    },
+    {
+      "path": "SIM/Styrene.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40682a451e2d812e2d87c75456ac084304aed7da",
+      "size": 7625721,
+      "url": "https://api.github.com/repos/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant/git/blobs/40682a451e2d812e2d87c75456ac084304aed7da"
+    }
+  ],
+  "truncated": false
+}

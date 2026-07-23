@@ -1,0 +1,614 @@
+[
+  {
+    "title": "HDA Plant Simulation with Aspen HYSYS and MATLAB",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+    "download_url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-SinaGhanbarii__HDA-Plant-Simulation-repo.json",
+        "filename": "github-SinaGhanbarii__HDA-Plant-Simulation-repo.json",
+        "file_type": "json",
+        "size_bytes": 6764,
+        "sha256": "207db30748c0cc188d01d740ce91a0177423a26075d06429ba68fb3adaf02bef"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-SinaGhanbarii__HDA-Plant-Simulation-tree.json",
+        "filename": "github-SinaGhanbarii__HDA-Plant-Simulation-tree.json",
+        "file_type": "json",
+        "size_bytes": 8962,
+        "sha256": "b4334fa9f408fab58591fc4beb756f4bd1c8e327c946b6177e713ff9896ce5f6"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository metadata was accessible, but no repository license was detected by GitHub API; model and companion payloads were not downloaded pending manual permission review.",
+    "recommended_use": "???????????? HDA ??????????????????????? HYSYS ???????",
+    "dedupe_keys": {
+      "source_page": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+      "download_url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+      "title": "SinaGhanbarii/HDA-Plant-Simulation",
+      "filenames": [
+        "HDA 2024 Aspen/1-HDA-Setup.hsc",
+        "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+        "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+        "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+        "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+        "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+        "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+        "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+        "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+        "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub API ??? License???? .hsc?PDF?Excel ??????",
+      "?? MATLAB ????????????????"
+    ]
+  },
+  {
+    "title": "The simulation of the acetic acid production in ASPEN HYSYS v10",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "download_url": "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-masoud-abdi__The-simulation-of-Acetic-Acid-process-repo.json",
+        "filename": "github-masoud-abdi__The-simulation-of-Acetic-Acid-process-repo.json",
+        "file_type": "json",
+        "size_bytes": 7303,
+        "sha256": "df19e055262f466712bcbf01d58859f7191e6681627f62e1ea5720127c9568fe"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-masoud-abdi__The-simulation-of-Acetic-Acid-process-tree.json",
+        "filename": "github-masoud-abdi__The-simulation-of-Acetic-Acid-process-tree.json",
+        "file_type": "json",
+        "size_bytes": 1530,
+        "sha256": "57c7c5d4e7142bc0f54cf315590350917c98ae5a4520d2a02e0b3e537b15f753"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository metadata was accessible, but no repository license was detected by GitHub API; model and companion payloads were not downloaded pending manual permission review.",
+    "recommended_use": "?????????? HYSYS V10 ????PFD/??????????????",
+    "dedupe_keys": {
+      "source_page": "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+      "download_url": "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+      "title": "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+      "filenames": [
+        "acetic fin.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "V10",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub API ??? License??????? PDF?",
+      "????????????????????????"
+    ]
+  },
+  {
+    "title": "Sour gas sweetening DEA simulation in Aspen HYSYS",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "download_url": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-Mahdi-Arashian__sour-gas-sweetening-hysys-repo.json",
+        "filename": "github-Mahdi-Arashian__sour-gas-sweetening-hysys-repo.json",
+        "file_type": "json",
+        "size_bytes": 6825,
+        "sha256": "711bdee91c4eaaa1f941b7ea1822afdb8d5018638412fa6d3b902d2711088c54"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-Mahdi-Arashian__sour-gas-sweetening-hysys-tree.json",
+        "filename": "github-Mahdi-Arashian__sour-gas-sweetening-hysys-tree.json",
+        "file_type": "json",
+        "size_bytes": 1203,
+        "sha256": "f4114c0c4d800a26b45a43937270d2a931f8acd6b9ca856f435e1b02091f4920"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository metadata was accessible, but no repository license was detected by GitHub API; model and companion payloads were not downloaded pending manual permission review.",
+    "recommended_use": "???????????????????????????????????",
+    "dedupe_keys": {
+      "source_page": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+      "download_url": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+      "title": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+      "filenames": [
+        "GTU Simulation.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub API ??? License??????????"
+    ]
+  },
+  {
+    "title": "Simulation Production Butyl Chloride in Aspen HYSYS",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+    "download_url": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-royhanikbarr__Aspen-Hysys-Simulation-repo.json",
+        "filename": "github-royhanikbarr__Aspen-Hysys-Simulation-repo.json",
+        "file_type": "json",
+        "size_bytes": 6529,
+        "sha256": "dd59436b8b8edfe4e9e6d08d579f088e69a71fbc09578b00de15dbc7120a027d"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-royhanikbarr__Aspen-Hysys-Simulation-tree.json",
+        "filename": "github-royhanikbarr__Aspen-Hysys-Simulation-tree.json",
+        "file_type": "json",
+        "size_bytes": 1614,
+        "sha256": "d42b91fffc695c56e567bdfc65e7f35e66e0f2beff9aa131ed413e440fbcd71c"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository metadata was accessible, but no repository license was detected by GitHub API; model and companion payloads were not downloaded pending manual permission review.",
+    "recommended_use": "???????????????? HYSYS case ??????????????????",
+    "dedupe_keys": {
+      "source_page": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+      "download_url": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+      "title": "royhanikbarr/Aspen-Hysys-Simulation",
+      "filenames": [
+        "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub API ??? License??????? PDF?"
+    ]
+  },
+  {
+    "title": "HysysExcel Python/Excel interaction example",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/ArturTask/HysysExcel",
+    "download_url": "https://github.com/ArturTask/HysysExcel",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-ArturTask__HysysExcel-repo.json",
+        "filename": "github-ArturTask__HysysExcel-repo.json",
+        "file_type": "json",
+        "size_bytes": 5828,
+        "sha256": "438b3b2374dc23dd054159e537e1ec4dd88b1a6e871153af915be3176ecb1ab5"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-ArturTask__HysysExcel-tree.json",
+        "filename": "github-ArturTask__HysysExcel-tree.json",
+        "file_type": "json",
+        "size_bytes": 3684,
+        "sha256": "49d90d1891bbd0d7a10a79b93d7b44a4792def5d2e897b50fa43baa643bf0345"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository metadata was accessible, but no repository license was detected by GitHub API; model and companion payloads were not downloaded pending manual permission review.",
+    "recommended_use": "?????????? Excel/Python-HYSYS ???Spreadsheet ???????/???????",
+    "dedupe_keys": {
+      "source_page": "https://github.com/ArturTask/HysysExcel",
+      "download_url": "https://github.com/ArturTask/HysysExcel",
+      "title": "ArturTask/HysysExcel",
+      "filenames": [
+        "Test_1.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "GitHub API ??? License???????Excel ????",
+      "?????? Test_1.hsc ???????? SHA??????????"
+    ]
+  },
+  {
+    "title": "HYSYS Python Case Builder automation scripts",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "download_url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-repo.json",
+        "filename": "github-GaboTalero__HYSYS-Python-Case-Builder-repo.json",
+        "file_type": "json",
+        "size_bytes": 6767,
+        "sha256": "4cda1d3f7d014db1a54a81a73897d03b640cae0ddcd054f05f443236596d2f39"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-GaboTalero__HYSYS-Python-Case-Builder-tree.json",
+        "filename": "github-GaboTalero__HYSYS-Python-Case-Builder-tree.json",
+        "file_type": "json",
+        "size_bytes": 3044,
+        "sha256": "8293e6c46272aff68531a00afc49ad7bbd09333767f027e4afd3f20e131139d4"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with MIT license detected, but no qualifying HYSYS model file was found in the repository tree.",
+    "recommended_use": "Useful as automation-pattern reference only; no HYSYS case file present, so not a benchmark case.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+      "download_url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+      "title": "GaboTalero/HYSYS-Python-Case-Builder",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Skipped as benchmark case because no .hsc/.hscz/HYSYS XML/.compound model was found.",
+      "No scripts, workbooks, or macros were executed."
+    ]
+  },
+  {
+    "title": "HYSYS to Excel intro VBA workbook",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+    "download_url": "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-oscarcontrerasnavas__hysys-to-excel-intro-repo.json",
+        "filename": "github-oscarcontrerasnavas__hysys-to-excel-intro-repo.json",
+        "file_type": "json",
+        "size_bytes": 7073,
+        "sha256": "ee280d62a71e8fbfa574156d549333df6549e028462c7dcf03bc1fead630fe43"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-oscarcontrerasnavas__hysys-to-excel-intro-tree.json",
+        "filename": "github-oscarcontrerasnavas__hysys-to-excel-intro-tree.json",
+        "file_type": "json",
+        "size_bytes": 1471,
+        "sha256": "089593c1ee3c8a356f01624ba09d87cf6a05e5709d37e970d29f6ed9b76959ea"
+      }
+    ],
+    "license_public_access_note": "Public GitHub repository with GPL-3.0 license detected, but no qualifying HYSYS model file was found in the repository tree.",
+    "recommended_use": "Potential Excel/VBA bridge reference only; no HYSYS model and workbook may contain macros, so do not execute.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+      "download_url": "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+      "title": "oscarcontrerasnavas/hysys-to-excel-intro",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Skipped as benchmark case because no .hsc/.hscz/HYSYS XML/.compound model was found.",
+      "No scripts, workbooks, or macros were executed."
+    ]
+  },
+  {
+    "title": "Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+    "type": "dataset",
+    "quality": "A",
+    "source_page": "https://zenodo.org/records/14882867",
+    "download_url": "https://zenodo.org/records/14882867",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/zenodo-2207-targeted-search-results.json",
+        "filename": "zenodo-2207-targeted-search-results.json",
+        "file_type": "json",
+        "size_bytes": 272504,
+        "sha256": "f8548716bb0f790d8e790439479549e2edeba4464569a55c9816bf416e9de0df"
+      }
+    ],
+    "license_public_access_note": "Zenodo record is public and CC-BY-4.0; it contains HYSYS .hsc files and data, but it is already present in the existing CASE archive, so no duplicate payload was downloaded.",
+    "recommended_use": "Already suitable in the existing benchmark library for CO2 capture, marine fuels, methanol and natural-gas ship capture regression tests.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/records/14882867",
+      "download_url": "https://zenodo.org/records/14882867",
+      "title": "Dataset for publication \"Onboard carbon capture for circular marine fuels\"",
+      "filenames": [
+        "MeOH_Production.hsc",
+        "Capture_onboard_methanol.hsc",
+        "Capture_onboard_NG.hsc",
+        "Data.xlsx",
+        "Circular-marine-fuels-2050.xlsx"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Duplicate source; this run did not download payload files.",
+      "Existing archived copy should remain the canonical local copy."
+    ]
+  },
+  {
+    "title": "GitHub-first 2207Z repository and code-search sweep",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/search",
+    "download_url": "https://github.com/search",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-code-aspen-hysys-extension-hsc.json",
+        "filename": "github-code-aspen-hysys-extension-hsc.json",
+        "file_type": "json",
+        "size_bytes": 72,
+        "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-code-hysys-extension-compound.json",
+        "filename": "github-code-hysys-extension-compound.json",
+        "file_type": "json",
+        "size_bytes": 72,
+        "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-code-hysys-extension-hsc.json",
+        "filename": "github-code-hysys-extension-hsc.json",
+        "file_type": "json",
+        "size_bytes": 72,
+        "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-code-hysys-extension-hscz.json",
+        "filename": "github-code-hysys-extension-hscz.json",
+        "file_type": "json",
+        "size_bytes": 72,
+        "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-code-hysys-matlab.json",
+        "filename": "github-code-hysys-matlab.json",
+        "file_type": "json",
+        "size_bytes": 72,
+        "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-code-hysys-python-com.json",
+        "filename": "github-code-hysys-python-com.json",
+        "file_type": "json",
+        "size_bytes": 72,
+        "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-code-hysys-xml-cases.json",
+        "filename": "github-code-hysys-xml-cases.json",
+        "file_type": "json",
+        "size_bytes": 72,
+        "sha256": "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-repo-search-aspen-hysys.json",
+        "filename": "github-repo-search-aspen-hysys.json",
+        "file_type": "json",
+        "size_bytes": 23846,
+        "sha256": "0fb9e6e13d3b5bf519258ed42660a077cff659292c3db94a3f9c06b12cf9e51b"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-repo-search-hysys-automation.json",
+        "filename": "github-repo-search-hysys-automation.json",
+        "file_type": "json",
+        "size_bytes": 1074,
+        "sha256": "b8d6ce208320ef7a9c020fc9432f2230167f740269193691c67ba622c8d0b456"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-repo-search-hysys-matlab.json",
+        "filename": "github-repo-search-hysys-matlab.json",
+        "file_type": "json",
+        "size_bytes": 1119,
+        "sha256": "6e85ce9160ab1b0adbecaa32adabbee900717fd8c9d06c476fd8fc523c2d8e81"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-repo-search-hysys-optimization.json",
+        "filename": "github-repo-search-hysys-optimization.json",
+        "file_type": "json",
+        "size_bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-repo-search-hysys-python.json",
+        "filename": "github-repo-search-hysys-python.json",
+        "file_type": "json",
+        "size_bytes": 3440,
+        "sha256": "dd1ddac409eaacc347c3f5520c3553b42b3b23348cdbca7ec3a6c04b882b85db"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-repo-search-hysys-simulation.json",
+        "filename": "github-repo-search-hysys-simulation.json",
+        "file_type": "json",
+        "size_bytes": 4117,
+        "sha256": "28591bd9e80a0a1bfbcfa990c3eea571c8d0eb72929267249d886610ecc30119"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-repo-search-hysys.json",
+        "filename": "github-repo-search-hysys.json",
+        "file_type": "json",
+        "size_bytes": 22477,
+        "sha256": "b804dcbd40f688b4b98dce22ba07ccaa0aa6c271ea4917f3f7bae3b480463776"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/github-targeted-repo-tree-summary.json",
+        "filename": "github-targeted-repo-tree-summary.json",
+        "file_type": "json",
+        "size_bytes": 12889,
+        "sha256": "709226b23098e03957ee5ad6c216c4aee0fc209dfb64518a1a9e5b12575b74da"
+      },
+      {
+        "path": "CASE/2026-05-14-heartbeat-2207Z/artifacts/dedupe-summary.json",
+        "filename": "dedupe-summary.json",
+        "file_type": "json",
+        "size_bytes": 239,
+        "sha256": "82e70d167a2d3a186245947d6b3cc02a294f8c6b44035969603844e4e84a0dda"
+      }
+    ],
+    "license_public_access_note": "Search metadata only. Code search returned no indexed .hsc/.hscz/.compound hits; repository search and tree inspection found candidates but no new licensed, non-duplicate downloadable case.",
+    "recommended_use": "Use the search artifact set to refine future allowlist/blocklist logic and prioritize manual license requests for HDA, sour gas sweetening, acetic acid and butyl chloride candidates.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/search",
+      "download_url": "https://github.com/search",
+      "title": "GitHub-first 2207Z repository and code-search sweep",
+      "filenames": [
+        "github-code-aspen-hysys-extension-hsc.json",
+        "github-code-hysys-extension-compound.json",
+        "github-code-hysys-extension-hsc.json",
+        "github-code-hysys-extension-hscz.json",
+        "github-code-hysys-matlab.json",
+        "github-code-hysys-python-com.json",
+        "github-code-hysys-xml-cases.json",
+        "github-repo-search-aspen-hysys.json",
+        "github-repo-search-hysys-automation.json",
+        "github-repo-search-hysys-matlab.json",
+        "github-repo-search-hysys-optimization.json",
+        "github-repo-search-hysys-python.json",
+        "github-repo-search-hysys-simulation.json",
+        "github-repo-search-hysys.json",
+        "github-targeted-repo-tree-summary.json",
+        "dedupe-summary.json"
+      ],
+      "sha256": [
+        "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a",
+        "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a",
+        "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a",
+        "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a",
+        "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a",
+        "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a",
+        "53895997f5e07566d90a3f34b7fbb880fb1acf32d885aa31fbb268a6d7769d2a",
+        "0fb9e6e13d3b5bf519258ed42660a077cff659292c3db94a3f9c06b12cf9e51b",
+        "b8d6ce208320ef7a9c020fc9432f2230167f740269193691c67ba622c8d0b456",
+        "6e85ce9160ab1b0adbecaa32adabbee900717fd8c9d06c476fd8fc523c2d8e81",
+        "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "dd1ddac409eaacc347c3f5520c3553b42b3b23348cdbca7ec3a6c04b882b85db",
+        "28591bd9e80a0a1bfbcfa990c3eea571c8d0eb72929267249d886610ecc30119",
+        "b804dcbd40f688b4b98dce22ba07ccaa0aa6c271ea4917f3f7bae3b480463776",
+        "709226b23098e03957ee5ad6c216c4aee0fc209dfb64518a1a9e5b12575b74da",
+        "82e70d167a2d3a186245947d6b3cc02a294f8c6b44035969603844e4e84a0dda"
+      ]
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": true,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": false,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Search evidence includes metadata only, not model payloads.",
+      "Some repositories may add licenses later and should be rechecked."
+    ]
+  }
+]

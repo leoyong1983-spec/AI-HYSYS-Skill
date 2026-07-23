@@ -1,0 +1,15 @@
+{
+  "full_name": "puttak/Modeling-Simulation-Project",
+  "description": "Fixed bed reactor",
+  "updated_at": "2025-03-09T08:44:08Z",
+  "pushed_at": "2020-06-16T05:23:05Z",
+  "default_branch": "master",
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "html_url": "https://github.com/puttak/Modeling-Simulation-Project"
+}

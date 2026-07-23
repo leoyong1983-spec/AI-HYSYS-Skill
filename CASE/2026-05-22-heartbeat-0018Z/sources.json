@@ -1,0 +1,183 @@
+[
+  {
+    "title": "Natividade02/three-phase-separator-simulation",
+    "type": "candidate_no_hysys_main_file",
+    "quality": "D",
+    "source_page": "https://github.com/Natividade02/three-phase-separator-simulation",
+    "download_url": "https://codeload.github.com/Natividade02/three-phase-separator-simulation/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository with MIT license, but tree inspection found no qualifying HYSYS main simulation file. Download was skipped.",
+    "recommended_use": "Do not archive as a HYSYS case. Possible background reference for dynamic three-phase separator modelling only.",
+    "dedupe_keys": [
+      "source_page:https://github.com/Natividade02/three-phase-separator-simulation",
+      "download_url:https://codeload.github.com/Natividade02/three-phase-separator-simulation/zip/refs/heads/main",
+      "title:Natividade02/three-phase-separator-simulation",
+      "license:MIT",
+      "no_qualifying_hysys_model_file_observed"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "three-phase separator dynamic simulation",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "LICENSE",
+        "README.md",
+        "three_phase_separator_simulation.py",
+        "three_phase_version_POO.py"
+      ]
+    },
+    "residual_risks": [
+      "No Aspen HYSYS main model file was found.",
+      "README describes simulation generally, not a HYSYS case package.",
+      "No local HYSYS runtime validation was performed."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "RHorsley80/tank_heat_balance",
+    "type": "candidate_no_hysys_main_file",
+    "quality": "D",
+    "source_page": "https://github.com/RHorsley80/tank_heat_balance",
+    "download_url": "https://codeload.github.com/RHorsley80/tank_heat_balance/zip/refs/heads/main",
+    "local_artifacts": [],
+    "license_public_access_note": "Public GitHub repository with MIT license, but tree inspection found no qualifying HYSYS main simulation file. Download was skipped.",
+    "recommended_use": "Do not archive as a HYSYS case. Possible method reference for tank heat-balance calculations using process-simulator inputs.",
+    "dedupe_keys": [
+      "source_page:https://github.com/RHorsley80/tank_heat_balance",
+      "download_url:https://codeload.github.com/RHorsley80/tank_heat_balance/zip/refs/heads/main",
+      "title:RHorsley80/tank_heat_balance",
+      "license:MIT",
+      "no_qualifying_hysys_model_file_observed"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "storage tank heat balance",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "LICENSE",
+        "README.md",
+        "app.py",
+        "tank_heat_balance.py",
+        "insulation_properties.py"
+      ]
+    },
+    "residual_risks": [
+      "No Aspen HYSYS main model file was found.",
+      "Repository may consume process-simulator values rather than provide a simulator case.",
+      "No local HYSYS runtime validation was performed."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Figshare/Curtin recent Aspen HYSYS metadata sweep",
+    "type": "candidate_sweep_no_qualifying_model_files",
+    "quality": "D",
+    "source_page": "https://api.figshare.com/v2/articles/search",
+    "download_url": "not_downloaded_no_qualifying_hysys_model_files",
+    "local_artifacts": [],
+    "license_public_access_note": "Only public metadata and file lists were inspected. Records included CC BY, CC BY-NC, and all-rights-reserved entries, but no qualifying HYSYS model files were exposed.",
+    "recommended_use": "Use as a literature-lead backlog only. Do not use for automated HYSYS model tests unless a public licensed model package appears.",
+    "dedupe_keys": [
+      "figshare_search:Aspen HYSYS",
+      "article_id:32085284",
+      "article_id:31601266",
+      "article_id:31477552",
+      "article_id:31668241",
+      "article_id:31667302",
+      "article_id:31654579",
+      "article_id:31868278",
+      "article_id:31769227",
+      "article_id:31762477",
+      "article_id:31707634",
+      "article_id:31701994",
+      "article_id:31525141",
+      "article_id:31239679"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "mixed HYSYS literature leads: LNG, SOFC, CO2 capture, NGL, hydrogen liquefaction, catalytic reforming",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "PDF-only records",
+        "DOCX-only records",
+        "empty file lists",
+        "article metadata"
+      ],
+      "representative_records": [
+        {
+          "id": "32085284",
+          "title": "Comparative Analysis of MEA Absorption and Membrane Separation for FCCU CO2 Capture",
+          "files": "ef6c00473_si_001.pdf"
+        },
+        {
+          "id": "31477552",
+          "title": "An adaptable steady state aspen hysys model for the methane fuelled solid oxide fuel cell",
+          "files": "none exposed"
+        },
+        {
+          "id": "31868278",
+          "title": "Thermodynamic and economic assessment of a liquid nitrogen precooling dual-pressure Claude cycle for hydrogen liquefaction",
+          "files": "Data Sheet 1 docx"
+        },
+        {
+          "id": "31239679",
+          "title": "Techno-economic optimisation of carbon dioxide purification and allocation for industrial sinks",
+          "files": "PDF and images only"
+        }
+      ]
+    },
+    "residual_risks": [
+      "Some paper metadata may imply HYSYS use but expose no model files.",
+      "Several Curtin records are all-rights-reserved or written-permission-required.",
+      "No archive was downloaded or inspected beyond public metadata."
+    ],
+    "model_run_status": "not_run"
+  },
+  {
+    "title": "Wiley Haydary companion/instructor resources",
+    "type": "candidate_password_protected_commercial_companion",
+    "quality": "D",
+    "source_page": "https://bcs.wiley.com/he-bcs/Books?action=resource&bcsId=11642&chapterId=137707&itemId=1119089115&resourceId=46274",
+    "download_url": "not_downloaded_password_protected_instructor_assets",
+    "local_artifacts": [],
+    "license_public_access_note": "Wiley companion/instructor resource appears password protected and tied to a commercial textbook. It was skipped under the no-login/no-commercial-training rule.",
+    "recommended_use": "Do not archive. Revisit only if Wiley or the author publishes an openly licensed, public model download.",
+    "dedupe_keys": [
+      "source_page:https://bcs.wiley.com/he-bcs/Books?action=resource&bcsId=11642&chapterId=137707&itemId=1119089115&resourceId=46274",
+      "title:Chemical Process Design and Simulation: Aspen Plus and Aspen HYSYS Applications",
+      "access:password_protected",
+      "no_public_licensed_download"
+    ],
+    "hysys_specific_metadata": {
+      "hysys_version": "unknown",
+      "process_theme": "textbook companion examples for Aspen Plus and Aspen HYSYS",
+      "contains_hsc": "unknown",
+      "contains_hscz": "unknown",
+      "contains_hysys_xml": "unknown",
+      "contains_compound": "unknown",
+      "known_hysys_files": [],
+      "supporting_artifacts_observed": [
+        "Wiley companion resource metadata",
+        "password protected asset page"
+      ]
+    },
+    "residual_risks": [
+      "Requires password/instructor access.",
+      "Commercial textbook companion context makes redistribution rights unclear.",
+      "No files were downloaded or inspected."
+    ],
+    "model_run_status": "not_run"
+  }
+]

@@ -1,0 +1,849 @@
+{
+  "sha": "3f93a402f5bfbc5e7bde754c96ac546d57d7a098",
+  "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/3f93a402f5bfbc5e7bde754c96ac546d57d7a098",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3111db654b277ff41f7ed8c547bd8020fb0e065",
+      "size": 61,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/d3111db654b277ff41f7ed8c547bd8020fb0e065"
+    },
+    {
+      "path": "00. Design Specs (ES).pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c99178c631a90731c4590ccddf202334aebb2a4a",
+      "size": 669859,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/c99178c631a90731c4590ccddf202334aebb2a4a"
+    },
+    {
+      "path": "00. Part 0 - Optimal Reaction Conditions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ee64f899d56b019b4ae8fa8658d9406ec68dbfb",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/2ee64f899d56b019b4ae8fa8658d9406ec68dbfb"
+    },
+    {
+      "path": "00. Part 0 - Optimal Reaction Conditions/00. Pre entrega 1, Cond Reacci贸n RevA iii (Sin range look).xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "251833ede8129409e3ef3aeb54b21e242eb977dd",
+      "size": 80869643,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/251833ede8129409e3ef3aeb54b21e242eb977dd"
+    },
+    {
+      "path": "00. Part 0 - Optimal Reaction Conditions/00. TP0 ABADI LIOR.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "980a25f72e3386897113c09005f417372956e138",
+      "size": 766852,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/980a25f72e3386897113c09005f417372956e138"
+    },
+    {
+      "path": "00. Part 0 - Optimal Reaction Conditions/CO formation selectivity for steam reforming of methanol.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb8e44ca7ec542dafbb384b8d4a0c9373f29cdf7",
+      "size": 607017,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/fb8e44ca7ec542dafbb384b8d4a0c9373f29cdf7"
+    },
+    {
+      "path": "00. Part 0 - Optimal Reaction Conditions/C谩lculos de Constantes de Reacci贸n.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60267922b3d0eb990b4eb2c6a50fe27eaa362597",
+      "size": 220716,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/60267922b3d0eb990b4eb2c6a50fe27eaa362597"
+    },
+    {
+      "path": "00. Part 0 - Optimal Reaction Conditions/Influence of Reaction Conditions on Methanol Synthesis and WGS Reaction.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63142ced0d3d88a6c16f455fe9391a19494003af",
+      "size": 578474,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/63142ced0d3d88a6c16f455fe9391a19494003af"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05e5f81863489104e38c42cdcc84c2d31ef84af2",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/05e5f81863489104e38c42cdcc84c2d31ef84af2"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/01. Evaluaci贸n de Flowsheets y BM 2.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f33050b1aae2d0d4fa9f614333ea3facb441b2c3",
+      "size": 34250411,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/f33050b1aae2d0d4fa9f614333ea3facb441b2c3"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/01. TP1 - LIOR ABADI.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "944f2b23c5c21c0794b454f24d5fa6e27c476bb7",
+      "size": 1165989,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/944f2b23c5c21c0794b454f24d5fa6e27c476bb7"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Hysys + Excel tutorial",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78a794603e07a8f3c164dc05e9b57a6dad6c5d27",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/78a794603e07a8f3c164dc05e9b57a6dad6c5d27"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs (2).xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd984f75274846ea608d08a8d297c10e66cdef51",
+      "size": 53068,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/bd984f75274846ea608d08a8d297c10e66cdef51"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs (2).xml.user",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95077a67fb95e21d7e01c0971b4c5f2c0014f982",
+      "size": 4,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/95077a67fb95e21d7e01c0971b4c5f2c0014f982"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs.rar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01e9ee8beedc46175f5aa75e2e2c5365386f3c71",
+      "size": 61639,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/01e9ee8beedc46175f5aa75e2e2c5365386f3c71"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs.xls",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "139f74e66da2b288d0d845cbdab96170834a9f7b",
+      "size": 35840,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/139f74e66da2b288d0d845cbdab96170834a9f7b"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/Excel HYSYS Link - AutomateCompCalcs.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d5b752ef43f51ddb30d8525acd63111b823e9d",
+      "size": 423894,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/11d5b752ef43f51ddb30d8525acd63111b823e9d"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Hysys + Excel tutorial/How may I use Excel VBA to automate a series of runs of my HYSYS model and retrieve results for each run.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f953975a35c9d97bc988ea7dd29d329e39d36882",
+      "size": 20253,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/f953975a35c9d97bc988ea7dd29d329e39d36882"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/ListaComp.cml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e7c1ec5d94055d6c353aaffdb636efced25d568",
+      "size": 36403,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/6e7c1ec5d94055d6c353aaffdb636efced25d568"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Salida de reactor 1 y Flash.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afbe197183c1f142202bf5a88b6cfd64a38e8288",
+      "size": 494926,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/afbe197183c1f142202bf5a88b6cfd64a38e8288"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Salida de reactor 1 y Flash.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea1f5b938b0bfe69509d5c6c5a4129a462625553",
+      "size": 453680,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/ea1f5b938b0bfe69509d5c6c5a4129a462625553"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Segundo Reactor.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05414949e1f3e50792348f2251c7de9b91171e13",
+      "size": 795442,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/05414949e1f3e50792348f2251c7de9b91171e13"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Segundo Reactor.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abff722b8da708711d9c8db2ce9deb57f621a92b",
+      "size": 803336,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/abff722b8da708711d9c8db2ce9deb57f621a92b"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Segundo Sist de Sep.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "351a1c69db05a34854d72046b77a94d0743e7f20",
+      "size": 215070,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/351a1c69db05a34854d72046b77a94d0743e7f20"
+    },
+    {
+      "path": "01. Part 1 - Global Process Draft/Segundo Sist de Sep.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98fb404e6e818b62d5079720de8a9a08cfc13fee",
+      "size": 514500,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/98fb404e6e818b62d5079720de8a9a08cfc13fee"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34bedc2babcbe0a67f8e77953352645094d0201a",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/34bedc2babcbe0a67f8e77953352645094d0201a"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/01. TP2 - LIOR ABADI.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81de5fd116f88107df1a1a7d32577eb643b1dae1",
+      "size": 4828975,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/81de5fd116f88107df1a1a7d32577eb643b1dae1"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/01. TP2_S1.XML",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95ab7ceb0d348fe1f6773754fb3ee8eb519bbdd9",
+      "size": 5396399,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/95ab7ceb0d348fe1f6773754fb3ee8eb519bbdd9"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/02. Optimizaciones del 1er Sist RXN.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc069467f689e67263e88444d11181cd4200b6e9",
+      "size": 135606,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/dc069467f689e67263e88444d11181cd4200b6e9"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/02. Optimizaciones del 1er Sist RXN.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e26497600f36cc0585608319e81372d09c06f29",
+      "size": 63237,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/7e26497600f36cc0585608319e81372d09c06f29"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/02. Optimizaciones del 2do Sist RXN.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd8f1f14d18891576f47964e253e4197196ea616",
+      "size": 187114,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/dd8f1f14d18891576f47964e253e4197196ea616"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Calculos de VAN.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac5d02934edd324e41847f81149aedc33a1839cc",
+      "size": 52589,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/ac5d02934edd324e41847f81149aedc33a1839cc"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Calculos de coeficientes de actividad.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "001b3611aabaa013a09bd42298014305abb079f8",
+      "size": 244263,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/001b3611aabaa013a09bd42298014305abb079f8"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Calculos de coeficientes de actividad.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a13b4c1b5cca25ce6900a8094e0a283a8bf0b90",
+      "size": 62393,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/8a13b4c1b5cca25ce6900a8094e0a283a8bf0b90"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Coeficientes cin茅tica.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e98cd4c45756bdcd8dc607523e26ca81c831a732",
+      "size": 14907,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/e98cd4c45756bdcd8dc607523e26ca81c831a732"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/ComponentesUniSim.cml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c06bfdda17dd43c659f4f47321dc6f41741dfa",
+      "size": 42114,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/a5c06bfdda17dd43c659f4f47321dc6f41741dfa"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Ctes a Cargar en UniSim.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e29fcfbbb3da5930911d0374f468e618a5fb02",
+      "size": 875907,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/19e29fcfbbb3da5930911d0374f468e618a5fb02"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/C谩lculos de Constantes de Reacci贸n.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60267922b3d0eb990b4eb2c6a50fe27eaa362597",
+      "size": 220716,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/60267922b3d0eb990b4eb2c6a50fe27eaa362597"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Diluci贸n.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b2975b896a0888dd2e13b660c245f9ad598fced",
+      "size": 43871,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/5b2975b896a0888dd2e13b660c245f9ad598fced"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Hypos Formaldehido.hyp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a193c2e77cad74c44c61958a68f63e6d2a9845e",
+      "size": 13454,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/7a193c2e77cad74c44c61958a68f63e6d2a9845e"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Separaci贸n de Formaldeh铆do - Trabajo de Internet.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b30023213bcaa5411ffa9f12f0addbe9155e10f",
+      "size": 189008,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/4b30023213bcaa5411ffa9f12f0addbe9155e10f"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Set Diluci贸n.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ae6cf2f19a86df2d2aaeb3b2d1aeaf3d2d98f1",
+      "size": 43509,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/29ae6cf2f19a86df2d2aaeb3b2d1aeaf3d2d98f1"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dee86a5bb43bb8c1d734d4e1956bd95ceeddc71",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/9dee86a5bb43bb8c1d734d4e1956bd95ceeddc71"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Compresion Multietapa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd2687a7f3e6646ef27f21d672f6607edd8d257a",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/bd2687a7f3e6646ef27f21d672f6607edd8d257a"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Compresion Multietapa/Compresion Multietapa.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b6b7a08b3efb3b7324961290e1e6da9757d43ed",
+      "size": 109617,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/2b6b7a08b3efb3b7324961290e1e6da9757d43ed"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Compresion Multietapa/Compresion Multietapa.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91659d7fbfba3c911fe2442e63750ad10c6276a5",
+      "size": 151240,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/91659d7fbfba3c911fe2442e63750ad10c6276a5"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Compresion Multietapa/Compresion Multietapa.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a246f9135a87b572a1591dc25c71d4b55777427",
+      "size": 217025,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/6a246f9135a87b572a1591dc25c71d4b55777427"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Density Calculator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b73f2bc2ef8690c48195dcaae20d8cc4bfc1c34",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/0b73f2bc2ef8690c48195dcaae20d8cc4bfc1c34"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Density Calculator/Density Calculator.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c31fc6c146ad3dbe11a090cbf6532d0d7362f7e",
+      "size": 162024,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/9c31fc6c146ad3dbe11a090cbf6532d0d7362f7e"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Density Calculator/DensityCalculate.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9024c3192e1d74d5cdb3f6ac38b96c955301d3f",
+      "size": 61497,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/b9024c3192e1d74d5cdb3f6ac38b96c955301d3f"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Density Calculator/DensityCalculate.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047e9b203a378e781976de71e6b61b0790a2d842",
+      "size": 69123,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/047e9b203a378e781976de71e6b61b0790a2d842"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Flash Temperature Sensibility",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c4ec284e09e272e8f385b29efdee936209fb1c6",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/4c4ec284e09e272e8f385b29efdee936209fb1c6"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Flash Temperature Sensibility/Flash T Sens.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4a0d1292815c76a57cebaf38ac475ce100275ac",
+      "size": 206975,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/b4a0d1292815c76a57cebaf38ac475ce100275ac"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Flash Temperature Sensibility/Flash T Sens.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4671851a25c0973833f8973600a30c61297f939a",
+      "size": 182087,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/4671851a25c0973833f8973600a30c61297f939a"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Flash Temperature Sensibility/~$Compresion Multietapa.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08555194f8607ea47a7ad7488b6e3df182e4ca0f",
+      "size": 165,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/08555194f8607ea47a7ad7488b6e3df182e4ca0f"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Henry's Law",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a5560de3c6cc56b095423a7ea89604be2299794",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/8a5560de3c6cc56b095423a7ea89604be2299794"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Henry's Law/Henry Law.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d484f01240412aae5eee3bf02e380c46641da38",
+      "size": 161939,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/8d484f01240412aae5eee3bf02e380c46641da38"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Henry's Law/HenrysLaw.XML",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9457091ac3128147dcf14d56c249d086d8e00f67",
+      "size": 874825,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/9457091ac3128147dcf14d56c249d086d8e00f67"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Henry's Law/HenrysLaw.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7cc7b2dada2e80bea42c0ecbe18cddf669a4ae",
+      "size": 184967,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/2f7cc7b2dada2e80bea42c0ecbe18cddf669a4ae"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Vapour Curve Constructor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f824c962797671a0a6986cf2e45e877d2d5d3f6",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/1f824c962797671a0a6986cf2e45e877d2d5d3f6"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Vapour Curve Constructor/Constructora de Curvas T-X.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cb5b9805e600534453a1b7b40493016c1f20ff2",
+      "size": 176980,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/0cb5b9805e600534453a1b7b40493016c1f20ff2"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones de c谩lculo templates/Vapour Curve Constructor/DiagramaTX.XML",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a8b815dc6485c48e2d481e10b28b6dc1685a6d",
+      "size": 833906,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/70a8b815dc6485c48e2d481e10b28b6dc1685a6d"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a922684ea22dba1db76413e3452fc9595669822",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/0a922684ea22dba1db76413e3452fc9595669822"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/01. TP2_S1 - Convergido Experimental.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7dedfb5cc6bf60aa70698abcc79cf5e60307398",
+      "size": 1033780,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/c7dedfb5cc6bf60aa70698abcc79cf5e60307398"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/01. TP2_S1 - NTRL.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c3dd02d1aafc8555c36e90a7934df8d3a97cdeb",
+      "size": 1075472,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/2c3dd02d1aafc8555c36e90a7934df8d3a97cdeb"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/01. TP2_S1.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fd9f4cd0f76397c72243d59d47ed7513321412d",
+      "size": 1223513,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/8fd9f4cd0f76397c72243d59d47ed7513321412d"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/01. TP2_S1_RXNs Sol.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b570fb6e29b20d31ed2ef78e0e510aa940396728",
+      "size": 1094676,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/b570fb6e29b20d31ed2ef78e0e510aa940396728"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/02. TP2_S2 - Convergido.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "409faa51db33a10a13f65162b3ac6396af0de870",
+      "size": 910323,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/409faa51db33a10a13f65162b3ac6396af0de870"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/03. TP2_S3 - Simulacion rigurosa - Experimental.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41fdf52bc74426e16a471b8fbbff836b5c250073",
+      "size": 1043048,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/41fdf52bc74426e16a471b8fbbff836b5c250073"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/03. TP2_S3 - Simulacion rigurosa.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e28e100cc6fd89c2e6c57ef2209a576554620b16",
+      "size": 1001897,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/e28e100cc6fd89c2e6c57ef2209a576554620b16"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/04. TP2_S4 - Simulacion rigurosa - Para extraer datos 1 - copia.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178dc0f362119008a8bfc3274d2a92aba0e7a12c",
+      "size": 1231536,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/178dc0f362119008a8bfc3274d2a92aba0e7a12c"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/04. TP2_S4 - Simulacion rigurosa - Para extraer datos 1.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c78db010347e8f5bea0e57eac24b0084002ad372",
+      "size": 1263469,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/c78db010347e8f5bea0e57eac24b0084002ad372"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/04. TP2_S4 - Simulacion rigurosa - Para extraer datos FINAL.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b318e5e9448f953dab1cc5d60b19303cb11fd4e6",
+      "size": 1263130,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/b318e5e9448f953dab1cc5d60b19303cb11fd4e6"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/04. TP2_S4 - Simulacion rigurosa - Para extraer datos FINAL.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe835e4233901d4c4c5b11cd692bc22b7457fb2",
+      "size": 1262928,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/8fe835e4233901d4c4c5b11cd692bc22b7457fb2"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/04. TP2_S4 - Simulacion rigurosa - Para extraer datos.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a1bcf6abf00b9385d580f0825d70ae97d039f7",
+      "size": 1032662,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/64a1bcf6abf00b9385d580f0825d70ae97d039f7"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/04. TP2_S4 - Simulacion rigurosa.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41fdf52bc74426e16a471b8fbbff836b5c250073",
+      "size": 1043048,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/41fdf52bc74426e16a471b8fbbff836b5c250073"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Datos del Basis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd22055987f5906ade95dc72f341b347cdf6ff60",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/fd22055987f5906ade95dc72f341b347cdf6ff60"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Datos del Basis/Comp List.cml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3b827281376d2c5024023bd38c6fde6ec450462",
+      "size": 36439,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/f3b827281376d2c5024023bd38c6fde6ec450462"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Datos del Basis/FP R1.fpk",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a318dd865486e87d59c4270c93d47dd261ba878",
+      "size": 49896,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/0a318dd865486e87d59c4270c93d47dd261ba878"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Datos del Basis/FP R2.fpk",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7560f282bbed822657a4f835d5f0f4a147dcd2f3",
+      "size": 51475,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/7560f282bbed822657a4f835d5f0f4a147dcd2f3"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Datos del Basis/RXN R1.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51c81ad631a73e82158ba4d5bcf93de8b2c34f7e",
+      "size": 38829,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/51c81ad631a73e82158ba4d5bcf93de8b2c34f7e"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Datos del Basis/RXN R2.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c35b99736eb21f09e039df2713153ac74be468c",
+      "size": 41160,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/2c35b99736eb21f09e039df2713153ac74be468c"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Eval de Abs.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "452697cb11e964edd95b15172f6d6a36daebfab2",
+      "size": 845715,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/452697cb11e964edd95b15172f6d6a36daebfab2"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Eval de Parametros de Act.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88a8411c12580cee52c4e2a9c89862e034003e4",
+      "size": 129161,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/c88a8411c12580cee52c4e2a9c89862e034003e4"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Simulaciones/Evaluacion de Equilibrios.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e35a54fc4639190ef9f35871e2a10974fa919f59",
+      "size": 67348,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/e35a54fc4639190ef9f35871e2a10974fa919f59"
+    },
+    {
+      "path": "02. Part 2 - Final Process Design/Tabla T-X paper Shan.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "284fb3aa120d1e0f74123ca67bb5e862201d4ad6",
+      "size": 12377,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/284fb3aa120d1e0f74123ca67bb5e862201d4ad6"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32ba21169839ee1eafc39e85b2f3c803d5263fd4",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/32ba21169839ee1eafc39e85b2f3c803d5263fd4"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design/01. TP3 - LIOR ABADI.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b376ee90628dc3ec8b7b0682033b33ace87c01d5",
+      "size": 4187246,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/b376ee90628dc3ec8b7b0682033b33ace87c01d5"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design/02. Calores de Corrientes IDQ.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e89faf2da2a0bd02f0d9241ccec18cc28da43f01",
+      "size": 250687,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/e89faf2da2a0bd02f0d9241ccec18cc28da43f01"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design/02. Calores de Corrientes rec.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ab0f84796c140fc2c91e338bf5ce82637b43123",
+      "size": 106954,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/0ab0f84796c140fc2c91e338bf5ce82637b43123"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design/02. Calores de Corrientes.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48bb57fbe7b4290151fa064ed0bf806d477f7a6c",
+      "size": 32621,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/48bb57fbe7b4290151fa064ed0bf806d477f7a6c"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design/04. TP2_S4 - Simulacion rigurosa - Para extraer datos FINAL.bk0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe835e4233901d4c4c5b11cd692bc22b7457fb2",
+      "size": 1262928,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/8fe835e4233901d4c4c5b11cd692bc22b7457fb2"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design/04. TP2_S4 - Simulacion rigurosa - Para extraer datos FINAL.usc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e22a44831db9a6e62d69dc085e0e6dadb889bb98",
+      "size": 1475695,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/e22a44831db9a6e62d69dc085e0e6dadb889bb98"
+    },
+    {
+      "path": "03. Part 3 - Energy Recovery Systems Design/TP3 Template.xlsm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c561ab6d4f33ed4ced5112539e8c21825e25f5b3",
+      "size": 148239,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/c561ab6d4f33ed4ced5112539e8c21825e25f5b3"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36a5bcf66471faa038ac4ea690e213a2cb2b22e3",
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/trees/36a5bcf66471faa038ac4ea690e213a2cb2b22e3"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/00.Preentrega.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8506a4a65a60e4df6120972ada8fdba2779ff2bc",
+      "size": 124326,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/8506a4a65a60e4df6120972ada8fdba2779ff2bc"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/01.FlowsheetsTP1.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d720dd9d7a44205d718ff219d6f3dc617c215f2e",
+      "size": 67198,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/d720dd9d7a44205d718ff219d6f3dc617c215f2e"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/02. Calculos de VAN.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a74ecd175dc581ac38e19dd8b3c0ab33e505907",
+      "size": 5538,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/3a74ecd175dc581ac38e19dd8b3c0ab33e505907"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/02. Calculos de coeficientes de actividad.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02edf89d0824f8ad144d22e82d9d674305bf77b9",
+      "size": 16706,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/02edf89d0824f8ad144d22e82d9d674305bf77b9"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/02. Optimizaciones del 1er Sist RXN.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfce89d972a41f3e6ab64d38eda7c54a4839d94",
+      "size": 7310,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/0cfce89d972a41f3e6ab64d38eda7c54a4839d94"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/02. Optimizaciones del 2do Sist RXN.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5a36c7a7cb735e37dd91a4ae714059b68322de",
+      "size": 5686,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/cf5a36c7a7cb735e37dd91a4ae714059b68322de"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/Compresion Multietapa.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7196327658784de1476975c4373ab18ea99fd0ee",
+      "size": 7520,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/7196327658784de1476975c4373ab18ea99fd0ee"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/Constructora de Curvas T-X.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe3ebac355932ad7888dbba4180d3379d4413356",
+      "size": 2283,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/fe3ebac355932ad7888dbba4180d3379d4413356"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/Density Calculator.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dd61d35d7471dd6ca0c26880f72ccbc7288be8f",
+      "size": 2157,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/0dd61d35d7471dd6ca0c26880f72ccbc7288be8f"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/Flash T Sens.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c34f46aa7801a2e5c35298cd45530e4e18511a8",
+      "size": 3384,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/5c34f46aa7801a2e5c35298cd45530e4e18511a8"
+    },
+    {
+      "path": "04. ALL MACROS EXTRACTED/Henry Law.bas",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9596941c3bac2c5e6a318a57ccf67d74ed95b456",
+      "size": 2101,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/9596941c3bac2c5e6a318a57ccf67d74ed95b456"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31b2132616aaf98244463c1a562d7a5b82a56ca4",
+      "size": 375,
+      "url": "https://api.github.com/repos/lior-abadi/chemEng-system-design/git/blobs/31b2132616aaf98244463c1a562d7a5b82a56ca4"
+    }
+  ],
+  "truncated": false
+}

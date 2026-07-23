@@ -1,0 +1,43 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2023-10-12T10:08:48Z",
+                 "defaultBranchRef":  {
+                                          "name":  "main"
+                                      },
+                 "description":  "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  null,
+                 "nameWithOwner":  "marcellobozzini/Python-Driving-License",
+                 "pushedAt":  "2023-10-12T10:10:53Z",
+                 "url":  "https://github.com/marcellobozzini/Python-Driving-License"
+             },
+    "tree":  {
+                 "tree_sha":  "4939bcef31ba1374d4a0b22e9664c8ed1a670c61",
+                 "truncated":  false,
+                 "file_count":  2,
+                 "hysys_like":  [
+                                    {
+                                        "path":  "Separazione_reattori.hsc",
+                                        "size":  11753167,
+                                        "sha":  "62274cb6ac668952777dceee07496a53dcb9ef5c"
+                                    }
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Python Driving License.ipynb",
+                                       "size":  252689,
+                                       "sha":  "a8f74a96c71a6d7f4fc4a771130871a4d0b8e14c"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null,
+    "seen_before":  true,
+    "queries":  [
+                    "github-repo-hysys-simulation-files"
+                ]
+}

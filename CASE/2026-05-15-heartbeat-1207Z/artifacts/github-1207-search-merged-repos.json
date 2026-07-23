@@ -1,0 +1,153 @@
+{
+  "queries": {
+    "github-cli-search-hysys-gosp": "HYSYS GOSP in:readme",
+    "github-cli-search-hysys-gas-oil-separation": "HYSYS \"gas oil separation\" in:readme",
+    "github-cli-search-hysys-natural-gas-hsc": "HYSYS \"natural gas\" hsc in:readme",
+    "github-cli-search-hysys-lng-hsc": "HYSYS LNG hsc in:readme",
+    "github-cli-search-hysys-co2-capture-hsc": "HYSYS \"CO2 capture\" hsc in:readme",
+    "github-cli-search-hysys-methanol-hsc": "HYSYS methanol hsc in:readme",
+    "github-cli-search-hysys-syngas-hsc": "HYSYS syngas hsc in:readme",
+    "github-cli-search-hysys-ammonia-hsc": "HYSYS ammonia hsc in:readme",
+    "github-cli-search-hysys-hydrogen-hsc": "HYSYS hydrogen hsc in:readme",
+    "github-cli-search-aspen-hysys-simulation-file": "\"Aspen HYSYS\" \"simulation file\" in:readme",
+    "github-cli-search-aspen-hysys-case-file": "\"Aspen HYSYS\" \"case file\" in:readme",
+    "github-cli-search-hysys-license-mit-hsc": "HYSYS hsc license:mit"
+  },
+  "unique_repos": 14,
+  "new_unseen_repos": 5,
+  "errors": [],
+  "new_repos": [
+    {
+      "fullName": "Ambercozy/HYSYS-GOSP-Design",
+      "queries": [
+        "HYSYS GOSP in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "Ambercozy/HYSYS-GOSP-Design",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjQ3ODA2Mzc0",
+          "is_bot": false,
+          "login": "Ambercozy",
+          "type": "User",
+          "url": "https://github.com/Ambercozy"
+        },
+        "updatedAt": "2019-02-20T06:28:51Z",
+        "url": "https://github.com/Ambercozy/HYSYS-GOSP-Design"
+      }
+    },
+    {
+      "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+      "queries": [
+        "HYSYS \"natural gas\" hsc in:readme",
+        "\"Aspen HYSYS\" \"simulation file\" in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjcyNTUyNjc2",
+          "is_bot": false,
+          "login": "M-Hamdy-M",
+          "type": "User",
+          "url": "https://github.com/M-Hamdy-M"
+        },
+        "updatedAt": "2025-06-21T08:46:00Z",
+        "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+      }
+    },
+    {
+      "fullName": "rubel-miah-che/rubel-portfolio",
+      "queries": [
+        "HYSYS ammonia hsc in:readme",
+        "HYSYS hydrogen hsc in:readme"
+      ],
+      "repo": {
+        "description": "My personal portfolio repo containing projects, code, papers, and more.",
+        "fullName": "rubel-miah-che/rubel-portfolio",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "U_kgDODehVUQ",
+          "is_bot": false,
+          "login": "rubel-miah-che",
+          "type": "User",
+          "url": "https://github.com/rubel-miah-che"
+        },
+        "updatedAt": "2025-11-03T06:44:50Z",
+        "url": "https://github.com/rubel-miah-che/rubel-portfolio"
+      }
+    },
+    {
+      "fullName": "JoshuaKiplimo/ResParse",
+      "queries": [
+        "HYSYS hydrogen hsc in:readme"
+      ],
+      "repo": {
+        "description": "",
+        "fullName": "JoshuaKiplimo/ResParse",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "MDQ6VXNlcjU0MTUyMzIx",
+          "is_bot": false,
+          "login": "JoshuaKiplimo",
+          "type": "User",
+          "url": "https://github.com/JoshuaKiplimo"
+        },
+        "updatedAt": "2022-12-12T14:45:36Z",
+        "url": "https://github.com/JoshuaKiplimo/ResParse"
+      }
+    },
+    {
+      "fullName": "Jimohmuktar/CrBlend-ML",
+      "queries": [
+        "\"Aspen HYSYS\" \"case file\" in:readme"
+      ],
+      "repo": {
+        "description": "Hybrid machine learning and process simulation framework for real-time crude assay prediction and blend optimization in refinery operations ",
+        "fullName": "Jimohmuktar/CrBlend-ML",
+        "isArchived": false,
+        "isFork": false,
+        "license": {
+          "key": "",
+          "name": "",
+          "url": ""
+        },
+        "owner": {
+          "id": "U_kgDODuwaFg",
+          "is_bot": false,
+          "login": "Jimohmuktar",
+          "type": "User",
+          "url": "https://github.com/Jimohmuktar"
+        },
+        "updatedAt": "2026-03-05T21:34:16Z",
+        "url": "https://github.com/Jimohmuktar/CrBlend-ML"
+      }
+    }
+  ]
+}

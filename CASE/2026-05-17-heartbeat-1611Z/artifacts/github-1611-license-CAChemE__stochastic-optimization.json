@@ -1,0 +1,25 @@
+{
+  "name": "LICENSE",
+  "path": "LICENSE",
+  "sha": "313ac9f44a48eae9420f85e1148867cf711f338d",
+  "size": 1516,
+  "url": "https://api.github.com/repos/CAChemE/stochastic-optimization/contents/LICENSE?ref=master",
+  "html_url": "https://github.com/CAChemE/stochastic-optimization/blob/master/LICENSE",
+  "git_url": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/313ac9f44a48eae9420f85e1148867cf711f338d",
+  "download_url": "https://raw.githubusercontent.com/CAChemE/stochastic-optimization/master/LICENSE",
+  "type": "file",
+  "content": "Q29weXJpZ2h0IChjKSAyMDE2LCBDb21wdXRlciBBaWRlZCBDaGVtaWNhbCBF\nbmdpbmVlcmluZwpBbGwgcmlnaHRzIHJlc2VydmVkLgoKUmVkaXN0cmlidXRp\nb24gYW5kIHVzZSBpbiBzb3VyY2UgYW5kIGJpbmFyeSBmb3Jtcywgd2l0aCBv\nciB3aXRob3V0Cm1vZGlmaWNhdGlvbiwgYXJlIHBlcm1pdHRlZCBwcm92aWRl\nZCB0aGF0IHRoZSBmb2xsb3dpbmcgY29uZGl0aW9ucyBhcmUgbWV0OgoKKiBS\nZWRpc3RyaWJ1dGlvbnMgb2Ygc291cmNlIGNvZGUgbXVzdCByZXRhaW4gdGhl\nIGFib3ZlIGNvcHlyaWdodCBub3RpY2UsIHRoaXMKICBsaXN0IG9mIGNvbmRp\ndGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lci4KCiogUmVkaXN0\ncmlidXRpb25zIGluIGJpbmFyeSBmb3JtIG11c3QgcmVwcm9kdWNlIHRoZSBh\nYm92ZSBjb3B5cmlnaHQgbm90aWNlLAogIHRoaXMgbGlzdCBvZiBjb25kaXRp\nb25zIGFuZCB0aGUgZm9sbG93aW5nIGRpc2NsYWltZXIgaW4gdGhlIGRvY3Vt\nZW50YXRpb24KICBhbmQvb3Igb3RoZXIgbWF0ZXJpYWxzIHByb3ZpZGVkIHdp\ndGggdGhlIGRpc3RyaWJ1dGlvbi4KCiogTmVpdGhlciB0aGUgbmFtZSBvZiBz\ndG9jaGFzdGljLW9wdGltaXphdGlvbiBub3IgdGhlIG5hbWVzIG9mIGl0cwog\nIGNvbnRyaWJ1dG9ycyBtYXkgYmUgdXNlZCB0byBlbmRvcnNlIG9yIHByb21v\ndGUgcHJvZHVjdHMgZGVyaXZlZCBmcm9tCiAgdGhpcyBzb2Z0d2FyZSB3aXRo\nb3V0IHNwZWNpZmljIHByaW9yIHdyaXR0ZW4gcGVybWlzc2lvbi4KClRISVMg\nU09GVFdBUkUgSVMgUFJPVklERUQgQlkgVEhFIENPUFlSSUdIVCBIT0xERVJT\nIEFORCBDT05UUklCVVRPUlMgIkFTIElTIgpBTkQgQU5ZIEVYUFJFU1MgT1Ig\nSU1QTElFRCBXQVJSQU5USUVTLCBJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRF\nRCBUTywgVEhFCklNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJ\nVFkgQU5EIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFSRQpE\nSVNDTEFJTUVELiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUgQ09QWVJJR0hUIEhP\nTERFUiBPUiBDT05UUklCVVRPUlMgQkUgTElBQkxFCkZPUiBBTlkgRElSRUNU\nLCBJTkRJUkVDVCwgSU5DSURFTlRBTCwgU1BFQ0lBTCwgRVhFTVBMQVJZLCBP\nUiBDT05TRVFVRU5USUFMCkRBTUFHRVMgKElOQ0xVRElORywgQlVUIE5PVCBM\nSU1JVEVEIFRPLCBQUk9DVVJFTUVOVCBPRiBTVUJTVElUVVRFIEdPT0RTIE9S\nClNFUlZJQ0VTOyBMT1NTIE9GIFVTRSwgREFUQSwgT1IgUFJPRklUUzsgT1Ig\nQlVTSU5FU1MgSU5URVJSVVBUSU9OKSBIT1dFVkVSCkNBVVNFRCBBTkQgT04g\nQU5ZIFRIRU9SWSBPRiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQ09OVFJBQ1Qs\nIFNUUklDVCBMSUFCSUxJVFksCk9SIFRPUlQgKElOQ0xVRElORyBORUdMSUdF\nTkNFIE9SIE9USEVSV0lTRSkgQVJJU0lORyBJTiBBTlkgV0FZIE9VVCBPRiBU\nSEUgVVNFCk9GIFRISVMgU09GVFdBUkUsIEVWRU4gSUYgQURWSVNFRCBPRiBU\nSEUgUE9TU0lCSUxJVFkgT0YgU1VDSCBEQU1BR0UuCg==\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/CAChemE/stochastic-optimization/contents/LICENSE?ref=master",
+    "git": "https://api.github.com/repos/CAChemE/stochastic-optimization/git/blobs/313ac9f44a48eae9420f85e1148867cf711f338d",
+    "html": "https://github.com/CAChemE/stochastic-optimization/blob/master/LICENSE"
+  },
+  "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+  }
+}

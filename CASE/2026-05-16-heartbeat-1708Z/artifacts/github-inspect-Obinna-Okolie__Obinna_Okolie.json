@@ -1,0 +1,32 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "Obinna-Okolie/Obinna_Okolie",
+                 "url":  "https://github.com/Obinna-Okolie/Obinna_Okolie",
+                 "description":  "Researcher in Oil and Gas procesing, Advanced materials and Smart Manufacturing",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-01-12T21:34:31Z",
+                 "license":  null
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  4,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "README.md",
+                                       "size":  4997,
+                                       "sha":  "190ffd3d55ee5f44116c9f303b265a682d5c89c7"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-matlab.json"
+                ],
+    "error":  null
+}

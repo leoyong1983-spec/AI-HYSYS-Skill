@@ -63,10 +63,13 @@
 当前 [`scripts/hysys_automation.py`](../scripts/hysys_automation.py) 已把这条经验落成 helper：
 
 - `SpreadsheetCellBinding` 用于记录 spreadsheet、行列、标签和单位
+- `read_spreadsheet_cells(...)` 用于按 binding label 批量读回机器可消费的 KPI 字典
 - `batch_write_spreadsheet_cells(...)` 用于暂停 solver、批量写入、恢复 solver、等待求解结束
 - `wait_for_solver_idle(...)` 用于避免读到中间状态
 
 这不是替代工程判断，而是把社区示例和论文中的 solver 节奏固化成默认安全动作。
+
+第三方 wrapper 候选 `aspen_pysys` 的可借鉴点是“把 COM 边界显式包装”，不是把 alpha / GPL 包变成默认依赖。因此当前仓库只吸收两类安全设计：会话内对象缓存，以及 spreadsheet readback 后的 COM 值标准化。不要跨进程共享 HYSYS COM 句柄；多工况并发应使用独立 workcopy、独立进程和明确的启动/关闭边界。
 
 ## 6. workcopy 要优先于母版
 
@@ -236,3 +239,13 @@
 6. 设备选型、厂家确认和项目专属验收项仍保持为人工 open issue，不因仿真收敛而自动关闭。
 
 该规则已有真实 HYSYS 执行、保存重开和机器可读回读证据，可标记为本地验证。它适用于“已有可运行 case 内的受控子系统重建”，不支持宣称从零生成完整 HYSYS 模型已经可靠。
+
+## 2026-06-02 Text-To-Flowsheet And MCP Lessons
+
+Recent text-to-flowsheet and process-simulation-agent papers add useful engineering patterns, but they do not change this repository's default execution boundary.
+
+1. Use Graph-IR before simulator writes. For text-to-flowsheet, diagram-to-simulation, or sketch-to-simulation tasks, keep a normalized intermediate representation of topology, variables, units, and uncertain parameters before any HYSYS write. This makes AI intent reviewable before COM or workbook execution.
+2. Treat black-box optimization as local convergence assistance. Optimizers may help tune uncertain parameters, but only on approved workcopies, approved variables, documented bounds, logged residual objectives, and final HYSYS readback.
+3. Treat MCP as a tool-contract layer. MCP can make tools cleaner for agents, but it still has to wrap direct COM, spreadsheet/workbook, data table, or proven runner lanes with locks, schemas, audit logs, and rollback.
+
+Do not add SciPy, an MCP server, or a third-party HYSYS wrapper as a default dependency until a real project runner proves runtime value, license compatibility, and recovery behavior.

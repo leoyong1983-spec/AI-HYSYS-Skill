@@ -1,0 +1,351 @@
+﻿[
+    {
+        "title":  "New GitHub HYSYS project candidate without license: Paryazdan/Aspen-HYSYS-Projects",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+        "download_url":  "not_downloaded_no_license",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-repo-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "filename":  "github-0409-repo-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  254,
+                                    "sha256":  "06dcc7a2634ced72eb1be593023429388362dbf7c32942d5dd8fda51979caa51"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-tree-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "filename":  "github-0409-tree-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  697,
+                                    "sha256":  "1270974c76991d1ca3f99f88de954f87bc0d5742897a02a499e2217c660a794c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-releases-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "filename":  "github-0409-releases-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "filename":  "github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  145,
+                                    "sha256":  "21cd647f86196fc46782319424a7b88b89f81d92e8deaf2f46f2793ea08b558a"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json.err.txt",
+                                    "filename":  "github-0409-license-Paryazdan__Aspen-HYSYS-Projects.json.err.txt",
+                                    "file_type":  "txt",
+                                    "size_bytes":  724,
+                                    "sha256":  "231f5fdf3d09581f021c933c877764d3ca4e6c62fe2a411ea9b3e24db4209502"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-inspection-summary.json",
+                                    "filename":  "github-0409-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3023,
+                                    "sha256":  "8e2e3fd28baa5058314be481a84e016a82640abdbdaa2f6ac9eca282a64e171e"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  20376,
+                                    "sha256":  "32ba4669082ae8719dd93e36698bb457f1b960a20bdf90fa685399a3239f9048"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repository contains one .hsc file and a flowsheet PDF, but no license file or GitHub license API result was found. No model or PDF was downloaded.",
+        "recommended_use":  "Manual license and author-permission review. If approved, ingest by pinned commit with the .hsc and flowsheet PDF together.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+                            "download_url":  "not_downloaded",
+                            "title":  "Paryazdan/Aspen-HYSYS-Projects",
+                            "filenames":  [
+                                              "YazdanihaPHw3aSim.hsc",
+                                              "YazdanihaPHw3aFlowsheet.pdf"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "No license detected; automated download and archival are blocked.",
+                               "Repository appears old and has limited documentation.",
+                               "No HYSYS model was opened or solved."
+                           ]
+    },
+    {
+        "title":  "GitHub V14 search rediscovered already archived natural gas and CDU HYSYS cases",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening; https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+        "download_url":  "not_downloaded_duplicate_existing_CASE_assets",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-repo-0409-search-normalized.json",
+                                    "filename":  "github-repo-0409-search-normalized.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1617,
+                                    "sha256":  "9725a07cfe44b258cd7173a26ab6d1c97db53a6a329d998edfbc631cbdb09494"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/github-0409-inspection-summary.json",
+                                    "filename":  "github-0409-inspection-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  3023,
+                                    "sha256":  "8e2e3fd28baa5058314be481a84e016a82640abdbdaa2f6ac9eca282a64e171e"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/dedupe-summary.json",
+                                    "filename":  "dedupe-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  352,
+                                    "sha256":  "f044273c033f804be64e03fb58eea587be8a756b701a57889c476f0994781f4c"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  20376,
+                                    "sha256":  "32ba4669082ae8719dd93e36698bb457f1b960a20bdf90fa685399a3239f9048"
+                                }
+                            ],
+        "license_public_access_note":  "Public GitHub repositories expose HYSYS V14 .hsc files and local LICENSE files, but they are already archived in existing CASE records. Not downloaded again.",
+        "recommended_use":  "Use existing archived CASE assets for V14 gas sweetening and CDU optimization benchmark checks.",
+        "dedupe_keys":  {
+                            "source_page":  "https://github.com/shahria-sunny/Natural-Gas-Sweetening; https://github.com/shahria-sunny/CDU-Simulation-Optimization",
+                            "download_url":  "prior codeload URLs already archived",
+                            "title":  "shahria-sunny/Natural-Gas-Sweetening; shahria-sunny/CDU-Simulation-Optimization",
+                            "filenames":  [
+                                              "Gas Sweetening.hsc",
+                                              "project.hsc"
+                                          ],
+                            "sha256":  [
+                                           "prior CASE hashes already recorded"
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+                                                                           ".hsc"
+                                                                       ],
+                                        "suspected_hysys_version":  "V14 per repository descriptions",
+                                        "contains_hsc":  true,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  true,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Duplicate status based on prior CASE records and filenames.",
+                               "Upstream changes should be handled by pinned commit comparison before future re-download."
+                           ]
+    },
+    {
+        "title":  "Figshare V14/project metadata checked at file level with no HYSYS model",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "https://api.figshare.com/v2/articles/search queries Aspen HYSYS V14 and Aspen HYSYS project",
+        "download_url":  "not_downloaded_no_hysys_model_file_or_rights",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-hysys-v14-results.json",
+                                    "filename":  "figshare-0409-hysys-v14-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1399,
+                                    "sha256":  "70ca1076890eddd639d722790bb4f99ca3a2fe1671650eabb6645bb9b3e1b651"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-hysys-project-results.json",
+                                    "filename":  "figshare-0409-hysys-project-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1003,
+                                    "sha256":  "adb98f86d89215315be546a081ab04e3798167d3967c96d0ad167c91b4acc0f0"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-article-32085284.json",
+                                    "filename":  "figshare-0409-article-32085284.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  8453,
+                                    "sha256":  "99252a2d30a08135aaf595eb7129d5e609f70dbaf989791d531d2ae4969b3804"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-article-29021564.json",
+                                    "filename":  "figshare-0409-article-29021564.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  15967,
+                                    "sha256":  "ba6127a277fe5fc37603021fe96d0365e39fffdc8db8f4a407df33f769ff5967"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/figshare-0409-article-detail-summary.json",
+                                    "filename":  "figshare-0409-article-detail-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1057,
+                                    "sha256":  "a2d60c6406763b606394838ef47bc53611086bbd8897e104fb529b50317e6e83"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  20376,
+                                    "sha256":  "32ba4669082ae8719dd93e36698bb457f1b960a20bdf90fa685399a3239f9048"
+                                }
+                            ],
+        "license_public_access_note":  "Selected Figshare records contained PDF-only attachments: one CC BY-NC 4.0 ACS supporting PDF and one all-rights-reserved thesis PDF pair. No HYSYS model file was downloaded.",
+        "recommended_use":  "Keep as literature leads only; do not ingest as benchmark CASE assets without actual HYSYS model files and clear rights.",
+        "dedupe_keys":  {
+                            "source_page":  "Figshare article IDs 32085284 and 29021564",
+                            "download_url":  "not_downloaded",
+                            "title":  "Figshare V14/project candidates",
+                            "filenames":  [
+                                              "ef6c00473_si_001.pdf",
+                                              "Abstract_ATTACHMENT01.pdf",
+                                              "Thesis_ATTACHMENT02.pdf"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  true,
+                                        "contains_readme":  false,
+                                        "contains_license":  true,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "PDF-only records may describe simulations but cannot serve as HYSYS model benchmarks.",
+                               "All-rights-reserved thesis material requires permission before archival."
+                           ]
+    },
+    {
+        "title":  "Secondary metadata sweep for HYSYS V14 and project queries",
+        "type":  "candidate_only",
+        "quality":  "D",
+        "source_page":  "Zenodo, Figshare, Harvard Dataverse, DataCite, GitLab metadata searches",
+        "download_url":  "not_downloaded_no_confirmed_public_licensed_payload",
+        "local_artifacts":  [
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/external-0409-search-summary.json",
+                                    "filename":  "external-0409-search-summary.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  1716,
+                                    "sha256":  "b2f5b51a9a6cf962ea2d49116a2c3fe09cbfdbf7fced06ff390f00aabfbf2471"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/external-0409-counts-corrected.json",
+                                    "filename":  "external-0409-counts-corrected.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  4058,
+                                    "sha256":  "bfe9558d2b6391d47963257d5e873f687def565e0d58e6586fad11d2422c0e56"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/zenodo-0409-hysys-v14-results.json",
+                                    "filename":  "zenodo-0409-hysys-v14-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  125850,
+                                    "sha256":  "ea76dbad22abcb551f031be3e521a91ecf7da97610e85eb50503256d9a7fc126"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/zenodo-0409-hysys-project-results.json",
+                                    "filename":  "zenodo-0409-hysys-project-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  133061,
+                                    "sha256":  "370b97487693c6ef39818996dc4f4e63ac6a7e2337332f483f0d50831f261a87"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/harvard-dataverse-0409-hysys-project-results.json",
+                                    "filename":  "harvard-dataverse-0409-hysys-project-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  17574,
+                                    "sha256":  "dce8777a9aad482cf44a90753fa5511436bcacf59394949da825bd41a1065b86"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/datacite-0409-hysys-v14-results.json",
+                                    "filename":  "datacite-0409-hysys-v14-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  13688,
+                                    "sha256":  "c770009b24867d7180390422a7b51b2aa052f4485b48b624cf7ee16041c358df"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/gitlab-0409-hysys-project-results.json",
+                                    "filename":  "gitlab-0409-hysys-project-results.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  7,
+                                    "sha256":  "50056c08ce479cc2f54c4d6595a4264bdf32bf84f2995d59ff3bd513897ab414"
+                                },
+                                {
+                                    "path":  "CASE/2026-05-17-heartbeat-0409Z/artifacts/security-inventory.json",
+                                    "filename":  "security-inventory.json",
+                                    "file_type":  "json",
+                                    "size_bytes":  20376,
+                                    "sha256":  "32ba4669082ae8719dd93e36698bb457f1b960a20bdf90fa685399a3239f9048"
+                                }
+                            ],
+        "license_public_access_note":  "Only public metadata endpoints were queried. No package or model file was downloaded because no new public, licensed, non-duplicate HYSYS payload was confirmed.",
+        "recommended_use":  "Use metadata only to refine future file-level searches; do not download until file list and license are explicit.",
+        "dedupe_keys":  {
+                            "source_page":  "secondary metadata APIs",
+                            "download_url":  "not_downloaded",
+                            "title":  "secondary sweep 2026-05-17 0409Z",
+                            "filenames":  [
+                                              "external-0409-search-summary.json",
+                                              "external-0409-counts-corrected.json"
+                                          ],
+                            "sha256":  [
+
+                                       ]
+                        },
+        "hysys_specific_metadata":  {
+                                        "case_file_extensions_found":  [
+
+                                                                       ],
+                                        "suspected_hysys_version":  "unknown",
+                                        "contains_hsc":  false,
+                                        "contains_hscz":  false,
+                                        "contains_hysys_xml":  false,
+                                        "contains_compound":  false,
+                                        "contains_excel_or_csv_data":  false,
+                                        "contains_pdf_or_report":  false,
+                                        "contains_readme":  false,
+                                        "contains_license":  false,
+                                        "contains_automation_script":  false,
+                                        "model_run_status":  "not_run"
+                                    },
+        "residual_risks":  [
+                               "Metadata-only APIs can overmatch records that mention Aspen HYSYS without distributing models.",
+                               "File-level license and payload checks remain required before download."
+                           ]
+    }
+]

@@ -1,0 +1,231 @@
+﻿{
+    "inspected":  25,
+    "hysys_like_repositories":  12,
+    "rows":  [
+                 {
+                     "repo":  "DanielVazVaz/PySIS",
+                     "url":  "https://github.com/DanielVazVaz/PySIS",
+                     "license":  "",
+                     "file_count":  14,
+                     "hysys_like":  "",
+                     "companion_count":  5,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                     "url":  "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+                     "license":  "",
+                     "file_count":  11,
+                     "hysys_like":  "",
+                     "companion_count":  7,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "snua/HYSYS-dynamic-simulation",
+                     "url":  "https://github.com/snua/HYSYS-dynamic-simulation",
+                     "license":  "",
+                     "file_count":  4,
+                     "hysys_like":  "",
+                     "companion_count":  3,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Avest-AI/MemCal",
+                     "url":  "https://github.com/Avest-AI/MemCal",
+                     "license":  "",
+                     "file_count":  3,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "CristopherCano/Projects-ASPEN-HYSYS",
+                     "url":  "https://github.com/CristopherCano/Projects-ASPEN-HYSYS",
+                     "license":  "",
+                     "file_count":  30,
+                     "hysys_like":  "Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Precalentando.hsc;Proyecto P1 Balance de Energía y eficiencia de un horno/Combustion Process of Natural Gas-Sin Precalentar.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso A1.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso A2.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso B1.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso C1.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso C2.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso C3.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso D1-2.hsc;Proyecto P2  Ciclos de vapor para generación de potencia/Caso D1.hsc;Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 1.hsc;Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 2.hsc;Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO 3.hsc;Proyecto Pinch y Exergia Circuito de sntesis NH3/Proyecto 2_Sintesis de Amoniaco_CASO BASE.hsc;Proyecto Sección de absorción-desorción de la Planta de producción de óxido de etileno/Proyecto 1 Sección de absorción-desorción de la Planta de producción de óxido de etileno .hsc",
+                     "companion_count":  10,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "royhanikbarr/Gas-Turbine-Hysys",
+                     "url":  "https://github.com/royhanikbarr/Gas-Turbine-Hysys",
+                     "license":  "",
+                     "file_count":  4,
+                     "hysys_like":  "Gas Turbine Power Plant Simulation.hsc",
+                     "companion_count":  3,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "royhanikbarr/Aspen-Hysys-Simulation",
+                     "url":  "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+                     "license":  "",
+                     "file_count":  3,
+                     "hysys_like":  "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "sajjad-ah/ASPEN-HYSYS",
+                     "url":  "https://github.com/sajjad-ah/ASPEN-HYSYS",
+                     "license":  "",
+                     "file_count":  27,
+                     "hysys_like":  "",
+                     "companion_count":  9,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Shreya88876/Aspen_file_shreya",
+                     "url":  "https://github.com/Shreya88876/Aspen_file_shreya",
+                     "license":  "",
+                     "file_count":  1,
+                     "hysys_like":  "",
+                     "companion_count":  0,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "JeePeiQi0101/Aspen.HYSYS",
+                     "url":  "https://github.com/JeePeiQi0101/Aspen.HYSYS",
+                     "license":  "",
+                     "file_count":  4,
+                     "hysys_like":  "Aspen HYSYS simulation file_Parallel.xml;Aspen HYSYS simulation file_Series.xml;Aspen HYSYS simulation file_Single.xml",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Corey-McInrue/Node-C-ASPEN-HYSYS",
+                     "url":  "https://github.com/Corey-McInrue/Node-C-ASPEN-HYSYS",
+                     "license":  "",
+                     "file_count":  2,
+                     "hysys_like":  "NODECFINAL.hsc",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "GerasimovRM/AspenHysysReader",
+                     "url":  "https://github.com/GerasimovRM/AspenHysysReader",
+                     "license":  "",
+                     "file_count":  6,
+                     "hysys_like":  "",
+                     "companion_count":  3,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Anikesh31/simulator_codingplatform_integration",
+                     "url":  "https://github.com/Anikesh31/simulator_codingplatform_integration",
+                     "license":  "",
+                     "file_count":  12,
+                     "hysys_like":  "Test_file_hysys_python.hsc",
+                     "companion_count":  8,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "sanjay-saran/dme-production-methanol",
+                     "url":  "https://github.com/sanjay-saran/dme-production-methanol",
+                     "license":  "",
+                     "file_count":  1,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "iraola/tennessee-eastman-hysys",
+                     "url":  "https://github.com/iraola/tennessee-eastman-hysys",
+                     "license":  "NOASSERTION",
+                     "file_count":  3,
+                     "hysys_like":  "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Mahdi-Arashian/sour-gas-sweetening-hysys",
+                     "url":  "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+                     "license":  "",
+                     "file_count":  3,
+                     "hysys_like":  "GTU Simulation.hsc",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+                     "url":  "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+                     "license":  "",
+                     "file_count":  4,
+                     "hysys_like":  "acetic fin.hsc",
+                     "companion_count":  3,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Paryazdan/Aspen-HYSYS-Projects",
+                     "url":  "https://github.com/Paryazdan/Aspen-HYSYS-Projects",
+                     "license":  "",
+                     "file_count":  2,
+                     "hysys_like":  "YazdanihaPHw3aSim.hsc",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Galigeigei-Z/HDA-Surrogate-Optimization",
+                     "url":  "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+                     "license":  "MIT",
+                     "file_count":  21,
+                     "hysys_like":  "",
+                     "companion_count":  20,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "kush1706/Methanol_Synthesis_Aspen_hysys",
+                     "url":  "https://github.com/kush1706/Methanol_Synthesis_Aspen_hysys",
+                     "license":  "",
+                     "file_count":  1,
+                     "hysys_like":  "GROUP_17.hsc.hsc",
+                     "companion_count":  0,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                     "url":  "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+                     "license":  "MIT",
+                     "file_count":  14,
+                     "hysys_like":  "",
+                     "companion_count":  12,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+                     "url":  "https://github.com/Ankesh-cloud/Simulation-of-Acid-Gas-Removal-Unit-using-ASPEN-HYSYS",
+                     "license":  "",
+                     "file_count":  2,
+                     "hysys_like":  "",
+                     "companion_count":  2,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "SinaGhanbarii/HDA-Plant-Simulation",
+                     "url":  "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+                     "license":  "",
+                     "file_count":  26,
+                     "hysys_like":  "HDA 2024 Aspen/1-HDA-Setup.hsc;HDA 2024 Aspen/2-HDA-InletPFR.hsc;HDA 2024 Aspen/3-HDA-OutletPFR.hsc;HDA 2024 Aspen/READY_HDA-Setup.hsc;HDA 2024 Aspen/Working_HDA-Setup.hsc;HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc;HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc;HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc;HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc;HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc",
+                     "companion_count":  10,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+                     "url":  "https://github.com/Amansurana2005/Oil-Well-Simulation-for-Gas-oil-separation-Using-Conceptual-Design-Builder-In-Aspen-HYSYS-Simulation",
+                     "license":  "",
+                     "file_count":  1,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 },
+                 {
+                     "repo":  "Alnawakhtha/Computer-aided-CDU-Revamp",
+                     "url":  "https://github.com/Alnawakhtha/Computer-aided-CDU-Revamp",
+                     "license":  "",
+                     "file_count":  2,
+                     "hysys_like":  "",
+                     "companion_count":  1,
+                     "error":  null
+                 }
+             ]
+}

@@ -1,0 +1,143 @@
+﻿[
+    {
+        "fullName":  "AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "url":  "https://github.com/AtabakBahadornia/1D-HYSYS-MATLAB-SUPERSONIC-SEPARATOR",
+        "description":  "",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2022-09-12T22:55:51Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-matlab"
+                    ],
+        "seen":  false
+    },
+    {
+        "fullName":  "leoyong1983-spec/AI-HYSYS-Skill",
+        "url":  "https://github.com/leoyong1983-spec/AI-HYSYS-Skill",
+        "description":  "AI-assisted Aspen HYSYS skill for existing-case parameter takeover, validation, and reporting.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-05-16T09:29:11Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-aspen-hysys-recent",
+                        "github-repo-hysys-recent"
+                    ],
+        "seen":  false
+    },
+    {
+        "fullName":  "afabrild/HYSYS-MATLAB-LINK",
+        "url":  "https://github.com/afabrild/HYSYS-MATLAB-LINK",
+        "description":  "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-02T12:02:26Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-matlab"
+                    ],
+        "seen":  true
+    },
+    {
+        "fullName":  "GaboTalero/HYSYS-Python-Case-Builder",
+        "url":  "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+        "description":  "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "mit",
+                        "name":  "MIT License",
+                        "url":  "https://api.github.com/licenses/mit"
+                    },
+        "updatedAt":  "2026-04-25T19:57:04Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-case-file"
+                    ],
+        "seen":  true
+    },
+    {
+        "fullName":  "marcellobozzini/Python-Driving-License",
+        "url":  "https://github.com/marcellobozzini/Python-Driving-License",
+        "description":  "This Repository contains the Jupiter file and an Aspen HYSYS simulation. ",
+        "defaultBranch":  "main",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2023-10-12T10:10:56Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-simulation-files"
+                    ],
+        "seen":  true
+    },
+    {
+        "fullName":  "oscarcontrerasnavas/hysys-to-excel-intro",
+        "url":  "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro",
+        "description":  "Excel file with VBA simple script to get info from hysys cases",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "gpl-3.0",
+                        "name":  "GNU General Public License v3.0",
+                        "url":  "https://api.github.com/licenses/gpl-3.0"
+                    },
+        "updatedAt":  "2025-11-02T12:03:15Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-case-file"
+                    ],
+        "seen":  true
+    },
+    {
+        "fullName":  "perrywzm/hysysopt",
+        "url":  "https://github.com/perrywzm/hysysopt",
+        "description":  "For optimizing HYSYS case files",
+        "defaultBranch":  "master",
+        "license":  {
+                        "key":  "",
+                        "name":  "",
+                        "url":  ""
+                    },
+        "updatedAt":  "2025-11-16T12:18:33Z",
+        "visibility":  "public",
+        "isFork":  false,
+        "isArchived":  false,
+        "hasDownloads":  true,
+        "queries":  [
+                        "github-repo-hysys-case-file"
+                    ],
+        "seen":  true
+    }
+]

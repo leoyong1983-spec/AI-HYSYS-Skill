@@ -1,0 +1,434 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2026-03-06T15:22:19Z",
+                 "defaultBranchRef":  {
+                                          "name":  "main"
+                                      },
+                 "description":  "",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  {
+                                     "key":  "apache-2.0",
+                                     "name":  "Apache License 2.0",
+                                     "nickname":  ""
+                                 },
+                 "nameWithOwner":  "stonedingwt/HYSys",
+                 "pushedAt":  "2026-03-08T15:43:23Z",
+                 "url":  "https://github.com/stonedingwt/HYSys"
+             },
+    "tree":  {
+                 "tree_sha":  "c8690ae406733a3c782a738cec4fe370f0f358da",
+                 "truncated":  false,
+                 "file_count":  4062,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/SKILL.md",
+                                       "size":  10520,
+                                       "sha":  "f53d42ba4df9a51ea45e7151037d7d505a53a53a"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/charts.csv",
+                                       "size":  7654,
+                                       "sha":  "8b99663166cba24ae28ef6f9e867229c4242a9ae"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/colors.csv",
+                                       "size":  9713,
+                                       "sha":  "d9fd0438bcf79b724a66c22aca5788455f76dae2"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/icons.csv",
+                                       "size":  13384,
+                                       "sha":  "a85e97f8418783953f86ab13de513e2a5261d1c6"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/landing.csv",
+                                       "size":  14390,
+                                       "sha":  "b0e52d15347254f5acecd1781ca05f90e334da6f"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/products.csv",
+                                       "size":  29790,
+                                       "sha":  "3f95afd9de2d205b12776b1581daa8ce5bb8318c"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/react-performance.csv",
+                                       "size":  14822,
+                                       "sha":  "671465f29ce8d1b12e1576ab81c7b610161f2f6d"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/astro.csv",
+                                       "size":  11868,
+                                       "sha":  "cacba81c96005b527b55bdb56e37d69bd616ca54"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+                                       "size":  10469,
+                                       "sha":  "2e32c6a29bf8e4ceeb61e92e33193adbe1219a75"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+                                       "size":  11361,
+                                       "sha":  "0efe300f3c0d0fd2de3e07c90b38c08b44b5bbeb"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+                                       "size":  8195,
+                                       "sha":  "971ff9e3074c9a1a414b1a7e69745f286291d3f6"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+                                       "size":  12546,
+                                       "sha":  "6e9bea577c8c9294113d741b3f8dd3e6b1770b1c"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+                                       "size":  14010,
+                                       "sha":  "7146e84836c504d4374a9b1cace3262b771a2956"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+                                       "size":  16539,
+                                       "sha":  "c275d0de8c6a06a06f8439be017af660fefe91bb"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+                                       "size":  10035,
+                                       "sha":  "209e893c3b2441813add061270009d9b6fe3e512"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/react.csv",
+                                       "size":  13016,
+                                       "sha":  "ff08ee203acc0ea69a2444c8420e5a80dd07a0e2"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+                                       "size":  15921,
+                                       "sha":  "fb86e8d1c135aa384df284f216c3db9c5187ae57"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+                                       "size":  11063,
+                                       "sha":  "1c6b4562d5d1c4ca98ad70959367ffcd68df5611"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+                                       "size":  10872,
+                                       "sha":  "e20f9f90e11d61b92ce39b05a672f2a660aa48ec"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/stacks/vue.csv",
+                                       "size":  11056,
+                                       "sha":  "77cb4b06fd179153ec5a8d11e2b35f8f79522183"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/styles.csv",
+                                       "size":  96553,
+                                       "sha":  "ab0152b95ce10b5d16bbaef6c9c5a31d126f02ca"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/typography.csv",
+                                       "size":  31877,
+                                       "sha":  "e70112102e615cc24688525aefed83ef547bded3"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+                                       "size":  31071,
+                                       "sha":  "4553ddd27f677afcdde3dfb07377f19eadc4a8f4"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+                                       "size":  18766,
+                                       "sha":  "e347aeda7401aac08879a7b11c3907782c7bcadb"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/data/web-interface.csv",
+                                       "size":  7472,
+                                       "sha":  "4713aadc133ff853263f5e598343e35b01c0c78e"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/scripts/core.py",
+                                       "size":  10227,
+                                       "sha":  "b7ba227be500c1b8e0ed04c610f48a85f5339e99"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/scripts/design_system.py",
+                                       "size":  43614,
+                                       "sha":  "209de207333b58bfe44368d380caa7fe5bf02129"
+                                   },
+                                   {
+                                       "path":  ".cursor/skills/ui-ux-pro-max/scripts/search.py",
+                                       "size":  5364,
+                                       "sha":  "575ea78a65826756d4d1a6891c447f113f32f52a"
+                                   },
+                                   {
+                                       "path":  "CODE_OF_CONDUCT.md",
+                                       "size":  5192,
+                                       "sha":  "231589c92d0a5ac6f44ca3c4f8dfdb51e7e618cf"
+                                   },
+                                   {
+                                       "path":  "LICENSE",
+                                       "size":  10759,
+                                       "sha":  "da11a3ce3aa786f2f2e5fbd5d471320aa39cf958"
+                                   },
+                                   {
+                                       "path":  "PROMPT_LOG.md",
+                                       "size":  127972,
+                                       "sha":  "83d29151dcdbf7949e0c76bfb24c4645bb6d4a74"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  7357,
+                                       "sha":  "bd65489600d8eb6247432fcd6cd7d0d14558c8e8"
+                                   },
+                                   {
+                                       "path":  "README_CN.md",
+                                       "size":  6744,
+                                       "sha":  "34e2874ecf050dcb3c20b9303139aa0c9ca3ef5b"
+                                   },
+                                   {
+                                       "path":  "README_JPN.md",
+                                       "size":  8265,
+                                       "sha":  "7bdf330a055239277753e9bcdf5a9bd2536b69a6"
+                                   },
+                                   {
+                                       "path":  "SECURITY.md",
+                                       "size":  1702,
+                                       "sha":  "2c13ea8df88aa0ae03c74404795511df77b71ff1"
+                                   },
+                                   {
+                                       "path":  "WORKFLOW_NODES_MANUAL_STEPS.md",
+                                       "size":  1492,
+                                       "sha":  "bab41cb86520cf8499b91958b60936d50d08efc2"
+                                   },
+                                   {
+                                       "path":  "add_workflow_nodes.py",
+                                       "size":  5746,
+                                       "sha":  "6e2206df7abdad92635773e63febdcb3b4f923da"
+                                   },
+                                   {
+                                       "path":  "create_saile_workflow.py",
+                                       "size":  5808,
+                                       "sha":  "921e34986f9cb7082adbc6169441f89ef894c48d"
+                                   },
+                                   {
+                                       "path":  "design-system/hysys/MASTER.md",
+                                       "size":  5231,
+                                       "sha":  "cef35259bb65eb682079d4ab597399e571074b48"
+                                   },
+                                   {
+                                       "path":  "docker/pull_image.py",
+                                       "size":  10900,
+                                       "sha":  "8b62fa21e932a5c6b2f07351454dddbb1fd9b01d"
+                                   },
+                                   {
+                                       "path":  "scripts/check_tools.py",
+                                       "size":  1371,
+                                       "sha":  "f26ca45152f5849d27ec037a452d1c8d1bc51763"
+                                   },
+                                   {
+                                       "path":  "scripts/fix_linsight.py",
+                                       "size":  1192,
+                                       "sha":  "e09000de165c6d08a8741ff1a40507430c56ba25"
+                                   },
+                                   {
+                                       "path":  "scripts/fix_stuck_task.py",
+                                       "size":  1000,
+                                       "sha":  "cd7d9cd2a57ece736d077714823159f04f7e6ad4"
+                                   },
+                                   {
+                                       "path":  "scripts/fix_tools.py",
+                                       "size":  977,
+                                       "sha":  "f7592856f3ffb6625ac7478f2b10710dc9051fb7"
+                                   },
+                                   {
+                                       "path":  "scripts/init_saile.md",
+                                       "size":  4190,
+                                       "sha":  "e44be94235e6f77107346957844127b10e01e055"
+                                   },
+                                   {
+                                       "path":  "scripts/init_saile_knowledge.py",
+                                       "size":  2136,
+                                       "sha":  "e6f3f9df73f1e61bb396d63136760edc999948b8"
+                                   },
+                                   {
+                                       "path":  "scripts/register_paddleocr_mcp.py",
+                                       "size":  3679,
+                                       "sha":  "a9bc601543e7322937ba875dbbe2b04f4243f74b"
+                                   },
+                                   {
+                                       "path":  "scripts/register_sales_order_process_tool.py",
+                                       "size":  6467,
+                                       "sha":  "13c34391cdeeb470816d71c51e1e35fd001bd0ca"
+                                   },
+                                   {
+                                       "path":  "scripts/register_tools.py",
+                                       "size":  5574,
+                                       "sha":  "855f4c81336105d87c8df92eb76c79613b70d7aa"
+                                   },
+                                   {
+                                       "path":  "scripts/rename_linsight.py",
+                                       "size":  1277,
+                                       "sha":  "01736c205340433798148c609985af754834efec"
+                                   },
+                                   {
+                                       "path":  "scripts/setup_sales_order_sop.py",
+                                       "size":  10367,
+                                       "sha":  "6605bf790c02386ca10760e9fef86fef606efe4a"
+                                   },
+                                   {
+                                       "path":  "scripts/test_full_pipeline.py",
+                                       "size":  3256,
+                                       "sha":  "eb5ca17d7657635c80f7a5d78b2215aca4d8be56"
+                                   },
+                                   {
+                                       "path":  "scripts/test_mcp_ocr.py",
+                                       "size":  698,
+                                       "sha":  "c9c74644869f1663016ef4391e64b8c2797f650e"
+                                   },
+                                   {
+                                       "path":  "scripts/test_pipeline.py",
+                                       "size":  1812,
+                                       "sha":  "da78c97fab373cf751d028536e496d7e5bfd691c"
+                                   },
+                                   {
+                                       "path":  "scripts/update_config.py",
+                                       "size":  729,
+                                       "sha":  "35a1338f3b0c08881c36a78516d43e0ad35ef295"
+                                   },
+                                   {
+                                       "path":  "scripts/update_welcome.py",
+                                       "size":  1651,
+                                       "sha":  "ffb91dd7f7512ba4f3882c183ccd044ae3ce195f"
+                                   },
+                                   {
+                                       "path":  "scripts/verify_config.py",
+                                       "size":  871,
+                                       "sha":  "06097513d26fa1160bb4ead659f42a106d5d38ef"
+                                   },
+                                   {
+                                       "path":  "src/backend/README.md",
+                                       "size":  72,
+                                       "sha":  "1146430ab54a9a6022328c926299d320641ce349"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/__init__.py",
+                                       "size":  526,
+                                       "sha":  "631b9c526f5dc58e63e8a9dbfa26f6dff67f3ef2"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/__init__.py",
+                                       "size":  110,
+                                       "sha":  "1daccdd75b4e0cc7e6dfed5fc20971cd0e80e214"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/router.py",
+                                       "size":  4164,
+                                       "sha":  "9d5d0cb070640230f2df4498bc39f1ae4f46860e"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/__init__.py",
+                                       "size":  0,
+                                       "sha":  "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/assistant.py",
+                                       "size":  23676,
+                                       "sha":  "59e4de4c4b91ab299139fc5cc91ee0b05ee656d2"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/assistant_agent.py",
+                                       "size":  20782,
+                                       "sha":  "39d0b2f59618f228c2b245367d9b2afdba6e7c37"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/assistant_base.py",
+                                       "size":  1399,
+                                       "sha":  "e9847e36f546ebb4caaa256fabed79c36253e884"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/audit_log.py",
+                                       "size":  39226,
+                                       "sha":  "7bbfb8dd9ed32906a3ad5f032d301a2a03925bd7"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/base.py",
+                                       "size":  2058,
+                                       "sha":  "0324fca39fa21cf41309293e9d7ae2ff7b4005cf"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/chat_imp.py",
+                                       "size":  4988,
+                                       "sha":  "5f4a29f98a4903d31b8b13226bb62b3884dea427"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/component.py",
+                                       "size":  1843,
+                                       "sha":  "dc7d928ac1abca100e95d9afba0a09bda96753e5"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/dataset_service.py",
+                                       "size":  3138,
+                                       "sha":  "bf2007062a45656d27cea3e556017a4c766e20ef"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/etl4lm_loader.py",
+                                       "size":  12096,
+                                       "sha":  "b68ed091e86f27362719b2b84bd882d53fe4e0d7"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/evaluation.py",
+                                       "size":  19130,
+                                       "sha":  "1290a7de2d05b6cef1fc3f94621079d82946ccbc"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/flow.py",
+                                       "size":  22285,
+                                       "sha":  "24b4152390a2059ee9ded0e766ad9e84b7fccd7a"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/invite_code/__init__.py",
+                                       "size":  0,
+                                       "sha":  "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/invite_code/code_validator.py",
+                                       "size":  1977,
+                                       "sha":  "ebf8d32d4f8398ea766d490ec68baab8bcda2791"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/invite_code/invite_code.py",
+                                       "size":  4064,
+                                       "sha":  "898bb2650ffd3b543790a8e4f67bd305857aa312"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/knowledge.py",
+                                       "size":  53729,
+                                       "sha":  "470f880bafdb395cdf3cb812a16801a0a3ca01f4"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/knowledge_imp.py",
+                                       "size":  63709,
+                                       "sha":  "663805e3b0e3bdaa26b7cf64f4985bdb8e4a1d6c"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/libreoffice_converter.py",
+                                       "size":  7236,
+                                       "sha":  "0a1d2a4d7dc1151735f100e1d5a654ca3c03fa86"
+                                   },
+                                   {
+                                       "path":  "src/backend/mep/api/services/md_from_docx.py",
+                                       "size":  5638,
+                                       "sha":  "9222246389105247e6c0e628b202aa2d8d7fd1c2"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null
+}

@@ -1,0 +1,225 @@
+{
+  "query": "HYSYS \"simulation file\" in:readme",
+  "items": [
+    {
+      "description": "Supplementary material and information ",
+      "fullName": "andr1976/dwsim-paper",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjU4NDc1NTM1",
+        "is_bot": false,
+        "login": "andr1976",
+        "type": "User",
+        "url": "https://github.com/andr1976"
+      },
+      "updatedAt": "2025-10-22T16:40:55Z",
+      "url": "https://github.com/andr1976/dwsim-paper"
+    },
+    {
+      "description": "Linking Matlab and Aspen Hysys through COM technology (\"actxserver\")",
+      "fullName": "afabrild/HYSYS-MATLAB-LINK",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjMzODg3NDI4",
+        "is_bot": false,
+        "login": "afabrild",
+        "type": "User",
+        "url": "https://github.com/afabrild"
+      },
+      "updatedAt": "2025-11-02T12:02:26Z",
+      "url": "https://github.com/afabrild/HYSYS-MATLAB-LINK"
+    },
+    {
+      "description": "This file outline the Aspen Plus and Matlab connection through COM Technology.",
+      "fullName": "afabrild/Aspen-Plus---Matlab-Link",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjMzODg3NDI4",
+        "is_bot": false,
+        "login": "afabrild",
+        "type": "User",
+        "url": "https://github.com/afabrild"
+      },
+      "updatedAt": "2025-10-27T12:01:13Z",
+      "url": "https://github.com/afabrild/Aspen-Plus---Matlab-Link"
+    },
+    {
+      "description": "This is my second project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+      "fullName": "Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCIrxHA",
+        "is_bot": false,
+        "login": "Pouria-MK",
+        "type": "User",
+        "url": "https://github.com/Pouria-MK"
+      },
+      "updatedAt": "2026-03-30T17:19:52Z",
+      "url": "https://github.com/Pouria-MK/_Nov.2023_Conceptual-Design-and-Economic-Feasibility-of-Valuable-Substances-Recovery-Unit"
+    },
+    {
+      "description": "This is my first project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+      "fullName": "Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCIrxHA",
+        "is_bot": false,
+        "login": "Pouria-MK",
+        "type": "User",
+        "url": "https://github.com/Pouria-MK"
+      },
+      "updatedAt": "2026-03-30T17:19:51Z",
+      "url": "https://github.com/Pouria-MK/_Dec.2023_Technical-and-Financial-Analysis-and-Feasibility-of-Styrene-plant"
+    },
+    {
+      "description": "Python scripts for creating, opening, and modifying Aspen HYSYS case files through the COM interface.",
+      "fullName": "GaboTalero/HYSYS-Python-Case-Builder",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "url": "https://api.github.com/licenses/mit"
+      },
+      "owner": {
+        "id": "U_kgDOClAUYg",
+        "is_bot": false,
+        "login": "GaboTalero",
+        "type": "User",
+        "url": "https://github.com/GaboTalero"
+      },
+      "updatedAt": "2026-04-25T19:57:04Z",
+      "url": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder"
+    },
+    {
+      "description": "Simulation and analysis of Dimethyl Ether production via methanol dehydration using Aspen HYSYS.",
+      "fullName": "sanjay-saran/dme-production-methanol",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOBz9xbQ",
+        "is_bot": false,
+        "login": "sanjay-saran",
+        "type": "User",
+        "url": "https://github.com/sanjay-saran"
+      },
+      "updatedAt": "2025-04-23T13:35:19Z",
+      "url": "https://github.com/sanjay-saran/dme-production-methanol"
+    },
+    {
+      "description": "",
+      "fullName": "M-Hamdy-M/lng-niching-metaheuristics",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjcyNTUyNjc2",
+        "is_bot": false,
+        "login": "M-Hamdy-M",
+        "type": "User",
+        "url": "https://github.com/M-Hamdy-M"
+      },
+      "updatedAt": "2025-06-21T08:46:00Z",
+      "url": "https://github.com/M-Hamdy-M/lng-niching-metaheuristics"
+    },
+    {
+      "description": "",
+      "fullName": "b02p2n/cs8583",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCwt_Ug",
+        "is_bot": false,
+        "login": "b02p2n",
+        "type": "User",
+        "url": "https://github.com/b02p2n"
+      },
+      "updatedAt": "2024-11-13T01:11:16Z",
+      "url": "https://github.com/b02p2n/cs8583"
+    },
+    {
+      "description": "This is my final project of the course \"Plant Design and Economics\" that I managed to get full marks on my 4th year of bachelor's chemical engineering program at sharif university of technology.",
+      "fullName": "Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOCIrxHA",
+        "is_bot": false,
+        "login": "Pouria-MK",
+        "type": "User",
+        "url": "https://github.com/Pouria-MK"
+      },
+      "updatedAt": "2026-03-30T17:19:53Z",
+      "url": "https://github.com/Pouria-MK/_Jan.2024_Simulation-and-Economic-Evaluation-of-Syngas-Generation-Plant-using-DMR-and-SMR-Reactors"
+    },
+    {
+      "description": "A tiered guide to building your public presence — for students in any discipline",
+      "fullName": "subhaus95/portfolio-in-a-box",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "",
+        "name": "",
+        "url": ""
+      },
+      "owner": {
+        "id": "U_kgDOC9NT2Q",
+        "is_bot": false,
+        "login": "subhaus95",
+        "type": "User",
+        "url": "https://github.com/subhaus95"
+      },
+      "updatedAt": "2026-05-05T00:35:50Z",
+      "url": "https://github.com/subhaus95/portfolio-in-a-box"
+    }
+  ]
+}

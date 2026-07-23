@@ -1,0 +1,227 @@
+﻿{
+    "repo":  {
+                 "nameWithOwner":  "JavierBerenguer/Trabajo-Final-de-Grado",
+                 "url":  "https://github.com/JavierBerenguer/Trabajo-Final-de-Grado",
+                 "description":  "Desarrollo de una herramienta de simulacion y optimización de reactores ideales y no ideales",
+                 "private":  false,
+                 "fork":  false,
+                 "archived":  false,
+                 "default_branch":  "main",
+                 "pushed_at":  "2026-04-28T16:19:25Z",
+                 "license":  "MIT"
+             },
+    "tree":  {
+                 "truncated":  false,
+                 "file_count":  131,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "+cmu/+der/derc.m",
+                                       "size":  1206,
+                                       "sha":  "8f8b9c54d055808578f32f8d5ad2ac541c944b03"
+                                   },
+                                   {
+                                       "path":  "+cmu/+der/nder.m",
+                                       "size":  803,
+                                       "sha":  "5eef850f86aa0f7ab416a1e0462ffcdf279cd424"
+                                   },
+                                   {
+                                       "path":  "+cmu/color.database",
+                                       "size":  49138,
+                                       "sha":  "675fef350110409dc2ed6c404696077e10ae1e66"
+                                   },
+                                   {
+                                       "path":  "+cmu/colors.m",
+                                       "size":  47686,
+                                       "sha":  "bff069799e52f9bebfd808b3be246ebeabb84a72"
+                                   },
+                                   {
+                                       "path":  "+cmu/constants.m",
+                                       "size":  331,
+                                       "sha":  "b2aea5396fcd5ea3ad1b128a5f6df20faf0aef25"
+                                   },
+                                   {
+                                       "path":  "+cmu/conversion_factors.m",
+                                       "size":  565,
+                                       "sha":  "8c69005d7e42babe851d86a268e9aa0a7da633c8"
+                                   },
+                                   {
+                                       "path":  "+cmu/examples/colors.m",
+                                       "size":  66,
+                                       "sha":  "a3370db47f4c7f2ebe21b35e24b52302b7bb1ace"
+                                   },
+                                   {
+                                       "path":  "+cmu/examples/der_examples.m",
+                                       "size":  309,
+                                       "sha":  "9b5d9530a90be5e487a3c9c67b5caa8962a15adc"
+                                   },
+                                   {
+                                       "path":  "+cmu/examples/magnetic_units.m",
+                                       "size":  811,
+                                       "sha":  "a625f6cfd5e0826033530175fb81fdb087ca903c"
+                                   },
+                                   {
+                                       "path":  "+cmu/examples/make_colors.m",
+                                       "size":  1163,
+                                       "sha":  "f64b553ea49ff418f4f7983820ace8082fc6cf83"
+                                   },
+                                   {
+                                       "path":  "+cmu/examples/plot_colors.m",
+                                       "size":  763,
+                                       "sha":  "c1a20434247626ea58ecd25a67f88794e0ab1061"
+                                   },
+                                   {
+                                       "path":  "+cmu/examples/unit_tutorials.m",
+                                       "size":  4160,
+                                       "sha":  "3959422ef0554bc50c1d8f724ca3a114ad422cae"
+                                   },
+                                   {
+                                       "path":  "+cmu/print_local_setup.m",
+                                       "size":  174,
+                                       "sha":  "6dbb056ab178c2e7ba3fdf5a34a76632ff9f73ef"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test0.m",
+                                       "size":  544,
+                                       "sha":  "c55d2bd346bae5f5ed80ef5b9271ef24570b72ad"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test10.m",
+                                       "size":  249,
+                                       "sha":  "b3a7c9ae270a0e16b3ab69e719f99c7e5a15560f"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test11.m",
+                                       "size":  174,
+                                       "sha":  "1bbc448c498e912e999e4e282c361617b40ae618"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test12.m",
+                                       "size":  54,
+                                       "sha":  "57442905e00c446ec191026f6da447e266b92e88"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test13.m",
+                                       "size":  43,
+                                       "sha":  "27bba6c57f2775d98914627cc771ab8266f905ec"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test14.m",
+                                       "size":  306,
+                                       "sha":  "ad0f42bb5e12badcf1db3f2fec101d616f8810cc"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test15.m",
+                                       "size":  156,
+                                       "sha":  "2554002f774b7dfbdfd476093926ceffb7a7c466"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test16.m",
+                                       "size":  81,
+                                       "sha":  "9355bb324726cbb8ba599f226ac985df0eefcf28"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test17.m",
+                                       "size":  84,
+                                       "sha":  "0c684e70f025e406ac52dfe130752c1975a36b1b"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test18.m",
+                                       "size":  128,
+                                       "sha":  "9a9a0413dcd623f8f93959235dbfbb1e87e63974"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test2.m",
+                                       "size":  294,
+                                       "sha":  "19143d859172aed5bd06b870ef54e63a5108b6ce"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test3.m",
+                                       "size":  354,
+                                       "sha":  "02d613a0f25517cca8d6cd92bdd93a90c551d65e"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test4.m",
+                                       "size":  213,
+                                       "sha":  "621d2010e6c3e2f6170168f483d3c012447ede01"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test5.m",
+                                       "size":  384,
+                                       "sha":  "a658c073973ba5bc8b7fecdd61d803b4e065f207"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test6.m",
+                                       "size":  469,
+                                       "sha":  "4ce7cce0d2f6b0310f453fc5ec4d5dd0672f4231"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test7.m",
+                                       "size":  380,
+                                       "sha":  "142204acd0e70cebf2f1e5d5a4edd20dd944775c"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test8.m",
+                                       "size":  93,
+                                       "sha":  "3e0be19ef13e5ab09a31ebbb7c54f46cbbeb84e3"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/archive/test9.m",
+                                       "size":  129,
+                                       "sha":  "f39c678d394076d6cbf60d2b3af8547f5a06b59c"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/bugs/subsref_bug.m",
+                                       "size":  168,
+                                       "sha":  "9a539535d364de70f82cd404de1935232c80695e"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/polyfit_units.m",
+                                       "size":  235,
+                                       "sha":  "7d9528d09de8379b1ae1637e876fd33956282b0d"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/subsref_2.m",
+                                       "size":  106,
+                                       "sha":  "b44eddcdf236bd00124f84d1ae9115bf737fb4e0"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/subsref_3.m",
+                                       "size":  73,
+                                       "sha":  "8cd7b9e9b991ce393bd57f6d5d8c30327dc7ed20"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/subsref_mixed.m",
+                                       "size":  90,
+                                       "sha":  "c2cfece2f2928efde7556f93d3b636d47fa5fd18"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/test_abs.m",
+                                       "size":  116,
+                                       "sha":  "1fcc81c456502d3a327f5c47f5057e5f9881f094"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/test_as.m",
+                                       "size":  78,
+                                       "sha":  "3f58dbab8e5d75aefaf5149f86ac4afd52649613"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/test_comparisons.m",
+                                       "size":  404,
+                                       "sha":  "bc402d69b2d7b3db2ab8c49c42725a2d103afd2e"
+                                   },
+                                   {
+                                       "path":  "+cmu/tests/test_creation.m",
+                                       "size":  336,
+                                       "sha":  "e33d58e933bb4df5fc465274452aa73f760a1bc2"
+                                   }
+                               ]
+             },
+    "seen_before":  false,
+    "queries":  [
+                    "github-repo-hysys-matlab.json"
+                ],
+    "error":  null
+}

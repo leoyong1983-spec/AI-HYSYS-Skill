@@ -1,0 +1,15 @@
+{
+  "full_name": "emeraldsci/SymbolicLabLanguage",
+  "description": "SymbolicLabLanguage © 2024 by Emerald Cloud Lab Inc. is licensed under GPL v3",
+  "updated_at": "2025-12-18T12:12:45Z",
+  "pushed_at": "2026-05-01T17:04:14Z",
+  "default_branch": "main",
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+  },
+  "html_url": "https://github.com/emeraldsci/SymbolicLabLanguage"
+}

@@ -1,0 +1,503 @@
+(.conda) (base) maetee@MacMini COSMO % /Users/maetee/Desktop/COSMO/.conda/bin/python /Users/maetee/Desktop/COSMO/yee_1990/hen_synthesis_yee_1990.py
+Loaded configuration from yee_1990/ex1/config.json
+Loaded 1 forbidden matches from yee_1990/ex1/forbidden_matches.csv
+Loaded 1 required matches from yee_1990/ex1/required_matches.csv
+Building HEN model...
+WARNING: Implicitly replacing the Component attribute temp_mono_hot
+(type=<class 'pyomo.core.base.constraint.IndexedConstraint'>) on block
+HEN_Yee_Grossmann with a new Component (type=<class
+'pyomo.core.base.constraint.IndexedConstraint'>). This is usually indicative
+of a modelling error. To avoid this warning, use block.del_component() and
+block.add_component().
+WARNING: Implicitly replacing the Component attribute temp_mono_cold
+(type=<class 'pyomo.core.base.constraint.IndexedConstraint'>) on block
+HEN_Yee_Grossmann with a new Component (type=<class
+'pyomo.core.base.constraint.IndexedConstraint'>). This is usually indicative
+of a modelling error. To avoid this warning, use block.del_component() and
+block.add_component().
+Added required match constraint: H1-C1 >= 100 kW total
+Solving Example 1 with solver: couenne. Time limit: 600s. This may take some time...
+Couenne 0.5.8 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: max_cpu_time=600
+max_cpu_time=600
+
+ANALYSIS TEST: NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT 8933.3936      294 0.35278
+Loaded instance "/var/folders/18/5tch6yz96q72fnbkv1lmx5zw0000gn/T/tmpzy_toick.pyomo.nl"
+Constraints:           81
+Variables:             67 (11 integer)
+Auxiliaries:           74 (4 integer)
+
+Coin0506I Presolve 193 (-50) rows, 65 (-76) columns and 456 (-160) elements
+Clp0006I 0  Obj 0 Primal inf 742.07906 (5)
+Clp0006I 29  Obj 8772.9214
+Clp0000I Optimal - objective value 8772.9214
+Clp0032I Optimal objective 8772.921373 - 29 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 8772.9214
+NLP Heuristic: time limit reached.
+Clp0006I 0  Obj 8772.9214 Dual inf 1.3579085e-07 (2)
+Clp0000I Optimal - objective value 8772.9214
+Optimality Based BT: 3 improved bounds
+Probing: 4 improved bounds
+NLP Heuristic: time limit reached.
+Cbc0031I 5 added rows had average density of 2.4
+Cbc0013I At root node, 5 cuts changed objective from 8772.9214 to 13098.165 in 3 passes
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 9 row cuts average 2.6 elements, 8 column cuts (8 active)
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible -1.7976931e+308 (0.13 seconds)
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 2 improved bounds
+Optimality Based BT: 2 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 1 improved bounds
+Couenne: new cutoff value 2.7345882959e+05 (1.41596 seconds)
+Cbc0012I Integer solution of 273458.83 found by Couenne Rounding NLP after 107 iterations and 5 nodes (1.01 seconds)
+Optimality Based BT: 7 improved bounds
+Optimality Based BT: 6 improved bounds
+Optimality Based BT: 3 improved bounds
+Optimality Based BT: 4 improved bounds
+Optimality Based BT: 4 improved bounds
+Couenne: new cutoff value 4.4531728656e+04 (2.46198 seconds)
+Couenne: new cutoff value 4.4525584106e+04 (2.47303 seconds)
+Couenne: new cutoff value 4.4523131212e+04 (2.48055 seconds)
+Couenne: new cutoff value 4.4522219215e+04 (2.49003 seconds)
+Cbc0010I After 100 nodes, 29 on tree, 273458.83 best solution, best possible 15286.399 (2.09 seconds)
+Couenne: new cutoff value 4.4522219204e+04 (2.56666 seconds)
+Couenne: new cutoff value 4.4522219190e+04 (2.57112 seconds)
+Cbc0004I Integer solution of 44522.219 found after 778 iterations and 162 nodes (2.17 seconds)
+Optimality Based BT: 3 improved bounds
+Cbc0010I After 200 nodes, 21 on tree, 44522.219 best solution, best possible 40399.475 (2.84 seconds)
+Couenne: new cutoff value 4.4252170194e+04 (3.25608 seconds)
+Couenne: new cutoff value 4.4095538223e+04 (3.26168 seconds)
+Couenne: new cutoff value 4.4027110057e+04 (3.27417 seconds)
+Couenne: new cutoff value 4.4010198248e+04 (3.29731 seconds)
+Couenne: new cutoff value 4.4002777969e+04 (3.30285 seconds)
+Couenne: new cutoff value 4.4000836673e+04 (3.31122 seconds)
+Optimality Based BT: 5 improved bounds
+Couenne: new cutoff value 4.3755529443e+04 (3.40023 seconds)
+Couenne: new cutoff value 4.3598829071e+04 (3.4053 seconds)
+Couenne: new cutoff value 4.3530415762e+04 (3.41522 seconds)
+Couenne: new cutoff value 4.3513580788e+04 (3.43206 seconds)
+Cbc0010I After 300 nodes, 43 on tree, 44522.219 best solution, best possible 41230.522 (3.04 seconds)
+Couenne: new cutoff value 4.3504570181e+04 (3.45417 seconds)
+Couenne: new cutoff value 4.3504240607e+04 (3.46518 seconds)
+Couenne: new cutoff value 4.3456076537e+04 (3.65327 seconds)
+Couenne: new cutoff value 4.3299750260e+04 (3.66225 seconds)
+Couenne: new cutoff value 4.3231443336e+04 (3.6728 seconds)
+Couenne: new cutoff value 4.3214579366e+04 (3.69142 seconds)
+Couenne: new cutoff value 4.3207157844e+04 (3.69967 seconds)
+Couenne: new cutoff value 4.3205256681e+04 (3.70504 seconds)
+Cbc0010I After 400 nodes, 57 on tree, 44522.219 best solution, best possible 41260.122 (3.31 seconds)
+Cbc0010I After 500 nodes, 65 on tree, 44522.219 best solution, best possible 41346.585 (3.48 seconds)
+Cbc0010I After 600 nodes, 72 on tree, 44522.219 best solution, best possible 41699.696 (3.66 seconds)
+Cbc0010I After 700 nodes, 74 on tree, 44522.219 best solution, best possible 42064.264 (3.83 seconds)
+Cbc0010I After 800 nodes, 70 on tree, 44522.219 best solution, best possible 42115.744 (4.02 seconds)
+Cbc0010I After 900 nodes, 79 on tree, 44522.219 best solution, best possible 42223.55 (4.21 seconds)
+Cbc0010I After 1000 nodes, 76 on tree, 44522.219 best solution, best possible 42906.024 (4.39 seconds)
+Couenne: new cutoff value 4.3186621374e+04 (4.82203 seconds)
+Couenne: new cutoff value 4.3186613658e+04 (4.93286 seconds)
+Cbc0010I After 1100 nodes, 80 on tree, 44522.219 best solution, best possible 43008.783 (4.56 seconds)
+Cbc0010I After 1200 nodes, 79 on tree, 44522.219 best solution, best possible 43008.783 (4.73 seconds)
+Cbc0010I After 1300 nodes, 80 on tree, 44522.219 best solution, best possible 43010.782 (4.89 seconds)
+Cbc0010I After 1400 nodes, 80 on tree, 44522.219 best solution, best possible 43010.782 (5.14 seconds)
+Couenne: new cutoff value 4.3186604604e+04 (5.62062 seconds)
+Cbc0010I After 1500 nodes, 80 on tree, 44522.219 best solution, best possible 43016.886 (5.32 seconds)
+Cbc0010I After 1600 nodes, 79 on tree, 44522.219 best solution, best possible 43018.784 (5.48 seconds)
+Cbc0010I After 1700 nodes, 73 on tree, 44522.219 best solution, best possible 43102.52 (5.64 seconds)
+Cbc0010I After 1800 nodes, 72 on tree, 44522.219 best solution, best possible 43104.043 (5.80 seconds)
+Cbc0010I After 1900 nodes, 66 on tree, 44522.219 best solution, best possible 43164.809 (5.96 seconds)
+Cbc0010I After 2000 nodes, 60 on tree, 44522.219 best solution, best possible 43172.198 (6.12 seconds)
+Couenne: new cutoff value 4.3186604584e+04 (6.56146 seconds)
+Cbc0010I After 2100 nodes, 53 on tree, 44522.219 best solution, best possible 43186.486 (6.28 seconds)
+Cbc0010I After 2200 nodes, 15 on tree, 44522.219 best solution, best possible 43848.006 (6.34 seconds)
+Cbc0001I Search completed - best objective 44522.21909964603, took 8863 iterations and 2231 nodes (6.35 seconds)
+Cbc0035I Maximum depth 79, 0 variables fixed on reduced cost
+
+        "Finished"
+
+Linearization cuts added at root node:        243
+Linearization cuts added in total:            243  (separation time: 0.000704s)
+Total solve time:                         6.35714s (6.35714s in branch-and-bound)
+Lower bound:                              43186.6
+Upper bound:                              43186.6  (gap: 0.00%)
+Branch-and-bound nodes:                      2231
+Performance of                           FBBT:     0.555514s,     1843 runs. fix:   0.097241 shrnk:    3.91943 ubd:          0 2ubd:    2.98868 infeas:          9
+Performance of                           OBBT:     0.079964s,       13 runs. fix:   0.321429 shrnk:    7.42564 ubd:          0 2ubd:          3 infeas:          0
+
+--- Solver Status: ok, Termination: optimal ---
+Total Annual Cost: 43186.60
+  Utility Cost: 27999.98
+  Fixed Charges: 6200.00
+  Area-dependent Capital Cost: 8986.62
+  Total Area: 25.71 m^2
+
+--- Active Process Matches (z_match=1) ---
+  H:H1-C:C1 in Stage 2: Q=300.00, Area=37.50, dt1=10.00 (at T_h=363.00, T_c=353.00), dt2=10.00 (at T_h=353.00, T_c=293.00)
+  H:H1-C:C2 in Stage 1: Q=2400.00, Area=300.00, dt1=10.00 (at T_h=443.00, T_c=413.00), dt2=10.00 (at T_h=363.00, T_c=353.00)
+  H:H2-C:C1 in Stage 1: Q=900.00, Area=112.50, dt1=10.00 (at T_h=423.00, T_c=398.00), dt2=10.00 (at T_h=363.00, T_c=353.00)
+  H:H2-C:C1 in Stage 2: Q=900.00, Area=112.50, dt1=10.00 (at T_h=363.00, T_c=353.00), dt2=10.00 (at T_h=303.00, T_c=293.00)
+
+--- Active Cold Utility Usage (z_cu=1) ---
+  H:H1 with CU:W1: Q=600.00, Area=22.15, dt1=28.39 (Th_in_cooler=353.00, Tcu_out=313.00), dt2=40.00 (Th_out_cooler=333.00, Tcu_in=293.00)
+
+--- Active Hot Utility Usage (z_hu=1) ---
+  C:C1 with HU:S1: Q=200.00, Area=3.56, dt1=52.00 (Thu_in=450.00, Tc_in_heater=398.00), dt2=42.00 (Thu_out=450.00, Tc_out_heater=408.00)
+
+--- Temperature Profiles (Location 1 is 'Hot End' of Superstructure Stage) ---
+  H:H1: (Inlet 443.00 at loc 1) 1:443.00 -> 2:363.00 -> 3:353.00 (Outlet before CU 353.00, Target Stream OUT: 333.00)
+  H:H2: (Inlet 423.00 at loc 1) 1:423.00 -> 2:363.00 -> 3:303.00 (Outlet before CU 303.00, Target Stream OUT: 303.00)
+  C:C1: (Outlet before HU 398.00 at loc 1, Target Stream OUT: 408.00) 1:398.00 <- 2:353.00 <- 3:293.00 (Inlet 293.00 at loc 3)
+  C:C2: (Outlet before HU 413.00 at loc 1, Target Stream OUT: 413.00) 1:413.00 <- 2:353.00 <- 3:353.00 (Inlet 353.00 at loc 3)
+6 Set Declarations
+    CP : Size=1, Index=None, Ordered=Insertion
+        Key  : Dimen : Domain : Size : Members
+        None :     1 :    Any :    2 : {'C1', 'C2'}
+    CU : Size=1, Index=None, Ordered=Insertion
+        Key  : Dimen : Domain : Size : Members
+        None :     1 :    Any :    1 : {'W1',}
+    HP : Size=1, Index=None, Ordered=Insertion
+        Key  : Dimen : Domain : Size : Members
+        None :     1 :    Any :    2 : {'H1', 'H2'}
+    HU : Size=1, Index=None, Ordered=Insertion
+        Key  : Dimen : Domain : Size : Members
+        None :     1 :    Any :    1 : {'S1',}
+    STAGES : Size=1, Index=None, Ordered=Insertion
+        Key  : Dimen : Domain : Size : Members
+        None :     1 :    Any :    2 : {1, 2}
+    TEMP_LOCS : Size=1, Index=None, Ordered=Insertion
+        Key  : Dimen : Domain : Size : Members
+        None :     1 :    Any :    3 : {1, 2, 3}
+
+19 Param Declarations
+    CA_cu : Size=2, Index=HP*CU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'W1') :  1000
+        ('H2', 'W1') :  1000
+    CA_hu : Size=2, Index=CP*HU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('C1', 'S1') :  1200
+        ('C2', 'S1') :  1200
+    CA_match : Size=4, Index=HP*CP, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'C1') :  1000
+        ('H1', 'C2') :  1000
+        ('H2', 'C1') :  1000
+        ('H2', 'C2') :  1000
+    CB_cu : Size=2, Index=HP*CU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'W1') :   0.6
+        ('H2', 'W1') :   0.6
+    CB_hu : Size=2, Index=CP*HU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('C1', 'S1') :   0.6
+        ('C2', 'S1') :   0.6
+    CB_match : Size=4, Index=HP*CP, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'C1') :   0.6
+        ('H1', 'C2') :   0.6
+        ('H2', 'C1') :   0.6
+        ('H2', 'C2') :   0.6
+    CF_cu : Size=2, Index=HP*CU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'W1') :  1000
+        ('H2', 'W1') :  1000
+    CF_hu : Size=2, Index=CP*HU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('C1', 'S1') :  1200
+        ('C2', 'S1') :  1200
+    CF_match : Size=4, Index=HP*CP, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'C1') :  1000
+        ('H1', 'C2') :  1000
+        ('H2', 'C1') :  1000
+        ('H2', 'C2') :  1000
+    Cost_Unit_Energy_CU : Size=1, Index=CU, Domain=Any, Default=None, Mutable=False
+        Key : Value
+         W1 :    20
+    Cost_Unit_Energy_HU : Size=1, Index=HU, Domain=Any, Default=None, Mutable=False
+        Key : Value
+         S1 :    80
+    Fcp : Size=4, Index=HP | CP, Domain=Any, Default=None, Mutable=False
+        Key : Value
+         C1 :    20
+         C2 :    40
+         H1 :    30
+         H2 :    15
+    TIN_spec : Size=4, Index=HP | CP, Domain=Any, Default=None, Mutable=False
+        Key : Value
+         C1 :   293
+         C2 :   353
+         H1 :   443
+         H2 :   423
+    TIN_utility : Size=2, Index=HU | CU, Domain=Any, Default=None, Mutable=False
+        Key : Value
+         S1 :   450
+         W1 :   293
+    TOUT_spec : Size=4, Index=HP | CP, Domain=Any, Default=None, Mutable=False
+        Key : Value
+         C1 :   408
+         C2 :   413
+         H1 :   333
+         H2 :   303
+    TOUT_utility : Size=2, Index=HU | CU, Domain=Any, Default=None, Mutable=False
+        Key : Value
+         S1 :   450
+         W1 :   313
+    U_cu : Size=2, Index=HP*CU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'W1') :   0.8
+        ('H2', 'W1') :   0.8
+    U_hu : Size=2, Index=CP*HU, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('C1', 'S1') :   1.2
+        ('C2', 'S1') :   1.2
+    U_match : Size=4, Index=HP*CP, Domain=Any, Default=None, Mutable=False
+        Key          : Value
+        ('H1', 'C1') :   0.8
+        ('H1', 'C2') :   0.8
+        ('H2', 'C1') :   0.8
+        ('H2', 'C2') :   0.8
+
+15 Var Declarations
+    Area_cu : Size=2, Index=HP*CU
+        Key          : Lower : Value              : Upper     : Fixed : Stale : Domain
+        ('H1', 'W1') :     0 : 22.148225885982892 : 1000000.0 : False : False : NonNegativeReals
+        ('H2', 'W1') :     0 :                0.0 : 1000000.0 : False : False : NonNegativeReals
+    Area_hu : Size=2, Index=CP*HU
+        Key          : Lower : Value              : Upper     : Fixed : Stale : Domain
+        ('C1', 'S1') :     0 : 3.5595763441132804 : 1000000.0 : False : False : NonNegativeReals
+        ('C2', 'S1') :     0 :                0.0 : 1000000.0 : False : False : NonNegativeReals
+    Area_match : Size=8, Index=HP*CP*STAGES
+        Key             : Lower : Value : Upper     : Fixed : Stale : Domain
+        ('H1', 'C1', 1) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+        ('H1', 'C1', 2) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+        ('H1', 'C2', 1) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+        ('H1', 'C2', 2) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+        ('H2', 'C1', 1) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+        ('H2', 'C1', 2) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+        ('H2', 'C2', 1) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+        ('H2', 'C2', 2) :     0 :   0.0 : 1000000.0 : False : False : NonNegativeReals
+    dt_cu_s1 : Size=2, Index=HP*CU
+        Key          : Lower : Value              : Upper : Fixed : Stale : Domain
+        ('H1', 'W1') :  10.0 : 28.389001858581413 :   200 : False : False : NonNegativeReals
+        ('H2', 'W1') :  10.0 :               10.0 :   200 : False : False : NonNegativeReals
+    dt_hu_s1 : Size=2, Index=CP*HU
+        Key          : Lower : Value              : Upper : Fixed : Stale : Domain
+        ('C1', 'S1') :  10.0 :  52.00000000000001 :   200 : False : False : NonNegativeReals
+        ('C2', 'S1') :  10.0 : 20.569350732166054 :   200 : False : False : NonNegativeReals
+    dt_match_s1 : Size=8, Index=HP*CP*STAGES
+        Key             : Lower : Value : Upper : Fixed : Stale : Domain
+        ('H1', 'C1', 1) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+        ('H1', 'C1', 2) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+        ('H1', 'C2', 1) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+        ('H1', 'C2', 2) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+        ('H2', 'C1', 1) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+        ('H2', 'C1', 2) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+        ('H2', 'C2', 1) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+        ('H2', 'C2', 2) :  10.0 :  10.0 :   200 : False : False : NonNegativeReals
+    dt_match_s2 : Size=8, Index=HP*CP*STAGES
+        Key             : Lower : Value             : Upper : Fixed : Stale : Domain
+        ('H1', 'C1', 1) :  10.0 :              10.0 :   200 : False : False : NonNegativeReals
+        ('H1', 'C1', 2) :  10.0 : 9.999999999999998 :   200 : False : False : NonNegativeReals
+        ('H1', 'C2', 1) :  10.0 :              10.0 :   200 : False : False : NonNegativeReals
+        ('H1', 'C2', 2) :  10.0 :              10.0 :   200 : False : False : NonNegativeReals
+        ('H2', 'C1', 1) :  10.0 : 9.999999999999998 :   200 : False : False : NonNegativeReals
+        ('H2', 'C1', 2) :  10.0 :              10.0 :   200 : False : False : NonNegativeReals
+        ('H2', 'C2', 1) :  10.0 : 9.999999999999998 :   200 : False : False : NonNegativeReals
+        ('H2', 'C2', 2) :  10.0 :              10.0 :   200 : False : False : NonNegativeReals
+    q_cu : Size=2, Index=HP*CU
+        Key          : Lower : Value             : Upper  : Fixed : Stale : Domain
+        ('H1', 'W1') :     0 : 599.9997358623749 : 6600.0 : False : False : NonNegativeReals
+        ('H2', 'W1') :     0 :               0.0 : 6600.0 : False : False : NonNegativeReals
+    q_hu : Size=2, Index=CP*HU
+        Key          : Lower : Value             : Upper  : Fixed : Stale : Domain
+        ('C1', 'S1') :     0 : 199.9998739515038 : 6600.0 : False : False : NonNegativeReals
+        ('C2', 'S1') :     0 :               0.0 : 6600.0 : False : False : NonNegativeReals
+    q_match : Size=8, Index=HP*CP*STAGES
+        Key             : Lower : Value                  : Upper  : Fixed : Stale : Domain
+        ('H1', 'C1', 1) :     0 :                    0.0 : 6600.0 : False : False : NonNegativeReals
+        ('H1', 'C1', 2) :     0 :      299.9999999999981 : 6600.0 : False : False : NonNegativeReals
+        ('H1', 'C2', 1) :     0 :                 2400.0 : 6600.0 : False : False : NonNegativeReals
+        ('H1', 'C2', 2) :     0 :  0.0002641376268570639 : 6600.0 : False : False : NonNegativeReals
+        ('H2', 'C1', 1) :     0 :      899.9999999999987 : 6600.0 : False : False : NonNegativeReals
+        ('H2', 'C1', 2) :     0 :      900.0000000000014 : 6600.0 : False : False : NonNegativeReals
+        ('H2', 'C2', 1) :     0 :  3.410605131648481e-13 : 6600.0 : False : False : NonNegativeReals
+        ('H2', 'C2', 2) :     0 : -4.547473508864641e-13 : 6600.0 : False : False : NonNegativeReals
+    t_cold : Size=6, Index=CP*TEMP_LOCS
+        Key       : Lower : Value             : Upper : Fixed : Stale : Domain
+        ('C1', 1) :   273 : 398.0000063024248 :   470 : False : False : NonNegativeReals
+        ('C1', 2) :   273 : 353.0000063024249 :   470 : False : False : NonNegativeReals
+        ('C1', 3) :   273 : 293.0000063024249 :   470 : False : False : NonNegativeReals
+        ('C2', 1) :   273 :             413.0 :   470 : False : False : NonNegativeReals
+        ('C2', 2) :   273 :             353.0 :   470 : False : False : NonNegativeReals
+        ('C2', 3) :   273 : 352.9999933965593 :   470 : False : False : NonNegativeReals
+    t_hot : Size=6, Index=HP*TEMP_LOCS
+        Key       : Lower : Value              : Upper : Fixed : Stale : Domain
+        ('H1', 1) :   273 :              443.0 :   470 : False : False : NonNegativeReals
+        ('H1', 2) :   273 :              363.0 :   470 : False : False : NonNegativeReals
+        ('H1', 3) :   273 :  352.9999911954125 :   470 : False : False : NonNegativeReals
+        ('H2', 1) :   273 :              423.0 :   470 : False : False : NonNegativeReals
+        ('H2', 2) :   273 : 363.00000000000006 :   470 : False : False : NonNegativeReals
+        ('H2', 3) :   273 :              303.0 :   470 : False : False : NonNegativeReals
+    z_cu : Size=2, Index=HP*CU
+        Key          : Lower : Value : Upper : Fixed : Stale : Domain
+        ('H1', 'W1') :     0 :   1.0 :     1 : False : False : Binary
+        ('H2', 'W1') :     0 :     0 :     1 :  True :  True : Binary
+    z_hu : Size=2, Index=CP*HU
+        Key          : Lower : Value : Upper : Fixed : Stale : Domain
+        ('C1', 'S1') :     0 :   1.0 :     1 : False : False : Binary
+        ('C2', 'S1') :     0 :   0.0 :     1 : False : False : Binary
+    z_match : Size=8, Index=HP*CP*STAGES
+        Key             : Lower : Value : Upper : Fixed : Stale : Domain
+        ('H1', 'C1', 1) :     0 :   0.0 :     1 : False : False : Binary
+        ('H1', 'C1', 2) :     0 :   1.0 :     1 : False : False : Binary
+        ('H1', 'C2', 1) :     0 :   1.0 :     1 : False : False : Binary
+        ('H1', 'C2', 2) :     0 :   0.0 :     1 : False : False : Binary
+        ('H2', 'C1', 1) :     0 :   1.0 :     1 : False : False : Binary
+        ('H2', 'C1', 2) :     0 :   1.0 :     1 : False : False : Binary
+        ('H2', 'C2', 1) :     0 :   0.0 :     1 : False : False : Binary
+        ('H2', 'C2', 2) :     0 :   0.0 :     1 : False : False : Binary
+
+1 Objective Declarations
+    total_annual_cost : Size=1, Index=None, Active=True
+        Key  : Active : Sense    : Expression
+        None :   True : minimize : 1000*(Area_match[H1,C1,1] + 1e-06)**0.6*z_match[H1,C1,1] + 1000*(Area_match[H1,C1,2] + 1e-06)**0.6*z_match[H1,C1,2] + 1000*(Area_match[H1,C2,1] + 1e-06)**0.6*z_match[H1,C2,1] + 1000*(Area_match[H1,C2,2] + 1e-06)**0.6*z_match[H1,C2,2] + 1000*(Area_match[H2,C1,1] + 1e-06)**0.6*z_match[H2,C1,1] + 1000*(Area_match[H2,C1,2] + 1e-06)**0.6*z_match[H2,C1,2] + 1000*(Area_match[H2,C2,1] + 1e-06)**0.6*z_match[H2,C2,1] + 1000*(Area_match[H2,C2,2] + 1e-06)**0.6*z_match[H2,C2,2] + (20*q_cu[H1,W1] + 20*q_cu[H2,W1] + 80*q_hu[C1,S1] + 80*q_hu[C2,S1] + 1000*z_match[H1,C1,1] + 1000*z_match[H1,C1,2] + 1000*z_match[H1,C2,1] + 1000*z_match[H1,C2,2] + 1000*z_match[H2,C1,1] + 1000*z_match[H2,C1,2] + 1000*z_match[H2,C2,1] + 1000*z_match[H2,C2,2] + 1000*z_cu[H1,W1] + 1000*z_cu[H2,W1] + 1200*z_hu[C1,S1] + 1200*z_hu[C2,S1]) + 1000*(Area_cu[H1,W1] + 1e-06)**0.6*z_cu[H1,W1] + 1000*(Area_cu[H2,W1] + 1e-06)**0.6*z_cu[H2,W1] + 1200*(Area_hu[C1,S1] + 1e-06)**0.6*z_hu[C1,S1] + 1200*(Area_hu[C2,S1] + 1e-06)**0.6*z_hu[C2,S1]
+
+25 Constraint Declarations
+    Eq_AreaCULogicUpper : Size=2, Index=HP*CU, Active=True
+        Key          : Lower : Body                                   : Upper : Active
+        ('H1', 'W1') :  -Inf : Area_cu[H1,W1] - 1000000.0*z_cu[H1,W1] :   0.0 :   True
+        ('H2', 'W1') :  -Inf : Area_cu[H2,W1] - 1000000.0*z_cu[H2,W1] :   0.0 :   True
+    Eq_AreaDefCU : Size=2, Index=HP*CU, Active=True
+        Key          : Lower : Body                                                                                                                   : Upper : Active
+        ('H1', 'W1') :   0.0 : q_cu[H1,W1] - Area_cu[H1,W1]*((40*dt_cu_s1[H1,W1]*(dt_cu_s1[H1,W1] + 40)/2.0 + 1e-09)**0.3333333333333333*0.8 + 1e-09) :   0.0 :   True
+        ('H2', 'W1') :   0.0 : q_cu[H2,W1] - Area_cu[H2,W1]*((10*dt_cu_s1[H2,W1]*(dt_cu_s1[H2,W1] + 10)/2.0 + 1e-09)**0.3333333333333333*0.8 + 1e-09) :   0.0 :   True
+    Eq_AreaDefHU : Size=2, Index=CP*HU, Active=True
+        Key          : Lower : Body                                                                                                                   : Upper : Active
+        ('C1', 'S1') :   0.0 : q_hu[C1,S1] - Area_hu[C1,S1]*((42*dt_hu_s1[C1,S1]*(dt_hu_s1[C1,S1] + 42)/2.0 + 1e-09)**0.3333333333333333*1.2 + 1e-09) :   0.0 :   True
+        ('C2', 'S1') :   0.0 : q_hu[C2,S1] - Area_hu[C2,S1]*((37*dt_hu_s1[C2,S1]*(dt_hu_s1[C2,S1] + 37)/2.0 + 1e-09)**0.3333333333333333*1.2 + 1e-09) :   0.0 :   True
+    Eq_AreaHULogicUpper : Size=2, Index=CP*HU, Active=True
+        Key          : Lower : Body                                   : Upper : Active
+        ('C1', 'S1') :  -Inf : Area_hu[C1,S1] - 1000000.0*z_hu[C1,S1] :   0.0 :   True
+        ('C2', 'S1') :  -Inf : Area_hu[C2,S1] - 1000000.0*z_hu[C2,S1] :   0.0 :   True
+    Eq_AreaMatchLogicUpper : Size=8, Index=HP*CP*STAGES, Active=True
+        Key             : Lower : Body                                             : Upper : Active
+        ('H1', 'C1', 1) :  -Inf : Area_match[H1,C1,1] - 1000000.0*z_match[H1,C1,1] :   0.0 :   True
+        ('H1', 'C1', 2) :  -Inf : Area_match[H1,C1,2] - 1000000.0*z_match[H1,C1,2] :   0.0 :   True
+        ('H1', 'C2', 1) :  -Inf : Area_match[H1,C2,1] - 1000000.0*z_match[H1,C2,1] :   0.0 :   True
+        ('H1', 'C2', 2) :  -Inf : Area_match[H1,C2,2] - 1000000.0*z_match[H1,C2,2] :   0.0 :   True
+        ('H2', 'C1', 1) :  -Inf : Area_match[H2,C1,1] - 1000000.0*z_match[H2,C1,1] :   0.0 :   True
+        ('H2', 'C1', 2) :  -Inf : Area_match[H2,C1,2] - 1000000.0*z_match[H2,C1,2] :   0.0 :   True
+        ('H2', 'C2', 1) :  -Inf : Area_match[H2,C2,1] - 1000000.0*z_match[H2,C2,1] :   0.0 :   True
+        ('H2', 'C2', 2) :  -Inf : Area_match[H2,C2,2] - 1000000.0*z_match[H2,C2,2] :   0.0 :   True
+    cold_outlet_before_hu : Size=2, Index=CP, Active=True
+        Key : Lower : Body         : Upper : Active
+         C1 :  -Inf : t_cold[C1,1] : 408.0 :   True
+         C2 :  -Inf : t_cold[C2,1] : 413.0 :   True
+    cu_load : Size=2, Index=HP, Active=True
+        Key : Lower : Body                                 : Upper : Active
+         H1 :   0.0 : (t_hot[H1,3] - 333)*30 - q_cu[H1,W1] :   0.0 :   True
+         H2 :   0.0 : (t_hot[H2,3] - 303)*15 - q_cu[H2,W1] :   0.0 :   True
+    dt2_cu_feasibility : Size=2, Index=HP*CU, Active=True
+        Key          : Lower : Body                       : Upper : Active
+        ('H1', 'W1') :  10.0 : 40 + 200*(1 - z_cu[H1,W1]) :  +Inf :   True
+        ('H2', 'W1') :  10.0 : 10 + 200*(1 - z_cu[H2,W1]) :  +Inf :   True
+    dt2_hu_feasibility : Size=2, Index=CP*HU, Active=True
+        Key          : Lower : Body                       : Upper : Active
+        ('C1', 'S1') :  10.0 : 42 + 200*(1 - z_hu[C1,S1]) :  +Inf :   True
+        ('C2', 'S1') :  10.0 : 37 + 200*(1 - z_hu[C2,S1]) :  +Inf :   True
+    dt_cu_s1_constr : Size=2, Index=HP*CU, Active=True
+        Key          : Lower : Body                                                          : Upper : Active
+        ('H1', 'W1') :  -Inf : dt_cu_s1[H1,W1] - (t_hot[H1,3] - 313 + 200*(1 - z_cu[H1,W1])) :   0.0 :   True
+        ('H2', 'W1') :  -Inf : dt_cu_s1[H2,W1] - (t_hot[H2,3] - 313 + 200*(1 - z_cu[H2,W1])) :   0.0 :   True
+    dt_hu_s1_constr : Size=2, Index=CP*HU, Active=True
+        Key          : Lower : Body                                                           : Upper : Active
+        ('C1', 'S1') :  -Inf : dt_hu_s1[C1,S1] - (450 - t_cold[C1,1] + 200*(1 - z_hu[C1,S1])) :   0.0 :   True
+        ('C2', 'S1') :  -Inf : dt_hu_s1[C2,S1] - (450 - t_cold[C2,1] + 200*(1 - z_hu[C2,S1])) :   0.0 :   True
+    dt_match_s1_constr : Size=8, Index=HP*CP*STAGES, Active=True
+        Key             : Lower : Body                                                                             : Upper : Active
+        ('H1', 'C1', 1) :  -Inf : dt_match_s1[H1,C1,1] - (t_hot[H1,1] - t_cold[C1,1] + 200*(1 - z_match[H1,C1,1])) :   0.0 :   True
+        ('H1', 'C1', 2) :  -Inf : dt_match_s1[H1,C1,2] - (t_hot[H1,2] - t_cold[C1,2] + 200*(1 - z_match[H1,C1,2])) :   0.0 :   True
+        ('H1', 'C2', 1) :  -Inf : dt_match_s1[H1,C2,1] - (t_hot[H1,1] - t_cold[C2,1] + 200*(1 - z_match[H1,C2,1])) :   0.0 :   True
+        ('H1', 'C2', 2) :  -Inf : dt_match_s1[H1,C2,2] - (t_hot[H1,2] - t_cold[C2,2] + 200*(1 - z_match[H1,C2,2])) :   0.0 :   True
+        ('H2', 'C1', 1) :  -Inf : dt_match_s1[H2,C1,1] - (t_hot[H2,1] - t_cold[C1,1] + 200*(1 - z_match[H2,C1,1])) :   0.0 :   True
+        ('H2', 'C1', 2) :  -Inf : dt_match_s1[H2,C1,2] - (t_hot[H2,2] - t_cold[C1,2] + 200*(1 - z_match[H2,C1,2])) :   0.0 :   True
+        ('H2', 'C2', 1) :  -Inf : dt_match_s1[H2,C2,1] - (t_hot[H2,1] - t_cold[C2,1] + 200*(1 - z_match[H2,C2,1])) :   0.0 :   True
+        ('H2', 'C2', 2) :  -Inf : dt_match_s1[H2,C2,2] - (t_hot[H2,2] - t_cold[C2,2] + 200*(1 - z_match[H2,C2,2])) :   0.0 :   True
+    dt_match_s2_constr : Size=8, Index=HP*CP*STAGES, Active=True
+        Key             : Lower : Body                                                                             : Upper : Active
+        ('H1', 'C1', 1) :  -Inf : dt_match_s2[H1,C1,1] - (t_hot[H1,2] - t_cold[C1,2] + 200*(1 - z_match[H1,C1,1])) :   0.0 :   True
+        ('H1', 'C1', 2) :  -Inf : dt_match_s2[H1,C1,2] - (t_hot[H1,3] - t_cold[C1,3] + 200*(1 - z_match[H1,C1,2])) :   0.0 :   True
+        ('H1', 'C2', 1) :  -Inf : dt_match_s2[H1,C2,1] - (t_hot[H1,2] - t_cold[C2,2] + 200*(1 - z_match[H1,C2,1])) :   0.0 :   True
+        ('H1', 'C2', 2) :  -Inf : dt_match_s2[H1,C2,2] - (t_hot[H1,3] - t_cold[C2,3] + 200*(1 - z_match[H1,C2,2])) :   0.0 :   True
+        ('H2', 'C1', 1) :  -Inf : dt_match_s2[H2,C1,1] - (t_hot[H2,2] - t_cold[C1,2] + 200*(1 - z_match[H2,C1,1])) :   0.0 :   True
+        ('H2', 'C1', 2) :  -Inf : dt_match_s2[H2,C1,2] - (t_hot[H2,3] - t_cold[C1,3] + 200*(1 - z_match[H2,C1,2])) :   0.0 :   True
+        ('H2', 'C2', 1) :  -Inf : dt_match_s2[H2,C2,1] - (t_hot[H2,2] - t_cold[C2,2] + 200*(1 - z_match[H2,C2,1])) :   0.0 :   True
+        ('H2', 'C2', 2) :  -Inf : dt_match_s2[H2,C2,2] - (t_hot[H2,3] - t_cold[C2,3] + 200*(1 - z_match[H2,C2,2])) :   0.0 :   True
+    hot_outlet_before_cu : Size=2, Index=HP, Active=True
+        Key : Lower : Body        : Upper : Active
+         H1 : 333.0 : t_hot[H1,3] :  +Inf :   True
+         H2 : 303.0 : t_hot[H2,3] :  +Inf :   True
+    hu_load : Size=2, Index=CP, Active=True
+        Key : Lower : Body                                  : Upper : Active
+         C1 :   0.0 : (408 - t_cold[C1,1])*20 - q_hu[C1,S1] :   0.0 :   True
+         C2 :   0.0 : (413 - t_cold[C2,1])*40 - q_hu[C2,S1] :   0.0 :   True
+    q_cu_logic : Size=2, Index=HP*CU, Active=True
+        Key          : Lower : Body                             : Upper : Active
+        ('H1', 'W1') :  -Inf : q_cu[H1,W1] - 6600.0*z_cu[H1,W1] :   0.0 :   True
+        ('H2', 'W1') :  -Inf : q_cu[H2,W1] - 6600.0*z_cu[H2,W1] :   0.0 :   True
+    q_hu_logic : Size=2, Index=CP*HU, Active=True
+        Key          : Lower : Body                             : Upper : Active
+        ('C1', 'S1') :  -Inf : q_hu[C1,S1] - 6600.0*z_hu[C1,S1] :   0.0 :   True
+        ('C2', 'S1') :  -Inf : q_hu[C2,S1] - 6600.0*z_hu[C2,S1] :   0.0 :   True
+    q_match_logic : Size=8, Index=HP*CP*STAGES, Active=True
+        Key             : Lower : Body                                       : Upper : Active
+        ('H1', 'C1', 1) :  -Inf : q_match[H1,C1,1] - 6600.0*z_match[H1,C1,1] :   0.0 :   True
+        ('H1', 'C1', 2) :  -Inf : q_match[H1,C1,2] - 6600.0*z_match[H1,C1,2] :   0.0 :   True
+        ('H1', 'C2', 1) :  -Inf : q_match[H1,C2,1] - 6600.0*z_match[H1,C2,1] :   0.0 :   True
+        ('H1', 'C2', 2) :  -Inf : q_match[H1,C2,2] - 6600.0*z_match[H1,C2,2] :   0.0 :   True
+        ('H2', 'C1', 1) :  -Inf : q_match[H2,C1,1] - 6600.0*z_match[H2,C1,1] :   0.0 :   True
+        ('H2', 'C1', 2) :  -Inf : q_match[H2,C1,2] - 6600.0*z_match[H2,C1,2] :   0.0 :   True
+        ('H2', 'C2', 1) :  -Inf : q_match[H2,C2,1] - 6600.0*z_match[H2,C2,1] :   0.0 :   True
+        ('H2', 'C2', 2) :  -Inf : q_match[H2,C2,2] - 6600.0*z_match[H2,C2,2] :   0.0 :   True
+    required_q_constraints : Size=1, Index={1}, Active=True
+        Key : Lower : Body                                : Upper : Active
+          1 : 100.0 : q_match[H1,C1,1] + q_match[H1,C1,2] :  +Inf :   True
+    stage_balance_cold : Size=4, Index=CP*STAGES, Active=True
+        Key       : Lower : Body                                                                     : Upper : Active
+        ('C1', 1) :   0.0 : (t_cold[C1,1] - t_cold[C1,2])*20 - (q_match[H1,C1,1] + q_match[H2,C1,1]) :   0.0 :   True
+        ('C1', 2) :   0.0 : (t_cold[C1,2] - t_cold[C1,3])*20 - (q_match[H1,C1,2] + q_match[H2,C1,2]) :   0.0 :   True
+        ('C2', 1) :   0.0 : (t_cold[C2,1] - t_cold[C2,2])*40 - (q_match[H1,C2,1] + q_match[H2,C2,1]) :   0.0 :   True
+        ('C2', 2) :   0.0 : (t_cold[C2,2] - t_cold[C2,3])*40 - (q_match[H1,C2,2] + q_match[H2,C2,2]) :   0.0 :   True
+    stage_balance_hot : Size=4, Index=HP*STAGES, Active=True
+        Key       : Lower : Body                                                                   : Upper : Active
+        ('H1', 1) :   0.0 : (t_hot[H1,1] - t_hot[H1,2])*30 - (q_match[H1,C1,1] + q_match[H1,C2,1]) :   0.0 :   True
+        ('H1', 2) :   0.0 : (t_hot[H1,2] - t_hot[H1,3])*30 - (q_match[H1,C1,2] + q_match[H1,C2,2]) :   0.0 :   True
+        ('H2', 1) :   0.0 : (t_hot[H2,1] - t_hot[H2,2])*15 - (q_match[H2,C1,1] + q_match[H2,C2,1]) :   0.0 :   True
+        ('H2', 2) :   0.0 : (t_hot[H2,2] - t_hot[H2,3])*15 - (q_match[H2,C1,2] + q_match[H2,C2,2]) :   0.0 :   True
+    superstructure_inlet_cold : Size=2, Index=CP, Active=True
+        Key : Lower : Body         : Upper : Active
+         C1 : 293.0 : t_cold[C1,3] : 293.0 :   True
+         C2 : 353.0 : t_cold[C2,3] : 353.0 :   True
+    superstructure_inlet_hot : Size=2, Index=HP, Active=True
+        Key : Lower : Body        : Upper : Active
+         H1 : 443.0 : t_hot[H1,1] : 443.0 :   True
+         H2 : 423.0 : t_hot[H2,1] : 423.0 :   True
+    temp_mono_cold : Size=4, Index=CP*STAGES, Active=True
+        Key       : Lower : Body                        : Upper : Active
+        ('C1', 1) :  -Inf : t_cold[C1,2] - t_cold[C1,1] :   0.0 :   True
+        ('C1', 2) :  -Inf : t_cold[C1,3] - t_cold[C1,2] :   0.0 :   True
+        ('C2', 1) :  -Inf : t_cold[C2,2] - t_cold[C2,1] :   0.0 :   True
+        ('C2', 2) :  -Inf : t_cold[C2,3] - t_cold[C2,2] :   0.0 :   True
+    temp_mono_hot : Size=4, Index=HP*STAGES, Active=True
+        Key       : Lower : Body                      : Upper : Active
+        ('H1', 1) :  -Inf : t_hot[H1,2] - t_hot[H1,1] :   0.0 :   True
+        ('H1', 2) :  -Inf : t_hot[H1,3] - t_hot[H1,2] :   0.0 :   True
+        ('H2', 1) :  -Inf : t_hot[H2,2] - t_hot[H2,1] :   0.0 :   True
+        ('H2', 2) :  -Inf : t_hot[H2,3] - t_hot[H2,2] :   0.0 :   True
+
+66 Declarations: HP CP HU CU STAGES TEMP_LOCS TIN_spec TOUT_spec Fcp TIN_utility TOUT_utility Cost_Unit_Energy_CU Cost_Unit_Energy_HU U_match CF_match CA_match CB_match U_cu CF_cu CA_cu CB_cu U_hu CF_hu CA_hu CB_hu t_hot t_cold q_match q_cu q_hu z_match z_cu z_hu dt_match_s1 dt_match_s2 dt_cu_s1 dt_hu_s1 Area_match Area_cu Area_hu stage_balance_hot stage_balance_cold superstructure_inlet_hot superstructure_inlet_cold hot_outlet_before_cu cold_outlet_before_hu cu_load hu_load q_match_logic q_cu_logic q_hu_logic dt_match_s1_constr dt_match_s2_constr dt_cu_s1_constr dt_hu_s1_constr dt2_cu_feasibility dt2_hu_feasibility temp_mono_hot temp_mono_cold required_q_constraints Eq_AreaMatchLogicUpper Eq_AreaDefCU Eq_AreaCULogicUpper Eq_AreaDefHU Eq_AreaHULogicUpper total_annual_cost
+None
+(.conda) (base) maetee@MacMini COSMO % 

@@ -1,0 +1,293 @@
+[
+  {
+    "title": "GitHub model-bearing HYSYS repositories rediscovered as duplicates",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=Aspen+HYSYS+project&type=repositories",
+    "download_url": "",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-inspection-summary.json",
+        "filename": "github-0609-inspection-summary.json",
+        "file_type": "json",
+        "size_bytes": 59402,
+        "sha256": "f60badb264dd775ed9046b79884f872d0df75e0d9cfdca94a8af637df0157c9a"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-search-normalized.json",
+        "filename": "github-0609-repo-search-normalized.json",
+        "file_type": "json",
+        "size_bytes": 7774,
+        "sha256": "3ff9e5371567882daf3ad45f8c3a95c30b9011090a134b8d3883e079de0b4b0c"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-normalized.json",
+        "filename": "github-0609-code-normalized.json",
+        "file_type": "json",
+        "size_bytes": 41571,
+        "sha256": "ad20c002bd7e2a9243018b006036d8aa4d53ea4ba5e9ea9ac46b458f9c3fff51"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/dedupe-summary.json",
+        "filename": "dedupe-summary.json",
+        "file_type": "json",
+        "size_bytes": 290,
+        "sha256": "d30bac0c84e472e5d0633fbfdf38882a133467f8f60513557f94bbcb9c1e4e8e"
+      }
+    ],
+    "license_public_access_note": "Public GitHub metadata inspected. Model-bearing repositories were not downloaded because source pages or filenames were already present in existing CASE dedupe keys; several also lack an explicit license.",
+    "recommended_use": "Use as duplicate-evidence only; do not add again unless a future repository revision introduces a new licensed case package.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/search?q=Aspen+HYSYS+project&type=repositories",
+      "download_url": "",
+      "title": "GitHub model-bearing HYSYS repositories rediscovered as duplicates",
+      "filenames": [
+        "1-HDA-Setup.hsc",
+        "2-HDA-InletPFR.hsc",
+        "3-HDA-OutletPFR.hsc",
+        "Distill_Example.hsc",
+        "NODECFINAL.hsc",
+        "READY_HDA-Setup.hsc",
+        "SampleModel_V2.hsc",
+        "Separazione_reattori.hsc",
+        "Simulation Production Butyl Chloride.hsc",
+        "SynGas-SMR-DMR(integration).hsc",
+        "SynGas-SMR-DMR(main).hsc",
+        "Test_1.hsc",
+        "Working_HDA-Setup.hsc",
+        "Working_HDA-Setup_10_Shortcut_Column.hsc",
+        "Working_HDA-Setup_11_Recycle_Column.hsc",
+        "Working_HDA-Setup_12_Toluene_Recycle.hsc",
+        "Working_HDA-Setup_8_ProductColumn.hsc",
+        "Working_HDA-Setup_8_Stabilizer.hsc",
+        "YazdanihaPHw3aSim.hsc",
+        "hyApp.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": true,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No new files downloaded; this entry aggregates duplicates and no-license candidates.",
+      "Some GitHub repositories may change license or contents later and should be rechecked before any future download."
+    ]
+  },
+  {
+    "title": "Zenodo HYSYS .hsc records rediscovered as duplicates",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://zenodo.org/search?q=%22Aspen%20HYSYS%22%20.hsc",
+    "download_url": "",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-zenodo_aspen_hysys_hsc.json",
+        "filename": "external-0609-zenodo_aspen_hysys_hsc.json",
+        "file_type": "json",
+        "size_bytes": 64937,
+        "sha256": "8f773478c8958195591879cac1ba4b3a5b1e253bf8ea5ca76afcab25598068e5"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-result-screening.json",
+        "filename": "external-0609-result-screening.json",
+        "file_type": "json",
+        "size_bytes": 11142,
+        "sha256": "6a4c2980c5698cabd8ca20eb5b859a9293385d4c04fbbcef785a9eba7e5201de"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-search-summary.json",
+        "filename": "external-0609-search-summary.json",
+        "file_type": "json",
+        "size_bytes": 1188,
+        "sha256": "73201933bd724ac458bf3566ea5ab25f02e8a248a61dbd627eb0976dd182981d"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/dedupe-summary.json",
+        "filename": "dedupe-summary.json",
+        "file_type": "json",
+        "size_bytes": 290,
+        "sha256": "d30bac0c84e472e5d0633fbfdf38882a133467f8f60513557f94bbcb9c1e4e8e"
+      }
+    ],
+    "license_public_access_note": "Zenodo metadata showed open records including CC BY-NC-ND 4.0 record 10966344 and CC BY 4.0 record 18806107, but both source pages and model filenames were already present in existing CASE dedupe keys; no duplicate download performed.",
+    "recommended_use": "Keep existing archived copies as the benchmark records; use this run only as freshness evidence that the same Zenodo records remain discoverable.",
+    "dedupe_keys": {
+      "source_page": "https://zenodo.org/records/10966344; https://zenodo.org/records/18806107",
+      "download_url": "https://zenodo.org/api/records/10966344/files/TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC/content; https://zenodo.org/api/records/18806107/files/7.%20Sistema%20Integrado%20OCC,ASU,CCS.hsc/content",
+      "title": "Zenodo HYSYS .hsc records rediscovered as duplicates",
+      "filenames": [
+        "TENNESSEE_EASTMAN_PROCESS_HYSYS.HSC",
+        "7. Sistema Integrado OCC,ASU,CCS.hsc"
+      ],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [
+        ".hsc"
+      ],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": true,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": true,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "No files downloaded in this run because records are duplicates.",
+      "Zenodo API search count is broad; only file-level screened top results should be treated as evidence."
+    ]
+  },
+  {
+    "title": "GitHub HYSYS automation repositories without bundled case files",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://github.com/search?q=HYSYS+automation&type=repositories",
+    "download_url": "",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-search-summary.json",
+        "filename": "github-0609-code-search-summary.json",
+        "file_type": "json",
+        "size_bytes": 1734,
+        "sha256": "c798a69b240af2cd47236ddab4d2206a327e4369b8fdc660db2a37b9ac780767"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-code-normalized-summary.json",
+        "filename": "github-0609-code-normalized-summary.json",
+        "file_type": "json",
+        "size_bytes": 2805,
+        "sha256": "0a1a3105c52c0b8ca751fa3b93f6a3dbade94a2ad967e0a0636210901b09dc62"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-repo-search-summary.json",
+        "filename": "github-0609-repo-search-summary.json",
+        "file_type": "json",
+        "size_bytes": 1786,
+        "sha256": "d7860756fe98a382654b8459ee5435fff66a7a1095dcf6ed3759115bc20f4cbe"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/github-0609-inspection-targets.json",
+        "filename": "github-0609-inspection-targets.json",
+        "file_type": "json",
+        "size_bytes": 1259,
+        "sha256": "b9da660b9383e653c9889b185aa323f7f65802a616a423a9a8498df2fca50c44"
+      }
+    ],
+    "license_public_access_note": "Public metadata only. Several repositories describe Python/MATLAB/Excel HYSYS automation but did not expose a non-duplicate .hsc/.hscz/.compound model file in tree inspection.",
+    "recommended_use": "Useful as future automation-reference leads, not as CASE benchmark downloads.",
+    "dedupe_keys": {
+      "source_page": "https://github.com/search?q=HYSYS+automation&type=repositories",
+      "download_url": "",
+      "title": "GitHub HYSYS automation repositories without bundled case files",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": true,
+      "contains_pdf_or_report": false,
+      "contains_readme": true,
+      "contains_license": true,
+      "contains_automation_script": true,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Some repositories include macros or scripts; none were downloaded or executed.",
+      "Not benchmark cases without model files."
+    ]
+  },
+  {
+    "title": "GitLab, Harvard Dataverse, and broad external metadata checked with no new downloadable model",
+    "type": "candidate_only",
+    "quality": "D",
+    "source_page": "https://gitlab.com/search?search=Aspen%20HYSYS; https://dataverse.harvard.edu/dataverse/harvard?q=Aspen%20HYSYS",
+    "download_url": "",
+    "local_artifacts": [
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-search-summary.json",
+        "filename": "external-0609-search-summary.json",
+        "file_type": "json",
+        "size_bytes": 1188,
+        "sha256": "73201933bd724ac458bf3566ea5ab25f02e8a248a61dbd627eb0976dd182981d"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-gitlab_aspen_hysys.json",
+        "filename": "external-0609-gitlab_aspen_hysys.json",
+        "file_type": "json",
+        "size_bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-gitlab_hysys_simulation.json",
+        "filename": "external-0609-gitlab_hysys_simulation.json",
+        "file_type": "json",
+        "size_bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-harvard_dataverse_aspen_hysys.json",
+        "filename": "external-0609-harvard_dataverse_aspen_hysys.json",
+        "file_type": "json",
+        "size_bytes": 17775,
+        "sha256": "94e1fb71710218f294dab74e3822b5c427ba77b8452dcaa1ec4cc2743ec96ccc"
+      },
+      {
+        "path": "CASE/2026-05-17-heartbeat-0609Z/artifacts/external-0609-result-screening.json",
+        "filename": "external-0609-result-screening.json",
+        "file_type": "json",
+        "size_bytes": 11142,
+        "sha256": "6a4c2980c5698cabd8ca20eb5b859a9293385d4c04fbbcef785a9eba7e5201de"
+      }
+    ],
+    "license_public_access_note": "Only public metadata endpoints were queried. No login, paywall, or restricted source was accessed. No new non-duplicate HYSYS model file was confirmed.",
+    "recommended_use": "Use as negative search evidence and refine future external queries around exact file extension and DOI records.",
+    "dedupe_keys": {
+      "source_page": "external metadata sweep 2026-05-17T06:09Z",
+      "download_url": "",
+      "title": "GitLab, Harvard Dataverse, and broad external metadata checked with no new downloadable model",
+      "filenames": [],
+      "sha256": []
+    },
+    "hysys_specific_metadata": {
+      "case_file_extensions_found": [],
+      "suspected_hysys_version": "unknown",
+      "contains_hsc": false,
+      "contains_hscz": false,
+      "contains_hysys_xml": false,
+      "contains_compound": false,
+      "contains_excel_or_csv_data": false,
+      "contains_pdf_or_report": false,
+      "contains_readme": false,
+      "contains_license": false,
+      "contains_automation_script": false,
+      "model_run_status": "not_run"
+    },
+    "residual_risks": [
+      "Search APIs can omit files hidden behind repository archive downloads or supplementary-material landing pages.",
+      "Manual review may be needed for Dataverse metadata-only hits."
+    ]
+  }
+]

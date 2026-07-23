@@ -1,0 +1,18 @@
+﻿{
+    "zip_safety":  [
+                       {
+                           "zip":  "CASE/2026-05-11-heartbeat-2213Z/artifacts/COSMO-main.zip",
+                           "entry_count":  150,
+                           "has_dangerous":  false,
+                           "dangerous_entries":  "",
+                           "macro_enabled_docs":  ""
+                       },
+                       {
+                           "zip":  "CASE/2026-05-11-heartbeat-2213Z/artifacts/pythonHysys-main.zip",
+                           "entry_count":  22,
+                           "has_dangerous":  false,
+                           "dangerous_entries":  "",
+                           "macro_enabled_docs":  ""
+                       }
+                   ]
+}

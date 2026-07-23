@@ -1,0 +1,105 @@
+{
+  "query": "HYSYS license:gpl-3.0",
+  "items": [
+    {
+      "description": "pychemqt intended as a free software tool for calculation and design of unit operations in chemical engineering. The goal is to obtain an equivalent free software to CHEMCAD or hysys. It is written in python using qt as graphics libraries, so is cross-platform.",
+      "fullName": "jjgomera/pychemqt",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjE3MTA1NDc=",
+        "is_bot": false,
+        "login": "jjgomera",
+        "type": "User",
+        "url": "https://github.com/jjgomera"
+      },
+      "updatedAt": "2026-05-10T21:37:14Z",
+      "url": "https://github.com/jjgomera/pychemqt"
+    },
+    {
+      "description": "Excel file with VBA simple script to get info from hysys cases",
+      "fullName": "oscarcontrerasnavas/hysys-to-excel-intro",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjQxNTk5MTU1",
+        "is_bot": false,
+        "login": "oscarcontrerasnavas",
+        "type": "User",
+        "url": "https://github.com/oscarcontrerasnavas"
+      },
+      "updatedAt": "2025-11-02T12:03:15Z",
+      "url": "https://github.com/oscarcontrerasnavas/hysys-to-excel-intro"
+    },
+    {
+      "description": "This program generates Non-Linear Programming MATLAB code from an existing Unisim/Hysis model. ",
+      "fullName": "vminasid/Hysys-Unisis2Matlab",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjIxMTcwODQ=",
+        "is_bot": false,
+        "login": "vminasid",
+        "type": "User",
+        "url": "https://github.com/vminasid"
+      },
+      "updatedAt": "2024-12-25T01:13:46Z",
+      "url": "https://github.com/vminasid/Hysys-Unisis2Matlab"
+    },
+    {
+      "description": "Automated HYSYS for optimization",
+      "fullName": "may3rd/COSMO",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjk1OTQ4MA==",
+        "is_bot": false,
+        "login": "may3rd",
+        "type": "User",
+        "url": "https://github.com/may3rd"
+      },
+      "updatedAt": "2025-06-05T16:48:57Z",
+      "url": "https://github.com/may3rd/COSMO"
+    },
+    {
+      "description": "",
+      "fullName": "punkeel/HySystemdNotifier",
+      "isArchived": false,
+      "isFork": false,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0"
+      },
+      "owner": {
+        "id": "MDQ6VXNlcjE4NTkxMzU=",
+        "is_bot": false,
+        "login": "punkeel",
+        "type": "User",
+        "url": "https://github.com/punkeel"
+      },
+      "updatedAt": "2026-05-14T00:28:28Z",
+      "url": "https://github.com/punkeel/HySystemdNotifier"
+    }
+  ]
+}

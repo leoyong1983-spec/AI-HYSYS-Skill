@@ -1,0 +1,184 @@
+[
+  {
+    "repo": "royhanikbarr/Aspen-Hysys-Simulation",
+    "url": "https://github.com/royhanikbarr/Aspen-Hysys-Simulation",
+    "description": "Simulation of Chemical Processes in Aspen Hysys",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "manual-license-recheck"
+    ],
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [
+      "Design Simulation Production Butyl Chloride/Simulation Production Butyl Chloride.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Design Simulation Production Butyl Chloride/Paper Hysys Simulation Production Butyl Chloride.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "ArturTask/HysysExcel",
+    "url": "https://github.com/ArturTask/HysysExcel",
+    "description": "Excel and Hysys intaraction",
+    "license": "",
+    "default_branch": "master",
+    "queries": [
+      "manual-license-recheck"
+    ],
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".xlsx": 1,
+      ".md": 1,
+      ".py": 5
+    },
+    "hysys_files": [
+      "Test_1.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".xlsx": [
+        "test.xlsx"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".py": [
+        "CleanExcelData.py",
+        "ExcelManager.py",
+        "HYSYS_python_spreadsheets.py",
+        "config/conf.py",
+        "main.py"
+      ]
+    }
+  },
+  {
+    "repo": "Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "url": "https://github.com/Mahdi-Arashian/sour-gas-sweetening-hysys",
+    "description": "Steady-state simulation of a sour gas sweetening process using Diethanolamine (DEA) in Aspen HYSYS.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "manual-license-recheck"
+    ],
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".pdf": 1,
+      ".md": 1
+    },
+    "hysys_files": [
+      "GTU Simulation.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Sour_Gas_Sweetening_Report_Mahdi_Arashian.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  },
+  {
+    "repo": "SinaGhanbarii/HDA-Plant-Simulation",
+    "url": "https://github.com/SinaGhanbarii/HDA-Plant-Simulation",
+    "description": "This project designs and evaluates the economic feasibility of a Hydrodealkylation (HDA) plant for toluene using MATLAB and Aspen HYSYS. It optimizes reactor conditions and process flows to determine the most viable operating parameters.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "manual-license-recheck"
+    ],
+    "truncated": false,
+    "counts": {
+      ".hsc": 10,
+      ".xlsx": 3,
+      ".pdf": 1,
+      ".md": 1,
+      ".m": 5
+    },
+    "hysys_files": [
+      "HDA 2024 Aspen/1-HDA-Setup.hsc",
+      "HDA 2024 Aspen/2-HDA-InletPFR.hsc",
+      "HDA 2024 Aspen/3-HDA-OutletPFR.hsc",
+      "HDA 2024 Aspen/READY_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_10_Shortcut_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_11_Recycle_Column.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_12_Toluene_Recycle.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_ProductColumn.hsc",
+      "HDA 2024 Aspen/Working_HDA-Setup_8_Stabilizer.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".xlsx": [
+        "Book1.xlsx",
+        "HDA Product Column.xlsx",
+        "Heat exchangers.xlsx"
+      ],
+      ".pdf": [
+        "HDA Report.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ],
+      ".m": [
+        "DeltaT_ad.m",
+        "Kinetics.m",
+        "Main.m",
+        "MaterialBalances.m",
+        "delT_adiabatic.m"
+      ]
+    }
+  },
+  {
+    "repo": "masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "url": "https://github.com/masoud-abdi/The-simulation-of-Acetic-Acid-process",
+    "description": "The simulation of the acetic acid production was conducted by using ASPEN HYSYS v. 10. I put the file here and be careful open it by ASPEN HYSYS v. 10. The data of each stream and the process flow diagram is attached.",
+    "license": "",
+    "default_branch": "main",
+    "queries": [
+      "manual-license-recheck"
+    ],
+    "truncated": false,
+    "counts": {
+      ".hsc": 1,
+      ".pdf": 2,
+      ".md": 1
+    },
+    "hysys_files": [
+      "acetic fin.hsc"
+    ],
+    "readme": [
+      "README.md"
+    ],
+    "companion": {
+      ".pdf": [
+        "Acid-Material.pdf",
+        "HYSYS-Print.pdf"
+      ],
+      ".md": [
+        "README.md"
+      ]
+    }
+  }
+]

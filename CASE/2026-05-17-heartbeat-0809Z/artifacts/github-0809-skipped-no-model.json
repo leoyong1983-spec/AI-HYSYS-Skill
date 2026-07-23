@@ -1,0 +1,68 @@
+[
+  {
+    "full_name": "tzejit/Hysys-python-link",
+    "source_page": "https://github.com/tzejit/Hysys-python-link",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "NOASSERTION"
+  },
+  {
+    "full_name": "GaboTalero/HYSYS-Python-Case-Builder",
+    "source_page": "https://github.com/GaboTalero/HYSYS-Python-Case-Builder",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "MIT"
+  },
+  {
+    "full_name": "Galigeigei-Z/HDA-Surrogate-Optimization",
+    "source_page": "https://github.com/Galigeigei-Z/HDA-Surrogate-Optimization",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "MIT"
+  },
+  {
+    "full_name": "Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "source_page": "https://github.com/Jeslin-Jacob/rbf-interpolation-atmospheric-distillation",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "MIT"
+  },
+  {
+    "full_name": "naawu789/HySysID",
+    "source_page": "https://github.com/naawu789/HySysID",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "MIT"
+  },
+  {
+    "full_name": "YuniqueCore/DynPlots",
+    "source_page": "https://github.com/YuniqueCore/DynPlots",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "MIT"
+  },
+  {
+    "full_name": "DanielVazVaz/PySIS",
+    "source_page": "https://github.com/DanielVazVaz/PySIS",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "NOASSERTION"
+  },
+  {
+    "full_name": "pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "source_page": "https://github.com/pSantosb/Hysys-connection-Excel-Matlab-Python-Unity",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "NOASSERTION"
+  },
+  {
+    "full_name": "snua/HYSYS-dynamic-simulation",
+    "source_page": "https://github.com/snua/HYSYS-dynamic-simulation",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "NOASSERTION"
+  },
+  {
+    "full_name": "Avest-AI/MemCal",
+    "source_page": "https://github.com/Avest-AI/MemCal",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "NOASSERTION"
+  },
+  {
+    "full_name": "cityfamer/HyPy",
+    "source_page": "https://github.com/cityfamer/HyPy",
+    "reason": "No .hsc/.hscz/.compound or likely HYSYS XML case found in repository tree",
+    "license_spdx": "NOASSERTION"
+  }
+]

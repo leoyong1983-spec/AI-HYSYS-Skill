@@ -1,0 +1,45 @@
+﻿{
+    "repo":  {
+                 "createdAt":  "2019-12-12T07:08:02Z",
+                 "defaultBranchRef":  {
+                                          "name":  "master"
+                                      },
+                 "description":  "HYSYS Automation",
+                 "isArchived":  false,
+                 "isFork":  false,
+                 "isPrivate":  false,
+                 "licenseInfo":  null,
+                 "nameWithOwner":  "SuradechKKPB/AutomatedHYSYS",
+                 "pushedAt":  "2019-12-12T07:25:09Z",
+                 "url":  "https://github.com/SuradechKKPB/AutomatedHYSYS"
+             },
+    "tree":  {
+                 "tree_sha":  "2bf95c2ee468b16c801ff30ed2421b2cc7ebae94",
+                 "truncated":  false,
+                 "file_count":  4,
+                 "hysys_like":  [
+
+                                ],
+                 "companion":  [
+                                   {
+                                       "path":  "Automated_HYSYS.py",
+                                       "size":  1690,
+                                       "sha":  "29ceb65433b796fbe0d58e340fd2d23da0137fdd"
+                                   },
+                                   {
+                                       "path":  "README.md",
+                                       "size":  556,
+                                       "sha":  "7c3004635a5787929b3196e262cad2ee363e1c0e"
+                                   },
+                                   {
+                                       "path":  "custom_functions_HYSYS.py",
+                                       "size":  1816,
+                                       "sha":  "32531db6cb0b2a59bc2d0ab4236e53f1a3e11ec9"
+                                   }
+                               ]
+             },
+    "releases":  [
+
+                 ],
+    "error":  null
+}
