@@ -136,6 +136,7 @@ For bounded tuning:
 7. For a case containing recycle operations, do not accept a single `RecycleConvergence` value as sufficient proof. Record the recycle's `IsIgnored` state, feed/product bindings, solver-idle state, and project-approved tear-stream residuals for mass, temperature, pressure, enthalpy, and composition when available; then save, close, reopen, and repeat the readback before acceptance.
 8. If a run reaches a valid staged snapshot but later fails a policy, export, or finalization check, preserve the original error and traceback. Do not relabel the run as successful until a separate finalization step revalidates the reopened staged case, confirms the source-case hash is unchanged, records the previous error, and promotes only the verified artifact.
 9. For every pressure write, declare whether the external requirement is gauge or absolute, record the atmospheric-pressure basis used for conversion, write the corresponding absolute pressure to HYSYS, and read the HYSYS pressure back in an explicit absolute unit. Report both the original basis and the converted/readback value; never infer the basis from a bare number or equipment label.
+10. For a batch of derived scenarios, start every scenario from the same approved source hash or frozen baseline rather than chaining one scenario from another. Give each scenario an independent workcopy and audit record with `RUNNING`, `PASS`, or `ERROR`; promote only a saved, closed, reopened, and revalidated result. A failed scenario must remain reproducible and must not invalidate or silently alter the other scenarios.
 
 For paper-informed AI/HYSYS tasks, classify the task before executing:
 
@@ -289,6 +290,8 @@ For long-running HYSYS tasks, create or update a machine-readable checkpoint bef
 7. release or handoff summary
 
 At minimum, the checkpoint should record run mode, source case, workcopy path, HYSYS version if known, property package if known, frozen topology boundary, variable schema, valid ranges, rollback values, solver policy, output paths, open human decisions, and last successful stage.
+
+For resumable batch execution, keep one checkpoint and output namespace per scenario. On restart, verify the source hash and reuse only a scenario whose reopened result already passed; rerun `RUNNING`, incomplete, or `ERROR` scenarios from the approved baseline instead of continuing from an uncertain live COM session.
 
 If the agent host, model, provider, prompt template, or JSON schema changes, run a small schema smoke test before any HYSYS write. Treat invalid JSON, missing units, missing rollback values, unknown object paths, or changed enum names as blockers, not as minor formatting issues.
 
