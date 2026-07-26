@@ -242,6 +242,18 @@
 
 该规则已有真实 HYSYS 执行、保存重开和机器可读回读证据，可标记为本地验证。它适用于“已有可运行 case 内的受控子系统重建”，不支持宣称从零生成完整 HYSYS 模型已经可靠。
 
+## 19. 新增陌生单元操作前先探测 COM 注册类型
+
+经脱敏的本地 HYSYS V15 direct COM 脚本、逐候选错误记录和对象类型回读表明，界面显示名称不一定等于 `Flowsheet.Operations.Add(...)` 接受的注册类型标识。稳定流程是：
+
+1. 只在一次性 workcopy 上探测，操作前冻结 solver，不覆盖母版或已接受成果；
+2. 候选类型必须是有限、可审查的清单，禁止无限猜测或在正式 case 中反复试写；
+3. 每次尝试记录候选标识、异常信息、返回对象类型和 `VisibleTypeName`；
+4. 仅把真实创建且类型回读一致的标识带入获批变更边界，失败候选继续保留为诊断证据；
+5. 探测成功只证明当前 HYSYS 运行环境能够发现该对象类型，不证明拓扑修改、参数设置、求解收敛或工程验收已经通过。
+
+该规则有真实 HYSYS 执行和结构化回读支持，可标记为本地验证。它用于降低 COM 类型字符串猜测造成的失败风险，不扩大本技能“已有可运行 case 受控接管”的边界。
+
 ## 2026-06-02 Text-To-Flowsheet And MCP Lessons
 
 Recent text-to-flowsheet and process-simulation-agent papers add useful engineering patterns, but they do not change this repository's default execution boundary.
