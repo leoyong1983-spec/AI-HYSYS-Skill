@@ -115,12 +115,6 @@ For simple property-table requests, such as pure hydrogen density from 1 MPa to 
 2. `MPa(g)` means the table pressure is converted before writing to HYSYS, normally `P_abs = P_gauge + 0.101325 MPa`.
 3. Read the HYSYS property directly, for example `MassDensity.GetValue('kg/m3')`, and do not relabel external EOS or fitted values as HYSYS-native results.
 
-For simple property-table requests, such as pure hydrogen density from 1 MPa to 90 MPa, prefer a minimal native HYSYS material-stream case after readiness passes. Record the table pressure basis explicitly:
-
-1. `MPa(a)` means the table pressure is written directly as absolute pressure.
-2. `MPa(g)` means the table pressure is converted before writing to HYSYS, normally `P_abs = P_gauge + 0.101325 MPa`.
-3. Read the HYSYS property directly, for example `MassDensity.GetValue('kg/m3')`, and do not relabel external EOS or fitted values as HYSYS-native results.
-
 For LNG or cryogenic plantwide tasks, first identify the existing HYSYS case, plantwide boundary, multi-stream cryogenic heat exchanger objects, refrigeration or utility KPIs, product quality specs, bottleneck or troubleshooting target, and human review owner. Do not treat an official LNG plantwide simulation source as permission for AI greenfield LNG model generation; use it to structure takeover, bounded tuning, validation, and reporting on an approved workcopy.
 
 For heat-integration, heat exchanger network, pinch-analysis, `Delta Tmin`, supertargeting, or sustainability-surrogate tasks, first identify the source HYSYS case or workbook, thermal-stream schema, stream and unit-operation name map, utility assumptions, objective metrics, surrogate or optimizer role, and human review owner. Treat mock-mode notebooks, Excel-only calculations, surrogate models, and Bayesian optimization outputs as advisory candidates until HYSYS workcopy readback, unit checks, and KPI exports pass.
@@ -138,6 +132,7 @@ For bounded tuning:
 9. For every pressure write, declare whether the external requirement is gauge or absolute, record the atmospheric-pressure basis used for conversion, write the corresponding absolute pressure to HYSYS, and read the HYSYS pressure back in an explicit absolute unit. Report both the original basis and the converted/readback value; never infer the basis from a bare number or equipment label.
 10. For a batch of derived scenarios, start every scenario from the same approved source hash or frozen baseline rather than chaining one scenario from another. Give each scenario an independent workcopy and audit record with `RUNNING`, `PASS`, or `ERROR`; promote only a saved, closed, reopened, and revalidated result. A failed scenario must remain reproducible and must not invalidate or silently alter the other scenarios.
 11. Before adding an unfamiliar unit operation through `Flowsheet.Operations.Add(...)`, do not assume its UI label is the registered COM type identifier. On a disposable workcopy with the solver frozen, probe only a bounded candidate list; log each candidate, exception, returned object type, and `VisibleTypeName`; then use the confirmed identifier only inside the approved change boundary. A successful probe proves runtime discoverability, not acceptance of the topology change.
+12. For a large or phase-sensitive boundary change, first map every requested value to the exact HYSYS object and physical measurement point; do not confuse compressor discharge, aftercooler outlet, condenser outlet, or a saturation condition. On a disposable workcopy, move from the approved baseline to the target in bounded continuation steps, solving and recording temperature, pressure, vapour fraction, actual volume when capacity matters, and affected KPIs at each accepted step. Near a phase boundary, target temperature alone is insufficient; retain utility/capacity tradeoffs and vendor or human open issues.
 
 For paper-informed AI/HYSYS tasks, classify the task before executing:
 
