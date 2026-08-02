@@ -267,6 +267,18 @@
 
 该规则已有真实 HYSYS 执行和机器可读回读支持，可标记为本地验证。它强化的是已有模型的边界敏感性和相态验收，不证明设备选型、详细换热设计或生产写回已经完成。
 
+## 21. 批量工况矩阵必须与输出清单逐项对账
+
+经脱敏的本地 HYSYS V15 批量派生脚本、逐工况审计记录、原生 case 和保存关闭重开回读表明，仅有“全部运行完成”的汇总状态不足以证明批量成果完整。稳定流程是：
+
+1. 执行前冻结工况矩阵、唯一工况 ID 和预期成果数量，明确每个矩阵单元对应的输入边界与验收项；
+2. 每个矩阵单元使用独立 workcopy、审计记录、源 case 哈希、输出 case 哈希和结果命名空间，禁止跨工况复用未验证的实时 COM 状态；
+3. 汇总前核对矩阵与输出清单一一对应，拒绝缺失、重复、孤立或串工况污染的 case、审计记录和结果行；
+4. 每个 case 都必须保存、关闭、重开，并重新核对对象清单、solver、相态、物料/能量闭合和项目批准的 KPI；
+5. 聚合 CSV、JSON 或报告只能纳入逐项 `PASS` 的结果；失败单元保留原始错误并从获批基线独立重跑，不得用汇总成功掩盖单项失败。
+
+该规则已有真实 HYSYS 执行、逐工况机器可读审计和原生 case 回读支持，可标记为本地验证。它证明的是“已有模型批量派生的完整性治理”，不证明从零建模、设备详细设计或生产写回已经完成。
+
 ## 2026-06-02 Text-To-Flowsheet And MCP Lessons
 
 Recent text-to-flowsheet and process-simulation-agent papers add useful engineering patterns, but they do not change this repository's default execution boundary.
