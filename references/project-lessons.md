@@ -279,6 +279,18 @@
 
 该规则已有真实 HYSYS 执行、逐工况机器可读审计和原生 case 回读支持，可标记为本地验证。它证明的是“已有模型批量派生的完整性治理”，不证明从零建模、设备详细设计或生产写回已经完成。
 
+## 22. 实际设备流股与记账流股必须先分类再改连接
+
+经脱敏的本地 HYSYS V15 direct COM 执行脚本和交付说明表明，已有模型可能同时包含实际设备连接流股、边界输入流股、仅用于计算书对账的记账流股，以及 recycle/tear stream。若不先分类就直接改连接，容易产生重复计量、重复进料或非零孤立流股。稳妥流程是：
+
+1. 修改前冻结源 case 哈希，并建立“流股名称、对象路径、上游设备、下游设备、物理或记账角色、是否允许非零”的映射表；
+2. 对同一物料来源，禁止实际设备流股与其记账替代流股同时以非零流量进入同一衡算边界；
+3. 只在独立 workcopy 上暂停 solver 后成组修改连接；只有批准边界明确时，才能删除或归零记账流股，且不得误删真实边界流、recycle 或 tear stream；
+4. 恢复 solver 后检查设备 feed/product 绑定、重复进料、非零孤立流股、对象清单以及项目批准的物料和能量闭合；
+5. 保存、关闭、重开后重复拓扑和衡算回读，只有全部通过的 workcopy 才能晋级。
+
+本轮监测目录包含执行脚本和交付说明，但未包含配套机器可读审计回读，因此本条作为高可信、低风险的工作流防护规则采纳，暂不标记为“本地运行验证”。它不证明新增拓扑已经通过工程审查，也不扩大从零建模或生产写回边界。
+
 ## 2026-06-02 Text-To-Flowsheet And MCP Lessons
 
 Recent text-to-flowsheet and process-simulation-agent papers add useful engineering patterns, but they do not change this repository's default execution boundary.
