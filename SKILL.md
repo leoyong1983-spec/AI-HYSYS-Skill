@@ -150,6 +150,8 @@ For paper-informed AI/HYSYS tasks, classify the task before executing:
 
 Prefer `CSV`, `JSON`, and concise `Markdown` summaries before `Word`, `Excel`, or `PowerPoint`.
 
+When an existing case must be inventoried or archived without changing it, prefer HYSYS-native `SimulationCase.GetXMLForCase()` when the installed runtime exposes it. Record source and XML SHA-256, HYSYS version, solver state, XML parse status, and any error; close the source case without saving. Treat the XML as a read-only audit and interchange artifact until a separate import/reopen test proves round-trip and cross-version behavior.
+
 At minimum, export:
 
 1. Key streams

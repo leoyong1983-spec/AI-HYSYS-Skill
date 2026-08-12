@@ -305,6 +305,19 @@
 
 该规则有真实 HYSYS V15 direct COM、原生 case、机器可读审计和保存重开回读支持，可标记为本地验证。它证明的是已有 case 的受控边界更新，不证明外部基准本身已获工程批准，也不扩大从零建模或生产写回边界。
 
+## 24. 原生 XML 导出是审计通道，不是跨版本重建证明
+
+经脱敏的本地 HYSYS V15 COM 批量执行、逐 case 日志、机器可读清单和源文件哈希复核表明，`SimulationCase.GetXMLForCase()` 可用于在不保存源 case 的情况下生成原生 XML 审计副本。稳定流程是：
+
+1. 使用独立 HYSYS 自动化实例，按获批清单逐个打开源 case，不修改参数、不主动重算、不覆盖源文件；
+2. 导出前后分别计算源 case SHA-256，任何变化都视为失败；
+3. 使用 `GetXMLForCase()` 获取 XML，并以 UTF-8 写入独立交付目录；
+4. 用禁止 DTD 和外部实体的标准 XML 解析器检查 XML 可解析、根元素符合预期，同时记录元素数量、文件大小、输出 SHA-256、HYSYS 版本和 solver 状态；
+5. 单个 case 失败时删除不完整 XML，保留错误记录并继续按既定失败策略处理；结束后关闭 case 且不保存，释放 COM 对象并退出独立 HYSYS 实例；
+6. 用唯一 case ID 对账源文件、XML 和审计记录，拒绝缺失、重复、孤立或哈希不一致的输出。
+
+该流程已有真实 HYSYS V15 原生 case、COM 批量执行、机器可读审计和源文件哈希不变证据，可标记为本地验证。但“XML 可解析”只证明导出和结构完整性，不证明 XML 能在同版或跨版本 HYSYS 中无损重建原 case。任何导入、迁移或重建结论都必须在目标 HYSYS 环境另行执行官方应用或导入通道，并复核物性包、对象清单、连接关系、solver 状态和关键 KPI。
+
 ## 2026-06-02 Text-To-Flowsheet And MCP Lessons
 
 Recent text-to-flowsheet and process-simulation-agent papers add useful engineering patterns, but they do not change this repository's default execution boundary.
