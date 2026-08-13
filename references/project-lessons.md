@@ -327,3 +327,18 @@ Recent text-to-flowsheet and process-simulation-agent papers add useful engineer
 3. Treat MCP as a tool-contract layer. MCP can make tools cleaner for agents, but it still has to wrap direct COM, spreadsheet/workbook, data table, or proven runner lanes with locks, schemas, audit logs, and rollback.
 
 Do not add SciPy, an MCP server, or a third-party HYSYS wrapper as a default dependency until a real project runner proves runtime value, license compatibility, and recovery behavior.
+
+## 25. Solver 空闲不是收敛，AI 必须执行循环验收
+
+经脱敏的本地 HYSYS V15 与 LLM 代理真实执行、COM 回读和事后核查表明，代理可能在一次参数写入后看到 `Solver.IsSolving == False` 和一组可读结果，就错误宣布“模型已收敛”。进一步检查发现，必需 recycle 仍可能处于 ignored 状态，tear-stream 残差没有闭合；而在没有初始化和 continuation 策略的情况下直接启用 recycle，又可能跳到错误分支或发散。
+
+因此，所有参数更新和调优任务必须采用以下通用规则：
+
+1. 把 `IsSolving == False` 仅记录为 `IDLE`，不得作为 `CONVERGED` 证据；
+2. 写入前冻结项目批准的 recycle 状态、绑定、残差、单位、容差、衡算、KPI、调整边界和回退点；
+3. 每轮执行求解、等待空闲、机器回读、全项判断，再决定有限调整或回退；
+4. 任何缺失或语义不清的必需检查均按失败处理，并至少要求连续两次全项通过；
+5. recycle 被忽略时先查明原因并建立批准的初始化或 continuation 策略，不得盲目切换状态；
+6. 保存、关闭、重开后再次执行同一验收合同，只有机器终态为 `ACCEPTED` 才能对外称为已收敛。
+
+该规则有真实本地 HYSYS 执行、代理工具调用和 COM 状态/残差回读支持，可标记为本地验证。公开规则仅保留通用失败模式，不包含项目名称、设备位号、工艺参数或私有 case。详细协议见 [convergence-control-loop.md](convergence-control-loop.md)，可执行守卫见 [`scripts/hysys_convergence_guard.py`](../scripts/hysys_convergence_guard.py)。

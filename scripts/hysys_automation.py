@@ -9,10 +9,27 @@ import time
 import winreg
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable, Sequence
+from typing import Callable, Iterable, Sequence
 
 import pythoncom
 from win32com.client import DispatchEx, GetActiveObject
+
+try:
+    from .hysys_convergence_guard import (
+        AdjustCallback,
+        ConvergenceObservation,
+        ConvergencePolicy,
+        ConvergenceResult,
+        run_convergence_loop,
+    )
+except ImportError:
+    from hysys_convergence_guard import (
+        AdjustCallback,
+        ConvergenceObservation,
+        ConvergencePolicy,
+        ConvergenceResult,
+        run_convergence_loop,
+    )
 
 
 class HysysAutomationError(RuntimeError):
@@ -307,7 +324,12 @@ class HysysCaseSession:
         *,
         wait_timeout_s: float = 120.0,
     ) -> None:
-        """Pause solver, apply tagged spreadsheet updates, then solve once."""
+        """Apply tagged writes and wait for IDLE, not convergence acceptance.
+
+        Call ``verify_iterative_convergence`` with project-approved checks after
+        this helper. ``Solver.IsSolving == False`` proves only that HYSYS is not
+        currently solving.
+        """
         self.set_solver_enabled(False)
         try:
             for binding, value in updates:
@@ -315,6 +337,40 @@ class HysysCaseSession:
         finally:
             self.set_solver_enabled(True)
         self.wait_for_solver_idle(timeout_s=wait_timeout_s)
+
+    def verify_iterative_convergence(
+        self,
+        *,
+        observe: Callable[[int], ConvergenceObservation],
+        adjust: AdjustCallback | None = None,
+        cycle: Callable[[int], None] | None = None,
+        reopen_and_wait: Callable[[], None] | None = None,
+        observe_reopened: Callable[[], ConvergenceObservation] | None = None,
+        policy: ConvergencePolicy | None = None,
+        wait_timeout_s: float = 120.0,
+    ) -> ConvergenceResult:
+        """Run the mandatory iterative readback gate for the open case.
+
+        ``cycle`` may trigger an approved continuation or solve step. ``observe``
+        must read all project-approved recycle, residual, balance, warning, and
+        KPI checks. ``adjust`` may change only approved variables within bounds.
+        The returned result is not accepted until the configured consecutive
+        pass requirement is met.
+        """
+
+        def cycle_and_wait(iteration: int) -> None:
+            if cycle is not None:
+                cycle(iteration)
+            self.wait_for_solver_idle(timeout_s=wait_timeout_s)
+
+        return run_convergence_loop(
+            cycle_and_wait=cycle_and_wait,
+            observe=observe,
+            adjust=adjust,
+            reopen_and_wait=reopen_and_wait,
+            observe_reopened=observe_reopened,
+            policy=policy,
+        )
 
     def add_feed_to_operation(self, operation, stream) -> None:
         operation.Feeds.Add(stream)

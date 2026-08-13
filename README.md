@@ -79,6 +79,14 @@ This recommendation is now captured as an actionable decision matrix in [referen
 - recent AI-for-HYSYS research on multi-agent flowsheet generation, digital twins, LNG optimization, production planning, and ML surrogate models
 - adjacent 2026 text-to-flowsheet and MCP-agent research, used only to strengthen Graph-IR, optimizer-boundary, and tool-contract rules
 
+## Mandatory Convergence Gate / 强制收敛验收
+
+`Solver.IsSolving == False` means only that HYSYS is idle. It does not prove that recycle loops, tear streams, balances, phases, warnings, or project KPIs have converged.
+
+任何修改 HYSYS 输入或声称“已收敛”的代理，都必须循环执行“求解或续算 -> 等待空闲 -> 回读 -> 全项判断 -> 有限调整或回退”。所有项目批准的检查至少连续两次通过，并在保存、关闭、重开后复核通过，才能接受结果。缺少残差、单位、容差或读回能力时必须报告 `UNVERIFIED/BLOCKED`，不能猜测成功。
+
+Use [references/convergence-control-loop.md](references/convergence-control-loop.md) for the bilingual execution contract and [`scripts/hysys_convergence_guard.py`](scripts/hysys_convergence_guard.py) for a dependency-free, fail-closed loop with auditable iteration history. This applies to HERMES/DeepSeek and every other LLM runner: one HYSYS call is not a successful terminal state.
+
 ## Repository Structure
 
 ```text
@@ -95,12 +103,14 @@ AI-HYSYS-Skill/
 |-- references/
 |   |-- authority-and-path-selection.md
 |   |-- basic-package-deliverables.md
+|   |-- convergence-control-loop.md
 |   |-- control-lane-decision-matrix.md
 |   |-- digital-twin-boundary.md
 |   |-- pfd-layout-workflow.md
 |   `-- project-lessons.md
 |-- scripts/
 |   |-- hysys_automation.py
+|   |-- hysys_convergence_guard.py
 |   |-- hysys_readiness_check.py
 |   |-- hysys_h2_density_table.py
 |   |-- hysys_pfd_layout.py
@@ -258,6 +268,7 @@ If you do not use Codex skills directly, you can still reuse:
 - `SKILL.md` as the operating playbook
 - `AGENTS.md` as the repository-specific maintenance contract for AI coding agents
 - `references/authority-and-path-selection.md` to choose the correct control lane
+- `references/convergence-control-loop.md` to prevent solver-idle or single-pass results from being mislabeled as converged
 - `references/control-lane-decision-matrix.md` to turn COM, spreadsheet/workbook, data tables, indirect bridges, and GUI fallback into a concrete decision
 - `references/digital-twin-boundary.md` to use official HYSYS digital twin / hybrid AI evidence without overclaiming direct control
 - `references/heat-exchanger-ai-patterns.md` to structure exchanger, HEN, `Delta Tmin`, Aspen EDR, and cryogenic-exchanger AI tasks as advisory candidates validated by HYSYS/EDR readback
@@ -289,6 +300,7 @@ This repository includes lightweight open-source maintenance scaffolding:
 - `.github/workflows/repo-hygiene.yml` for push, pull request, manual, and daily repository checks
 - `scripts/validate_repo.ps1` as the Windows-friendly local validation entry point
 - `scripts/validate_repo.py` for the underlying repository smoke checks without requiring Aspen HYSYS
+- `scripts/hysys_convergence_guard.py` for the fail-closed iterative convergence state machine and serializable audit history
 - `scripts/hysys_readiness_check.py` for real Windows/HYSYS runtime verification
 - `scripts/hysys_h2_density_table.py` for a minimal native HYSYS property-table smoke calculation
 - `scripts/hysys_pfd_layout.py` for workcopy-only native PFD cleanup with reopen and calculation-fingerprint verification
@@ -308,12 +320,13 @@ The PowerShell wrapper prefers a real Python installation behind `py` or `python
 3. Prove the control lane with a smoke test
 4. Reuse an existing valid case if possible
 5. Only consider a minimal experimental case for smoke tests after all candidate cases fail, and do not treat that path as a production default
-6. Run calculations and classify failures correctly
-7. Perform bounded tuning only when explicitly allowed
-8. Freeze the accepted case as a baseline
-9. Export machine-readable results
-10. Compile review-stage package deliverables
-11. Run release-gate checks before issue
+6. Run the mandatory iterative convergence gate; solver idle or one result readback is not convergence
+7. Perform bounded tuning only when explicitly allowed, with approved limits and rollback
+8. Require consecutive passes, then save, close, reopen, and revalidate the same acceptance contract
+9. Freeze the accepted case as a baseline
+10. Export machine-readable results
+11. Compile review-stage package deliverables
+12. Run release-gate checks before issue
 
 ## What Good Output Looks Like
 

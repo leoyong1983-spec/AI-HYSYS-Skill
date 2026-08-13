@@ -32,6 +32,8 @@ Read [references/digital-twin-boundary.md](references/digital-twin-boundary.md) 
 
 Read [references/heat-exchanger-ai-patterns.md](references/heat-exchanger-ai-patterns.md) when the user asks for heat exchanger, Aspen EDR, HEN, pinch, `Delta Tmin`, heat duty, LNG cold-box, cryogenic heat-exchanger, or exchanger AI optimization support.
 
+Read [references/convergence-control-loop.md](references/convergence-control-loop.md) whenever a task writes HYSYS inputs, runs or continues a solve, changes recycle behavior, performs tuning, or claims that a result has converged.
+
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
 
 Read [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) before reorganizing a native HYSYS PFD, moving equipment or labels, preparing a human-handoff layout, or using `scripts/hysys_pfd_layout.py`.
@@ -119,6 +121,19 @@ For LNG or cryogenic plantwide tasks, first identify the existing HYSYS case, pl
 
 For heat-integration, heat exchanger network, pinch-analysis, `Delta Tmin`, supertargeting, or sustainability-surrogate tasks, first identify the source HYSYS case or workbook, thermal-stream schema, stream and unit-operation name map, utility assumptions, objective metrics, surrogate or optimizer role, and human review owner. Treat mock-mode notebooks, Excel-only calculations, surrogate models, and Bayesian optimization outputs as advisory candidates until HYSYS workcopy readback, unit checks, and KPI exports pass.
 
+#### Mandatory iterative convergence gate
+
+Any run that changes inputs or claims convergence must use an explicit state machine. `Solver.IsSolving == False` means only `IDLE`; it never proves `CONVERGED`.
+
+1. Before the first write, freeze a machine-readable acceptance contract: required recycle operations and expected `IsIgnored` states, feed/product/tear bindings, project-approved residuals with units and tolerances, mass/energy closure, required phases/warnings/KPIs, allowed adjustment variables and bounds, rollback point, iteration/time limits, and human acceptance owner.
+2. Execute `WRITE -> SOLVE_OR_CONTINUE -> WAIT_IDLE -> READBACK -> EVALUATE_ALL_CHECKS`. If any required check fails or is missing, perform only an approved bounded adjustment or roll back, then repeat. Never stop after the first solver return just because values are available.
+3. Require at least two consecutive passing readbacks before provisional acceptance. A required recycle that is ignored, a missing binding, an unknown unit/tolerance, an over-limit tear residual, a failed closure/KPI, or an ambiguous status is a failed check.
+4. Do not blindly change an ignored recycle to active. First establish the approved tear initialization, continuation/damping strategy, bindings, and rollback. If residuals grow, values jump to another branch, or a failed state repeats without improvement, roll back and report `NOT_CONVERGED`.
+5. After consecutive passes, save the workcopy, close and reopen it, and evaluate the same acceptance contract again. Only then may the agent report `ACCEPTED` or “已收敛”. Without approved criteria or readback capability, report `BLOCKED` or `UNVERIFIED`, never infer success.
+6. Preserve an iteration record containing checks, residual metrics, adjustments, stop reason, errors, and final terminal state. Natural-language confidence cannot override the machine gate.
+
+Use [`scripts/hysys_convergence_guard.py`](scripts/hysys_convergence_guard.py) or an equivalent proven project runner to enforce this loop. For HERMES, DeepSeek, or another LLM agent, the tool loop must continue until the guard returns `ACCEPTED`, `NOT_CONVERGED`, `BLOCKED`, or `ERROR`; a single HYSYS call is not a terminal success.
+
 For bounded tuning:
 
 1. Freeze property method, unit-operation topology, key equipment naming, spreadsheet schema, and already-proven convergence structure unless the user explicitly reopens them.
@@ -127,8 +142,8 @@ For bounded tuning:
 4. Record old value, new value, convergence state, engineering comment, and effect on key KPIs.
 5. Prefer the minimum change that clears the target.
 6. Stop if the task has moved into review or release support mode.
-7. For spreadsheet/workbook writes, pause solver, batch-write inputs, resume solver, wait until `IsSolving` is false, then read KPIs.
-8. For a case containing recycle operations, do not accept a single `RecycleConvergence` value as sufficient proof. Record the recycle's `IsIgnored` state, feed/product bindings, solver-idle state, and project-approved tear-stream residuals for mass, temperature, pressure, enthalpy, and composition when available; then save, close, reopen, and repeat the readback before acceptance.
+7. For spreadsheet/workbook writes, pause solver, batch-write inputs, resume solver, and wait until `IsSolving` is false; then enter the mandatory iterative convergence gate. Do not read KPIs once and call the run successful.
+8. For a case containing recycle operations, do not accept a single `RecycleConvergence` value as sufficient proof. Record the recycle's `IsIgnored` state, feed/product bindings, solver-idle state, and project-approved tear-stream residuals for mass, temperature, pressure, enthalpy, and composition when available; require consecutive passes, then save, close, reopen, and repeat the readback before acceptance.
 9. If a run reaches a valid staged snapshot but later fails a policy, export, or finalization check, preserve the original error and traceback. Do not relabel the run as successful until a separate finalization step revalidates the reopened staged case, confirms the source-case hash is unchanged, records the previous error, and promotes only the verified artifact.
 10. For every pressure write, declare whether the external requirement is gauge or absolute, record the atmospheric-pressure basis used for conversion, write the corresponding absolute pressure to HYSYS, and read the HYSYS pressure back in an explicit absolute unit. Report both the original basis and the converted/readback value; never infer the basis from a bare number or equipment label.
 11. For a batch of derived scenarios, start every scenario from the same approved source hash or frozen baseline rather than chaining one scenario from another. Give each scenario an independent workcopy and audit record with `RUNNING`, `PASS`, or `ERROR`; promote only a saved, closed, reopened, and revalidated result. A failed scenario must remain reproducible and must not invalidate or silently alter the other scenarios.

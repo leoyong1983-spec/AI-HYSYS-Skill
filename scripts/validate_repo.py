@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import re
+import subprocess
 import sys
 
 
@@ -20,6 +21,7 @@ REQUIRED_FILES = [
     "agents/openai.yaml",
     "references/authority-and-path-selection.md",
     "references/basic-package-deliverables.md",
+    "references/convergence-control-loop.md",
     "references/control-lane-decision-matrix.md",
     "references/digital-twin-boundary.md",
     "references/pfd-layout-workflow.md",
@@ -36,12 +38,14 @@ REQUIRED_FILES = [
     ".github/ISSUE_TEMPLATE/config.yml",
     ".github/workflows/repo-hygiene.yml",
     "scripts/hysys_automation.py",
+    "scripts/hysys_convergence_guard.py",
     "scripts/hysys_readiness_check.py",
     "scripts/hysys_h2_density_table.py",
     "scripts/hysys_pfd_layout.py",
     "scripts/sync_installed_skill.ps1",
     "scripts/validate_repo.ps1",
     "scripts/validate_repo.py",
+    "tests/test_hysys_convergence_guard.py",
 ]
 
 MARKDOWN_FILES = [
@@ -146,6 +150,37 @@ def check_readme_content(readme_text: str, errors: list[str]) -> None:
         errors.append("README.md should point readers to the PFD layout workflow.")
     if "control-lane-decision-matrix.md" not in readme_text:
         errors.append("README.md should point readers to the control lane decision matrix.")
+    if "convergence-control-loop.md" not in readme_text:
+        errors.append("README.md should point readers to the convergence control loop.")
+    if "hysys_convergence_guard.py" not in readme_text:
+        errors.append("README.md should mention the iterative convergence guard.")
+
+
+def run_unit_tests(errors: list[str]) -> None:
+    completed = subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test_*.py",
+        ],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        timeout=60,
+        check=False,
+    )
+    if completed.returncode != 0:
+        details = "\n".join(
+            part.strip()
+            for part in (completed.stdout, completed.stderr)
+            if part.strip()
+        )
+        errors.append(f"Unit tests failed:\n{details}")
 
 
 def main() -> int:
@@ -176,6 +211,8 @@ def main() -> int:
     readme_text = texts.get(ROOT / "README.md")
     if readme_text is not None:
         check_readme_content(readme_text, errors)
+
+    run_unit_tests(errors)
 
     if errors:
         print("Repository validation failed:", file=sys.stderr)

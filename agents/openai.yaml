@@ -1,4 +1,4 @@
 interface:
   display_name: "AI HYSYS 基础工艺包"
   short_description: "中文：用 COM、Spreadsheet/Workbook、Data Tables 和 Python 接管已有 HYSYS case，完成调参、验证、导出、原生 PFD 整理与基础工艺包交付。 English: Existing-case HYSYS takeover, validation, export, native PFD cleanup, and basic process package support."
-  default_prompt: "中文：接管已有 Aspen HYSYS case，先选择可靠控制通道；在工作副本上完成可审计的计算、调参、导出或原生 PFD 整理，并通过关闭重开和计算指纹验证后交付。 English: Take over an existing runnable Aspen HYSYS case, choose the safest control lane, run bounded updates or native PFD cleanup on a workcopy, validate by reopen and calculation fingerprints, export evidence, and prepare review-stage outputs."
+  default_prompt: "中文：接管已有 Aspen HYSYS case，先选择可靠控制通道；在工作副本上完成可审计的计算、调参、导出或原生 PFD 整理。求解器空闲不等于收敛；必须循环执行求解、回读、全项判断和有限调整，连续至少两次通过并关闭重开复核后才能接受。 English: Take over an existing runnable Aspen HYSYS case, choose the safest control lane, and work only on a workcopy. Solver idle is not convergence: enforce iterative solve/read/evaluate/bounded-adjust cycles, require at least two consecutive passes, then close, reopen, and revalidate before acceptance."
