@@ -39,6 +39,7 @@ REQUIRED_FILES = [
     "scripts/hysys_readiness_check.py",
     "scripts/hysys_h2_density_table.py",
     "scripts/hysys_pfd_layout.py",
+    "scripts/sync_installed_skill.ps1",
     "scripts/validate_repo.ps1",
     "scripts/validate_repo.py",
 ]

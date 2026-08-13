@@ -13,6 +13,7 @@ Keep this repository installable, reviewable, and trustworthy as an AI-ready HYS
 - `scripts/hysys_readiness_check.py` verifies real Windows/HYSYS runtime readiness when Aspen HYSYS is available.
 - `scripts/hysys_h2_density_table.py` is a minimal native HYSYS property-table smoke calculation for pure hydrogen.
 - `scripts/hysys_pfd_layout.py` reorganizes a native PFD on a workcopy and verifies calculation fingerprints after reopen.
+- `scripts/sync_installed_skill.ps1` safely synchronizes the validated `origin/main` runtime payload to the local Codex skill installation with backup, local-edit detection, and hash verification.
 - `references/pfd-layout-workflow.md` records the verified V15 PFD COM sequence and visual handoff rules.
 - `agents/openai.yaml` contains the Codex-facing UI metadata.
 - `scripts/validate_repo.ps1` is the preferred local validation entry point on Windows.
