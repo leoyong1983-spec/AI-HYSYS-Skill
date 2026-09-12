@@ -28,6 +28,21 @@ It is designed for real execution, not just documentation. The workflow covers:
 
 **中文**：AI-HYSYS-Skill 是面向 Aspen HYSYS 的 AI 技能库，核心目标是接管人工已建、已经能运行的 HYSYS case，而不是让 AI 从零盲目建模。它帮助智能体检查 Windows/HYSYS 环境，选择 direct COM、spreadsheet/workbook 等安全控制通道，执行有边界的参数修改、计算验证、机器可读结果导出，并辅助形成审查阶段基础工艺包成果。本项目不宣称 AI 可以可靠地从零生成生产级 HYSYS 模型，也不默认支持无人批准的生产写回。
 
+## HYSYS V14 / V15 Compatibility / 双版本兼容
+
+**English**: The control layer supports explicit V14/V15 selection. Readiness checks, COM activation, and fallback use the same version-specific target, with an actual-version check before case writes. `auto` follows an unambiguous registered V14/V15 default (or the only installed supported version); it never guesses between two installations.
+
+**中文**：控制层支持明确选择 V14 或 V15。环境检查、启动和备用启动始终使用同一版本，并在操作案例前核对软件实际版本。两版案例应分别验证，不能把 V15 文件可向下兼容 V14、复杂工艺收敛或全部插件兼容视为已证明。
+
+```powershell
+py -3.12 scripts/hysys_readiness_check.py --hysys-version 14 --create-smoke-case --output ./readiness-v14.json
+py -3.12 scripts/hysys_readiness_check.py --hysys-version 15 --create-smoke-case --output ./readiness-v15.json
+```
+
+The density-table and PFD-layout commands also accept `--hysys-version`. See the [compatibility contract and per-version evidence](references/version-compatibility.md) for tested scope and remaining limits.
+
+Local native smoke tests (2026-09-12) passed in **both V14 and V15**: create/save/reopen and a two-point hydrogen density calculation with reopened readback checks. 本轮两版均已实测通过基础建例、物性计算和保存重开回读；复杂流程与插件仍需单独验收。
+
 ## What This Is
 
 This repository is built around a simple idea:

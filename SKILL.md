@@ -1,6 +1,6 @@
 ---
 name: ai-hysys-basic-package
-description: "Control Aspen HYSYS with auditable, script-first workflows for existing-case takeover, bounded updates, validation, reporting, and native PFD cleanup. 中文：通过 direct COM、spreadsheet/workbook bridge 或已验证项目脚本接管已有可运行 HYSYS case，完成环境检查、有限调参、验证、导出、原生 PFD 整理和审查阶段基础工艺包交付；不默认支持从零建模或生产写回。"
+description: "Control Aspen HYSYS V14 and V15 with auditable, script-first workflows for existing-case takeover, bounded updates, validation, reporting, and native PFD cleanup. 中文：明确选择 V14 或 V15，通过 COM 或已验证桥接接管已有可运行 HYSYS case，完成环境检查、有限调参、验证、导出和基础工艺包交付；具体功能按版本验证，不默认支持从零建模或生产写回。"
 ---
 
 # AI HYSYS Basic Package
@@ -23,6 +23,8 @@ Prefer scriptable, reviewable, repeatable control lanes:
 6. GUI only for layout sign-off or unavoidable visual checks
 
 Read [references/authority-and-path-selection.md](references/authority-and-path-selection.md) before choosing the control lane.
+
+Read [references/version-compatibility.md](references/version-compatibility.md) before launching HYSYS, using side-by-side V14/V15 installations, or migrating a case. Pin the requested version for the entire run and verify the application's reported version before any case write. Compatibility of the control layer is not proof of case-file backward compatibility or of every unit operation.
 
 Read [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md) before writing parameters, running sensitivity, freezing a baseline, or choosing between direct COM, spreadsheet/workbook, data tables, and indirect communication.
 
@@ -49,8 +51,8 @@ If the user wants provenance, precedent, launch material, heartbeat source triag
 Decide the path in this order:
 
 1. If the workspace already contains proven HYSYS runners, smoke tests, tuning scripts, workbook bridges, or export tools, reuse them first.
-2. If direct COM launch works, use `HYSYS.Application` as the default execution lane.
-3. If direct `DispatchEx("HYSYS.Application")` fails but the registry contains a valid `LocalServer32`, start the registered `aspenhysys.exe /Automation` server and attach to the active HYSYS object before abandoning native HYSYS.
+2. If direct COM launch works, resolve `--hysys-version 14`, `15`, or `auto` to a version-specific ProgID and use that exact target throughout the session. Prefer an explicit version for reproducible project runs.
+3. If direct COM activation fails but that same target has a valid `LocalServer32`, start its registered `aspenhysys.exe /Automation` server and attach through the same version-specific ProgID. Never fall back from V14 to V15 or vice versa; fail on a reported-version mismatch or ambiguous selection.
 4. If object-path access is fragile but spreadsheet names or workbook tags are stable, use the spreadsheet bridge.
 5. If HYSYS data tables or special objects are already configured and expose the required variables cleanly, use them as supplementary lanes and document the schema.
 6. If only an existing indirect bridge is already in service, use it carefully and document that the lane is weaker than direct COM.
@@ -68,9 +70,9 @@ Before any write operation, produce a short lane decision note covering chosen l
 Always check:
 
 1. Aspen HYSYS installation path
-2. Aspen HYSYS version
+2. Requested and actual Aspen HYSYS version, including the full reported build string; keep V14 and V15 evidence separate
 3. Whether the active Python environment can import `pythoncom` and `win32com.client`
-4. Whether `HYSYS.Application` launches directly or via registered automation-server fallback
+4. Whether the selected version-specific ProgID launches directly or via its own registered automation-server fallback
 5. Whether a known case can open and save, or whether a minimal smoke-test case can be created and saved when no valid case exists
 6. Whether spreadsheet or workbook bridges exist and bind correctly
 7. Whether existing case files, workcopies, audits, status files, and package exports already exist
@@ -78,6 +80,8 @@ Always check:
 Do not begin tuning or package compilation before confirming which control lane actually works.
 
 Use `scripts/hysys_readiness_check.py` when available. It must classify Python/pywin32 failures, COM registry failures, launch failures, case open/create failures, object-binding failures, and solver failures separately.
+
+For V14/V15 compatibility, run readiness and the task-specific acceptance contract independently in both versions on separate workcopies. The readiness smoke checks creation/save/reopen only, not physical convergence. Keep the iterative convergence gate unchanged in either version; never invent a missing COM member or assume a V15-saved case can open in V14.
 
 For installation, readiness, or version-migration tasks, compare observed HYSYS version, Windows/Office/Python facts, pywin32 state, COM registration, and Aspen product availability against the official platform-support sources in `CASE/official/aspentech-platform-support-2026-05.html` and `CASE/official/aspentech-v15-engineering-platform-specifications-2026.pdf`. Report unsupported or missing platform prerequisites as environment blockers, not as prompt or skill failures.
 

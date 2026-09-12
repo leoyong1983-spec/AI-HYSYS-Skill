@@ -27,6 +27,7 @@ REQUIRED_FILES = [
     "references/pfd-layout-workflow.md",
     "references/literature-patterns.md",
     "references/project-lessons.md",
+    "references/version-compatibility.md",
     "CASE/source-index.md",
     "CASE/notes/heartbeat-scan-2026-04-25.md",
     "CASE/notes/hysys-source-digest.md",
@@ -38,6 +39,7 @@ REQUIRED_FILES = [
     ".github/ISSUE_TEMPLATE/config.yml",
     ".github/workflows/repo-hygiene.yml",
     "scripts/hysys_automation.py",
+    "scripts/hysys_version.py",
     "scripts/hysys_convergence_guard.py",
     "scripts/hysys_readiness_check.py",
     "scripts/hysys_h2_density_table.py",
@@ -46,6 +48,7 @@ REQUIRED_FILES = [
     "scripts/validate_repo.ps1",
     "scripts/validate_repo.py",
     "tests/test_hysys_convergence_guard.py",
+    "tests/test_hysys_version.py",
 ]
 
 MARKDOWN_FILES = [

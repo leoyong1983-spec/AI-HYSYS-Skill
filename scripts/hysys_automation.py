@@ -15,6 +15,11 @@ import pythoncom
 from win32com.client import DispatchEx, GetActiveObject
 
 try:
+    from .hysys_version import HysysTarget, HysysVersionError, resolve_hysys_target, verify_reported_version
+except ImportError:
+    from hysys_version import HysysTarget, HysysVersionError, resolve_hysys_target, verify_reported_version
+
+try:
     from .hysys_convergence_guard import (
         AdjustCallback,
         ConvergenceObservation,
@@ -38,8 +43,8 @@ class HysysAutomationError(RuntimeError):
 
 @dataclass(slots=True)
 class HysysLaunchOptions:
-    prog_id: str = "HYSYS.Application"
-    registered_prog_id: str = "HYSYS.Application.V15.0"
+    prog_id: str | None = None
+    registered_prog_id: str | None = None
     visible: bool = False
     suppress_popups: bool = True
     startup_retries: int = 2
@@ -47,6 +52,7 @@ class HysysLaunchOptions:
     fallback_to_registered_server: bool = True
     attach_timeout_s: float = 120.0
     attach_poll_interval_s: float = 2.0
+    hysys_version: str = "auto"
 
 
 @dataclass(frozen=True, slots=True)
@@ -134,10 +140,21 @@ class HysysCaseSession:
         self._launched_process: subprocess.Popen | None = None
         self._operation_cache: dict[str, object] = {}
         self._spreadsheet_cache: dict[str, object] = {}
+        self.target: HysysTarget | None = None
+        self._owns_application = False
 
     def __enter__(self) -> "HysysCaseSession":
+        self.target = resolve_hysys_target(
+            self.options.hysys_version,
+            prog_id=self.options.prog_id,
+            registered_prog_id=self.options.registered_prog_id,
+        )
         self._initialize_com()
-        self.app = self._launch_application()
+        try:
+            self.app = self._launch_application()
+        except Exception:
+            self._uninitialize_com()
+            raise
         return self
 
     def __exit__(self, exc_type, exc, tb) -> None:
@@ -155,16 +172,31 @@ class HysysCaseSession:
             self._com_initialized = False
 
     def _launch_application(self):
+        if self.target is None:
+            raise HysysAutomationError("Resolve the HYSYS version before activation.")
+        try:
+            existing = GetActiveObject(self.target.prog_id)
+        except Exception:
+            existing = None
+        if existing is not None:
+            verify_reported_version(str(existing.Version), self.target)
+            self._owns_application = False
+            return existing
+
         last_error: Exception | None = None
         for attempt in range(1, self.options.startup_retries + 2):
             try:
-                app = DispatchEx(self.options.prog_id)
+                app = DispatchEx(self.target.prog_id)
+                verify_reported_version(str(app.Version), self.target)
+                self._owns_application = True
                 app.Visible = self.options.visible
                 with contextlib.suppress(Exception):
                     app.ChangePreferencesToMinimizePopupWindows(
                         self.options.suppress_popups
                     )
                 return app
+            except HysysVersionError:
+                raise
             except Exception as exc:  # pragma: no cover - COM specific
                 last_error = exc
                 if attempt <= self.options.startup_retries:
@@ -184,8 +216,10 @@ class HysysCaseSession:
         )
 
     def _launch_registered_server_and_attach(self, direct_error: Exception | None):
+        if self.target is None:
+            raise HysysAutomationError("No selected HYSYS version.")
         exe_path, arguments = registered_local_server_command(
-            self.options.registered_prog_id
+            self.target.prog_id
         )
         self._launched_process = subprocess.Popen(
             [str(exe_path), *arguments],
@@ -198,7 +232,12 @@ class HysysCaseSession:
         last_error: Exception | None = direct_error
         while time.monotonic() < deadline:
             try:
-                return GetActiveObject(self.options.prog_id)
+                app = GetActiveObject(self.target.prog_id)
+                verify_reported_version(str(app.Version), self.target)
+                self._owns_application = True
+                return app
+            except HysysVersionError:
+                raise
             except Exception as exc:  # pragma: no cover - COM specific
                 last_error = exc
                 time.sleep(self.options.attach_poll_interval_s)
@@ -398,9 +437,11 @@ class HysysCaseSession:
 
     def close_app(self) -> None:
         if self.app is not None:
-            with contextlib.suppress(Exception):
-                self.app.Quit()
+            if self._owns_application:
+                with contextlib.suppress(Exception):
+                    self.app.Quit()
             self.app = None
+        self._owns_application = False
         self._launched_process = None
         self._clear_object_cache()
 
@@ -427,7 +468,7 @@ def make_temp_case_path(prefix: str = "hysys_case") -> Path:
 
 
 def registered_local_server_command(
-    prog_id: str = "HYSYS.Application.V15.0",
+    prog_id: str | None = None,
 ) -> tuple[Path, list[str]]:
     """Return the COM LocalServer32 executable and arguments for HYSYS.
 
@@ -436,6 +477,8 @@ def registered_local_server_command(
     keeps the fallback launch path robust without mutating the registry.
     """
 
+    if prog_id is None:
+        prog_id = resolve_hysys_target().prog_id
     try:
         with winreg.OpenKey(winreg.HKEY_CLASSES_ROOT, rf"{prog_id}\CLSID") as key:
             clsid, _ = winreg.QueryValueEx(key, "")
