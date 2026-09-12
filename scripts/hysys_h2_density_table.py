@@ -34,8 +34,9 @@ def build_rows(args) -> tuple[list[dict], dict]:
         case_path = case_path.with_suffix(".hsc")
 
     rows: list[dict] = []
-    with HysysCaseSession(HysysLaunchOptions(visible=args.visible)) as hysys:
+    with HysysCaseSession(HysysLaunchOptions(visible=args.visible, hysys_version=args.hysys_version)) as hysys:
         hysys_version = hysys.version
+        selected_prog_id = hysys.target.prog_id
         hycase = hysys.create_case(
             case_path,
             "H2 density table",
@@ -91,6 +92,8 @@ def build_rows(args) -> tuple[list[dict], dict]:
     meta = {
         "created_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
         "hysys_version": hysys_version,
+        "requested_hysys_version": args.hysys_version,
+        "selected_prog_id": selected_prog_id,
         "case_path": str(case_path),
         "calculation_basis": {
             "software": "Aspen HYSYS native COM automation",
@@ -144,6 +147,7 @@ def write_outputs(rows: list[dict], meta: dict, output_dir: Path, prefix: str) -
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate a native HYSYS pure-hydrogen density table.")
+    parser.add_argument("--hysys-version", choices=("auto", "14", "15"), default="auto")
     parser.add_argument("--start-mpa", type=float, default=1.0)
     parser.add_argument("--end-mpa", type=float, default=90.0)
     parser.add_argument("--step-mpa", type=float, default=1.0)

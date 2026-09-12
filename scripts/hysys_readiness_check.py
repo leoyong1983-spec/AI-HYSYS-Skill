@@ -10,6 +10,7 @@ import winreg
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
+from hysys_version import resolve_hysys_target
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -79,13 +80,16 @@ def run_launch_check(
     visible: bool,
     create_smoke_case: bool,
     keep_smoke_case: bool,
+    prog_id: str,
+    smoke_dir: Path,
 ) -> dict:
-    from hysys_automation import HysysCaseSession, HysysLaunchOptions, make_temp_case_path
+    from hysys_automation import HysysCaseSession, HysysLaunchOptions
 
     smoke: dict[str, str] = {}
     started = time.monotonic()
+    stage = "hysys_launch"
     try:
-        with HysysCaseSession(HysysLaunchOptions(visible=visible)) as hysys:
+        with HysysCaseSession(HysysLaunchOptions(visible=visible, prog_id=prog_id)) as hysys:
             version = hysys.version
             add(
                 checks,
@@ -94,8 +98,11 @@ def run_launch_check(
                 f"{version}; launch+attach in {time.monotonic() - started:.1f} s",
             )
             smoke["version"] = version
+            smoke["prog_id"] = hysys.target.prog_id
             if create_smoke_case:
-                case_path = make_temp_case_path("hysys_readiness_smoke")
+                stage = "case_create_save"
+                smoke_dir.mkdir(parents=True, exist_ok=True)
+                case_path = Path(tempfile.mkdtemp(prefix="hysys_smoke_", dir=smoke_dir)) / "readiness.hsc"
                 hysys.create_case(
                     case_path,
                     "HYSYS readiness smoke",
@@ -104,6 +111,10 @@ def run_launch_check(
                 hysys.save_case()
                 add(checks, "case_create_save", "ok", str(case_path))
                 smoke["smoke_case"] = str(case_path)
+                stage = "case_reopen"
+                hysys.close_case()
+                hysys.open_case(case_path)
+                add(checks, "case_reopen", "ok", "Created case reopened in the selected version.")
                 if not keep_smoke_case:
                     hysys.close_case()
                     try:
@@ -113,13 +124,14 @@ def run_launch_check(
                         add(checks, "case_cleanup", "warn", f"{case_path}: {exc}")
         return smoke
     except Exception as exc:
-        add(checks, "hysys_launch", "fail", str(exc))
+        add(checks, stage, "fail", str(exc))
         return smoke
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check Aspen HYSYS COM readiness.")
-    parser.add_argument("--prog-id", default="HYSYS.Application.V15.0")
+    parser.add_argument("--prog-id", help="Optional version-specific ProgID override.")
+    parser.add_argument("--hysys-version", choices=("auto", "14", "15"), default="auto")
     parser.add_argument("--skip-launch", action="store_true", help="Only check Python and COM registry.")
     parser.add_argument("--visible", action="store_true", help="Show HYSYS while testing launch.")
     parser.add_argument("--create-smoke-case", action="store_true", help="Create and save a minimal HYSYS case.")
@@ -135,21 +147,32 @@ def main() -> int:
     add(checks, "platform", "ok" if platform.system() == "Windows" else "fail", platform.platform())
     add(checks, "python", "ok", sys.executable)
     pywin32_ok = check_pywin32(checks)
-    registry = check_registry(checks, args.prog_id)
+    target = None
+    registry = {}
+    try:
+        target = resolve_hysys_target(args.hysys_version, prog_id=args.prog_id)
+        add(checks, "version_selection", "ok", f"V{target.major}; {target.prog_id}")
+        registry = check_registry(checks, target.prog_id)
+    except Exception as exc:
+        add(checks, "version_selection", "fail", str(exc))
 
     smoke: dict = {}
-    if not args.skip_launch and pywin32_ok:
+    if not args.skip_launch and pywin32_ok and target and not any(check.status == "fail" for check in checks):
         smoke = run_launch_check(
             checks,
             visible=args.visible,
             create_smoke_case=args.create_smoke_case,
             keep_smoke_case=args.keep_smoke_case,
+            prog_id=target.prog_id,
+            smoke_dir=Path(args.output).resolve().parent,
         )
 
     payload = {
         "created_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
         "repository": str(ROOT),
         "registry": registry,
+        "requested_hysys_version": args.hysys_version,
+        "selected_hysys_version": target.major if target else None,
         "smoke": smoke,
         "checks": [asdict(check) for check in checks],
     }

@@ -31,6 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--report", required=True, type=Path, help="Validation JSON output.")
     parser.add_argument("--overwrite", action="store_true", help="Replace an existing output workcopy.")
     parser.add_argument("--visible", action="store_true", help="Show HYSYS during execution.")
+    parser.add_argument("--hysys-version", choices=("auto", "14", "15"), default="auto")
     parser.add_argument("--mass-tolerance-kg-h", type=float, default=0.01)
     parser.add_argument("--energy-tolerance-kw", type=float, default=0.01)
     parser.add_argument("--position-tolerance", type=float, default=1e-6)
@@ -328,7 +329,7 @@ def main() -> int:
         report_path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, output_case)
 
-        options = HysysLaunchOptions(visible=args.visible)
+        options = HysysLaunchOptions(visible=args.visible, hysys_version=args.hysys_version)
         with HysysCaseSession(options) as session:
             case = session.open_case(output_case)
             before_calculation = calculation_fingerprint(case)
@@ -416,6 +417,8 @@ def main() -> int:
             report.update(
                 {
                     "hysys_version": session.version,
+                    "requested_hysys_version": args.hysys_version,
+                    "selected_prog_id": session.target.prog_id,
                     "source_case": str(source),
                     "output_case": str(output_case),
                     "pfd": str(pfd.name),
