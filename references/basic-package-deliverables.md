@@ -33,6 +33,8 @@
 
 这层是正式 `Word / Excel / PowerPoint` 的数据源层。
 
+有图纸依据时，先按[图纸覆盖与模型对应](drawing-model-basis.md)保留逐页范围说明；编制 DOCX/MD 时执行[报告证据与视觉验收](report-evidence-qa.md)，不能把文件生成成功等同于可交付。
+
 ### 2. 正式 Office 层
 
 当项目进入基础工艺包审查版时，正式件通常包括：
