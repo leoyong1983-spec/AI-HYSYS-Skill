@@ -102,6 +102,14 @@ This recommendation is now captured as an actionable decision matrix in [referen
 
 Use [references/convergence-control-loop.md](references/convergence-control-loop.md) for the bilingual execution contract and [`scripts/hysys_convergence_guard.py`](scripts/hysys_convergence_guard.py) for a dependency-free, fail-closed loop with auditable iteration history. This applies to HERMES/DeepSeek and every other LLM runner: one HYSYS call is not a successful terminal state.
 
+## Drawing and Report Evidence / 图纸与报告证据
+
+When drawings define the task, use the [drawing-to-model checklist](references/drawing-model-basis.md) and `scripts/hysys_drawing_coverage.py` to detect incomplete page records. The checker audits the manifest, not the drawing content or HYSYS convergence. For DOCX/MD outputs, follow [report evidence QA](references/report-evidence-qa.md).
+
+中文：新增逐页范围登记检查，防止漏页或把未纳入部分说成“已建模”；报告要求数值来自同一案例快照，并分别记录文档结构和实际页面验收。排版数值比较不再允许“两次都未知”冒充“保持不变”。本轮改进参考了同事技能，采用和不采用的原因见[对比记录](CASE/notes/peer-skill-review-2026-09-12.md)。
+
+**Layout migration limit / 排版迁移限制：** Automatic label placement now stops unless label ownership is proven. The V14/V15 sample probes did not expose usable label ownership; those views need a separately validated adapter before automated layout can resume. 不能可靠识别标签归属的视图暂不自动排版，详见[适配限制](references/pfd-layout-workflow.md)。This is a safety restriction, not a claim of complete V14/V15 layout compatibility.
+
 ## Repository Structure
 
 ```text

@@ -38,6 +38,16 @@
 11. `PFD.Centre()` 不是 GUI 的“适合窗口”，不要把它当成 `ZoomToFit`。GUI 中 `Home` 对应 Fit to Window，但跨桌面会话的模拟按键并不可靠。
 12. `PFD.Extent` 在无 GUI 的独立自动化实例中可能为 `None`；这不是 case 或 PFD 损坏，验证脚本必须允许空值。
 
+## Evidence Hardening / 证据不足时停止
+
+排版脚本不再把两个集合的相同下标当作标签归属证明。现有实现要求可读取的 `label.Object.TaggedName` 与图标底层对象身份一一对应，并在重开后重新绑定；缺失、重复或不匹配时，在移动之前停止。此规则是验收加固，不是所有 HYSYS 标签都支持该属性的声明。
+
+**当前迁移限制（2026-09-12）：** 本轮 V14/V15 的单流股原生探测中，标签的 `Object` 无法提供关联身份。因此这些视图会被新检查阻止自动排版，需要另行验证的项目标签适配器；不保留按下标猜测的绕过开关。两版 `Items` 成员查询与集合读取已在有限探测中成功，V14另有一次图形画布未初始化的失败；不据此声称完整排版回归通过。
+
+`Items` 的 DISPID 由当前 COM 对象按成员名查询，不再依赖生成包装器的私有映射或硬编码数字。未知的流量/热流/循环读回即使前后相同，也不能通过比较。身份、显示状态和数值检查之外，实际端口/物性/规格及整图视觉核查仍按本指南单独完成；目前脚本的有限指纹不覆盖全部拓扑与工程属性。
+
+Preserve visible objects and labels rather than hiding them to improve apparent spacing. Export a complete native view plus useful detail views, and distinguish graphical crossings from real port connections. A limited numerical/layout check does not certify topology, diagram readability or engineering acceptance.
+
 ## 配置文件
 
 使用 `scripts/hysys_pfd_layout.py` 时提供 JSON：

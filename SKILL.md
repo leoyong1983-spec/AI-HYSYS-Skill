@@ -26,6 +26,8 @@ Read [references/authority-and-path-selection.md](references/authority-and-path-
 
 Read [references/version-compatibility.md](references/version-compatibility.md) before launching HYSYS, using side-by-side V14/V15 installations, or migrating a case. Pin the requested version for the entire run and verify the application's reported version before any case write. Compatibility of the control layer is not proof of case-file backward compatibility or of every unit operation.
 
+Read [references/drawing-model-basis.md](references/drawing-model-basis.md) when P&ID/PFD/PDF drawings inform a model, including model-scope reviews and proposed extensions. Account for every source page and verify actual material/energy bindings; use `scripts/hysys_drawing_coverage.py` for manifest completeness only, never as proof of modeling or convergence.
+
 Read [references/control-lane-decision-matrix.md](references/control-lane-decision-matrix.md) before writing parameters, running sensitivity, freezing a baseline, or choosing between direct COM, spreadsheet/workbook, data tables, and indirect communication.
 
 Read [references/literature-patterns.md](references/literature-patterns.md) when a task cites AI/HYSYS papers, asks whether the method is publishable, requests an experiment design, or mixes LLM agents with HYSYS execution.
@@ -41,6 +43,8 @@ Read [references/project-lessons.md](references/project-lessons.md) when resumin
 Read [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) before reorganizing a native HYSYS PFD, moving equipment or labels, preparing a human-handoff layout, or using `scripts/hysys_pfd_layout.py`.
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
+
+Read [references/report-evidence-qa.md](references/report-evidence-qa.md) for process explanations or DOCX/MD deliverables. Keep report data linked to one verified case snapshot, and distinguish calculation, document-structure, visual, and engineering acceptance.
 
 If the user wants provenance, precedent, launch material, heartbeat source triage, or cross-skill maintenance rules, read [CASE/SOURCE_EVALUATION_RULES.md](CASE/SOURCE_EVALUATION_RULES.md), [CASE/source-index.md](CASE/source-index.md), and [CASE/notes/hysys-source-digest.md](CASE/notes/hysys-source-digest.md) selectively instead of loading the whole `CASE/` tree.
 

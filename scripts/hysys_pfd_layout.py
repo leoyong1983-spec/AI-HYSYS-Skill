@@ -59,8 +59,9 @@ def target_xy(value) -> tuple[float, float]:
 
 
 def pfd_items(pfd, item_type: int):
-    prop = pfd._prop_map_get_.get("Items")
-    dispid = prop[0] if prop else 1610809346
+    # Resolve the member in this runtime instead of requiring a generated wrapper
+    # or reusing a version-specific numeric DISPID.
+    dispid = pfd._oleobj_.GetIDsOfNames("Items")
     result = pfd._oleobj_.InvokeTypes(
         dispid,
         0,
@@ -127,9 +128,10 @@ def item_map(items) -> dict[str, object]:
     result: dict[str, object] = {}
     for index in range(int(items.Count)):
         item = items.Item(index)
-        name = str(item.name)
-        if name:
-            result[name] = item
+        name = item.name
+        if not isinstance(name, str) or not name.strip() or name in result:
+            raise ValueError("PFD item names must be nonempty and unique in the selected view.")
+        result[name] = item
     return result
 
 
@@ -192,11 +194,38 @@ def calculation_fingerprint(case) -> dict:
     }
 
 
-def layout_snapshot(operations, labels) -> list[dict]:
+def label_map_by_object(operations, labels) -> dict[str, object]:
+    """Require an explicit underlying-object association, never collection order."""
+    owners = {}
+    for index in range(int(operations.Count)):
+        item = operations.Item(index)
+        key = item.Object.TaggedName
+        if not isinstance(key, str) or not key.strip() or key in owners:
+            raise ValueError("PFD underlying object identities must be nonempty and unique.")
+        owners[key] = str(item.name)
+    result = {}
+    for index in range(int(labels.Count)):
+        label = labels.Item(index)
+        try:
+            key = label.Object.TaggedName
+        except Exception as exc:
+            raise RuntimeError(
+                "Cannot prove the PFD label's object association. Automatic layout is blocked; "
+                "use a separately verified project label adapter, not collection-index pairing."
+            ) from exc
+        if not isinstance(key, str) or key not in owners or owners[key] in result:
+            raise ValueError("Unmatched or duplicate PFD label association.")
+        result[owners[key]] = label
+    if len(result) != len(owners):
+        raise ValueError("PFD label association is incomplete.")
+    return result
+
+
+def layout_snapshot(operations, labels_by_name: dict) -> list[dict]:
     rows = []
     for index in range(int(operations.Count)):
         item = operations.Item(index)
-        label = labels.Item(index)
+        label = labels_by_name[str(item.name)]
         rows.append(
             {
                 "name": str(item.name),
@@ -257,19 +286,25 @@ def label_overlaps(snapshot: list[dict], label_height: float) -> list[dict]:
 
 
 def compare_scalar_maps(before: dict, after: dict, tolerance: float) -> dict:
+    if isinstance(tolerance, bool) or not math.isfinite(tolerance) or tolerance < 0:
+        raise ValueError("Fingerprint tolerance must be finite and nonnegative.")
     missing = sorted(set(before) ^ set(after))
     deltas = {}
+    unavailable = []
     for name in sorted(set(before).intersection(after)):
         left = before[name]
         right = after[name]
-        if left is None or right is None:
-            if left != right:
-                deltas[name] = None
+        if not valid_readback(left) or not valid_readback(right):
+            unavailable.append(name)
             continue
         delta = float(right) - float(left)
         if abs(delta) > tolerance:
             deltas[name] = delta
-    return {"missing_or_extra": missing, "out_of_tolerance": deltas}
+    return {"missing_or_extra": missing, "out_of_tolerance": deltas, "unavailable": unavailable}
+
+
+def valid_readback(value) -> bool:
+    return type(value) in (int, float) and math.isfinite(value) and value != -32767
 
 
 def compare_fingerprints(before: dict, after: dict, mass_tolerance: float, energy_tolerance: float) -> dict:
@@ -280,6 +315,11 @@ def compare_fingerprints(before: dict, after: dict, mass_tolerance: float, energ
         ),
         "operations_match": before["operations"] == after["operations"],
         "recycle_match": before["recycle_convergence"] == after["recycle_convergence"],
+        "recycle_values_available": all(
+            valid_readback(value)
+            for snapshot in (before, after)
+            for value in snapshot["recycle_convergence"].values()
+        ),
         "material": compare_scalar_maps(
             before["material_mass_flow_kg_h"], after["material_mass_flow_kg_h"], mass_tolerance
         ),
@@ -294,10 +334,13 @@ def comparison_passed(comparison: dict) -> bool:
         comparison["counts_match"]
         and comparison["operations_match"]
         and comparison["recycle_match"]
+        and comparison["recycle_values_available"]
         and not comparison["material"]["missing_or_extra"]
         and not comparison["material"]["out_of_tolerance"]
+        and not comparison["material"]["unavailable"]
         and not comparison["energy"]["missing_or_extra"]
         and not comparison["energy"]["out_of_tolerance"]
+        and not comparison["energy"]["unavailable"]
     )
 
 
@@ -336,9 +379,8 @@ def main() -> int:
             pfd, initial_pfd_mode = bind_pfd(case, session.app, layout.get("pfd"))
             operations = pfd_items(pfd, PFD_OPERATION)
             labels = pfd_items(pfd, PFD_OPERATION_LABEL)
-            if int(operations.Count) != int(labels.Count):
-                raise RuntimeError("PFD operation and label collections are not index-aligned.")
             items = item_map(operations)
+            labels_by_name = label_map_by_object(operations, labels)
 
             missing = sorted(set(targets) - set(items))
             if missing:
@@ -357,7 +399,7 @@ def main() -> int:
             if unmapped_units:
                 raise ValueError(f"Every non-stream PFD object needs a target: {unmapped_units}")
 
-            before_layout = layout_snapshot(operations, labels)
+            before_layout = layout_snapshot(operations, labels_by_name)
             old_can_solve = bool(case.Solver.CanSolve)
             case.Solver.CanSolve = False
             try:
@@ -376,7 +418,8 @@ def main() -> int:
                 place()
 
                 for index in range(int(operations.Count)):
-                    position_label(operations.Item(index), labels.Item(index), layout)
+                    item = operations.Item(index)
+                    position_label(item, labels_by_name[str(item.name)], layout)
 
                 place(reverse=True)
                 for name in layout.get("final_priority", []):
@@ -394,7 +437,9 @@ def main() -> int:
             pfd, reopened_pfd_mode = bind_pfd(case, session.app, layout.get("pfd"))
             operations = pfd_items(pfd, PFD_OPERATION)
             labels = pfd_items(pfd, PFD_OPERATION_LABEL)
-            after_layout = layout_snapshot(operations, labels)
+            item_map(operations)
+            labels_by_name = label_map_by_object(operations, labels)
+            after_layout = layout_snapshot(operations, labels_by_name)
             after_items = {row["name"]: row for row in after_layout}
 
             position_errors = {}
@@ -431,6 +476,9 @@ def main() -> int:
                     "after_layout": after_layout,
                     "position_errors": position_errors,
                     "label_overlaps": overlaps,
+                    "label_association_verified": True,
+                    "visibility_issues": [row["name"] for row in after_layout
+                                          if row["hidden"] or row["label_hidden"]],
                     "before_calculation": before_calculation,
                     "after_calculation": after_calculation,
                     "fingerprint_comparison": fingerprint_comparison,
@@ -442,6 +490,8 @@ def main() -> int:
                 and (args.allow_label_overlap or not overlaps)
                 and after_calculation["solver_can_solve"] == old_can_solve
                 and not after_calculation["solver_is_solving"]
+                and not report["visibility_issues"]
+                and set(after_items) == {row["name"] for row in before_layout}
             )
     except Exception as exc:
         report["errors"].append(f"{type(exc).__name__}: {exc}")
