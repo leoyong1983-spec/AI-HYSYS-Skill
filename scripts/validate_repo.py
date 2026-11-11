@@ -27,6 +27,7 @@ REQUIRED_FILES = [
     "references/pfd-layout-workflow.md",
     "references/literature-patterns.md",
     "references/project-lessons.md",
+    "references/runtime-lessons.md",
     "references/version-compatibility.md",
     "references/drawing-model-basis.md",
     "references/report-evidence-qa.md",
