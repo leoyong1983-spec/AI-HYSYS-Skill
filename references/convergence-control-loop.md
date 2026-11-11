@@ -75,6 +75,24 @@ BASELINE
 
 调用方仍需用项目批准的对象、单位和容差实现 `observe`，并用批准变量与边界实现 `adjust`。该 helper 不替代工程判断，也不会自动决定 HYSYS 的 recycle 策略。
 
+### 6. 固定检查清单，禁止运行中缩减
+
+首次执行前，必须显式构造 `ConvergencePolicy(required_checks=(...))`，字段名称来自本次获批合同。空清单返回 `acceptance_contract_required`，不会调用求解回调。每轮和保存重开后的读回都检查同一清单：遗漏字段会被补为 `None` 并判为未通过，不能靠少提交检查项取得接受状态。
+
+```python
+policy = ConvergencePolicy(required_checks=(
+    "solver_idle", "ports_match_approved_map", "required_recycles_active",
+    "tear_residuals_within_approved_tolerance", "mass_energy_closure",
+    "required_kpis_valid",
+))
+```
+
+这些是示例检查名，不是可以直接置为 True 的模板。各项都要由实际读回和批准容差计算；任务不适用的项目在写入前说明理由，不能在失败后删除。调用 `verify_iterative_convergence(..., policy=policy)` 或 `run_convergence_loop(..., policy=policy)`，检查返回结果并调用 `require_accepted()` 后再生成“已收敛”交付状态。`require_reopen_verification=False` 不再允许产生接受状态。
+
+守卫在求解、读回、重开回调返回后再核对时间限制，超时不能报成功；最后一轮失败后不再写入没有下一轮可验证的调整。此时间检查不能打断阻塞中的 COM 调用，项目 runner 仍须实现有时限的等待或已有的独立工作进程恢复机制，不能据此杀掉用户会话。
+
+兼容性说明：旧调用只提供观察结果、不传固定清单时，现在会明确阻塞。迁移已有 runner 时，先依据工程合同补齐 policy，再运行正常与缺项负例，不从第一次观测反推验收标准。参见[实际执行经验](runtime-lessons.md)。
+
 ## English Summary
 
 `IsSolving == False` means **IDLE**, not **CONVERGED**. Before any write, freeze a machine-readable acceptance contract covering required recycle states and bindings, approved residual tolerances and units, balance/KPI checks, allowed variables and bounds, rollback, and execution limits. Run solve/wait/read/evaluate/adjust cycles until every required check passes at least twice consecutively, then save, close, reopen, and re-evaluate the same contract. Missing evidence fails closed. Never fix an ignored recycle by blindly enabling it; validate initialization and continuation strategy and roll back on divergence. An agent may report convergence only when the guard returns an accepted terminal state.

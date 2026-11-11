@@ -395,6 +395,9 @@ class HysysCaseSession:
         KPI checks. ``adjust`` may change only approved variables within bounds.
         The returned result is not accepted until the configured consecutive
         pass requirement is met.
+
+        Pass a policy with an explicit required_checks tuple from the approved
+        contract. Missing policy/check names block acceptance before solving.
         """
 
         def cycle_and_wait(iteration: int) -> None:

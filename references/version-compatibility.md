@@ -54,6 +54,8 @@ Repeat with `15` and separate output paths. Never launch a dual-version comparis
 
 ## Evidence / 验证记录
 
+For XML-based migration, use the [runtime migration lessons](runtime-lessons.md). Diagnostic `GetXMLForCase()` output must not be assumed to be a native importable case. Validate export/import, target-version save/reopen, actual ports, property configuration and recalculation separately; name/count equality and a readable file are insufficient.
+
 The automated unit tests cover version selection, ambiguous or missing installations, conflicting overrides, actual-version mismatch, same-version fallback, and preservation of an already-running borrowed application. These mock tests do not require HYSYS and are not native runtime evidence.
 
 Local native checks on 2026-09-12 used Windows and Python 3.12.10 with pywin32, separate cases, and explicit version selection:

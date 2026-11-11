@@ -96,6 +96,10 @@ This recommendation is now captured as an actionable decision matrix in [referen
 
 ## Mandatory Convergence Gate / 强制收敛验收
 
+Runtime review update: the guard now requires `ConvergencePolicy(required_checks=(...))` before execution. Missing declared checks fail in every observation and after reopening; disabling reopening cannot yield acceptance. Existing runners must supply their approved check names explicitly. See [migration and scenario lessons](references/runtime-lessons.md) and the [contract example](references/convergence-control-loop.md).
+
+中文：新增实际计算端口核对、诊断 XML 与原生迁移文件区分、稳定数值与 recycle 闭合分开验收，以及批量工况输入映射规则。检查清单必须提前固定；少交检查项或超时后返回均不能报成功。旧脚本需先补齐批准的检查清单；本轮没有重新运行客户案例。
+
 `Solver.IsSolving == False` means only that HYSYS is idle. It does not prove that recycle loops, tear streams, balances, phases, warnings, or project KPIs have converged.
 
 任何修改 HYSYS 输入或声称“已收敛”的代理，都必须循环执行“求解或续算 -> 等待空闲 -> 回读 -> 全项判断 -> 有限调整或回退”。所有项目批准的检查至少连续两次通过，并在保存、关闭、重开后复核通过，才能接受结果。缺少残差、单位、容差或读回能力时必须报告 `UNVERIFIED/BLOCKED`，不能猜测成功。

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 import time
 from dataclasses import dataclass, field
 from typing import Callable, Mapping
@@ -24,16 +25,27 @@ class ConvergencePolicy:
     max_wall_time_s: float = 900.0
     max_repeated_failed_state: int = 3
     require_reopen_verification: bool = True
+    required_checks: tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
-        if self.max_iterations < 1:
+        if type(self.max_iterations) is not int or self.max_iterations < 1:
             raise ValueError("max_iterations must be at least 1.")
-        if self.required_consecutive_passes < 2:
+        if type(self.required_consecutive_passes) is not int or self.required_consecutive_passes < 2:
             raise ValueError("required_consecutive_passes must be at least 2.")
-        if self.max_wall_time_s <= 0:
+        if (type(self.max_wall_time_s) not in (int, float)
+                or not math.isfinite(self.max_wall_time_s) or self.max_wall_time_s <= 0):
             raise ValueError("max_wall_time_s must be positive.")
-        if self.max_repeated_failed_state < 1:
+        if type(self.max_repeated_failed_state) is not int or self.max_repeated_failed_state < 1:
             raise ValueError("max_repeated_failed_state must be at least 1.")
+        if type(self.require_reopen_verification) is not bool:
+            raise ValueError("require_reopen_verification must be boolean.")
+        if not isinstance(self.required_checks, (tuple, list)) or any(
+            not isinstance(name, str) or not name.strip() for name in self.required_checks
+        ):
+            raise ValueError("required_checks must contain nonempty check names.")
+        if len(set(self.required_checks)) != len(self.required_checks):
+            raise ValueError("required_checks must not contain duplicates.")
+        object.__setattr__(self, "required_checks", tuple(self.required_checks))
 
 
 @dataclass(frozen=True, slots=True)
@@ -143,7 +155,8 @@ def run_convergence_loop(
     solver idle is never treated as convergence. ``observe`` must read the
     project-approved checks after every cycle. ``adjust`` may change only
     approved variables and returns True only when it actually applied a safe
-    bounded change. Callback errors and missing evidence fail closed.
+    bounded change. Callback errors and missing evidence fail closed. A policy
+    must declare required_checks before execution. Callbacks own COM timeouts.
     """
 
     active_policy = policy or ConvergencePolicy()
@@ -161,15 +174,34 @@ def run_convergence_loop(
             error=None if error is None else f"{type(error).__name__}: {error}",
         )
 
+    def deadline_reached() -> bool:
+        return time.monotonic() - started >= active_policy.max_wall_time_s
+
+    def complete_observation(observation: ConvergenceObservation) -> ConvergenceObservation:
+        checks = dict(observation.checks)
+        for name in active_policy.required_checks:
+            checks.setdefault(name, None)
+        return ConvergenceObservation(
+            checks=checks, metrics=dict(observation.metrics), note=observation.note,
+            state_key=observation.state_key,
+        )
+
+    if not active_policy.required_checks:
+        return failure("acceptance_contract_required")
+    if not active_policy.require_reopen_verification:
+        return failure("reopen_verification_required")
+
     for iteration in range(1, active_policy.max_iterations + 1):
-        elapsed = time.monotonic() - started
-        if elapsed > active_policy.max_wall_time_s:
+        if deadline_reached():
             return failure("wall_time_limit")
 
         try:
             cycle_and_wait(iteration)
         except Exception as exc:
             return failure("cycle_or_wait_error", exc)
+
+        if deadline_reached():
+            return failure("wall_time_limit")
 
         try:
             observation = observe(iteration)
@@ -178,6 +210,12 @@ def run_convergence_loop(
 
         if not isinstance(observation, ConvergenceObservation):
             return failure("invalid_observation_type")
+        try:
+            observation = complete_observation(observation)
+        except Exception as exc:
+            return failure("readback_or_evaluation_error", exc)
+        if deadline_reached():
+            return failure("wall_time_limit")
 
         if observation.passed:
             consecutive_passes += 1
@@ -214,24 +252,23 @@ def run_convergence_loop(
 
         if observation.passed:
             if consecutive_passes >= active_policy.required_consecutive_passes:
-                if not active_policy.require_reopen_verification:
-                    return ConvergenceResult(
-                        accepted=True,
-                        stop_reason="required_consecutive_passes_reached",
-                        iterations=tuple(history),
-                    )
                 if reopen_and_wait is None or observe_reopened is None:
                     return failure("reopen_verification_required")
                 try:
                     reopen_and_wait()
                 except Exception as exc:
                     return failure("reopen_error", exc)
+                if deadline_reached():
+                    return failure("wall_time_limit")
                 try:
                     reopened = observe_reopened()
+                    if not isinstance(reopened, ConvergenceObservation):
+                        return failure("invalid_reopened_observation_type")
+                    reopened = complete_observation(reopened)
                 except Exception as exc:
                     return failure("reopened_readback_or_evaluation_error", exc)
-                if not isinstance(reopened, ConvergenceObservation):
-                    return failure("invalid_reopened_observation_type")
+                if deadline_reached():
+                    return failure("wall_time_limit")
                 history.append(
                     ConvergenceIteration(
                         iteration=iteration + 1,
@@ -258,6 +295,9 @@ def run_convergence_loop(
 
         if repeated_failed_state >= active_policy.max_repeated_failed_state:
             return failure("repeated_failed_state_without_progress")
+
+        if iteration == active_policy.max_iterations:
+            return failure("iteration_limit")
 
         if adjust is None:
             return failure("failed_checks_without_adjustment")

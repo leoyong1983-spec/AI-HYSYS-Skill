@@ -40,6 +40,8 @@ Read [references/convergence-control-loop.md](references/convergence-control-loo
 
 Read [references/project-lessons.md](references/project-lessons.md) when resuming an existing HYSYS project or when a baseline/review/release workflow already exists.
 
+Read [references/runtime-lessons.md](references/runtime-lessons.md) for cross-version migration, repeated scenario runs, PFD/port disagreements, stable KPIs with unclosed recycles, or unavailable COM members. Compare actual ports and approved scenario inputs before reusing a mother case or attributing a discrepancy to the HYSYS version.
+
 Read [references/pfd-layout-workflow.md](references/pfd-layout-workflow.md) before reorganizing a native HYSYS PFD, moving equipment or labels, preparing a human-handoff layout, or using `scripts/hysys_pfd_layout.py`.
 
 Read [references/basic-package-deliverables.md](references/basic-package-deliverables.md) before generating package outputs.
@@ -130,6 +132,8 @@ For LNG or cryogenic plantwide tasks, first identify the existing HYSYS case, pl
 For heat-integration, heat exchanger network, pinch-analysis, `Delta Tmin`, supertargeting, or sustainability-surrogate tasks, first identify the source HYSYS case or workbook, thermal-stream schema, stream and unit-operation name map, utility assumptions, objective metrics, surrogate or optimizer role, and human review owner. Treat mock-mode notebooks, Excel-only calculations, surrogate models, and Bayesian optimization outputs as advisory candidates until HYSYS workcopy readback, unit checks, and KPI exports pass.
 
 #### Mandatory iterative convergence gate
+
+Before calling the guard, construct `ConvergencePolicy(required_checks=(...))` from the approved acceptance contract and pass it as `policy`. The guard blocks an undeclared contract and fills omitted required checks with failure, including after reopening. Do not disable reopen verification. Existing runners must migrate to this explicit policy; see the example in [convergence-control-loop.md](references/convergence-control-loop.md).
 
 Any run that changes inputs or claims convergence must use an explicit state machine. `Solver.IsSolving == False` means only `IDLE`; it never proves `CONVERGED`.
 
